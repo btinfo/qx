@@ -1,0 +1,42 @@
+# 咪咕视频
+# 中国移动通信集团上海有限公司 -> 咪咕视讯科技有限公司
+# http://www.migu.cn/
+# https://apps.apple.com/cn/app/id787130974
+
+DOMAIN,a.miguvideo.com,REJECT
+#DOMAIN,chatpush.miguvideo.com,REJECT
+
+DOMAIN,ggc.cmvideo.cn,REJECT
+DOMAIN,ggic01.miguvideo.com,REJECT
+DOMAIN,ggic07.miguvideo.com,REJECT
+DOMAIN,ggic10.miguvideo.com,REJECT
+DOMAIN,ggicaqz.miguvideo.com,REJECT
+DOMAIN,ggmk.miguvideo.com,REJECT
+DOMAIN,ggv.cmvideo.cn,REJECT
+DOMAIN,ggx01.miguvideo.com,REJECT
+DOMAIN,ggx10.miguvideo.com,REJECT
+
+#DOMAIN,mgmall.migudm.cn,REJECT
+#DOMAIN-SUFFIX,static.migucloud.com,REJECT
+#DOMAIN,wtrace.cmgame.com,REJECT
+DOMAIN-SUFFIX,miguvideo.com,DIRECT
+
+# %app-sc.miguvideo.com%
+^https?:\/\/app-sc\.miguvideo\.com\/mgift\/ - reject
+
+# 阿里巴巴
+DOMAIN,adashbc.ut.taobao.com,REJECT-DROP
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,baichuan-sdk.alicdn.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umengcloud.com,REJECT-DROP
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 中国移动
+#DOMAIN,sdc3.10086.cn,REJECT
+
+# 其他
+DOMAIN,cdn.neigou.com,REJECT
+DOMAIN,trk-cdpetl.emdlz.com.cn,REJECT
+DOMAIN,vt.ipinyou.com,REJECT

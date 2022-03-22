@@ -1,0 +1,14 @@
+# 阿里云盘
+# 杭州短趣网络传媒技术有限公司 -> Hangzhou Danqoo Network Media Technology Co.,Ltd.
+# http://www.aliyundrive.com/
+# https://apps.apple.com/cn/app/id1494661473
+
+DOMAIN-SUFFIX,aliyundrive.com,DIRECT
+
+# 阿里巴巴
+#DOMAIN,h-adashx.ut.taobao.com,REJECT #福利活动不显示
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,mpush-api.aliyun.com,REJECT
+
+# 其他
+DOMAIN,unilog.wostore.cn,REJECT

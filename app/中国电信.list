@@ -1,0 +1,7 @@
+# 中国电信
+# https://apps.apple.com/cn/app/id513836029
+
+DOMAIN,appgoad.189.cn,REJECT
+
+# %cloud.189.cn%
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject

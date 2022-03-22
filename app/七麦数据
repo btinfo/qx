@@ -1,0 +1,17 @@
+# 七麦数据
+# 北京七麦科技股份有限公司
+# https://qimai.cn/
+# https://apps.apple.com/cn/app/id1175302806
+
+# 阿里巴巴
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,stats.jpush.cn,REJECT
+DOMAIN,stats.umsns.com,REJECT
+
+# 腾讯
+DOMAIN,fusion.qq.com,REJECT
+DOMAIN,pingma.qq.com,REJECT
+
+# 百度
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT

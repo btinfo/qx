@@ -1,0 +1,25 @@
+# ZAKER 专业版
+# Guangzhou Jianhe Network Technology Co.,Ltd
+# http://www.myzaker.com/about.html
+# https://apps.apple.com/cn/app/id1015225810
+
+# 阿里巴巴
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+
+# 腾讯
+# DOMAIN,imgcache.qq.com,REJECT # QQ登陆窗口不能显示
+DOMAIN,q.qlogo.cn,REJECT
+DOMAIN,stat.tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,qzs.qq.com,REJECT
+IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+IP-CIDR,119.29.29.29/32,DIRECT,no-resolve
+
+# 字节
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# 百度
+DOMAIN,dxp.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT

@@ -1,0 +1,14 @@
+# Audiomack
+# Audiomack, Inc.
+# http://www.audiomack.com/
+# https://apps.apple.com/cn/app/id921765888
+
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,tapjoy.com,REJECT
+DOMAIN-SUFFIX,adswizz.com,REJECT
+DOMAIN-SUFFIX,snapads.com,REJECT
+DOMAIN-SUFFIX,tapjoyads.com,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,adjust.net.in,REJECT
+
+DOMAIN-SUFFIX,audiomack.com,DIRECT

@@ -1,0 +1,28 @@
+# 央视频
+# Yangshipin
+# https://yangshipin.cn/
+# https://apps.apple.com/cn/app/id1479814602
+
+DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
+DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
+DOMAIN,btrace.yangshipin.cn,REJECT
+DOMAIN,btrace.ysp.cctv.cn,REJECT
+DOMAIN,mtrace.ysp.cctv.cn,REJECT
+DOMAIN,wimg.yangshipin.cn,REJECT
+
+^https?:\/\/\(null\)\/d\?dn=btrace - reject
+^https?:\/\/\(null\)\/d\? - direct
+
+# 腾讯
+DOMAIN,dp3.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN,report.huatuo.qq.com,REJECT
+DOMAIN,stat.tpns.tencent.com,REJECT
+DOMAIN,szmg.qq.com,REJECT-DROP
+DOMAIN,ten.sngapm.qq.com,REJECT
+DOMAIN,wuji.video.qq.com,REJECT
+
+# 其他
+DOMAIN,rapi.cmgadx.com,REJECT

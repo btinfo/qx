@@ -1,0 +1,22 @@
+# WPS Office
+# 北京金山办公软件有限公司 -> Zhuhai Kingsoft Office Software Co.,Ltd 
+# http://www.wps.cn/
+# https://apps.apple.com/cn/app/id599852710
+
+# % moapi.wps.cn,cloudservice22.kingsoft-office-service.com%
+^https:\/\/moapi\.wps\.cn\/api\/ad\/ - reject
+^https:\/\/cloudservice22\.kingsoft-office-service\.com\/ad\? - reject
+
+# 腾讯
+#DOMAIN,mazu.m.qq.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,qzs.gdtimg.com,REJECT
+DOMAIN-SUFFIX,qzs.qq.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 个推
+DOMAIN-SUFFIX,getui.com,REJECT

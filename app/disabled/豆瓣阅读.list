@@ -1,0 +1,21 @@
+# 豆瓣阅读
+# 北京方舟阅读科技有限公司 -> Beijing Ark Reading Technology Co., Ltd.
+# https://read.douban.com/app
+# https://apps.apple.com/cn/app/id560068813
+
+# %read.douban.com%
+^https:\/\/read\.douban\.com\/api\/v2\/ads\/splash - reject
+
+# 阿里巴巴
+DOMAIN,eco.taobao.com,REJECT
+DOMAIN-SUFFIX,cpatrk.net,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# 谷歌
+DOMAIN,firebaseinstallations.googleapis.com,REJECT
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+
+# Cloudflare
+DOMAIN,cdn-cn.vwo-analytics.com,REJECT

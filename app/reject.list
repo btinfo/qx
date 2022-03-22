@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,getui.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+#DOMAIN-SUFFIX,crashlytics.com,REJECT
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,app-measurement.com,REJECT
+

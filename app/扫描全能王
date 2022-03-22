@@ -1,0 +1,22 @@
+# 扫描全能王付费版
+# 上海合合信息科技发展有限公司 -> Linguan Data
+# https://www.camscanner.com/
+# https://apps.apple.com/cn/app/id388624839
+
+# %open.camscanner.com,api.vuncle.com%
+^https:\/\/open\.camscanner\.com\/sync\/(get|upload)_ad_ - reject
+^https:\/\/api\.vungle\.com\/api\/.+\/ads - reject
+
+# 谷歌
+DOMAIN,firebaseinstallations.googleapis.com,REJECT-DROP
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP
+
+# 亚马逊
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+
+# 脸书
+DOMAIN,graph.facebook.com,REJECT
+
+# 其他
+DOMAIN,ads.api.vungle.com,REJECT
+DOMAIN,cdn-f.adsmoloco.com,REJECT

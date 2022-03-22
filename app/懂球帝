@@ -1,0 +1,68 @@
+# 懂球帝
+# 北京懂球帝科技有限公司 -> Soccerdog Inc
+# http://www.dongqiudi.com/
+# https://apps.apple.com/cn/app/id766695512
+
+DOMAIN,ap.dongqiudi.com,REJECT
+DOMAIN,sensors-log.dongqiudi.com,REJECT
+DOMAIN,voc.dongqiudi.com,REJECT
+DOMAIN-SUFFIX,dongqiudi.com,DIRECT
+
+# 阿里巴巴
+DOMAIN,ali-stats.jpush.cn,REJECT
+DOMAIN,apimg.qunliao.info,REJECT
+DOMAIN,bds.snssdk.com,REJECT
+DOMAIN,cddp.track.aligames.com,REJECT
+DOMAIN,config.jpush.cn,REJECT
+DOMAIN,fp-it.fengkongcloud.com,REJECT
+DOMAIN,gd-stats.jpush.cn,REJECT
+DOMAIN,log.umtrack.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
+DOMAIN,pok.mintegral.net,REJECT
+DOMAIN,s3.pstatp.com,REJECT
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,tnc3-alisc1.snssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,tsis.jpush.cn,REJECT
+DOMAIN-SUFFIX,qunliao.info,DIRECT
+
+# 腾讯
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,qzs.qq.com,REJECT
+
+# 百度
+DOMAIN,cpro.baidustatic.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,lupic.cdn.bcebos.com,REJECT
+
+# 字节
+DOMAIN,imagex-settings.bytedanceapi.com,REJECT
+DOMAIN,imp-toutiao-data.37.com.cn,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# 网易
+DOMAIN,nim.qiyukf.com,REJECT
+DOMAIN,lbs.netease.im,REJECT
+DOMAIN,wanproxy.127.net,REJECT
+
+# 苏宁
+DOMAIN,click.suning.com,REJECT
+DOMAIN,log.suning.com,REJECT
+DOMAIN,mmds.suning.com,REJECT
+DOMAIN,dfp.suning.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 其他
+DOMAIN,wkdcm1.tingyun.com,REJECT
+DOMAIN,wkrd.tingyun.com,REJECT
+
+# 亚马逊
+DOMAIN,assets.dspunion.com,REJECT

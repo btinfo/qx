@@ -1,0 +1,27 @@
+# 虎扑
+# 虎扑（上海）文化传播股份有限公司 -> Shanghai Kuanghui Network Technology Co., LTD
+# https://mobile.hupu.com/
+# https://apps.apple.com/cn/app/id906632439
+
+DOMAIN,ccdace.hupu.com,REJECT
+DOMAIN,collect.hupu.com,REJECT
+DOMAIN,hermes.hupu.com,REJECT
+DOMAIN,shence.hupu.com,REJECT
+DOMAIN,goblin.hupu.com,REJECT
+DOMAIN-SUFFIX,hupu.com,DIRECT
+
+# 阿里巴巴
+DOMAIN,fp-it.fengkongcloud.com,REJECT
+DOMAIN,live-api.liangle.com,REJECT
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN,tbm.snssdk.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# 字节
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# 谷歌
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP

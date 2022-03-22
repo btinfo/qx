@@ -1,0 +1,10 @@
+# 中国联通
+# https://apps.apple.com/cn/app/id416457422
+
+DOMAIN-SUFFIX,ad.10010.com,REJECT
+DOMAIN,smartad.10010.com,REJECT
+
+# %m.client.10010.com%
+^https:\/\/m\.client\.10010\.com\/finderInterface\/wealthPageAd - reject 
+^https:\/\/m\.client\.10010\.com\/mobileService\/uniAdmsInterface\/ - reject
+^https:\/\/m\.client\.10010\.com\/uniAdmsInterface\/ - reject

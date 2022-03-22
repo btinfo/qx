@@ -1,0 +1,68 @@
+# 喜马拉雅极速版
+# 北京喜禾电子科技有限公司 -> Beijing Xihe Electronic Technology Co., Ltd.
+# https://www.ximalaya.com/more/business/
+# https://apps.apple.com/cn/app/id1488281962
+
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adsehera.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,fdfs.cos.xmcdn.com,REJECT
+DOMAIN,fdfs.xmcdn.com,REJECT
+DOMAIN,mwsa.ximalaya.com,REJECT
+DOMAIN,s1.xmcdn.com,REJECT
+
+# %*.ximalaya.com%
+^https?:\/\/images\.pinduoduo\.com\/marketing_api\/ - reject
+^https?:\/\/m\.ximalaya\.com\/speed\/ - reject
+^https?:\/\/m\.ximalaya\.com\/growth-ssr-speed-welfare-center\/page\/welfare - reject
+
+^https?:\/\/\w+\.ximalaya\.com\/speed\/web-earn\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/speed\/web-earn\/ - reject
+
+^https?:\/\/\w+\.ximalaya\.com\/starwar\/lottery\/task\/gold-coin - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/starwar\/lottery\/task\/gold-coin - reject
+
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/pizza-category\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/fmobile-user\/homePage\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/subapp\/ - reject
+
+# 阿里巴巴
+DOMAIN,adx.maplehaze.cn,REJECT
+DOMAIN,bds.snssdk.com,REJECT
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN,sysdk.cl2009.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# 腾讯
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,qzonestyle.gtimg.cn,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,qzs.qq.com,REJECT
+
+# 字节
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# 谷歌
+#DOMAIN-SUFFIX,crashlytics.com,REJECT
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP
+
+# 快手
+DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+
+# 搜狐
+DOMAIN,pv.sohu.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 拼多多
+DOMAIN,t-dsp.pinduoduo.com,REJECT
+
+# 其他
+DOMAIN,himalayas-ios-xyx-big-svc.beike.cn,REJECT
+DOMAIN-SUFFIX,www.qchannel03.cn,REJECT

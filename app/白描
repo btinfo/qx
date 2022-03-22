@@ -1,0 +1,10 @@
+# 白描
+# Xinle Tao
+# https://baimiao.uzero.cn
+# https://apps.apple.com/cn/app/id1249901692
+
+# %baimiao.uzero.cn%
+^https?:\/\/baimiao\.uzero\.cn\/api\/advertising\/ - reject
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP

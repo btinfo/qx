@@ -1,0 +1,12 @@
+# %spclient.wg.spotify.com%
+^https?:\/\/spclient\.wg\.spotify\.com\/ad\-logic\/ - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/ads\/ - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+banners - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+canvases - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+cards - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick.net - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled\-tracks - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+event - reject-img
+^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted_offer - reject-img

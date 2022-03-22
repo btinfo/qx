@@ -1,0 +1,13 @@
+# 南方周末
+# %nas.infzm.com,api.infzm.com%
+^http:\/\/nas\.infzm\.com\/api\/advertising - reject
+^http:\/\/api\.infzm\.com\/mobile\/activity\/banner - reject
+
+# 阿里巴巴
+DOMAIN,beacon-api.aliyuncs.com,REJECT
+DOMAIN,hotfix-api.aliyuncs.com,REJECT
+DOMAIN,ios-logs.cn-hangzhou.log.aliyuncs.com,REJECT
+DOMAIN,mpush-api.aliyun.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT

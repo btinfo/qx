@@ -1,0 +1,18 @@
+# 网易蜗牛阅读
+# 广州网易计算机系统有限公司 -> NetEase (Hangzhou) Network Co., Ltd.
+# http://du.163.com/
+# https://apps.apple.com/cn/app/id1127249355
+
+# %p.du.163.com%
+^https?:\/\/p\.du\.163\.com\/ad\/madr - reject
+
+# 网易
+DOMAIN,ad.mh.163.com,REJECT
+DOMAIN,lofter.lf127.net,REJECT
+DOMAIN,nim.qiyukf.com,REJECT
+DOMAIN,wanproxy.127.net,REJECT
+DOMAIN,yaolu.mh.163.com,REJECT
+DOMAIN,yaolu.yuedu.163.com,REJECT
+
+# 谷歌
+DOMAIN,firebaseinstallations.googleapis.com,REJECT-DROP

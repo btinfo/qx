@@ -1,0 +1,5 @@
+# 威锋
+# https://apps.apple.com/cn/app/id1411932809
+
+^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/infoCenterAd - reject
+^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/yesList\? - reject

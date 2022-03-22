@@ -1,0 +1,9 @@
+# 虎嗅
+# 北京虎嗅信息科技股份有限公司 -> Beijing Huxiu Information Technology Co., Ltd.
+# http://www.huxiu.com/about.html
+# https://apps.apple.com/cn/app/id557509598
+
+DOMAIN,a1-img.huxiucdn.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP

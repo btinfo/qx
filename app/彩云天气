@@ -1,0 +1,18 @@
+# 彩云天气Pro
+# 北京彩彻区明科技有限公司 -> Beijing ColorfulClouds Technology Co., Ltd.
+# http://caiyunapp.com/
+# https://apps.apple.com/cn/app/id1067198688
+
+DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+
+# 阿里巴巴
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,tbm.snssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 脸书
+DOMAIN,graph.facebook.com,REJECT

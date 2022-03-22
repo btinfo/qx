@@ -1,0 +1,16 @@
+# 财新
+# %msgapi.caixin.com,mappsv5.caixin.com,gateway.caixin.com%
+^https:\/\/msgapi\.caixin\.com\/msg_api\/annmsg\/annlist\/ - reject
+^https:\/\/mappsv\d\.caixin\.com\/channelv\d\/article_ad_ios_info\.json - reject
+^https:\/\/gateway\.caixin\.com\/api\/app\-api\/cxAdInfo\/selectIndexAdInfo - reject
+
+# 阿里
+DOMAIN,ali-stats.jpush.cn,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN,config.jpush.cn,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT
+
+# 其他
+DOMAIN-SUFFIX,dolphin-center.adsame.com,REJECT

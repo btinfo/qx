@@ -1,0 +1,18 @@
+# 小猿口算
+# 北京猿力教育科技有限公司 -> Beijing Yuanli Education Science and Technology Co., Ltd.
+# http://kousuan.yuanfudao.com/
+# https://apps.apple.com/cn/app/id1325419855
+
+# DOMAIN-SUFFIX,xyst.yuanfudao.com,REJECT
+# %xyks.yuanfudao.com%
+^https:\/\/xyks\.yuanfudao\.com\/leo\-reward\/ - reject
+^https:\/\/xyks\.yuanfudao\.com\/leo\-mis\/iphone\/splashes\/ - reject
+
+# 阿里巴巴
+#DOMAIN-SUFFIX,g.alicdn.com,REJECT #阿里云盘福利活动不显示
+DOMAIN-SUFFIX,bd-in.mypep.cn,REJECT
+DOMAIN-SUFFIX,rs.easemob.com,REJECT
+DOMAIN-SUFFIX,static-nginx-online.fbcontent.cn,REJECT
+
+# 谷歌
+DOMAIN-SUFFIX,googletagmanager.com,REJECT

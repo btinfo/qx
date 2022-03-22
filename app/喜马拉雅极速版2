@@ -1,0 +1,26 @@
+# 喜马拉雅极速版
+# https://apps.apple.com/cn/app/id1488281962
+
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adsehera.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,fdfs.cos.xmcdn.com,REJECT
+DOMAIN,fdfs.xmcdn.com,REJECT
+DOMAIN,mwsa.ximalaya.com,REJECT
+DOMAIN,s1.xmcdn.com,REJECT
+
+# %*.ximalaya.com%
+# ^https?:\/\/images\.pinduoduo\.com\/marketing_api\/ - reject
+^https?:\/\/m\.ximalaya\.com\/speed\/ - reject
+^https?:\/\/m\.ximalaya\.com\/growth-ssr-speed-welfare-center\/page\/welfare - reject
+
+^https?:\/\/\w+\.ximalaya\.com\/speed\/web-earn\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/speed\/web-earn\/ - reject
+
+^https?:\/\/\w+\.ximalaya\.com\/starwar\/lottery\/task\/gold-coin - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/starwar\/lottery\/task\/gold-coin - reject
+
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/pizza-category\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/fmobile-user\/homePage\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/subapp\/ - reject

@@ -1,0 +1,29 @@
+# 有道云笔记
+# 杭州网易竹邮科技有限公司 -> Hangzhou NetEase Bamboo Mail Technology Co., Ltd.
+# http://note.youdao.com/
+# https://apps.apple.com/cn/app/id450748070
+
+DOMAIN-SUFFIX,advert.lx.netease.com,REJECT
+
+# 阿里巴巴
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+
+# 腾讯
+DOMAIN-SUFFIX,qzs.gdtimg.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+
+# 字节
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# 百度
+DOMAIN,hm.baidu.com,REJECT
+
+# 谷歌
+DOMAIN,firebaseinstallations.googleapis.com,REJECT
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP

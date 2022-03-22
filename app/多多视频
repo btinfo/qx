@@ -1,0 +1,28 @@
+# 多多视频-原人人视频
+# 武汉映像科技有限公司
+# http://www.rrtv.ren/detail/conceal
+# https://apps.apple.com/cn/app/id1595834306
+
+# 阿里巴巴
+DOMAIN,adashbc.ut.taobao.com,REJECT-DROP
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
+DOMAIN,fp-it.fengkongcloud.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
+DOMAIN-SUFFIX,adt.xdrig.com,REJECT
+DOMAIN-SUFFIX,av1.xdrig.com,REJECT
+#DOMAIN-SUFFIX,me.xdrig.com,REJECT
+DOMAIN-SUFFIX,tnc3-bjlgy.snssdk.com,REJECT
+DOMAIN,tnc3-alisc1.snssdk.com,REJECT
+
+# 新网
+DOMAIN-SUFFIX,cruiser.bayescom.cn,REJECT
+DOMAIN-SUFFIX,raddus.bayescom.com,REJECT
+DOMAIN-SUFFIX,tx-ad.a.yximgs.com,REJECT
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+DOMAIN-SUFFIX,umengcloud.com,REJECT-DROP
+
+# 其他
+DOMAIN-SUFFIX,www.qchannel01.cn,REJECT

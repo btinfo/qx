@@ -1,0 +1,14 @@
+# 百度文库
+# 百度在线网络技术（北京）有限公司 -> Beijing Baidu Netcom Science & Technology Co.,Ltd
+# http://wenku.baidu.com/
+# https://apps.apple.com/cn/app/id426340811
+
+DOMAIN,wkclick.baidu.com,REJECT
+DOMAIN,wkctj.baidu.com,REJECT
+
+# 百度
+DOMAIN,afd.baidu.com,REJECT
+DOMAIN,dss0.bdstatic.com,REJECT
+
+# %appwk.baidu.com%
+^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad\? - reject

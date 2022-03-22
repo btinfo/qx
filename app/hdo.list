@@ -1,0 +1,6 @@
+# Play Diary - Enjoy your media
+# Hau Nguyen Trung
+# https://apps.apple.com/cn/app/id1611512811
+
+DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT

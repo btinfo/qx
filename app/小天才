@@ -1,0 +1,23 @@
+# 小天才
+# 广东小天才科技有限公司 -> Guangdong Genius Technology Co., Ltd.
+# http://www.okii.com/
+# https://apps.apple.com/cn/app/id986217056
+
+DOMAIN,article.tiancaixing.com,REJECT
+DOMAIN,shop-file.tiancaixing.com,REJECT
+DOMAIN,static.oper.tiancaixing.com,REJECT
+
+# %oper.tiancaixing.com,api.watch.okii.com%
+^https?:\/\/oper\.tiancaixing\.com\/api\/indexPush\/queryList? - reject
+^https?:\/\/oper\.tiancaixing\.com\/api\/indexBanner\/ - reject
+^https?:\/\/api\.watch\.okii\.com\/openpush-service\/adPromotion\/ - reject
+
+# 友盟
+DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+
+# 脸书
+DOMAIN,graph.facebook.com,REJECT
+
+# 其他
+DOMAIN,pinpai-portal-rs.eebbk.net,REJECT
+DOMAIN,watchda.eebbk.net,REJECT

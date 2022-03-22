@@ -1,0 +1,5 @@
+# 微博国际版
+# https://apps.apple.com/cn/app/id1215210046
+
+# %weibointl.api.weibo.cn% (wbint.js)
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject-tinygif
