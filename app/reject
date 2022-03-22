@@ -1,17 +1,17 @@
 # REJECT
-DOMAIN,ads.betweendigital.com,REJECT
-DOMAIN,commercial.daznservices.com,REJECT
-DOMAIN-SUFFIX,creativecdn.com,REJECT
-DOMAIN-SUFFIX,sentry.io,REJECT
-DOMAIN-SUFFIX,mfadsrvr.com,REJECT
-DOMAIN,ad-log.dable.io,REJECT
-DOMAIN-SUFFIX,zhiyin11.xyz,REJECT
-DOMAIN-SUFFIX,zhiyinapi.com,REJECT
-DOMAIN-SUFFIX,data.flurry.com,REJECT
+HOST,ads.betweendigital.com,REJECT
+HOST,commercial.daznservices.com,REJECT
+HOST-SUFFIX,creativecdn.com,REJECT
+HOST-SUFFIX,sentry.io,REJECT
+HOST-SUFFIX,mfadsrvr.com,REJECT
+HOST,ad-log.dable.io,REJECT
+HOST-SUFFIX,zhiyin11.xyz,REJECT
+HOST-SUFFIX,zhiyinapi.com,REJECT
+HOST-SUFFIX,data.flurry.com,REJECT
 
 # 韩国网站
-DOMAIN-SUFFIX,ad.adinc.kr,REJECT
-DOMAIN-SUFFIX,ad.hankookilbo.com,REJECT
-DOMAIN-SUFFIX,ad4989.co.kr,REJECT
-DOMAIN-SUFFIX,adplex.co.kr,REJECT
-DOMAIN-SUFFIX,ad.daum.net,REJECT
+HOST-SUFFIX,ad.adinc.kr,REJECT
+HOST-SUFFIX,ad.hankookilbo.com,REJECT
+HOST-SUFFIX,ad4989.co.kr,REJECT
+HOST-SUFFIX,adplex.co.kr,REJECT
+HOST-SUFFIX,ad.daum.net,REJECT

@@ -1,11 +1,11 @@
 # 北京一卡通
 # https://apps.apple.com/cn/app/id1071038870
 
-DOMAIN,ad.bmac.com.cn,REJECT
-#DOMAIN,mpaasapi.mpaas.cn-hangzhou.aliyuncs.com,REJECT
-#DOMAIN,ali-stats.jpush.cn,REJECT
-#DOMAIN,config.jpush.cn,REJECT
+HOST,ad.bmac.com.cn,REJECT
+#HOST,mpaasapi.mpaas.cn-hangzhou.aliyuncs.com,REJECT
+#HOST,ali-stats.jpush.cn,REJECT
+#HOST,config.jpush.cn,REJECT
 
 # %appprod.bmac.com.cn%
-^https:\/\/appprod\.bmac\.com\.cn\/wolf\-adplatform\/advertise\/ - reject
-#^https:\/\/appprod\.bmac\.com\.cn\/wolf\-commonbusi\/product\/list - reject
+^https:\/\/appprod\.bmac\.com\.cn\/wolf\-adplatform\/advertise\/ url reject
+#^https:\/\/appprod\.bmac\.com\.cn\/wolf\-commonbusi\/product\/list url reject

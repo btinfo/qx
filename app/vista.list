@@ -1,5 +1,0 @@
-# VISTA看天下
-# https://apps.apple.com/cn/app/id1060011393
-
-^https:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad2 - reject
-^https:\/\/open3\.vistastory\.com\/v3\/api\/adm\/get_popup_ad - reject

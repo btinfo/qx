@@ -1,5 +1,13 @@
 # 微博国际版
+# 北京微梦创科网络技术有限公司 -> Beijing Weimeng Internet Technology Co., Ltd.
+# http://www.weibo.com/
 # https://apps.apple.com/cn/app/id1215210046
 
-# %weibointl.api.weibo.cn% (wbint.js)
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject-tinygif
+HOST,adimg.uve.weibo.com,REJECT
+HOST,sdkapp.uve.weibo.com,REJECT
+
+# 阿里巴巴
+#HOST,idaa.shuzilm.cn,REJECT
+
+# 友盟
+#HOST-SUFFIX,umeng.com,REJECT

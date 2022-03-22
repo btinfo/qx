@@ -3,16 +3,16 @@
 # http://caiyunapp.com/
 # https://apps.apple.com/cn/app/id1067198688
 
-DOMAIN,ad.caiyunapp.com,REJECT
-DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+HOST,ad.caiyunapp.com,REJECT
+HOST-SUFFIX,caiyunapp.com,DIRECT
 
 # 阿里巴巴
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,tbm.snssdk.com,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
+HOST,log.umsns.com,REJECT
+HOST,tbm.snssdk.com,REJECT
+HOST,toblog.ctobsnssdk.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT
 
 # 脸书
-DOMAIN,graph.facebook.com,REJECT
+HOST,graph.facebook.com,REJECT

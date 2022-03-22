@@ -4,19 +4,19 @@
 # https://apps.apple.com/cn/app/id582528844
 
 # 字节
-#DOMAIN,lf3-cdn-tos.bytegoofy.com,REJECT
-DOMAIN,lf3-tt-cdn-tos.bytegecko.com,REJECT
-DOMAIN,lf6-tt-cdn-tos.bytegecko.com,REJECT
-DOMAIN,lf9-tt-cdn-tos.bytegecko.com,REJECT
-DOMAIN,lf9-webcast-cdn-tos.bytegecko.com,REJECT
+#HOST,lf3-cdn-tos.bytegoofy.com,REJECT
+HOST,lf3-tt-cdn-tos.bytegecko.com,REJECT
+HOST,lf6-tt-cdn-tos.bytegecko.com,REJECT
+HOST,lf9-tt-cdn-tos.bytegecko.com,REJECT
+HOST,lf9-webcast-cdn-tos.bytegecko.com,REJECT
 
-DOMAIN-SUFFIX,bytedance.com,DIRECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN-SUFFIX,douyin.com,DIRECT
-DOMAIN-SUFFIX,itoutiaostatic.com,DIRECT
-DOMAIN-SUFFIX,toutiaoimg.com,DIRECT
-DOMAIN-SUFFIX,toutiaovod.com,DIRECT
+HOST-SUFFIX,bytedance.com,DIRECT
+HOST-SUFFIX,byteimg.com,DIRECT
+HOST-SUFFIX,douyin.com,DIRECT
+HOST-SUFFIX,itoutiaostatic.com,DIRECT
+HOST-SUFFIX,toutiaoimg.com,DIRECT
+HOST-SUFFIX,toutiaovod.com,DIRECT
 
 # %ib.snssdk.com%
-^https:\/\/ib\.snssdk\.com\/api\/ad\/ - reject
-^https:\/\/ib\.snssdk\.com\/api\/bubble\/ - reject
+^https:\/\/ib\.snssdk\.com\/api\/ad\/ url reject
+^https:\/\/ib\.snssdk\.com\/api\/bubble\/ url reject

@@ -4,19 +4,19 @@
 # https://apps.apple.com/cn/app/id599852710
 
 # % moapi.wps.cn,cloudservice22.kingsoft-office-service.com%
-^https:\/\/moapi\.wps\.cn\/api\/ad\/ - reject
-^https:\/\/cloudservice22\.kingsoft-office-service\.com\/ad\? - reject
+^https:\/\/moapi\.wps\.cn\/api\/ad\/ url reject
+^https:\/\/cloudservice22\.kingsoft-office-service\.com\/ad\? url reject
 
 # 腾讯
-#DOMAIN,mazu.m.qq.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,qzs.gdtimg.com,REJECT
-DOMAIN-SUFFIX,qzs.qq.com,REJECT
+#HOST,mazu.m.qq.com,REJECT
+HOST,pgdt.ugdtimg.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,qzs.gdtimg.com,REJECT
+HOST-SUFFIX,qzs.qq.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT
 
 # 个推
-DOMAIN-SUFFIX,getui.com,REJECT
+HOST-SUFFIX,getui.com,REJECT

@@ -3,4 +3,4 @@
 # http://www.thejoyrun.com/
 # https://apps.apple.com/cn/app/id881766160
 
-DOMAIN,joyrun-activity-upyun.thejoyrun.com,REJECT
+HOST,joyrun-activity-upyun.thejoyrun.com,REJECT

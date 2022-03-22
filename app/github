@@ -2,9 +2,9 @@
 # http://github.com/mobile
 # https://apps.apple.com/us/app/id1477376905
 
-DOMAIN,github.githubassets.com,PROXY
-DOMAIN,collector.githubapp.com,PROXY
+HOST,github.githubassets.com,PROXY
+HOST,collector.githubapp.com,PROXY
 
 # 谷歌
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP
-#DOMAIN-SUFFIX,crashlytics.com,REJECT
+HOST,firebaselogging-pa.googleapis.com,REJECT
+#HOST-SUFFIX,crashlytics.com,REJECT

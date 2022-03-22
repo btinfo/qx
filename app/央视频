@@ -3,26 +3,26 @@
 # https://yangshipin.cn/
 # https://apps.apple.com/cn/app/id1479814602
 
-DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
-DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
-DOMAIN,btrace.yangshipin.cn,REJECT
-DOMAIN,btrace.ysp.cctv.cn,REJECT
-DOMAIN,mtrace.ysp.cctv.cn,REJECT
-DOMAIN,wimg.yangshipin.cn,REJECT
+HOST,adstore-1252524079.file.myqcloud.com,REJECT
+HOST,adstore-index-1252524079.file.myqcloud.com,REJECT
+HOST,btrace.yangshipin.cn,REJECT
+HOST,btrace.ysp.cctv.cn,REJECT
+HOST,mtrace.ysp.cctv.cn,REJECT
+HOST,wimg.yangshipin.cn,REJECT
 
-^https?:\/\/\(null\)\/d\?dn=btrace - reject
-^https?:\/\/\(null\)\/d\? - direct
+^https?:\/\/\(null\)\/d\?dn=btrace url reject
+^https?:\/\/\(null\)\/d\? url direct
 
 # 腾讯
-DOMAIN,dp3.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN,report.huatuo.qq.com,REJECT
-DOMAIN,stat.tpns.tencent.com,REJECT
-DOMAIN,szmg.qq.com,REJECT-DROP
-DOMAIN,ten.sngapm.qq.com,REJECT
-DOMAIN,wuji.video.qq.com,REJECT
+HOST,dp3.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST,mtrace.qq.com,REJECT
+HOST-SUFFIX,beacon.qq.com,REJECT
+HOST,report.huatuo.qq.com,REJECT
+HOST,stat.tpns.tencent.com,REJECT
+HOST,szmg.qq.com,REJECT
+HOST,ten.sngapm.qq.com,REJECT
+HOST,wuji.video.qq.com,REJECT
 
 # 其他
-DOMAIN,rapi.cmgadx.com,REJECT
+HOST,rapi.cmgadx.com,REJECT

@@ -1,15 +1,15 @@
 # 虎牙
 # https://apps.apple.com/cn/app/id871095743
 
-# DOMAIN,s1-static.msstatic.com,REJECT # 比赛数据不能加载
-DOMAIN,business.msstatic.com,REJECT
-DOMAIN,kiwistatic.huya.com,REJECT
-DOMAIN,livewebbs2.msstatic.com,REJECT
-DOMAIN-SUFFIX,msstatic.com,DIRECT
-DOMAIN-SUFFIX,p2p.huya.com,REJECT
-DOMAIN,e-ad-monitor.huya.com,REJECT
+# HOST,s1-static.msstatic.com,REJECT # 比赛数据不能加载
+HOST,business.msstatic.com,REJECT
+HOST,kiwistatic.huya.com,REJECT
+HOST,livewebbs2.msstatic.com,REJECT
+HOST-SUFFIX,msstatic.com,DIRECT
+HOST-SUFFIX,p2p.huya.com,REJECT
+HOST,e-ad-monitor.huya.com,REJECT
 
 # %cdnfile1.msstatic.com%
-^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject
-# ^http?:\/\/business\.msstatic\.com\/advertiser\/material - reject
-# ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ - reject
+^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject
+# ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
+# ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ url reject

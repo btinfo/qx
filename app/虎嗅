@@ -3,7 +3,7 @@
 # http://www.huxiu.com/about.html
 # https://apps.apple.com/cn/app/id557509598
 
-DOMAIN,a1-img.huxiucdn.com,REJECT
+HOST,a1-img.huxiucdn.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT
