@@ -9,3 +9,6 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myzaker.com
 IP-CIDR,119.28.28.28/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
+
+# Tencent
+DOMAIN-SUFFIX,vv.video.qq.com
