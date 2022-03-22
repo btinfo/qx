@@ -2,227 +2,227 @@
 
 # 阿里巴巴
 # taobao
-DOMAIN,adashbc.ut.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,eco.taobao.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,tunion-api.m.taobao.com,REJECT
+HOST,adashbc.ut.taobao.com,REJECT
+HOST,adashxgc.ut.taobao.com,REJECT
+HOST,eco.taobao.com,REJECT
+HOST,h-adashx.ut.taobao.com,REJECT
+HOST,tunion-api.m.taobao.com,REJECT
 
 # ali*
-DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
-DOMAIN,beacon-api.aliyuncs.com,REJECT
-DOMAIN,mpush-api.aliyun.com,REJECT
+HOST,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
+HOST,beacon-api.aliyuncs.com,REJECT
+HOST,mpush-api.aliyun.com,REJECT
 
-DOMAIN,baichuan-sdk.alicdn.com,REJECT
-DOMAIN,polyfill.alicdn.com,REJECT
-DOMAIN-SUFFIX,g.alicdn.com,REJECT
+HOST,baichuan-sdk.alicdn.com,REJECT
+HOST,polyfill.alicdn.com,REJECT
+HOST-SUFFIX,g.alicdn.com,REJECT
 
-DOMAIN,cddp.track.aligames.com,REJECT
+HOST,cddp.track.aligames.com,REJECT
 
 # umtrack
-#DOMAIN,at.umtrack.com,REJECT # 微博国际版超话不能加载
-DOMAIN,log.umtrack.com,REJECT
+#HOST,at.umtrack.com,REJECT # 微博国际版超话不能加载
+HOST,log.umtrack.com,REJECT
 
 # fengkong
-DOMAIN,fp-bj.fengkongcloud.com,REJECT
-DOMAIN,fp-it.fengkongcloud.com,REJECT
+HOST,fp-bj.fengkongcloud.com,REJECT
+HOST,fp-it.fengkongcloud.com,REJECT
 
 # hpplay
-DOMAIN,adcdn.hpplay.cn,REJECT
-DOMAIN,adc.hpplay.cn,REJECT
-DOMAIN,adeng.hpplay.cn,REJECT
-DOMAIN,ad.hpplay.cn,REJECT
-DOMAIN,imdns.hpplay.cn,REJECT
-DOMAIN,pin.hpplay.cn,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
-DOMAIN,rpt.hpplay.cn,REJECT
-DOMAIN,sdkauth.hpplay.cn,REJECT
+HOST,adcdn.hpplay.cn,REJECT
+HOST,adc.hpplay.cn,REJECT
+HOST,adeng.hpplay.cn,REJECT
+HOST,ad.hpplay.cn,REJECT
+HOST,imdns.hpplay.cn,REJECT
+HOST,pin.hpplay.cn,REJECT
+HOST,rp.hpplay.cn,REJECT
+HOST,rpt.hpplay.cn,REJECT
+HOST,sdkauth.hpplay.cn,REJECT
 
 # umsns
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,stats.umsns.com,REJECT
+HOST,log.umsns.com,REJECT
+HOST,stats.umsns.com,REJECT
 # atohike
-DOMAIN,ark.atomhike.com,REJECT
-DOMAIN,gate.atomhike.com,REJECT
-DOMAIN,settings.atomhike.com,REJECT
+HOST,ark.atomhike.com,REJECT
+HOST,gate.atomhike.com,REJECT
+HOST,settings.atomhike.com,REJECT
 # jpush
-DOMAIN,ali-stats.jpush.cn,REJECT
-DOMAIN,config.jpush.cn,REJECT
-DOMAIN,fcapi-ipv6.jpush.cn,REJECT
-DOMAIN,gd-stats.jpush.cn,REJECT
-DOMAIN,tsis.jpush.cn,REJECT
-DOMAIN,stats.jpush.cn,REJECT
+HOST,ali-stats.jpush.cn,REJECT
+HOST,config.jpush.cn,REJECT
+HOST,fcapi-ipv6.jpush.cn,REJECT
+HOST,gd-stats.jpush.cn,REJECT
+HOST,tsis.jpush.cn,REJECT
+HOST,stats.jpush.cn,REJECT
 # snssdk
-DOMAIN,bds.snssdk.com,REJECT
-DOMAIN,mcs.snssdk.com,REJECT
-DOMAIN,pangolin.snssdk.com,REJECT
-DOMAIN,smr.snssdk.com,REJECT
-DOMAIN-SUFFIX,snssdk.com,DIRECT
-DOMAIN,tbm.snssdk.com,REJECT
-DOMAIN,tnc3-aliec2.snssdk.com,REJECT
-DOMAIN,tnc3-alisc1.snssdk.com,REJECT
-DOMAIN,tobapplog.ctobsnssdk.com,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
+HOST,bds.snssdk.com,REJECT
+HOST,mcs.snssdk.com,REJECT
+HOST,pangolin.snssdk.com,REJECT
+HOST,smr.snssdk.com,REJECT
+HOST-SUFFIX,snssdk.com,DIRECT
+HOST,tbm.snssdk.com,REJECT
+HOST,tnc3-aliec2.snssdk.com,REJECT
+HOST,tnc3-alisc1.snssdk.com,REJECT
+HOST,tobapplog.ctobsnssdk.com,REJECT
+HOST,toblog.ctobsnssdk.com,REJECT
 
 # 阿里巴巴 others
-DOMAIN,pok.mintegral.net,REJECT
-DOMAIN,s3.pstatp.com,REJECT
-DOMAIN-SUFFIX,cnzz.com,REJECT
-DOMAIN-SUFFIX,growingio.com,REJECT
-DOMAIN-SUFFIX,miaozhen.com,REJECT
-DOMAIN-SUFFIX,rayjump.com,REJECT
-DOMAIN,aaid.uyunad.com,REJECT
-DOMAIN,idaa.shuzilm.cn,REJECT
-DOMAIN,live-api.liangle.com,REJECT
-DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
-DOMAIN,apimg.qunliao.info,REJECT
-DOMAIN,sdk.verification.jiguang.cn,REJECT
-DOMAIN-SUFFIX,dc.sigmob.cn,REJECT
+HOST,pok.mintegral.net,REJECT
+HOST,s3.pstatp.com,REJECT
+HOST-SUFFIX,cnzz.com,REJECT
+HOST-SUFFIX,growingio.com,REJECT
+HOST-SUFFIX,miaozhen.com,REJECT
+HOST-SUFFIX,rayjump.com,REJECT
+HOST,aaid.uyunad.com,REJECT
+HOST,idaa.shuzilm.cn,REJECT
+HOST,live-api.liangle.com,REJECT
+HOST-SUFFIX,unityads.unitychina.cn,REJECT
+HOST,apimg.qunliao.info,REJECT
+HOST,sdk.verification.jiguang.cn,REJECT
+HOST-SUFFIX,dc.sigmob.cn,REJECT
 
 # 百度
-DOMAIN,afd.baidu.com,REJECT
-DOMAIN,als.baidu.com,REJECT
-DOMAIN,duclick.baidu.com,REJECT
-DOMAIN,dxp.baidu.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
-DOMAIN,hmma.baidu.com,REJECT
-DOMAIN,mobads.baidu.com,REJECT
-DOMAIN,mobads-logs.baidu.com,REJECT
-DOMAIN,nadvideo2.baidu.com,REJECT
-DOMAIN,nsclick.baidu.com,REJECT
-DOMAIN-SUFFIX,baidu.com,DIRECT
-DOMAIN-SUFFIX,cpro.baidu.com,REJECT
-DOMAIN-SUFFIX,pos.baidu.com,REJECT
+HOST,afd.baidu.com,REJECT
+HOST,als.baidu.com,REJECT
+HOST,duclick.baidu.com,REJECT
+HOST,dxp.baidu.com,REJECT
+HOST,hm.baidu.com,REJECT
+HOST,hmma.baidu.com,REJECT
+HOST,mobads.baidu.com,REJECT
+HOST,mobads-logs.baidu.com,REJECT
+HOST,nadvideo2.baidu.com,REJECT
+HOST,nsclick.baidu.com,REJECT
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,cpro.baidu.com,REJECT
+HOST-SUFFIX,pos.baidu.com,REJECT
 # baidustatic
-DOMAIN,cpro.baidustatic.com,REJECT
-DOMAIN,dss0.bdstatic.com,REJECT
-DOMAIN,zz.bdstatic.com,REJECT
+HOST,cpro.baidustatic.com,REJECT
+HOST,dss0.bdstatic.com,REJECT
+HOST,zz.bdstatic.com,REJECT
 # bcebos
-DOMAIN,lupic.cdn.bcebos.com,REJECT
-DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+HOST,lupic.cdn.bcebos.com,REJECT
+HOST,mobads-pre-config.cdn.bcebos.com,REJECT
 
 # 腾讯
 # qq.com
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
-DOMAIN,adsmind.tc.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,dp3.qq.com,REJECT
-DOMAIN,fusion.qq.com,REJECT
-DOMAIN,imgcache.qq.com,REJECT
-DOMAIN,mazu.m.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
-DOMAIN,pingma.qq.com,REJECT
-DOMAIN,report.huatuo.qq.com,REJECT
-DOMAIN,safebrowsing.urlsec.qq.com,REJECT
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,qzs.qq.com,REJECT
-DOMAIN,szmg.qq.com,REJECT
-DOMAIN,ten.sngapm.qq.com,REJECT
-DOMAIN,vv.video.qq.com,REJECT
-DOMAIN,wuji.video.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+HOST,adsmind.apdcdn.tc.qq.com,REJECT
+HOST,adsmind.tc.qq.com,REJECT
+HOST,btrace.qq.com,REJECT
+HOST,dp3.qq.com,REJECT
+HOST,fusion.qq.com,REJECT
+HOST,imgcache.qq.com,REJECT
+HOST,mazu.m.qq.com,REJECT
+HOST,mtrace.qq.com,REJECT
+HOST,pingma.qq.com,REJECT
+HOST,report.huatuo.qq.com,REJECT
+HOST,safebrowsing.urlsec.qq.com,REJECT
+HOST-SUFFIX,beacon.qq.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,l.qq.com,REJECT
+HOST-SUFFIX,qzs.qq.com,REJECT
+HOST,szmg.qq.com,REJECT
+HOST,ten.sngapm.qq.com,REJECT
+HOST,vv.video.qq.com,REJECT
+HOST,wuji.video.qq.com,REJECT
+HOST,wxsnsdythumb.wxs.qq.com,REJECT
+HOST,wxsnsdy.wxs.qq.com,REJECT
 
 # gtimg
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,qzonestyle.gtimg.cn,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
+HOST,pgdt.gtimg.cn,REJECT
+HOST,pgdt.gtimg.com,REJECT
+HOST,qzonestyle.gtimg.cn,REJECT
+HOST,splashqqlive.gtimg.com,REJECT
+HOST,wa.gtimg.com,REJECT
 
-DOMAIN,stat.tpns.tencent.com,REJECT
-DOMAIN,q.qlogo.cn,REJECT
+HOST,stat.tpns.tencent.com,REJECT
+HOST,q.qlogo.cn,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umengcloud.com,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umengcloud.com,REJECT
+HOST-SUFFIX,umeng.com,REJECT
 
 # 字节
-DOMAIN,ad.toutiao.com,REJECT
-DOMAIN,dm.toutiao.com,REJECT
-DOMAIN,dsp.toutiao.com,REJECT
-DOMAIN,imp-toutiao-data.37.com.cn,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-DOMAIN,imagex-settings.bytedanceapi.com,REJECT
-DOMAIN-SUFFIX,dm.bytedance.com,REJECT
+HOST,ad.toutiao.com,REJECT
+HOST,dm.toutiao.com,REJECT
+HOST,dsp.toutiao.com,REJECT
+HOST,imp-toutiao-data.37.com.cn,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pglstatp-toutiao.com,REJECT
+HOST,imagex-settings.bytedanceapi.com,REJECT
+HOST-SUFFIX,dm.bytedance.com,REJECT
 
 # 网易
-DOMAIN,ad.bn.netease.com,REJECT
-DOMAIN,lbs.netease.im,REJECT
-DOMAIN-SUFFIX,advert.lx.netease.com,REJEC
+HOST,ad.bn.netease.com,REJECT
+HOST,lbs.netease.im,REJECT
+HOST-SUFFIX,advert.lx.netease.com,REJEC
 
-DOMAIN,iadmat.nosdn.127.net,REJECT
-DOMAIN,lofter.lf127.net,REJECT
-DOMAIN,wanproxy.127.net,REJECT
-DOMAIN,yt-adp.nosdn.127.net,REJECT
+HOST,iadmat.nosdn.127.net,REJECT
+HOST,lofter.lf127.net,REJECT
+HOST,wanproxy.127.net,REJECT
+HOST,yt-adp.nosdn.127.net,REJECT
 
-DOMAIN,ap2.qiyukf.com,REJECT
-DOMAIN,nim.qiyukf.com,REJECT
+HOST,ap2.qiyukf.com,REJECT
+HOST,nim.qiyukf.com,REJECT
 
 # 苏宁
-DOMAIN,click.suning.com,REJECT
-DOMAIN,dfp.suning.com,REJECT
-DOMAIN,log.suning.com,REJECT
-DOMAIN,mmds.suning.com,REJECT
+HOST,click.suning.com,REJECT
+HOST,dfp.suning.com,REJECT
+HOST,log.suning.com,REJECT
+HOST,mmds.suning.com,REJECT
 
 # 谷歌
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-DOMAIN-SUFFIX,google-analytics.com,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
-DOMAIN-SUFFIX,googletagservices.com,REJECT
+HOST-SUFFIX,googleadservices.com,REJECT
+HOST-SUFFIX,googleadsserving.cn,REJECT
+HOST-SUFFIX,google-analytics.com,REJECT
+HOST-SUFFIX,googlesyndication.com,REJECT
+HOST-SUFFIX,googletagmanager.com,REJECT
+HOST-SUFFIX,googletagservices.com,REJECT
 
-DOMAIN,firebaseinstallations.googleapis.com,REJECT
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT
-DOMAIN,safebrowsing.googleapis.com,REJECT
+HOST,firebaseinstallations.googleapis.com,REJECT
+HOST,firebaselogging-pa.googleapis.com,REJECT
+HOST,safebrowsing.googleapis.com,REJECT
 
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
-DOMAIN-SUFFIX,crashlytics.com,REJECT
+HOST-SUFFIX,doubleclick.net,REJECT
+HOST-SUFFIX,app-measurement.com,REJECT
+HOST-SUFFIX,crashlytics.com,REJECT
 
 # 脸书
-DOMAIN,graph.facebook.com,REJECT
+HOST,graph.facebook.com,REJECT
 
 # 雅虎
-DOMAIN,data.flurry.com,REJECT
+HOST,data.flurry.com,REJECT
 
 # 亚马逊
-DOMAIN,assets.dspunion.com,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
-DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+HOST,assets.dspunion.com,REJECT
+HOST-SUFFIX,appsflyer.com,REJECT
+HOST-SUFFIX,amazon-adsystem.com,REJECT
 
 # 快手
-DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+HOST-SUFFIX,e.kuaishou.com,REJECT
 
 # 搜狐
-DOMAIN,pv.sohu.com,REJECT
+HOST,pv.sohu.com,REJECT
 
 # 个推
-DOMAIN-SUFFIX,getui.com,REJECT
+HOST-SUFFIX,getui.com,REJECT
 
 # 拼多多
-DOMAIN,t-dsp.pinduoduo.com,REJECT
+HOST,t-dsp.pinduoduo.com,REJECT
 
 # 听云
-DOMAIN,wkdcm1.tingyun.com,REJECT
-DOMAIN,wkrd.tingyun.com,REJECT
+HOST,wkdcm1.tingyun.com,REJECT
+HOST,wkrd.tingyun.com,REJECT
 
 # Cloudflare
-DOMAIN,cdn-cn.vwo-analytics.com,REJECT
+HOST,cdn-cn.vwo-analytics.com,REJECT
 
 # 其他
-DOMAIN-SUFFIX,www.qchannel01.cn,REJECT
-DOMAIN-SUFFIX,www.qchannel03.cn,REJECT
-DOMAIN,unilog.wostore.cn,REJECT
-DOMAIN,cdn.neigou.com,REJECT
-DOMAIN,trk-cdpetl.emdlz.com.cn,REJECT
-DOMAIN,vt.ipinyou.com,REJECT
-DOMAIN-SUFFIX,a.kwimgs.com,REJECT
-DOMAIN,ads.api.vungle.com,REJECT
-DOMAIN,cdn-f.adsmoloco.com,REJECT
+HOST-SUFFIX,www.qchannel01.cn,REJECT
+HOST-SUFFIX,www.qchannel03.cn,REJECT
+HOST,unilog.wostore.cn,REJECT
+HOST,cdn.neigou.com,REJECT
+HOST,trk-cdpetl.emdlz.com.cn,REJECT
+HOST,vt.ipinyou.com,REJECT
+HOST-SUFFIX,a.kwimgs.com,REJECT
+HOST,ads.api.vungle.com,REJECT
+HOST,cdn-f.adsmoloco.com,REJECT

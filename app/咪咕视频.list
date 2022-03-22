@@ -1,4 +1,4 @@
 # 咪咕视频
 # https://apps.apple.com/cn/app/id787130974
 
-DOMAIN,a.miguvideo.com,REJECT
+HOST,a.miguvideo.com,REJECT

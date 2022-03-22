@@ -4,19 +4,19 @@
 # https://apps.apple.com/cn/app/id388624839
 
 # %open.camscanner.com,api.vuncle.com%
-^https:\/\/open\.camscanner\.com\/sync\/(get|upload)_ad_ - reject
-^https:\/\/api\.vungle\.com\/api\/.+\/ads - reject
+^https:\/\/open\.camscanner\.com\/sync\/(get|upload)_ad_ url reject
+^https:\/\/api\.vungle\.com\/api\/.+\/ads url reject
 
 # 谷歌
-DOMAIN,firebaseinstallations.googleapis.com,REJECT-DROP
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP
+HOST,firebaseinstallations.googleapis.com,REJECT
+HOST,firebaselogging-pa.googleapis.com,REJECT
 
 # 亚马逊
-DOMAIN-SUFFIX,appsflyer.com,REJECT
+HOST-SUFFIX,appsflyer.com,REJECT
 
 # 脸书
-DOMAIN,graph.facebook.com,REJECT
+HOST,graph.facebook.com,REJECT
 
 # 其他
-DOMAIN,ads.api.vungle.com,REJECT
-DOMAIN,cdn-f.adsmoloco.com,REJECT
+HOST,ads.api.vungle.com,REJECT
+HOST,cdn-f.adsmoloco.com,REJECT

@@ -1,40 +1,40 @@
 # 浏览器访问
 
 # 片库
-DOMAIN-SUFFIX,mypianku.net,DIRECT
-DOMAIN-SUFFIX,pianku.li,DIRECT
+HOST-SUFFIX,mypianku.net,DIRECT
+HOST-SUFFIX,pianku.li,DIRECT
 # 片库底部广告
 # %www.govchengdu.cn,m.pianku.li%
-^https:\/\/www\.govchengdu\.cn:\d{4}\/ty\/ - reject
-^https:\/\/m\.pianku\.li\/ajax\/MyJs\/ - reject
+^https:\/\/www\.govchengdu\.cn:\d{4}\/ty\/ url reject
+^https:\/\/m\.pianku\.li\/ajax\/MyJs\/ url reject
 
 # 电影先生
-DOMAIN-SUFFIX,dianying.im,DIRECT
-DOMAIN-SUFFIX,wwdianying.net,DIRECT
-DOMAIN-SUFFIX,dyxs11.com,DIRECT
+HOST-SUFFIX,dianying.im,DIRECT
+HOST-SUFFIX,wwdianying.net,DIRECT
+HOST-SUFFIX,dyxs11.com,DIRECT
 
 # 热播网
-DOMAIN-KEYWORD,y3600,DIRECT
+HOST-KEYWORD,y3600,DIRECT
 
 # .ts .m3u8 云资源
-DOMAIN-KEYWORD,bdzybf,DIRECT
-DOMAIN-SUFFIX,510yh.cc,DIRECT
-DOMAIN-SUFFIX,605-zy.com,DIRECT
-DOMAIN-SUFFIX,789zy.cc,DIRECT
-DOMAIN-SUFFIX,88zy.live,DIRECT
-DOMAIN-SUFFIX,bunediy.com,DIRECT
-DOMAIN-SUFFIX,bzjupinhang.com,DIRECT
-DOMAIN-SUFFIX,cdtlas.com,DIRECT
-DOMAIN-SUFFIX,chinalincoln.com,DIRECT
-DOMAIN-SUFFIX,dious.cc,DIRECT
-DOMAIN-SUFFIX,hcyunshang.cn,DIRECT
-DOMAIN-SUFFIX,hhmm0.com,DIRECT
-DOMAIN-SUFFIX,iskcd.com,DIRECT
-DOMAIN-SUFFIX,jjyl12349.com,DIRECT
-DOMAIN-SUFFIX,monidai.com,DIRECT
-DOMAIN-SUFFIX,queshechaye.com,DIRECT
-DOMAIN-SUFFIX,szjal.cn,DIRECT
-DOMAIN-SUFFIX,wenshibaowenbei.com,DIRECT
-DOMAIN-SUFFIX,xacyhj.com,DIRECT
-DOMAIN-SUFFIX,ycshengwang.com,DIRECT
-DOMAIN-SUFFIX,yuyuangewh.com,DIRECT
+HOST-KEYWORD,bdzybf,DIRECT
+HOST-SUFFIX,510yh.cc,DIRECT
+HOST-SUFFIX,605-zy.com,DIRECT
+HOST-SUFFIX,789zy.cc,DIRECT
+HOST-SUFFIX,88zy.live,DIRECT
+HOST-SUFFIX,bunediy.com,DIRECT
+HOST-SUFFIX,bzjupinhang.com,DIRECT
+HOST-SUFFIX,cdtlas.com,DIRECT
+HOST-SUFFIX,chinalincoln.com,DIRECT
+HOST-SUFFIX,dious.cc,DIRECT
+HOST-SUFFIX,hcyunshang.cn,DIRECT
+HOST-SUFFIX,hhmm0.com,DIRECT
+HOST-SUFFIX,iskcd.com,DIRECT
+HOST-SUFFIX,jjyl12349.com,DIRECT
+HOST-SUFFIX,monidai.com,DIRECT
+HOST-SUFFIX,queshechaye.com,DIRECT
+HOST-SUFFIX,szjal.cn,DIRECT
+HOST-SUFFIX,wenshibaowenbei.com,DIRECT
+HOST-SUFFIX,xacyhj.com,DIRECT
+HOST-SUFFIX,ycshengwang.com,DIRECT
+HOST-SUFFIX,yuyuangewh.com,DIRECT

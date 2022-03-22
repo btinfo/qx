@@ -3,4 +3,4 @@
 # http://at.qq.com/
 # https://apps.apple.com/cn/app/id1522424583
 
-DOMAIN,szmg.qq.com,REJECT-DROP
+HOST,szmg.qq.com,REJECT

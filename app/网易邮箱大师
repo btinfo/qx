@@ -4,5 +4,5 @@
 # 
 
 # 谷歌
-DOMAIN,firebaseinstallations.googleapis.com,REJECT-DROP
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT-DROP
+HOST,firebaseinstallations.googleapis.com,REJECT
+HOST,firebaselogging-pa.googleapis.com,REJECT

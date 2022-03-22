@@ -4,24 +4,24 @@
 # https://apps.apple.com/cn/app/id1411932809
 
 # %api.wfdata.club%
-^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/infoCenterAd - reject
-^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/yesList\? - reject
+^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/infoCenterAd url reject
+^https:\/\/api\.wfdata\.club\/v\d\/yesfeng\/yesList\? url reject
 
 # 阿里巴巴
-DOMAIN-SUFFIX,dc.sigmob.cn,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
-DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
+HOST-SUFFIX,dc.sigmob.cn,REJECT
+HOST,toblog.ctobsnssdk.com,REJECT
+HOST-SUFFIX,unityads.unitychina.cn,REJECT
 
 # 腾讯
-DOMAIN-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
 
 # 头条
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,dm.bytedance.com,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,dm.bytedance.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
-DOMAIN-SUFFIX,umengcloud.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umengcloud.com,REJECT
 
 # 谷歌
-DOMAIN-SUFFIX,app-measurement.com,REJECT
+HOST-SUFFIX,app-measurement.com,REJECT

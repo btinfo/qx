@@ -3,4 +3,4 @@
 # https://weread.qq.com/
 # https://apps.apple.com/cn/app/id952059546
 
-DOMAIN,szmg.qq.com,REJECT-DROP
+HOST,szmg.qq.com,REJECT

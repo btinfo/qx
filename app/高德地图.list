@@ -1,7 +1,7 @@
 # 高德地图
 # https://apps.apple.com/cn/app/id461703208
 
-DOMAIN,optimus-ads.amap.com,REJECT
+HOST,optimus-ads.amap.com,REJECT
 
 # %m*.amap.com%
-^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
+^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject

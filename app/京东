@@ -4,7 +4,7 @@
 # https://apps.apple.com/cn/app/id414245413
 
 # %api.m.jd.com%
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-TINYGIF
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-img
 
-^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts - reject
-^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject

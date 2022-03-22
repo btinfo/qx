@@ -3,12 +3,12 @@
 # http://wenku.baidu.com/
 # https://apps.apple.com/cn/app/id426340811
 
-DOMAIN,wkclick.baidu.com,REJECT
-DOMAIN,wkctj.baidu.com,REJECT
+HOST,wkclick.baidu.com,REJECT
+HOST,wkctj.baidu.com,REJECT
 
 # 百度
-DOMAIN,afd.baidu.com,REJECT
-DOMAIN,dss0.bdstatic.com,REJECT
+HOST,afd.baidu.com,REJECT
+HOST,dss0.bdstatic.com,REJECT
 
 # %appwk.baidu.com%
-^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad\? - reject
+^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad\? url reject

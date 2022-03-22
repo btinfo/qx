@@ -4,25 +4,25 @@
 # https://apps.apple.com/cn/app/id1595834306
 
 # 阿里巴巴
-DOMAIN,adashbc.ut.taobao.com,REJECT-DROP
-DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
-DOMAIN,fp-it.fengkongcloud.com,REJECT
-DOMAIN,pangolin.snssdk.com,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
-DOMAIN-SUFFIX,adt.xdrig.com,REJECT
-DOMAIN-SUFFIX,av1.xdrig.com,REJECT
-#DOMAIN-SUFFIX,me.xdrig.com,REJECT
-DOMAIN-SUFFIX,tnc3-bjlgy.snssdk.com,REJECT
-DOMAIN,tnc3-alisc1.snssdk.com,REJECT
+HOST,adashbc.ut.taobao.com,REJECT
+HOST,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
+HOST,fp-it.fengkongcloud.com,REJECT
+HOST,pangolin.snssdk.com,REJECT
+HOST,rp.hpplay.cn,REJECT
+HOST-SUFFIX,adt.xdrig.com,REJECT
+HOST-SUFFIX,av1.xdrig.com,REJECT
+#HOST-SUFFIX,me.xdrig.com,REJECT
+HOST-SUFFIX,tnc3-bjlgy.snssdk.com,REJECT
+HOST,tnc3-alisc1.snssdk.com,REJECT
 
 # 新网
-DOMAIN-SUFFIX,cruiser.bayescom.cn,REJECT
-DOMAIN-SUFFIX,raddus.bayescom.com,REJECT
-DOMAIN-SUFFIX,tx-ad.a.yximgs.com,REJECT
+HOST-SUFFIX,cruiser.bayescom.cn,REJECT
+HOST-SUFFIX,raddus.bayescom.com,REJECT
+HOST-SUFFIX,tx-ad.a.yximgs.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
-DOMAIN-SUFFIX,umengcloud.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umengcloud.com,REJECT
 
 # 其他
-DOMAIN-SUFFIX,www.qchannel01.cn,REJECT
+HOST-SUFFIX,www.qchannel01.cn,REJECT
