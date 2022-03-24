@@ -2,3 +2,16 @@
 # https://apps.apple.com/cn/app/id787130974
 
 HOST,a.miguvideo.com,REJECT
+HOST,ggc.cmvideo.cn,REJECT
+HOST,ggic01.miguvideo.com,REJECT
+HOST,ggic02.miguvideo.com,REJECT
+HOST,ggic07.miguvideo.com,REJECT
+HOST,ggic10.miguvideo.com,REJECT
+HOST,ggicaqz.miguvideo.com,REJECT
+
+HOST,ggmk.miguvideo.com,REJECT
+HOST,ggv.cmvideo.cn,REJECT
+
+HOST,ggx01.miguvideo.com,REJECT
+HOST,ggx02.miguvideo.com,REJECT
+HOST,ggx10.miguvideo.com,REJECT
