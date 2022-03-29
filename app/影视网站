@@ -3,6 +3,7 @@
 # 片库
 HOST-SUFFIX,mypianku.net,DIRECT
 HOST-SUFFIX,pianku.li,DIRECT
+
 # 片库底部广告
 # %www.govchengdu.cn,m.pianku.li%
 ^https:\/\/www\.govchengdu\.cn:\d{4}\/ty\/ url reject

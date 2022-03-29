@@ -1,5 +1,4 @@
 HOST,ad.bmac.com.cn
-HOST,adimg.uve.weibo.com
 HOST,a.miguvideo.com
 HOST,ap.dongqiudi.com
 HOST,appgoad.189.cn
@@ -19,16 +18,13 @@ HOST,ggx10.miguvideo.com
 HOST,kiwistatic.huya.com
 HOST,livewebbs2.msstatic.com
 HOST,optimus-ads.amap.com
-HOST,sdkapp.uve.weibo.com
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
-HOST-SUFFIX,ad2.fivecdm.com
 HOST-SUFFIX,adv.ccb.com
 HOST-SUFFIX,applovin.com
 HOST-SUFFIX,applvn.com
-HOST,app-measurement.com
-HOST,firebaselogging-pa.googleapis.com
-HOST,firebaseinappmessaging.googleapis.com
+HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,firebaselogging-pa.googleapis.com
 HOST-SUFFIX,getui.com
 HOST-SUFFIX,imageadv.ccb.com
 HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com
