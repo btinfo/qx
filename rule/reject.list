@@ -26,8 +26,9 @@ HOST-SUFFIX,ad2.fivecdm.com
 HOST-SUFFIX,adv.ccb.com
 HOST-SUFFIX,applovin.com
 HOST-SUFFIX,applvn.com
-#HOST-SUFFIX,app-measurement.com
-HOST-SUFFIX,firebaselogging-pa.googleapis.com
+HOST,app-measurement.com
+HOST,firebaselogging-pa.googleapis.com
+HOST,firebaseinappmessaging.googleapis.com
 HOST-SUFFIX,getui.com
 HOST-SUFFIX,imageadv.ccb.com
 HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com
