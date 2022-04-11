@@ -1,31 +1,35 @@
-proxies:
-  - {name: 🇸🇬 新加坡 A1, server: 120.232.251.206, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 A2, server: 120.232.251.206, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B1, server: 183.240.9.28, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B2, server: 183.240.9.28, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B3, server: 183.240.9.28, port: 29982, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B4, server: 183.240.9.28, port: 29983, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B5, server: 183.240.9.28, port: 29984, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B6, server: 183.240.9.28, port: 29987, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 B7, server: 183.240.9.28, port: 29988, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C1, server: 183.240.9.29, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C2, server: 183.240.9.29, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C3, server: 183.240.9.29, port: 29982, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C4, server: 183.240.9.29, port: 29983, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C5, server: 183.240.9.29, port: 29984, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C6, server: 183.240.9.29, port: 29987, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 C7, server: 183.240.9.29, port: 29988, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D1, server: 183.240.9.30, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D2, server: 183.240.9.30, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D3, server: 183.240.9.30, port: 29982, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D4, server: 183.240.9.30, port: 29983, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D5, server: 183.240.9.30, port: 29984, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D6, server: 183.240.9.30, port: 29987, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 D7, server: 183.240.9.30, port: 29988, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E1, server: 183.240.9.31, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E2, server: 183.240.9.31, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E3, server: 183.240.9.31, port: 29982, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E4, server: 183.240.9.31, port: 29983, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E5, server: 183.240.9.31, port: 29984, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E6, server: 183.240.9.31, port: 29987, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 E7, server: 183.240.9.31, port: 29988, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29979/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A1
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29980/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A2
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29982/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A3
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29983/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A4
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29984/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A5
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29985/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A6
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29987/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A7
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.28:29988/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20A8
+
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29979/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B1
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29980/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B2
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29982/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B3
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29983/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B4
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29984/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B5
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29985/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B6
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29987/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B7
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.29:29988/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20B8
+
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29979/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C1
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29980/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C2
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29982/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C3
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29983/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C4
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29984/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C5
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29985/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C6
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29987/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C7
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.30:29988/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20C8
+
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29979/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D1
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29980/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D2
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29982/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D3
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29983/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D4
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29984/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D5
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29985/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D6
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29987/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D7
+https://442993652168396800:2ef91648-089f-4c81-b34d-06f072ec51dd@183.240.9.31:29988/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20D8
