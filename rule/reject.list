@@ -4,6 +4,7 @@ HOST,ap.dongqiudi.com
 HOST,appgoad.189.cn
 HOST,business.msstatic.com
 HOST,e-ad-monitor.huya.com
+HOST,feed-navi.cdn.bcebos.com
 HOST,ggc.cmvideo.cn
 HOST,ggic01.miguvideo.com
 HOST,ggic02.miguvideo.com
@@ -21,9 +22,11 @@ HOST,optimus-ads.amap.com
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
 HOST-SUFFIX,adv.ccb.com
+HOST-SUFFIX,advert.api.thejoyrun.com
 HOST-SUFFIX,applovin.com
 HOST-SUFFIX,applvn.com
 HOST-SUFFIX,app-measurement.com
+HOST-SUFFIX,data.flurry.com
 HOST-SUFFIX,firebaselogging-pa.googleapis.com
 HOST-SUFFIX,getui.com
 HOST-SUFFIX,imageadv.ccb.com
