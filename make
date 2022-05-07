@@ -15,15 +15,15 @@
   grep -Ehv "^$|^#" "${ASET[@]}" | grep 'PROXY' | "${SORT[@]}" > rule/proxy.list
   grep -Ehv "^$|^#" "${ASET[@]}" | grep 'DIRECT' | "${SORT[@]}" > rule/direct.list
   
-  grep -Ehv "^$" "${ASET[@]}" | grep -E "^\^http|^\(\^http" > app_conf
+  grep -Ehv "^$" "${ASET[@]}" | grep -E "^\^http|^\(\^http" > com_conf
   
   grep -Eh '%.*%' "${ASET[@]}" \
-    | awk -F% '{print $2}' | sed 's/,/\n/g' | sed 's/ //g' | sort -u > host_app
+    | awk -F% '{print $2}' | sed 's/,/\n/g' | sed 's/ //g' | sort -u > com_host
 
-  echo "hostname = $(sed -e '/^#/d' -e '/^$/d' -e 's/ //g' host_app \
-    | sort -u | xargs | sed 's/ /,/g')" > host_app
+  echo "hostname = $(sed -e '/^#/d' -e '/^$/d' -e 's/ //g' com_host \
+    | sort -u | xargs | sed 's/ /,/g')" > com_host
     
-  cat host_app app_conf > rewrite/app.conf
+  cat com_host com_conf > rw/com.conf
   
-  rm -f app_conf host_app
+  rm -f com_conf com_host
 
