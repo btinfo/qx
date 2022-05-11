@@ -31,5 +31,5 @@ HOST-SUFFIX,imageadv.ccb.com,REJECT
 HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com,REJECT
 HOST-SUFFIX,p2p.huya.com,REJECT
 HOST-SUFFIX,pglstatp-toutiao.com,REJECT
-#HOST,wxsnsdythumb.wxs.qq.com,REJECT
-#HOST,wxsnsdy.wxs.qq.com,REJECT
+HOST,wxsnsdythumb.wxs.qq.com,REJECT
+HOST,wxsnsdy.wxs.qq.com,REJECT
