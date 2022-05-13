@@ -1,0 +1,62 @@
+🇦🇺 澳大利亚 = https, 119.147.149.174, 29982, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇨🇦 加拿大 = https, 119.147.149.174, 29983, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇩🇪 德国 = https, 119.147.149.174, 29984, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇯🇵 日本 = https, 119.147.149.174, 29985, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇸🇬 新加坡 = https, 119.147.149.174, 29986, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇬🇧 英国 = https, 119.147.149.174, 29987, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+🇺🇸 美国 = https, 119.147.149.174, 29988, username=410242540751552512, password=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+
+🇭🇰 深港 1 = https, 120.232.251.206, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 2 = https, 120.232.251.206, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 3 = https, 120.232.251.206, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 4 = https, 120.232.251.206, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 5 = https, 120.232.251.206, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 6 = https, 120.232.251.206, 29985, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 7 = https, 120.232.251.206, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 8 = https, 120.232.251.206, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 9 = https, 120.232.251.206, 29994, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 10 = https, 120.232.251.206, 29996, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰 深港 11 = https, 120.232.251.206, 29998, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+
+🇭🇰 香港A1 = https, 125.77.168.212, 29980, username=410242540751552512, passwor=8cdcbda5-bce2-4454-a5e8-4cafe4a8b511, skip-cert-verify=true, tfo=true
+
+🇸🇬 出口 01 = https, 183.240.90.28, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 02 = https, 183.240.90.28, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 03 = https, 183.240.90.28, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 04 = https, 183.240.90.28, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 05 = https, 183.240.90.28, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 06 = https, 183.240.90.28, 29985, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 07 = https, 183.240.90.28, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+🇸🇬 出口 08 = https, 183.240.90.28, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, server-cert-fingerprint-sha256=4e:8e:31:5b:fa:03:5c:65:ed:e3:53:13:ab:6e:4d:04:06:62:a9:cc:f0:43:fc:58:00:fa:46:1a:00:2a:f4:04, always-use-connect=true, tfo=true
+
+🇸🇬 广新01 = https, 183.240.9.28, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰广港01 = https, 183.240.9.28, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新02 = https, 183.240.9.28, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新03 = https, 183.240.9.28, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新04 = https, 183.240.9.28, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新05 = https, 183.240.9.28, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新06 = https, 183.240.9.28, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+
+🇸🇬 广新07 = https, 183.240.9.29, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰广港02 = https, 183.240.9.29, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新08 = https, 183.240.9.29, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新09 = https, 183.240.9.29, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新10 = https, 183.240.9.29, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新11 = https, 183.240.9.29, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新12 = https, 183.240.9.29, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+
+🇸🇬 广新13 = https, 183.240.9.30, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰广港03 = https, 183.240.9.30, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新14 = https, 183.240.9.30, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新15 = https, 183.240.9.30, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新16 = https, 183.240.9.30, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新17 = https, 183.240.9.30, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新18 = https, 183.240.9.30, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+
+🇸🇬 广新19 = https, 183.240.9.31, 29979, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇭🇰广港04 = https, 183.240.9.31, 29980, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新20 = https, 183.240.9.31, 29982, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新21 = https, 183.240.9.31, 29983, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新22 = https, 183.240.9.31, 29984, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新23 = https, 183.240.9.31, 29987, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
+🇸🇬 广新24 = https, 183.240.9.31, 29988, username=442993652168396800, password=2ef91648-089f-4c81-b34d-06f072ec51dd, skip-cert-verify=true, tfo=true
