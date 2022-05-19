@@ -1,7 +1,7 @@
-HOST-SUFFIX,cdn.jsdelivr.net,DIRECT
-HOST-SUFFIX,easytomessage.com,DIRECT
-HOST-SUFFIX,gcloudcs.com,DIRECT
-HOST-SUFFIX,jpush.cn,DIRECT
-HOST-SUFFIX,jpush.io,DIRECT
-HOST-SUFFIX,msstatic.com,DIRECT
-HOST-SUFFIX,qcloud.com,DIRECT
+HOST-SUFFIX,cdn.jsdelivr.net
+HOST-SUFFIX,easytomessage.com
+HOST-SUFFIX,gcloudcs.com
+HOST-SUFFIX,jpush.cn
+HOST-SUFFIX,jpush.io
+HOST-SUFFIX,msstatic.com
+HOST-SUFFIX,qcloud.com
