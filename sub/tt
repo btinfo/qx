@@ -1,1 +1,0 @@
-vmess = jp2803.cloudmatrix.xyz:2803, method=chacha20-ietf-poly1305, password=479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, aead=true, obfs=ws, obfs-host=%7B%22Host%22:%22telegram.channel.p2psharing%22%7D, obfs-uri=/hls/cctv5phd.m3u8, fast-open=false, udp-relay=false, tag=🇯🇵 日本-东京2【1x】 2|TG@p2psharing
