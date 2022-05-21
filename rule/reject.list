@@ -1,6 +1,5 @@
 HOST,a.miguvideo.com
 HOST,ap.dongqiudi.com
-HOST,appgoad.189.cn
 HOST,business.msstatic.com
 HOST,e-ad-monitor.huya.com
 HOST,ggc.cmvideo.cn
@@ -17,8 +16,4 @@ HOST,ggx10.miguvideo.com
 HOST,kiwistatic.huya.com
 HOST,livewebbs2.msstatic.com
 HOST,optimus-ads.amap.com
-HOST,smartad.10010.com
-HOST-SUFFIX,ad.10010.com
-HOST-SUFFIX,adv.ccb.com
-HOST-SUFFIX,imageadv.ccb.com
 HOST-SUFFIX,p2p.huya.com
