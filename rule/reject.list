@@ -16,4 +16,6 @@ HOST,ggx10.miguvideo.com
 HOST,kiwistatic.huya.com
 HOST,livewebbs2.msstatic.com
 HOST,optimus-ads.amap.com
+HOST-SUFFIX,china2021.s3.ap-northeast-2.amazonaws.com
+HOST-SUFFIX,gg.caixin.com
 HOST-SUFFIX,p2p.huya.com
