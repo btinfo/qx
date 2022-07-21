@@ -19,3 +19,13 @@ HOST,optimus-ads.amap.com
 HOST-SUFFIX,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,gg.caixin.com
 HOST-SUFFIX,p2p.huya.com
+HOST-SUFFIX,ads-twitter.com
+HOST-SUFFIX,ads.twitter.com
+HOST-SUFFIX,ads-api.twitter.com
+#HOST-SUFFIX,analytics.twitter.com
+HOST-SUFFIX,p.twitter.com
+HOST-SUFFIX,scribe.twitter.com
+HOST-SUFFIX,syndication-o.twitter.com
+HOST-SUFFIX,syndication.twitter.com
+HOST-SUFFIX,tellapart.com
+HOST-SUFFIX,urls.api.twitter.com
