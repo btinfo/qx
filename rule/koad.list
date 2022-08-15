@@ -15,3 +15,4 @@ host-suffix, ad.adinc.kr, reject
 host-suffix, tracking.adsbot.kr, reject
 host-suffix, ad.aceplanet.co.kr, reject
 host-suffix, ad4989.co.kr, reject
+host-suffix, admixer.co.kr, reject
