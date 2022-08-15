@@ -1,0 +1,17 @@
+# hani
+host, adservice.hani.co.kr, reject
+host, adimg.hani.co.kr, reject
+
+host-suffix, adplex.co.kr, reject
+host-suffix, ad.api.stax.kr, reject
+host-suffix, mobwithad.com, reject
+host-suffix, ad.about.co.kr, reject
+host-suffix, ad.mediafarm.co.kr, reject
+host-suffix, ad.mrab.co.kr, reject
+host-suffix, ad.reople.co.kr, reject
+host-suffix, ad.daum.net, reject
+host-suffix, ad.hankookilbo.com, reject
+host-suffix, ad.adinc.kr, reject
+host-suffix, tracking.adsbot.kr, reject
+host-suffix, ad.aceplanet.co.kr, reject
+host-suffix, ad4989.co.kr, reject
