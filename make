@@ -26,4 +26,7 @@
   cat com_host com_conf > rw/com.conf
   
   rm -f com_conf com_host
+  
+  curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
+    | grep '^||' | sed -e 's/||/host-suffix, /' -e 's/\^//g' | grep -v '\*' | sort -u > rule/koad.list
 
