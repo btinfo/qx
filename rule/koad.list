@@ -6,6 +6,7 @@ host-suffix, acache.ilbe.com
 host-suffix, acceptable.a-ads.com
 host-suffix, acrosspf.com
 host-suffix, action.adoffice.11st.co.kr
+host-suffix, ad1.sportschosun.com
 host-suffix, ad2.mimint.co.kr
 host-suffix, ad.3dpop.kr
 host-suffix, ad4989.co.kr
@@ -59,6 +60,8 @@ host-suffix, adinc.co.kr
 host-suffix, ad.khan.co.kr
 host-suffix, ad.kmib.co.kr
 host-suffix, ad.linkprice.com
+host-suffix, ad-mapps.com
+host-suffix, admaru.net
 host-suffix, ad.mediafarm.co.kr
 host-suffix, admixer.co.kr
 host-suffix, ad.mrab.co.kr
@@ -100,7 +103,6 @@ host-suffix, ad.tpmn.co.kr
 host-suffix, adv.bandi.so
 host-suffix, adv.dailyissue.co.kr
 host-suffix, adv.imadrep.co.kr
-host-suffix, advimg.ad-mapps.com
 host-suffix, adv.khan.co.kr
 host-suffix, advod.sbs.co.kr
 host-suffix, adv.zdnet.co.kr
@@ -184,6 +186,7 @@ host-suffix, openx.net
 host-suffix, optad360.io
 host-suffix, pagead2.googlesyndication.com
 host-suffix, piclick.kr
+host-suffix, pltapad.com
 host-suffix, powerclick.about.co.kr
 host-suffix, poweredby.jads.co
 host-suffix, pubmatic.com
@@ -221,3 +224,8 @@ host-suffix, xconf.cauly.co.kr
 host-suffix, xdsp.snadx.com
 host-suffix, xlviirdr.com
 host-suffix, xn--s-4z5e652a53k.com
+host-wildcard, adimg*.search.naver.net
+host-wildcard, adservice.google.co.*
+host-wildcard, ads-*.v.ssp.yahoo.com
+host-wildcard, ad*.thisisgame.com
+host-wildcard, ad*.wisenut.co.kr
