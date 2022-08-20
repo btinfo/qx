@@ -224,8 +224,3 @@ host-suffix, xconf.cauly.co.kr
 host-suffix, xdsp.snadx.com
 host-suffix, xlviirdr.com
 host-suffix, xn--s-4z5e652a53k.com
-host-wildcard, adimg*.search.naver.net
-host-wildcard, adservice.google.co.*
-host-wildcard, ads-*.v.ssp.yahoo.com
-host-wildcard, ad*.thisisgame.com
-host-wildcard, ad*.wisenut.co.kr
