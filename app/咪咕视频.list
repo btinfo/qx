@@ -1,6 +1,3 @@
-# 咪咕视频
-# https://apps.apple.com/cn/app/id787130974
-
 HOST,a.miguvideo.com,REJECT
 HOST,ggc.cmvideo.cn,REJECT
 HOST,ggic01.miguvideo.com,REJECT

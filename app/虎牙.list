@@ -1,6 +1,3 @@
-# 虎牙
-# https://apps.apple.com/cn/app/id871095743
-
 # HOST,s1-static.msstatic.com,REJECT # 比赛数据不能加载
 HOST,business.msstatic.com,REJECT
 HOST,kiwistatic.huya.com,REJECT
