@@ -30,7 +30,7 @@
   curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
     | grep '^||' | sed -e 's/||/host-suffix, /g' -e 's/\^//g' \
     | grep -v '\*' | sort -u > rule/koad.list
-  curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
-    | grep '^||' | grep '\*' | sed -e 's/||/host-wildcard, /g' -e 's/\^//g' \
-    | sort -u >> rule/koad.list
+  #curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
+  #  | grep '^||' | grep '\*' | sed -e 's/||/host-wildcard, /g' -e 's/\^//g' \
+  #  | sort -u >> rule/koad.list
 
