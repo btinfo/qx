@@ -23,7 +23,7 @@
   echo "hostname = $(sed -e '/^#/d' -e '/^$/d' -e 's/ //g' com_host \
     | sort -u | xargs | sed 's/ /,/g')" > com_host
     
-  cat com_host com_conf > rw/com.conf
+  cat com_host com_conf > rw/btinfo.conf
   
   rm -f com_conf com_host
   
