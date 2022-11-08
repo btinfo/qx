@@ -1,2 +1,6 @@
+host, receiptcheck.quantumult.app
+host-suffix, cloudfront.net
 host-suffix, departures.to
 host-suffix, makamaka.cc
+host-suffix, workingcopyapp.com
+host-suffix, www.chinatimes.com
