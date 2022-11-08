@@ -1,10 +1,10 @@
-# HOST,s1-static.msstatic.com,REJECT # 比赛数据不能加载
-HOST,business.msstatic.com,REJECT
-HOST,kiwistatic.huya.com,REJECT
-HOST,livewebbs2.msstatic.com,REJECT
-HOST-SUFFIX,msstatic.com,DIRECT
-HOST-SUFFIX,p2p.huya.com,REJECT
-HOST,e-ad-monitor.huya.com,REJECT
+# host, s1-static.msstatic.com, reject # 比赛数据不能加载
+host, business.msstatic.com, reject
+host, kiwistatic.huya.com, reject
+host, livewebbs2.msstatic.com, reject
+host-suffix, msstatic.com, direct
+host-suffix, p2p.huya.com, reject
+host, e-ad-monitor.huya.com, reject
 
 # %cdnfile1.msstatic.com%
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject

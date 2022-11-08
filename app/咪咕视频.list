@@ -1,14 +1,14 @@
-HOST,a.miguvideo.com,REJECT
-HOST,ggc.cmvideo.cn,REJECT
-HOST,ggic01.miguvideo.com,REJECT
-HOST,ggic02.miguvideo.com,REJECT
-HOST,ggic07.miguvideo.com,REJECT
-HOST,ggic10.miguvideo.com,REJECT
-HOST,ggicaqz.miguvideo.com,REJECT
+host, a.miguvideo.com, reject
+host, ggc.cmvideo.cn, reject
+host, ggic01.miguvideo.com, reject
+host, ggic02.miguvideo.com, reject
+host, ggic07.miguvideo.com, reject
+host, ggic10.miguvideo.com, reject
+host, ggicaqz.miguvideo.com, reject
 
-HOST,ggmk.miguvideo.com,REJECT
-HOST,ggv.cmvideo.cn,REJECT
+host, ggmk.miguvideo.com, reject
+host, ggv.cmvideo.cn, reject
 
-HOST,ggx01.miguvideo.com,REJECT
-HOST,ggx02.miguvideo.com,REJECT
-HOST,ggx10.miguvideo.com,REJECT
+host, ggx01.miguvideo.com, reject
+host, ggx02.miguvideo.com, reject
+host, ggx10.miguvideo.com, reject

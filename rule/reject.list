@@ -1,34 +1,38 @@
-HOST,a.miguvideo.com
-HOST,ap.dongqiudi.com
-HOST,business.msstatic.com
-HOST,e-ad-monitor.huya.com
-HOST,ggc.cmvideo.cn
-HOST,ggic01.miguvideo.com
-HOST,ggic02.miguvideo.com
-HOST,ggic07.miguvideo.com
-HOST,ggic10.miguvideo.com
-HOST,ggicaqz.miguvideo.com
-HOST,ggmk.miguvideo.com
-HOST,ggv.cmvideo.cn
-HOST,ggx01.miguvideo.com
-HOST,ggx02.miguvideo.com
-HOST,ggx10.miguvideo.com
-HOST,kiwistatic.huya.com
-HOST,livewebbs2.msstatic.com
-HOST,optimus-ads.amap.com
-HOST-SUFFIX,ads-api.twitter.com
-HOST-SUFFIX,ads-twitter.com
-HOST-SUFFIX,ads.twitter.com
-HOST-SUFFIX,b.mail.163.com
-HOST-SUFFIX,china2021.s3.ap-northeast-2.amazonaws.com
-HOST-SUFFIX,gg.caixin.com
-HOST-SUFFIX,gorgon.youdao.com
-HOST-SUFFIX,nex.163.com
-HOST-SUFFIX,p2p.huya.com
-HOST-SUFFIX,p.twitter.com
-HOST-SUFFIX,scribe.twitter.com
-HOST-SUFFIX,syndication-o.twitter.com
-HOST-SUFFIX,syndication.twitter.com
-HOST-SUFFIX,tellapart.com
-HOST-SUFFIX,urls.api.twitter.com
-HOST-SUFFIX,yt-adp.ws.126.net
+host, a.miguvideo.com
+host, ap.dongqiudi.com
+host, business.msstatic.com
+host, e-ad-monitor.huya.com
+host, ggc.cmvideo.cn
+host, ggic01.miguvideo.com
+host, ggic02.miguvideo.com
+host, ggic07.miguvideo.com
+host, ggic10.miguvideo.com
+host, ggicaqz.miguvideo.com
+host, ggmk.miguvideo.com
+host, ggv.cmvideo.cn
+host, ggx01.miguvideo.com
+host, ggx02.miguvideo.com
+host, ggx10.miguvideo.com
+host, kiwistatic.huya.com
+host, livewebbs2.msstatic.com
+host, optimus-ads.amap.com
+host-suffix, ads-api.twitter.com
+host-suffix, ads-twitter.com
+host-suffix, ads.twitter.com
+host-suffix, b.mail.163.com
+host-suffix, china2021.s3.ap-northeast-2.amazonaws.com
+host-suffix, cmgadx.com
+host-suffix, gg.caixin.com
+host-suffix, gorgon.youdao.com
+host-suffix, nex.163.com
+host-suffix, p2p.huya.com
+host-suffix, p.twitter.com
+host-suffix, scribe.twitter.com
+host-suffix, syndication-o.twitter.com
+host-suffix, syndication.twitter.com
+host-suffix, tellapart.com
+host-suffix, urls.api.twitter.com
+host-suffix, yt-adp.ws.126.net
+host, syh2.zybang.com
+host, syh-imp.cdnjtzy.com
+host, syh.zybang.com
