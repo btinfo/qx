@@ -20,7 +20,6 @@ host-suffix, ad.adnmore.co.kr
 host-suffix, ad.ajitad.co.kr
 host-suffix, adapi.about.co.kr
 host-suffix, ad-api.enuri.info
-host-suffix, ad.auction.co.kr
 host-suffix, adballoon.afreecatv.com
 host-suffix, adbc.io
 host-suffix, ad.bidrich.com
@@ -44,7 +43,6 @@ host-suffix, ad.esmplus.com
 host-suffix, ad.everytime.kr
 host-suffix, adex.ednplus.com
 host-suffix, ad.feedbag.co.kr
-host-suffix, adgate.auction.co.kr
 host-suffix, adgate.gmarket.co.kr
 host-suffix, adgirl.yes24.com
 host-suffix, ad.hankookilbo.com
@@ -159,6 +157,7 @@ host-suffix, criteo.net
 host-suffix, cyad1.nate.com
 host-suffix, cyad.nate.com
 host-suffix, dable.io
+host-suffix, dadispapi.auction.co.kr
 host-suffix, daimg.encar.com
 host-suffix, deepdive.zum.com
 host-suffix, deployads.com
