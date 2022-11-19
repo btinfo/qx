@@ -20,6 +20,7 @@ host-suffix, ad.adnmore.co.kr
 host-suffix, ad.ajitad.co.kr
 host-suffix, adapi.about.co.kr
 host-suffix, ad-api.enuri.info
+host-suffix, ad.auction.co.kr
 host-suffix, adballoon.afreecatv.com
 host-suffix, adbc.io
 host-suffix, ad.bidrich.com
@@ -43,7 +44,6 @@ host-suffix, ad.esmplus.com
 host-suffix, ad.everytime.kr
 host-suffix, adex.ednplus.com
 host-suffix, ad.feedbag.co.kr
-host-suffix, adgate.gmarket.co.kr
 host-suffix, adgirl.yes24.com
 host-suffix, ad.hankookilbo.com
 host-suffix, adhooah.com
@@ -221,9 +221,11 @@ host-suffix, pubmatic.com
 host-suffix, quantserve.com
 host-suffix, realclick.co.kr
 host-suffix, realssp.co.kr
+host-suffix, reqde.afreecatv.com
 host-suffix, rubiconproject.com
 host-suffix, safeframe.googlesyndication.com
 host-suffix, searchad-phinf.pstatic.net
+host-suffix, serv.ds.kakao.com
 host-suffix, shoppingbox.zum.com
 host-suffix, shoppingcall.me
 host-suffix, shukriya90.com

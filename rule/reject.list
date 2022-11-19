@@ -1,3 +1,4 @@
+host, ad2.fivecdm.com
 host, adash-emas.cn-hangzhou.aliyuncs.com
 host, ad-exchange.toast.com
 host, adex.ednplus.com
@@ -11,6 +12,7 @@ host, business.msstatic.com
 host, data.flurry.com
 host, e-ad-monitor.huya.com
 host, fp-it.fengkongcloud.com
+host, fundingchoicesmessages.google.com
 host, ggc.cmvideo.cn
 host, ggic01.miguvideo.com
 host, ggic02.miguvideo.com
@@ -38,6 +40,7 @@ host-suffix, cmgadx.com
 host-suffix, dsp-x.jd.com
 host-suffix, gg.caixin.com
 host-suffix, gorgon.youdao.com
+host-suffix, i18n-pglstatp.com
 host-suffix, moatads.com
 host-suffix, nex.163.com
 host-suffix, p2p.huya.com
