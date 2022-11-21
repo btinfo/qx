@@ -1,10 +1,11 @@
-# https://bgp.he.net/country/KR
-# updated at 22-11-13
+# updated at 2022-11-22 01:15:21+08:00
+
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
 IP-ASN,1781 // Korea Advanced Institute of Science and Technology
 IP-ASN,2385 // KRIBB(Korea Research Institute of Bioscience Biotechnology)
 IP-ASN,2563 // Seoul Christain University
+IP-ASN,3357 // VLAN24
 IP-ASN,3608 // Korea Rural Community Corporation
 IP-ASN,3748 // Electronics and Telecommunications Research Institute
 IP-ASN,3784 // Pohang University of Science and Technology
@@ -19,7 +20,6 @@ IP-ASN,4665 // Yonsei University
 IP-ASN,4668 // LG CNS
 IP-ASN,4669 // AfreecaTV Co., Ltd
 IP-ASN,4670 // Shinbiro
-IP-ASN,4671 // KTOA
 IP-ASN,4766 // Korea Telecom
 IP-ASN,4790 // Chosun ilbo Inc.
 IP-ASN,4791 // JoongAng Ilbo
@@ -647,7 +647,7 @@ IP-ASN,45402 // SAMSUNG LIFE SERVICE
 IP-ASN,45403 // INCHEON TECHNOPARK
 IP-ASN,45404 // SHINHAN LIFE INSURANCE CO.,LTD.
 IP-ASN,45406 // AJU Internet Technology
-IP-ASN,45407 //
+IP-ASN,45407 // 
 IP-ASN,45408 // KOSAF
 IP-ASN,45409 // KBCAPITAL
 IP-ASN,45560 // TOPNET. IP Transit AS
@@ -723,7 +723,6 @@ IP-ASN,55627 // Dongduk Womens University
 IP-ASN,55628 // Incheon Free Economic Zone
 IP-ASN,55629 // TMON
 IP-ASN,55630 // KSNET.Inc
-IP-ASN,55631 // Korea trade insurance corporation
 IP-ASN,55632 // Hansol High School
 IP-ASN,55633 // pundang jesaeng general hospital
 IP-ASN,131093 // viva republica
@@ -763,7 +762,7 @@ IP-ASN,131832 // Hyundai Doosan Infracore
 IP-ASN,131833 // Kia Corporation
 IP-ASN,131834 // LeeKo
 IP-ASN,131836 // Firstfire Marine Insurance
-IP-ASN,131838 //
+IP-ASN,131838 // 
 IP-ASN,131847 // Korea District Heating Corporation
 IP-ASN,131848 // YUHAN
 IP-ASN,131850 // Teachiworld Auto Insurance
@@ -777,12 +776,4 @@ IP-ASN,138195 // MOACK.Co.LTD
 IP-ASN,138380 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,139281 // Equinix Korea LLC
 IP-ASN,139648 // PacketStream Korea
-IP-ASN,142409 // DigitalEdgeDC
 IP-ASN,149522 // OneCubit Co., Ltd.
-IP-ASN,150414 // OneCubit Co., Ltd.
-IP-ASN,202348 // Young Min Kim trading as Ylem
-IP-ASN,203040 // Sangmyoung Lee
-IP-ASN,203979 // Gyeongtaek Kim
-IP-ASN,210576 // Sangmin Lee trading as YAGUMYAGUM
-IP-ASN,213163 // Guhyun Chung
-IP-ASN,213312 // Hyeokjun Yang
