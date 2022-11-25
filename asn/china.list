@@ -1,4 +1,4 @@
-# updated at 2022-11-22 01:08:54+08:00
+# updated at 2022-11-26 02:20:39+08:00
 
 IP-ASN,4134 // China Telecom Backbone
 IP-ASN,4538 // China Education and Research Network Center
@@ -293,11 +293,11 @@ IP-ASN,59080 // Beijing HuaxiaYakue Network Technology Co., Ltd.
 IP-ASN,59083 // Shanghai Kuanhui Tech. Co.,ltd
 IP-ASN,59089 // NO.18 Building University of Technology
 IP-ASN,63531 // Beijing BAIWU Technology Co., Ltd.
+IP-ASN,63534 // SHENZHEN CHUNQIU YUNJISUAN
 IP-ASN,63548 // LENOVO (BEIJING) Co.ltd
 IP-ASN,63555 // Beijing Beilong Yunhai Network Data Technology Corporation
 IP-ASN,63561 // China Electronics Technology Cyber Security Co.,LTD
 IP-ASN,63565 // Beijing lian guang tong network technology co., LTD
-IP-ASN,63566 // Beijing yiwangxin science and Technology Development Co., Ltd.
 IP-ASN,63570 //
 IP-ASN,63571 // Shenzhen cyberlink Century Investment Co., Ltd.
 IP-ASN,63580 // China Novartis Institutes for Bio-Medical Research Co., Ltd.
@@ -536,6 +536,7 @@ IP-ASN,140083 // China Telecom
 IP-ASN,140105 // Shaanxi Mobile Communication Company Limited
 IP-ASN,140265 // CHINATELECOM SiChuan province Chengdu 5G network
 IP-ASN,140278 // CHINATELECOM SiChuan province Mianyang 5G network
+IP-ASN,140279 // CHINATELECOM SiChuan province Nanchong 5G network
 IP-ASN,140292 // CHINATELECOM Jiangsu province Suzhou 5G network
 IP-ASN,140330 // CHINATELECOM Fujian province Xiamen 5G network
 IP-ASN,140345 // CHINATELECOM Yunnan province Shengji 5G network
@@ -584,6 +585,7 @@ IP-ASN,147008 // Shenzhen Dianjiang Technology Co Ltd
 IP-ASN,147038 // China Telecom
 IP-ASN,148969 // China Telecom
 IP-ASN,149178 // China Telecom
+IP-ASN,149475 // Nanjing Tiankai Information Technology Co.Ltd.
 IP-ASN,149513 // 91440300MA5DH1CC86
 IP-ASN,149648 // Fuzhou Lefeng Networks Technology Co., Ltd.
 IP-ASN,149837 // China Telecom

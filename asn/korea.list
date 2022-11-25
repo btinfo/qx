@@ -1,4 +1,4 @@
-# updated at 2022-11-22 01:15:21+08:00
+# updated at 2022-11-26 02:24:03+08:00
 
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
@@ -348,6 +348,7 @@ IP-ASN,17838 // HYUNDAI HOMESHOPPING
 IP-ASN,17839 // LG HelloVision Corp.
 IP-ASN,17840 // KECA, Inc.
 IP-ASN,17841 // NATIONAL INFORMATION RESOURCES SERVICE
+IP-ASN,17842 // Kangwon Land,Inc.
 IP-ASN,17843 // Sahmyook University
 IP-ASN,17844 // National Pension Service
 IP-ASN,17845 // Gyeonggi Technopark
@@ -739,6 +740,7 @@ IP-ASN,131794 // KYOBO AXA INVESTMENT MANAGERS Co., Ltd.
 IP-ASN,131795 // KOREA INSTITUTE OF ENERGY RESEARCH
 IP-ASN,131796 // eBay Japan LLC
 IP-ASN,131798 // Sangsang Networks Co., Ltd.
+IP-ASN,131799 // korea workers compensation welfare service
 IP-ASN,131801 // Korea Institute of Patent Information
 IP-ASN,131802 // NongHyup Life Insurance
 IP-ASN,131804 // Seoul Regional Correction Headquarters
@@ -770,7 +772,6 @@ IP-ASN,131851 // Teachiworld Auto Insurance
 IP-ASN,131855 // viva republica
 IP-ASN,131856 // WONJU SEVERANCE CHRISTIAN HOSPITAL
 IP-ASN,131873 // HARIM
-IP-ASN,136209 // Korea Fast Networks
 IP-ASN,136800 // MOACK.Co.LTD
 IP-ASN,138195 // MOACK.Co.LTD
 IP-ASN,138380 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
