@@ -1,4 +1,4 @@
-# updated at 2022-11-26 02:24:03+08:00
+# updated at 2022-11-28 01:19:27+08:00
 
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
@@ -348,11 +348,11 @@ IP-ASN,17838 // HYUNDAI HOMESHOPPING
 IP-ASN,17839 // LG HelloVision Corp.
 IP-ASN,17840 // KECA, Inc.
 IP-ASN,17841 // NATIONAL INFORMATION RESOURCES SERVICE
-IP-ASN,17842 // Kangwon Land,Inc.
 IP-ASN,17843 // Sahmyook University
 IP-ASN,17844 // National Pension Service
 IP-ASN,17845 // Gyeonggi Technopark
 IP-ASN,17846 // SK Broadband Co Ltd
+IP-ASN,17847 // Financial Supervisory Service
 IP-ASN,17848 // INAMES
 IP-ASN,17849 // SK Broadband Co Ltd
 IP-ASN,17850 // Korea Federation of Banks
@@ -778,3 +778,4 @@ IP-ASN,138380 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,139281 // Equinix Korea LLC
 IP-ASN,139648 // PacketStream Korea
 IP-ASN,149522 // OneCubit Co., Ltd.
+IP-ASN,209165 // Guhyun Chung trading as Pluxcon Network
