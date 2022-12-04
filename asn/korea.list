@@ -1,4 +1,4 @@
-# updated at 2022-11-28 01:19:27+08:00
+# updated at 2022-12-04 23:06:33+08:00
 
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
@@ -298,6 +298,7 @@ IP-ASN,10197 // Chonnam National University
 IP-ASN,10198 // Catholic University of Pusan
 IP-ASN,17567 // Airport Railroad Co ltd
 IP-ASN,17570 // SK Global co., Ltd
+IP-ASN,17571 // ncsoft
 IP-ASN,17573 // SK Broadband Co Ltd
 IP-ASN,17574 // Seoul Metropolitan Government Computer Center
 IP-ASN,17575 // Chung-Ang University
@@ -352,7 +353,6 @@ IP-ASN,17843 // Sahmyook University
 IP-ASN,17844 // National Pension Service
 IP-ASN,17845 // Gyeonggi Technopark
 IP-ASN,17846 // SK Broadband Co Ltd
-IP-ASN,17847 // Financial Supervisory Service
 IP-ASN,17848 // INAMES
 IP-ASN,17849 // SK Broadband Co Ltd
 IP-ASN,17850 // Korea Federation of Banks
@@ -764,7 +764,7 @@ IP-ASN,131832 // Hyundai Doosan Infracore
 IP-ASN,131833 // Kia Corporation
 IP-ASN,131834 // LeeKo
 IP-ASN,131836 // Firstfire Marine Insurance
-IP-ASN,131838 //
+IP-ASN,131838 // eBEST INVESTMENTSECURITIES
 IP-ASN,131847 // Korea District Heating Corporation
 IP-ASN,131848 // YUHAN
 IP-ASN,131850 // Teachiworld Auto Insurance

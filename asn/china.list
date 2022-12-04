@@ -1,4 +1,4 @@
-# updated at 2022-11-27 23:58:58+08:00
+# updated at 2022-12-04 23:02:09+08:00
 
 IP-ASN,4134 // China Telecom Backbone
 IP-ASN,4538 // China Education and Research Network Center
@@ -177,6 +177,7 @@ IP-ASN,38381 // west wing no.157,dongsi west street Dongcheng, Beijing, China
 IP-ASN,38564 // NVIDIA Asia Internet Gateway
 IP-ASN,38834 // NVIDIA-BANGALORE
 IP-ASN,42962 // CoreLink Network
+IP-ASN,44421 // Yifu Yu
 IP-ASN,45057 // CHINA TIETONG SHANGHAI
 IP-ASN,45058 // Golden-Bridge Netcom communication Co.,LTD.
 IP-ASN,45061 // Shanghai Information Network Co.,Ltd.
@@ -379,7 +380,6 @@ IP-ASN,133846 // IMLONGHAO
 IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
 IP-ASN,133952 // Zhengzhou longling technology ltd.
 IP-ASN,134238 // CHINANET Jiangx province IDC network
-IP-ASN,134413 // KMNIX LLC
 IP-ASN,134417 // Nanjing
 IP-ASN,134419 // China Telecom Beihai
 IP-ASN,134420 // Chongqing Telecom
@@ -498,7 +498,6 @@ IP-ASN,139057 // Baishan Cloud
 IP-ASN,139061 // Societe Generale (China) Limited
 IP-ASN,139080 // The Internet Data Center of Sichuan Mobile Communication Company Limited
 IP-ASN,139090 // Wuxi Education Information Management Service Center
-IP-ASN,139091 // Shanghai MBN telecommunication technology Co., LTD.
 IP-ASN,139099 // Zhejiang Geely Holding Group
 IP-ASN,139108 // Beckman Coulter Commercial Enterprise(China)Co.,Ltd.
 IP-ASN,139110 // Lenovo Mobile Communication Technology (Beijing) Ltd
@@ -574,6 +573,7 @@ IP-ASN,142611 // Shanghai Tujuan Information Technology Co., Ltd.
 IP-ASN,146746 // TaiKang Insurance Group CO.,LTD.,Wuhan Operating Center
 IP-ASN,146758 // ShangHai Sensetime Technology Development Co., Ltd.
 IP-ASN,146769 // Maanshan xinghuo Network Technology Co., Ltd
+IP-ASN,146772 // Shenzhen Pengcheng communication network Co., Ltd
 IP-ASN,146809 // Poly facility (Beijing) Technology Co., Ltd.
 IP-ASN,146812 // Deutsche Bank (China) Co., Ltd. Shanghai Branch
 IP-ASN,146814 // Hong Kong University of Science and Technology, Dongchung Town,
@@ -595,6 +595,16 @@ IP-ASN,150145 // China Telecom
 IP-ASN,150161 // Shanghai Data Solution Co., Ltd
 IP-ASN,150173 // PoloCloud Computing (Hong Kong) Limited
 IP-ASN,150374 // Jiang Men Shi Tian Da Cloud Co. Ltd
+IP-ASN,203691 // Li Ma
+IP-ASN,205651 // Hao Qiao
+IP-ASN,206628 // Tianyu-Zhu
+IP-ASN,208993 // Wei Xiaofan
+IP-ASN,209218 // Yang Qi
+IP-ASN,209306 // Jin Shaohai
+IP-ASN,209650 // Wu Zhiyuan
+IP-ASN,209864 // Zhaofeng Li
+IP-ASN,210025 // Chen Qian
 IP-ASN,210041 // Licheng MAO
 IP-ASN,211843 // Nanjing Tiankai Information Technology Co.Ltd.
 IP-ASN,212237 // Changgong Zhang
+IP-ASN,212793 // Xiwei Ye
