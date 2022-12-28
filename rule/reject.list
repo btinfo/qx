@@ -43,7 +43,7 @@ host-suffix, gorgon.youdao.com
 host-suffix, i18n-pglstatp.com
 host-suffix, moatads.com
 host-suffix, nex.163.com
-host-suffix, p2p.huya.com
+#host-suffix, p2p.huya.com
 host-suffix, pglstatp-toutiao.com
 host-suffix, p.twitter.com
 host-suffix, scribe.twitter.com
