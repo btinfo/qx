@@ -1,0 +1,4 @@
+host-suffix, boltdns.net, reject
+host-suffix, outbrain.com, reject
+host-suffix, vidazoo.com, reject
+host-suffix, akamaihd.net, reject
