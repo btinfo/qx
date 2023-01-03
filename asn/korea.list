@@ -1,4 +1,5 @@
-# updated at 2022-12-11 01:53:38+08:00
+# updated at 2023-01-03 20:49:35+08:00
+
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
 IP-ASN,1781 // Korea Advanced Institute of Science and Technology
@@ -45,7 +46,7 @@ IP-ASN,9271 // Wonkwang University
 IP-ASN,9273 // Ssangyong
 IP-ASN,9274 // Pusan National University
 IP-ASN,9275 // Korea Astronomy Observatory
-IP-ASN,9276 // Chinae Savings Bank
+IP-ASN,9276 // JT Chinae Savings Bank
 IP-ASN,9277 // SK Broadband Co Ltd
 IP-ASN,9286 // KINX
 IP-ASN,9316 // DACOM-PUBNETPLUS
@@ -500,7 +501,7 @@ IP-ASN,38090 // pearlabyss
 IP-ASN,38091 // LG HelloVision Corp.
 IP-ASN,38093 // HANATI
 IP-ASN,38095 // SK Broadband Co Ltd
-IP-ASN,38096 // Qrixnowoncable, Inc.
+IP-ASN,38096 // SK Broadband Co Ltd
 IP-ASN,38097 // SK Broadband Co Ltd
 IP-ASN,38098 // NICEPAYMENTS.CO
 IP-ASN,38099 // Kakao Corp
@@ -624,7 +625,7 @@ IP-ASN,45372 // ULNetworks Co., Ltd.
 IP-ASN,45373 // KSCFC
 IP-ASN,45374 // CCS
 IP-ASN,45375 // Firstfire Marine Insurance
-IP-ASN,45376 // HALLAHOLDINGS
+IP-ASN,45376 // HL Holdings Corporation
 IP-ASN,45377 // Jeju Special Self Governing Provincial office of Education
 IP-ASN,45379 // Ulsan National Institute of Science and Technology
 IP-ASN,45380 // MMAAC C
@@ -685,6 +686,7 @@ IP-ASN,46006 // Cafe24 Corp.
 IP-ASN,46007 // RXN
 IP-ASN,46009 // YABESK
 IP-ASN,46010 // SAMJUNG DATA SERVICE
+IP-ASN,46011 // LX
 IP-ASN,46012 // Induk University
 IP-ASN,55584 // Korea Power Exchange
 IP-ASN,55585 // CAPE Investment Securitie Co., Ltd.
@@ -751,7 +753,7 @@ IP-ASN,131812 // Humax Networks, INC.
 IP-ASN,131814 // Presbyterian Medical Center
 IP-ASN,131815 // Nonghyup Property and Casualty Insurance Co.,Ltd
 IP-ASN,131816 // IBK Insurance
-IP-ASN,131817 // Minwise Co., Ltd
+IP-ASN,131817 // Hecto Innovation Co., Ltd
 IP-ASN,131819 // Doosan Engineering Construction Co.,Ltd
 IP-ASN,131820 // HMM
 IP-ASN,131822 // Korea National University of Transportation
@@ -764,7 +766,7 @@ IP-ASN,131833 // Kia Corporation
 IP-ASN,131834 // LeeKo
 IP-ASN,131836 // Firstfire Marine Insurance
 IP-ASN,131838 // eBEST INVESTMENTSECURITIES
-IP-ASN,131839 //
+IP-ASN,131839 // mmaa
 IP-ASN,131847 // Korea District Heating Corporation
 IP-ASN,131848 // YUHAN
 IP-ASN,131850 // Teachiworld Auto Insurance
@@ -772,7 +774,7 @@ IP-ASN,131851 // Teachiworld Auto Insurance
 IP-ASN,131855 // viva republica
 IP-ASN,131856 // WONJU SEVERANCE CHRISTIAN HOSPITAL
 IP-ASN,131873 // HARIM
-IP-ASN,131882 //
+IP-ASN,131882 // Chungnam National University Hospital
 IP-ASN,131883 // INSTITUTES OF GREENBIO SCIENCE AND TECHNOLOGY
 IP-ASN,136800 // MOACK.Co.LTD
 IP-ASN,138195 // MOACK.Co.LTD
