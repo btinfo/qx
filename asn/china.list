@@ -1,4 +1,4 @@
-# updated at 2023-01-03 20:47:37+08:00
+# updated at 2023-01-14 18:13:18+08:00
 
 IP-ASN,4134 // China Telecom Backbone
 IP-ASN,4538 // China Education and Research Network Center
@@ -270,6 +270,7 @@ IP-ASN,59010 // UnionFriend Network information service Co.,LTD
 IP-ASN,59011 // Beijing Yunlin Network Technology Co.,Ltd.
 IP-ASN,59012 // China Grain Reserves Group LTD.Company
 IP-ASN,59019 // Beijing Kingsoft Cloud Internet Technology Co., Ltd
+IP-ASN,59022 // Kunming Broadcast&TV Network CO.,LTD
 IP-ASN,59025 // Beijing Sankuai Technology Co.,Ltd.
 IP-ASN,59029 // People.Cn CO.,LTD
 IP-ASN,59033 // Esun Technology(Shanghai) Co.,Ltd
@@ -406,7 +407,6 @@ IP-ASN,135357 // Shenzhen Katherine Heng Technology Information Co., Ltd.
 IP-ASN,135363 // Beijing Dunhuang Heguang Information Technology Co.,Lt.
 IP-ASN,135629 // Ningxia West Cloud Data Technology Co.Ltd.
 IP-ASN,135646 // Luginbash AS
-IP-ASN,135663 // ShenZhen rainbow Computer Network company Limited
 IP-ASN,135671 // RBB InfoTech
 IP-ASN,136146 // Beijing 3389 Network Technology Co., Ltd.
 IP-ASN,136160 // Beijing Shijihulian Yuntong Network Technology Co., Ltd.
@@ -564,12 +564,14 @@ IP-ASN,141776 // Baoshuo Network
 IP-ASN,141998 // China Telecom
 IP-ASN,142111 // Zhejiang Aiyun Network Technology Co Ltd
 IP-ASN,142404 // China Telecom
+IP-ASN,142553 // Airs Project Private Network Main
 IP-ASN,142608 // China Telecom
 IP-ASN,142611 // Shanghai Tujuan Information Technology Co., Ltd.
 IP-ASN,146746 // TaiKang Insurance Group CO.,LTD.,Wuhan Operating Center
 IP-ASN,146758 // ShangHai Sensetime Technology Development Co., Ltd.
 IP-ASN,146769 // Maanshan xinghuo Network Technology Co., Ltd
 IP-ASN,146809 // Poly facility (Beijing) Technology Co., Ltd.
+IP-ASN,146811 //
 IP-ASN,146812 // Deutsche Bank (China) Co., Ltd. Shanghai Branch
 IP-ASN,146814 // Hong Kong University of Science and Technology, Dongchung Town,
 IP-ASN,146822 // Shenzhenshi Zhongyun Shujujishu Youxiangongsi
@@ -602,5 +604,6 @@ IP-ASN,209864 // Zhaofeng Li
 IP-ASN,210025 // Chen Qian
 IP-ASN,210041 // Licheng MAO
 IP-ASN,211051 // Dazhong Technology Network Studio of Tieling County
+IP-ASN,211843 // Nanjing Tiankai Information Technology Co.Ltd.
 IP-ASN,212237 // Changgong Zhang
 IP-ASN,212793 // Xiwei Ye

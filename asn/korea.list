@@ -1,4 +1,4 @@
-# updated at 2023-01-03 20:49:35+08:00
+# updated at 2023-01-14 18:14:35+08:00
 
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
@@ -305,7 +305,7 @@ IP-ASN,17575 // Chung-Ang University
 IP-ASN,17576 // National Research Foundation of Korea
 IP-ASN,17577 // LG HelloVision Corp.
 IP-ASN,17578 // CHEJU HALLA UNIVERSITY
-IP-ASN,17579 // KISTI
+IP-ASN,17579 //
 IP-ASN,17580 // National Pension Service
 IP-ASN,17581 // Daewoo Securities Co., Ltd.
 IP-ASN,17582 // Korea Investment Corporation
@@ -773,6 +773,7 @@ IP-ASN,131850 // Teachiworld Auto Insurance
 IP-ASN,131851 // Teachiworld Auto Insurance
 IP-ASN,131855 // viva republica
 IP-ASN,131856 // WONJU SEVERANCE CHRISTIAN HOSPITAL
+IP-ASN,131869 // UST
 IP-ASN,131873 // HARIM
 IP-ASN,131882 // Chungnam National University Hospital
 IP-ASN,131883 // INSTITUTES OF GREENBIO SCIENCE AND TECHNOLOGY
