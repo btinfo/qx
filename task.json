@@ -2,7 +2,7 @@
     "name":"task",
     "description":"定时执行签到任务",
     "task":[
-        "0 10 0 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云盘, img-url=https://raw.githubusercontent.com/LibertyLucas/Img/main/fileball/Aliyunpan.png",
+        "0 10 0 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云盘",
         "1 0 * * * dongqiudi.js, tag=懂球帝, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dongqiudi.png"
     ]
 }
