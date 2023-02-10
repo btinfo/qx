@@ -1,8 +1,0 @@
-{
-    "name":"签到任务",
-    "description":"Crontab Task Gallery",
-    "task":[
-        "0 10 0 * * ? aliyunpan.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/LibertyLucas/Img/main/fileball/Aliyunpan.png",
-        "1 0 * * * dongqiudi.js, tag=懂球帝签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dongqiudi.png"
-    ]
-}
