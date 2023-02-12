@@ -1,39 +1,37 @@
-
-####
-host-suffix, livewebbs2.msstatic.com, reject
-host-suffix, diy-assets.msstatic.com, reject
-host-suffix, trace.rtbasia.com, reject
-host-suffix, miaozhen.com, reject
-host-suffix, sv.cdn.n1q.cn, reject
-host-suffix, livewebbs2pcdn.msstatic.com, reject
-host-suffix, pglstatp-toutiao.com, reject
-host-suffix, livewebbs2pcdn.msstatic.com, reject
-
-host, statwup.huya.com, reject
-host-suffix, qvb.qcloud.com, reject
-host, huya-d.xylive.tv, reject
-host-suffix, hyext.com, reject
-host, conf.qvb.qcloud.com, reject
-host, cdnfile1.msstatic.com, reject
-host, diy-assets.msstatic.com, reject
-host-suffix, ext.huya.com, reject
-host, v-upload.huya.com, reject
-host, ocsp.digicert.com, reject
-host, udbdf.huya.com, reject
-host, cdnfile.huya.com, reject
-host, extsdk-msstatic.cdn.huya.com, reject
-host, hd.huya.com, reject
-host, e-stat.huya.com, reject
-host, ffilelogapp.huya.com, reject
 host, business.msstatic.com, reject
-host, configapi.huya.com, reject
-host, ylog.huya.com, reject
-host, statwup.huya.com, reject
-host, kiwistatic.huya.com, reject
-host, hydl.huya.com, reject
-host, pagead2.googleadservices.com, reject
+host, diy-assets.msstatic.com, reject
+host, ffilelogapp.huya.com, reject
 host, fileserver.cdn.huya.com, reject
+host, kiwistatic.huya.com, reject
+host, livewebbs2.msstatic.com, reject
+host, statwup.huya.com, reject
+host-suffix, ext.huya.com, reject
+host-suffix, hyext.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-suffix, trace.rtbasia.com, reject
+host, udbdf.huya.com, reject
+host, v-upload.huya.com, reject
+host, ylog.huya.com, reject
 
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/ url reject
+#host, cdnfile1.msstatic.com, reject
+#host, cdnfile.huya.com, reject
+#host, configapi.huya.com, reject
+#host, conf.qvb.qcloud.com, reject
+#host, e-stat.huya.com, reject
+#host, extsdk-msstatic.cdn.huya.com, reject
+#host, hd.huya.com, reject
+#host, huya-d.xylive.tv, reject
+#host, hydl.huya.com, reject
+#host, ocsp.digicert.com, reject
+#host, pagead2.googleadservices.com, reject
+#host-suffix, qvb.qcloud.com, reject
+#host-suffix, sv.cdn.n1q.cn, reject
 
+# %livewebbs2pcdn.msstatic.com%
+^https?:\/\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/ url reject-200
+
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/ url reject-200
+
+# %huyaimg.msstatic.com%
 ^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/ url reject-200
