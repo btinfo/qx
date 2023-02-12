@@ -11,8 +11,13 @@ host, e-ad-monitor.huya.com, reject
 # ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
 # ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ url reject
 ###
-
--host, livewebbs2pcdn.msstatic.com, reject
+host-suffix, diy-assets.msstatic.com, reject
+host-suffix, trace.rtbasia.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, sv.cdn.n1q.cn, reject
+host-suffix, livewebbs2pcdn.msstatic.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host, livewebbs2pcdn.msstatic.com, reject
 
 host, statwup.huya.com, reject
 host-suffix, qvb.qcloud.com, reject
