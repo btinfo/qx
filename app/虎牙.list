@@ -1,8 +1,8 @@
 # host, s1-static.msstatic.com, reject # 比赛数据不能加载
-host, business.msstatic.com, reject
-host, kiwistatic.huya.com, reject
+# host, business.msstatic.com, reject
+# host, kiwistatic.huya.com, reject
 host, livewebbs2.msstatic.com, reject
-host-suffix, msstatic.com, direct
+# host-suffix, msstatic.com, direct
 host-suffix, p2p.huya.com, reject
 host, e-ad-monitor.huya.com, reject
 
