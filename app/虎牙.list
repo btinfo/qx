@@ -1,16 +1,6 @@
-# host, s1-static.msstatic.com, reject # 比赛数据不能加载
-# host, business.msstatic.com, reject
-# host, kiwistatic.huya.com, reject
-host, livewebbs2.msstatic.com, reject
-# host-suffix, msstatic.com, direct
-host-suffix, p2p.huya.com, reject
-host, e-ad-monitor.huya.com, reject
 
-# %cdnfile1.msstatic.com%
-^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject
-# ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
-# ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ url reject
-###
+####
+host, livewebbs2.msstatic.com, reject
 host-suffix, diy-assets.msstatic.com, reject
 host-suffix, trace.rtbasia.com, reject
 host-suffix, miaozhen.com, reject
@@ -43,7 +33,10 @@ host, kiwistatic.huya.com, reject
 -host, s1-static.msstatic.com, reject
 host, hydl.huya.com, reject
 host, pagead2.googleadservices.com, reject
+host, fileserver.cdn.huya.com, reject
 
+http://1.183.85.158:35674/livewebbs2pcdn.msstatic.com/bannerconfig/ url reject
+^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/ url reject-200
 ^https:\/\/qidian.qpic.cn\/qidian_common\/* url reject-200
 #^https:\/\/ylog.huya.com\/d.gif* url reject-200
 ^https:\/\/www.huya.com\/act\/huyaDIYzt\/*  url reject-200
