@@ -10,3 +10,12 @@ host, e-ad-monitor.huya.com, reject
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject
 # ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
 # ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ url reject
+###
+^https:\/\/qidian.qpic.cn\/qidian_common\/* url reject-200
+#^https:\/\/ylog.huya.com\/d.gif* url reject-200
+^https:\/\/www.huya.com\/act\/huyaDIYzt\/*  url reject-200
+^https:\/\/hm.baidu.com\/hm.js* url reject-200
+^https:\/\/a.msstatic.com\/huya/main3\/widget\/* url reject-200
+^https:\/\/hyext.cdn.huya.com\/ext-web-mid\/* url reject-200
+^https:\/\/livewebbs2.msstatic.com\/function_component\/* url reject-200
+^https:\/\/business.msstatic.com\/dsp\/image/*  url reject-200
