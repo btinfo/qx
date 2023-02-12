@@ -16,14 +16,13 @@ host, ylog.huya.com, reject
 
 # %livewebbs2pcdn.msstatic.com%
 ^https?:\/\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
-
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
 
 # %livewebbs2.msstatic.com%
-^https:\/\/livewebbs2\.msstatic\.com\/function_component\/* url reject-200
+^https?:\/\/livewebbs2\.msstatic\.com\/function_component\/* url reject-200
 
 # %business.msstatic.com%
-^https:\/\/business\.msstatic\.com\/advertiser\/* url reject-200
+^https?:\/\/business\.msstatic\.com\/advertiser\/* url reject-200
 
 # %diy-assets.msstatic.com%
-^https:\/\/diy\-assets\.msstatic\.com\/hyys\/* url reject-200
+^https?:\/\/diy\-assets\.msstatic\.com\/hyys\/* url reject-200
