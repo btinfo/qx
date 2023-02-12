@@ -11,6 +11,34 @@ host, e-ad-monitor.huya.com, reject
 # ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
 # ^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/ url reject
 ###
+
+-host, livewebbs2pcdn.msstatic.com, reject
+
+host, statwup.huya.com, reject
+host-suffix, qvb.qcloud.com, reject
+host, huya-d.xylive.tv, reject
+host-suffix, hyext.com, reject
+host, conf.qvb.qcloud.com, reject
+host, cdnfile1.msstatic.com, reject
+host, diy-assets.msstatic.com, reject
+host-suffix, ext.huya.com, reject
+host, v-upload.huya.com, reject
+host, ocsp.digicert.com, reject
+host, udbdf.huya.com, reject
+host, cdnfile.huya.com, reject
+host, extsdk-msstatic.cdn.huya.com, reject
+host, hd.huya.com, reject
+host, e-stat.huya.com, reject
+host, ffilelogapp.huya.com, reject
+host, business.msstatic.com, reject
+host, configapi.huya.com, reject
+host, ylog.huya.com, reject
+host, statwup.huya.com, reject
+host, kiwistatic.huya.com, reject
+-host, s1-static.msstatic.com, reject
+host, hydl.huya.com, reject
+host, pagead2.googleadservices.com, reject
+
 ^https:\/\/qidian.qpic.cn\/qidian_common\/* url reject-200
 #^https:\/\/ylog.huya.com\/d.gif* url reject-200
 ^https:\/\/www.huya.com\/act\/huyaDIYzt\/*  url reject-200
