@@ -14,24 +14,11 @@ host, udbdf.huya.com, reject
 host, v-upload.huya.com, reject
 host, ylog.huya.com, reject
 
-#host, cdnfile1.msstatic.com, reject
-#host, cdnfile.huya.com, reject
-#host, configapi.huya.com, reject
-#host, conf.qvb.qcloud.com, reject
-#host, e-stat.huya.com, reject
-#host, extsdk-msstatic.cdn.huya.com, reject
-#host, hd.huya.com, reject
-#host, huya-d.xylive.tv, reject
-#host, hydl.huya.com, reject
-#host, ocsp.digicert.com, reject
-#host, pagead2.googleadservices.com, reject
-#host-suffix, qvb.qcloud.com, reject
-#host-suffix, sv.cdn.n1q.cn, reject
-
 # %livewebbs2pcdn.msstatic.com%
-^https?:\/\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/ url reject-200
+^https?:\/\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
 
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/ url reject-200
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
 
-# %huyaimg.msstatic.com%
-^https:\/\/huyaimg\.msstatic\.com\/cdnimage\/ url reject-200
+# %livewebbs2.msstatic.com,business.msstatic.com%
+^https:\/\/livewebbs2\.msstatic\.com\/function_component\/* url reject-200
+^https:\/\/business\.msstatic\.com\/advertiser\/* url reject-200
