@@ -1,0 +1,6 @@
+# v7.21
+host, business.msstatic.com, reject
+host, cdnfile1.msstatic.com, reject
+host, fileserver.cdn.huya.com, reject
+host, kiwistatic.huya.com, reject
+host, livewebbs2.msstatic.com, reject
