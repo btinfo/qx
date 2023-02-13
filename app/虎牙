@@ -1,28 +1,5 @@
-#host, business.msstatic.com, reject
-#host, diy-assets.msstatic.com, reject
-host, ffilelogapp.huya.com, reject
-host, fileserver.cdn.huya.com, reject
-host, kiwistatic.huya.com, reject
-#host, livewebbs2.msstatic.com, reject
-host, statwup.huya.com, reject
-host-suffix, ext.huya.com, reject
-host-suffix, hyext.com, reject
-host-suffix, miaozhen.com, reject
-host-suffix, pglstatp-toutiao.com, reject
-host-suffix, trace.rtbasia.com, reject
-host, udbdf.huya.com, reject
-host, v-upload.huya.com, reject
-host, ylog.huya.com, reject
-
-# %livewebbs2pcdn.msstatic.com%
-^https?:\/\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d{5}\/livewebbs2pcdn\.msstatic\.com\/bannerconfig\/* url reject-200
-
-# %livewebbs2.msstatic.com%
-^https?:\/\/livewebbs2\.msstatic\.com\/function_component\/* url reject-200
-
-# %business.msstatic.com%
-^https?:\/\/business\.msstatic\.com\/advertiser\/* url reject-200
-
-# %diy-assets.msstatic.com%
-^https?:\/\/diy\-assets\.msstatic\.com\/hyys\/* url reject-200
+host, kiwistatic.huya.com
+host, business.msstatic.com
+host, fileserver.cdn.huya.com
+host, cdnfile1.msstatic.com
+host, livewebbs2.msstatic.com
