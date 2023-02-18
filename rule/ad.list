@@ -97,7 +97,6 @@ host-suffix, adcloud.jp
 host-suffix, adcloud.net
 host-suffix, ad.cmvideo.cn
 host-suffix, adcocktail.com
-host-suffix, adcolony.com
 host-suffix, adcomplete.ru
 host-suffix, adcrowd.com
 host-suffix, addapptr.com
@@ -130,7 +129,6 @@ host-suffix, admarvel.com
 host-suffix, admaster.com.cn
 host-suffix, ad-maven.com
 host-suffix, admicro.vn
-host-suffix, admob.com
 host-suffix, ad-move.jp
 host-suffix, adnetwork.vn
 host-suffix, adnxs.com
@@ -174,7 +172,6 @@ host-suffix, aiclk.com
 host-suffix, airpush.com
 host-suffix, a.ki
 host-suffix, algovid.com
-host-suffix, amazon-adsystem.com
 host-suffix, amoad.com
 host-suffix, amobee.com
 host-suffix, app-adforce.jp
@@ -183,8 +180,6 @@ host-suffix, appcpi.net
 host-suffix, appier.net
 host-suffix, appliedq.com
 host-suffix, applift.com
-host-suffix, applovin.com
-host-suffix, applvn.com
 host-suffix, appsflyer.com
 host-suffix, apsalar.com
 host-suffix, apxadtracking.net
@@ -236,7 +231,6 @@ host-suffix, inmobicdn.net
 host-suffix, inmobi.cn
 host-suffix, inmobi.com
 host-suffix, inmobi.net
-host-suffix, inner-active.mobi
 host-suffix, innovid.com
 host-suffix, inpagepush.com
 host-suffix, insurads.com
@@ -263,7 +257,6 @@ host-suffix, miaozhen.com
 host-suffix, moatads.com
 host-suffix, mobclix.com
 host-suffix, mookie1.com
-host-suffix, mopub.com
 host-suffix, mplxtms.com
 host-suffix, mpnrs.com
 host-suffix, msads.net
@@ -297,7 +290,6 @@ host-suffix, open-adx.com
 host-suffix, openx.com
 host-suffix, openx.net
 host-suffix, optimix.asia
-host-suffix, outbrain.com
 host-suffix, outbrainimg.com
 host-suffix, outbrain.org
 host-suffix, owneriq.net
@@ -324,7 +316,6 @@ host-suffix, popin.cc
 host-suffix, postrelease.com
 host-suffix, prebid.org
 host-suffix, premiumads.com.br
-host-suffix, presage.io
 host-suffix, programattik.com
 host-suffix, pro-market.net
 host-suffix, promotionengine.com
@@ -371,7 +362,6 @@ host-suffix, sekindo.com
 host-suffix, servebom.com
 host-suffix, servedby-buysellads.com
 host-suffix, servedbyopenx.com
-host-suffix, serving-sys.com
 host-suffix, sgdmobile.com
 host-suffix, shareaholic.com
 host-suffix, sharethrough.com
@@ -394,7 +384,6 @@ host-suffix, smart-c.jp
 host-suffix, smartclip.net
 host-suffix, smartnews-ads.com
 host-suffix, snapads.com
-host-suffix, socdm.com
 host-suffix, sojern.com
 host-suffix, sonobi.com
 host-suffix, speedshiftmedia.com
@@ -419,8 +408,6 @@ host-suffix, sunnyworks.co.kr
 host-suffix, superad2.com.sg
 host-suffix, superadbox.com
 host-suffix, superads.cn
-host-suffix, supersonicads.com
-host-suffix, supersonic.com
 host-suffix, synergy-e.com
 host-suffix, tabmo.io
 host-suffix, taboola.com
@@ -458,13 +445,11 @@ host-suffix, tremorvideo.com
 host-suffix, tresensa.com
 host-suffix, trfmxt.com
 host-suffix, trvdp.com
-host-suffix, tubemogul.com
 host-suffix, tuifish.com
 host-suffix, tuitiger.com
 host-suffix, turn.com
 host-suffix, tutoads.tv
 host-suffix, u-ad.info
-host-suffix, uberads.com
 host-suffix, uimserv.net
 host-suffix, ultraadserver.com
 host-suffix, undertone.com
@@ -486,7 +471,6 @@ host-suffix, vendimob.pl
 host-suffix, vertamedia.com
 host-suffix, verticalscope.com
 host-suffix, vervemobile.com
-host-suffix, vidazoo.com
 host-suffix, videoadex.com
 host-suffix, videohub.tv
 host-suffix, vidoomy.com
@@ -562,56 +546,181 @@ host, log.51wnl-cq.com
 host, r.51wnl-cq.com
 
 # (A)
+# > Acfun
+host, apilog-web.acfun.cn
+
+# > adcolony
+host-suffix, adcolony.com
+
+# > adjust
+host-suffix, adjust.com
+
+# > adobe
+host, advertising.adobe.com
+host-suffix, tubemogul.com
+
+# > Amazon
+host-suffix, amazon-adsystem.com
+host-suffix, serving-sys.com
+
 # > Apple
-host-suffix, adserver.unityads.unity3d.com
-host-suffix, ads.internal.unity3d.com
-host-suffix, ads.prd.ie.internal.unity3d.com
 host-suffix, api-adservices.apple.com
 host-suffix, iadsdk.apple.com
-host-suffix, unityads.unity3d.com
+host-suffix, iad.apple.com
+host-suffix, qwapi.com
+
+# > Applovin
+host-suffix, applovin.com
+host-suffix, applvn.com
+
+# > Atom
+host-suffix, atom-data.io
+host-suffix, analytics-data.io
+host-suffix, ironbeast.io
 
 # --- (Alibaba) ---
-host, amdc.m.taobao.com
+host-suffix, a.alimama.cn
 host-suffix, acjs.aliyun.com
+host-suffix, adashbc.m.taobao.com
+host-suffix, adashbc.ut.taobao.com
 host-suffix, adash-c.m.taobao.com
 host-suffix, adash-c.ut.taobao.com
+host-suffix, adash.m.taobao.com
+host-suffix, adashx4ae.ut.taobao.com
 host-suffix, adashx4yt.m.taobao.com
 host-suffix, adashxgc.ut.taobao.com
 host-suffix, adashx.m.taobao.com
+host-suffix, adsh.m.taobao.com
+host-suffix, afp.adchina.com
 host-suffix, afp.alicdn.com
+host-suffix, agoodm.m.taobao.com
+host-suffix, agoodm.wapa.taobao.com
 host-suffix, ai.m.taobao.com
 host-suffix, alipaylog.com
+host-suffix, amdc.alipay.com
+host-suffix, amdc.m.taobao.com
+host-suffix, api.wapa.taobao.com
+host-suffix, api.waptest.taobao.com
+host-suffix, apoll.m.taobao.com
+host-suffix, appdownload.alicdn.com
 host-suffix, atanx2.alicdn.com
 host-suffix, atanx.alicdn.com
+host-suffix, cdn0.mobmore.com
+host-suffix, click.aliyun.com
+host-suffix, click.mz.simba.taobao.com
+host-suffix, cm.ipinyou.com
+host-suffix, cm.mlt01.com
+host-suffix, dsp.simba.taobao.com
+host-suffix, err.taobao.com
+host-suffix, ex.mobmore.com
+host-suffix, ex.puata.info
 host-suffix, fav.simba.taobao.com
+host-suffix, feedback.whalecloud.com
+host-suffix, ff.win.taobao.com
+host-suffix, fm.p0y.cn
 host-suffix, g.click.taobao.com
 host-suffix, gma.alicdn.com
 host-suffix, g.tbcdn.cn
+host-suffix, gtms01.alicdn.com
+host-suffix, gtms02.alicdn.com
+host-suffix, gtms03.alicdn.com
+host-suffix, gtms04.alicdn.com
 host-suffix, gtmsdd.alicdn.com
 host-suffix, h-adashx.ut.taobao.com
 host-suffix, hydra.alibaba.com
+host-suffix, hz.pre.tbusergw.taobao.net
+host-suffix, hz.tbusergw.taobao.net
+host-suffix, i.ipinyou.com
+host-suffix, init.phpwind.com
+host-suffix, intl.wapa.taobao.com
+host-suffix, intl.waptest.taobao.com
+host-suffix, jxlog.istreamsche.com
+host-suffix, log.umtrack.com
+host-suffix, match.p4p.1688.com
+host-suffix, material.istreamsche.com
+host-suffix, m.intl.taobao.com
+host-suffix, mlt01.com
 host-suffix, m.simba.taobao.com
+host-suffix, nbsdk-baichuan.alicdn.com
+host-suffix, nbsdk-baichuan.taobao.com
+host-suffix, osfota.cdn.aliyun.com
+host-suffix, osupdate.aliyun.com
+host-suffix, osupdateservice.yunos.com
 host-suffix, pindao.huoban.taobao.com
+host-suffix, push.wandoujia.com
 host-suffix, redirect.simba.taobao.com
 host-suffix, re.m.taobao.com
+host-suffix, re.taobao.com
+host-suffix, rj.m.taobao.co
 host-suffix, rj.m.taobao.com
 host-suffix, sdkinit.taobao.com
 host-suffix, show.re.taobao.com
 host-suffix, simaba.m.taobao.com
 host-suffix, simaba.taobao.com
+host-suffix, simba.m.taobao.com
 host-suffix, srd.simba.taobao.com
+host-suffix, stats.ipinyou.com
 host-suffix, strip.taobaocdn.com
+host-suffix, tanxlog.istreamsche.com
+host-suffix, tejia.taobao.com
+host-suffix, temai.taobao.com
 host-suffix, tns.simba.taobao.com
+host-suffix, tongji.linezing.com
+host-suffix, tvupgrade.yunos.com
 host-suffix, tyh.taobao.com
 host-suffix, userimg.qunar.com
+host-suffix, w.m.taobao.com
 host-suffix, yiliao.hupan.com
 host, tunion-api.m.taobao.com
 
 # > YOUKU
-host-suffix, atm.youku.com
-host, ad.mobile.youku.com
-host, iyes.youku.com
 host, pl.cp31.ott.cibntv.net
+host-suffix, actives.youku.com
+host-suffix, ad.api.3g.youku.com
+host-suffix, ad.api.mobile.youku.com
+host-suffix, ad.mobile.youku.com
+host-suffix, a-dxk.play.api.3g.youku.com
+host-suffix, atm.youku.com
+host-suffix, b.smartvideo.youku.com
+host-suffix, c.yes.youku.com
+host-suffix, das.api.youku.com
+host-suffix, das.mobile.youku.com
+host-suffix, dev-push.m.youku.com
+host-suffix, dl.g.youku.com
+host-suffix, dmapp.youku.com
+host-suffix, e.stat.ykimg.com
+host-suffix, gamex.mobile.youku.com
+host-suffix, guanggaoad.youku.com
+host-suffix, hudong.pl.youku.com
+host-suffix, huodong.pl.youku.com
+host-suffix, huodong.vip.youku.com
+host-suffix, hz.youku.com
+host-suffix, iyes.youku.com
+host-suffix, lstat.youku.com
+host-suffix, l.ykimg.com
+host-suffix, mobilemsg.youku.com
+host-suffix, msg.youku.com
+host-suffix, myes.youku.com
+host-suffix, passport-log.youku.com
+host-suffix, p-log.ykimg.com
+host-suffix, p.l.youku.com
+host-suffix, pl.youku.com
+host-suffix, push.m.youku.com
+host-suffix, r.l.youku.com
+host-suffix, sdk.m.youku.com
+host-suffix, s.p.youku.com
+host-suffix, statis.api.3g.youku.com
+host-suffix, stat.youku.com
+host-suffix, store.tv.api.3g.youku.com
+host-suffix, store.xl.api.3g.youku.com
+host-suffix, tdrec.youku.com
+host-suffix, test.ott.youku.com
+host-suffix, test.sdk.m.youku.com
+host-suffix, val.api.youku.com
+host-suffix, v.l.youku.com
+host-suffix, wan.youku.com
+host-suffix, ykatr.youku.com
+host-suffix, ykrec.youku.com
 
 # > AMap
 host, optimus-ads.amap.com
@@ -630,13 +739,8 @@ host, adm3.autoimg.cn
 
 # (B)
 # --- (Baidu) ---
-host, afd.baidu.com
-host, als.baidu.com
 host, duclick.baidu.com
-host, mobads.baidu.com
-host, mobads-logs.baidu.com
 host, nadvideo2.baidu.com
-host, nsclick.baidu.com
 host-suffix, a.baidu.cn
 host-suffix, a.baidu.com
 host-suffix, ad.duapps.com
@@ -655,6 +759,7 @@ host-suffix, anquan.baidu.cn
 host-suffix, anquan.baidu.com
 host-suffix, antivirus.baidu.com
 host-suffix, api.mobula.sdk.duapps.com
+host-suffix, api.tuisong.baidu.com
 host-suffix, appc.baidu.cn
 host-suffix, appc.baidu.com
 host-suffix, as.baidu.cn
@@ -666,7 +771,10 @@ host-suffix, baidutv.baidu.com
 host-suffix, baikebcs.bdimg.com
 host-suffix, banlv.baidu.com
 host-suffix, bar.baidu.com
+host-suffix, b.bdstatic.com
+host-suffix, bdimg.share.baidu.com
 host-suffix, bdplus.baidu.com
+host-suffix, bj.bcebos.com
 host-suffix, btlaunch.baidu.com
 host-suffix, c.baidu.cn
 host-suffix, c.baidu.com
@@ -682,9 +790,12 @@ host-suffix, cleaner.baidu.com
 host-suffix, click.bes.baidu.com
 host-suffix, click.hm.baidu.com
 host-suffix, click.qianqian.com
+host-suffix, cm.baichuan.baidu.com
 host-suffix, cm.baidu.com
+host-suffix, cm.pos.baidu.com
 host-suffix, cpro2.baidu.cn
 host-suffix, cpro2.baidu.com
+host-suffix, cpro2.baidustatic.com
 host-suffix, cpro.baidu.cn
 host-suffix, cpro.baidu.com
 host-suffix, cpro.baidustatic.com
@@ -694,6 +805,7 @@ host-suffix, cpu-admin.baidu.com
 host-suffix, crs.baidu.cn
 host-suffix, crs.baidu.com
 host-suffix, datax.baidu.com
+host-suffix, dd713.bj.bcebos.com
 host-suffix, dl1sw.baidu.com
 host-suffix, dl2.bav.baidu.com
 host-suffix, dl.client.baidu.com
@@ -720,11 +832,13 @@ host-suffix, ecmc.bdimg.com
 host-suffix, eiv.baidu.cn
 host-suffix, eiv.baidu.com
 host-suffix, em.baidu.com
+host-suffix, entry.baidu.com
 host-suffix, ers.baidu.com
 host-suffix, f10.baidu.com
 host-suffix, fc-.cdn.bcebos.com
 host-suffix, fc-feed.cdn.bcebos.com
 host-suffix, fclick.baidu.com
+host-suffix, feed.baidu.com
 host-suffix, fexclick.baidu.com
 host-suffix, g.baidu.com
 host-suffix, gimg.baidu.com
@@ -737,6 +851,7 @@ host-suffix, hmma.baidu.cn
 host-suffix, hmma.baidu.com
 host-suffix, hpd.baidu.cn
 host-suffix, hpd.baidu.com
+host-suffix, idm.bce.baidu.com
 host-suffix, idm-su.baidu.com
 host-suffix, iebar.baidu.com
 host-suffix, ikcode.baidu.com
@@ -760,6 +875,7 @@ host-suffix, mobads-logs.baidu.cn
 host-suffix, mobads-logs.baidu.com
 host-suffix, mobads-pre-config.cdn.bcebos.com
 host-suffix, mpro.baidu.com
+host-suffix, msite.baidu.com
 host-suffix, mtj.baidu.cn
 host-suffix, mtj.baidu.com
 host-suffix, neirong.baidu.com
@@ -774,7 +890,6 @@ host-suffix, pups.baidu.com
 host-suffix, pups.bdimg.com
 host-suffix, push.music.baidu.com
 host-suffix, push.zhanzhang.baidu.com
-host-suffix, qchannel0d.cn
 host-suffix, qianclick.baidu.com
 host-suffix, release.baidu.com
 host-suffix, res.limei.com
@@ -786,11 +901,14 @@ host-suffix, rj.baidu.com
 host-suffix, rp.baidu.cn
 host-suffix, rp.baidu.com
 host-suffix, rplog.baidu.com
+host-suffix, sa.tuisong.baidu.com
 host-suffix, s.baidu.com
 host-suffix, sclick.baidu.com
+host-suffix, s.cpro.baidu.com
 host-suffix, sestat.baidu.com
 host-suffix, shadu.baidu.com
 host-suffix, share.baidu.com
+host-suffix, snippet.pos.baidu.com
 host-suffix, sobar.baidu.com
 host-suffix, sobartop.baidu.com
 host-suffix, spcode.baidu.cn
@@ -802,11 +920,13 @@ host-suffix, tk.baidu.cn
 host-suffix, tk.baidu.com
 host-suffix, tkweb.baidu.com
 host-suffix, tob-cms.bj.bcebos.com
+host-suffix, tongji.baidu.com
 host-suffix, toolbar.baidu.com
 host-suffix, tracker.baidu.com
 host-suffix, tuijian.baidu.com
 host-suffix, tuisong.baidu.cn
 host-suffix, tuisong.baidu.com
+host-suffix, uat1.bfsspadserver.8le8le.com
 host-suffix, ubmcmm.baidustatic.com
 host-suffix, ucstat.baidu.cn
 host-suffix, ucstat.baidu.com
@@ -830,6 +950,7 @@ host-suffix, w.gdown.baidu.com
 host-suffix, wisepush.video.baidu.com
 host-suffix, wm.baidu.cn
 host-suffix, wm.baidu.com
+host-suffix, wn.pos.baidu.com
 host-suffix, w.x.baidu.com
 host-suffix, znsv.baidu.cn
 host-suffix, znsv.baidu.com
@@ -837,6 +958,23 @@ host-suffix, zz.bdstatic.com
 host-suffix, zzy1.quyaoya.com
 
 # > iQIYI
+host-suffix, a.ckm.iqiyi.com
+host-suffix, ad.m.iqiyi.com
+host-suffix, afp.iqiyi.com
+host-suffix, cloudpush.iqiyi.com
+host-suffix, cm.passport.iqiyi.com
+host-suffix, c.uaa.iqiyi.com
+host-suffix, cupid.iqiyi.com
+host-suffix, emoticon.sns.iqiyi.com
+host-suffix, gamecenter.iqiyi.com
+host-suffix, hotchat-im.iqiyi.com
+host-suffix, ifacelog.iqiyi.com
+host-suffix, mbdlog.iqiyi.com
+host-suffix, msg2.video.qiyi.com
+host-suffix, msg.71.am
+host-suffix, msg.video.qiyi.com
+host-suffix, policy.video.iqiyi.com
+host-suffix, yuedu.iqiyi.com
 host, t7z.cupid.iqiyi.com
 host, t7z.cupid.ptqy.gitv.tv
 ip-cidr, 101.227.97.240/32
@@ -846,18 +984,24 @@ ip-cidr, 124.192.153.42/32
 # ------
 
 # > ByteDance
-host, ad.toutiao.com
-host, pangolin.snssdk.com
 host-suffix, ad.toutiao.com
+host-suffix, bds.snssdk.com
+host-suffix, ctobsnssdk.com
+host-suffix, dig.bdurl.net
 host-suffix, dsp.toutiao.com
+host-suffix, extlog.snssdk.com
 host-suffix, ic.snssdk.com
+host-suffix, i.snssdk.com
+host-suffix, is.snssdk.com
 host-suffix, log.snssdk.com
+host-suffix, mcs.snssdk.com
 host-suffix, nativeapp.toutiao.com
 host-suffix, pangolin-sdk-toutiao-b.com
 host-suffix, pangolin-sdk-toutiao.com
 host-suffix, pangolin.snssdk.com
 host-suffix, partner.toutiao.com
 host-suffix, pglstatp-toutiao.com
+host-suffix, sf3-ttcdn-tos.pstatp.com
 host-suffix, sm.toutiao.com
 
 # > baicizhan
@@ -904,39 +1048,91 @@ host, dispatcher.360in.com
 host, ad.360in.com
 host, exp.360in.com
 
+# > clearbitjs
+host-suffix, x.clearbitjs.com
+
 # (D)
+# > DMM
+host-suffix, ad.games.dmm.com
+host-suffix, bluekai.com
+host-suffix, fout.jp
+host-suffix, gmossp-sp.jp
+host-suffix, im-apps.net
+host-suffix, i-mobile.co.jp
+host-suffix, impact-ad.jp
+host-suffix, ladsp.com
+host-suffix, microad.co.jp
+host-suffix, microad.jp
+host-suffix, socdm.com
+
 # > 懂球帝
 host, ap.dongqiudi.com
 
+# (E)
+# > emogi-ads.txt
+host-suffix, emogi.com
+
 # （F)
+# > flurry-ads.txt
+host-suffix, data.flurry.com
+
 # > FT中文
 host-suffix, china2021.s3.ap-northeast-2.amazonaws.com
 
 # (G)
 # > Google
-host, ads.youtube.com
+host-suffix, 2mdn.net
 host-suffix, admob.com
+host-suffix, adsense.com
+host-suffix, adsensecustomsearchads.com
+host-suffix, adsenseformobileapps.com
 host-suffix, adservice.google.com
 host-suffix, ads.gmodules.com
 host-suffix, ads.google.com
+host-suffix, ads.youtube.com
+host-suffix, advertisercommunity.com
+host-suffix, advertiserscommunity.com
+host-suffix, adwords.com
+host-suffix, adwords-community.com
+host-suffix, adwordsexpress.com
 host-suffix, afd.l.google.com
+host-suffix, app-measurement.com
 host-suffix, badad.googleplex.com
+host-suffix, clickserver.googleads.com
 host-suffix, csi.gstatic.com
 host-suffix, doubleclick.com
 host-suffix, doubleclick.net
+host-suffix, goodreads.com
+host-suffix, googleadapis.com
 host-suffix, googleadservices.com
 host-suffix, googleadsserving.cn
 host-suffix, google-analytics.com
+host-suffix, googleanalytics.com
 host-suffix, googlecommerce.com
+host-suffix, googleoptimize.com
 host-suffix, googlesyndication.com
+host-suffix, googletagmanager.com
 host-suffix, googletagservices.com
+host-suffix, googletraveladservices.com
+host-suffix, gr-assets.com
 host-suffix, mobileads.google.com
 host-suffix, pagead.google.com
 host-suffix, pagead.l.google.com
 host-suffix, pagead-tpc.l.google.com
 host-suffix, service.urchin.com
+host-suffix, urchin.com
+
+# > growingio-ads.txt
+host-suffix, assets.growingio.com
 
 # (H)
+# > hiido-ads.txt
+host-suffix, mlog.hiido.com
+host-suffix, ylog.hiido.com
+
+# > hotjar-ads.txt
+host-suffix, static.hotjar.com
+
 # > 虎牙 v7.21
 host, business.msstatic.com
 host, cdnfile1.msstatic.com
@@ -945,10 +1141,14 @@ host, kiwistatic.huya.com
 host, livewebbs2.msstatic.com
 
 # > HunanTV
-host-suffix, da.mgtv.com
+host-suffix, click.hunantv.com
 host-suffix, da.hunantv.com
+host-suffix, da.mgtv.com
 host-suffix, log.hunantv.com
+host-suffix, log.v2.hunantv.com
+host-suffix, res.hunantv.com
 host-suffix, v2.hunantv.com
+host-suffix, v2.log.hunantv.com
 
 # > 虎扑
 host, adx.hupu.com
@@ -963,6 +1163,10 @@ host, adeng.hpplay.cn
 host, pin.hpplay.cn
 host, rp.hpplay.cn
 host, rpt.hpplay.cn
+
+# (I)
+# inner-active-ads.txt
+host-suffix, inner-active.mobi
 
 # (J)
 # > 京东
@@ -992,16 +1196,33 @@ host, ups.ksmobile.net
 host, ws.ksmobile.net
 
 # > Kuaishou
-host-suffix, e.kuaishou.com
 host, js-ad.a.yximgs.com
+host-suffix, e.kuaishou.com
+host-suffix, log-sdk.gifshow.com
+host-suffix, wlog.kuaishou.com
 
 # (L)
 # > Le
-host-suffix, webp2p.letv.com
-host, ark.letv.com
 host, emma-414870e223.huodonghezi.com
-host, g3.letv.com
-host, n.mark.letv.com
+host-suffix, api.game.letvstore.com
+host-suffix, ark.letv.com
+host-suffix, dc.letv.com
+host-suffix, dev.dc.letv.com
+host-suffix, fz.letv.com
+host-suffix, g3.letv.com
+host-suffix, letv.allyes.com
+host-suffix, minisite.letv.com
+host-suffix, msg.m.letv.com
+host-suffix, n.mark.letv.com
+host-suffix, plog.dc.letv.com
+host-suffix, pro.hoye.letv.com
+host-suffix, pro.letv.com
+host-suffix, static.app.m.letv.com
+host-suffix, stat.letv.com
+host-suffix, webp2p.letv.com
+
+# > leanplum-ads.txt
+host-suffix, leanplum.com
 
 # > LinkWiFi
 host, a.wkanx.com
@@ -1016,11 +1237,20 @@ host-suffix, ads2.msn.com
 host-suffix, rads.msn.com
 host, mobileads.msn.com
 
+# > mixpanel-ads.txt
+host-suffix, decide.mixpanel.com
+
 # > MojiWeather
 host, ad.api.moji.com
 host, adlaunch.moji.com
 host, ads.mojicdn.com
 host, v1.log.moji.com
+
+# > mopub-ads.txt
+host-suffix, mopub.com
+
+# > mxplayer-ads.txt
+host-suffix, evt.mxplay.com
 
 # (N)
 # > NetEase
@@ -1037,14 +1267,18 @@ host, n.3g.163.com
 host, nex.163.com
 host-suffix, adgeo.corp.163.com
 host-suffix, analytics.126.net
+host-suffix, analytics.163.com
 host-suffix, a.youdao.com
 host-suffix, bobo.corp.163.com
 host-suffix, clkservice.youdao.com
 host-suffix, conv.youdao.com
+host-suffix, crash.163.com
+host-suffix, crashlytics.163.com
 host-suffix, c.youdao.com
 host-suffix, dsp-impr2.youdao.com
 host-suffix, dsp.youdao.com
 host-suffix, fa.corp.163.com
+host-suffix, g.163.com
 host-suffix, g1.corp.163.com
 host-suffix, gb.corp.163.com
 host-suffix, g.corp.163.com
@@ -1074,7 +1308,26 @@ host-suffix, ydpushserver.youdao.com
 host, yt-adp.nosdn.127.net
 host, yt-adp.ws.126.net
 
+# > newrelic-ads.txt
+host-suffix, js-agent.newrelic.com
+
+# (O)
+# > ogury-ads.txt
+host-suffix, ogury.co
+host-suffix, ogury.com
+host-suffix, presage.io
+
+# > onesignal-ads.txt
+host-suffix, onesignal.com
+
 # (P)
+# > pocoiq-ads.txt
+host-suffix, cdn.pocoiq.cn
+host-suffix, oct.pocoiq.cn
+
+# > pubmatic-ads.txt
+host-suffix, ads.pubmatic.com
+
 # > PPTV
 host, ads.aplus.pptv.com
 host, ads.aplusapi.pptv.com
@@ -1113,61 +1366,122 @@ host-suffix, ads.oppomobile.com
 host, adsfs.oppomobile.com
 
 # (S)
+# > segment-ads.txt
+host-suffix, cdn.segment.com
+
+# > sensorsdata-ads.txt
+host-suffix, static.sensorsdata.cn
+
 # > Sina
-host, adimg.uve.weibo.com
 host, adimg.vue.weibo.com
-host, saxn.sina.com.cn
-host, sax.sina.com.cn
-host, saxs.sina.com.cn
+host-suffix, 2016.sina.cn
 host-suffix, adbox.sina.com.cn
 host-suffix, add.sina.com.cn
+host-suffix, adimages.sina.com.hk
 host-suffix, adimg.mobile.sina.cn
+host-suffix, adimg.uve.weibo.com
+host-suffix, adm.leju.sina.com.cn
 host-suffix, adm.sina.com.cn
 host-suffix, ad.sina.com.cn
+host-suffix, ads.sina.com
 host-suffix, alitui.weibo.com
 host-suffix, alitui.weibo.com.cn
+host-suffix, api.apps.sina.cn
+host-suffix, appgift.sinaapp.com
+host-suffix, appsupdate.sinaapp.com
+host-suffix, atm.sina.com
 host-suffix, beacon.sina.com.cn
+host-suffix, biz.weibo.com
 host-suffix, biz.weibo.com.cn
+host-suffix, c.biz.weibo.com
+host-suffix, click.uve.mobile.sina.cn
+host-suffix, click.uve.weibo.com
+host-suffix, cm.dmp.sina.cn
+host-suffix, contentrecommend-out.mobile.sina.cn
+host-suffix, counter.sina.com.cn
+host-suffix, count.video.sina.com.cn
+host-suffix, cre-dp.sina.cn
 host-suffix, cre.dp.sina.cn
+host-suffix, c.wcpt.biz.weibo.com
+host-suffix, d00.sina.com.cn
 host-suffix, dcads.sina.com.cn
 host-suffix, dd.sina.com.cn
+host-suffix, dl.kjava.sina.cn
+host-suffix, dmp.sina.cn
 host-suffix, dmp.sina.com.cn
+host-suffix, dp.im.weibo.cn
+host-suffix, game.weibo.cn
+host-suffix, game.weibo.com
 host-suffix, game.weibo.com.cn
 host-suffix, gw5.push.mcp.weibo.cn
+host-suffix, gw6.push.mcp.weibo.cn
+host-suffix, img.adbox.sina.com.cn
+host-suffix, img.amp.ad.sina.com.cn
+host-suffix, int.dpool.sina.com.cn
+host-suffix, interest.mix.sina.com.cn
 host-suffix, leju.sina.com.cn
+host-suffix, log.interest.mix.sina.com.cn
 host-suffix, log.mix.sina.com.cn
+host-suffix, log.sina.cn
+host-suffix, m.beacon.sina.com.cn
+host-suffix, m.game.weibo.cn
+host-suffix, mg.games.sina.com.cn
 host-suffix, mobileads.dx.cn
+host-suffix, motu.p4p.sina.com.cn
 host-suffix, newspush.sinajs.cn
+host-suffix, oascentral.sina.com
+host-suffix, oascentral.sina.com.hk
+host-suffix, p4p.sina.com.cn
+host-suffix, palmnews.sina.cn
 host-suffix, pay.mobile.sina.cn
+host-suffix, pfpip.sina.com
+host-suffix, pfp.sina.com.cn
+host-suffix, promote.biz.weibo.cn
+host-suffix, r.dmp.sina.cn
+host-suffix, rm.sina.com.cn
+host-suffix, rs.sinajs.cn
+host-suffix, s.alitui.weibo.com
+host-suffix, sapi.sina.cn
 host-suffix, saxd.sina.com.cn
 host-suffix, sax.mobile.sina.cn
+host-suffix, saxn.sina.com.cn
+host-suffix, sax.sina.cn
 host-suffix, sax.sina.com.cn
+host-suffix, saxs.sina.com.cn
+host-suffix, sbeacon.sina.com.cn
 host-suffix, sdkapp.mobile.sina.cn
 host-suffix, sdkapp.uve.weibo.com
 host-suffix, sdkclick.mobile.sina.cn
+host-suffix, s.img.mix.sina.com.cn
+host-suffix, slog.sina.cn
 host-suffix, slog.sina.com.cn
+host-suffix, staticadm.leju.sina.com.cn
+host-suffix, tjs.sjs.sinajs.cn
 host-suffix, trends.mobile.sina.cn
 host-suffix, tui.weibo.com
 host-suffix, u1.img.mobile.sina.cn
+host-suffix, wapwbclick.mobile.sina.cn
 host-suffix, wax.weibo.com.cn
 host-suffix, wbapp.mobile.sina.cn
 host-suffix, wbapp.uve.weibo.com
 host-suffix, wbclick.mobile.sina.cn
 host-suffix, wbpctips.mobile.sina.cn
+host-suffix, widget.weibo.com
+host-suffix, woocall.sina.com.cn
+host-suffix, zc.biz.weibo.com
 host-suffix, zymo.mps.weibo.com
-host, u1.img.mobile.sina.cn
 
 # > SOHU
 host, business-cdn.shouji.sogou.com
-host, hui.sohu.com
-host, imp.optaim.com
 host-suffix, 123.sogoucdn.com
 host-suffix, 123.sogou.com
+host-suffix, 643108e7617ef.cdn.sohucs.com
 host-suffix, 888.tv.sohu.com
 host-suffix, adnet.sohu.com
 host-suffix, adsence.sogou.com
 host-suffix, ad.sohu.com
 host-suffix, ads.sohu.com
+host-suffix, adv-sv-show.focus.cn
 host-suffix, amfi.gou.sogou.com
 host-suffix, aty.hd.sohu.com
 host-suffix, aty.sohu.com
@@ -1177,6 +1491,8 @@ host-suffix, click2.hd.sohu.com
 host-suffix, click.hd.sohu.com
 host-suffix, cpc.sogou.com
 host-suffix, ctr.hd.sohu.com
+host-suffix, data.vod.itc.cn
+host-suffix, e8aeb8bbdbbd7.cdn.sohucs.com
 host-suffix, epro.sogou.com
 host-suffix, epro.sohu.com
 host-suffix, fair.sogou.com
@@ -1187,6 +1503,7 @@ host-suffix, golden1.sohu.com
 host-suffix, go.sohu.com
 host-suffix, goto.sogou.com
 host-suffix, hui.sohu.com
+host-suffix, imp.optaim.com
 host-suffix, inte.sogoucdn.com
 host-suffix, inte.sogou.com
 host-suffix, inte.sohu.com
@@ -1202,33 +1519,66 @@ host-suffix, pv.sogou.com
 host-suffix, pv.sohu.com
 host-suffix, theta.sogoucdn.com
 host-suffix, theta.sogou.com
+host-suffix, track.sohu.com
 host-suffix, um.hd.sohu.com
 host-suffix, uranus.sogou.com
 host-suffix, uranus.sohu.com
+host-suffix, v2.reachmax.cn
 host-suffix, wangmeng.sogou.com
 host-suffix, wan.sogou.com
 host-suffix, wan.sohu.com
 host-suffix, wl.hd.sohu.com
 host-suffix, yule.sohu.com
-host, v2.reachmax.cn
 
 # > Snapcha‪t‬
 host, ads.snapchat.com
 host, adsapi.snapchat.com
 
+# > spotify-ads.txt
+host-suffix, adeventtracker.spotify.com
+host-suffix, adstudio-assets.scdn.co
+host-suffix, bloodhound.spotify.com
+
+# > supersonic-ads.txt
+host-suffix, ssacdn.com
+host-suffix, supersonicads-a.akamaihd.net
+host-suffix, supersonicads.com
+host-suffix, supersonic.com
+
 # (T)
+# > tagtic-ads.txt
+host-suffix, g1.tagtic.cn
+host-suffix, xy-log.tagtic.cn
+
+# > tappx-ads.txt
+host-suffix, ssp.api.tappx.com
+
 # --- (Tencent) ---
-host, adsmind.apdcdn.tc.qq.com
 host, adsmind.gdtimg.com
 host, adsmind.tc.qq.com
 host-keyword,  omgmtaw
-host, pgdt.gtimg.cn
 host, pgdt.gtimg.com
 host, pgdt.ugdtimg.com
 host, splashqqlive.gtimg.com
 host-suffix, act.qq.com
+host-suffix, adfilter.imtt.qq.com
+host-suffix, adping.qq.com
+host-suffix, adpm.app.qq.com
+host-suffix, ad.qq.com
 host-suffix, ad.qun.qq.com
+host-suffix, adsclick.qq.com
 host-suffix, adsfile.qq.com
+host-suffix, adshmmsg.qq.com
+host-suffix, adslvfile.qq.com
+host-suffix, adslvseed.qq.com
+host-suffix, adsmind.apdcdn.tc.qq.com
+host-suffix, adsqqclick.qq.com
+host-suffix, adstestview.qq.com
+host-suffix, adsview2.qq.com
+host-suffix, adsview.qq.com
+host-suffix, adv.app.qq.com
+host-suffix, adver.qq.com
+host-suffix, btrace.qq.com
 host-suffix, btrace.video.qq.com
 host-suffix, bugly.qq.com
 host-suffix, buluo.qq.com
@@ -1239,14 +1589,19 @@ host-suffix, gdt.qq.com
 host-suffix, livep.l.qq.com
 host-suffix, lives.l.qq.com
 host-suffix, livew.l.qq.com
+host-suffix, log.tbs.qq.com
 host-suffix, l.qq.com
 host-suffix, mcgi.v.qq.com
 host-suffix, mdevstat.qqlive.qq.com
 host-suffix, monitor.qq.com
+host-suffix, mpush.qq.com
+host-suffix, mtrace.qq.com
 host-suffix, omgmta1.qq.com
+host-suffix, pgdt.gtimg.cn
 host-suffix, pingma.qq.com
 host-suffix, pingtcss.qq.com
 host-suffix, p.l.qq.com
+host-suffix, push.qq.com
 host-suffix, rcgi.video.qq.com
 host-suffix, report.qq.com
 host-suffix, tajs.qq.com
@@ -1286,16 +1641,36 @@ host, adsp.xunlei.com
 host, etl.xlmc.sandai.net
 
 # Transfer Market
+host-suffix, akamaihd.net
 host-suffix, boltdns.net
 host-suffix, outbrain.com
 host-suffix, vidazoo.com
-host-suffix, akamaihd.net
+
+# (U)
+# > uberads-ads.txt
+host-suffix, uberads.com
+
+# > umeng-ads.txt
+host-suffix, alog.umeng.com
+host-suffix, alog.umengcloud.com
+host-suffix, w.cnzz.com
+host-suffix, z.gds.cnzz.com
+
+# > unity-ads.txt
+host-suffix, ads.internal.unity3d.com
+host-suffix, ads.prd.ie.internal.unity3d.com
+host-suffix, unityads.unity3d.com
+host-suffix, unityads.unitychina.cn
 
 # (V)
 # > VariFlight
 host, adv-adlog.variflight.com
 host, adv-ads.variflight.com
 host, app-ad.variflight.com
+
+# (W)
+# > wteam-ads.txt
+host-suffix, ads.wteam.xyz
 
 # > vivo
 host, adlog.vivo.com.cn
@@ -1314,6 +1689,24 @@ host, ads-d.viber.com
 host, ads.aws.viber.com
 
 # (X)
+# > xhamster-ads.txt
+host-suffix, collector.xhamster.com
+
+# > xiaomitv-ads.txt
+host-suffix, ad.intl.xiaomi.com
+host-suffix, ad.mi.com
+host-suffix, ad.xiaomi.com
+host-suffix, ad1.xiaomi.com
+host-suffix, admob.xiaomi.com
+host-suffix, adv.sec.intl.miui.com
+host-suffix, adv.sec.miui.com
+host-suffix, misc.in.duokanbox.com
+host-suffix, mistat.xiaomi.com
+host-suffix, tjqonline.cn
+host-suffix, tracking.miui.com
+host-suffix, kuyun.com
+#host-suffix, umeng.com
+
 # > Ximalaya
 host, ad.ximalaya.com
 host, adbs.ximalaya.com
@@ -1334,15 +1727,16 @@ host-suffix, fbcontent.cn
 
 # (Y)
 # > Yahoo
-host-suffix, adserver.yahoo.com
-host-suffix, adspecs.yahoo.com
-host-suffix, advertising.yahoo.com
-host-suffix, gemini.yahoo.com
 host, admarketing.yahoo.net
 host, ads.auctions.yahoo.com
 host, ads.finance.yahoo.com
-host, ads.yahoo.com
 host, ads.yahoo.de
+host-suffix, adserver.yahoo.com
+host-suffix, adspecs.yahoo.com
+host-suffix, ads.yahoo.com
+host-suffix, advertising.yahoo.com
+host-suffix, gemini.yahoo.com
+host-suffix, ysm.yahoo.com
 
 # (Z)
 # > Zhihu
@@ -1358,7 +1752,11 @@ ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 host, apppv.zol.com.cn
 host, pvnapp.zol.com.cn
 
-# 作业帮
+# > 作业帮
 host, syh-imp.cdnjtzy.com
 host, syh.zybang.com
 host, syh2.zybang.com
+
+# > zynga-ads.txt
+host-suffix, zynga.com
+host-suffix, zyngaplayersupport.com
