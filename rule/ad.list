@@ -687,7 +687,6 @@ host-suffix, cpro2.baidu.cn
 host-suffix, cpro2.baidu.com
 host-suffix, cpro.baidu.cn
 host-suffix, cpro.baidu.com
-host-suffix, cpro.baidu.com
 host-suffix, cpro.baidustatic.com
 host-suffix, cpro.tieba.baidu.com
 host-suffix, cpro.zhidao.baidu.com
@@ -769,7 +768,6 @@ host-suffix, nsclick.baidu.com
 host-suffix, nsclickvideo.baidu.com
 host-suffix, openrcv.baidu.com
 host-suffix, pc.videoclick.baidu.com
-host-suffix, pos.baidu.com
 host-suffix, pos.baidu.com
 host-suffix, pups.baidu.cn
 host-suffix, pups.baidu.com
@@ -857,7 +855,6 @@ host-suffix, log.snssdk.com
 host-suffix, nativeapp.toutiao.com
 host-suffix, pangolin-sdk-toutiao-b.com
 host-suffix, pangolin-sdk-toutiao.com
-host-suffix, pangolin-sdk-toutiao.com
 host-suffix, pangolin.snssdk.com
 host-suffix, partner.toutiao.com
 host-suffix, pglstatp-toutiao.com
@@ -927,14 +924,10 @@ host-suffix, badad.googleplex.com
 host-suffix, csi.gstatic.com
 host-suffix, doubleclick.com
 host-suffix, doubleclick.net
-host-suffix, doubleclick.net
 host-suffix, googleadservices.com
-host-suffix, googleadservices.com
-host-suffix, googleadsserving.cn
 host-suffix, googleadsserving.cn
 host-suffix, google-analytics.com
 host-suffix, googlecommerce.com
-host-suffix, googlesyndication.com
 host-suffix, googlesyndication.com
 host-suffix, googletagservices.com
 host-suffix, mobileads.google.com
@@ -1087,12 +1080,15 @@ host, ads.aplus.pptv.com
 host, ads.aplusapi.pptv.com
 host, asimgs.pplive.cn
 host, de.as.pptv.com
+
 # > Photoable
 host, regist.fotoable.com
 host, cdn.adapi.fotoable.com
+
 # > PeanutWiFi
 host, adnew.wifi8.com
 host, adfile.wifi8.com
+
 # > PConline
 host, ad-analysis.pconline.com.cn
 host, iad0ssl.pcauto.com.cn
@@ -1100,6 +1096,7 @@ host, iad0ssl.pconline.com.cn
 host, imgad0.pcauto.com.cn
 host, imgad0.pconline.com.cn
 host, ivy.pchouse.com.cn
+
 # > Phoenix New Media
 host-suffix, deliver.ifeng.com
 host, api.newad.ifeng.com
@@ -1110,6 +1107,7 @@ host, ifengad.3g.ifeng.com
 host, ad.qingting.fm
 host, adlaunch.qingting.fm
 host, ad-cdn.qingting.fm
+
 # > OPPO
 host-suffix, ads.oppomobile.com
 host, adsfs.oppomobile.com

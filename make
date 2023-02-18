@@ -6,7 +6,8 @@
   SORT=(sort -u -t',' -k1)
   
   # rule_yy
- 
+ function AA ()
+ {
   grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep ', reject' | sed 's/, reject//g' | "${SORT[@]}" > rule/reject.list
   grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep -Ev 'reject|direct' | sed 's/, proxy//g' | "${SORT[@]}" > rule/proxy.list
   grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep ', direct' | sed 's/, direct//g' | "${SORT[@]}" > rule/direct.list
@@ -22,6 +23,7 @@
   cat com_host com_conf > rw/btinfo.conf
   
   rm -f com_conf com_host
+  }
   
   curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
     | grep '^||' | sed -e 's/||/host-suffix, /g' -e 's/\^//g' \
