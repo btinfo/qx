@@ -1,6 +1,6 @@
 # 网易邮箱大师
 
 host-suffix, b.mail.163.com, reject
-host-suffix, gorgon.youdao.com, reject
+-host-suffix, gorgon.youdao.com, reject
 host-suffix, nex.163.com, reject
 host-suffix, yt-adp.ws.126.net, reject

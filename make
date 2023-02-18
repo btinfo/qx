@@ -7,9 +7,9 @@
   
   # rule_yy
  
-  grep -Ehv "^$|^#" "${ASET[@]}" | grep ', reject' | sed 's/, reject//g' | "${SORT[@]}" > rule/reject.list
-  grep -Ehv "^$|^#" "${ASET[@]}" | grep ', proxy' | sed 's/, proxy//g' | "${SORT[@]}" > rule/proxy.list
-  grep -Ehv "^$|^#" "${ASET[@]}" | grep ', direct' | sed 's/, direct//g' | "${SORT[@]}" > rule/direct.list
+  grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep ', reject' | sed 's/, reject//g' | "${SORT[@]}" > rule/reject.list
+  grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep -Ev 'reject|direct' | sed 's/, proxy//g' | "${SORT[@]}" > rule/proxy.list
+  grep -Ehv "^$|^#|^-" "${ASET[@]}" | grep ', direct' | sed 's/, direct//g' | "${SORT[@]}" > rule/direct.list
   
   grep -Ehv "^$" "${ASET[@]}" | grep -E "^\^http|^\(\^http" > com_conf
   
