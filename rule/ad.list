@@ -1185,6 +1185,9 @@ host-suffix, jzt.jd.com
 host-suffix, policy.jd.com
 host-suffix, stat.m.jd.com
 
+# > 计步器
+host, ad2.fivecdm.com
+
 # >jxedt
 host, richmanapi.jxedt.com
 host, richmanmain.jxedt.com

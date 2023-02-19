@@ -19,6 +19,10 @@ host, fileserver.cdn.huya.com
 host, kiwistatic.huya.com
 host, livewebbs2.msstatic.com
 
+# (J)
+# > 计步器
+host, ad2.fivecdm.com
+
 # (T)
 # Transfer Market
 host-suffix, boltdns.net
