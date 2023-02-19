@@ -1477,7 +1477,7 @@ host-suffix, woocall.sina.com.cn
 host-suffix, zc.biz.weibo.com
 host-suffix, zymo.mps.weibo.com
 
-# > SOHU
+# > 搜狐
 host, business-cdn.shouji.sogou.com
 host-suffix, 123.sogoucdn.com
 host-suffix, 123.sogou.com
@@ -1559,7 +1559,7 @@ host-suffix, xy-log.tagtic.cn
 # > tappx-ads.txt
 host-suffix, ssp.api.tappx.com
 
-# --- (Tencent) ---
+# --- (腾讯) ---
 host, adsmind.gdtimg.com
 host, adsmind.tc.qq.com
 host-keyword,  omgmtaw
@@ -1619,7 +1619,7 @@ host, wa.gtimg.com
 host, wxsnsdythumb.wxs.qq.com
 host, wxsnsdy.wxs.qq.com
 
-# > Tencent Music (TME)
+# > 腾讯音乐 (TME)
 host, adserviceretry.kugou.com
 host, adsfile.bssdlbig.kugou.com
 host, ads.service.kugou.com
@@ -1633,7 +1633,7 @@ host, mobilelog.kugou.com
 host, rich.kuwo.cn
 
 # ------
-# > TongHuaShun
+# > 同花顺
 host, adm.10jqka.com.cn
 host, stat.10jqka.com.cn
 
@@ -1642,7 +1642,7 @@ host, admonitor.thepaper.cn
 host, adpai.thepaper.cn
 host, imgadpai.thepaper.cn
 
-# > Thunder
+# > 迅雷
 host, adsp.xunlei.com
 host, etl.xlmc.sandai.net
 
@@ -1713,7 +1713,7 @@ host-suffix, tracking.miui.com
 host-suffix, kuyun.com
 #host-suffix, umeng.com
 
-# > Ximalaya
+# > 喜马拉雅
 host, ad.ximalaya.com
 host, adbs.ximalaya.com
 host, adse.ximalaya.com
@@ -1722,7 +1722,7 @@ host, adbehavior.wsa.ximalaya.com
 host, adbehavior.ximalaya.com
 host, adsebs.ximalaya.com
 
-# > Xiaohongshu
+# > 小红书
 host, ads-img-qc.xhscdn.com
 host, ads-video-al.xhscdn.com
 host, ads-video-qc.xhscdn.com
@@ -1732,7 +1732,7 @@ host, t-ads.xiaohongshu.com
 host-suffix, fbcontent.cn
 
 # (Y)
-# > Yahoo
+# > 雅虎
 host, admarketing.yahoo.net
 host, ads.auctions.yahoo.com
 host, ads.finance.yahoo.com
@@ -1745,7 +1745,7 @@ host-suffix, gemini.yahoo.com
 host-suffix, ysm.yahoo.com
 
 # (Z)
-# > Zhihu
+# > 知乎
 USER-AGENT,AVOS*
 host, appcloud2.in.zhihu.com
 host, mqtt.zhihu.com
