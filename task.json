@@ -1,9 +1,0 @@
-{
-    "name":"task",
-    "description":"Cronjob",
-    "task":[
-        "0 10 0 * * ? aliYunPanCheckIn.js, tag=阿里云盘",
-        "1 0 * * * dongqiudi.js, tag=懂球帝",
-        "5 0 * * * weifengtask.js, tag=威锋"
-    ]
-}
