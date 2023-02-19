@@ -1,3 +1,9 @@
+# BASED:
+# https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+# https://github.com/techprober/mosdns-lxc-deploy/tree/master/rules/domains
+# 
+
 # Advertising
 # > General
 host, abema-adx.ameba.jp
@@ -578,7 +584,7 @@ host-suffix, atom-data.io
 host-suffix, analytics-data.io
 host-suffix, ironbeast.io
 
-# --- (Alibaba) ---
+# --- (阿里巴巴) ---
 host-suffix, a.alimama.cn
 host-suffix, acjs.aliyun.com
 host-suffix, adashbc.m.taobao.com
@@ -673,7 +679,7 @@ host-suffix, w.m.taobao.com
 host-suffix, yiliao.hupan.com
 host, tunion-api.m.taobao.com
 
-# > YOUKU
+# > 优酷
 host, pl.cp31.ott.cibntv.net
 host-suffix, actives.youku.com
 host-suffix, ad.api.3g.youku.com
@@ -722,12 +728,12 @@ host-suffix, wan.youku.com
 host-suffix, ykatr.youku.com
 host-suffix, ykrec.youku.com
 
-# > AMap
+# > 高德地图
 host, optimus-ads.amap.com
 host, optimus-ads.amap.com.w.alikunlun.com
-# ------
+# --- END ---
 
-# > Autohome
+# > 汽车之家
 host, adproxy.autohome.com.cn
 host, rd.autohome.com.cn
 host, al.autohome.com.cn
@@ -738,7 +744,7 @@ host, adm2.autoimg.cn
 host, adm3.autoimg.cn
 
 # (B)
-# --- (Baidu) ---
+# --- (百度) ---
 host, duclick.baidu.com
 host, nadvideo2.baidu.com
 host-suffix, a.baidu.cn
@@ -957,7 +963,7 @@ host-suffix, znsv.baidu.com
 host-suffix, zz.bdstatic.com
 host-suffix, zzy1.quyaoya.com
 
-# > iQIYI
+# > 爱奇艺
 host-suffix, a.ckm.iqiyi.com
 host-suffix, ad.m.iqiyi.com
 host-suffix, afp.iqiyi.com
@@ -981,9 +987,9 @@ ip-cidr, 101.227.97.240/32
 ip-cidr, 101.227.200.11/32
 ip-cidr, 101.227.200.28/32
 ip-cidr, 124.192.153.42/32
-# ------
+# --- END ---
 
-# > ByteDance
+# > 字节跳动
 host-suffix, ad.toutiao.com
 host-suffix, bds.snssdk.com
 host-suffix, ctobsnssdk.com
@@ -1004,7 +1010,7 @@ host-suffix, pglstatp-toutiao.com
 host-suffix, sf3-ttcdn-tos.pstatp.com
 host-suffix, sm.toutiao.com
 
-# > baicizhan
+# > 百词斩
 host, advertise.baicizhan.com
 host, advertise.baicizhan.org
 
@@ -1024,7 +1030,7 @@ host-suffix, iad-06.braze.com
 host-suffix, iad-08.braze.com
 
 # (C)
-# > CCTVVideo
+# > 央视频
 host, adstore-index-1252524079.file.myqcloud.com
 
 # > CNTV
@@ -1039,7 +1045,7 @@ host, ad.k.21cn.com
 host, admarket.21cn.com
 host, adshows.21cn.com
 
-# > Chelaile
+# > 车来了
 host, atrace.chelaile.net.cn
 host, logs.chelaile.net.cn
 
@@ -1080,7 +1086,7 @@ host-suffix, data.flurry.com
 host-suffix, china2021.s3.ap-northeast-2.amazonaws.com
 
 # (G)
-# > Google
+# > 谷歌
 host-suffix, 2mdn.net
 host-suffix, admob.com
 host-suffix, adsense.com
@@ -1140,7 +1146,7 @@ host, fileserver.cdn.huya.com
 host, kiwistatic.huya.com
 host, livewebbs2.msstatic.com
 
-# > HunanTV
+# > 湖南卫视
 host-suffix, click.hunantv.com
 host-suffix, da.hunantv.com
 host-suffix, da.mgtv.com
@@ -1185,7 +1191,7 @@ host, richmanmain.jxedt.com
 host, richmanrules.jxedt.com
 
 # (K)
-# > Kingsoft
+# > 金山
 host, ad-stat.ksosoft.com
 host, img.auction-ads.wpscdn.cn
 host, counter.kingsoft.com
@@ -1195,14 +1201,14 @@ host, mobad.ijinshan.com
 host, ups.ksmobile.net
 host, ws.ksmobile.net
 
-# > Kuaishou
+# > 快手
 host, js-ad.a.yximgs.com
 host-suffix, e.kuaishou.com
 host-suffix, log-sdk.gifshow.com
 host-suffix, wlog.kuaishou.com
 
 # (L)
-# > Le
+# > 乐视
 host, emma-414870e223.huodonghezi.com
 host-suffix, api.game.letvstore.com
 host-suffix, ark.letv.com
@@ -1230,7 +1236,7 @@ host, cwx.lianwangtech.com
 host, c1wx.lianwangtech.com
 
 # (M)
-# > Microsoft
+# > 微软
 host-suffix, ads.msn.com
 host-suffix, ads1.msn.com
 host-suffix, ads2.msn.com
@@ -1240,7 +1246,7 @@ host, mobileads.msn.com
 # > mixpanel-ads.txt
 host-suffix, decide.mixpanel.com
 
-# > MojiWeather
+# > 墨迹天气
 host, ad.api.moji.com
 host, adlaunch.moji.com
 host, ads.mojicdn.com
@@ -1253,7 +1259,7 @@ host-suffix, mopub.com
 host-suffix, evt.mxplay.com
 
 # (N)
-# > NetEase
+# > 网易
 host, ad.bn.netease.com
 host, admusicpic.music.126.net
 host, ad.yixin.im
@@ -1356,7 +1362,7 @@ host, api.newad.ifeng.com
 host, ifengad.3g.ifeng.com
 
 # (Q)
-# > QingTing
+# > 蜻蜓FM
 host, ad.qingting.fm
 host, adlaunch.qingting.fm
 host, ad-cdn.qingting.fm
@@ -1372,7 +1378,7 @@ host-suffix, cdn.segment.com
 # > sensorsdata-ads.txt
 host-suffix, static.sensorsdata.cn
 
-# > Sina
+# > 新浪
 host, adimg.vue.weibo.com
 host-suffix, 2016.sina.cn
 host-suffix, adbox.sina.com.cn
