@@ -31,6 +31,7 @@
   #curl -s https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
   #  | grep '^||' | grep '\*' | sed -e 's/||/host-wildcard, /g' -e 's/\^//g' \
   #  | sort -u >> rule/koad.list
-  curl https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list > rule/BanProgramAD.list
-  curl -s https://raw.githubusercontent.com/techprober/v2ray-rules-dat/release/geosite/category-ads.txt | sort -u > rule/category-ads.txt
+  curl -s https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list > rule/source/Advertising.list
+  curl -s https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list > rule/source/BanProgramAD.list
+  curl -s https://raw.githubusercontent.com/techprober/v2ray-rules-dat/release/geosite/category-ads.txt | sort -u > rule/source/category-ads.txt
 
