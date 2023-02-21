@@ -1748,6 +1748,9 @@ host-suffix, gemini.yahoo.com
 host-suffix, ysm.yahoo.com
 
 # (Z)
+# > 掌上公交
+host-suffix, quanguo.mygolbs.com
+
 # > 知乎
 USER-AGENT,AVOS*
 host, appcloud2.in.zhihu.com
