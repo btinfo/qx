@@ -1,7 +1,11 @@
+# Apple
 api-adservices.apple.com
 
 # 12306
 ad.12306.cn
+
+# 阿里云盘
+h-adashx.ut.taobao.com
 
 # 爱奇艺体育
 adash-emas.cn-hangzhou.aliyuncs.com
