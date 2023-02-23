@@ -1,3 +1,4 @@
+# dongqiudi
 gdt.qq.com
 qzs.gdtimg.com
 pgdt.ugdtimg.com
@@ -6,8 +7,14 @@ open.e.kuaishou.com
 pangolin-sdk-toutiao-b.com
 safebrowsing.urlsec.qq.com
 mobads-pre-config.cdn.bcebos.com
+
 api-adservices.apple.com
+
+# kuwo
 mobilead.kuwo.cn
 rich.kuwo.cn
 g.koowo.com
+ad.tencentmusic.com
 adstats.tencentmusic.com
+adsmind.gdtimg.com
+adt.xdrig.com
