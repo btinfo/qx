@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
   cd "$(dirname "$0")" || exit
   
@@ -34,4 +34,16 @@
   curl -s https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list > rule/source/Advertising.list
   curl -s https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list > rule/source/BanProgramAD.list
   curl -s https://raw.githubusercontent.com/techprober/v2ray-rules-dat/release/geosite/category-ads.txt | sort -u > rule/source/category-ads.txt
+  
+  src="$HOME/git/techprober/mosdns-lxc-deploy/rules/domains"
+  des="$HOME/git/btinfo/qx/rule/category-ads.txt"
 
+  true > "$des"
+  cd "$src" || exit 1
+  for i in $(ls *-ads.txt|grep -v category); do
+    echo "#### $i" >> "$des"
+    grep -v "regexp:" "$i" | sed 's/full://g' | sort -u >> "$des"
+    echo "" >> "$des"
+  done
+  cd - || exit 1
+  
