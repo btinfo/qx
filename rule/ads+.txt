@@ -56,6 +56,7 @@ akamaihd.net
 gorgon.youdao.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
+nex.163.com
 im-x.jd.com
 
 # 威锋
