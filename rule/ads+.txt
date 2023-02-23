@@ -19,6 +19,9 @@ adash-emas.cn-hangzhou.aliyuncs.com
 appsflyer.com
 appsflyer-cn.com
 
+# 北京一卡通
+ad.bmac.com.cn
+
 # 彩云天气
 ad.caiyunapp.com
 
