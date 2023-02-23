@@ -4,3 +4,5 @@ pgdt.ugdtimg.com
 shuzilm.cn
 open.e.kuaishou.com
 pangolin-sdk-toutiao-b.com
+safebrowsing.urlsec.qq.com
+mobads-pre-config.cdn.bcebos.com
