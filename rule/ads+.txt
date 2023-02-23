@@ -18,3 +18,6 @@ ad.tencentmusic.com
 adstats.tencentmusic.com
 adsmind.gdtimg.com
 adt.xdrig.com
+
+# Tidal
+iad-03.braze.com
