@@ -15,6 +15,9 @@ h-adashx.ut.taobao.com
 # 爱奇艺体育
 adash-emas.cn-hangzhou.aliyuncs.com
 
+# 哔哩哔哩国际版
+appsflyer.com
+
 # 懂球帝
 ap.dongqiudi.com
 gdt.qq.com
@@ -38,9 +41,11 @@ googleads.g.doubleclick-cn.net
 # 虎牙 v7.21
 business.msstatic.com
 cdnfile1.msstatic.com
+e-ad-monitor.huya.com
 fileserver.cdn.huya.com
 kiwistatic.huya.com
 livewebbs2.msstatic.com
+statwup.huya.com
 
 # 计步器
 ad2.fivecdm.com
