@@ -1,3 +1,6 @@
+# Tracker
+fp-it.fengkongcloud.com
+
 # Apple
 api-adservices.apple.com
 
@@ -71,6 +74,7 @@ api.share.mob.com
 
 # 腾讯
 ios.bugly.qq.com
+trace.qq.com
 
 # Tidal
 iad-03.braze.com
