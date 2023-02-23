@@ -36,7 +36,7 @@
   curl -s https://raw.githubusercontent.com/techprober/v2ray-rules-dat/release/geosite/category-ads.txt | sort -u > rule/source/category-ads.txt
   
   src="$HOME/git/techprober/mosdns-lxc-deploy/rules/domains"
-  des="$HOME/git/btinfo/qx/rule/category-ads.txt"
+  des="$HOME/git/btinfo/qx/rule/ads.txt"
 
   true > "$des"
   cd "$src" || exit 1
