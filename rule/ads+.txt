@@ -27,7 +27,7 @@ mobads-pre-config.cdn.bcebos.com
 ad.bmac.com.cn
 
 # Braze
-iad-03.braze.com //Tidal
+iad-03.braze.com #Tidal
 
 # 彩云天气
 ad.caiyunapp.com
