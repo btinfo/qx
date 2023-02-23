@@ -10,7 +10,7 @@ h-adashx.ut.taobao.com
 # 爱奇艺体育
 adash-emas.cn-hangzhou.aliyuncs.com
 
-# dongqiudi
+# 懂球帝
 ap.dongqiudi.com
 gdt.qq.com
 qzs.gdtimg.com
@@ -51,6 +51,12 @@ boltdns.net
 outbrain.com
 vidazoo.com
 akamaihd.net
+
+# 网易邮箱大师
+gorgon.youdao.com
+pg-ad-b1.ws.126.net
+pg-ad-b2.ws.126.net
+im-x.jd.com
 
 # 威锋
 ads.api.vungle.com
