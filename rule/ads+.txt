@@ -1,4 +1,13 @@
+api-adservices.apple.com
+
+# 12306
+ad.12306.cn
+
+# 爱奇艺体育
+adash-emas.cn-hangzhou.aliyuncs.com
+
 # dongqiudi
+ap.dongqiudi.com
 gdt.qq.com
 qzs.gdtimg.com
 pgdt.ugdtimg.com
@@ -8,9 +17,20 @@ pangolin-sdk-toutiao-b.com
 safebrowsing.urlsec.qq.com
 mobads-pre-config.cdn.bcebos.com
 
-api-adservices.apple.com
+# FT中文
+china2021.s3.ap-northeast-2.amazonaws.com
 
-# kuwo
+# 虎牙 v7.21
+business.msstatic.com
+cdnfile1.msstatic.com
+fileserver.cdn.huya.com
+kiwistatic.huya.com
+livewebbs2.msstatic.com
+
+# 计步器
+ad2.fivecdm.com
+
+# 酷我
 mobilead.kuwo.cn
 rich.kuwo.cn
 g.koowo.com
@@ -21,3 +41,23 @@ adt.xdrig.com
 
 # Tidal
 iad-03.braze.com
+
+# Transfer Market
+boltdns.net
+outbrain.com
+vidazoo.com
+akamaihd.net
+
+# 威锋
+ads.api.vungle.com
+
+# 西瓜看球
+ad.jiguang.cn
+
+# 小猿口算
+fbcontent.cn
+
+# 作业帮
+syh-imp.cdnjtzy.com
+syh.zybang.com
+syh2.zybang.com
