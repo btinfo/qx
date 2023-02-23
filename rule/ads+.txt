@@ -6,3 +6,8 @@ open.e.kuaishou.com
 pangolin-sdk-toutiao-b.com
 safebrowsing.urlsec.qq.com
 mobads-pre-config.cdn.bcebos.com
+api-adservices.apple.com
+mobilead.kuwo.cn
+rich.kuwo.cn
+g.koowo.com
+adstats.tencentmusic.com
