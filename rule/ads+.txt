@@ -27,7 +27,7 @@ mobads-pre-config.cdn.bcebos.com
 ad.bmac.com.cn
 
 # Braze
-iad-03.braze.com #Tidal
+iad-03.braze.com
 
 # 彩云天气
 ad.caiyunapp.com
@@ -99,7 +99,7 @@ stats.umsns.com
 ad.jiguang.cn
 
 # 亚马逊
-china2021.s3.ap-northeast-2.amazonaws.com //ft中文
+china2021.s3.ap-northeast-2.amazonaws.com
 
 # 作业帮
 syh-imp.cdnjtzy.com
@@ -108,5 +108,5 @@ syh2.zybang.com
 
 # 其他
 shuzilm.cn
-ads.api.vungle.com //威锋
-ad2.fivecdm.com //计步器
+ads.api.vungle.com
+ad2.fivecdm.com
