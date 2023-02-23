@@ -59,6 +59,9 @@ adstats.tencentmusic.com
 adsmind.gdtimg.com
 adt.xdrig.com
 
+# 腾讯
+ios.bugly.qq.com
+
 # Tidal
 iad-03.braze.com
 
@@ -77,6 +80,10 @@ im-x.jd.com
 
 # 威锋
 ads.api.vungle.com
+
+# umeng
+log.umsns.com
+stats.umsns.com
 
 # 西瓜看球
 ad.jiguang.cn
