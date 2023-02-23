@@ -12,35 +12,28 @@ ad.10010.com
 # 12306
 ad.12306.cn
 
-# 阿里云盘
+# 阿里
 h-adashx.ut.taobao.com
-
-# 爱奇艺体育
 adash-emas.cn-hangzhou.aliyuncs.com
 
 # appflyer
 appsflyer.com
 appsflyer-cn.com
 
+# 百度
+mobads-pre-config.cdn.bcebos.com
+
 # 北京一卡通
 ad.bmac.com.cn
+
+# Braze
+iad-03.braze.com //Tidal
 
 # 彩云天气
 ad.caiyunapp.com
 
 # 懂球帝
 ap.dongqiudi.com
-gdt.qq.com
-qzs.gdtimg.com
-pgdt.ugdtimg.com
-shuzilm.cn
-open.e.kuaishou.com
-pangolin-sdk-toutiao-b.com
-safebrowsing.urlsec.qq.com
-mobads-pre-config.cdn.bcebos.com
-
-# FT中文
-china2021.s3.ap-northeast-2.amazonaws.com
 
 # 高德地图
 awaken.amap.com
@@ -57,8 +50,11 @@ kiwistatic.huya.com
 livewebbs2.msstatic.com
 statwup.huya.com
 
-# 计步器
-ad2.fivecdm.com
+# 京东
+im-x.jd.com
+
+# 快手
+open.e.kuaishou.com
 
 # 酷我
 mobilead.kuwo.cn
@@ -66,18 +62,22 @@ rich.kuwo.cn
 g.koowo.com
 ad.tencentmusic.com
 adstats.tencentmusic.com
-adsmind.gdtimg.com
 adt.xdrig.com
 
 # mob
 api.share.mob.com
 
 # 腾讯
+gdt.qq.com
+qzs.gdtimg.com
+pgdt.ugdtimg.com
+adsmind.gdtimg.com
+safebrowsing.urlsec.qq.com
 ios.bugly.qq.com
 trace.qq.com
 
-# Tidal
-iad-03.braze.com
+# 头条
+pangolin-sdk-toutiao-b.com
 
 # Transfer Market
 boltdns.net
@@ -90,10 +90,6 @@ gorgon.youdao.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
 nex.163.com
-im-x.jd.com
-
-# 威锋
-ads.api.vungle.com
 
 # umeng
 log.umsns.com
@@ -102,10 +98,15 @@ stats.umsns.com
 # 西瓜看球
 ad.jiguang.cn
 
-# 小猿口算
-#fbcontent.cn
+# 亚马逊
+china2021.s3.ap-northeast-2.amazonaws.com //ft中文
 
 # 作业帮
 syh-imp.cdnjtzy.com
 syh.zybang.com
 syh2.zybang.com
+
+# 其他
+shuzilm.cn
+ads.api.vungle.com //威锋
+ad2.fivecdm.com //计步器
