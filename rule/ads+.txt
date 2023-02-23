@@ -15,8 +15,12 @@ h-adashx.ut.taobao.com
 # 爱奇艺体育
 adash-emas.cn-hangzhou.aliyuncs.com
 
-# 哔哩哔哩国际版
+# appflyer
 appsflyer.com
+appsflyer-cn.com
+
+# 彩云天气
+ad.caiyunapp.com
 
 # 懂球帝
 ap.dongqiudi.com
@@ -58,6 +62,9 @@ ad.tencentmusic.com
 adstats.tencentmusic.com
 adsmind.gdtimg.com
 adt.xdrig.com
+
+# mob
+api.share.mob.com
 
 # 腾讯
 ios.bugly.qq.com
