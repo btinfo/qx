@@ -98,6 +98,12 @@ nex.163.com
 log.umsns.com
 stats.umsns.com
 
+# 小袁口算
+gallery.fbcontent.cn
+leo-online.fbcontent.cn
+leo.fbcontent.cn
+oapi.yuanfudao.com
+
 # 西瓜看球
 ad.jiguang.cn
 
