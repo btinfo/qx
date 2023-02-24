@@ -78,6 +78,8 @@ trace.qq.com
 
 # 头条
 pangolin-sdk-toutiao-b.com
+dm.toutiao.com
+tnc3-alisc1.zijieapi.com
 
 # Transfer Market
 boltdns.net
