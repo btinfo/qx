@@ -74,6 +74,7 @@ pgdt.ugdtimg.com
 adsmind.gdtimg.com
 safebrowsing.urlsec.qq.com
 ios.bugly.qq.com
+tingyun.com
 trace.qq.com
 
 # 头条
