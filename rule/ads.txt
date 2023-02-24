@@ -1,17 +1,19 @@
-#### acfun-ads.txt
+# 2023-02-24 23:48:57+08:00
+
+# acfun-ads.txt
 apilog-web.acfun.cn
 
-#### adcolony-ads.txt
+# adcolony-ads.txt
 adcolony.com
 
-#### adjust-ads.txt
+# adjust-ads.txt
 adjust.com
 
-#### adobe-ads.txt
+# adobe-ads.txt
 advertising.adobe.com
 tubemogul.com
 
-#### alibaba-ads.txt
+# alibaba-ads.txt
 a.alimama.cn
 acjs.aliyun.com
 adashbc.m.taobao.com
@@ -100,25 +102,25 @@ userimg.qunar.com
 w.m.taobao.com
 yiliao.hupan.com
 
-#### amazon-ads.txt
+# amazon-ads.txt
 amazon-adsystem.com
 serving-sys.com
 
-#### apple-ads.txt
+# apple-ads.txt
 iad.apple.com
 iadsdk.apple.com
 qwapi.com
 
-#### applovin-ads.txt
+# applovin-ads.txt
 applovin.com
 applvn.com
 
-#### atom-data-ads.txt
+# atom-data-ads.txt
 analytics-data.io
 atom-data.io
 ironbeast.io
 
-#### baidu-ads.txt
+# baidu-ads.txt
 a.baidu.com
 ad.duapps.com
 adm.baidu.com
@@ -271,7 +273,7 @@ znsv.baidu.com
 zz.bdstatic.com
 zzy1.quyaoya.com
 
-#### bytedance-ads.txt
+# bytedance-ads.txt
 bds.snssdk.com
 ctobsnssdk.com
 dig.bdurl.net
@@ -284,10 +286,10 @@ pangolin.snssdk.com
 pglstatp-toutiao.com
 sf3-ttcdn-tos.pstatp.com
 
-#### clearbitjs-ads.txt
+# clearbitjs-ads.txt
 x.clearbitjs.com
 
-#### dmm-ads.txt
+# dmm-ads.txt
 ad.games.dmm.com
 bluekai.com
 fout.jp
@@ -300,13 +302,13 @@ microad.co.jp
 microad.jp
 socdm.com
 
-#### emogi-ads.txt
+# emogi-ads.txt
 emogi.com
 
-#### flurry-ads.txt
+# flurry-ads.txt
 data.flurry.com
 
-#### google-ads.txt
+# google-ads.txt
 2mdn.net
 admob.com
 adsense.com
@@ -334,17 +336,17 @@ googletagservices.com
 googletraveladservices.com
 urchin.com
 
-#### growingio-ads.txt
+# growingio-ads.txt
 assets.growingio.com
 
-#### hiido-ads.txt
+# hiido-ads.txt
 mlog.hiido.com
 ylog.hiido.com
 
-#### hotjar-ads.txt
+# hotjar-ads.txt
 static.hotjar.com
 
-#### hunantv-ads.txt
+# hunantv-ads.txt
 click.hunantv.com
 da.hunantv.com
 da.mgtv.com
@@ -353,10 +355,10 @@ log.v2.hunantv.com
 res.hunantv.com
 v2.log.hunantv.com
 
-#### inner-active-ads.txt
+# inner-active-ads.txt
 inner-active.mobi
 
-#### iqiyi-ads.txt
+# iqiyi-ads.txt
 a.ckm.iqiyi.com
 ad.m.iqiyi.com
 afp.iqiyi.com
@@ -375,7 +377,7 @@ msg.video.qiyi.com
 policy.video.iqiyi.com
 yuedu.iqiyi.com
 
-#### jd-ads.txt
+# jd-ads.txt
 ads.union.jd.com
 c-nfa.jd.com
 cps.360buy.com
@@ -383,14 +385,14 @@ img-x.jd.com
 jzt.jd.com
 stat.m.jd.com
 
-#### kuaishou-ads.txt
+# kuaishou-ads.txt
 log-sdk.gifshow.com
 wlog.kuaishou.com
 
-#### leanplum-ads.txt
+# leanplum-ads.txt
 leanplum.com
 
-#### letv-ads.txt
+# letv-ads.txt
 api.game.letvstore.com
 ark.letv.com
 dc.letv.com
@@ -407,48 +409,48 @@ pro.letv.com
 static.app.m.letv.com
 stat.letv.com
 
-#### mixpanel-ads.txt
+# mixpanel-ads.txt
 decide.mixpanel.com
 
-#### mopub-ads.txt
+# mopub-ads.txt
 mopub.com
 
-#### mxplayer-ads.txt
+# mxplayer-ads.txt
 evt.mxplay.com
 
-#### netease-ads.txt
+# netease-ads.txt
 analytics.163.com
 crash.163.com
 crashlytics.163.com
 g.163.com
 
-#### newrelic-ads.txt
+# newrelic-ads.txt
 js-agent.newrelic.com
 
-#### ogury-ads.txt
+# ogury-ads.txt
 ogury.co
 ogury.com
 presage.io
 
-#### onesignal-ads.txt
+# onesignal-ads.txt
 onesignal.com
 
-#### ookla-speedtest-ads.txt
+# ookla-speedtest-ads.txt
 
-#### pocoiq-ads.txt
+# pocoiq-ads.txt
 cdn.pocoiq.cn
 oct.pocoiq.cn
 
-#### pubmatic-ads.txt
+# pubmatic-ads.txt
 ads.pubmatic.com
 
-#### segment-ads.txt
+# segment-ads.txt
 cdn.segment.com
 
-#### sensorsdata-ads.txt
+# sensorsdata-ads.txt
 static.sensorsdata.cn
 
-#### sina-ads.txt
+# sina-ads.txt
 2016.sina.cn
 adbox.sina.com.cn
 adimages.sina.com.hk
@@ -533,7 +535,7 @@ woocall.sina.com.cn
 zc.biz.weibo.com
 zymo.mps.weibo.com
 
-#### sohu-ads.txt
+# sohu-ads.txt
 643108e7617ef.cdn.sohucs.com
 adnet.sohu.com
 ads.sohu.com
@@ -554,25 +556,25 @@ track.sohu.com
 uranus.sogou.com
 v2.reachmax.cn
 
-#### spotify-ads.txt
+# spotify-ads.txt
 adeventtracker.spotify.com
 adstudio-assets.scdn.co
 bloodhound.spotify.com
 
-#### supersonic-ads.txt
+# supersonic-ads.txt
 ssacdn.com
 supersonicads-a.akamaihd.net
 supersonicads.com
 supersonic.com
 
-#### tagtic-ads.txt
+# tagtic-ads.txt
 g1.tagtic.cn
 xy-log.tagtic.cn
 
-#### tappx-ads.txt
+# tappx-ads.txt
 ssp.api.tappx.com
 
-#### tencent-ads.txt
+# tencent-ads.txt
 adfilter.imtt.qq.com
 adping.qq.com
 adpm.app.qq.com
@@ -598,26 +600,26 @@ mtrace.qq.com
 pgdt.gtimg.cn
 push.qq.com
 
-#### uberads-ads.txt
+# uberads-ads.txt
 uberads.com
 
-#### umeng-ads.txt
+# umeng-ads.txt
 alog.umengcloud.com
 alog.umeng.com
 w.cnzz.com
 z.gds.cnzz.com
 
-#### unity-ads.txt
+# unity-ads.txt
 unityads.unity3d.com
 unityads.unitychina.cn
 
-#### wteam-ads.txt
+# wteam-ads.txt
 ads.wteam.xyz
 
-#### xhamster-ads.txt
+# xhamster-ads.txt
 collector.xhamster.com
 
-#### xiaomitv-ads.txt
+# xiaomitv-ads.txt
 ad1.xiaomi.com
 adeng.hpplay.cn
 ad.hpplay.cn
@@ -634,12 +636,12 @@ tjqonline.cn
 tracking.miui.com
 umeng.com
 
-#### yahoo-ads.txt
+# yahoo-ads.txt
 ads.yahoo.com
 gemini.yahoo.com
 ysm.yahoo.com
 
-#### youku-ads.txt
+# youku-ads.txt
 actives.youku.com
 ad.api.3g.youku.com
 ad.api.mobile.youku.com
@@ -687,7 +689,7 @@ wan.youku.com
 ykatr.youku.com
 ykrec.youku.com
 
-#### zynga-ads.txt
+# zynga-ads.txt
 zynga.com
 zyngaplayersupport.com
 

@@ -38,10 +38,11 @@
   src="$HOME/git/techprober/mosdns-lxc-deploy/rules/domains"
   des="$HOME/git/btinfo/qx/rule/ads.txt"
 
-  true > "$des"
+  echo "# $(date --rfc-3339=seconds)" > "$des"
+  echo "" >> "$des"
   cd "$src" || exit 1
   for i in $(ls *-ads.txt|grep -v category); do
-    echo "#### $i" >> "$des"
+    echo "# $i" >> "$des"
     grep -v "regexp:" "$i" | sed 's/full://g' | sort -u >> "$des"
     echo "" >> "$des"
   done
