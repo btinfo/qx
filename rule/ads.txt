@@ -1,6 +1,7 @@
 2016.sina.cn
 2mdn.net
 51y5.net
+643108e7617ef.cdn.sohucs.com
 a.adtng.com
 a.alimama.cn
 aaxads.com
@@ -26,6 +27,7 @@ adcolony.com
 addthisedge.com
 ad.duapps.com
 adeng.hpplay.cn
+adeventtracker.spotify.com
 adfilter.imtt.qq.com
 ad.games.dmm.com
 ad.hpplay.cn
@@ -68,6 +70,7 @@ ads.sina.com
 ads.sohu.com
 adstestview.qq.com
 ads.trafficjunky.net
+adstudio-assets.scdn.co
 ads.union.jd.com
 adsview2.qq.com
 adsview.qq.com
@@ -113,6 +116,7 @@ analytics.163.com
 analytics-data.io
 api.apps.sina.cn
 api.game.letvstore.com
+apilog-web.acfun.cn
 api.mobula.sdk.duapps.com
 api.tuisong.baidu.com
 api.wapa.taobao.com
@@ -145,6 +149,7 @@ bds.snssdk.com
 beacon.sina.com.cn
 biz.weibo.com
 bj.bcebos.com
+bloodhound.spotify.com
 bluekai.com
 b.smartvideo.youku.com
 btlaunch.baidu.com
@@ -243,6 +248,7 @@ dsp.simba.taobao.com
 dup.baidustatic.com
 dxp.baidu.com
 dzl.baidu.com
+e8aeb8bbdbbd7.cdn.sohucs.com
 e.baidu.com
 eclick.baidu.com
 ecma.bdimg.com
@@ -276,14 +282,6 @@ fexclick.baidu.com
 ff.win.taobao.com
 fm.p0y.cn
 fout.jp
-643108e7617ef.cdn.sohucs.com
-adeventtracker.spotify.com
-adstudio-assets.scdn.co
-apilog-web.acfun.cn
-bloodhound.spotify.com
-e8aeb8bbdbbd7.cdn.sohucs.com
-log-sdk.gifshow.com
-wlog.kuaishou.com
 fz.letv.com
 g.163.com
 g1.tagtic.cn
@@ -381,6 +379,7 @@ log.hunantv.com
 log.interest.mix.sina.com.cn
 log.mix.sina.com.cn
 log.music.baidu.com
+log-sdk.gifshow.com
 log.sina.cn
 log.tbs.qq.com
 log.umtrack.com
@@ -611,6 +610,7 @@ wenku-cms.bj.bcebos.com
 w.gdown.baidu.com
 widget.weibo.com
 wisepush.video.baidu.com
+wlog.kuaishou.com
 wm.baidu.com
 w.m.taobao.com
 wn.pos.baidu.com
