@@ -81,6 +81,7 @@ trace.qq.com
 dm.toutiao.com
 pangolin-sdk-toutiao-b.com
 tnc3-alisc1.zijieapi.com
+tnc3-aliec2.zijieapi.com
 
 # Transfer Market
 akamaihd.net
