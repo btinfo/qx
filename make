@@ -50,10 +50,10 @@
   cd - || exit 1
   
   ## reject_sukka.conf
-  echo "# $(date --rfc-3339=seconds)" > rule/reject_sukka.conf
-  curl -fsL https://ruleset.skk.moe/List/domainset/reject_sukka.conf > rule/reject_sukka.conf
-  sed -i 's/^/host, /g' rule/reject_sukka.conf
-  sed -i 's/^host, \./host-suffix, /g' rule/reject_sukka.conf
-  sed -i 's/^host, #/#/g' rule/reject_sukka.conf
-  sed -i 's/^host, $//g' rule/reject_sukka.conf
+  echo "# $(date --rfc-3339=seconds)" > rule/sukka.list
+  curl -fsL https://ruleset.skk.moe/List/domainset/reject_sukka.conf > rule/sukka.list
+  sed -i 's/^/host, /g' rule/sukka.list
+  sed -i 's/^host, \./host-suffix, /g' rule/sukka.list
+  sed -i 's/^host, #/#/g' rule/sukka.list
+  sed -i 's/^host, $//g' rule/sukka.list
   
