@@ -81,6 +81,7 @@ trace.qq.com
 dm.toutiao.com
 pangolin-sdk-toutiao-b.com
 tnc3-alisc1.zijieapi.com
+tnc3-aliec2.zijieapi.com
 
 # Transfer Market
 akamaihd.net
@@ -97,6 +98,10 @@ pg-ad-b2.ws.126.net
 # umeng
 log.umsns.com
 stats.umsns.com
+
+# 威锋
+adkwai.com
+gifshow.com
 
 # 小袁口算
 gallery.fbcontent.cn
