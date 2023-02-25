@@ -98,6 +98,10 @@ pg-ad-b2.ws.126.net
 log.umsns.com
 stats.umsns.com
 
+# 威锋
+adkwai.com
+gifshow.com
+
 # 小袁口算
 gallery.fbcontent.cn
 leo.fbcontent.cn
