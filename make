@@ -35,6 +35,7 @@
   curl -s https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list > rule/source/BanProgramAD.list
   curl -s https://raw.githubusercontent.com/techprober/v2ray-rules-dat/release/geosite/category-ads.txt | sort -u > rule/source/category-ads.txt
   
+  ## category-ads.txt
   src="$HOME/git/techprober/mosdns-lxc-deploy/rules/domains"
   des="$HOME/git/btinfo/qx/rule/ads.txt"
 
@@ -47,4 +48,12 @@
     echo "" >> "$des"
   done
   cd - || exit 1
+  
+  ## reject_sukka.conf
+  echo "# $(date --rfc-3339=seconds)" > rule/reject_sukka.conf
+  curl -fsL https://ruleset.skk.moe/List/domainset/reject_sukka.conf > rule/reject_sukka.conf
+  sed -i 's/^/host, /g' rule/reject_sukka.conf
+  sed -i 's/^host, \./host-suffix, /g' rule/reject_sukka.conf
+  sed -i 's/^host, #/#/g' rule/reject_sukka.conf
+  sed -i 's/^host, $//g' rule/reject_sukka.conf
   
