@@ -1,7 +1,9 @@
+1rx.io
 2016.sina.cn
 2mdn.net
 51y5.net
 643108e7617ef.cdn.sohucs.com
+7box.vip
 a.adtng.com
 a.alimama.cn
 aaxads.com
@@ -24,6 +26,7 @@ adashx.m.taobao.com
 adbox.sina.com.cn
 adbutter.net
 adcolony.com
+ad-delivery.net
 addthisedge.com
 ad.duapps.com
 adeng.hpplay.cn
@@ -34,6 +37,7 @@ ad.hpplay.cn
 adimages.sina.com.hk
 adimg.mobile.sina.cn
 adimg.uve.weibo.com
+adinplay.com
 ad.intl.xiaomi.com
 adjust.com
 adm.baidu.com
@@ -44,6 +48,7 @@ admob.com
 ad.mobile.youku.com
 admob.xiaomi.com
 adnet.sohu.com
+adnxs.com
 adping.qq.com
 ad.player.baidu.com
 adpm.app.qq.com
@@ -85,6 +90,7 @@ adver.qq.com
 advertisercommunity.com
 advertiserscommunity.com
 advertising.adobe.com
+advertserve.com
 adv.sec.intl.miui.com
 adv.sec.miui.com
 adv-sv-show.focus.cn
@@ -154,6 +160,7 @@ bluekai.com
 b.smartvideo.youku.com
 btlaunch.baidu.com
 btrace.qq.com
+casalemedia.com
 c.baidu.com
 cb.baidu.com
 c.biz.weibo.com
@@ -188,8 +195,10 @@ c-nfa.jd.com
 collector.xhamster.com
 contentabc.com
 contentrecommend-out.mobile.sina.cn
+contextual.media.net
 counter.sina.com.cn
 count.video.sina.com.cn
+cpmstar.com
 cpro2.baidu.com
 cpro2.baidustatic.com
 cpro.baidu.cn
@@ -222,6 +231,7 @@ dcads.sina.com.cn
 dc.letv.com
 dd713.bj.bcebos.com
 decide.mixpanel.com
+demdex.net
 dev.dc.letv.com
 dev-push.m.youku.com
 dig.bdurl.net
@@ -322,6 +332,7 @@ hm.baidu.com
 hmma.baidu.com
 hotchat-im.iqiyi.com
 hpd.baidu.com
+httpool.com
 hudong.pl.youku.com
 huodong.pl.youku.com
 huodong.vip.youku.com
@@ -375,6 +386,7 @@ kuyun.com
 ladsp.com
 leanplum.com
 letv.allyes.com
+lijit.com
 log.hunantv.com
 log.interest.mix.sina.com.cn
 log.mix.sina.com.cn
@@ -395,8 +407,10 @@ material.istreamsche.com
 mbdlog.iqiyi.com
 m.beacon.sina.com.cn
 mcs.snssdk.com
+mfadsrvr.com
 m.game.weibo.cn
 mg.games.sina.com.cn
+mgid.com
 microad.co.jp
 microad.jp
 minisite.letv.com
@@ -428,6 +442,7 @@ nbsdk-baichuan.taobao.com
 neirong.baidu.com
 newspush.sinajs.cn
 n.mark.letv.com
+ns1p.net
 nsclick.baidu.com
 nsclickvideo.baidu.com
 oascentral.sina.com
@@ -437,6 +452,7 @@ ogury.co
 ogury.com
 onesignal.com
 openrcv.baidu.com
+openx.net
 osfota.cdn.aliyun.com
 osupdate.aliyun.com
 osupdateservice.yunos.com
@@ -463,6 +479,7 @@ presage.io
 pro.hoye.letv.com
 pro.letv.com
 promote.biz.weibo.cn
+pubmatic.com
 pups.bdimg.com
 push.m.youku.com
 push.qq.com
@@ -517,11 +534,13 @@ simba.m.taobao.com
 s.img.mix.sina.com.cn
 slog.sina.cn
 slog.sina.com.cn
+snapads.com
 snippet.pos.baidu.com
 sobar.baidu.com
 sobartop.baidu.com
 socdm.com
 spcode.baidu.com
+spotxchange.com
 s.p.youku.com
 srd.simba.taobao.com
 ssacdn.com
@@ -546,6 +565,7 @@ su.bdstatic.com
 supersonicads-a.akamaihd.net
 supersonicads.com
 supersonic.com
+taboola.com
 tanxlog.istreamsche.com
 tdrec.youku.com
 tejia.taobao.com
@@ -579,13 +599,16 @@ uat1.bfsspadserver.8le8le.com
 uberads.com
 ubmcmm.baidustatic.com
 ucstat.baidu.com
+ugdtimg.com
 ulic.baidu.com
 ulog.imap.baidu.com
 umeng.com
+unimhk.com
 union.baidu.com
 unionimage.baidu.com
 unityads.unity3d.com
 unityads.unitychina.cn
+upapi.net
 uranus.sogou.com
 urchin.com
 userimg.qunar.com
