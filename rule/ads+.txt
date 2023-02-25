@@ -71,7 +71,7 @@ api.share.mob.com
 adsmind.gdtimg.com
 gdt.qq.com
 ios.bugly.qq.com
-pgdt.ugdtimg.com
+#pgdt.ugdtimg.com
 qzs.gdtimg.com
 safebrowsing.urlsec.qq.com
 tingyun.com
