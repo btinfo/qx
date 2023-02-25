@@ -1,4 +1,4 @@
-# updated at 2023-01-28 12:01:59+08:00
+# 2023-02-25 11:05:51+08:00
 
 IP-ASN,1237 // KISTI
 IP-ASN,1704 // Korea Advanced Institute of Science and Technology
@@ -109,7 +109,7 @@ IP-ASN,9641 // Korea Development Bank
 IP-ASN,9642 // Korea Internet Security Agency
 IP-ASN,9643 // KICA
 IP-ASN,9644 // SK Telecom
-IP-ASN,9645 // HI INVESTMENT FUTURES CORPORATION
+IP-ASN,9645 // SI SECURITIES CORPORATION
 IP-ASN,9646 // eGIOS
 IP-ASN,9647 // Seoul Metropolitan Government
 IP-ASN,9683 // Seoul Facilities Corporation
@@ -298,7 +298,6 @@ IP-ASN,10197 // Chonnam National University
 IP-ASN,10198 // Catholic University of Pusan
 IP-ASN,17567 // Airport Railroad Co ltd
 IP-ASN,17570 // SK Global co., Ltd
-IP-ASN,17571 // ncsoft
 IP-ASN,17573 // SK Broadband Co Ltd
 IP-ASN,17574 // Seoul Metropolitan Government Computer Center
 IP-ASN,17575 // Chung-Ang University
@@ -323,7 +322,7 @@ IP-ASN,17593 // NDS Coporation
 IP-ASN,17594 // SMBS
 IP-ASN,17595 // Korea Institute of Nuclear Safety
 IP-ASN,17596 // PINE ASSET SERVICE
-IP-ASN,17597 //
+IP-ASN,17597 // SK Broadband Co Ltd
 IP-ASN,17598 // LG HelloVision Corp.
 IP-ASN,17599 // Yuhan University
 IP-ASN,17600 // KOREA RESOURCES RECOVERY AND REUTILIZATION CORPORATION
@@ -353,6 +352,7 @@ IP-ASN,17843 // Sahmyook University
 IP-ASN,17844 // National Pension Service
 IP-ASN,17845 // Gyeonggi Technopark
 IP-ASN,17846 // SK Broadband Co Ltd
+IP-ASN,17847 // Financial Supervisory Service
 IP-ASN,17848 // INAMES
 IP-ASN,17849 // SK Broadband Co Ltd
 IP-ASN,17850 // Korea Federation of Banks
@@ -540,7 +540,7 @@ IP-ASN,38389 // FAMOUS WORKER
 IP-ASN,38390 // Goyang Office of Education
 IP-ASN,38391 // Gyeonggi provincial gimpo office of education
 IP-ASN,38392 // KYONGGI YANGPYEONG OFFICE OF EDUCATION
-IP-ASN,38393 //
+IP-ASN,38393 // Homeplus Co., Ltd.
 IP-ASN,38394 // Gyeonggido Seongnam Office of Education
 IP-ASN,38395 // GwangJuHaNam Office of Education
 IP-ASN,38396 // Paju office of Education Gyeonggi Province
@@ -771,6 +771,7 @@ IP-ASN,131847 // Korea District Heating Corporation
 IP-ASN,131848 // YUHAN
 IP-ASN,131850 // Teachiworld Auto Insurance
 IP-ASN,131851 // Teachiworld Auto Insurance
+IP-ASN,131852 // EUGENE INVESTMENT FUTURES Co.,Ltd.
 IP-ASN,131855 // viva republica
 IP-ASN,131856 // WONJU SEVERANCE CHRISTIAN HOSPITAL
 IP-ASN,131869 // UST
@@ -782,5 +783,7 @@ IP-ASN,138195 // MOACK.Co.LTD
 IP-ASN,138380 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,139281 // Equinix Korea LLC
 IP-ASN,139648 // PacketStream Korea
+IP-ASN,142273 // Digital Realty Korea Ltd.
 IP-ASN,149522 // OneCubit Co., Ltd.
+IP-ASN,200079 // TAEJUNG INC.
 IP-ASN,209165 // Guhyun Chung trading as Pluxcon Network
