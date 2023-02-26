@@ -79,9 +79,11 @@ trace.qq.com
 
 # 头条
 dm.toutiao.com
+dm-hl.toutiao.com
 pangolin-sdk-toutiao-b.com
 tnc3-alisc1.zijieapi.com
 tnc3-aliec2.zijieapi.com
+tnc3-bjlgy.zijieapi.com
 
 # Transfer Market
 akamaihd.net
