@@ -1,274 +1,279 @@
-host-suffix, 2mdn.net
-host-suffix, 33across.com
-host-suffix, 360yield.com
-host-suffix, 3lift.com
-host-suffix, acache.ilbe.com
-host-suffix, acceptable.a-ads.com
-host-suffix, acrosspf.com
-host-suffix, action.adoffice.11st.co.kr
-host-suffix, ad1.sportschosun.com
-host-suffix, ad2.mimint.co.kr
-host-suffix, ad.3dpop.kr
-host-suffix, ad4989.co.kr
-host-suffix, ad5.koreadaily.com
-host-suffix, ad.a-ads.com
-host-suffix, ad.about.co.kr
-host-suffix, ad.aceplanet.co.kr
-host-suffix, ad.adinc.kr
-host-suffix, ad.adjw.co.kr
-host-suffix, ad.admine.co.kr
-host-suffix, ad.adnmore.co.kr
-host-suffix, ad.ajitad.co.kr
-host-suffix, adapi.about.co.kr
-host-suffix, ad-api.enuri.info
-host-suffix, ad.auction.co.kr
-host-suffix, adballoon.afreecatv.com
-host-suffix, adbc.io
-host-suffix, ad.bidrich.com
-host-suffix, adbinead.com
-host-suffix, ad.buzzvil.com
-host-suffix, adcastmarket.com
-host-suffix, ad.cauly.co.kr
-host-suffix, adcdn.gamemeca.com
-host-suffix, ad.cgv.co.kr
-host-suffix, adcheck.about.co.kr
-host-suffix, ad.ciokorea.com
-host-suffix, adc.ohmynews.com
-host-suffix, adcr.naver.com
-host-suffix, ad.cyycoy.com
-host-suffix, ad.danawa.com
-host-suffix, ad.daum.net
-host-suffix, addb.interpark.com
-host-suffix, addc.dcinside.com
-host-suffix, ad.doyouad.com
-host-suffix, ad.esmplus.com
-host-suffix, ad.everytime.kr
-host-suffix, adex.ednplus.com
-host-suffix, ad.feedbag.co.kr
-host-suffix, adg.dawin.tv
-host-suffix, adgirl.yes24.com
-host-suffix, ad.hankookilbo.com
-host-suffix, adhooah.com
-host-suffix, ad.idnad.co.kr
-host-suffix, ad.ilbe.com
-host-suffix, ad.ilikesponsorad.com
-host-suffix, adimage.hankookilbo.com
-host-suffix, adimg.cgv.co.kr
-host-suffix, ad-img.ebaykorea.com
-host-suffix, adimg.nate.com
-host-suffix, adimg.newdaily.co.kr
-host-suffix, adimg.newstomato.com
-host-suffix, ad.imp.joins.com
-host-suffix, adinc.co.kr
-host-suffix, ad-insight.sellermill.com
-host-suffix, ad.khan.co.kr
-host-suffix, ad.kmib.co.kr
-host-suffix, ad.linkprice.com
-host-suffix, adlooxtracking.com
-host-suffix, admanmedia.com
-host-suffix, ad-mapps.com
-host-suffix, admaru.net
-host-suffix, admax.me
-host-suffix, ad.mediafarm.co.kr
-host-suffix, admixer.co.kr
-host-suffix, admonseller.com
-host-suffix, ad.mrab.co.kr
-host-suffix, adm.smartmediarep.com
-host-suffix, ad.newspim.com
-host-suffix, adnxs.com
-host-suffix, adop.cc
-host-suffix, ad.phaserep.com
-host-suffix, ad.planbplus.co.kr
-host-suffix, adplex.co.kr
-host-suffix, adpnut.com
-host-suffix, adpopcorn.com
-host-suffix, ad.pping.kr
-host-suffix, ad.reople.co.kr
-host-suffix, ads.admaru.com
-host-suffix, ads.adoffice.11st.co.kr
-host-suffix, ads.betweendigital.com
-host-suffix, adscdn.orbi.kr
-host-suffix, ad-script.viewus.co.kr
-host-suffix, ad.search.nate.com
-host-suffix, adserver.joseilbo.com
-host-suffix, adservice.google.com
-host-suffix, adservice.hani.co.kr
-host-suffix, adservice.sbs.co.kr
-host-suffix, ads.gamemeca.com
-host-suffix, ads.inven.co.kr
-host-suffix, adskeeper.com
-host-suffix, ads.kmib.co.kr
-host-suffix, ad.smartmediarep.com
-host-suffix, ads.mncmedia.co.kr
-host-suffix, ads.mobitree.co.kr
-host-suffix, ads.mtgroup.kr
-host-suffix, ads.orbi.kr
-host-suffix, ads-partners.coupang.com
-host-suffix, ads.priel.co.kr
-host-suffix, ads.quanta.la
-host-suffix, adsrvr.org
-host-suffix, adsrv-up.mcrony.com
-host-suffix, ads.sportsseoul.com
-host-suffix, ads.stickyadstv.com
-host-suffix, ads.tapzin.com
-host-suffix, ads-twitter.com
-host-suffix, ads.uwayapply.com
-host-suffix, ad.themedianw.com
-host-suffix, ad.tjtune.com
-host-suffix, ad.tpmn.co.kr
-host-suffix, aduniv.nesin.com
-host-suffix, adv.bandi.so
-host-suffix, adv.dailyissue.co.kr
-host-suffix, advertising.com
-host-suffix, adv.imadrep.co.kr
-host-suffix, adv.khan.co.kr
-host-suffix, advod.sbs.co.kr
-host-suffix, adv.zdnet.co.kr
-host-suffix, adw.heraldm.com
-host-suffix, adxadserv.com
-host-suffix, adxcorp.kr
-host-suffix, adx-exchange.toast.com
-host-suffix, adx.mocoplex.com
-host-suffix, adxr.zum.com
-host-suffix, adx.turl.co.kr
-host-suffix, ad.yonhapnews.co.kr
-host-suffix, ad.zumst.com
-host-suffix, ahnlabad.com
-host-suffix, amazon-adsystem.com
-host-suffix, amp.diningcode.com
-host-suffix, andbeyond.media
-host-suffix, aniview.com
-host-suffix, api-ao-list.adison.co
-host-suffix, api.botad.kr
-host-suffix, api.ezadsystem.com
-host-suffix, api.greenp.kr
-host-suffix, api.linkmine.co.kr
-host-suffix, api.valista.io
-host-suffix, applovin.com
-host-suffix, banners.cams.com
-host-suffix, bestcontentitem.top
-host-suffix, bidr.io
-host-suffix, bidswitch.net
-host-suffix, bizspring.net
-host-suffix, casalemedia.com
-host-suffix, catad5959.com
-host-suffix, categorysort.com
-host-suffix, cdndn.3dpop.kr
-host-suffix, cf-eba.everytime.kr
-host-suffix, cizion.com
-host-suffix, clickmon.co.kr
-host-suffix, contentcave.co.kr
-host-suffix, contentsfeed.com
-host-suffix, contextweb.com
-host-suffix, cpa.greenp.kr
-host-suffix, criteo.com
-host-suffix, criteo.net
-host-suffix, cyad1.nate.com
-host-suffix, cyad.nate.com
-host-suffix, dable.io
-host-suffix, dadispapi.auction.co.kr
-host-suffix, daimg.encar.com
-host-suffix, deapi.afreecatv.com
-host-suffix, deepdive.zum.com
-host-suffix, deployads.com
-host-suffix, displayadimg.zumst.com
-host-suffix, displayad.lotteon.com
-host-suffix, displayad.zum.com
-host-suffix, dmxleo.dailymotion.com
-host-suffix, doubleclick.net
-host-suffix, ds.11st.co.kr
-host-suffix, exelbid.com
-host-suffix, fastview.co.kr
-host-suffix, finead.o00.kr
-host-suffix, googleadservices.com
-host-suffix, googletagservices.com
-host-suffix, gwx.adnext.co
-host-suffix, hancomad.com
-host-suffix, imasdk.googleapis.com
-host-suffix, imgnewad.ytn.co.kr
-host-suffix, impactify.io
-host-suffix, infolinks.com
-host-suffix, innity.net
-host-suffix, innorame.com
-host-suffix, interworksmedia.co.kr
-host-suffix, io.smartmyd.com
-host-suffix, keywordsconnect.com
-host-suffix, kodcad.kr
-host-suffix, koreanzad.xyz
-host-suffix, lijit.com
-host-suffix, marketingking.co.kr
-host-suffix, md.r114.co.kr
-host-suffix, mediabp.kr
-host-suffix, mediacategory.com
-host-suffix, megadata.co.kr
-host-suffix, mini.m-able.app
-host-suffix, minishop.linkprice.com
-host-suffix, mmnneo.com
-host-suffix, mobon.net
-host-suffix, mobwithad.com
-host-suffix, mrep.kr
-host-suffix, msadsense.com
-host-suffix, mtag.mman.kr
-host-suffix, nad.tf.co.kr
-host-suffix, naverpa-phinf.pstatic.net
-host-suffix, ndexww.com
-host-suffix, nefing.com
-host-suffix, netinsight.co.kr
-host-suffix, networkad.nate.com
-host-suffix, newscover.co.kr
-host-suffix, nitropay.com
-host-suffix, nkwadv.nate.com
-host-suffix, nvapi.feeldmc.com
-host-suffix, onepx.kr
-host-suffix, openx.net
-host-suffix, optad360.io
-host-suffix, pagead2.googlesyndication.com
-host-suffix, piclick.kr
-host-suffix, pltapad.com
-host-suffix, powerclick.about.co.kr
-host-suffix, poweredby.jads.co
-host-suffix, pubmatic.com
-host-suffix, quantserve.com
-host-suffix, realclick.co.kr
-host-suffix, realssp.co.kr
-host-suffix, reqde.afreecatv.com
-host-suffix, rubiconproject.com
-host-suffix, safeframe.googlesyndication.com
-host-suffix, screen.buzzvil.com
-host-suffix, searchad-phinf.pstatic.net
-host-suffix, search-ads-api.joongna.com
-host-suffix, serv.ds.kakao.com
-host-suffix, shoppingbox.zum.com
-host-suffix, shoppingcall.me
-host-suffix, shukriya90.com
-host-suffix, simg.imadrep.co.kr
-host-suffix, sitescout.com
-host-suffix, smartadserver.com
-host-suffix, ssp.meba.kr
-host-suffix, stax.kr
-host-suffix, taboola.com
-host-suffix, tadapi.info
-host-suffix, tagtree.co.kr
-host-suffix, tapioni.com
-host-suffix, targetpush.co.kr
-host-suffix, teads.tv
-host-suffix, tenping.kr
-host-suffix, thetopic.co.kr
-host-suffix, tnkad.net
-host-suffix, tpc.googlesyndication.com
-host-suffix, tracker.digitalcamp.co.kr
-host-suffix, trafficforce.com
-host-suffix, trendpick.shopping.naver.com
-host-suffix, tsyndicate.com
-host-suffix, tvetamovie.pstatic.net
-host-suffix, undertone.com
-host-suffix, veta.naver.com
-host-suffix, vntsm.com
-host-suffix, vrixon.com
-host-suffix, widerplanet.com
-host-suffix, wmars-client.wemakeprice.com
-host-suffix, wwwads.seoul.co.kr
-host-suffix, xconf.cauly.co.kr
-host-suffix, xdsp.snadx.com
-host-suffix, xlviirdr.com
-host-suffix, xn--s-4z5e652a53k.com
+host-wildcard,adimg*.search.naver.net
+host-wildcard,adservice.google.co.*
+host-wildcard,ads-*.v.ssp.yahoo.com
+host-wildcard,ad*.thisisgame.com
+host-wildcard,ad*.wisenut.co.kr
+host-suffix,2mdn.net
+host-suffix,33across.com
+host-suffix,360yield.com
+host-suffix,3lift.com
+host-suffix,acache.ilbe.com
+host-suffix,acceptable.a-ads.com
+host-suffix,acrosspf.com
+host-suffix,action.adoffice.11st.co.kr
+host-suffix,ad1.sportschosun.com
+host-suffix,ad2.mimint.co.kr
+host-suffix,ad.3dpop.kr
+host-suffix,ad4989.co.kr
+host-suffix,ad5.koreadaily.com
+host-suffix,ad.a-ads.com
+host-suffix,ad.about.co.kr
+host-suffix,ad.aceplanet.co.kr
+host-suffix,ad.adinc.kr
+host-suffix,ad.adjw.co.kr
+host-suffix,ad.admine.co.kr
+host-suffix,ad.adnmore.co.kr
+host-suffix,ad.ajitad.co.kr
+host-suffix,adapi.about.co.kr
+host-suffix,ad-api.enuri.info
+host-suffix,ad.auction.co.kr
+host-suffix,adballoon.afreecatv.com
+host-suffix,adbc.io
+host-suffix,ad.bidrich.com
+host-suffix,adbinead.com
+host-suffix,ad.buzzvil.com
+host-suffix,adcastmarket.com
+host-suffix,ad.cauly.co.kr
+host-suffix,adcdn.gamemeca.com
+host-suffix,ad.cgv.co.kr
+host-suffix,adcheck.about.co.kr
+host-suffix,ad.ciokorea.com
+host-suffix,adc.ohmynews.com
+host-suffix,adcr.naver.com
+host-suffix,ad.cyycoy.com
+host-suffix,ad.danawa.com
+host-suffix,ad.daum.net
+host-suffix,addb.interpark.com
+host-suffix,addc.dcinside.com
+host-suffix,ad.doyouad.com
+host-suffix,ad.esmplus.com
+host-suffix,ad.everytime.kr
+host-suffix,adex.ednplus.com
+host-suffix,ad.feedbag.co.kr
+host-suffix,adg.dawin.tv
+host-suffix,adgirl.yes24.com
+host-suffix,ad.hankookilbo.com
+host-suffix,adhooah.com
+host-suffix,ad.idnad.co.kr
+host-suffix,ad.ilbe.com
+host-suffix,ad.ilikesponsorad.com
+host-suffix,adimage.hankookilbo.com
+host-suffix,adimg.cgv.co.kr
+host-suffix,ad-img.ebaykorea.com
+host-suffix,adimg.nate.com
+host-suffix,adimg.newdaily.co.kr
+host-suffix,adimg.newstomato.com
+host-suffix,ad.imp.joins.com
+host-suffix,adinc.co.kr
+host-suffix,ad-insight.sellermill.com
+host-suffix,ad.khan.co.kr
+host-suffix,ad.kmib.co.kr
+host-suffix,ad.linkprice.com
+host-suffix,adlooxtracking.com
+host-suffix,admanmedia.com
+host-suffix,ad-mapps.com
+host-suffix,admaru.net
+host-suffix,admax.me
+host-suffix,ad.mediafarm.co.kr
+host-suffix,admixer.co.kr
+host-suffix,admonseller.com
+host-suffix,ad.mrab.co.kr
+host-suffix,adm.smartmediarep.com
+host-suffix,ad.newspim.com
+host-suffix,adnxs.com
+host-suffix,adop.cc
+host-suffix,ad.phaserep.com
+host-suffix,ad.planbplus.co.kr
+host-suffix,adplex.co.kr
+host-suffix,adpnut.com
+host-suffix,adpopcorn.com
+host-suffix,ad.pping.kr
+host-suffix,ad.reople.co.kr
+host-suffix,ads.admaru.com
+host-suffix,ads.adoffice.11st.co.kr
+host-suffix,ads.betweendigital.com
+host-suffix,adscdn.orbi.kr
+host-suffix,ad-script.viewus.co.kr
+host-suffix,ad.search.nate.com
+host-suffix,adserver.joseilbo.com
+host-suffix,adservice.google.com
+host-suffix,adservice.hani.co.kr
+host-suffix,adservice.sbs.co.kr
+host-suffix,ads.gamemeca.com
+host-suffix,ads.inven.co.kr
+host-suffix,adskeeper.com
+host-suffix,ads.kmib.co.kr
+host-suffix,ad.smartmediarep.com
+host-suffix,ads.mncmedia.co.kr
+host-suffix,ads.mobitree.co.kr
+host-suffix,ads.mtgroup.kr
+host-suffix,ads.orbi.kr
+host-suffix,ads-partners.coupang.com
+host-suffix,ads.priel.co.kr
+host-suffix,ads.quanta.la
+host-suffix,adsrvr.org
+host-suffix,adsrv-up.mcrony.com
+host-suffix,ads.sportsseoul.com
+host-suffix,ads.stickyadstv.com
+host-suffix,ads.tapzin.com
+host-suffix,ads-twitter.com
+host-suffix,ads.uwayapply.com
+host-suffix,ad.themedianw.com
+host-suffix,ad.tjtune.com
+host-suffix,ad.tpmn.co.kr
+host-suffix,aduniv.nesin.com
+host-suffix,adv.bandi.so
+host-suffix,adv.dailyissue.co.kr
+host-suffix,advertising.com
+host-suffix,adv.imadrep.co.kr
+host-suffix,adv.khan.co.kr
+host-suffix,advod.sbs.co.kr
+host-suffix,adv.zdnet.co.kr
+host-suffix,adw.heraldm.com
+host-suffix,adxadserv.com
+host-suffix,adxcorp.kr
+host-suffix,adx-exchange.toast.com
+host-suffix,adx.mocoplex.com
+host-suffix,adxr.zum.com
+host-suffix,adx.turl.co.kr
+host-suffix,ad.yonhapnews.co.kr
+host-suffix,ad.zumst.com
+host-suffix,ahnlabad.com
+host-suffix,amazon-adsystem.com
+host-suffix,amp.diningcode.com
+host-suffix,andbeyond.media
+host-suffix,aniview.com
+host-suffix,api-ao-list.adison.co
+host-suffix,api.botad.kr
+host-suffix,api.ezadsystem.com
+host-suffix,api.greenp.kr
+host-suffix,api.linkmine.co.kr
+host-suffix,api.valista.io
+host-suffix,applovin.com
+host-suffix,banners.cams.com
+host-suffix,bestcontentitem.top
+host-suffix,bidr.io
+host-suffix,bidswitch.net
+host-suffix,bizspring.net
+host-suffix,casalemedia.com
+host-suffix,catad5959.com
+host-suffix,categorysort.com
+host-suffix,cdndn.3dpop.kr
+host-suffix,cf-eba.everytime.kr
+host-suffix,cizion.com
+host-suffix,clickmon.co.kr
+host-suffix,contentcave.co.kr
+host-suffix,contentsfeed.com
+host-suffix,contextweb.com
+host-suffix,cpa.greenp.kr
+host-suffix,criteo.com
+host-suffix,criteo.net
+host-suffix,cyad1.nate.com
+host-suffix,cyad.nate.com
+host-suffix,dable.io
+host-suffix,dadispapi.auction.co.kr
+host-suffix,daimg.encar.com
+host-suffix,deapi.afreecatv.com
+host-suffix,deepdive.zum.com
+host-suffix,deployads.com
+host-suffix,displayadimg.zumst.com
+host-suffix,displayad.lotteon.com
+host-suffix,displayad.zum.com
+host-suffix,dmxleo.dailymotion.com
+host-suffix,doubleclick.net
+host-suffix,ds.11st.co.kr
+host-suffix,exelbid.com
+host-suffix,fastview.co.kr
+host-suffix,finead.o00.kr
+host-suffix,googleadservices.com
+host-suffix,googletagservices.com
+host-suffix,gwx.adnext.co
+host-suffix,hancomad.com
+host-suffix,imasdk.googleapis.com
+host-suffix,imgnewad.ytn.co.kr
+host-suffix,impactify.io
+host-suffix,infolinks.com
+host-suffix,innity.net
+host-suffix,innorame.com
+host-suffix,interworksmedia.co.kr
+host-suffix,io.smartmyd.com
+host-suffix,keywordsconnect.com
+host-suffix,kodcad.kr
+host-suffix,koreanzad.xyz
+host-suffix,lijit.com
+host-suffix,marketingking.co.kr
+host-suffix,md.r114.co.kr
+host-suffix,mediabp.kr
+host-suffix,mediacategory.com
+host-suffix,megadata.co.kr
+host-suffix,mini.m-able.app
+host-suffix,minishop.linkprice.com
+host-suffix,mmnneo.com
+host-suffix,mobon.net
+host-suffix,mobwithad.com
+host-suffix,mrep.kr
+host-suffix,msadsense.com
+host-suffix,mtag.mman.kr
+host-suffix,nad.tf.co.kr
+host-suffix,naverpa-phinf.pstatic.net
+host-suffix,ndexww.com
+host-suffix,nefing.com
+host-suffix,netinsight.co.kr
+host-suffix,networkad.nate.com
+host-suffix,newscover.co.kr
+host-suffix,nitropay.com
+host-suffix,nkwadv.nate.com
+host-suffix,nvapi.feeldmc.com
+host-suffix,onepx.kr
+host-suffix,openx.net
+host-suffix,optad360.io
+host-suffix,pagead2.googlesyndication.com
+host-suffix,piclick.kr
+host-suffix,pltapad.com
+host-suffix,powerclick.about.co.kr
+host-suffix,poweredby.jads.co
+host-suffix,pubmatic.com
+host-suffix,quantserve.com
+host-suffix,realclick.co.kr
+host-suffix,realssp.co.kr
+host-suffix,reqde.afreecatv.com
+host-suffix,rubiconproject.com
+host-suffix,safeframe.googlesyndication.com
+host-suffix,screen.buzzvil.com
+host-suffix,searchad-phinf.pstatic.net
+host-suffix,search-ads-api.joongna.com
+host-suffix,serv.ds.kakao.com
+host-suffix,shoppingbox.zum.com
+host-suffix,shoppingcall.me
+host-suffix,shukriya90.com
+host-suffix,simg.imadrep.co.kr
+host-suffix,sitescout.com
+host-suffix,smartadserver.com
+host-suffix,ssp.meba.kr
+host-suffix,stax.kr
+host-suffix,taboola.com
+host-suffix,tadapi.info
+host-suffix,tagtree.co.kr
+host-suffix,tapioni.com
+host-suffix,targetpush.co.kr
+host-suffix,teads.tv
+host-suffix,tenping.kr
+host-suffix,thetopic.co.kr
+host-suffix,tnkad.net
+host-suffix,tpc.googlesyndication.com
+host-suffix,tracker.digitalcamp.co.kr
+host-suffix,trafficforce.com
+host-suffix,trendpick.shopping.naver.com
+host-suffix,tsyndicate.com
+host-suffix,tvetamovie.pstatic.net
+host-suffix,undertone.com
+host-suffix,veta.naver.com
+host-suffix,vntsm.com
+host-suffix,vrixon.com
+host-suffix,widerplanet.com
+host-suffix,wmars-client.wemakeprice.com
+host-suffix,wwwads.seoul.co.kr
+host-suffix,xconf.cauly.co.kr
+host-suffix,xdsp.snadx.com
+host-suffix,xlviirdr.com
+host-suffix,xn--s-4z5e652a53k.com
