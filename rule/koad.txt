@@ -26,6 +26,7 @@ host-suffix, adballoon.afreecatv.com
 host-suffix, adbc.io
 host-suffix, ad.bidrich.com
 host-suffix, adbinead.com
+host-suffix, ad.buzzvil.com
 host-suffix, adcastmarket.com
 host-suffix, ad.cauly.co.kr
 host-suffix, adcdn.gamemeca.com
@@ -233,6 +234,7 @@ host-suffix, realssp.co.kr
 host-suffix, reqde.afreecatv.com
 host-suffix, rubiconproject.com
 host-suffix, safeframe.googlesyndication.com
+host-suffix, screen.buzzvil.com
 host-suffix, searchad-phinf.pstatic.net
 host-suffix, search-ads-api.joongna.com
 host-suffix, serv.ds.kakao.com
