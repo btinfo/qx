@@ -104,6 +104,7 @@ syh-imp.cdnjtzy.com
 boltdns.net
 #========================================#
 #🟥Baidu
+#🟢Baidu
 api.tuisong.baidu.com
 dxp.baidu.com
 hm.baidu.com
@@ -120,7 +121,7 @@ bj.bcebos.com
 mobads-pre-config.cdn.bcebos.com
 #========================================#
 #🟥北京中科三方网络技术有限公司#中央电视台
-#🟢CCTV
+#🟢CCTV#ysp
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
 #========================================#
@@ -136,7 +137,7 @@ ap.dongqiudi.com
 #========================================#
 #🟥eName Technology Co.,Ltd.
 
-#🟢eName#toutiao
+#🟢eName#toutiao#snssdk#ctobsnssdk#zijieapi
 dm.toutiao.com
 dm-hl.toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
@@ -153,7 +154,7 @@ tnc3-bjlgy.zijieapi.com
 #🟢eName#tingyun
 wkrd.tingyun.com
 
-#🟢eName#XiaoMi
+#🟢eName#xiaomi
 sdkconfig.ad.xiaomi.com
 tracking.miui.com
 #========================================#
