@@ -41,7 +41,7 @@ nsclick.baidu.com
 zz.bdstatic.com
 #========================================#
 #北京一卡通
-ad.bmac.com.cn
+#ad.bmac.com.cn
 #========================================#
 #braze
 iad-03.braze.com
