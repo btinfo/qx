@@ -78,9 +78,9 @@ g.doubleclick.net
 g.doubleclick-cn.net
 
 ssl.google-analytics.com
-www.googleadservices.com
-www.googletagmanager.com
-www.googletagservices.com
+googleadservices.com
+googletagmanager.com
+googletagservices.com
 #========================================#
 #growingio
 assets.growingio.com
