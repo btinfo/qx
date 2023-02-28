@@ -203,7 +203,7 @@ qzs.gdtimg.com
 pgdt.ugdtimg.com
 adstats.tencentmusic.com
 ad.tencentmusic.com
-#厦门易名科技股份有限公司#QQ
+#🟢厦门易名科技股份有限公司#QQ
 pgdt.gtimg.cn
 
 #🟢MarkMonitor#Yahoo
