@@ -240,6 +240,10 @@ leo.fbcontent.cn
 leo-online.fbcontent.cn
 oapi.yuanfudao.com
 #========================================#
+#ysp
+cdn.cmgadx.com
+mtrace.ysp.cctv.cn
+#========================================#
 #zyb
 syh2.zybang.com
 syh-imp.cdnjtzy.com
