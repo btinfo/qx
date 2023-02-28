@@ -1,5 +1,5 @@
 #========================================#
-#Alibaba
+#Alibaba Cloud Computing (Beijing) Co.,Ltd.
 
 #Alibaba#aliyuncs#taobao
 adash-emas.cn-hangzhou.aliyuncs.com
@@ -9,6 +9,12 @@ h-adashx.ut.taobao.com
 
 #Alibaba#amap
 awaken.amap.com
+
+#Alibaba#bmac
+#ad.bmac.com.cn
+
+#Alibaba#caiyunapp
+ad.caiyunapp.com
 
 #Alibaba#huya#msstatic v7.21
 business.msstatic.com
@@ -94,14 +100,8 @@ px.ucweb.com
 sdk.tianmu.mobi
 syh-imp.cdnjtzy.com
 #========================================#
-#Amazon
+#Amazon Registrar,Inc.
 boltdns.net
-#Amazon#ftchinese
-china2021.s3.ap-northeast-2.amazonaws.com
-#========================================#
-#Apple
-api-adservices.apple.com
-ca.iadsdk.apple.com
 #========================================#
 #Baidu
 api.tuisong.baidu.com
@@ -119,68 +119,23 @@ bj.bcebos.com
 #amisfile.bj.bcebos.com
 mobads-pre-config.cdn.bcebos.com
 #========================================#
-#北京一卡通
-#ad.bmac.com.cn
-#========================================#
-#彩云
-ad.caiyunapp.com
-#========================================#
+#北京中科三方网络技术有限公司#中央电视台
 #CCTV
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
-#wimg.yangshipin.cn
 #========================================#
-#懂球帝
+#CSC Corporate Domains,Inc.
+#CSC#Apple
+api-adservices.apple.com
+ca.iadsdk.apple.com
+#========================================#
+#DNSPod,Inc
+cdn.cmgadx.com
+#DNSPod#懂球帝
 ap.dongqiudi.com
 #========================================#
-#GoDaddy
-appsflyer.com
-iad-03.braze.com
-vidazoo.com
-#========================================#
-#MarkMonitor
-akamaihd.net
-app-measurement.com
-beacon.krxd.net
+#eName Technology Co.,Ltd.
 
-#MarkMonitor#Google
-g.doubleclick.net
-g.doubleclick-cn.net
-google-analytics.com
-googleadservices.com
-googletagmanager.com
-googletagservices.com
-
-#MarkMonitor#JD
-im-x.jd.com
-
-#MarkMonitor#QQ
-e.qq.com
-gdt.qq.com
-ios.bugly.qq.com
-mtrace.qq.com
-trace.qq.com
-adsmind.gdtimg.com
-qzs.gdtimg.com
-pgdt.gtimg.cn
-pgdt.ugdtimg.com
-adstats.tencentmusic.com
-ad.tencentmusic.com
-
-#MarkMonitor#Yahoo
-data.flurry.com
-
-#MarkMonitor#Naver#计步器
-ad2.fivecdm.com
-#========================================#
-#Netease
-nex.163.com
-pg-ad-b1.ws.126.net
-pg-ad-b2.ws.126.net
-#========================================#
-#Sohu
-pv.sohu.com
-#========================================#
 #eName#toutiao
 dm.toutiao.com
 dm-hl.toutiao.com
@@ -197,16 +152,75 @@ tnc3-bjlgy.zijieapi.com
 
 #eName#tingyun
 wkrd.tingyun.com
+
+#eName#XiaoMi
+sdkconfig.ad.xiaomi.com
+tracking.miui.com
 #========================================#
+#GoDaddy
+appsflyer.com
+iad-03.braze.com
+vidazoo.com
+#========================================#
+#MarkMonitor Inc.
+akamaihd.net
+app-measurement.com
+beacon.krxd.net
+
+#MarkMonitor#Amazon#ftchinese
+china2021.s3.ap-northeast-2.amazonaws.com
+
+#MarkMonitor#Google
+g.doubleclick.net
+g.doubleclick-cn.net
+google-analytics.com
+googleadservices.com
+googletagmanager.com
+googletagservices.com
+
+#MarkMonitor#JD
+im-x.jd.com
+
+#MarkMonitor#Naver#计步器
+ad2.fivecdm.com
+
+#MarkMonitor#Netease
+nex.163.com
+pg-ad-b1.ws.126.net
+pg-ad-b2.ws.126.net
+
+#MarkMonitor#Sohu
+pv.sohu.com
+
+#MarkMonitor#QQ
+e.qq.com
+gdt.qq.com
+ios.bugly.qq.com
+mtrace.qq.com
+trace.qq.com
+adsmind.gdtimg.com
+qzs.gdtimg.com
+pgdt.ugdtimg.com
+adstats.tencentmusic.com
+ad.tencentmusic.com
+#厦门易名科技股份有限公司#QQ
+pgdt.gtimg.cn
+
+#MarkMonitor#Yahoo
+data.flurry.com
+#========================================#
+#Moniker Online Services LLC
+ads.api.vungle.com
+#========================================#
+#Network Solutions, LLC
+outbrain.com
+#========================================#
+#Xiamen 35.Com Technology Co.,Ltd.
 #Sina#weibo
 adstrategy.biz.weibo.com
 sdkapp.uve.weibo.com
 #========================================#
-#XiaoMi
-sdkconfig.ad.xiaomi.com
-tracking.miui.com
-#========================================#
-#XinNet
+#Xin Net Technology Corporation
 gdfp.gifshow.com
 open.e.kuaishou.com
 
@@ -219,9 +233,6 @@ smartad.10010.com
 syh2.zybang.com
 syh.zybang.com
 #========================================#
-#MISC
-ads.api.vungle.com
-cdn.cmgadx.com
-outbrain.com
+#北京新网数码信息技术有限公司#小沃科技有限公司
 unilog.wostore.cn
 #========================================#
