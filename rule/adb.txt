@@ -44,7 +44,7 @@ zz.bdstatic.com
 ad.bmac.com.cn
 #========================================#
 #braze
-sdk.iad-03.braze.com
+iad-03.braze.com
 #========================================#
 #彩云
 ad.caiyunapp.com
@@ -71,10 +71,7 @@ awaken.amap.com
 gdfp.gifshow.com
 #========================================#
 #google
-#googleads.g.doubleclick.net
-#securepubads.g.doubleclick.net
 g.doubleclick.net
-#googleads.g.doubleclick-cn.net
 g.doubleclick-cn.net
 
 google-analytics.com
