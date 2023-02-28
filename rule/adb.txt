@@ -1,22 +1,22 @@
 #========================================#
-#🔴Alibaba Cloud Computing (Beijing) Co.,Ltd.
+#🟥Alibaba Cloud Computing (Beijing) Co.,Ltd.
 
-#Alibaba#aliyuncs#taobao
+#🟢Alibaba#aliyuncs#taobao
 adash-emas.cn-hangzhou.aliyuncs.com
 adashx.m.taobao.com
 amdc.m.taobao.com
 h-adashx.ut.taobao.com
 
-#Alibaba#amap
+#🟢Alibaba#amap
 awaken.amap.com
 
-#Alibaba#bmac
+#🟢Alibaba#bmac
 #ad.bmac.com.cn
 
-#Alibaba#caiyunapp
+#🟢Alibaba#caiyunapp
 ad.caiyunapp.com
 
-#Alibaba#huya#msstatic v7.21
+#🟢Alibaba#huya#msstatic v7.21
 business.msstatic.com
 cdnfile1.msstatic.com
 livewebbs2.msstatic.com
@@ -25,14 +25,14 @@ fileserver.cdn.huya.com
 kiwistatic.huya.com
 statwup.huya.com
 
-#Alibaba#inmobi
+#🟢Alibaba#inmobi
 sdk-infra.inmobi.cn
 sdkm.w.inmobi.cn
 
-#Alibaba#iqiyi
+#🟢Alibaba#iqiyi
 policy.video.iqiyi.com
 
-#Alibaba#jpush
+#🟢Alibaba#jpush
 ali-stats.jpush.cn
 ce3e75d5.jpush.cn
 config.jpush.cn
@@ -43,12 +43,12 @@ s.jpush.cn
 stats.jpush.cn
 tsis.jpush.cn
 
-#Alibaba#kuwo
+#🟢Alibaba#kuwo
 g.koowo.com
 mobilead.kuwo.cn
 rich.kuwo.cn
 
-#Alibaba#mob
+#🟢Alibaba#mob
 api.applink.mob.com
 api.exc.mob.com
 api.share.mob.com
@@ -60,14 +60,14 @@ init.sms.mob.com
 l.gm.mob.com
 m.data.mob.com
 
-#Alibaba#shuzilm
+#🟢Alibaba#shuzilm
 idaa.shuzilm.cn
 iert.shuzilm.cn
 ipi.shuzilm.cn
 ipv4.shuzilm.cn
 ipv6.shuzilm.cn
 
-#Alibaba#umeng#umengcloud#umsns#umtrack
+#🟢Alibaba#umeng#umengcloud#umsns#umtrack
 alogs.umengcloud.com
 alogs.umeng.com
 ulogs.umengcloud.com
@@ -81,13 +81,13 @@ log.umsns.com
 stats.umsns.com
 log.umtrack.com
 
-#Alibaba#yuanfudao#fbcontent
+#🟢Alibaba#yuanfudao#fbcontent
 oapi.yuanfudao.com
 gallery.fbcontent.cn
 leo.fbcontent.cn
 leo-online.fbcontent.cn
 
-#Alibaba#misc
+#🟢Alibaba#misc
 adkwai.com
 adt.xdrig.com
 appsflyer-cn.com
@@ -100,10 +100,10 @@ px.ucweb.com
 sdk.tianmu.mobi
 syh-imp.cdnjtzy.com
 #========================================#
-#🔴Amazon Registrar,Inc.
+#🟥Amazon Registrar,Inc.
 boltdns.net
 #========================================#
-#🔴Baidu
+#🟥Baidu
 api.tuisong.baidu.com
 dxp.baidu.com
 hm.baidu.com
@@ -113,30 +113,30 @@ mobads.baidu.com
 mobads-logs.baidu.com
 nsclick.baidu.com
 
-#Key-Systems#bcebos#bdstatic
+#🟢Key-Systems#bcebos#bdstatic
 zz.bdstatic.com
 bj.bcebos.com
 #amisfile.bj.bcebos.com
 mobads-pre-config.cdn.bcebos.com
 #========================================#
-#🔴北京中科三方网络技术有限公司#中央电视台
-#CCTV
+#🟥北京中科三方网络技术有限公司#中央电视台
+#🟢CCTV
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
 #========================================#
-#🔴CSC Corporate Domains,Inc.
-#CSC#Apple
+#🟥CSC Corporate Domains,Inc.
+#🟢CSC#Apple
 api-adservices.apple.com
 ca.iadsdk.apple.com
 #========================================#
-#🔴DNSPod,Inc
+#🟥DNSPod,Inc
 cdn.cmgadx.com
-#DNSPod#懂球帝
+#🟢DNSPod#懂球帝
 ap.dongqiudi.com
 #========================================#
-#🔴eName Technology Co.,Ltd.
+#🟥eName Technology Co.,Ltd.
 
-#eName#toutiao
+#🟢eName#toutiao
 dm.toutiao.com
 dm-hl.toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
@@ -150,27 +150,27 @@ tnc3-alisc1.zijieapi.com
 tnc3-aliec2.zijieapi.com
 tnc3-bjlgy.zijieapi.com
 
-#eName#tingyun
+#🟢eName#tingyun
 wkrd.tingyun.com
 
-#eName#XiaoMi
+#🟢eName#XiaoMi
 sdkconfig.ad.xiaomi.com
 tracking.miui.com
 #========================================#
-#🔴GoDaddy
+#🟥GoDaddy
 appsflyer.com
 iad-03.braze.com
 vidazoo.com
 #========================================#
-#🔴MarkMonitor Inc.
+#🟥MarkMonitor Inc.
 akamaihd.net
 app-measurement.com
 beacon.krxd.net
 
-#MarkMonitor#Amazon#ftchinese
+#🟢MarkMonitor#Amazon#ftchinese
 china2021.s3.ap-northeast-2.amazonaws.com
 
-#MarkMonitor#Google
+#🟢MarkMonitor#Google
 g.doubleclick.net
 g.doubleclick-cn.net
 google-analytics.com
@@ -178,21 +178,21 @@ googleadservices.com
 googletagmanager.com
 googletagservices.com
 
-#MarkMonitor#JD
+#🟢MarkMonitor#JD
 im-x.jd.com
 
-#MarkMonitor#Naver#计步器
+#🟢MarkMonitor#Naver#计步器
 ad2.fivecdm.com
 
-#MarkMonitor#Netease
+#🟢MarkMonitor#Netease
 nex.163.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
 
-#MarkMonitor#Sohu
+#🟢MarkMonitor#Sohu
 pv.sohu.com
 
-#MarkMonitor#QQ
+#🟢MarkMonitor#QQ
 e.qq.com
 gdt.qq.com
 ios.bugly.qq.com
@@ -206,33 +206,33 @@ ad.tencentmusic.com
 #厦门易名科技股份有限公司#QQ
 pgdt.gtimg.cn
 
-#MarkMonitor#Yahoo
+#🟢MarkMonitor#Yahoo
 data.flurry.com
 #========================================#
-#🔴Moniker Online Services LLC
+#🟥Moniker Online Services LLC
 ads.api.vungle.com
 #========================================#
-#🔴Network Solutions, LLC
+#🟥Network Solutions, LLC
 outbrain.com
 #========================================#
-#🔴Xiamen 35.Com Technology Co.,Ltd.
-#Sina#weibo
+#🟥Xiamen 35.Com Technology Co.,Ltd.
+#🟢Sina#weibo
 adstrategy.biz.weibo.com
 sdkapp.uve.weibo.com
 #========================================#
-#🔴Xin Net Technology Corporation
+#🟥Xin Net Technology Corporation
 gdfp.gifshow.com
 open.e.kuaishou.com
 
-#XinNet#10010
+#🟢XinNet#10010
 analytics2.10010.com
 m1.ad.10010.com
 smartad.10010.com
 
-#XinNet#zybang
+#🟢XinNet#zybang
 syh2.zybang.com
 syh.zybang.com
 #========================================#
-#🔴北京新网数码信息技术有限公司#小沃科技有限公司
+#🟥北京新网数码信息技术有限公司#小沃科技有限公司
 unilog.wostore.cn
 #========================================#
