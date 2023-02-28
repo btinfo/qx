@@ -164,6 +164,7 @@ adsmind.gdtimg.com
 gdt.qq.com
 #h.trace.qq.com
 trace.qq.com
+mtrace.qq.com:443
 ios.bugly.qq.com
 pgdt.gtimg.cn
 pgdt.ugdtimg.com
