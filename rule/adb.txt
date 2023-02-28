@@ -77,7 +77,7 @@ g.doubleclick.net
 #googleads.g.doubleclick-cn.net
 g.doubleclick-cn.net
 
-ssl.google-analytics.com
+google-analytics.com
 googleadservices.com
 googletagmanager.com
 googletagservices.com
