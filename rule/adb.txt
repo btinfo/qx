@@ -62,13 +62,14 @@ ipv4.shuzilm.cn
 ipv6.shuzilm.cn
 
 #Alibaba#umeng#umengcloud#umsns#umtrack
+
 alogs.umengcloud.com
-ulogs.umengcloud.com
 alogs.umeng.com
+ulogs.umengcloud.com
+ulogs.umeng.com
 errlog.umeng.com
 errnewlog.umeng.com
 plbslog.umeng.com
-ulogs.umeng.com
 uop.umeng.com
 utoken.umeng.com
 log.umsns.com
@@ -76,10 +77,10 @@ stats.umsns.com
 log.umtrack.com
 
 #Alibaba#yuanfudao#fbcontent
+oapi.yuanfudao.com
 gallery.fbcontent.cn
 leo.fbcontent.cn
 leo-online.fbcontent.cn
-oapi.yuanfudao.com
 
 #Alibaba#misc
 adkwai.com
@@ -155,17 +156,17 @@ googletagservices.com
 im-x.jd.com
 
 #MarkMonitor#QQ
-adsmind.gdtimg.com
-qzs.gdtimg.com
-pgdt.ugdtimg.com
-adstats.tencentmusic.com
-ad.tencentmusic.com
 e.qq.com
 gdt.qq.com
 ios.bugly.qq.com
 mtrace.qq.com
 trace.qq.com
+adsmind.gdtimg.com
+qzs.gdtimg.com
 pgdt.gtimg.cn
+pgdt.ugdtimg.com
+adstats.tencentmusic.com
+ad.tencentmusic.com
 
 #MarkMonitor#Yahoo
 data.flurry.com
@@ -182,18 +183,18 @@ pg-ad-b2.ws.126.net
 pv.sohu.com
 #========================================#
 #eName#toutiao
-api-access.pangolin-sdk-toutiao-b.com
 dm.toutiao.com
 dm-hl.toutiao.com
-is.snssdk.com
-pangolin-sdk-toutiao.com
-pangolin.snssdk.com
+api-access.pangolin-sdk-toutiao-b.com
 sf3-fe-tos.pglstatp-toutiao.com
+pangolin-sdk-toutiao.com
+is.snssdk.com
+pangolin.snssdk.com
+tobapplog.ctobsnssdk.com
+toblog.ctobsnssdk.com
 tnc3-alisc1.zijieapi.com
 tnc3-aliec2.zijieapi.com
 tnc3-bjlgy.zijieapi.com
-tobapplog.ctobsnssdk.com
-toblog.ctobsnssdk.com
 
 #eName#tingyun
 wkrd.tingyun.com
@@ -224,4 +225,4 @@ ads.api.vungle.com
 cdn.cmgadx.com
 outbrain.com
 unilog.wostore.cn
-
+#========================================#
