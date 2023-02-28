@@ -105,7 +105,6 @@ ca.iadsdk.apple.com
 #========================================#
 #Baidu
 api.tuisong.baidu.com
-bj.bcebos.com
 dxp.baidu.com
 hm.baidu.com
 hmma.baidu.com
@@ -116,7 +115,8 @@ nsclick.baidu.com
 
 #Key-Systems#bcebos#bdstatic
 zz.bdstatic.com
-amisfile.bj.bcebos.com
+bj.bcebos.com
+#amisfile.bj.bcebos.com
 mobads-pre-config.cdn.bcebos.com
 #========================================#
 #北京一卡通
