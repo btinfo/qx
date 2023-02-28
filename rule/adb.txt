@@ -242,6 +242,7 @@ oapi.yuanfudao.com
 #========================================#
 #ysp
 cdn.cmgadx.com
+btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
 #========================================#
 #zyb
