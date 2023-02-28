@@ -26,6 +26,7 @@ host-suffix,ad.adnmore.co.kr
 host-suffix,ad.ajitad.co.kr
 host-suffix,adapi.about.co.kr
 host-suffix,ad-api.enuri.info
+host-suffix,ad.ari.skt-jive.com
 host-suffix,ad.auction.co.kr
 host-suffix,adballoon.afreecatv.com
 host-suffix,adbc.io
