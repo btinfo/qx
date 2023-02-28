@@ -244,6 +244,7 @@ oapi.yuanfudao.com
 cdn.cmgadx.com
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
+wimg.yangshipin.cn
 #========================================#
 #zyb
 syh2.zybang.com
