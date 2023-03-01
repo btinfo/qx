@@ -112,6 +112,8 @@ agoodm.m.taobao.com
 agoodm.wapa.taobao.com
 alipaylog.com
 alitui.weibo.com
+alog.umengcloud.com
+alog.umeng.com
 als.baidu.com
 amazon-adsystem.com
 amdc.alipay.com
@@ -392,6 +394,7 @@ log.music.baidu.com
 log-sdk.gifshow.com
 log.sina.cn
 log.tbs.qq.com
+log.umtrack.com
 log.v2.hunantv.com
 lqc006.com
 lstat.youku.com
