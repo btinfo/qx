@@ -158,7 +158,7 @@ wkrd.tingyun.com
 sdkconfig.ad.xiaomi.com
 tracking.miui.com
 #========================================#
-#🔴GoDaddy
+#🔴GoDaddy.com, LLC
 appsflyer.com
 iad-03.braze.com
 vidazoo.com
