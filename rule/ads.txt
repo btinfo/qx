@@ -392,7 +392,6 @@ log.music.baidu.com
 log-sdk.gifshow.com
 log.sina.cn
 log.tbs.qq.com
-log.umtrack.com
 log.v2.hunantv.com
 lqc006.com
 lstat.youku.com
