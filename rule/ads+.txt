@@ -79,6 +79,7 @@ sdk.tianmu.mobi
 syh-imp.cdnjtzy.com
 #========================================#
 #🔴Amazon
+#🟢TransferMarkt
 boltdns.net
 #🟢ftchinese
 china2021.s3.ap-northeast-2.amazonaws.com
@@ -102,6 +103,7 @@ ap.dongqiudi.com
 #🔴GoDaddy.com, LLC
 appsflyer.com
 iad-03.braze.com
+#🟢TransferMarkt
 vidazoo.com
 #========================================#
 #🔴Google
@@ -111,6 +113,7 @@ doubleclick-cn.net
 im-x.jd.com
 #========================================#
 #🔴MarkMonitor Inc.
+#🟢计步器
 ad2.fivecdm.com
 #akamaihd.net
 beacon.krxd.net
@@ -124,6 +127,7 @@ pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
 #========================================#
 #🔴Network Solutions, LLC
+#🟢TransferMarkt
 outbrain.com
 #========================================#
 #🔴Tencent腾讯
