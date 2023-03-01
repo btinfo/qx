@@ -168,7 +168,7 @@ akamaihd.net
 app-measurement.com
 beacon.krxd.net
 
-#🔴MarkMonitor#Amazon#ftchinese
+#🟢MarkMonitor#Amazon#ftchinese
 china2021.s3.ap-northeast-2.amazonaws.com
 
 #🟢MarkMonitor#Google
