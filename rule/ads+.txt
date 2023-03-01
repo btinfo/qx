@@ -50,7 +50,7 @@ iert.shuzilm.cn
 ipi.shuzilm.cn
 ipv4.shuzilm.cn
 ipv6.shuzilm.cn
-#🟢淘宝
+#🟢Taobao淘宝
 h-adashx.ut.taobao.com
 #🟢Umeng友盟
 #ulogs.umengcloud.com
@@ -82,7 +82,7 @@ syh-imp.cdnjtzy.com
 #🔴Amazon
 #🟢TransferMarkt
 boltdns.net
-#🟢ftchinese
+#🟢FT中文
 china2021.s3.ap-northeast-2.amazonaws.com
 #========================================#
 #🔴Apple
@@ -114,10 +114,10 @@ doubleclick-cn.net
 im-x.jd.com
 #========================================#
 #🔴MarkMonitor Inc.
-#🟢计步器
-ad2.fivecdm.com
 #akamaihd.net
 beacon.krxd.net
+#🟢计步器
+ad2.fivecdm.com
 #========================================#
 #🔴Moniker Online Services LLC
 ads.api.vungle.com
