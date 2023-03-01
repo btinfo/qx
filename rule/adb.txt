@@ -1,10 +1,6 @@
 #========================================#
 #🔴阿里巴巴Alibaba
 adash-emas.cn-hangzhou.aliyuncs.com
-#🟢淘宝
-adashx.m.taobao.com
-amdc.m.taobao.com
-h-adashx.ut.taobao.com
 #🟢高德地图
 awaken.amap.com
 #🟢北京一卡通
@@ -55,6 +51,10 @@ iert.shuzilm.cn
 ipi.shuzilm.cn
 ipv4.shuzilm.cn
 ipv6.shuzilm.cn
+#🟢淘宝
+adashx.m.taobao.com
+amdc.m.taobao.com
+h-adashx.ut.taobao.com
 #🟢umeng
 alogs.umengcloud.com
 alogs.umeng.com
@@ -86,10 +86,15 @@ px.ucweb.com
 sdk.tianmu.mobi
 syh-imp.cdnjtzy.com
 #========================================#
-#🔴Amazon Registrar,Inc.
+#🔴Amazon
 boltdns.net
 #🟢MarkMonitor#ftchinese
 china2021.s3.ap-northeast-2.amazonaws.com
+#========================================#
+#🔴Apple
+#🟢CSC Corporate Domains,Inc.
+api-adservices.apple.com
+ca.iadsdk.apple.com
 #========================================#
 #🔴百度Baidu
 #🟢MarkMonitor Inc.
@@ -107,35 +112,16 @@ bj.bcebos.com
 #amisfile.bj.bcebos.com
 mobads-pre-config.cdn.bcebos.com
 #========================================#
-#🔴中央电视台
+#🔴中央电视台CCTV
 #🟢北京中科三方网络技术有限公司
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
-#========================================#
-#🔴CSC Corporate Domains,Inc.
-#🟢Apple
-api-adservices.apple.com
-ca.iadsdk.apple.com
-#========================================#
-#🔴DNSPod,Inc
+#🟢DNSPod,Inc
 cdn.cmgadx.com
-#🟢懂球帝
-ap.dongqiudi.com
 #========================================#
-#🔴字节
-#🟢eName Technology Co.,Ltd.
-dm.toutiao.com
-dm-hl.toutiao.com
-api-access.pangolin-sdk-toutiao-b.com
-sf3-fe-tos.pglstatp-toutiao.com
-pangolin-sdk-toutiao.com
-is.snssdk.com
-pangolin.snssdk.com
-tobapplog.ctobsnssdk.com
-toblog.ctobsnssdk.com
-tnc3-alisc1.zijieapi.com
-tnc3-aliec2.zijieapi.com
-tnc3-bjlgy.zijieapi.com
+#🔴懂球帝
+#🟢DNSPod,Inc
+ap.dongqiudi.com
 #========================================#
 #🔴GoDaddy.com, LLC
 appsflyer.com
@@ -151,23 +137,35 @@ googleadservices.com
 googletagmanager.com
 googletagservices.com
 #========================================#
+#🔴京东JD
+#🟢MarkMonitor Inc.
+im-x.jd.com
+#========================================#
 #🔴MarkMonitor Inc.
 ad2.fivecdm.com
 akamaihd.net
 app-measurement.com
 beacon.krxd.net
 #========================================#
-#🔴京东JD
-#🟢MarkMonitor Inc.
-im-x.jd.com
+#🔴Moniker Online Services LLC
+ads.api.vungle.com
 #========================================#
-#🔴网易
+#🔴网易NetEase
 #🟢MarkMonitor Inc.
 nex.163.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
-
-#🟢MarkMonitor#Sohu
+#========================================#
+#🔴Network Solutions, LLC
+outbrain.com
+#========================================#
+#🔴新浪Sina
+#🟢Xiamen 35.Com Technology Co.,Ltd.
+adstrategy.biz.weibo.com
+sdkapp.uve.weibo.com
+#========================================#
+#🔴搜狐
+#🟢MarkMonitor Inc.
 pv.sohu.com
 #========================================#
 #🔴Tencent腾讯
@@ -185,40 +183,6 @@ ad.tencentmusic.com
 #🟢厦门易名科技股份有限公司
 pgdt.gtimg.cn
 #========================================#
-#🔴Yahoo
-#🟢MarkMonitor Inc.
-data.flurry.com
-#========================================#
-#🔴Moniker Online Services LLC
-ads.api.vungle.com
-#========================================#
-#🔴Network Solutions, LLC
-outbrain.com
-#========================================#
-#🔴新浪Sina
-#🟢Xiamen 35.Com Technology Co.,Ltd.
-adstrategy.biz.weibo.com
-sdkapp.uve.weibo.com
-#========================================#
-#🔴Xin Net Technology Corporation
-gdfp.gifshow.com
-open.e.kuaishou.com
-#========================================#
-#🔴中国联通
-#🟢Xin Net Technology Corporation
-analytics2.10010.com
-m1.ad.10010.com
-smartad.10010.com
-#========================================#
-#🔴作业帮
-#🟢Xin Net Technology Corporation
-syh2.zybang.com
-syh.zybang.com
-#========================================#
-#🔴小沃科技有限公司
-#🟢Xin Net Technology Corporation
-unilog.wostore.cn
-#========================================#
 #🔴基调听云
 #🟢eName Technology Co., Ltd
 wkrd.tingyun.com
@@ -227,4 +191,42 @@ wkrd.tingyun.com
 #🟢eName Technology Co., Ltd
 sdkconfig.ad.xiaomi.com
 tracking.miui.com
+#========================================#
+#🔴小沃科技有限公司
+#🟢Xin Net Technology Corporation
+unilog.wostore.cn
+#========================================#
+#🔴Xin Net Technology Corporation
+gdfp.gifshow.com
+open.e.kuaishou.com
+#========================================#
+#🔴Yahoo
+#🟢MarkMonitor Inc.
+data.flurry.com
+#========================================#
+#🔴中国联通
+#🟢Xin Net Technology Corporation
+analytics2.10010.com
+m1.ad.10010.com
+smartad.10010.com
+#========================================#
+#🔴字节
+#🟢eName Technology Co.,Ltd.
+dm.toutiao.com
+dm-hl.toutiao.com
+api-access.pangolin-sdk-toutiao-b.com
+sf3-fe-tos.pglstatp-toutiao.com
+pangolin-sdk-toutiao.com
+is.snssdk.com
+pangolin.snssdk.com
+tobapplog.ctobsnssdk.com
+toblog.ctobsnssdk.com
+tnc3-alisc1.zijieapi.com
+tnc3-aliec2.zijieapi.com
+tnc3-bjlgy.zijieapi.com
+#========================================#
+#🔴作业帮
+#🟢Xin Net Technology Corporation
+syh2.zybang.com
+syh.zybang.com
 #========================================#
