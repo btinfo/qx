@@ -112,8 +112,6 @@ agoodm.m.taobao.com
 agoodm.wapa.taobao.com
 alipaylog.com
 alitui.weibo.com
-alog.umengcloud.com
-alog.umeng.com
 als.baidu.com
 amazon-adsystem.com
 amdc.alipay.com
@@ -602,7 +600,6 @@ ucstat.baidu.com
 ugdtimg.com
 ulic.baidu.com
 ulog.imap.baidu.com
-umeng.com
 unimhk.com
 union.baidu.com
 unionimage.baidu.com
