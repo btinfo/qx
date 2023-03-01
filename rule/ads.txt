@@ -212,8 +212,8 @@ smartad.10010.com
 #========================================#
 #🔴字节
 #🟢eName Technology Co.,Ltd.
-dm.toutiao.com
-dm-hl.toutiao.com
+#dm.toutiao.com
+#dm-hl.toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
 sf3-fe-tos.pglstatp-toutiao.com
 pangolin-sdk-toutiao.com
@@ -221,9 +221,9 @@ is.snssdk.com
 pangolin.snssdk.com
 tobapplog.ctobsnssdk.com
 toblog.ctobsnssdk.com
-tnc3-alisc1.zijieapi.com
-tnc3-aliec2.zijieapi.com
-tnc3-bjlgy.zijieapi.com
+#tnc3-alisc1.zijieapi.com
+#tnc3-aliec2.zijieapi.com
+#tnc3-bjlgy.zijieapi.com
 #========================================#
 #🔴作业帮
 #🟢Xin Net Technology Corporation
