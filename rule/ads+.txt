@@ -16,10 +16,10 @@ e-ad-monitor.huya.com
 fileserver.cdn.huya.com
 kiwistatic.huya.com
 statwup.huya.com
-#🟢inmobi
+#🟢InMobi
 sdk-infra.inmobi.cn
 sdkm.w.inmobi.cn
-#🟢jpush
+#🟢jpush极光
 ali-stats.jpush.cn
 ce3e75d5.jpush.cn
 config.jpush.cn
@@ -33,7 +33,7 @@ tsis.jpush.cn
 g.koowo.com
 mobilead.kuwo.cn
 rich.kuwo.cn
-#🟢mob
+#🟢MobTech
 api.applink.mob.com
 api.exc.mob.com
 api.share.mob.com
@@ -44,7 +44,7 @@ f.gm.mob.com
 init.sms.mob.com
 l.gm.mob.com
 m.data.mob.com
-#🟢shuzilm
+#🟢shuzilm数字联盟
 idaa.shuzilm.cn
 iert.shuzilm.cn
 ipi.shuzilm.cn
@@ -52,7 +52,7 @@ ipv4.shuzilm.cn
 ipv6.shuzilm.cn
 #🟢淘宝
 h-adashx.ut.taobao.com
-#🟢umeng
+#🟢Umeng友盟
 #ulogs.umengcloud.com
 #ulogs.umeng.com
 #errlog.umeng.com
@@ -131,7 +131,7 @@ pg-ad-b2.ws.126.net
 #🟢TransferMarkt
 outbrain.com
 #========================================#
-#🔴Tencent腾讯
+#🔴腾讯Tencent
 #🟢QQ
 gdt.qq.com
 ios.bugly.qq.com
@@ -154,12 +154,12 @@ unilog.wostore.cn
 gdfp.gifshow.com
 open.e.kuaishou.com
 #========================================#
-#🔴中国联通
+#🔴中国联通Unicom
 analytics2.10010.com
 m1.ad.10010.com
 smartad.10010.com
 #========================================#
-#🔴字节
+#🔴字节跳动ByteDance
 pangolin-sdk-toutiao-b.com
 #========================================#
 #🔴作业帮
