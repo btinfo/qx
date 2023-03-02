@@ -17,8 +17,7 @@ fileserver.cdn.huya.com
 kiwistatic.huya.com
 statwup.huya.com
 #🟢InMobi
-sdk-infra.inmobi.cn
-sdkm.w.inmobi.cn
+inmobi.cn
 #🟢jpush极光
 jpush.cn
 jpush.io
