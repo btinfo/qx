@@ -63,7 +63,6 @@ host-suffix,adimg.cgv.co.kr
 host-suffix,ad-img.ebaykorea.com
 host-suffix,adimg.nate.com
 host-suffix,adimg.newdaily.co.kr
-host-suffix,adimg.newstomato.com
 host-suffix,ad.imp.joins.com
 host-suffix,adinc.co.kr
 host-suffix,ad-insight.sellermill.com
