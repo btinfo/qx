@@ -35,9 +35,10 @@ jpush.io
 mob.com
 shuzilm.cn
 shuzilm.com
-umeng.co
+#umeng.co
 #umeng.com
 #umengcloud.com
+#ulogs.umeng导致一些app出现error
 umsns.com
 umtrack.com
 umtrack0.com
