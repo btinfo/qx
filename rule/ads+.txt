@@ -60,7 +60,7 @@ syh-imp.cdnjtzy.com
 #🟢TransferMarkt
 boltdns.net
 #🟢FT中文
-china2021.s3.ap-northeast-2.amazonaws.com
+#china2021.s3.ap-northeast-2.amazonaws.com
 #========================================#
 #🔴Apple
 api-adservices.apple.com
