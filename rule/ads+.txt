@@ -36,8 +36,8 @@ mob.com
 shuzilm.cn
 shuzilm.com
 umeng.co
-umeng.com
-umengcloud.com
+#umeng.com
+#umengcloud.com
 umsns.com
 umtrack.com
 umtrack0.com
