@@ -20,7 +20,7 @@ statwup.huya.com
 g.koowo.com
 mobilead.kuwo.cn
 rich.kuwo.cn
-#🟢Taobao淘宝
+#🟢淘宝
 h-adashx.ut.taobao.com
 #🟢猿辅导
 oapi.yuanfudao.com
@@ -57,9 +57,6 @@ sdk.tianmu.mobi
 syh-imp.cdnjtzy.com
 #========================================#
 #🔴Amazon
-#🟢TransferMarkt
-boltdns.net
-#🟢FT中文
 #china2021.s3.ap-northeast-2.amazonaws.com
 #========================================#
 #🔴Apple
@@ -80,9 +77,6 @@ ap.dongqiudi.com
 #========================================#
 #🔴GoDaddy.com, LLC
 appsflyer.com
-iad-03.braze.com
-#🟢TransferMarkt
-vidazoo.com
 #========================================#
 #🔴Google
 doubleclick-cn.net
@@ -91,7 +85,6 @@ doubleclick-cn.net
 im-x.jd.com
 #========================================#
 #🔴MarkMonitor Inc.
-#akamaihd.net
 beacon.krxd.net
 #🟢计步器
 ad2.fivecdm.com
@@ -103,10 +96,6 @@ ads.api.vungle.com
 nex.163.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
-#========================================#
-#🔴Network Solutions, LLC
-#🟢TransferMarkt
-outbrain.com
 #========================================#
 #🔴腾讯Tencent
 #🟢QQ
@@ -120,6 +109,15 @@ qzs.gdtimg.com
 #🟢腾讯音乐
 adstats.tencentmusic.com
 ad.tencentmusic.com
+#========================================#
+#🔴Tidal
+iad-03.braze.com
+#========================================#
+#🔴TransferMarkt
+#akamaihd.net
+boltdns.net
+outbrain.com
+vidazoo.com
 #========================================#
 #🔴基调听云
 #wkrd.tingyun.com
