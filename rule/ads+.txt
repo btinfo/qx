@@ -47,7 +47,6 @@ umtrack2.com
 #🟢其他
 adkwai.com
 adt.xdrig.com
-appsflyer-cn.com
 dutils.com
 fp-it.fengkongcloud.com
 gorgon.youdao.com
@@ -77,6 +76,8 @@ ap.dongqiudi.com
 #========================================#
 #🔴GoDaddy.com, LLC
 appsflyer.com
+#cn#aliyun
+appsflyer-cn.com
 #========================================#
 #🔴Google
 doubleclick-cn.net
