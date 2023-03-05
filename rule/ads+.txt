@@ -68,7 +68,7 @@ mobads-pre-config.cdn.bcebos.com
 #🔴中央电视台CCTV
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
-#🟢DNSPod,Inc
+#DNSPod,Inc
 cdn.cmgadx.com
 #========================================#
 #🔴懂球帝
@@ -76,7 +76,6 @@ ap.dongqiudi.com
 #========================================#
 #🔴GoDaddy.com, LLC
 appsflyer.com
-#cn#aliyun
 appsflyer-cn.com
 #========================================#
 #🔴Google
