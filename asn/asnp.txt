@@ -17,3 +17,4 @@ ip-asn,54113 // Fastly, Inc.
 ip-asn,59507 // terralink networks GmbH
 ip-asn,63949 // Akamai Connected Cloud
 ip-asn,136907 // HUAWEI CLOUDS
+ip-asn,396982 // Google Cloud Platform
