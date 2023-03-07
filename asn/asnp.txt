@@ -1,8 +1,10 @@
 ip-asn,13335 // cloudflarenet
+ip-asn,15133 // edgecast
 ip-asn,15169 // google
 ip-asn,16509 // amazon-02
 ip-asn,16625 // akamai-as
 ip-asn,20940 // akamai
+ip-asn,29222 // infomaniak
 ip-asn,29423 // gridscale gmbh
 ip-asn,32934 // facebook
 ip-asn,43407 // infonline gmbh
