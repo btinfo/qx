@@ -1,5 +1,5 @@
-ip-asn,16509 //amazon-02
-ip-asn,13335 //Cloudflarenet
-ip-asn,59507 //Terralink Networks Gmbh
-ip-asn,63949 //Linode, LLC
-ip-asn,32934 //Facebook
+ip-asn,16509 // amazon-02
+ip-asn,13335 // Cloudflarenet
+ip-asn,59507 // Terralink Networks Gmbh
+ip-asn,63949 // Linode, LLC
+ip-asn,32934 // Facebook
