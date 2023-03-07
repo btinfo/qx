@@ -1,2 +1,3 @@
 ip-asn,8075 // microsoft-corp-msn-as-block
 ip-asn,9009 // m247 ltd
+ip-asn,136907 // huawei clouds
