@@ -1,4 +1,0 @@
-cloudfront.net
-in.appcenter.ms
-quantumult.app
-workers.fileball.app
