@@ -11,9 +11,11 @@ ip-asn,24940 // Hetzner Online GmbH
 ip-asn,29222 // Infomaniak Network SA
 ip-asn,29423 // gridscale GmbH
 ip-asn,32934 // Facebook, Inc.
+ip-asn,40065 // CNSERVERS LLC
 ip-asn,43407 // INFOnline GmbH
 ip-asn,48447 // Sectigo Limited
 ip-asn,54113 // Fastly, Inc.
+ip-asn,54994 // QUANTIL NETWORKS INC
 ip-asn,59507 // terralink networks GmbH
 ip-asn,63949 // Akamai Connected Cloud
 ip-asn,136907 // HUAWEI CLOUDS
