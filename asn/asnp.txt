@@ -4,6 +4,8 @@ ip-asn,8075 // Microsoft Corporation
 ip-asn,9009 // M247 Europe SRL
 ip-asn,12322 // Free SAS
 ip-asn,13335 // Cloudflare, Inc.
+ip-asn,13489 // EPM Telecomunicaciones S.A. E.S.P.
+ip-asn,14618 // Amazon.com, Inc.
 ip-asn,15133 // EdgeCast Networks Inc.
 ip-asn,15169 // Google LLC
 ip-asn,16509 // Amazon.com, Inc.
