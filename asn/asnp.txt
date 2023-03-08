@@ -31,4 +31,5 @@ ip-asn,63949 // Akamai Connected Cloud
 ip-asn,64050 // BGPNET Global ASN
 ip-asn,136907 // HUAWEI CLOUDS
 ip-asn,197019 // WEDOS Internet, a.s.
+ip-asn,200019 // ALEXHOST SRL
 ip-asn,396982 // Google Cloud Platform
