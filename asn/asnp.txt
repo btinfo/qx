@@ -1,5 +1,6 @@
 ip-asn,3356 // Level 3 Parent, LLC
 ip-asn,3462 // Data Communication Business Group
+ip-asn,4230 // CLARO S.A.
 ip-asn,6939 // Hurricane Electric LLC
 ip-asn,8075 // Microsoft Corporation
 ip-asn,9009 // M247 Europe SRL
@@ -24,6 +25,7 @@ ip-asn,54113 // Fastly, Inc.
 ip-asn,54600 // PEG TECH INC
 ip-asn,54994 // QUANTIL NETWORKS INC
 ip-asn,59507 // terralink networks GmbH
+ip-asn,60068 // Datacamp Limited
 ip-asn,63949 // Akamai Connected Cloud
 ip-asn,64050 // BGPNET Global ASN
 ip-asn,136907 // HUAWEI CLOUDS
