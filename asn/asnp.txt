@@ -20,9 +20,11 @@ ip-asn,40065 // CNSERVERS LLC
 ip-asn,43407 // INFOnline GmbH
 ip-asn,48447 // Sectigo Limited
 ip-asn,54113 // Fastly, Inc.
+ip-asn,54600 // PEG TECH INC
 ip-asn,54994 // QUANTIL NETWORKS INC
 ip-asn,59507 // terralink networks GmbH
 ip-asn,63949 // Akamai Connected Cloud
+ip-asn,64050 // BGPNET Global ASN
 ip-asn,136907 // HUAWEI CLOUDS
 ip-asn,197019 // WEDOS Internet, a.s.
 ip-asn,396982 // Google Cloud Platform
