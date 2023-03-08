@@ -10,6 +10,7 @@ ip-asn,13489 // EPM Telecomunicaciones S.A. E.S.P.
 ip-asn,14618 // Amazon.com, Inc.
 ip-asn,15133 // EdgeCast Networks Inc.
 ip-asn,15169 // Google LLC
+ip-asn,16276 // OVH SAS
 ip-asn,16509 // Amazon.com, Inc.
 ip-asn,16625 // Akamai Technologies, Inc.
 ip-asn,20940 // Akamai International B.V.
