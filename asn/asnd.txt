@@ -1,1 +1,1 @@
-ip-asn,133865 // Beijing IQIYI Science & Technology Co., Ltd.
+ip-asn,45090 // Shenzhen Tencent Computer Systems Company Limited
