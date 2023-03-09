@@ -1,3 +1,4 @@
+ip-asn,714 // Apple Inc.
 ip-asn,3356 // Level 3 Parent, LLC
 ip-asn,3462 // Data Communication Business Group
 ip-asn,4230 // CLARO S.A.
