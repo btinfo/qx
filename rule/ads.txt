@@ -23,6 +23,7 @@ adashx4ae.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 adashx.m.taobao.com
+adbehavior.ximalaya.com
 adbox.sina.com.cn
 adbutter.net
 adcolony.com
@@ -61,6 +62,10 @@ adsense.com
 adsensecustomsearchads.com
 adsenseformobileapps.com
 adservice.google.com
+adserviceretry.kglink.cn
+adserviceretry.kugou.com
+adse.wsa.ximalaya.com
+adse.ximalaya.com
 adsfile.qq.com
 adshmmsg.qq.com
 adsh.m.taobao.com
@@ -71,6 +76,7 @@ adsmind.apdcdn.tc.qq.com
 ads.pubmatic.com
 adsqqclick.qq.com
 ad-srv.net
+ads.service.kugou.com
 ads.sina.com
 ads.sohu.com
 adstestview.qq.com
