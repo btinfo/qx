@@ -22,6 +22,7 @@ ip-asn,24940 // Hetzner Online GmbH
 ip-asn,29222 // Infomaniak Network SA
 ip-asn,29423 // gridscale GmbH
 ip-asn,32934 // Facebook, Inc.
+ip-asn,36183 // Akamai Technologies, Inc.
 ip-asn,36351 // SoftLayer Technologies Inc.
 ip-asn,39134 // EDINAYA SET LIMITED LIABILITY COMPANY
 ip-asn,40065 // CNSERVERS LLC
