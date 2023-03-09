@@ -6,6 +6,7 @@ ip-asn,8075 // Microsoft Corporation
 ip-asn,9009 // M247 Europe SRL
 ip-asn,12322 // Free SAS
 ip-asn,13335 // Cloudflare, Inc.
+ip-asn,13414 // Twitter
 ip-asn,13489 // EPM Telecomunicaciones S.A. E.S.P.
 ip-asn,14618 // Amazon.com, Inc.
 ip-asn,15133 // EdgeCast Networks Inc.
@@ -28,9 +29,11 @@ ip-asn,54600 // PEG TECH INC
 ip-asn,54994 // QUANTIL NETWORKS INC
 ip-asn,59507 // terralink networks GmbH
 ip-asn,60068 // Datacamp Limited
+ip-asn,60781 // LeaseWeb Netherlands B.V.
 ip-asn,63949 // Akamai Connected Cloud
 ip-asn,64050 // BGPNET Global ASN
 ip-asn,136907 // HUAWEI CLOUDS
 ip-asn,197019 // WEDOS Internet, a.s.
 ip-asn,200019 // ALEXHOST SRL
+ip-asn,205766 // Jonas Pasche
 ip-asn,396982 // Google Cloud Platform
