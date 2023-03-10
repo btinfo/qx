@@ -1,4 +1,6 @@
+ip-asn,174 // 🇺🇸Cogent Communications
 ip-asn,714 // 🇺🇸Apple Inc.
+ip-asn,1239 // 🇺🇸Sprint
 ip-asn,3356 // 🇺🇸Level 3 Parent, LLC
 ip-asn,3462 // 🇼🇸Data Communication Business Group
 ip-asn,4230 // 🇧🇷CLARO S.A.
@@ -20,6 +22,7 @@ ip-asn,16625 // 🇺🇸Akamai Technologies, Inc.
 ip-asn,19679 // 🇺🇸Dropbox, Inc.
 ip-asn,20940 // 🇳🇱Akamai International B.V.
 ip-asn,24940 // 🇩🇪Hetzner Online GmbH
+ip-asn,25820 // 🇨🇦IT7 Networks Inc
 ip-asn,29222 // 🇨🇭Infomaniak Network SA
 ip-asn,29423 // 🇩🇪gridscale GmbH
 ip-asn,32934 // 🇺🇸Facebook, Inc.
