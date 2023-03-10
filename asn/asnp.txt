@@ -36,7 +36,6 @@ ip-asn,48447 // 🇬🇧Sectigo Limited
 ip-asn,54113 // 🇺🇸Fastly, Inc.
 ip-asn,54600 // 🇺🇸PEG TECH INC
 ip-asn,54994 // 🇺🇸QUANTIL NETWORKS INC
-ip-asn,59253 // 🇸🇬Leaseweb Asia Pacific pte. ltd.
 ip-asn,59507 // 🇩🇪terralink networks GmbH
 ip-asn,60068 // 🇬🇧Datacamp Limited
 ip-asn,60781 // 🇳🇱LeaseWeb Netherlands B.V.
