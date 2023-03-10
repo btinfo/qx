@@ -31,7 +31,6 @@ ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc.
 ip-asn,39134 // 🇷🇺EDINAYA SET LIMITED LIABILITY COMPANY
 ip-asn,40065 // 🇺🇸CNSERVERS LLC
 ip-asn,40676 // 🇺🇸Psychz Networks
-ip-asn,43407 // 🇩🇪INFOnline GmbH
 ip-asn,48447 // 🇬🇧Sectigo Limited
 ip-asn,54113 // 🇺🇸Fastly, Inc.
 ip-asn,54600 // 🇺🇸PEG TECH INC
