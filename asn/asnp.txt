@@ -1,5 +1,10 @@
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,9009 // 🇷🇴M247 Europe SRL
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
+ip-asn,13414 // 🇺🇸Twitter Inc.
 ip-asn,15133 // 🇺🇸EdgeCast Networks Inc.
 ip-asn,16509 // 🇺🇸Amazon.com, Inc.
+ip-asn,16625 // 🇺🇸Akamai Technologies, Inc.
+ip-asn,19679 // 🇺🇸Dropbox, Inc.
+ip-asn,20940 // 🇳🇱Akamai International B.V.
+ip-asn,142403 // 🇭🇰YISU CLOUD LTD
