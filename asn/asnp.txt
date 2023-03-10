@@ -36,7 +36,7 @@ ip-asn,59507 // 🇩🇪terralink networks GmbH
 ip-asn,60068 // 🇬🇧Datacamp Limited
 ip-asn,60781 // 🇳🇱LeaseWeb Netherlands B.V.
 ip-asn,63949 // 🇸🇬Akamai Connected Cloud
-ip-asn,64021,🇭🇰香港 // 🇭🇰Network-Transit
+ip-asn,64021 // 🇭🇰Network-Transit
 ip-asn,64050 // 🇸🇬BGPNET Global ASN
 ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
 ip-asn,197019 // 🇨🇿WEDOS Internet, a.s.
