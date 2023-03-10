@@ -1,2 +1,3 @@
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,15169 // 🇺🇸Google LLC
+ip-asn,16509 // 🇺🇸Amazon.com, Inc.
