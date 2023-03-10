@@ -1,3 +1,4 @@
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,9009 // 🇷🇴M247 Europe SRL
+ip-asn,15133 // 🇺🇸EdgeCast Networks Inc.
 ip-asn,16509 // 🇺🇸Amazon.com, Inc.
