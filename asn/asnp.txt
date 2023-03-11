@@ -2,7 +2,7 @@ ip-asn,714 // 🇺🇸Apple Inc.
 ip-asn,3462 // 🇼🇸Data Communication Business Group
 ip-asn,4230 // 🇧🇷CLARO S.A.
 ip-asn,8075 // 🇺🇸Microsoft Corporation
-ip-asn,9009 // 🇷🇴M247 Europe SRL
+#ip-asn,9009 // 🇷🇴M247 Europe SRL
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,13414 // 🇺🇸Twitter Inc.
 ip-asn,14061 // 🇺🇸DigitalOcean, LLC
