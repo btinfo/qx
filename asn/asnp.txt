@@ -1,11 +1,9 @@
 ip-asn,714 // 🇺🇸Apple Inc.
-#filebox-douban.vercel.app
-ip-asn,2914 // 🇺🇸NTT America, Inc.
+ip-asn,2914 // 🇺🇸NTT America, Inc.#filebox-douban.vercel.app
 ip-asn,3462 // 🇼🇸Data Communication Business Group
 ip-asn,4230 // 🇧🇷CLARO S.A.
 ip-asn,8075 // 🇺🇸Microsoft Corporation
-#mail.cock.li
-#ip-asn,9009 // 🇷🇴M247 Europe SRL
+#ip-asn,9009 // 🇷🇴M247 Europe SRL#mail.cock.li
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,13414 // 🇺🇸Twitter Inc.
 ip-asn,14061 // 🇺🇸DigitalOcean, LLC
@@ -18,10 +16,8 @@ ip-asn,19679 // 🇺🇸Dropbox, Inc.
 ip-asn,20940 // 🇳🇱Akamai International B.V.
 ip-asn,24940 // 🇩🇪Hetzner Online GmbH
 ip-asn,29423 // 🇩🇪gridscale GmbH
-#filebox-douban.vercel.app
-ip-asn,32934 // 🇺🇸Facebook, Inc.
-#gdb.voanews.com
-ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc.
+ip-asn,32934 // 🇺🇸Facebook, Inc.#filebox-douban.vercel.app
+ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc.#gdb.voanews.com
 ip-asn,40065 // 🇺🇸CNSERVERS LLC
 ip-asn,48447 // 🇬🇧Sectigo Limited
 ip-asn,54113 // 🇺🇸Fastly, Inc.
