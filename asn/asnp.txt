@@ -16,6 +16,7 @@ ip-asn,20940 // 🇳🇱Akamai International B.V.
 ip-asn,24940 // 🇩🇪Hetzner Online GmbH
 ip-asn,29423 // 🇩🇪gridscale GmbH
 ip-asn,40065 // 🇺🇸CNSERVERS LLC
+ip-asn,48447 // 🇬🇧Sectigo Limited
 ip-asn,54113 // 🇺🇸Fastly, Inc.
 ip-asn,54600 // 🇺🇸PEG TECH INC
 ip-asn,54994 // 🇺🇸QUANTIL NETWORKS INC
