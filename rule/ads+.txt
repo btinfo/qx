@@ -166,3 +166,4 @@ ad.cpe.dotomi.com
 me.xdrig.com
 ads.instal.com
 analytics.instal.com
+counter.yadro.ru
