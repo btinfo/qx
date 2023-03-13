@@ -2,6 +2,7 @@ ip-asn,714 // 🇺🇸Apple Inc.
 ip-asn,2914 // 🇺🇸NTT America, Inc.#filebox-douban.vercel.app
 ip-asn,3462 // 🇼🇸Data Communication Business Group
 ip-asn,4230 // 🇧🇷CLARO S.A.
+ip-asn,8068 // 🇺🇸Microsoft Corporation
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 #ip-asn,9009 // 🇷🇴M247 Europe SRL#mail.cock.li
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
