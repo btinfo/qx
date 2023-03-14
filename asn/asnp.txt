@@ -33,4 +33,5 @@ ip-asn,64050 // 🇸🇬BGPNET Global ASN
 ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
 ip-asn,142403 // 🇭🇰YISU CLOUD LTD
 ip-asn,197019 // 🇨🇿WEDOS Internet, a.s.#appraven.net
+ip-asn,200019 // 🇲🇩ALEXHOST SRL#zlib
 ip-asn,396982 // 🇺🇸Google LLC
