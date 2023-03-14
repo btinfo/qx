@@ -60,6 +60,7 @@ smartad.10010.com
 china2021.s3.ap-northeast-2.amazonaws.com
 
 #amap
+amap-aos-info-nogw.amap.com
 awaken.amap.com
 
 #apple
