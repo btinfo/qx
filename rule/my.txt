@@ -132,6 +132,10 @@ gorgon.youdao.com
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
 
+#蜻蜓fm
+ad.qingting.fm
+adlaunch.qingting.fm
+
 #tencent
 e.qq.com
 l.qq.com
