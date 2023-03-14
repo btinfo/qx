@@ -95,7 +95,7 @@ i.snssdk.com
 dig.bdurl.net
 sf3-ttcdn-tos.pstatp.com
 
-#dongqiudi
+#懂球帝
 ap.dongqiudi.com
 
 #google
@@ -106,7 +106,7 @@ google-analytics.com
 doubleclick-cn.net
 doubleclick.net
 
-#huya
+#虎牙
 business.msstatic.com
 cdnfile1.msstatic.com
 livewebbs2.msstatic.com
@@ -115,7 +115,7 @@ fileserver.cdn.huya.com
 kiwistatic.huya.com
 statwup.huya.com
 
-#iqiyisports
+#爱奇艺体育
 policy.video.iqiyi.com
 
 #jd
@@ -155,13 +155,13 @@ boltdns.net
 outbrain.com
 vidazoo.com
 
-#xyks
+#小猿口算
 gallery.fbcontent.cn
 leo-online.fbcontent.cn
 leo.fbcontent.cn
 oapi.yuanfudao.com
 
-#ysp
+#央视频
 btrace.ysp.cctv.cn
 mtrace.ysp.cctv.cn
 cdn.cmgadx.com
