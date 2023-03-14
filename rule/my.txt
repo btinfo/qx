@@ -4,9 +4,7 @@ ads.instal.com
 analytics.instal.com
 counter.yadro.ru
 eu-1-id5-sync.com
-h.trace.qq.com
 id5-sync.com
-l.qq.com
 me.xdrig.com
 m.stripe.com
 m.stripe.network
