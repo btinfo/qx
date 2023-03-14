@@ -377,7 +377,6 @@ intl.wapa.taobao.com
 intl.waptest.taobao.com
 ironbeast.io
 i.snssdk.com
-#is.snssdk.com
 iyes.youku.com
 ja2.gamersky.com
 j.br.baidu.com

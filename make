@@ -2,8 +2,10 @@
 
 # Loyalsoldier ads
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
-|sed '/^regexp/d;/:umeng.com:/d'|cut -d: -f2|sort -u > rule/ads.txt
+|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/ads.txt
 
+sed -i '/^umeng.com$/d' rule/ads.txt
+sed -i '/^is.snssdk.com$/d' rule/ads.txt
 #exclude="hunantv-ads kugou-ads letv-ads xiaomitv-ads youku-ads"
 #true > rule/b
 #for i in $exclude
