@@ -16,10 +16,13 @@ sdk.tianmu.mobi
 #unilog.wostore.cn
 use.typekit.net
 #========================================#
+adjust.com
 addthis.com
 adition.com
 adkwai.com
 adpone.com
+applovin.com
+applvn.com
 app-measurement.com
 appsflyer-cn.com
 appsflyer.com
@@ -47,6 +50,8 @@ ad.10010.com
 smartad.10010.com
 #========================================#
 #amazon
+amazon-adsystem.com
+serving-sys.com
 china2021.s3.ap-northeast-2.amazonaws.com
 #========================================#
 #amap
