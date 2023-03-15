@@ -183,6 +183,7 @@ host-suffix,dmxleo.dailymotion.com
 host-suffix,doubleclick.net
 host-suffix,ds.11st.co.kr
 host-suffix,exelbid.com
+host-suffix,external-api.impression-neo.naver.com
 host-suffix,fastview.co.kr
 host-suffix,finead.o00.kr
 host-suffix,googleadservices.com
