@@ -60,36 +60,36 @@ h-adashx.ut.taobao.com
 adash-emas.cn-hangzhou.aliyuncs.com
 
 #baidu
-mobads.baidu.com
-mobads-logs.baidu.com
-mobads-pre-config.cdn.bcebos.com
 dxp.baidu.com
 hm.baidu.com
 hmma.baidu.com
 kstj.baidu.com
+mobads-logs.baidu.com
+mobads-pre-config.cdn.bcebos.com
+mobads.baidu.com
 nsclick.baidu.com
 zz.bdstatic.com
 
 #bitedance
 ctobsnssdk.com
-pangolin.snssdk.com
+dig.bdurl.net
+i.snssdk.com
 pangolin-sdk-toutiao-b.com
 pangolin-sdk-toutiao.com
+pangolin.snssdk.com
 pglstatp-toutiao.com
-i.snssdk.com
-dig.bdurl.net
 sf3-ttcdn-tos.pstatp.com
 
 #懂球帝
 ap.dongqiudi.com
 
 #google
-googletagmanager.com
-googletagservices.com
-googleadservices.com
-google-analytics.com
 doubleclick-cn.net
 doubleclick.net
+google-analytics.com
+googleadservices.com
+googletagmanager.com
+googletagservices.com
 
 #虎牙
 business.msstatic.com
