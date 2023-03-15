@@ -122,6 +122,7 @@ pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
 
 #蜻蜓fm
+ad.qtfm.cn
 ad.qingting.fm
 adlaunch.qingting.fm
 
