@@ -252,14 +252,6 @@ DOMAIN-SUFFIX,bloomberg.cn,PROXY
 DOMAIN-SUFFIX,bloomberg.com,PROXY
 DOMAIN-SUFFIX,bloomberg.de,PROXY
 DOMAIN-SUFFIX,bloombergview.com,PROXY
-# > Clubhouse
-DOMAIN-SUFFIX,clubhouseapi.com,PROXY
-DOMAIN-SUFFIX,joinclubhouse.com,PROXY
-DOMAIN,clubhouse.pubnubapi.com,PROXY
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com,PROXY
 DOMAIN-SUFFIX,dropboxapi.com,PROXY
