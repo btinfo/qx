@@ -2,9 +2,10 @@
 
 # Loyalsoldier ads
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
-|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/ads.txt
+|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/category-ads.txt
 
-sed -i '/^umeng.com/d;/^is.snssdk.com/d' rule/ads.txt
+sed -i '/^umeng.com/d;/^is.snssdk.com/d' rule/category-ads.txt
+
 # Korean ads
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
 |grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard,/g'|sort -u >rule/koads.txt
