@@ -377,6 +377,7 @@ intl.wapa.taobao.com
 intl.waptest.taobao.com
 ironbeast.io
 i.snssdk.com
+is.snssdk.com
 iyes.youku.com
 ja2.gamersky.com
 j.br.baidu.com
@@ -607,6 +608,7 @@ ucstat.baidu.com
 ugdtimg.com
 ulic.baidu.com
 ulog.imap.baidu.com
+umeng.com
 unimhk.com
 union.baidu.com
 unionimage.baidu.com
