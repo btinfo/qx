@@ -1,110 +1,116 @@
 #========================================#
-host, ad.cpe.dotomi.com
-host, ad2.fivecdm.com
-host, ads.api.vungle.com
-host, assets.growingio.com
-host, beacon.krxd.net
+#general
 host, counter.yadro.ru
-host, eu-1-id5-sync.com
-host, fp-it.fengkongcloud.com
-host, gdfp.gifshow.com
-host, id5-sync.com
-host, open.e.kuaishou.com
-host, px.ucweb.com
-host, script.4dex.io
-host, sdk.tianmu.mobi
-#host, unilog.wostore.cn
-host, use.typekit.net
-#========================================#
-host-suffix, adjust.com
-host-suffix, addthis.com
 host-suffix, adition.com
-host-suffix, adkwai.com
-host-suffix, adpone.com
-host-suffix, applovin.com
-host-suffix, applvn.com
-host-suffix, app-measurement.com
-host-suffix, appsflyer-cn.com
+host-suffix, adjust.com
+host-suffix, ioam.de
+#========================================#
+#safebrowsing
+host, safebrowsing.googleapis-cn.com
+host, safebrowsing.googleapis.com
+host, safebrowsing.urlsec.qq.com
+#========================================#
+#akam
+host, ad.cpe.dotomi.com
+host, ads.api.vungle.com
+host-suffix, addthis.com
+#========================================#
+#amazon
+host, adt.xdrig.com
+host, beacon.krxd.net
+host, china2021.s3.ap-northeast-2.amazonaws.com
+host, me.xdrig.com
+host, m.stripe.com
+host, m.stripe.network
+host, q.stripe.com
+host, use.typekit.net
+host-suffix, amazon-adsystem.com
 host-suffix, appsflyer.com
 host-suffix, aralego.com
 host-suffix, connatix.com
-host-suffix, dutils.com
-host-suffix, inmobi.cn
-host-suffix, ioam.de
-host-suffix, jiguang.cn
-host-suffix, jpush.cn
-host-suffix, jpush.io
-host-suffix, mob.com
 host-suffix, popin.cc
-host-suffix, shuzilm.cn
-host-suffix, tingyun.com
-#========================================#
-#safebrowsing
-host, safebrowsing.urlsec.qq.com
-host, safebrowsing.googleapis.com
-host, safebrowsing.googleapis-cn.com
-#========================================#
-#10010
-host, analytics2.10010.com
-host, ad.10010.com
-host, smartad.10010.com
-#========================================#
-#amazon
-host-suffix, amazon-adsystem.com
 host-suffix, serving-sys.com
-host, china2021.s3.ap-northeast-2.amazonaws.com
 #========================================#
 #amap
 host, amap-aos-info-nogw.amap.com
 host, awaken.amap.com
 #========================================#
 #apple
-host-suffix, iadsdk.apple.com
 host, api-adservices.apple.com
+host-suffix, iadsdk.apple.com
 #========================================#
 #alibaba
+host, adash-emas.cn-hangzhou.aliyuncs.com
 host, adashx.m.taobao.com
 host, amdc.m.taobao.com
+host, assets.growingio.com
+host, fp-it.fengkongcloud.com
 host, h-adashx.ut.taobao.com
-host, adash-emas.cn-hangzhou.aliyuncs.com
+host, px.ucweb.com
+host, sdk.tianmu.mobi
+host-suffix, adkwai.com
+host-suffix, appsflyer-cn.com
+host-suffix, dutils.com
+host-suffix, inmobi.cn
+host-suffix, jiguang.cn
+host-suffix, jpush.cn
+host-suffix, mob.com
+host-suffix, shuzilm.cn
+host-suffix, umsns.com
+#host, log.umtrack.com
 #========================================#
 #baidu
 host, dxp.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
 host, kstj.baidu.com
+host, mobads.baidu.com
 host, mobads-logs.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
-host, mobads.baidu.com
 host, nsclick.baidu.com
 host, zz.bdstatic.com
 #========================================#
 #bitedance
-host-suffix, ctobsnssdk.com
 host, dig.bdurl.net
 host, i.snssdk.com
-host-suffix, pangolin-sdk-toutiao-b.com
-host-suffix, pangolin-sdk-toutiao.com
-host-suffix, pangolin.snssdk.com
-host-suffix, pglstatp-toutiao.com
 host, sf3-ttcdn-tos.pstatp.com
 host, tnc3-aliec1.snssdk.com
 host, tnc3-aliec2.snssdk.com
 host, tnc3-alisc1.zijieapi.com
 host, tnc3-alisc2.zijieapi.com
+host-suffix, ctobsnssdk.com
+host-suffix, pangolin-sdk-toutiao-b.com
+host-suffix, pangolin-sdk-toutiao.com
+host-suffix, pangolin.snssdk.com
+host-suffix, pglstatp-toutiao.com
 #========================================#
-#懂球帝
+#china unicom
+host, ad.10010.com
+host, analytics2.10010.com
+host, smartad.10010.com
+#host, unilog.wostore.cn
+#========================================#
+#cloudflare
+host, eu-1-id5-sync.com
+host, id5-sync.com
+host, script.4dex.io
+host-suffix, adpone.com
+host-suffix, applvn.com
+#========================================#
+#dongqiudi
 host, ap.dongqiudi.com
 #========================================#
 #google
+host-suffix, applovin.com
+host-suffix, app-measurement.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
-host-suffix, google-analytics.com
 host-suffix, googleadservices.com
+host-suffix, google-analytics.com
 host-suffix, googletagmanager.com
 host-suffix, googletagservices.com
 #========================================#
-#虎牙
+#huya
 host, business.msstatic.com
 host, cdnfile1.msstatic.com
 host, livewebbs2.msstatic.com
@@ -113,55 +119,61 @@ host, fileserver.cdn.huya.com
 host, kiwistatic.huya.com
 host, statwup.huya.com
 #========================================#
+#huawei
+host-suffix, jpush.io
+#========================================#
 #instal
 host, ads.instal.com
 host, analytics.instal.com
 #========================================#
-#爱奇艺体育
+#iqiyi
 host, policy.video.iqiyi.com
 #========================================#
 #jd
 host, im-x.jd.com
+#========================================#
+#kuaishou
+host, gdfp.gifshow.com
+host, open.e.kuaishou.com
 #========================================#
 #kuwo
 host, g.koowo.com
 host, mobilead.kuwo.cn
 host, rich.kuwo.cn
 #========================================#
-#netease
-host, nex.163.com
+#naver
+host, ad2.fivecdm.com // 计步器
+#========================================#
+#netease#邮箱大师
 host, gorgon.youdao.com
+host, nex.163.com
 host, pg-ad-b1.ws.126.net
 host, pg-ad-b2.ws.126.net
 #========================================#
 #蜻蜓fm
-host, ad.qtfm.cn
-host, ad.qingting.fm
 host, adlaunch.qingting.fm
-#========================================#
-#stripe
-host, m.stripe.com
-host, m.stripe.network
-host, q.stripe.com
+host, ad.qingting.fm
+host, ad.qtfm.cn
 #========================================#
 #tencent
-host-suffix, e.qq.com
-host-suffix, l.qq.com
-host-suffix, gdt.qq.com
-host, ios.bugly.qq.com
-host, h.trace.qq.com
-host, mtrace.qq.com
 host, adsmind.gdtimg.com
-host-suffix, pgdt.gtimg.cn
-host, qzs.gdtimg.com
-host-suffix, ugdtimg.com
-host, ad.tencentmusic.com
 host, adstats.tencentmusic.com
+host, ad.tencentmusic.com
+host, h.trace.qq.com
+host, ios.bugly.qq.com
+host, mtrace.qq.com
+host, qzs.gdtimg.com
+host-suffix, e.qq.com
+host-suffix, gdt.qq.com
+host-suffix, l.qq.com
+host-suffix, pgdt.gtimg.cn
+host-suffix, tingyun.com
+host-suffix, ugdtimg.com
 #========================================#
 #tidal
 host, iad-03.braze.com
 #========================================#
-#transferMarkt
+#transfermarkt
 host-suffix, akamaihd.net
 host-suffix, boltdns.net
 host-suffix, outbrain.com
@@ -173,18 +185,10 @@ host, leo-online.fbcontent.cn
 host, leo.fbcontent.cn
 host, oapi.yuanfudao.com
 #========================================#
-#央视频
+#ysp#央视频
 host, btrace.ysp.cctv.cn
-host, mtrace.ysp.cctv.cn
 host, cdn.cmgadx.com
-#========================================#
-#umeng
-host-suffix, umsns.com
-#host, log.umtrack.com
-#========================================#
-#xdrig
-host, adt.xdrig.com
-host, me.xdrig.com
+host, mtrace.ysp.cctv.cn
 #========================================#
 #yahoo
 host, data.flurry.com
