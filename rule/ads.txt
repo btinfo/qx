@@ -1,3 +1,8 @@
+#test
+tnc3-aliec1.snssdk.com
+tnc3-aliec2.snssdk.com
+tnc3-alisc1.zijieapi.com
+tnc3-alisc2.zijieapi.com
 #========================================#
 ad.cpe.dotomi.com
 ad2.fivecdm.com
