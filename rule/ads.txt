@@ -36,6 +36,11 @@ popin.cc
 shuzilm.cn
 tingyun.com
 #========================================#
+#safebrowsing
+safebrowsing.urlsec.qq.com
+safebrowsing.googleapis.com
+safebrowsing.googleapis-cn.com
+#========================================#
 #10010
 analytics2.10010.com
 ad.10010.com
