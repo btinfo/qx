@@ -13,7 +13,7 @@ open.e.kuaishou.com
 px.ucweb.com
 script.4dex.io
 sdk.tianmu.mobi
-unilog.wostore.cn
+#unilog.wostore.cn
 use.typekit.net
 #========================================#
 addthis.com
@@ -166,7 +166,7 @@ cdn.cmgadx.com
 #========================================#
 #umeng
 umsns.com
-log.umtrack.com
+#log.umtrack.com
 #========================================#
 #xdrig
 adt.xdrig.com
