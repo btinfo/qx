@@ -59,7 +59,7 @@ host, amap-aos-info-nogw.amap.com
 host, awaken.amap.com
 #========================================#
 #apple
-host, iadsdk.apple.com
+host-suffix, iadsdk.apple.com
 host, api-adservices.apple.com
 #========================================#
 #alibaba
@@ -153,7 +153,7 @@ host, h.trace.qq.com
 host, mtrace.qq.com
 host, adsmind.gdtimg.com
 host-suffix, pgdt.gtimg.cn
-host-suffix, qzs.gdtimg.com
+host, qzs.gdtimg.com
 host-suffix, ugdtimg.com
 host, ad.tencentmusic.com
 host, adstats.tencentmusic.com
