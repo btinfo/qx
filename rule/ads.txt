@@ -12,24 +12,26 @@ host, safebrowsing.googleapis.com
 host, safebrowsing.urlsec.qq.com
 #========================================#
 #Akamai
+host-suffix, akamaihd.net // TM
 host, ad.cpe.dotomi.com
 host, ads.api.vungle.com
 host, assets.growingio.com
 host-suffix, addthis.com
-host-suffix, akamaihd.net // TM
 #========================================#
 #Amazon
 host-suffix, amazon-adsystem.com
 host-suffix, serving-sys.com
 
 host, adt.xdrig.com
+host, me.xdrig.com
+
 host, beacon.krxd.net
 host, china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
-host, me.xdrig.com
+host, use.typekit.net
+
 host, m.stripe.com
 host, m.stripe.network
 host, q.stripe.com
-host, use.typekit.net
 
 host-suffix, appsflyer.com
 host-suffix, aralego.com
@@ -47,8 +49,9 @@ host-suffix, iadsdk.apple.com
 host, adash-emas.cn-hangzhou.aliyuncs.com
 host, adashx.m.taobao.com
 host, amdc.m.taobao.com
-host, dig.bdurl.net
 host, h-adashx.ut.taobao.com
+
+host, dig.bdurl.net
 host, sdk.tianmu.mobi
 host-suffix, appsflyer-cn.com
 host-suffix, inmobi.cn
@@ -78,7 +81,7 @@ host, kstj.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, zz.bdstatic.com
 #========================================#
-#BiteDance
+#ByteDance
 #host, i.snssdk.com
 host, sf3-ttcdn-tos.pstatp.com
 host-suffix, ctobsnssdk.com
@@ -162,20 +165,22 @@ host, ad.qingting.fm
 host, ad.qtfm.cn
 #========================================#
 #Tencent
-host, adsmind.gdtimg.com
-host, adstats.tencentmusic.com
-host, ad.tencentmusic.com
-host, fp-it.fengkongcloud.com
 host, h.trace.qq.com
 host, ios.bugly.qq.com
 host, mtrace.qq.com
-host, qzs.gdtimg.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
+
+host, adsmind.gdtimg.com
+host, qzs.gdtimg.com
 host-suffix, pgdt.gtimg.cn
-host-suffix, tingyun.com
 host-suffix, ugdtimg.com
+
+host, adstats.tencentmusic.com
+host, ad.tencentmusic.com
+host, fp-it.fengkongcloud.com
+host-suffix, tingyun.com
 #========================================#
 #Tidal
 host, iad-03.braze.com
@@ -188,8 +193,8 @@ host, oapi.yuanfudao.com
 #========================================#
 #央视频
 host, btrace.ysp.cctv.cn
-host, cdn.cmgadx.com
 host, mtrace.ysp.cctv.cn
+host, cdn.cmgadx.com
 #========================================#
 #Yahoo
 host, data.flurry.com
