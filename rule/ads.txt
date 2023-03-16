@@ -45,7 +45,7 @@ host, api-adservices.apple.com
 host-suffix, iadsdk.apple.com
 #========================================#
 #Alibaba
-#Hangzhou Alibaba Advertising Co.,Ltd.
+#Alibaba Advertising
 host, adash-emas.cn-hangzhou.aliyuncs.com
 host, adashx.m.taobao.com
 host, amdc.m.taobao.com
@@ -58,7 +58,7 @@ host-suffix, inmobi.cn
 host-suffix, mob.com
 host-suffix, shuzilm.cn
 
-#Alibaba Cloud Computing (Beijing) Co., Ltd 
+#Alibaba Cloud Computing
 host, amap-aos-info-nogw.amap.com // amap
 host, awaken.amap.com // amap
 #host, log.umtrack.com
@@ -69,7 +69,7 @@ host-suffix, dutils.com
 host-suffix, umsns.com
 #========================================#
 #Baidu
-#Beijing Baidu Netcom Science and Technology Co., 
+#Baidu Netcom Science and Technology
 host, hm.baidu.com
 host, hmma.baidu.com
 host, mobads.baidu.com
@@ -133,7 +133,7 @@ host, fileserver.cdn.huya.com
 host, kiwistatic.huya.com
 host, statwup.huya.com
 #========================================#
-#Huawei Cloud Service data center
+#Huawei Cloud
 host-suffix, jiguang.cn
 host-suffix, jpush.cn
 host-suffix, jpush.io
