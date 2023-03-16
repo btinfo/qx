@@ -1,3 +1,7 @@
+host, vas-hl-x.snssdk.com
+host, stream.snssdk.com
+host, cloud.tgpa.qq.com
+host, track.sohu.com
 #========================================#
 #General
 host, counter.yadro.ru
