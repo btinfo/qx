@@ -1,5 +1,4 @@
 host, log.snssdk.com
-host, log.mmstat.com
 host, log.umtrack.com
 host, unilog.wostore.cn
 host, applog.uc.cn
