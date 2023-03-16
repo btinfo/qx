@@ -72,7 +72,7 @@ host, zz.bdstatic.com
 #========================================#
 #bitedance
 host, dig.bdurl.net
-host, i.snssdk.com
+#host, i.snssdk.com
 host, sf3-ttcdn-tos.pstatp.com
 host, tnc3-aliec1.snssdk.com
 host, tnc3-aliec2.snssdk.com
