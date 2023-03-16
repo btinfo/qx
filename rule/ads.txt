@@ -117,10 +117,7 @@ host, ad.bmac.com.cn
 host, sf3-ttcdn-tos.pstatp.com
 host-suffix, ctobsnssdk.com
 
-host, tnc3-aliec1.snssdk.com
-host, tnc3-aliec2.snssdk.com
-host, tnc3-alisc1.zijieapi.com
-host, tnc3-alisc2.zijieapi.com
+host-keyword, tnc3-ali
 
 host-suffix, pangolin-sdk-toutiao-b.com
 host-suffix, pangolin-sdk-toutiao.com
