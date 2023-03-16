@@ -107,6 +107,9 @@ host, kstj.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, zz.bdstatic.com
 #========================================#
+#北京一卡通
+host, ad.bmac.com.cn
+#========================================#
 #ByteDance
 #host, i.snssdk.com
 host, sf3-ttcdn-tos.pstatp.com
