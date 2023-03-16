@@ -1,3 +1,6 @@
+host, static.ws.126.net
+host, static.yky.qq.com
+host, ap-static.dongqiudi.com
 host, eclick.baidu.com
 host-suffix, pos.baidu.com
 host, cpro.baidustatic.com
