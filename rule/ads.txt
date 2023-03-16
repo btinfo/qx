@@ -1,3 +1,6 @@
+host, kadmimage.biz.weibo.com
+host, adimg.uve.weibo.com
+host, pingma.qq.com
 host, static.ws.126.net
 host, static.yky.qq.com
 host, ap-static.dongqiudi.com
