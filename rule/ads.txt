@@ -1,3 +1,4 @@
+host-suffix, anythinktech.com
 host, otheve.beacon.qq.com
 host, log.snssdk.com
 host, log.umtrack.com
@@ -21,7 +22,7 @@ host-suffix, pos.baidu.com
 host, cpro.baidustatic.com
 host, dup.baidustatic.com
 
-host, dm.toutiao.com
+host-wildcard, dm*.toutiao.com
 host, dm.bytedance.com
 host, vas-hl-x.snssdk.com
 host, stream.snssdk.com
