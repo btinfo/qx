@@ -1,17 +1,30 @@
+host, log.snssdk.com
+host, log.mmstat.com
+host, log.umtrack.com
+host, unilog.wostore.cn
+host, applog.uc.cn
+host, sensors-log.dongqiudi.com
+
 host, kadmimage.biz.weibo.com
 host, adimg.uve.weibo.com
+
 host, pingma.qq.com
-host, static.ws.126.net
 host, static.yky.qq.com
+host, cloud.tgpa.qq.com
+
+host, static.ws.126.net
+
 host, ap-static.dongqiudi.com
+
 host, eclick.baidu.com
 host-suffix, pos.baidu.com
 host, cpro.baidustatic.com
 host, dup.baidustatic.com
+
 host, dm.toutiao.com
 host, vas-hl-x.snssdk.com
 host, stream.snssdk.com
-host, cloud.tgpa.qq.com
+
 host, track.sohu.com
 #========================================#
 #General
@@ -76,7 +89,6 @@ host-suffix, shuzilm.cn
 #Alibaba Cloud Computing
 host, amap-aos-info-nogw.amap.com // amap
 host, awaken.amap.com // amap
-#host, log.umtrack.com
 host, policy.video.iqiyi.com // iQiyi
 host, px.ucweb.com
 host-suffix, adkwai.com
@@ -115,7 +127,6 @@ host-suffix, pglstatp-toutiao.com
 host, ad.10010.com
 host, analytics2.10010.com
 host, smartad.10010.com
-#host, unilog.wostore.cn
 #========================================#
 #Cloudflare
 host, eu-1-id5-sync.com
