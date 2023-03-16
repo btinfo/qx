@@ -1,3 +1,7 @@
+host, eclick.baidu.com
+host-suffix, pos.baidu.com
+host, cpro.baidustatic.com
+host, dup.baidustatic.com
 host, dm.toutiao.com
 host, vas-hl-x.snssdk.com
 host, stream.snssdk.com
