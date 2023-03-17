@@ -3,7 +3,6 @@ host, counter.yadro.ru
 host, track.sohu.com
 host, unilog.wostore.cn
 host-suffix, adition.com
-host-suffix, adjust.com
 host-suffix, anythinktech.com
 host-suffix, ioam.de
 host-suffix, outbrain.com //transfermarkt

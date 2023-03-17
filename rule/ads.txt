@@ -1,3 +1,6 @@
+#adjust
+adjust.com
+
 #alibaba
 a.alimama.cn
 acjs.aliyun.com
