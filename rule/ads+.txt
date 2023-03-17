@@ -7,16 +7,10 @@ host-suffix, anythinktech.com
 host-suffix, ioam.de
 host-suffix, outbrain.com //transfermarkt
 
-#SafeBrowsing
-host, safebrowsing.googleapis-cn.com
-host, safebrowsing.googleapis.com
-host, safebrowsing.urlsec.qq.com
-
 #Akamai
 host-suffix, akamaihd.net //transfermarkt
 host, ad.cpe.dotomi.com
 host, ads.api.vungle.com
-host-suffix, addthis.com
 
 #Amazon
 host, adt.xdrig.com
@@ -126,6 +120,11 @@ host, statistic.live.126.net
 host, adlaunch.qingting.fm
 host, ad.qingting.fm
 host, ad.qtfm.cn
+
+#SafeBrowsing
+host, safebrowsing.googleapis-cn.com
+host, safebrowsing.googleapis.com
+host, safebrowsing.urlsec.qq.com
 
 #Tencent
 host, adsmind.gdtimg.com
