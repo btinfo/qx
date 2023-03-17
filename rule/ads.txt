@@ -1,10 +1,9 @@
 host-suffix, anythinktech.com
-host, otheve.beacon.qq.com
+
 host, log.snssdk.com
 host, log.umtrack.com
 host, unilog.wostore.cn
 host, applog.uc.cn
-host, sensors-log.dongqiudi.com
 
 host, kadmimage.biz.weibo.com
 host, adimg.uve.weibo.com
@@ -12,10 +11,13 @@ host, adimg.uve.weibo.com
 host, pingma.qq.com
 host, static.yky.qq.com
 host, cloud.tgpa.qq.com
+host, otheve.beacon.qq.com
 
 host, static.ws.126.net
+host, statistic.live.126.net
 
 host, ap-static.dongqiudi.com
+host, sensors-log.dongqiudi.com
 
 host, eclick.baidu.com
 host-suffix, pos.baidu.com
