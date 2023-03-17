@@ -86,7 +86,7 @@ host-suffix, iadsdk.apple.com
 #Alibaba Advertising
 host, adash-emas.cn-hangzhou.aliyuncs.com
 host, adashx.m.taobao.com
-host, amdc.m.taobao.com
+#host, amdc.m.taobao.com
 host, h-adashx.ut.taobao.com
 
 host, dig.bdurl.net
