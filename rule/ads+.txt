@@ -1,6 +1,5 @@
 #General
 host, counter.yadro.ru
-host, track.sohu.com
 host, unilog.wostore.cn
 host-suffix, adition.com
 host-suffix, anythinktech.com
@@ -8,7 +7,7 @@ host-suffix, ioam.de
 host-suffix, outbrain.com //transfermarkt
 
 #Akamai
-host-suffix, akamaihd.net //transfermarkt
+#host-suffix, akamaihd.net //transfermarkt
 host, ad.cpe.dotomi.com
 host, ads.api.vungle.com
 
@@ -145,10 +144,6 @@ host-suffix, tingyun.com
 #Tidal
 host, iad-03.braze.com
 
-#weibo
-host, adimg.uve.weibo.com
-host, kadmimage.biz.weibo.com
-
 #小猿口算
 host, gallery.fbcontent.cn
 host, leo-online.fbcontent.cn
@@ -159,4 +154,3 @@ host, oapi.yuanfudao.com
 host, btrace.ysp.cctv.cn
 host, mtrace.ysp.cctv.cn
 host, cdn.cmgadx.com
-
