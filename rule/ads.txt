@@ -1,6 +1,5 @@
 host-suffix, anythinktech.com
 
-host, log.snssdk.com
 host, log.umtrack.com
 host, unilog.wostore.cn
 host, applog.uc.cn
@@ -23,17 +22,6 @@ host, eclick.baidu.com
 host-suffix, pos.baidu.com
 host, cpro.baidustatic.com
 host, dup.baidustatic.com
-
-host-wildcard, tnc*.toutiao.com
-host-wildcard, tnc*.bytedance.com
-host-wildcard, tnc*.snssdk.com
-host-wildcard, dm*.toutiao.com
-host-wildcard, dm*.bytedance.com
-host-wildcard, dm*.snssdk.com
-host-keyword, zijieapi
-
-host, vas-hl-x.snssdk.com
-host, stream.snssdk.com
 
 host, track.sohu.com
 #========================================#
@@ -122,7 +110,6 @@ host, zz.bdstatic.com
 host, ad.bmac.com.cn
 #========================================#
 #ByteDance
-#host, i.snssdk.com
 host, sf3-ttcdn-tos.pstatp.com
 host-suffix, ctobsnssdk.com
 
