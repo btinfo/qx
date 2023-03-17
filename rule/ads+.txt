@@ -104,9 +104,9 @@ host, gdfp.gifshow.com
 host, open.e.kuaishou.com
 
 #Kuwo
-host, g.koowo.com
-host, mobilead.kuwo.cn
-host, rich.kuwo.cn
+#host, g.koowo.com
+#host, mobilead.kuwo.cn
+#host, rich.kuwo.cn
 
 #Line
 host, ad2.fivecdm.com //计步器
