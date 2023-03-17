@@ -41,8 +41,8 @@ host-suffix, mob.com
 host-suffix, shuzilm.cn
 
 #umeng
-host, ulogs.umeng.com
-host, ulogs.umengcloud.com
+host-suffix, umeng.com
+host-suffix, umengcloud.com
 host-suffix, umsns.com
 
 #Amap
