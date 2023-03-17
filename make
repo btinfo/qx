@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 git pull
-# Loyalsoldier ads
+# v2fly
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
 |sed '/^regexp/d'|cut -d: -f2|sort -u > rule/ads.txt
 
