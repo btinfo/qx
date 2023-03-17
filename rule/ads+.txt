@@ -39,6 +39,10 @@ host-suffix, dutils.com
 host-suffix, inmobi.cn
 host-suffix, mob.com
 host-suffix, shuzilm.cn
+
+#umeng
+host, ulogs.umeng.com
+host, ulogs.umengcloud.com
 host-suffix, umsns.com
 
 #Amap
