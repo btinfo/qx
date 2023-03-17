@@ -22,10 +22,12 @@ host-suffix, pos.baidu.com
 host, cpro.baidustatic.com
 host, dup.baidustatic.com
 
-host-wildcard, dm*.toutiao.com
 host-wildcard, tnc*.toutiao.com
 host-wildcard, tnc*.bytedance.com
+host-wildcard, tnc*.snssdk.com
+host-wildcard, dm*.toutiao.com
 host-wildcard, dm*.bytedance.com
+host-wildcard, dm*.snssdk.com
 host-keyword, zijieapi
 
 host, vas-hl-x.snssdk.com
