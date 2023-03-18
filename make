@@ -3,14 +3,10 @@
 git pull
 # v2fly
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
-|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/ads.txt
-
-# Fix
-sed -i '/^umeng.com/d' rule/ads.txt
-sed -i '/^is.snssdk.com/d' rule/ads.txt
+|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/categary-ads
 
 # Korean ads
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
-|grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard,/g'|sort -u >rule/koads.txt
+|grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard,/g'|sort -u >rule/koads
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
-|grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix,/g'|sort -u >>rule/koads.txt
+|grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix,/g'|sort -u >>rule/koads
