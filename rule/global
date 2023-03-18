@@ -1,4 +1,4 @@
-# 334 items
+# 331 items
 # (D.C.S.G?)
 host-suffix, 9cache.com
 host-suffix, 9gag.com
@@ -285,9 +285,6 @@ host-suffix, redditstatic.com
 # > Reuters
 host-suffix, reuters.com
 host-suffix, reutersmedia.net
-# > Steam
-host-suffix, steamcommunity.com
-# host, store.steampowered.com
 # > The Economist
 host-suffix, economist.com
 host-suffix, static-economist.com
@@ -317,10 +314,6 @@ host-suffix, wiktionary.org
 # > Yahoo
 host-suffix, yahoo.com
 host, search.yahoo.co.jp
-# > Yandex
-host-suffix, yadi.sk
-host, disk.yandex.com
-
 # (Region-Restricted Access Denied)
 host-suffix, aicoin.com
 host-suffix, aimoon.com
