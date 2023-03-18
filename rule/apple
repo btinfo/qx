@@ -1,21 +1,21 @@
-# Apple
-DOMAIN-SUFFIX,aaplimg.com,Apple
-DOMAIN-SUFFIX,apple.co,Apple
-DOMAIN-SUFFIX,apple.com,Apple
-DOMAIN-SUFFIX,apple.com.cn,Apple
-DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
-DOMAIN-SUFFIX,apple-mapkit.com,Apple
-DOMAIN-SUFFIX,applemusic.com,Apple
-DOMAIN-SUFFIX,appstore.com,Apple
-DOMAIN-SUFFIX,apzones.com,Apple
-DOMAIN-SUFFIX,cdn-apple.com,Apple
-DOMAIN-SUFFIX,icloud.com,Apple
-DOMAIN-SUFFIX,icloud.com.cn,Apple
-DOMAIN-SUFFIX,icloud-content.com,Apple
-DOMAIN-SUFFIX,me.com,Apple
-DOMAIN-SUFFIX,mzstatic.com,Apple
-DOMAIN-KEYWORD,apple.com.akadns.net,Apple
-DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
-DOMAIN-KEYWORD,apple-support.akadns.net,Apple
-DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+# 20 items
+host-suffix, aaplimg.com
+host-suffix, apple.co
+host-suffix, apple.com
+host-suffix, apple.com.cn
+host-suffix, apple-cloudkit.com
+host-suffix, apple-livephotoskit.com
+host-suffix, apple-mapkit.com
+host-suffix, applemusic.com
+host-suffix, appstore.com
+host-suffix, apzones.com
+host-suffix, cdn-apple.com
+host-suffix, icloud.com
+host-suffix, icloud.com.cn
+host-suffix, icloud-content.com
+host-suffix, me.com
+host-suffix, mzstatic.com
+host-keyword, apple.com.akadns.net
+host-keyword, apple.com.edgekey.net
+host-keyword, apple-support.akadns.net
+host-keyword, icloud.com.akadns.net
