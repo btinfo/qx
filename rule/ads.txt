@@ -6,17 +6,17 @@ unilog.wostore.cn
 adition.com
 anythinktech.com
 ioam.de
-outbrain.com //transfermarkt
+outbrain.com
 
 #Akamai
-#akamaihd.net //transfermarkt
+#akamaihd.net
 ad.cpe.dotomi.com
 ads.api.vungle.com
 
 #Amazon
 adt.xdrig.com
 beacon.krxd.net
-china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
+china2021.s3.ap-northeast-2.amazonaws.com
 me.xdrig.com
 m.stripe.com
 m.stripe.network
@@ -24,10 +24,10 @@ q.stripe.com
 use.typekit.net
 appsflyer.com
 aralego.com
-boltdns.net //transfermarkt
+boltdns.net
 connatix.com
 popin.cc
-vidazoo.com //transfermarkt
+vidazoo.com
 
 #Alibaba
 adash-emas.cn-hangzhou.aliyuncs.com
@@ -36,7 +36,7 @@ h-adashx.ut.taobao.com
 px.ucweb.com
 sdk.tianmu.mobi
 adkwai.com
-appsflyer-cn.com //amazon
+appsflyer-cn.com
 dutils.com
 inmobi.cn
 mob.com
@@ -111,7 +111,7 @@ open.e.kuaishou.com
 #rich.kuwo.cn
 
 #Line
-ad2.fivecdm.com //计步器
+ad2.fivecdm.com
 
 #Netease
 gorgon.youdao.com
