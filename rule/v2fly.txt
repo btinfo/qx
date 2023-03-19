@@ -1,5 +1,3 @@
-# 325 items
-
 #adjust
 adjust.com
 
@@ -264,7 +262,6 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-#is.snssdk.com
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com
@@ -302,7 +299,7 @@ googletagservices.com
 googletraveladservices.com
 urchin.com
 
-#JD
+#jd
 ads.union.jd.com
 c-nfa.jd.com
 cps.360buy.com
@@ -353,7 +350,6 @@ ugdtimg.com
 #umeng
 alog.umeng.com
 alog.umengcloud.com
-
-# CNZZ
 w.cnzz.com
 z.gds.cnzz.com
+
