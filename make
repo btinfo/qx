@@ -35,6 +35,8 @@ do
 done
 
 sed -i '/^is.snssdk.com$/d' rule/ads.txt
+sed -i '$d' rule/ads.txt
+
 # Korean ads
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
 |grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard, /g'|sort -u >rule/koads.txt
