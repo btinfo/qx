@@ -24,6 +24,7 @@ amap-aos-info-nogw.amap.com
 awaken.amap.com
 
 #amazon
+amazon-adsystem.com
 adt.xdrig.com
 appsflyer-cn.com
 appsflyer.com
@@ -73,6 +74,7 @@ sensors-log.dongqiudi.com
 #google
 googleadservices.com
 google-analytics.com
+googlesyndication.com
 googletagmanager.com
 googletagservices.com
 
@@ -112,6 +114,9 @@ statistic.live.126.net
 adlaunch.qingting.fm
 ad.qingting.fm
 ad.qtfm.cn
+
+#safebrowsing
+safebrowsing.urlsec.qq.com
 
 #tencent
 cloud.tgpa.qq.com
