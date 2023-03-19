@@ -252,48 +252,9 @@ DOMAIN-SUFFIX,bloomberg.cn,PROXY
 DOMAIN-SUFFIX,bloomberg.com,PROXY
 DOMAIN-SUFFIX,bloomberg.de,PROXY
 DOMAIN-SUFFIX,bloombergview.com,PROXY
-# > Clubhouse
-DOMAIN-SUFFIX,clubhouseapi.com,PROXY
-DOMAIN-SUFFIX,joinclubhouse.com,PROXY
-DOMAIN,clubhouse.pubnubapi.com,PROXY
-# > Crypto
-DOMAIN-SUFFIX,aex.com,PROXY
-DOMAIN-SUFFIX,bibox.com,PROXY
-DOMAIN-SUFFIX,binance.cc,PROXY
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,binance.me,PROXY
-DOMAIN-SUFFIX,binance.us,PROXY
-DOMAIN-SUFFIX,bitcointalk.org,PROXY
-DOMAIN-SUFFIX,bitfinex.com,PROXY
-DOMAIN-SUFFIX,bithumb.com,PROXY
-DOMAIN-SUFFIX,bitmex.com,PROXY
-DOMAIN-SUFFIX,bitstamp.net,PROXY
-DOMAIN-SUFFIX,bittrex.com,PROXY
-DOMAIN-SUFFIX,bybit.com,PROXY
-DOMAIN-SUFFIX,coinbase.com,PROXY
-DOMAIN-SUFFIX,coincheck.com,PROXY
-DOMAIN-SUFFIX,coingecko.com,PROXY
-DOMAIN-SUFFIX,coinmarketcap.com,PROXY
-DOMAIN-SUFFIX,coinone.co.kr,PROXY
-DOMAIN-SUFFIX,etherscan.io,PROXY
-DOMAIN-SUFFIX,ftx.com,PROXY
-DOMAIN-SUFFIX,gate.io,PROXY
-DOMAIN-SUFFIX,gemini.com,PROXY
-DOMAIN-SUFFIX,huobi.com,PROXY
-DOMAIN-SUFFIX,korbit.co.kr,PROXY
-DOMAIN-SUFFIX,kraken.com,PROXY
-DOMAIN-SUFFIX,kucoin.com,PROXY
-DOMAIN-SUFFIX,liquid.com,PROXY
-DOMAIN-SUFFIX,okex.com,PROXY
-DOMAIN-SUFFIX,okx.com,PROXY
-DOMAIN-SUFFIX,poloniex.com,PROXY
-DOMAIN-SUFFIX,sushi.com,PROXY
-DOMAIN-SUFFIX,uniswap.org,PROXY
-DOMAIN-SUFFIX,zb.com,PROXY
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
+# Delete Clubhouse
+# Delete Crypto
+# Delete Discord
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com,PROXY
 DOMAIN-SUFFIX,dropboxapi.com,PROXY
@@ -303,15 +264,7 @@ DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,PROXY
 DOMAIN,github.global.ssl.fastly.net,PROXY
 DOMAIN,nytimes.map.fastly.net,PROXY
-# > Line
-DOMAIN-SUFFIX,line.me,PROXY
-DOMAIN-SUFFIX,line-apps.com,PROXY
-DOMAIN-SUFFIX,line-scdn.net,PROXY
-DOMAIN-SUFFIX,naver.jp,PROXY
-IP-CIDR,103.2.30.0/23,PROXY
-IP-CIDR,125.209.208.0/20,PROXY
-IP-CIDR,147.92.128.0/17,PROXY
-IP-CIDR,203.104.144.0/21,PROXY
+# Delete Line
 # > Meta
 DOMAIN-SUFFIX,accountkit.com,PROXY
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
@@ -362,31 +315,8 @@ DOMAIN-SUFFIX,redditstatic.com,PROXY
 # > Reuters
 DOMAIN-SUFFIX,reuters.com,PROXY
 DOMAIN-SUFFIX,reutersmedia.net,PROXY
-# > Steam
-DOMAIN-SUFFIX,steamcommunity.com,PROXY
-# DOMAIN,store.steampowered.com,PROXY
-# > Telegram
-DOMAIN-SUFFIX,legra.ph,PROXY
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
-DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
-DOMAIN-SUFFIX,telesco.pe,PROXY
-IP-CIDR,91.108.4.0/22,PROXY
-IP-CIDR,91.108.8.0/22,PROXY
-IP-CIDR,91.108.12.0/22,PROXY
-IP-CIDR,91.108.16.0/22,PROXY
-IP-CIDR,91.108.20.0/22,PROXY
-IP-CIDR,91.108.56.0/22,PROXY
-IP-CIDR,91.105.192.0/23,PROXY
-IP-CIDR,149.154.160.0/20,PROXY
-IP-CIDR,185.76.151.0/24,PROXY
-IP6-CIDR,2001:b28:f23d::/48,PROXY
-IP6-CIDR,2001:b28:f23f::/48,PROXY
-IP6-CIDR,2001:67c:4e8::/48,PROXY
-IP6-CIDR,2001:b28:f23c::/48,PROXY
-IP6-CIDR,2a0a:f280::/32,PROXY
+# Delete Steam
+# Delete Telegram
 # > The Economist
 DOMAIN-SUFFIX,economist.com,PROXY
 DOMAIN-SUFFIX,static-economist.com,PROXY
@@ -399,17 +329,7 @@ DOMAIN-SUFFIX,nytimg.com,PROXY
 DOMAIN-SUFFIX,nytlog.com,PROXY
 DOMAIN-SUFFIX,nytstyle.com,PROXY
 DOMAIN-SUFFIX,tmagazine.com,PROXY
-# > Twitter
-DOMAIN-SUFFIX,periscope.tv,PROXY
-DOMAIN-SUFFIX,pscp.tv,PROXY
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,tweetdeck.com,PROXY
-DOMAIN-SUFFIX,twimg.co,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitpic.com,PROXY
-DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,twitter.jp,PROXY
-DOMAIN-SUFFIX,vine.co,PROXY
+# Delete Twitter
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org,PROXY
 DOMAIN-SUFFIX,wikibooks.org,PROXY
