@@ -2,9 +2,9 @@
 
 # v2fly
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
-|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/v2fly.txt
+|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/ads.txt
 
-sed -i "/^is.snssdk.com$/d" rule/v2fly.txt
+sed -i "/^is.snssdk.com$/d" rule/ads.txt
 
 # Korean ads
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
