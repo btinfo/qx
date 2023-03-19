@@ -26,27 +26,26 @@ awaken.amap.com
 #amazon
 amazon-adsystem.com
 adt.xdrig.com
+me.xdrig.com
 appsflyer-cn.com
 appsflyer.com
 beacon.krxd.net
 china2021.s3.ap-northeast-2.amazonaws.com
-me.xdrig.com
 
 #apple
 api-adservices.apple.com
 iadsdk.apple.com
 
 #baidu
+bj.bcebos.com
 dxp.baidu.com
 hm.baidu.com
 hmma.baidu.com
 kstj.baidu.com
-mobads.baidu.com
-mobads-logs.baidu.com
 nsclick.baidu.com
 zz.bdstatic.com
-
-bj.bcebos.com
+mobads.baidu.com
+mobads-logs.baidu.com
 mobads-pre-config.cdn.bcebos.com
 
 #北京一卡通
@@ -55,6 +54,7 @@ ad.bmac.com.cn
 #bytedance
 ctobsnssdk.com
 i.snssdk.com
+pangolin.snssdk.com
 pangolin-sdk-toutiao-b.com
 pangolin-sdk-toutiao.com
 pglstatp-toutiao.com
