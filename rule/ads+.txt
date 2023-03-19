@@ -109,6 +109,7 @@ open.e.kuaishou.com
 #g.koowo.com
 #mobilead.kuwo.cn
 #rich.kuwo.cn
+splashimgbssdl.yun.kugou.com
 
 #Line
 ad2.fivecdm.com
