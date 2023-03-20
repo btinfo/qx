@@ -6,7 +6,10 @@ v2fly ()
 {
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
 |sed '/^regexp/d'|cut -d: -f2|sort -u > rule/v2fly.txt
+}
 
+ads ()
+{
 #https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/
 inc="
 adjust-ads \
@@ -71,6 +74,7 @@ curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
 |grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix, /g'|sort -u >>rule/koads.txt
 }
 
-#v2fly
+v2fly
+#ads
 global
-#koads
+koads
