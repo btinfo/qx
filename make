@@ -25,6 +25,7 @@ tencent-ads \
 umeng-ads
 "
 
+# ads.txt
 true > rule/ads.txt
 for i in $inc
 do
@@ -37,7 +38,21 @@ done
 sed -i '/^is.snssdk.com$/d' rule/ads.txt
 sed -i '$d' rule/ads.txt
 
-# Korean ads
+# global.txt 
+curl -fsL https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list|grep -Ev "^$|^#"|sort -u > rule/g
+
+app="Github Spotify Telegram TIDAL Twitter Youtube"
+true > rule/a
+for i in $app
+do
+  curl -fsL https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/$i.list|grep -Ev "^$|^#"|sort -u >> rule/a
+done
+
+grep -Fvf rule/a rule/g > rule/global.txt
+
+rm -f rule/a rule/g
+  
+# koads.txt
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
 |grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard, /g'|sort -u >rule/koads.txt
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
