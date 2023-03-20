@@ -1,5 +1,3 @@
-# 103 items
-
 #General
 counter.yadro.ru
 unilog.wostore.cn
