@@ -39,13 +39,13 @@ sed -i '/^is.snssdk.com$/d' rule/ads.txt
 sed -i '$d' rule/ads.txt
 
 # global.txt 
-curl -fsL https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list|grep -Ev "^$|^#"|sort -u > rule/g
+curl -fsL https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list|grep -Ev "^$|#"|sort -u > rule/g
 
 app="Github Spotify Telegram TIDAL Twitter Youtube"
 true > rule/a
 for i in $app
 do
-  curl -fsL https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/$i.list|grep -Ev "^$|^#"|sort -u >> rule/a
+  curl -fsL https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/$i.list|grep -Ev "^$|#"|sort -u >> rule/a
 done
 
 grep -Fvf rule/a rule/g > rule/global.txt

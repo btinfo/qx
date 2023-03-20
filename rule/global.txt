@@ -503,7 +503,6 @@ DOMAIN-SUFFIX,shutterstock.com
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,sketchappsources.com
 DOMAIN-SUFFIX,skydrive.wns.windows.com
-DOMAIN-SUFFIX,skype.com# 代理列表
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slideshare.net
 DOMAIN-SUFFIX,smartdnsproxy.com
