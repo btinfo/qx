@@ -1,4 +1,3 @@
-# Unbreak
 # > General
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,app.appsflyer.com,DIRECT
