@@ -1,16 +1,22 @@
 #!/bin/bash -x
 
-# v2fly
+src1="$HOME/git/v2fly/domain-list-community/data"
+src2="$HOME/git/ACL4SSR/ACL4SSR/Clash/Ruleset"
+des="$HOME/git/btinfo/qx/rule"
 
-v2fly ()
-{
-curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
-|sed '/^regexp/d'|cut -d: -f2|sort -u > rule/v2fly.txt
-}
+cd $src1;git pull
+cd $src2;git pull
+cd $des;git pull
 
-ads ()
+curl -fsL https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list > Unbreak-p.list
+[[ -s Unbreak-p.list ]] || exit 1
+curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt > v2fly.txt
+[[ -s v2fly.txt ]] || exit 1
+curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt > filter_25.txt
+[[ -s filter_25.txt ]] || exit 1
+
+ads () #https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/
 {
-#https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/
 inc="
 adjust-ads \
 alibaba-ads \
@@ -31,50 +37,45 @@ tencent-ads \
 umeng-ads
 "
 
-# ads.txt
-true > rule/ads.txt
+true > $des/ads.txt
+cd $src1
 for i in $inc
 do
-  echo "#$i" >> rule/ads.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/$i \
-  |sed '/^$/d;/^#/d;/^regexp/d'|sed 's/^full://g'|sed 's/ @ads//g' >> rule/ads.txt
-  echo "" >> rule/ads.txt
+  echo "#$i" >> $des/ads.txt
+  cat $i |sed '/^$/d;/^#/d;/^regexp/d'|sed 's/^full://g'|sed 's/ @ads//g' >> $des/ads.txt
+  echo "" >> $des/ads.txt
 done
 
-sed -i '/^is.snssdk.com$/d' rule/ads.txt
-sed -i '$d' rule/ads.txt
+sed -i '/^is.snssdk.com$/d' $des/ads.txt
+sed -i '$d' $des/ads.txt
 }
 
 global ()
 {
-# global.txt 
 #https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
 #https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-curl -fsL https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list > rule/Unbreak-p.list
-
-app="Github Instagram Spotify Telegram TIDAL Twitter Youtube"
-true > rule/a
+cd $des
+app="Github Instagram Spotify Telegram TIDAL Twitter YouTube"
+true > a
 for i in $app
 do
-  curl -fsL https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/$i.list|grep -Ev "^$|#"|sort -u >> rule/a
+  cat $src2/$i.list|grep -Ev "^$|#"|sort -u >> a
 done
 
-cat rule/Global.list rule/ProxyLite.list rule/Unbreak-p.list|grep -Ev "^$|#"|sort -u > rule/g
-grep -Fvf rule/a rule/g > rule/global.txt
+cat Global.list ProxyLite.list Unbreak-p.list|grep -Ev "^$|#"|sort -u > g
+grep -Fvf a g > global.txt
 
-rm -f rule/a rule/g
+rm -f a g
 }
 
 koads ()
 {  
-# koads.txt
-curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
-|grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard, /g'|sort -u >rule/koads.txt
-curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
-|grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix, /g'|sort -u >>rule/koads.txt
+cd $des
+cat filter_25.txt|grep '^||.*\*'|sed 's/\^//g'|sed 's/||/host-wildcard, /g'|sort -u > koads.txt
+cat filter_25.txt|grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix, /g'|sort -u >> koads.txt
+rm -f filter_25.txt
 }
 
-v2fly
-#ads
+ads
 global
 koads
