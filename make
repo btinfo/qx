@@ -49,7 +49,7 @@ global ()
 #https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 curl -fsL https://raw.githubusercontent.com/kokoryh/Script/master/Surge/rule/Unbreak-p.list > rule/Unbreak-p.list
 
-app="Github Spotify Telegram TIDAL Twitter Youtube"
+app="Github Instagram Spotify Telegram TIDAL Twitter Youtube"
 true > rule/a
 for i in $app
 do
@@ -71,6 +71,6 @@ curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt \
 |grep '^||'|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix, /g'|sort -u >>rule/koads.txt
 }
 
-v2fly
+#v2fly
 global
-koads
+#koads

@@ -41,7 +41,6 @@ DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,.pinterest.
 DOMAIN-KEYWORD,porn
@@ -157,7 +156,6 @@ DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,castbox.fm
-DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,change.org
@@ -289,8 +287,6 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,independent.co.uk
 DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,inoreader.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,is.gd
