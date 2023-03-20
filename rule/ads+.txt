@@ -58,7 +58,7 @@ api-adservices.apple.com
 mobads-pre-config.cdn.bcebos.com
 
 #北京一卡通
-ad.bmac.com.cn
+#ad.bmac.com.cn
 
 #ByteDance
 pangolin-sdk-toutiao-b.com
