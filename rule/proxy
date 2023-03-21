@@ -2,30 +2,20 @@ DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 DOMAIN,addons.mozilla.org // Firefox Add-ons HTTP 451
 DOMAIN,amp-api.podcasts.apple.com // Podcasts
-DOMAIN,api.ndsxfkjfvhzdsfio.quest
-DOMAIN,api.revenuecat.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,apps.apple.com
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
-DOMAIN,bbs.imoutolove.me
 DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.apple.com
 DOMAIN,books.itunes.apple.com // iBooks Store download
-DOMAIN,cdn.iframe.ly
-DOMAIN,cdn.polyfill.io
 DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net
 DOMAIN,d3c33hcgiwev3.cloudfront.net
-DOMAIN,dhh.lol
 DOMAIN,disk.yandex.com
-DOMAIN,dy.sbgfw.info
 DOMAIN,gateway.icloud.com
 DOMAIN,github.global.ssl.fastly.net
-DOMAIN,http-inputs-notion.splunkcloud.com
-DOMAIN,ikuuu.co
-DOMAIN,in.appcenter.ms
 DOMAIN,itunes.apple.com
 DOMAIN,lab.skk.moe
 DOMAIN,lookup-api.apple.com // Look Up
@@ -38,23 +28,12 @@ DOMAIN,nytimes.map.fastly.net
 DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,payments-jp.amazon.com
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
-DOMAIN,rss.teacat001.xyz
 DOMAIN,s3-ap-northeast-1.amazonaws.com
 DOMAIN,s3-ap-southeast-2.amazonaws.com
-DOMAIN,sdk.fra-01.braze.eu
 DOMAIN,search.yahoo.co.jp
-DOMAIN,sessions.bugsnag.com
-DOMAIN,statuse.digitalcertvalidation.com
-DOMAIN,sub-store.vercel.app
-DOMAIN,surge.mitsea.com
-DOMAIN,teacat.cloud
 DOMAIN,testflight.apple.com
 DOMAIN,tv.apple.com
 DOMAIN,wego.here.com
-DOMAIN,www.efcloud.net
-DOMAIN,www.gravatar.com
-DOMAIN,www.south-plus.net
-DOMAIN,www.summer-plus.net
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
@@ -88,12 +67,10 @@ DOMAIN-SUFFIX,a248.e.akamai.net
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adsense.com
-DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aicoin.com
@@ -102,7 +79,6 @@ DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,anchor.fm
@@ -116,8 +92,6 @@ DOMAIN-SUFFIX,apigee.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,app-measurement.com
@@ -158,7 +132,6 @@ DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
 DOMAIN-SUFFIX,blubrry.com
 DOMAIN-SUFFIX,box.com
-DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
@@ -170,19 +143,15 @@ DOMAIN-SUFFIX,change.org
 DOMAIN-SUFFIX,chrome.com
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,cloudcone.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,clyp.it
 DOMAIN-SUFFIX,cna.com.tw
-DOMAIN-SUFFIX,colamanhua.com
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,conoha.jp
 DOMAIN-SUFFIX,coursehero.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,dailymotion.com
 DOMAIN-SUFFIX,daum.net
-DOMAIN-SUFFIX,day.app
 DOMAIN-SUFFIX,deadline.com
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,depositphotos.com
@@ -229,7 +198,6 @@ DOMAIN-SUFFIX,fbworkmail.com
 DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,feeder.co
 DOMAIN-SUFFIX,feedly.com
-DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flipboard.com
@@ -285,7 +253,6 @@ DOMAIN-SUFFIX,id.heroku.com
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,independent.co.uk
-DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip138.com
@@ -295,7 +262,6 @@ DOMAIN-SUFFIX,istockphoto.com
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,ixquick.com
 DOMAIN-SUFFIX,i-cable.com
-DOMAIN-SUFFIX,javbus.com
 DOMAIN-SUFFIX,jitpack.io
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,jtvnw.net
@@ -306,7 +272,6 @@ DOMAIN-SUFFIX,kik.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,kobobooks.com
 DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,listennotes.com
@@ -327,9 +292,7 @@ DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,mess-lab.com
 DOMAIN-SUFFIX,mixlr.com
-DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,moon.fm
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,mubi.com
@@ -345,16 +308,10 @@ DOMAIN-SUFFIX,newstatesman.com
 DOMAIN-SUFFIX,newsweek.com
 DOMAIN-SUFFIX,newyorker.com
 DOMAIN-SUFFIX,newyorktimes.com
-DOMAIN-SUFFIX,nhentai.net
 DOMAIN-SUFFIX,nintendo.net
-DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,notion.new
-DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,nsstatic.net
-DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytco.com
 DOMAIN-SUFFIX,nytimes.com
@@ -362,7 +319,6 @@ DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,ocnttv.com
-DOMAIN-SUFFIX,ocsp.sectigo.com
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,ok.ru
@@ -373,7 +329,6 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
-DOMAIN-SUFFIX,outbound.io
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,owltail.com
 DOMAIN-SUFFIX,oxfordscholarship.com
@@ -397,7 +352,6 @@ DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,privoxy.org
 DOMAIN-SUFFIX,proxifier.com
 DOMAIN-SUFFIX,pximg.net
-DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
@@ -419,10 +373,8 @@ DOMAIN-SUFFIX,reutersmedia.net
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,rthk.hk
-DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,schema.org
 DOMAIN-SUFFIX,scmp.com
-DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,search.com
 DOMAIN-SUFFIX,sfx.ms
@@ -447,17 +399,12 @@ DOMAIN-SUFFIX,speakerdeck.com
 DOMAIN-SUFFIX,spideroak.com
 DOMAIN-SUFFIX,spiegel.de
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,startpage.com
-DOMAIN-SUFFIX,stash.wiki
-DOMAIN-SUFFIX,stash.ws
-DOMAIN-SUFFIX,stash-activation.com
 DOMAIN-SUFFIX,staticflickr.com
 DOMAIN-SUFFIX,static-economist.com
-DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,steemit.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
@@ -465,7 +412,6 @@ DOMAIN-SUFFIX,straitstimes.com
 DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN-SUFFIX,substack.com
-DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,swissinfo.ch
 DOMAIN-SUFFIX,symauth.com
 DOMAIN-SUFFIX,symcb.com
@@ -515,7 +461,6 @@ DOMAIN-SUFFIX,txmblr.com
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,urbandictionary.com
-DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,ustream.tv
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,venturebeat.com
@@ -566,14 +511,9 @@ DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,you-get.org
 DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,zdassets.com
-DOMAIN-SUFFIX,zdusercontent.com
 DOMAIN-SUFFIX,zello.com
-DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zeronet.io
-DOMAIN-SUFFIX,zndsk.com
 DOMAIN-SUFFIX,zophar.net
-DOMAIN-SUFFIX,zopim.com
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,z-lib.org
