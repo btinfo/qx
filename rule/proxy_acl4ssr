@@ -55,14 +55,14 @@ DOMAIN-KEYWORD,youtube
 
 # Top Blocked Sites
 DOMAIN-SUFFIX,4sqi.net
-DOMAIN-SUFFIX,a248.e.akamai.net
+#DOMAIN-SUFFIX,a248.e.akamai.net #dup#divine
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
-DOMAIN-SUFFIX,app-measurement.com
+#DOMAIN-SUFFIX,app-measurement.com #dup#reject
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,armorgames.com

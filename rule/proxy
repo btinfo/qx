@@ -62,7 +62,6 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
-DOMAIN-SUFFIX,a248.e.akamai.net
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,accountkit.com
@@ -90,7 +89,6 @@ DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archive.ph
