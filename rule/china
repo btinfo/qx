@@ -9,23 +9,11 @@ DOMAIN,origin-a.akamaihd.ne,DIRECT
 DOMAIN,outlook.office365.com,DIRECT
 DOMAIN,smtp-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
-# > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
-DOMAIN-SUFFIX,update.microsoft.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
-DOMAIN,download.microsoft.com,DIRECT
-DOMAIN,wustat.windows.com,DIRECT
-DOMAIN,ntservicepack.microsoft.com,DIRECT
-# ------
 # > PayPal
 DOMAIN-SUFFIX,paypal.com,DIRECT
 DOMAIN-SUFFIX,paypal.me,DIRECT
 DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
 DOMAIN-SUFFIX,paypalobjects.com,DIRECT
-# > Steam
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN-SUFFIX,steamserver.net,DIRECT
 # > Tencent
 IP-CIDR,182.254.116.0/24,DIRECT
 IP-CIDR,203.205.238.0/23,DIRECT
