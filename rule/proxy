@@ -59,7 +59,6 @@ DOMAIN-KEYWORD,.facebook.
 DOMAIN-KEYWORD,.pinterest.
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -68,10 +67,7 @@ DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,adguard.org
-DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adobedtm.com
-DOMAIN-SUFFIX,adsense.com
-DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
@@ -95,7 +91,6 @@ DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archive.ph

@@ -233,8 +233,8 @@ IP-CIDR,204.15.20.0/22,no-resolve
 
 # Google
 DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
+#DOMAIN-SUFFIX,2mdn.net
+#DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
