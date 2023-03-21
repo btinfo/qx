@@ -1,10 +1,10 @@
 ip-asn,714 // 🇺🇸Apple Inc.
-ip-asn,2914 // 🇺🇸NTT America, Inc.#filebox-douban.vercel.app
+ip-asn,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
 ip-asn,3462 // 🇼🇸Data Communication Business Group
 ip-asn,4230 // 🇧🇷CLARO S.A.
 ip-asn,8068 // 🇺🇸Microsoft Corporation
 ip-asn,8075 // 🇺🇸Microsoft Corporation
-#ip-asn,9009 // 🇷🇴M247 Europe SRL#mail.cock.li
+#ip-asn,9009 // 🇷🇴M247 Europe SRL //mail.cock.li
 ip-asn,13333 // 🇺🇸Consolidated Communications, Inc.
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,13414 // 🇺🇸Twitter Inc.
@@ -18,8 +18,8 @@ ip-asn,19679 // 🇺🇸Dropbox, Inc.
 ip-asn,20940 // 🇳🇱Akamai International B.V.
 ip-asn,24940 // 🇩🇪Hetzner Online GmbH
 ip-asn,29423 // 🇩🇪gridscale GmbH
-ip-asn,32934 // 🇺🇸Facebook, Inc.#filebox-douban.vercel.app
-ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc.#gdb.voanews.com
+ip-asn,32934 // 🇺🇸Facebook, Inc. //filebox-douban.vercel.app
+ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc. //gdb.voanews.com
 ip-asn,40065 // 🇺🇸CNSERVERS LLC
 ip-asn,48447 // 🇬🇧Sectigo Limited
 ip-asn,54113 // 🇺🇸Fastly, Inc.
@@ -32,6 +32,6 @@ ip-asn,63949 // 🇸🇬Akamai Connected Cloud
 ip-asn,64050 // 🇸🇬BGPNET Global ASN
 ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
 ip-asn,142403 // 🇭🇰YISU CLOUD LTD
-ip-asn,197019 // 🇨🇿WEDOS Internet, a.s.#appraven.net
-ip-asn,200019 // 🇲🇩ALEXHOST SRL#zlib
+ip-asn,197019 // 🇨🇿WEDOS Internet, a.s. //appraven.net
+ip-asn,200019 // 🇲🇩ALEXHOST SRL //zlib
 ip-asn,396982 // 🇺🇸Google LLC
