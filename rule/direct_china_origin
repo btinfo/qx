@@ -1,74 +1,73 @@
 # China Area Network
-DOMAIN-SUFFIX,flyert.com
-DOMAIN-SUFFIX,gandi.net
-DOMAIN-SUFFIX,snapdrop.net
-DOMAIN,download.jetbrains.com
-DOMAIN,origin-a.akamaihd.net // Origin Download
+DOMAIN-SUFFIX,flyert.com,DIRECT
+DOMAIN-SUFFIX,gandi.net,DIRECT
+DOMAIN-SUFFIX,snapdrop.net,DIRECT
+DOMAIN,download.jetbrains.com,DIRECT
+DOMAIN,origin-a.akamaihd.ne,DIRECT
 # ---(Microsoft)---
 # > Outlook
-DOMAIN,outlook.office365.com
-DOMAIN,smtp-mail.outlook.com
-DOMAIN,smtp.office365.com
+DOMAIN,outlook.office365.com,DIRECT
+DOMAIN,smtp-mail.outlook.com,DIRECT
+DOMAIN,smtp.office365.com,DIRECT
 # > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-DOMAIN-SUFFIX,update.microsoft.com
-DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,windowsupdate.microsoft.com
-DOMAIN,download.microsoft.com
-DOMAIN,wustat.windows.com
-DOMAIN,ntservicepack.microsoft.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
+DOMAIN-SUFFIX,update.microsoft.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
+DOMAIN,download.microsoft.com,DIRECT
+DOMAIN,wustat.windows.com,DIRECT
+DOMAIN,ntservicepack.microsoft.com,DIRECT
 # ------
 # > PayPal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal.com,DIRECT
+DOMAIN-SUFFIX,paypal.me,DIRECT
+DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
+DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > Steam
-DOMAIN-SUFFIX,cm.steampowered.com // Steam Connect Manager Servers
-DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
+DOMAIN-SUFFIX,steamserver.net,DIRECT
 # > Tencent
-IP-CIDR,182.254.116.0/24,no-resolve
-IP-CIDR,203.205.238.0/23,no-resolve
-IP-CIDR,203.205.254.0/23,no-resolve
+IP-CIDR,182.254.116.0/24,DIRECT
+IP-CIDR,203.205.238.0/23,DIRECT
+IP-CIDR,203.205.254.0/23,DIRECT
 # > IP Query
-DOMAIN,ip.istatmenus.app
-DOMAIN,sms.imagetasks.com
+DOMAIN,ip.istatmenus.app,DIRECT
+DOMAIN,sms.imagetasks.com,DIRECT
 # > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com
-DOMAIN,speedtest.macpaw.com
+DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
+DOMAIN,speedtest.macpaw.com,DIRECT
 # > Private Tracker
-DOMAIN-SUFFIX,acg.rip
-DOMAIN-SUFFIX,animebytes.tv
-DOMAIN-SUFFIX,awesome-hd.me
-DOMAIN-SUFFIX,broadcasthe.net
-DOMAIN-SUFFIX,chdbits.co
-DOMAIN-SUFFIX,classix-unlimited.co.uk
-DOMAIN-SUFFIX,comicat.org
-DOMAIN-SUFFIX,empornium.me
-DOMAIN-SUFFIX,gazellegames.net
-DOMAIN-SUFFIX,hdbits.org
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,hdhome.org
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,icetorrent.org
-DOMAIN-SUFFIX,jpopsuki.eu
-DOMAIN-SUFFIX,keepfrds.com
-DOMAIN-SUFFIX,madsrevolution.net
-DOMAIN-SUFFIX,morethan.tv
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,myanonamouse.net
-DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,ncore.cc
-DOMAIN-SUFFIX,open.cd
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,privatehd.to
-DOMAIN-SUFFIX,pterclub.com
-DOMAIN-SUFFIX,redacted.ch
-DOMAIN-SUFFIX,springsunday.net
-DOMAIN-SUFFIX,tjupt.org
-DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,acg.rip,DIRECT
+DOMAIN-SUFFIX,animebytes.tv,DIRECT
+DOMAIN-SUFFIX,awesome-hd.me,DIRECT
+DOMAIN-SUFFIX,broadcasthe.net,DIRECT
+DOMAIN-SUFFIX,chdbits.co,DIRECT
+DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+DOMAIN-SUFFIX,comicat.org,DIRECT
+DOMAIN-SUFFIX,empornium.me,DIRECT
+DOMAIN-SUFFIX,gazellegames.net,DIRECT
+DOMAIN-SUFFIX,hdbits.org,DIRECT
+DOMAIN-SUFFIX,hdchina.org,DIRECT
+DOMAIN-SUFFIX,hddolby.com,DIRECT
+DOMAIN-SUFFIX,hdhome.org,DIRECT
+DOMAIN-SUFFIX,hdsky.me,DIRECT
+DOMAIN-SUFFIX,icetorrent.org,DIRECT
+DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+DOMAIN-SUFFIX,keepfrds.com,DIRECT
+DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+DOMAIN-SUFFIX,morethan.tv,DIRECT
+DOMAIN-SUFFIX,m-team.cc,DIRECT
+DOMAIN-SUFFIX,myanonamouse.net,DIRECT
+DOMAIN-SUFFIX,nanyangpt.com,DIRECT
+DOMAIN-SUFFIX,ncore.cc,DIRECT
+DOMAIN-SUFFIX,open.cd,DIRECT
+DOMAIN-SUFFIX,ourbits.club,DIRECT
+DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
+DOMAIN-SUFFIX,privatehd.to,DIRECT
+DOMAIN-SUFFIX,pterclub.com,DIRECT
+DOMAIN-SUFFIX,redacted.ch,DIRECT
+DOMAIN-SUFFIX,springsunday.net,DIRECT
+DOMAIN-SUFFIX,tjupt.org,DIRECT
+DOMAIN-SUFFIX,totheglory.im,DIRECT
 
-# Just for Quantumult X, move GEOIP,CN to the bottom (local filter at the top by default)
-GEOIP,CN,no-resolve
+GEOIP,CN,DIRECT
