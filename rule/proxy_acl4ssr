@@ -333,16 +333,3 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-
-#飞流直播
-DOMAIN-SUFFIX,neulion.com
-DOMAIN-SUFFIX,icntv.xyz
-DOMAIN-SUFFIX,flzbcdn.xyz
-
-#华文电视
-DOMAIN-SUFFIX,ocnttv.com
-
-# VikACG
-DOMAIN-SUFFIX,vikacg.com
-DOMAIN-SUFFIX,picjs.xyz
-
