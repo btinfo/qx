@@ -1,6 +1,4 @@
 #undefine
-anythinktech.com
-assets.growingio.com
 unilog.wostore.cn
 
 #10010
@@ -18,7 +16,9 @@ amdc.m.taobao.com
 h-adashx.ut.taobao.com
 
 adkwai.com
+anythinktech.com
 applog.uc.cn
+assets.growingio.com
 dutils.com
 inmobi.cn
 mob.com
@@ -109,6 +109,9 @@ im-x.jd.com
 open.e.kuaishou.com
 gdfp.gifshow.com
 
+#kuwo
+splashimgbssdl.yun.kugou.com
+
 #netease
 gorgon.youdao.com
 nex.163.com
@@ -120,6 +123,8 @@ ad.qingting.fm
 ad.qtfm.cn
 
 #tencent
+adsmind.gdtimg.com
+adstats.tencentmusic.com
 ad.tencentmusic.com
 btrace.qq.com
 cloud.tgpa.qq.com
@@ -139,6 +144,12 @@ tingyun.com
 
 #tidal
 sdk.iad-03.braze.com
+
+#transM
+#akamaihd.net
+boltdns.net
+outbrain.com
+vidazoo.com
 
 #央视频
 btrace.ysp.cctv.cn
