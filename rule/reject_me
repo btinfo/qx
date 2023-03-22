@@ -71,6 +71,9 @@ pangolin.snssdk.com
 pglstatp-toutiao.com
 sf3-ttcdn-tos.pstatp.com
 
+#caiyun
+ad.cyapi.cn
+
 #dongqiudi
 ap.dongqiudi.com
 sensors-log.dongqiudi.com
@@ -150,6 +153,9 @@ sdk.iad-03.braze.com
 boltdns.net
 outbrain.com
 vidazoo.com
+
+#yahoo
+data.flurry.com
 
 #央视频
 btrace.ysp.cctv.cn
