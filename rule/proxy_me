@@ -9,9 +9,16 @@ domain-suffix,tw
 domain-suffix,uk
 
 #domain
+domain-suffix,cloudfront.net
+domain,api.revenuecat.com
+domain-suffix,digicert.com
+domain-suffix,fileball.app
 domain,filebox-douban.vercel.app
+domain,in.appcenter.ms
 domain,mail.cock.li
+domain,receiptcheck.quantumult.app
 domain-suffix,appraven.net
+
 #ip-asn
 ip-asn,714 // 🇺🇸Apple Inc.
 ip-asn,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
