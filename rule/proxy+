@@ -9,20 +9,20 @@ domain-suffix,tw
 domain-suffix,uk
 
 #domain
-domain,api.revenuecat.com
-domain,filebox-douban.vercel.app
-domain,in.appcenter.ms
-domain,mail.cock.li
-domain,receiptcheck.quantumult.app
 domain-suffix,amazonaws.com
 domain-suffix,appraven.net
 domain-suffix,cloudfront.net
 domain-suffix,digicert.com
 domain-suffix,fileball.app
 domain-suffix,lencr.org
-domain-suffix,sentry.io
 domain-suffix,photosync-app.com
+domain-suffix,quantumult.app
+domain-suffix,sentry.io
 domain-suffix,workingcopyapp.com
+domain,api.revenuecat.com
+domain,filebox-douban.vercel.app
+domain,in.appcenter.ms
+domain,mail.cock.li
 
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
