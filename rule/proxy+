@@ -22,6 +22,7 @@ domain-suffix,fileball.app
 domain-suffix,lencr.org
 domain-suffix,sentry.io
 domain-suffix,photosync-app.com
+domain-suffix,workingcopyapp.com
 
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
