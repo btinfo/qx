@@ -1,4 +1,5 @@
 #undefine
+taboola.com
 unilog.wostore.cn
 
 #10010
@@ -36,6 +37,7 @@ amap-aos-info-nogw.amap.com
 awaken.amap.com
 
 #amazon
+amazon-adsystem.com
 appsflyer-cn.com
 appsflyer.com
 adt.xdrig.com
@@ -47,6 +49,10 @@ china2021.s3.ap-northeast-2.amazonaws.com
 #apple
 api-adservices.apple.com
 iadsdk.apple.com
+
+#applovin-ads
+applovin.com
+applvn.com
 
 #baidu
 bj.bcebos.com
@@ -79,6 +85,7 @@ ap.dongqiudi.com
 sensors-log.dongqiudi.com
 
 #google
+adservice.google.com
 ads.instal.com
 app-measurement.com
 doubleclick-cn.net
