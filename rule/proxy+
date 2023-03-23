@@ -21,7 +21,7 @@ domain-suffix,digicert.com
 domain-suffix,fileball.app
 domain-suffix,lencr.org
 domain-suffix,sentry.io
-domain,photosync-app.com
+domain-suffix,photosync-app.com
 
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
