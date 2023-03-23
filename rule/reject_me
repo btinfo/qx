@@ -1,6 +1,4 @@
 #undefine
-taboola.com
-unilog.wostore.cn
 
 #10000
 appgoad.189.cn
@@ -10,6 +8,7 @@ appupdate.189.cn
 ad.10010.com
 analytics2.10010.com
 smartad.10010.com
+unilog.wostore.cn
 
 #akamai
 ads.api.vungle.com
@@ -88,6 +87,9 @@ ad.cyapi.cn
 #dongqiudi
 ap.dongqiudi.com
 sensors-log.dongqiudi.com
+
+#fastly
+taboola.com
 
 #google
 adservice.google.com
