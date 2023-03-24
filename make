@@ -55,5 +55,12 @@ grep '^||' filter_25.txt|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix,/g'|so
 rm -f filter_25.txt
 }
 
+readme () {
+cd $des||exit
+grep -Ecv "^$|#" * >../README
+}
+
 reject_v2fly
 reject_ko_origin
+readme
+

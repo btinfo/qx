@@ -1,14 +1,15 @@
-4    direct+
-20   direct_apple
-52   direct_china
-61   direct_china_origin
-28   direct_pin
-350  proxy
-26   proxy+
-356  proxy_divine
-438  proxy_divine_origin
-126  reject+
-273  reject_ko
-103  reject_me_old
-326  reject_v2fly
-664  reject_v2lfy_all
+direct+:4
+direct_apple:20
+direct_china:52
+direct_china_origin:61
+direct_pin:28
+proxy:350
+proxy+:56
+proxy_divine:356
+proxy_divine_origin:438
+reject+:134
+reject_ko:40
+reject_ko_origin:281
+reject_me_old:103
+reject_v2fly:327
+reject_v2fly_all:664
