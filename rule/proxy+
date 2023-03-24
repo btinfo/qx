@@ -25,15 +25,26 @@ domain,in.appcenter.ms
 domain,mail.cock.li
 domain,m.hotmail.com
 
+#app
 domain-suffix,appraven.net
 domain-suffix,fileball.app
 domain-suffix,photosync-app.com
 domain-suffix,quantumult.app
 domain-suffix,rsshub.app
 domain-suffix,workingcopyapp.com
+
+#media
+domain-suffix,appledaily.com
+domain-suffix,bbc.com
+domain-suffix,nytimes.com
+domain-suffix,nyt.com
+domain-suffix,voachinese.com
 domain-suffix,wikimedia.org
 domain-suffix,wikidata.org
+domain-suffix,wsj.com
+domain-suffix,wsj.net
 
+#asn
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,15169 // 🇺🇸Google LLC
