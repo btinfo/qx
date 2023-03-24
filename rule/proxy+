@@ -19,6 +19,7 @@ domain-suffix,greasyfork.org
 domain-suffix,lencr.org
 domain-suffix,sentry.io
 domain-suffix,microsoftonline.com
+domain-suffix,digitalcertvalidation.com
 
 domain,filebox-douban.vercel.app
 domain,in.appcenter.ms
