@@ -8,6 +8,7 @@ domain-suffix,sg
 domain-suffix,tw
 domain-suffix,uk
 
+#keyword
 domain-keyword,goog
 domain-keyword,.facebook.
 
@@ -15,12 +16,12 @@ domain-keyword,.facebook.
 domain-suffix,amazonaws.com
 domain-suffix,cloudfront.net
 domain-suffix,digicert.com
+domain-suffix,digitalcertvalidation.com
 domain-suffix,greasyfork.org
 domain-suffix,lencr.org
+domain-suffix,microsoftonline.com
 domain-suffix,sectigo.com
 domain-suffix,sentry.io
-domain-suffix,microsoftonline.com
-domain-suffix,digitalcertvalidation.com
 domain-suffix,usertrust.com
 
 domain,filebox-douban.vercel.app
@@ -42,13 +43,13 @@ domain-suffix,appledaily.com
 domain-suffix,bbc.com
 domain-suffix,chosun.com
 domain-suffix,donga.com
-domain-suffix,nytimes.com
 domain-suffix,nyt.com
+domain-suffix,nytimes.com
 domain-suffix,pressian.com
 domain-suffix,voachinese.com
 domain-suffix,voanews.com
-domain-suffix,wikimedia.org
 domain-suffix,wikidata.org
+domain-suffix,wikimedia.org
 domain-suffix,wsj.com
 domain-suffix,wsj.net
 
