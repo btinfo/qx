@@ -23,6 +23,8 @@ domain-suffix,workingcopyapp.com
 domain,filebox-douban.vercel.app
 domain,in.appcenter.ms
 domain,mail.cock.li
+domain,m.hotmail.com
+domain-suffix,microsoftonline.com
 
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
