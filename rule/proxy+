@@ -21,6 +21,7 @@ domain-suffix,sectigo.com
 domain-suffix,sentry.io
 domain-suffix,microsoftonline.com
 domain-suffix,digitalcertvalidation.com
+domain-suffix,usertrust.com
 
 domain,filebox-douban.vercel.app
 domain,in.appcenter.ms
