@@ -52,6 +52,13 @@ domain-suffix,wikidata.org
 domain-suffix,wsj.com
 domain-suffix,wsj.net
 
+#sites
+domain-suffix,bing.com
+domain-suffix,daum.net
+domain-suffix,kakao.com
+domain-suffix,naver.com
+domain-suffix,naver.net
+
 #asn
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
