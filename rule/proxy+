@@ -29,7 +29,10 @@ domain-suffix,appraven.net
 domain-suffix,fileball.app
 domain-suffix,photosync-app.com
 domain-suffix,quantumult.app
+domain-suffix,rsshub.app
 domain-suffix,workingcopyapp.com
+domain-suffix,wikimedia.org
+domain-suffix,wikidata.org
 
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
