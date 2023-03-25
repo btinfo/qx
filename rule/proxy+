@@ -29,6 +29,7 @@ domain,filebox-douban.vercel.app
 domain,in.appcenter.ms
 domain,mail.cock.li
 domain,m.hotmail.com
+domain,bgp.he.net
 
 #app
 domain-suffix,appraven.net
@@ -57,11 +58,15 @@ domain-suffix,wsj.com
 domain-suffix,wsj.net
 
 #sites
+domain-suffix,1lib.at
 domain-suffix,bing.com
+domain-suffix,chinadigitaltimes.net
 domain-suffix,daum.net
+domain-suffix.dw.com
 domain-suffix,kakao.com
 domain-suffix,naver.com
 domain-suffix,naver.net
+domain-suffix,transfermarkt.com
 
 #asn
 #ip-asn,714 // 🇺🇸Apple Inc.
