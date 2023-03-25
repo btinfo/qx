@@ -57,7 +57,7 @@ rm -f filter_25.txt
 
 readme () {
 cd $des||exit
-grep -Ecv --exclude-dir=src "^$|#" * >../README
+grep -Ecv --exclude-dir=src "^$|#" *|awk -F: '{print $2,$1}'|column -t >../README
 }
 
 reject_v2fly

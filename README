@@ -1,13 +1,13 @@
-direct+:5
-direct_apple:20
-direct_pin:28
-github:6
-instagram:4
-proxy+:68
-reject+:140
-reject_ko:45
-spotify:7
-telegram:16
-tidal:3
-twitter:12
-youtube:14
+5    direct+
+20   direct_apple
+28   direct_pin
+6    github
+4    instagram
+68   proxy+
+140  reject+
+45   reject_ko
+7    spotify
+16   telegram
+3    tidal
+12   twitter
+14   youtube
