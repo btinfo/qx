@@ -70,6 +70,7 @@ ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,13414 // 🇺🇸Twitter Inc.
 ip-asn,15169 // 🇺🇸Google LLC
 ip-asn,16509 // 🇺🇸Amazon.com, Inc.
+ip-asn,19679 // 🇺🇸Dropbox, Inc.
 ip-asn,20940 // 🇳🇱Akamai International B.V.
 ip-asn,32934 // 🇺🇸Facebook, Inc.
 ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
@@ -87,7 +88,6 @@ ip-asn,396982 // 🇺🇸Google LLC
 #ip-asn,15133 // 🇺🇸EdgeCast Networks Inc.
 #ip-asn,16276 // 🇫🇷OVH SAS
 #ip-asn,16625 // 🇺🇸Akamai Technologies, Inc.
-#ip-asn,19679 // 🇺🇸Dropbox, Inc.
 #ip-asn,24940 // 🇩🇪Hetzner Online GmbH
 #ip-asn,29423 // 🇩🇪gridscale GmbH
 #ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc. //gdb.voanews.com
