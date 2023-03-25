@@ -3,3 +3,5 @@ domain,api.revenuecat.com
 ip-cidr,202.61.255.248/24
 ip-asn,132203 // Tencent Building, Kejizhongyi Avenue
 ip-asn,133865 // Beijing IQIYI Science & Technology Co., Ltd.
+
+geoip,cn
