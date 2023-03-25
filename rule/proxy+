@@ -61,6 +61,7 @@ domain-suffix,naver.com
 domain-suffix,naver.net
 
 #asn
+ip-asn,714 // 🇺🇸Apple Inc.
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,15169 // 🇺🇸Google LLC
@@ -70,7 +71,6 @@ ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
 ip-asn,396982 // 🇺🇸Google LLC
 
 #ip-asn
-#ip-asn,714 // 🇺🇸Apple Inc.
 #ip-asn,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
 #ip-asn,3462 // 🇼🇸Data Communication Business Group
 #ip-asn,4230 // 🇧🇷CLARO S.A.
