@@ -14,6 +14,7 @@ domain-keyword,.facebook.
 
 #domain
 domain-suffix,amazonaws.com
+domain-suffix,amazontrust.com
 domain-suffix,cloudfront.net
 domain-suffix,digicert.com
 domain-suffix,digitalcertvalidation.com
