@@ -9,7 +9,7 @@ domain-suffix,tw
 domain-suffix,uk
 
 #keyword
-domain-keyword,goog
+domain-keyword,google
 domain-keyword,.facebook.
 
 #domain
@@ -18,6 +18,7 @@ domain-suffix,amazontrust.com
 domain-suffix,cloudfront.net
 domain-suffix,digicert.com
 domain-suffix,digitalcertvalidation.com
+domain-suffix,goog
 domain-suffix,greasyfork.org
 domain-suffix,lencr.org
 domain-suffix,microsoftonline.com
