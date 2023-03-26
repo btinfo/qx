@@ -1,116 +1,115 @@
 #country
-domain-suffix,de
-domain-suffix,eu
-domain-suffix,hk
-domain-suffix,jp
-domain-suffix,kr
-domain-suffix,sg
-domain-suffix,tw
-domain-suffix,uk
+DOMAIN-SUFFIX,de
+DOMAIN-SUFFIX,eu
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,uk
 
-#keyword
-domain-keyword,google
-domain-keyword,.facebook.
+#DOMAIN
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,digitalcertvalidation.com
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,sectigo.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,usertrust.com
 
-#domain
-domain-suffix,amazonaws.com
-domain-suffix,amazontrust.com
-domain-suffix,cloudfront.net
-domain-suffix,digicert.com
-domain-suffix,digitalcertvalidation.com
-domain-suffix,goog
-domain-suffix,greasyfork.org
-domain-suffix,lencr.org
-domain-suffix,microsoftonline.com
-domain-suffix,sectigo.com
-domain-suffix,sentry.io
-domain-suffix,usertrust.com
-
-domain,bgp.he.net
-domain,filebox-douban.vercel.app
-domain,in.appcenter.ms
-domain,itunes.com
-domain,mail.cock.li
-domain,m.hotmail.com
-
-#app
-domain-suffix,appraven.net
-domain-suffix,fileball.app
-domain-suffix,photosync-app.com
-domain-suffix,quantumult.app
-domain-suffix,rsshub.app
-domain-suffix,workingcopyapp.com
-
-#media
-domain-suffix,aljazeera.net
-domain-suffix,appledaily.com
-domain-suffix,bbc.com
-domain-suffix,chosun.com
-domain-suffix,donga.com
-domain-suffix.dw.com
-domain-suffix,hankookilbo.com
-domain-suffix,nyt.com
-domain-suffix,nytimes.com
-domain-suffix,pressian.com
-domain-suffix,voachinese.com
-domain-suffix,voanews.com
-domain-suffix,wikidata.org
-domain-suffix,wikimedia.org
-domain-suffix,wikipedia.org
-domain-suffix,wsj.com
-domain-suffix,wsj.net
+DOMAIN,bgp.he.net
+DOMAIN,filebox-douban.vercel.app
+DOMAIN,in.appcenter.ms
+DOMAIN,itunes.com
+DOMAIN,mail.cock.li
+DOMAIN,m.hotmail.com
 
 #sites
-domain-suffix,1lib.at
-domain-suffix,bing.com
-domain-suffix,chinadigitaltimes.net
-domain-suffix,daum.net
-domain-suffix,kakao.com
-domain-suffix,naver.com
-domain-suffix,naver.net
-domain-suffix,transfermarkt.com
+DOMAIN-SUFFIX,1lib.at
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,chinadigitaltimes.net
+DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,naver.net
+DOMAIN-SUFFIX,transfermarkt.com
+
+#app
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,fileball.app
+DOMAIN-SUFFIX,photosync-app.com
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,workingcopyapp.com
+
+#media
+DOMAIN-SUFFIX,aljazeera.net
+DOMAIN-SUFFIX,appledaily.com
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,chosun.com
+DOMAIN-SUFFIX,donga.com
+DOMAIN-SUFFIX.dw.com
+DOMAIN-SUFFIX,hankookilbo.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,pressian.com
+DOMAIN-SUFFIX,voachinese.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
+
+#keyword
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,.facebook.
 
 #asn
-ip-asn,8075 // 🇺🇸Microsoft Corporation
-ip-asn,13335 // 🇺🇸Cloudflare, Inc.
-ip-asn,13414 // 🇺🇸Twitter Inc.
-ip-asn,15169 // 🇺🇸Google LLC
-ip-asn,16509 // 🇺🇸Amazon.com, Inc.
-ip-asn,16625 // 🇺🇸Akamai Technologies, Inc.
-ip-asn,19679 // 🇺🇸Dropbox, Inc.
-ip-asn,20940 // 🇳🇱Akamai International B.V.
-ip-asn,23576 // 🇰🇷NAVER Cloud Corp.
-ip-asn,32934 // 🇺🇸Facebook, Inc.
-ip-asn,54113 // 🇺🇸Fastly, Inc.
-ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
-ip-asn,396982 // 🇺🇸Google LLC
+IP-ASN,8075 // 🇺🇸Microsoft Corporation
+IP-ASN,13335 // 🇺🇸Cloudflare, Inc.
+IP-ASN,13414 // 🇺🇸Twitter Inc.
+IP-ASN,15169 // 🇺🇸Google LLC
+IP-ASN,16509 // 🇺🇸Amazon.com, Inc.
+IP-ASN,16625 // 🇺🇸Akamai Technologies, Inc.
+IP-ASN,19679 // 🇺🇸Dropbox, Inc.
+IP-ASN,20940 // 🇳🇱Akamai International B.V.
+IP-ASN,23576 // 🇰🇷NAVER Cloud Corp.
+IP-ASN,32934 // 🇺🇸Facebook, Inc.
+IP-ASN,54113 // 🇺🇸Fastly, Inc.
+IP-ASN,136907 // 🇭🇰HUAWEI CLOUDS
+IP-ASN,396982 // 🇺🇸Google LLC
 
-#ip-asn
-#ip-asn,714 // 🇺🇸Apple Inc.
-#ip-asn,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
-#ip-asn,3462 // 🇼🇸Data Communication Business Group
-#ip-asn,4230 // 🇧🇷CLARO S.A.
-#ip-asn,8068 // 🇺🇸Microsoft Corporation
-#ip-asn,9009 // 🇷🇴M247 Europe SRL //mail.cock.li
-#ip-asn,13333 // 🇺🇸Consolidated Communications, Inc.
-#ip-asn,14061 // 🇺🇸DigitalOcean, LLC
-#ip-asn,14618 // 🇺🇸Amazon.com, Inc.
-#ip-asn,15133 // 🇺🇸EdgeCast Networks Inc.
-#ip-asn,16276 // 🇫🇷OVH SAS
-#ip-asn,24940 // 🇩🇪Hetzner Online GmbH
-#ip-asn,29423 // 🇩🇪gridscale GmbH
-#ip-asn,36351 // 🇺🇸SoftLayer Technologies Inc. //gdb.voanews.com
-#ip-asn,38099 // 🇰🇷Kakao Corp
-#ip-asn,40065 // 🇺🇸CNSERVERS LLC
-#ip-asn,48447 // 🇬🇧Sectigo Limited
-#ip-asn,49453 // 🇳🇱Global Layer B.V.
-#ip-asn,54600 // 🇺🇸PEG TECH INC
-#ip-asn,54994 // 🇺🇸QUANTIL NETWORKS INC
-#ip-asn,58722 // 🇸🇬51 JALAN LANJUT
-#ip-asn,59507 // 🇩🇪terralink networks GmbH
-#ip-asn,60068 // 🇬🇧Datacamp Limited //p.lngtdv.com
-#ip-asn,63949 // 🇸🇬Akamai Connected Cloud
-#ip-asn,64050 // 🇸🇬BGPNET Global ASN
-#ip-asn,142403 // 🇭🇰YISU CLOUD LTD
-#ip-asn,197019 // 🇨🇿WEDOS Internet, a.s. //appraven.net
-#ip-asn,200019 // 🇲🇩ALEXHOST SRL //zlib
+#IP-ASN,714 // 🇺🇸Apple Inc.
+#IP-ASN,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
+#IP-ASN,3462 // 🇼🇸Data Communication Business Group
+#IP-ASN,4230 // 🇧🇷CLARO S.A.
+#IP-ASN,8068 // 🇺🇸Microsoft Corporation
+#IP-ASN,9009 // 🇷🇴M247 Europe SRL //mail.cock.li
+#IP-ASN,13333 // 🇺🇸Consolidated Communications, Inc.
+#IP-ASN,14061 // 🇺🇸DigitalOcean, LLC
+#IP-ASN,14618 // 🇺🇸Amazon.com, Inc.
+#IP-ASN,15133 // 🇺🇸EdgeCast Networks Inc.
+#IP-ASN,16276 // 🇫🇷OVH SAS
+#IP-ASN,24940 // 🇩🇪Hetzner Online GmbH
+#IP-ASN,29423 // 🇩🇪gridscale GmbH
+#IP-ASN,36351 // 🇺🇸SoftLayer Technologies Inc. //gdb.voanews.com
+#IP-ASN,38099 // 🇰🇷Kakao Corp
+#IP-ASN,40065 // 🇺🇸CNSERVERS LLC
+#IP-ASN,48447 // 🇬🇧Sectigo Limited
+#IP-ASN,49453 // 🇳🇱Global Layer B.V.
+#IP-ASN,54600 // 🇺🇸PEG TECH INC
+#IP-ASN,54994 // 🇺🇸QUANTIL NETWORKS INC
+#IP-ASN,58722 // 🇸🇬51 JALAN LANJUT
+#IP-ASN,59507 // 🇩🇪terralink networks GmbH
+#IP-ASN,60068 // 🇬🇧Datacamp Limited //p.lngtdv.com
+#IP-ASN,63949 // 🇸🇬Akamai Connected Cloud
+#IP-ASN,64050 // 🇸🇬BGPNET Global ASN
+#IP-ASN,142403 // 🇭🇰YISU CLOUD LTD
+#IP-ASN,197019 // 🇨🇿WEDOS Internet, a.s. //appraven.net
+#IP-ASN,200019 // 🇲🇩ALEXHOST SRL //zlib
