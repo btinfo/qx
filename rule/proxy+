@@ -26,12 +26,12 @@ domain-suffix,sectigo.com
 domain-suffix,sentry.io
 domain-suffix,usertrust.com
 
-domain,itunes.com
+domain,bgp.he.net
 domain,filebox-douban.vercel.app
 domain,in.appcenter.ms
+domain,itunes.com
 domain,mail.cock.li
 domain,m.hotmail.com
-domain,bgp.he.net
 
 #app
 domain-suffix,appraven.net
@@ -47,6 +47,7 @@ domain-suffix,appledaily.com
 domain-suffix,bbc.com
 domain-suffix,chosun.com
 domain-suffix,donga.com
+domain-suffix.dw.com
 domain-suffix,hankookilbo.com
 domain-suffix,nyt.com
 domain-suffix,nytimes.com
@@ -64,14 +65,12 @@ domain-suffix,1lib.at
 domain-suffix,bing.com
 domain-suffix,chinadigitaltimes.net
 domain-suffix,daum.net
-domain-suffix.dw.com
 domain-suffix,kakao.com
 domain-suffix,naver.com
 domain-suffix,naver.net
 domain-suffix,transfermarkt.com
 
 #asn
-#ip-asn,714 // 🇺🇸Apple Inc.
 ip-asn,8075 // 🇺🇸Microsoft Corporation
 ip-asn,13335 // 🇺🇸Cloudflare, Inc.
 ip-asn,13414 // 🇺🇸Twitter Inc.
@@ -87,6 +86,7 @@ ip-asn,136907 // 🇭🇰HUAWEI CLOUDS
 ip-asn,396982 // 🇺🇸Google LLC
 
 #ip-asn
+#ip-asn,714 // 🇺🇸Apple Inc.
 #ip-asn,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
 #ip-asn,3462 // 🇼🇸Data Communication Business Group
 #ip-asn,4230 // 🇧🇷CLARO S.A.
