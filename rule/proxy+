@@ -36,6 +36,13 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,youtube
 
+#apps
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,fileball.app
+DOMAIN-SUFFIX,photosync-app.com
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,rsshub.app
+
 #country
 DOMAIN-SUFFIX,de
 DOMAIN-SUFFIX,eu
@@ -75,13 +82,6 @@ DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.net
 DOMAIN-SUFFIX,transfermarkt.com
-
-#app
-DOMAIN-SUFFIX,appraven.net
-DOMAIN-SUFFIX,fileball.app
-DOMAIN-SUFFIX,photosync-app.com
-DOMAIN-SUFFIX,quantumult.app
-DOMAIN-SUFFIX,rsshub.app
 
 #media
 DOMAIN-SUFFIX,aljazeera.net
