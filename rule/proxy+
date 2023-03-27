@@ -70,7 +70,7 @@ DOMAIN-SUFFIX,usertrust.com
 DOMAIN,bgp.he.net
 DOMAIN,filebox-douban.vercel.app
 DOMAIN,in.appcenter.ms
-DOMAIN,itunes.com
+#DOMAIN,itunes.com
 DOMAIN,mail.cock.li
 DOMAIN,m.hotmail.com
 
