@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,usertrust.com
 
 DOMAIN,bgp.he.net
+DOMAIN,graph.facebook.com
 DOMAIN,filebox-douban.vercel.app
 DOMAIN,in.appcenter.ms
 DOMAIN,itunes.com
@@ -68,7 +69,7 @@ DOMAIN-SUFFIX,wsj.net
 
 #keyword
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,.facebook.
+#DOMAIN-KEYWORD,.facebook.
 
 #asn
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
