@@ -3,40 +3,10 @@ DOMAIN,testflight.apple.com
 #DOMAIN,gateway.icloud.com
 #DOMAIN,itunes.com
 
-#spotify
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
-DOMAIN-KEYWORD,spotify
-
-#tidal
-DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
-DOMAIN-SUFFIX,tidal.com
-DOMAIN-SUFFIX,tidalhifi.com
-
 #wikipedia
 DOMAIN-SUFFIX,wikidata.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
-
-#youtube
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-KEYWORD,youtube
 
 #apps
 DOMAIN-SUFFIX,appraven.net
@@ -44,6 +14,7 @@ DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,photosync-app.com
 DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,workingcopyapp.com
 
 #country
 DOMAIN-SUFFIX,de
@@ -90,7 +61,7 @@ DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,chosun.com
 DOMAIN-SUFFIX,donga.com
-DOMAIN-SUFFIX.dw.com
+DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,hankookilbo.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytimes.com
