@@ -1,6 +1,7 @@
 #apple
-DOMAIN,gateway.icloud.com
 DOMAIN,testflight.apple.com
+#DOMAIN,gateway.icloud.com
+#DOMAIN,itunes.com
 
 #spotify
 DOMAIN-SUFFIX,pscdn.co
@@ -70,7 +71,6 @@ DOMAIN-SUFFIX,usertrust.com
 DOMAIN,bgp.he.net
 DOMAIN,filebox-douban.vercel.app
 DOMAIN,in.appcenter.ms
-#DOMAIN,itunes.com
 DOMAIN,mail.cock.li
 DOMAIN,m.hotmail.com
 
