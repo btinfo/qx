@@ -12,6 +12,11 @@ DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
 
+#wikipedia
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+
 #youtube
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
@@ -88,9 +93,6 @@ DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,pressian.com
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,voanews.com
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 
