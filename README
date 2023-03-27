@@ -1,12 +1,11 @@
 4    direct+
 20   direct_apple
-7    direct_lan
+6    direct_lan
 28   direct_pin
 6    github
-4    instagram
-3    openai
-72   proxy+
-142  reject+
+6    instagram
+69   proxy+
+140  reject+
 44   reject_ko
 7    spotify
 16   telegram
