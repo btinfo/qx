@@ -29,7 +29,7 @@ HOST-SUFFIX,usertrust.com
 
 HOST,bgp.he.net
 HOST,filebox-douban.vercel.app
-HOST,in.appcenter.ms
+#HOST,in.appcenter.ms
 HOST,mail.cock.li
 HOST,m.hotmail.com
 
