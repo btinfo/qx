@@ -1,53 +1,60 @@
-HOST-SUFFIX,crashlytics.com
-HOST-SUFFIX,dm.toutiao.com
+HOST,beacon-api.aliyuncs.com
+HOST,log1.cmpassport.com
+HOST,log2.cmpassport.com
+HOST,logs.manmeng168.com
+HOST,msg.qy.net
 HOST-SUFFIX,ecombdapi.com
-HOST-SUFFIX,getui.com
 HOST-SUFFIX,growingio.com
-HOST-SUFFIX,krxd.net
-HOST-SUFFIX,mdt.qq.com
 HOST-SUFFIX,openinstall.io
-HOST-SUFFIX,probe.twitter.com
 HOST-SUFFIX,qchannel01.cn
 HOST-SUFFIX,qchannel03.cn
-HOST-SUFFIX,scorecardresearch.com
-HOST-SUFFIX,testplus.cn
-HOST-SUFFIX,vungle.com
 HOST-SUFFIX,xdrig.com
 
-HOST,beacon-api.aliyuncs.com
+HOST,mercury-sdk.snssdk.com
+HOST,mon.toutiao.com
+HOST,mssdk.snssdk.com
+HOST,polaris.zijieapi.com
+HOST,tnc3-aliec2.zijieapi.com
+HOST,tnc3-alisc1.zijieapi.com
+HOST-SUFFIX,dm.toutiao.com
+
 HOST,bgg.baidu.com
+HOST,mbd.baidu.com
+HOST,sofire.baidu.com
+HOST,wkctj.baidu.com
+
+HOST,janapi.jd.com
+HOST,xlog.jd.com
+
+HOST,lkme.cc
+HOST,mazu.m.qq.com
+HOST-SUFFIX,mdt.qq.com
+
+HOST,honeycomb.wpscdn.cn
+HOST,momsg.wps.cn
+HOST-SUFFIX,testplus.cn
+
 HOST,cdn.exp.xiaomi.com
-HOST,device-provisioning.googleapis.com
+HOST,tracking.miui.com
+
+HOST-SUFFIX,crashlytics.com //google
+HOST-SUFFIX,getui.com
+HOST-SUFFIX,krxd.net
+HOST-SUFFIX,probe.twitter.com //twitter
+HOST-SUFFIX,scorecardresearch.com //amazon
+HOST-SUFFIX,vungle.com //akam
+HOST,midas.yangshipin.cn
+HOST,pushservice.10010.com //10010
+HOST,rp.hpplay.cn
+HOST,upload-up.qtfm.cn //qtfm
+
 #dsp-x.jd.com
 #firebaseinstallations.googleapis.com
 #firebaselogging-pa.googleapis.com
 #firebaseremoteconfig.googleapis.com
+#device-provisioning.googleapis.com
 #g.koowo.com
-HOST,honeycomb.wpscdn.cn
-HOST,janapi.jd.com
-HOST,lkme.cc
-HOST,log1.cmpassport.com
-HOST,log2.cmpassport.com
-HOST,logs.manmeng168.com
-HOST,mazu.m.qq.com
-HOST,mbd.baidu.com
-HOST,mercury-sdk.snssdk.com
-HOST,midas.yangshipin.cn
-HOST,momsg.wps.cn
-HOST,mon.toutiao.com
-HOST,msg.qy.net
-HOST,mssdk.snssdk.com
-HOST,polaris.zijieapi.com
-HOST,pushservice.10010.com
 #rich.kuwo.cn
-HOST,rp.hpplay.cn
-HOST,sofire.baidu.com
-HOST,tnc3-aliec2.zijieapi.com
-HOST,tnc3-alisc1.zijieapi.com
-HOST,tracking.miui.com
-HOST,upload-up.qtfm.cn
-HOST,wkctj.baidu.com
-HOST,xlog.jd.com
 
 #undefine
 HOST,g.3gl.net
