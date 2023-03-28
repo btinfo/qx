@@ -1,6 +1,6 @@
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-KEYWORD,instagram
+HOST-SUFFIX,cdninstagram.com
+HOST-SUFFIX,instagr.am
+HOST-SUFFIX,instagram.com
+HOST-SUFFIX,fbcdn.net
+HOST-SUFFIX,fbsbx.com
+HOST-KEYWORD,instagram

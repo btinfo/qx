@@ -1,3 +1,3 @@
-DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
-DOMAIN-SUFFIX,tidal.com
-DOMAIN-SUFFIX,tidalhifi.com
+HOST-SUFFIX,tidal-cms.s3.amazonaws.com
+HOST-SUFFIX,tidal.com
+HOST-SUFFIX,tidalhifi.com
