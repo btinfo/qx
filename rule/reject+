@@ -1,3 +1,19 @@
+HOST-SUFFIX,crashlytics.com
+HOST-SUFFIX,dm.toutiao.com
+HOST-SUFFIX,ecombdapi.com
+HOST-SUFFIX,getui.com
+HOST-SUFFIX,growingio.com
+HOST-SUFFIX,krxd.net
+HOST-SUFFIX,mdt.qq.com
+HOST-SUFFIX,openinstall.io
+HOST-SUFFIX,probe.twitter.com
+HOST-SUFFIX,qchannel01.cn
+HOST-SUFFIX,qchannel03.cn
+HOST-SUFFIX,scorecardresearch.com
+HOST-SUFFIX,testplus.cn
+HOST-SUFFIX,vungle.com
+HOST-SUFFIX,xdrig.com
+
 #undefine
 HOST,g.3gl.net
 HOST-SUFFIX,yadro.ru
@@ -13,7 +29,7 @@ HOST,smartad.10010.com
 HOST,unilog.wostore.cn
 
 #akamai
-HOST,ads.api.vungle.com
+#HOST,ads.api.vungle.com
 HOST-SUFFIX,go-mpulse.net
 
 #alibaba
@@ -23,7 +39,7 @@ HOST,amdc.m.taobao.com
 HOST,h-adashx.ut.taobao.com
 
 HOST,applog.uc.cn
-HOST,assets.growingio.com
+#HOST,assets.growingio.com
 HOST,px.ucweb.com
 HOST-SUFFIX,adkwai.com
 HOST-SUFFIX,anythinktech.com
@@ -44,9 +60,9 @@ HOST,amap-aos-info-nogw.amap.com
 HOST,awaken.amap.com
 
 #amazon
-HOST,adt.xdrig.com
-HOST,me.xdrig.com
-HOST,beacon.krxd.net
+#HOST,adt.xdrig.com
+#HOST,me.xdrig.com
+#HOST,beacon.krxd.net
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,amazon-adsystem.com
 HOST-SUFFIX,appsflyer-cn.com
@@ -183,7 +199,8 @@ HOST-SUFFIX,l.qq.com
 HOST-SUFFIX,tingyun.com
 
 #tidal
-HOST,sdk.iad-03.braze.com
+#HOST,sdk.iad-03.braze.com
+HOST-SUFFIX,braze.com
 
 #transM
 HOST-SUFFIX,akamaihd.net
