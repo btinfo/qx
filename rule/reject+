@@ -14,7 +14,7 @@ HOST,unilog.wostore.cn
 
 #akamai
 HOST,ads.api.vungle.com
-HOST,go-mpulse.net
+HOST-SUFFIX,go-mpulse.net
 
 #alibaba
 HOST,adash-emas.cn-hangzhou.aliyuncs.com
