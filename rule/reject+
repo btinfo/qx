@@ -22,14 +22,14 @@ HOST,adashx.m.taobao.com
 HOST,amdc.m.taobao.com
 HOST,h-adashx.ut.taobao.com
 
+HOST,applog.uc.cn
+HOST,assets.growingio.com
+HOST,px.ucweb.com
 HOST-SUFFIX,adkwai.com
 HOST-SUFFIX,anythinktech.com
-HOST-SUFFIX,applog.uc.cn
-HOST-SUFFIX,assets.growingio.com
 HOST-SUFFIX,dutils.com
 HOST-SUFFIX,inmobi.cn
 HOST-SUFFIX,mob.com
-HOST-SUFFIX,px.ucweb.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,tianmu.mobi
 
@@ -80,8 +80,8 @@ HOST,zz.bdstatic.com
 
 #bilibili
 HOST,api.sobot.com
-HOST-SUFFIX,biligame.com
 HOST,up-hl.3g.qq.com
+HOST-SUFFIX,biligame.com
 
 #bytedance
 HOST,dig.bdurl.net
