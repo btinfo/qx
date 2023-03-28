@@ -35,17 +35,7 @@ DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,workingcopyapp.com
 
-#country
-DOMAIN-SUFFIX,de
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-
-#DOMAIN
+#domains
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -93,6 +83,16 @@ DOMAIN-SUFFIX,wsj.net
 #keyword
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.facebook.
+
+#country
+DOMAIN-SUFFIX,de
+DOMAIN-SUFFIX,eu
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,uk
 
 #asn
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
