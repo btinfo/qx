@@ -169,6 +169,7 @@ HOST,h.trace.qq.com
 HOST,ios.bugly.qq.com
 HOST,mtrace.qq.com
 HOST,otheve.beacon.qq.com
+HOST,pgdt.gtimg.cn
 HOST,pingma.qq.com
 HOST,qzs.gdtimg.com
 HOST,safebrowsing.urlsec.qq.com
@@ -176,7 +177,6 @@ HOST,static.yky.qq.com
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,pgdt.gtimg.cn
 HOST-SUFFIX,tingyun.com
 
 #tidal
