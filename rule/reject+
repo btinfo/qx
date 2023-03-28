@@ -147,6 +147,9 @@ HOST,gdfp.gifshow.com
 #kuwo
 HOST,splashimgbssdl.yun.kugou.com
 
+#ms
+HOST-SUFFIX,appcenter.ms
+
 #netease
 HOST,gorgon.youdao.com
 HOST,nex.163.com
@@ -205,3 +208,6 @@ HOST,gallery.fbcontent.cn
 HOST,leo-online.fbcontent.cn
 HOST,leo.fbcontent.cn
 HOST,oapi.yuanfudao.com
+
+#小米
+HOST-SUFFIX,ad.xiaomi.com
