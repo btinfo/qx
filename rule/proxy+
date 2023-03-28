@@ -7,12 +7,12 @@ DOMAIN,lookup-api.apple.com // Look Up
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
-# apple Web Preview
+#apple Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
-# > apple News
+#apple News
 DOMAIN,gateway.icloud.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN,news-assets.apple.com
@@ -109,6 +109,7 @@ IP-ASN,54113 // 🇺🇸Fastly, Inc.
 IP-ASN,136907 // 🇭🇰HUAWEI CLOUDS
 IP-ASN,396982 // 🇺🇸Google LLC
 
+#asn backup
 #IP-ASN,714 // 🇺🇸Apple Inc.
 #IP-ASN,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
 #IP-ASN,3462 // 🇼🇸Data Communication Business Group
