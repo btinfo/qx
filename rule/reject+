@@ -1,3 +1,4 @@
+#TEST=======================
 HOST,beacon-api.aliyuncs.com
 HOST,log1.cmpassport.com
 HOST,log2.cmpassport.com
@@ -43,7 +44,7 @@ HOST-SUFFIX,krxd.net
 HOST-SUFFIX,probe.twitter.com //twitter
 HOST-SUFFIX,scorecardresearch.com //amazon
 HOST-SUFFIX,vungle.com //akam
-HOST,midas.yangshipin.cn
+HOST,midas.yangshipin.cn //ysp
 HOST,pushservice.10010.com //10010
 HOST,rp.hpplay.cn
 HOST,upload-up.qtfm.cn //qtfm
@@ -55,6 +56,7 @@ HOST,upload-up.qtfm.cn //qtfm
 #device-provisioning.googleapis.com
 #g.koowo.com
 #rich.kuwo.cn
+#TEST=======================
 
 #undefine
 HOST,g.3gl.net
