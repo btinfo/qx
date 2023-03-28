@@ -1,7 +1,7 @@
 #apple
 DOMAIN,testflight.apple.com
 #DOMAIN,gateway.icloud.com
-#DOMAIN,itunes.com
+DOMAIN,itunes.com
 
 #wikipedia
 DOMAIN-SUFFIX,wikidata.org
@@ -30,8 +30,8 @@ DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,cloudfront.net
-#DOMAIN-SUFFIX,digicert.com
-#DOMAIN-SUFFIX,digitalcertvalidation.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,digitalcertvalidation.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,microsoftonline.com
