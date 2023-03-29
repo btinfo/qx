@@ -1,6 +1,8 @@
 HOST,api.revenuecat.com
+HOST-SUFFIX,ppsimg.com //iQiyi
 HOST-SUFFIX,cn
 IP-CIDR,202.61.255.248/32
+
 #IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
 #IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
 
