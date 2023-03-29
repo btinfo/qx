@@ -1,10 +1,10 @@
 #apple
 HOST,testflight.apple.com
-HOST,configuration.ls.apple.com
-HOST,32-courier.push.apple.com
 HOST,metrics.icloud.com
-HOST,sandbox.itunes.apple.com
 HOST,gateway.icloud.com
+HOST-SUFFIX,ls.apple.com
+HOST-SUFFIX,push.apple.com
+HOST-SUFFIX,itunes.apple.com
 
 #wikipedia
 HOST-SUFFIX,wikidata.org
