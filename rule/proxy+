@@ -4,6 +4,7 @@ HOST,configuration.ls.apple.com
 HOST,32-courier.push.apple.com
 HOST,metrics.icloud.com
 HOST,sandbox.itunes.apple.com
+HOST,gateway.icloud.com
 
 #wikipedia
 HOST-SUFFIX,wikidata.org
