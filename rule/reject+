@@ -2,7 +2,7 @@ HOST-SUFFIX,id5-sync.com
 #TEST=======================
 HOST,beacon-api.aliyuncs.com
 HOST,msg.qy.net
-HOST-SUFFIX,ecombdapi.com
+#HOST-SUFFIX,ecombdapi.com
 HOST-SUFFIX,growingio.com
 HOST-SUFFIX,openinstall.io
 HOST-SUFFIX,qchannel01.cn
@@ -12,10 +12,10 @@ HOST-SUFFIX,xdrig.com
 HOST,mercury-sdk.snssdk.com
 HOST,mon.toutiao.com
 HOST,mssdk.snssdk.com
-HOST,polaris.zijieapi.com
-HOST,tnc3-aliec2.zijieapi.com
-HOST,tnc3-alisc1.zijieapi.com
-HOST-SUFFIX,dm.toutiao.com
+#HOST,polaris.zijieapi.com
+#HOST,tnc3-aliec2.zijieapi.com
+#HOST,tnc3-alisc1.zijieapi.com
+#HOST-SUFFIX,dm.toutiao.com
 
 HOST,bgg.baidu.com
 HOST,mbd.baidu.com
