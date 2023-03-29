@@ -1,6 +1,14 @@
 #apple
+HOST,configuration.ls.apple.com
+HOST,gateway.icloud.com
+HOST,gsp-ssl.ls.apple.com
+HOST,metrics.icloud.com
 HOST,testflight.apple.com
-HOST-SUFFIX,digicert.com
+HOST-SUFFIX,push.apple.com
+#apple-related
+HOST,ocsp.digicert.com
+HOST,pki.goog
+HOST,r3.o.lencr.org
 
 #wikipedia
 HOST-SUFFIX,wikidata.org
@@ -21,7 +29,7 @@ HOST-SUFFIX,amazontrust.com
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,digitalcertvalidation.com
 HOST-SUFFIX,greasyfork.org
-HOST-SUFFIX,lencr.org
+#HOST-SUFFIX,lencr.org
 HOST-SUFFIX,microsoftonline.com
 HOST-SUFFIX,sectigo.com
 HOST-SUFFIX,sentry.io
