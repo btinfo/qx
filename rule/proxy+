@@ -1,5 +1,5 @@
 #apple
-HOST,testflight.apple.com
+#HOST,testflight.apple.com
 
 #wikipedia
 HOST-SUFFIX,wikidata.org
@@ -74,6 +74,7 @@ HOST-SUFFIX,tw
 HOST-SUFFIX,uk
 
 #asn
+IP-ASN,714 // 🇺🇸Apple Inc.
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
 IP-ASN,13335 // 🇺🇸Cloudflare, Inc.
 IP-ASN,13414 // 🇺🇸Twitter Inc.
@@ -89,7 +90,6 @@ IP-ASN,136907 // 🇭🇰HUAWEI CLOUDS
 IP-ASN,396982 // 🇺🇸Google LLC
 
 #asn backup
-#IP-ASN,714 // 🇺🇸Apple Inc.
 #IP-ASN,2914 // 🇺🇸NTT America, Inc. //filebox-douban.vercel.app
 #IP-ASN,3462 // 🇼🇸Data Communication Business Group
 #IP-ASN,4230 // 🇧🇷CLARO S.A.
