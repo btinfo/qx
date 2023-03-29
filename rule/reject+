@@ -1,62 +1,46 @@
-HOST-SUFFIX,id5-sync.com
-#TEST=======================
-HOST,beacon-api.aliyuncs.com
-HOST,msg.qy.net
-#HOST-SUFFIX,ecombdapi.com
-#HOST-SUFFIX,growingio.com
-#HOST-SUFFIX,openinstall.io
-#HOST-SUFFIX,qchannel01.cn
-#HOST-SUFFIX,qchannel03.cn
-HOST-SUFFIX,xdrig.com
-
-HOST,mercury-sdk.snssdk.com
-HOST,mon.toutiao.com
-HOST,mssdk.snssdk.com
-#HOST,polaris.zijieapi.com
-#HOST,tnc3-aliec2.zijieapi.com
-#HOST,tnc3-alisc1.zijieapi.com
-#HOST-SUFFIX,dm.toutiao.com
-
-HOST,bgg.baidu.com
-HOST,mbd.baidu.com
-HOST,sofire.baidu.com
-HOST,wkctj.baidu.com
-
-HOST,janapi.jd.com
-HOST,xlog.jd.com
-
-HOST,lkme.cc
-HOST,mazu.m.qq.com
-HOST-SUFFIX,mdt.qq.com
-
-HOST,honeycomb.wpscdn.cn
-HOST,momsg.wps.cn
-HOST-SUFFIX,testplus.cn
-
-HOST,cdn.exp.xiaomi.com
-HOST,tracking.miui.com
-
+#general
+HOST-SUFFIX,addtoany.com
+HOST-SUFFIX,adkwai.com
+HOST-SUFFIX,akamaihd.net //tm
+HOST-SUFFIX,anythinktech.com
+HOST-SUFFIX,appcenter.ms
+HOST-SUFFIX,applovin.com
+HOST-SUFFIX,applvn.com
+HOST-SUFFIX,app-measurement.com //google
+HOST-SUFFIX,appsflyer-cn.com
+HOST-SUFFIX,appsflyer.com
+HOST-SUFFIX,arcpublishing.com
+HOST-SUFFIX,boltdns.net //tm
+HOST-SUFFIX,chartbeat.com
+HOST-SUFFIX,chartbeat.net
 HOST-SUFFIX,crashlytics.com //google
+HOST-SUFFIX,dutils.com
 HOST-SUFFIX,getui.com
+HOST-SUFFIX,go-mpulse.net
+HOST-SUFFIX,id5-sync.com
+HOST-SUFFIX,inmobi.cn
+HOST-SUFFIX,jiguang.cn
+HOST-SUFFIX,jpush.cn
+HOST-SUFFIX,jpush.io
 HOST-SUFFIX,krxd.net
+HOST-SUFFIX,lkme.cc
+HOST-SUFFIX,lngtd.com
+HOST-SUFFIX,moatads.com
+HOST-SUFFIX,mob.com
+HOST-SUFFIX,outbrain.com //tm
+HOST-SUFFIX,popin.cc
 HOST-SUFFIX,scorecardresearch.com //amazon
+HOST-SUFFIX,shuzilm.cn
+HOST-SUFFIX,taboola.com
+HOST-SUFFIX,tianmu.mobi
+HOST-SUFFIX,tingyun.com
+HOST-SUFFIX,umengcloud.com
+HOST-SUFFIX,umeng.com
+HOST-SUFFIX,umsns.com
+HOST-SUFFIX,umtrack.com
+HOST-SUFFIX,vidazoo.com //tm
 HOST-SUFFIX,vungle.com //akam
-HOST,midas.yangshipin.cn //ysp
-HOST,pushservice.10010.com //10010
-HOST,rp.hpplay.cn
-HOST,upload-up.qtfm.cn //qtfm
-
-#dsp-x.jd.com
-#firebaseinstallations.googleapis.com
-#firebaselogging-pa.googleapis.com
-#firebaseremoteconfig.googleapis.com
-#device-provisioning.googleapis.com
-#g.koowo.com
-#rich.kuwo.cn
-#TEST=======================
-
-#undefine
-HOST,g.3gl.net
+HOST-SUFFIX,xdrig.com
 HOST-SUFFIX,yadro.ru
 
 #10000
@@ -66,15 +50,13 @@ HOST,appupdate.189.cn
 #10010
 HOST,ad.10010.com
 HOST,analytics2.10010.com
+HOST,pushservice.10010.com
 HOST,smartad.10010.com
 HOST,unilog.wostore.cn
 
-#akamai
-#HOST,ads.api.vungle.com
-HOST-SUFFIX,go-mpulse.net
-
 #alibaba
 HOST,adash-emas.cn-hangzhou.aliyuncs.com
+HOST,beacon-api.aliyuncs.com
 HOST,adashx.m.taobao.com
 HOST,amdc.m.taobao.com
 HOST,h-adashx.ut.taobao.com
@@ -82,57 +64,33 @@ HOST,h-adashx.ut.taobao.com
 HOST,applog.uc.cn
 HOST,assets.growingio.com
 HOST,px.ucweb.com
-HOST-SUFFIX,adkwai.com
-HOST-SUFFIX,anythinktech.com
-HOST-SUFFIX,dutils.com
-HOST-SUFFIX,inmobi.cn
-HOST-SUFFIX,mob.com
-HOST-SUFFIX,shuzilm.cn
-HOST-SUFFIX,tianmu.mobi
-
-#umeng
-HOST-SUFFIX,umengcloud.com
-HOST-SUFFIX,umeng.com
-HOST-SUFFIX,umsns.com
-HOST-SUFFIX,umtrack.com
 
 #高德地图
 HOST,amap-aos-info-nogw.amap.com
 HOST,awaken.amap.com
 
 #amazon
-#HOST,adt.xdrig.com
-#HOST,me.xdrig.com
-#HOST,beacon.krxd.net
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,amazon-adsystem.com
-HOST-SUFFIX,appsflyer-cn.com
-HOST-SUFFIX,appsflyer.com
-HOST-SUFFIX,arcpublishing.com
-HOST-SUFFIX,chartbeat.com
-HOST-SUFFIX,chartbeat.net
-HOST-SUFFIX,lngtd.com
-HOST-SUFFIX,moatads.com
-HOST-SUFFIX,popin.cc
 
 #apple
 HOST,api-adservices.apple.com
 HOST-SUFFIX,iadsdk.apple.com
 
-#applovin-ads
-HOST-SUFFIX,applovin.com
-HOST-SUFFIX,applvn.com
-
 #baidu
+HOST,bgg.baidu.com
 HOST,bj.bcebos.com
 HOST,dxp.baidu.com
 HOST,hm.baidu.com
 HOST,hmma.baidu.com
 HOST,kstj.baidu.com
+HOST,mbd.baidu.com
 HOST,mobads.baidu.com
 HOST,mobads-logs.baidu.com
 HOST,mobads-pre-config.cdn.bcebos.com
 HOST,nsclick.baidu.com
+HOST,sofire.baidu.com
+HOST,wkctj.baidu.com
 HOST,zz.bdstatic.com
 
 #bilibili
@@ -151,22 +109,15 @@ HOST-SUFFIX,pangolin-sdk-toutiao.com
 HOST-SUFFIX,pangolin.snssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
 
-#caiyun
+#彩云天气
 HOST,ad.cyapi.cn
 
-#cloudflare
-HOST-SUFFIX,addtoany.com
-
-#dongqiudi
+#懂球帝
 HOST,ap.dongqiudi.com
 HOST,sensors-log.dongqiudi.com
 
-#fastly
-HOST-SUFFIX,taboola.com
-
 #google
 HOST,ads.instal.com
-HOST,app-measurement.com
 HOST-SUFFIX,adservice.google.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
@@ -176,12 +127,7 @@ HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
 
-#huawei
-HOST-SUFFIX,jiguang.cn
-HOST-SUFFIX,jpush.cn
-HOST-SUFFIX,jpush.io
-
-#huya
+#虎牙
 HOST,business.msstatic.com
 HOST,cdnfile1.msstatic.com
 HOST,livewebbs2.msstatic.com
@@ -197,17 +143,19 @@ HOST,ad2.fivecdm.com
 HOST,dgstatic.jd.com
 HOST,im-x.jd.com
 
-#kuaishou
+#快手
 HOST,open.e.kuaishou.com
 HOST,gdfp.gifshow.com
 
-#kuwo
+#酷我
 HOST,splashimgbssdl.yun.kugou.com
 
-#ms
-HOST-SUFFIX,appcenter.ms
+#米家
+HOST,cdn.exp.xiaomi.com
+HOST,tracking.miui.com
+HOST-SUFFIX,ad.xiaomi.com
 
-#netease
+#网易
 HOST,gorgon.youdao.com
 HOST,nex.163.com
 HOST,statistic.live.126.net
@@ -216,9 +164,10 @@ HOST,statistic.live.126.net
 HOST,adlaunch.qingting.fm
 HOST,ad.qingting.fm
 HOST,ad.qtfm.cn
+HOST,upload-up.qtfm.cn
 #capi-zhibo.qtfm.cn
 
-#tencent
+#腾讯
 HOST,adsmind.gdtimg.com
 HOST,adstats.tencentmusic.com
 HOST,ad.tencentmusic.com
@@ -237,21 +186,24 @@ HOST,static.yky.qq.com
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,tingyun.com
 
 #tidal
-#HOST,sdk.iad-03.braze.com
-HOST-SUFFIX,braze.com
+HOST,sdk.iad-03.braze.com
 
-#transM
-HOST-SUFFIX,akamaihd.net
-HOST-SUFFIX,boltdns.net
-HOST-SUFFIX,outbrain.com
-HOST-SUFFIX,vidazoo.com
-
-#wechat
+#微信
 HOST,wxsnsdy.wxs.qq.com
 HOST,wxsnsdythumb.wxs.qq.com
+
+#wps
+HOST,honeycomb.wpscdn.cn
+HOST,momsg.wps.cn
+HOST-SUFFIX,testplus.cn
+
+#小猿口算
+HOST,gallery.fbcontent.cn
+HOST,leo-online.fbcontent.cn
+HOST,leo.fbcontent.cn
+HOST,oapi.yuanfudao.com
 
 #yahoo
 HOST,data.flurry.com
@@ -260,13 +212,6 @@ HOST,data.flurry.com
 HOST,btrace.yangshipin.cn
 HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
+HOST,midas.yangshipin.cn
 HOST-SUFFIX,cmgadx.com
 
-#小猿口算
-HOST,gallery.fbcontent.cn
-HOST,leo-online.fbcontent.cn
-HOST,leo.fbcontent.cn
-HOST,oapi.yuanfudao.com
-
-#小米
-HOST-SUFFIX,ad.xiaomi.com
