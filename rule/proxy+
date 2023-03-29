@@ -1,10 +1,6 @@
 #apple
-#HOST,testflight.apple.com
-#HOST,metrics.icloud.com
-#HOST,gateway.icloud.com
-#HOST-SUFFIX,ls.apple.com
-#HOST-SUFFIX,push.apple.com
-#HOST-SUFFIX,itunes.apple.com
+HOST,testflight.apple.com
+HOST-SUFFIX,digicert.com
 
 #wikipedia
 HOST-SUFFIX,wikidata.org
@@ -23,7 +19,6 @@ HOST-SUFFIX,workingcopyapp.com
 HOST-SUFFIX,amazonaws.com
 HOST-SUFFIX,amazontrust.com
 HOST-SUFFIX,cloudfront.net
-HOST-SUFFIX,digicert.com
 HOST-SUFFIX,digitalcertvalidation.com
 HOST-SUFFIX,greasyfork.org
 HOST-SUFFIX,lencr.org
