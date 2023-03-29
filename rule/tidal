@@ -1,3 +1,3 @@
-HOST-SUFFIX,tidal-cms.s3.amazonaws.com,PROXY
-HOST-SUFFIX,tidal.com,PROXY
-HOST-SUFFIX,tidalhifi.com,PROXY
+HOST-SUFFIX,tidal-cms.s3.amazonaws.com
+HOST-SUFFIX,tidal.com
+HOST-SUFFIX,tidalhifi.com

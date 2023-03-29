@@ -1,6 +1,6 @@
-HOST-SUFFIX,cdninstagram.com,PROXY
-HOST-SUFFIX,instagr.am,PROXY
-HOST-SUFFIX,instagram.com,PROXY
-HOST-SUFFIX,fbcdn.net,PROXY
-HOST-SUFFIX,fbsbx.com,PROXY
-HOST-KEYWORD,instagram,PROXY
+HOST-SUFFIX,cdninstagram.com
+HOST-SUFFIX,instagr.am
+HOST-SUFFIX,instagram.com
+HOST-SUFFIX,fbcdn.net
+HOST-SUFFIX,fbsbx.com
+HOST-KEYWORD,instagram

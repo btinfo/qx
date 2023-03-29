@@ -1,41 +1,41 @@
 #General
-HOST,app.adjust.com,DIRECT
-HOST,app.appsflyer.com,DIRECT
-HOST,bdtj.tagtic.cn,DIRECT
+HOST,app.adjust.com
+HOST,app.appsflyer.com
+HOST,bdtj.tagtic.cn
 
-#Alibaba,DIRECT
-HOST,log.mmstat.com,DIRECT
-HOST,sycm.mmstat.com,DIRECT
+#Alibaba
+HOST,log.mmstat.com
+HOST,sycm.mmstat.com
 
 #Google
-HOST-SUFFIX,blog.google,DIRECT
-HOST-SUFFIX,googletraveladservices.com,DIRECT
-HOST,clientservices.googleapis.com,DIRECT
-HOST,dl.google.com,DIRECT
-HOST,dl.l.google.com,DIRECT
-HOST,update.googleapis.com,DIRECT
+HOST-SUFFIX,blog.google
+HOST-SUFFIX,googletraveladservices.com
+HOST,clientservices.googleapis.com
+HOST,dl.google.com
+HOST,dl.l.google.com
+HOST,update.googleapis.com
 
 #Firebase Cloud Messaging
-HOST,mtalk.google.com,DIRECT
-HOST,alt1-mtalk.google.com,DIRECT
-HOST,alt2-mtalk.google.com,DIRECT
-HOST,alt3-mtalk.google.com,DIRECT
-HOST,alt4-mtalk.google.com,DIRECT
-HOST,alt5-mtalk.google.com,DIRECT
-HOST,alt6-mtalk.google.com,DIRECT
-HOST,alt7-mtalk.google.com,DIRECT
-HOST,alt8-mtalk.google.com,DIRECT
+HOST,mtalk.google.com
+HOST,alt1-mtalk.google.com
+HOST,alt2-mtalk.google.com
+HOST,alt3-mtalk.google.com
+HOST,alt4-mtalk.google.com
+HOST,alt5-mtalk.google.com
+HOST,alt6-mtalk.google.com
+HOST,alt7-mtalk.google.com
+HOST,alt8-mtalk.google.com
 
 #Tencent
-HOST,fairplay.l.qq.com,DIRECT
-HOST,livew.l.qq.com,DIRECT
-HOST,vd.l.qq.com,DIRECT
-HOST,vi.l.qq.com,DIRECT
+HOST,fairplay.l.qq.com
+HOST,livew.l.qq.com
+HOST,vd.l.qq.com
+HOST,vi.l.qq.com
 
 #Strava
-HOST,analytics.strava.com,DIRECT
+HOST,analytics.strava.com
 
 #Umeng
-HOST,errlog.umeng.com,DIRECT
-HOST,msg.umeng.com,DIRECT
-HOST,msg.umengcloud.com,DIRECT
+HOST,errlog.umeng.com
+HOST,msg.umeng.com
+HOST,msg.umengcloud.com

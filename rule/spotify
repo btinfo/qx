@@ -1,7 +1,7 @@
-HOST-SUFFIX,pscdn.co,PROXY
-HOST-SUFFIX,scdn.co,PROXY
-HOST-SUFFIX,spoti.fi,PROXY
-HOST-SUFFIX,spotify.com,PROXY
-HOST-SUFFIX,spotifycdn.com,PROXY
-HOST-SUFFIX,spotifycdn.net,PROXY
-HOST-KEYWORD,spotify,PROXY
+HOST-SUFFIX,pscdn.co
+HOST-SUFFIX,scdn.co
+HOST-SUFFIX,spoti.fi
+HOST-SUFFIX,spotify.com
+HOST-SUFFIX,spotifycdn.com
+HOST-SUFFIX,spotifycdn.net
+HOST-KEYWORD,spotify
