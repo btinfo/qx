@@ -164,7 +164,7 @@ HOST,statistic.live.126.net
 HOST,adlaunch.qingting.fm
 HOST,ad.qingting.fm
 HOST,ad.qtfm.cn
-HOST,upload-up.qtfm.cn
+#HOST,upload-up.qtfm.cn
 #capi-zhibo.qtfm.cn
 
 #腾讯
