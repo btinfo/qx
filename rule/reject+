@@ -3,10 +3,10 @@ HOST-SUFFIX,id5-sync.com
 HOST,beacon-api.aliyuncs.com
 HOST,msg.qy.net
 #HOST-SUFFIX,ecombdapi.com
-HOST-SUFFIX,growingio.com
-HOST-SUFFIX,openinstall.io
-HOST-SUFFIX,qchannel01.cn
-HOST-SUFFIX,qchannel03.cn
+#HOST-SUFFIX,growingio.com
+#HOST-SUFFIX,openinstall.io
+#HOST-SUFFIX,qchannel01.cn
+#HOST-SUFFIX,qchannel03.cn
 HOST-SUFFIX,xdrig.com
 
 HOST,mercury-sdk.snssdk.com
@@ -80,7 +80,7 @@ HOST,amdc.m.taobao.com
 HOST,h-adashx.ut.taobao.com
 
 HOST,applog.uc.cn
-#HOST,assets.growingio.com
+HOST,assets.growingio.com
 HOST,px.ucweb.com
 HOST-SUFFIX,adkwai.com
 HOST-SUFFIX,anythinktech.com
