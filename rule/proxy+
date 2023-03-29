@@ -1,9 +1,9 @@
 #apple
-HOST,testflight.apple.com
-HOST,metrics.icloud.com
-HOST,gateway.icloud.com
-HOST-SUFFIX,ls.apple.com
-HOST-SUFFIX,push.apple.com
+#HOST,testflight.apple.com
+#HOST,metrics.icloud.com
+#HOST,gateway.icloud.com
+#HOST-SUFFIX,ls.apple.com
+#HOST-SUFFIX,push.apple.com
 #HOST-SUFFIX,itunes.apple.com
 
 #wikipedia
