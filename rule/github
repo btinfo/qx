@@ -1,6 +1,6 @@
-HOST-SUFFIX,github.com,KR
-HOST-SUFFIX,github.io,KR
-HOST-SUFFIX,githubapp.com,KR
-HOST-SUFFIX,githubassets.com,KR
-HOST-SUFFIX,githubusercontent.com,KR
-HOST-KEYWORD,github,KR
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubapp.com,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-KEYWORD,github,PROXY
