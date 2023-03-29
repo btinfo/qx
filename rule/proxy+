@@ -75,6 +75,7 @@ HOST-SUFFIX,uk
 
 #asn
 IP-ASN,714 // 🇺🇸Apple Inc.
+IP-ASN,6185 // 🇺🇸APPLE-AUSTIN
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
 IP-ASN,13335 // 🇺🇸Cloudflare, Inc.
 IP-ASN,13414 // 🇺🇸Twitter Inc.
