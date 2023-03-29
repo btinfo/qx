@@ -1,10 +1,5 @@
 #apple
-HOST,configuration.ls.apple.com
-HOST,gateway.icloud.com
-HOST,gsp-ssl.ls.apple.com
-HOST,metrics.icloud.com
 HOST,testflight.apple.com
-HOST-SUFFIX,push.apple.com
 #apple-related
 HOST,ocsp.digicert.com
 HOST,pki.goog
