@@ -39,7 +39,6 @@ HOST,tracking.miui.com
 HOST-SUFFIX,crashlytics.com //google
 HOST-SUFFIX,getui.com
 HOST-SUFFIX,krxd.net
-HOST-SUFFIX,probe.twitter.com //twitter
 HOST-SUFFIX,scorecardresearch.com //amazon
 HOST-SUFFIX,vungle.com //akam
 HOST,midas.yangshipin.cn //ysp
