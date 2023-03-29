@@ -1,7 +1,7 @@
-HOST-SUFFIX,pscdn.co
-HOST-SUFFIX,scdn.co
-HOST-SUFFIX,spoti.fi
-HOST-SUFFIX,spotify.com
-HOST-SUFFIX,spotifycdn.com
-HOST-SUFFIX,spotifycdn.net
-HOST-KEYWORD,spotify
+HOST-SUFFIX,pscdn.co,HK
+HOST-SUFFIX,scdn.co,HK
+HOST-SUFFIX,spoti.fi,HK
+HOST-SUFFIX,spotify.com,HK
+HOST-SUFFIX,spotifycdn.com,HK
+HOST-SUFFIX,spotifycdn.net,HK
+HOST-KEYWORD,spotify,HK
