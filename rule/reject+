@@ -34,10 +34,10 @@ DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN-SUFFIX,tingyun.com
-DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umsns.com
-DOMAIN-SUFFIX,umtrack.com
+#DOMAIN-SUFFIX,umengcloud.com
+#DOMAIN-SUFFIX,umeng.com
+#DOMAIN-SUFFIX,umsns.com
+#DOMAIN-SUFFIX,umtrack.com
 DOMAIN-SUFFIX,vidazoo.com //tm
 DOMAIN-SUFFIX,vungle.com //akam
 DOMAIN,adt.xdrig.com
@@ -189,6 +189,12 @@ DOMAIN-SUFFIX,l.qq.com
 
 #tidal
 DOMAIN,sdk.iad-03.braze.com
+
+#umeng
+DOMAIN,alog.umeng.com
+DOMAIN,alog.umengcloud.com
+DOMAIN,w.cnzz.com
+DOMAIN,z.gds.cnzz.com
 
 #微信
 DOMAIN,wxsnsdy.wxs.qq.com

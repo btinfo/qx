@@ -33,6 +33,6 @@ DOMAIN,vd.l.qq.com,DIRECT
 DOMAIN,vi.l.qq.com,DIRECT
 
 #Umeng
-DOMAIN,errlog.umeng.com,DIRECT
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
+#DOMAIN,errlog.umeng.com,DIRECT
+#DOMAIN,msg.umeng.com,DIRECT
+#DOMAIN,msg.umengcloud.com,DIRECT
