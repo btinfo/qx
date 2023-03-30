@@ -1,10 +1,11 @@
 #general
-#DOMAIN-SUFFIX,jpush.cn
-#DOMAIN-SUFFIX,jpush.io
-#DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,shuzilm.cn
 #DOMAIN-SUFFIX,umeng.com
 #DOMAIN-SUFFIX,umengcloud.com
-#DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,umsns.com
+
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,akamaihd.net //tm
