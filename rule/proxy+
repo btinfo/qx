@@ -1,80 +1,80 @@
 #apple
-HOST,testflight.apple.com
+DOMAIN,testflight.apple.com
 #apple-related
-HOST,ocsp.digicert.com
-HOST,pki.goog
-HOST,r3.o.lencr.org
+DOMAIN,ocsp.digicert.com
+DOMAIN,pki.goog
+DOMAIN,r3.o.lencr.org
 
 #wikipedia
-HOST-SUFFIX,wikidata.org
-HOST-SUFFIX,wikimedia.org
-HOST-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
 
 #apps
-HOST-SUFFIX,appraven.net
-HOST-SUFFIX,fileball.app
-HOST-SUFFIX,photosync-app.com
-HOST-SUFFIX,quantumult.app
-HOST-SUFFIX,rsshub.app
-HOST-SUFFIX,workingcopyapp.com
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,fileball.app
+DOMAIN-SUFFIX,photosync-app.com
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,workingcopyapp.com
 
 #domains
-HOST-SUFFIX,amazonaws.com
-HOST-SUFFIX,amazontrust.com
-HOST-SUFFIX,cloudfront.net
-HOST-SUFFIX,digitalcertvalidation.com
-HOST-SUFFIX,greasyfork.org
-#HOST-SUFFIX,lencr.org
-HOST-SUFFIX,microsoftonline.com
-HOST-SUFFIX,sectigo.com
-HOST-SUFFIX,sentry.io
-HOST-SUFFIX,usertrust.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,digitalcertvalidation.com
+DOMAIN-SUFFIX,greasyfork.org
+#DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,sectigo.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,usertrust.com
 
-HOST,bgp.he.net
-HOST,filebox-douban.vercel.app
-#HOST,in.appcenter.ms
-HOST,mail.cock.li
-HOST,m.hotmail.com
+DOMAIN,bgp.he.net
+DOMAIN,filebox-douban.vercel.app
+#DOMAIN,in.appcenter.ms
+DOMAIN,mail.cock.li
+DOMAIN,m.hotmail.com
 
 #sites
-HOST-SUFFIX,1lib.at
-HOST-SUFFIX,bing.com
-HOST-SUFFIX,chinadigitaltimes.net
-HOST-SUFFIX,daum.net
-HOST-SUFFIX,kakao.com
-HOST-SUFFIX,naver.com
-HOST-SUFFIX,naver.net
-HOST-SUFFIX,transfermarkt.com
+DOMAIN-SUFFIX,1lib.at
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,chinadigitaltimes.net
+DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,naver.net
+DOMAIN-SUFFIX,transfermarkt.com
 
 #media
-HOST-SUFFIX,aljazeera.net
-HOST-SUFFIX,appledaily.com
-HOST-SUFFIX,bbc.com
-HOST-SUFFIX,chosun.com
-HOST-SUFFIX,donga.com
-HOST-SUFFIX,dw.com
-HOST-SUFFIX,hankookilbo.com
-HOST-SUFFIX,nyt.com
-HOST-SUFFIX,nytimes.com
-HOST-SUFFIX,pressian.com
-HOST-SUFFIX,voachinese.com
-HOST-SUFFIX,voanews.com
-HOST-SUFFIX,wsj.com
-HOST-SUFFIX,wsj.net
+DOMAIN-SUFFIX,aljazeera.net
+DOMAIN-SUFFIX,appledaily.com
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,chosun.com
+DOMAIN-SUFFIX,donga.com
+DOMAIN-SUFFIX,dw.com
+DOMAIN-SUFFIX,hankookilbo.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,pressian.com
+DOMAIN-SUFFIX,voachinese.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
 
 #keyword
-HOST-KEYWORD,google
-HOST-KEYWORD,.facebook.
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,.facebook.
 
 #country
-HOST-SUFFIX,de
-HOST-SUFFIX,eu
-HOST-SUFFIX,hk
-HOST-SUFFIX,jp
-HOST-SUFFIX,kr
-HOST-SUFFIX,sg
-HOST-SUFFIX,tw
-HOST-SUFFIX,uk
+DOMAIN-SUFFIX,de
+DOMAIN-SUFFIX,eu
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,uk
 
 #asn
 IP-ASN,714 // 🇺🇸Apple Inc.
@@ -120,4 +120,4 @@ IP-ASN,396982 // 🇺🇸Google LLC
 #IP-ASN,64050 // 🇸🇬BGPNET Global ASN
 #IP-ASN,142403 // 🇭🇰YISU CLOUD LTD
 #IP-ASN,197019 // 🇨🇿WEDOS Internet, a.s. //appraven.net
-#IP-ASN,200019 // 🇲🇩ALEXHOST SRL //zlib
+#IP-ASN,200019 // 🇲🇩ALEXDOMAIN SRL //zlib

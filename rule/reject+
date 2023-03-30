@@ -1,216 +1,216 @@
 #general
-HOST-SUFFIX,addtoany.com
-HOST-SUFFIX,adkwai.com
-HOST-SUFFIX,akamaihd.net //tm
-HOST-SUFFIX,anythinktech.com
-HOST-SUFFIX,appcenter.ms
-HOST-SUFFIX,applovin.com
-HOST-SUFFIX,applvn.com
-HOST-SUFFIX,app-measurement.com //google
-HOST-SUFFIX,appsflyer-cn.com
-HOST-SUFFIX,appsflyer.com
-HOST-SUFFIX,arcpublishing.com
-HOST-SUFFIX,boltdns.net //tm
-HOST-SUFFIX,chartbeat.com
-HOST-SUFFIX,chartbeat.net
-HOST-SUFFIX,crashlytics.com //google
-HOST-SUFFIX,dutils.com
-HOST-SUFFIX,getui.com
-HOST-SUFFIX,go-mpulse.net
-HOST-SUFFIX,id5-sync.com
-HOST-SUFFIX,inmobi.cn
-HOST-SUFFIX,jiguang.cn
-HOST-SUFFIX,jpush.cn
-HOST-SUFFIX,jpush.io
-HOST-SUFFIX,krxd.net
-HOST-SUFFIX,lkme.cc
-HOST-SUFFIX,lngtd.com
-HOST-SUFFIX,moatads.com
-HOST-SUFFIX,mob.com
-HOST-SUFFIX,outbrain.com //tm
-HOST-SUFFIX,popin.cc
-HOST-SUFFIX,scorecardresearch.com //amazon
-HOST-SUFFIX,shuzilm.cn
-HOST-SUFFIX,taboola.com
-HOST-SUFFIX,tianmu.mobi
-HOST-SUFFIX,tingyun.com
-HOST-SUFFIX,umengcloud.com
-HOST-SUFFIX,umeng.com
-HOST-SUFFIX,umsns.com
-HOST-SUFFIX,umtrack.com
-HOST-SUFFIX,vidazoo.com //tm
-HOST-SUFFIX,vungle.com //akam
-HOST-SUFFIX,xdrig.com
-HOST-SUFFIX,yadro.ru
+DOMAIN-SUFFIX,addtoany.com
+DOMAIN-SUFFIX,adkwai.com
+DOMAIN-SUFFIX,akamaihd.net //tm
+DOMAIN-SUFFIX,anythinktech.com
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,app-measurement.com //google
+DOMAIN-SUFFIX,appsflyer-cn.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,arcpublishing.com
+DOMAIN-SUFFIX,boltdns.net //tm
+DOMAIN-SUFFIX,chartbeat.com
+DOMAIN-SUFFIX,chartbeat.net
+DOMAIN-SUFFIX,crashlytics.com //google
+DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,go-mpulse.net
+DOMAIN-SUFFIX,id5-sync.com
+DOMAIN-SUFFIX,inmobi.cn
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,krxd.net
+DOMAIN-SUFFIX,lkme.cc
+DOMAIN-SUFFIX,lngtd.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,outbrain.com //tm
+DOMAIN-SUFFIX,popin.cc
+DOMAIN-SUFFIX,scorecardresearch.com //amazon
+DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,tianmu.mobi
+DOMAIN-SUFFIX,tingyun.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,umtrack.com
+DOMAIN-SUFFIX,vidazoo.com //tm
+DOMAIN-SUFFIX,vungle.com //akam
+DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,yadro.ru
 
 #10000
-HOST,appgoad.189.cn
-HOST,appupdate.189.cn
+DOMAIN,appgoad.189.cn
+DOMAIN,appupdate.189.cn
 
 #10010
-HOST,ad.10010.com
-HOST,analytics2.10010.com
-HOST,pushservice.10010.com
-HOST,smartad.10010.com
-HOST,unilog.wostore.cn
+DOMAIN,ad.10010.com
+DOMAIN,analytics2.10010.com
+DOMAIN,pushservice.10010.com
+DOMAIN,smartad.10010.com
+DOMAIN,unilog.wostore.cn
 
 #alibaba
-HOST,adash-emas.cn-hangzhou.aliyuncs.com
-HOST,beacon-api.aliyuncs.com
-HOST,adashx.m.taobao.com
-HOST,amdc.m.taobao.com
-HOST,h-adashx.ut.taobao.com
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+DOMAIN,beacon-api.aliyuncs.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,amdc.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
 
-HOST,applog.uc.cn
-HOST,assets.growingio.com
-HOST,px.ucweb.com
+DOMAIN,applog.uc.cn
+DOMAIN,assets.growingio.com
+DOMAIN,px.ucweb.com
 
 #高德地图
-HOST,amap-aos-info-nogw.amap.com
-HOST,awaken.amap.com
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
 
 #amazon
-HOST,china2021.s3.ap-northeast-2.amazonaws.com
-HOST-SUFFIX,amazon-adsystem.com
+DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com
+DOMAIN-SUFFIX,amazon-adsystem.com
 
 #apple
-HOST,api-adservices.apple.com
-HOST-SUFFIX,iadsdk.apple.com
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
 
 #baidu
-HOST,bgg.baidu.com
-HOST,bj.bcebos.com
-HOST,dxp.baidu.com
-HOST,hm.baidu.com
-HOST,hmma.baidu.com
-HOST,kstj.baidu.com
-HOST,mbd.baidu.com
-HOST,mobads.baidu.com
-HOST,mobads-logs.baidu.com
-HOST,mobads-pre-config.cdn.bcebos.com
-HOST,nsclick.baidu.com
-HOST,sofire.baidu.com
-HOST,wkctj.baidu.com
-HOST,zz.bdstatic.com
+DOMAIN,bgg.baidu.com
+DOMAIN,bj.bcebos.com
+DOMAIN,dxp.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,kstj.baidu.com
+DOMAIN,mbd.baidu.com
+DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,sofire.baidu.com
+DOMAIN,wkctj.baidu.com
+DOMAIN,zz.bdstatic.com
 
 #bilibili
-HOST,api.sobot.com
-HOST,up-hl.3g.qq.com
-HOST-SUFFIX,biligame.com
+DOMAIN,api.sobot.com
+DOMAIN,up-hl.3g.qq.com
+DOMAIN-SUFFIX,biligame.com
 
 #bytedance
-HOST,dig.bdurl.net
-HOST,extlog.snssdk.com
-HOST,i.snssdk.com
-HOST,sf3-ttcdn-tos.pstatp.com
-HOST-SUFFIX,ctobsnssdk.com
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com
-HOST-SUFFIX,pangolin-sdk-toutiao.com
-HOST-SUFFIX,pangolin.snssdk.com
-HOST-SUFFIX,pglstatp-toutiao.com
+DOMAIN,dig.bdurl.net
+DOMAIN,extlog.snssdk.com
+DOMAIN,i.snssdk.com
+DOMAIN,sf3-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
 
 #彩云天气
-HOST,ad.cyapi.cn
+DOMAIN,ad.cyapi.cn
 
 #懂球帝
-HOST,ap.dongqiudi.com
-HOST,sensors-log.dongqiudi.com
+DOMAIN,ap.dongqiudi.com
+DOMAIN,sensors-log.dongqiudi.com
 
 #google
-HOST,ads.instal.com
-HOST-SUFFIX,adservice.google.com
-HOST-SUFFIX,doubleclick-cn.net
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
+DOMAIN,ads.instal.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
 
 #虎牙
-HOST,business.msstatic.com
-HOST,cdnfile1.msstatic.com
-HOST,livewebbs2.msstatic.com
-HOST,e-ad-monitor.huya.com
-HOST,fileserver.cdn.huya.com
-HOST,kiwistatic.huya.com
-HOST,statwup.huya.com
+DOMAIN,business.msstatic.com
+DOMAIN,cdnfile1.msstatic.com
+DOMAIN,livewebbs2.msstatic.com
+DOMAIN,e-ad-monitor.huya.com
+DOMAIN,fileserver.cdn.huya.com
+DOMAIN,kiwistatic.huya.com
+DOMAIN,statwup.huya.com
 
 #计步器
-HOST,ad2.fivecdm.com
+DOMAIN,ad2.fivecdm.com
 
 #JD
-HOST,dgstatic.jd.com
-HOST,im-x.jd.com
+DOMAIN,dgstatic.jd.com
+DOMAIN,im-x.jd.com
 
 #快手
-HOST,open.e.kuaishou.com
-HOST,gdfp.gifshow.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN,gdfp.gifshow.com
 
 #酷我
-HOST,splashimgbssdl.yun.kugou.com
+DOMAIN,splashimgbssdl.yun.kugou.com
 
 #米家
-HOST,cdn.exp.xiaomi.com
-HOST,tracking.miui.com
-HOST-SUFFIX,ad.xiaomi.com
+DOMAIN,cdn.exp.xiaomi.com
+DOMAIN,tracking.miui.com
+DOMAIN-SUFFIX,ad.xiaomi.com
 
 #网易
-HOST,gorgon.youdao.com
-HOST,nex.163.com
-HOST,statistic.live.126.net
+DOMAIN,gorgon.youdao.com
+DOMAIN,nex.163.com
+DOMAIN,statistic.live.126.net
 
 #蜻蜓FM
-HOST,adlaunch.qingting.fm
-HOST,ad.qingting.fm
-HOST,ad.qtfm.cn
-#HOST,upload-up.qtfm.cn
+DOMAIN,adlaunch.qingting.fm
+DOMAIN,ad.qingting.fm
+DOMAIN,ad.qtfm.cn
+#DOMAIN,upload-up.qtfm.cn
 #capi-zhibo.qtfm.cn
 
 #腾讯
-HOST,adsmind.gdtimg.com
-HOST,adstats.tencentmusic.com
-HOST,ad.tencentmusic.com
-HOST,btrace.qq.com
-HOST,cloud.tgpa.qq.com
-HOST,fp-it.fengkongcloud.com
-HOST,h.trace.qq.com
-HOST,ios.bugly.qq.com
-HOST,mtrace.qq.com
-HOST,otheve.beacon.qq.com
-HOST,pgdt.gtimg.cn
-HOST,pingma.qq.com
-HOST,qzs.gdtimg.com
-HOST,safebrowsing.urlsec.qq.com
-HOST,static.yky.qq.com
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,l.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,btrace.qq.com
+DOMAIN,cloud.tgpa.qq.com
+DOMAIN,fp-it.fengkongcloud.com
+DOMAIN,h.trace.qq.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pingma.qq.com
+DOMAIN,qzs.gdtimg.com
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,static.yky.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
 
 #tidal
-HOST,sdk.iad-03.braze.com
+DOMAIN,sdk.iad-03.braze.com
 
 #微信
-HOST,wxsnsdy.wxs.qq.com
-HOST,wxsnsdythumb.wxs.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
 
 #wps
-HOST,honeycomb.wpscdn.cn
-HOST,momsg.wps.cn
-HOST-SUFFIX,testplus.cn
+DOMAIN,honeycomb.wpscdn.cn
+DOMAIN,momsg.wps.cn
+DOMAIN-SUFFIX,testplus.cn
 
 #小猿口算
-HOST,gallery.fbcontent.cn
-HOST,leo-online.fbcontent.cn
-HOST,leo.fbcontent.cn
-HOST,oapi.yuanfudao.com
+DOMAIN,gallery.fbcontent.cn
+DOMAIN,leo-online.fbcontent.cn
+DOMAIN,leo.fbcontent.cn
+DOMAIN,oapi.yuanfudao.com
 
 #yahoo
-HOST,data.flurry.com
+DOMAIN,data.flurry.com
 
 #央视频
-HOST,btrace.yangshipin.cn
-HOST,btrace.ysp.cctv.cn
-HOST,mtrace.ysp.cctv.cn
-HOST,midas.yangshipin.cn
-HOST-SUFFIX,cmgadx.com
+DOMAIN,btrace.yangshipin.cn
+DOMAIN,btrace.ysp.cctv.cn
+DOMAIN,mtrace.ysp.cctv.cn
+DOMAIN,midas.yangshipin.cn
+DOMAIN-SUFFIX,cmgadx.com
