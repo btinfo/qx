@@ -1,20 +1,17 @@
 #general
-DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,jpush.io
-DOMAIN-SUFFIX,shuzilm.cn
-#DOMAIN-SUFFIX,umeng.com
-#DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,umsns.com
-
+DOMAIN,adt.xdrig.com //amazon
+#DOMAIN,applog.uc.cn
+DOMAIN,assets.growingio.com
+DOMAIN,log.umtrack.com
+DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,akamaihd.net //tm
 DOMAIN-SUFFIX,anythinktech.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
-DOMAIN-SUFFIX,appsflyer-cn.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,arcpublishing.com
 DOMAIN-SUFFIX,boltdns.net //tm
@@ -25,48 +22,45 @@ DOMAIN-SUFFIX,dutils.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,id5-sync.com
-DOMAIN-SUFFIX,inmobi.cn
-DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,krxd.net
-DOMAIN-SUFFIX,lkme.cc
-DOMAIN-SUFFIX,lngtd.com
-DOMAIN-SUFFIX,moatads.com
-DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,lngtd.com //amazon
+DOMAIN-SUFFIX,moatads.com //amazon
 DOMAIN-SUFFIX,outbrain.com //tm
-DOMAIN-SUFFIX,popin.cc
+DOMAIN-SUFFIX,popin.cc //amazon
 DOMAIN-SUFFIX,scorecardresearch.com //amazon
 DOMAIN-SUFFIX,taboola.com
-DOMAIN-SUFFIX,tianmu.mobi
-DOMAIN-SUFFIX,tingyun.com
 DOMAIN-SUFFIX,vidazoo.com //tm
 DOMAIN-SUFFIX,vungle.com //akam
 DOMAIN-SUFFIX,yadro.ru
-DOMAIN,adt.xdrig.com
-DOMAIN,log.umtrack.com
 
 #10000
 DOMAIN,appgoad.189.cn
 DOMAIN,appupdate.189.cn
 
 #10010
-DOMAIN,ad.10010.com
+DOMAIN,ad.10010.com //ZTN
+DOMAIN,pushservice.10010.com //ZTN
+DOMAIN,smartad.10010.com //ZTN
 DOMAIN,analytics2.10010.com
-DOMAIN,pushservice.10010.com
-DOMAIN,smartad.10010.com
 #DOMAIN,unilog.wostore.cn
 
 #alibaba
-DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
-DOMAIN,beacon-api.aliyuncs.com
-DOMAIN,adashx.m.taobao.com
-DOMAIN,amdc.m.taobao.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,umdc.aliapp.org
-IP-ASN,37963 // Hangzhou Alibaba Advertising
+#HAA: Hangzhou Alibaba Advertising
+#DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+#DOMAIN,beacon-api.aliyuncs.com
+#DOMAIN,adashx.m.taobao.com
+#DOMAIN,amdc.m.taobao.com
+#DOMAIN,h-adashx.ut.taobao.com
+#DOMAIN,umdc.aliapp.org
+#DOMAIN-SUFFIX,shuzilm.cn
+#DOMAIN-SUFFIX,appsflyer-cn.com
+#DOMAIN-SUFFIX,inmobi.cn
+#DOMAIN-SUFFIX,mob.com
+#DOMAIN-SUFFIX,tianmu.mobi
+#DOMAIN,dig.bdurl.net
+#DOMAIN,ad.cyapi.cn //caiyun
 
-#DOMAIN,applog.uc.cn
-DOMAIN,assets.growingio.com
-DOMAIN,px.ucweb.com
+#ZTN: Zhejiang Taobao Network
 
 #高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
@@ -102,22 +96,17 @@ DOMAIN,zz.bdstatic.com
 #DOMAIN-SUFFIX,biligame.com
 
 #bytedance
-DOMAIN,dig.bdurl.net
-DOMAIN,extlog.snssdk.com
-DOMAIN,i.snssdk.com
-DOMAIN,sf3-ttcdn-tos.pstatp.com
+DOMAIN,extlog.snssdk.com //ZTN
+DOMAIN,i.snssdk.com //ZTN
+DOMAIN,sf3-ttcdn-tos.pstatp.com //ZTN
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 
-#彩云天气
-DOMAIN,ad.cyapi.cn
-
 #懂球帝
 DOMAIN,ap.dongqiudi.com
-#DOMAIN,sensors-log.dongqiudi.com
 
 #google
 DOMAIN,ads.instal.com
@@ -138,6 +127,11 @@ DOMAIN,e-ad-monitor.huya.com
 DOMAIN,fileserver.cdn.huya.com
 DOMAIN,kiwistatic.huya.com
 DOMAIN,statwup.huya.com
+
+#huawei
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,jiguang.cn
 
 #计步器
 DOMAIN,ad2.fivecdm.com
@@ -189,6 +183,8 @@ DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,lkme.cc
+DOMAIN-SUFFIX,tingyun.com
 
 #tidal
 DOMAIN,sdk.iad-03.braze.com
@@ -200,6 +196,7 @@ DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,w.cnzz.com
 DOMAIN,z.gds.cnzz.com
+#DOMAIN-SUFFIX,umsns.com
 
 #微信
 DOMAIN,wxsnsdy.wxs.qq.com
