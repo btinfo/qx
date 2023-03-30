@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
-DOMAIN-SUFFIX,app-measurement.com //google
+#DOMAIN-SUFFIX,app-measurement.com //google
 DOMAIN-SUFFIX,appsflyer-cn.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,arcpublishing.com
