@@ -1,5 +1,4 @@
 #general
-DOMAIN,adt.xdrig.com //amazon
 #DOMAIN,applog.uc.cn
 DOMAIN,assets.growingio.com
 DOMAIN,log.umtrack.com
@@ -7,29 +6,16 @@ DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,akamaihd.net //tm
-DOMAIN-SUFFIX,anythinktech.com
-DOMAIN-SUFFIX,appcenter.ms
+#DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,arcpublishing.com
-DOMAIN-SUFFIX,boltdns.net //tm
-DOMAIN-SUFFIX,chartbeat.com
-DOMAIN-SUFFIX,chartbeat.net
-DOMAIN-SUFFIX,crashlytics.com //google
 DOMAIN-SUFFIX,dutils.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,krxd.net
-DOMAIN-SUFFIX,lngtd.com //amazon
-DOMAIN-SUFFIX,moatads.com //amazon
 DOMAIN-SUFFIX,outbrain.com //tm
-DOMAIN-SUFFIX,popin.cc //amazon
-DOMAIN-SUFFIX,scorecardresearch.com //amazon
 DOMAIN-SUFFIX,taboola.com
-DOMAIN-SUFFIX,vidazoo.com //tm
 DOMAIN-SUFFIX,vungle.com //akam
 DOMAIN-SUFFIX,yadro.ru
 
@@ -67,8 +53,20 @@ DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
 
 #amazon
+DOMAIN,adt.xdrig.com
 DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com
 DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,anythinktech.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,arcpublishing.com
+DOMAIN-SUFFIX,boltdns.net
+DOMAIN-SUFFIX,chartbeat.com
+DOMAIN-SUFFIX,chartbeat.net
+DOMAIN-SUFFIX,lngtd.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,popin.cc
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,vidazoo.com
 
 #apple
 #DOMAIN,api-adservices.apple.com
@@ -111,7 +109,9 @@ DOMAIN,ap.dongqiudi.com
 
 #google
 DOMAIN,ads.instal.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
