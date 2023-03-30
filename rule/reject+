@@ -1,12 +1,18 @@
 #general
+#DOMAIN-SUFFIX,jpush.cn
+#DOMAIN-SUFFIX,jpush.io
+#DOMAIN-SUFFIX,shuzilm.cn
+#DOMAIN-SUFFIX,umeng.com
+#DOMAIN-SUFFIX,umengcloud.com
+#DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,akamaihd.net //tm
 DOMAIN-SUFFIX,anythinktech.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
-#DOMAIN-SUFFIX,app-measurement.com //google
 DOMAIN-SUFFIX,appsflyer-cn.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,arcpublishing.com
@@ -20,8 +26,6 @@ DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,jiguang.cn
-#DOMAIN-SUFFIX,jpush.cn
-#DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,krxd.net
 DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,lngtd.com
@@ -30,18 +34,14 @@ DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,outbrain.com //tm
 DOMAIN-SUFFIX,popin.cc
 DOMAIN-SUFFIX,scorecardresearch.com //amazon
-DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN-SUFFIX,tingyun.com
-#DOMAIN-SUFFIX,umengcloud.com
-#DOMAIN-SUFFIX,umeng.com
-#DOMAIN-SUFFIX,umsns.com
-#DOMAIN-SUFFIX,umtrack.com
 DOMAIN-SUFFIX,vidazoo.com //tm
 DOMAIN-SUFFIX,vungle.com //akam
-DOMAIN,adt.xdrig.com
 DOMAIN-SUFFIX,yadro.ru
+DOMAIN,adt.xdrig.com
+DOMAIN,log.umtrack.com
 
 #10000
 DOMAIN,appgoad.189.cn
@@ -75,7 +75,7 @@ DOMAIN-SUFFIX,amazon-adsystem.com
 
 #apple
 #DOMAIN,api-adservices.apple.com
-#DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
 
 #baidu
 DOMAIN,bgg.baidu.com
@@ -114,7 +114,7 @@ DOMAIN,ad.cyapi.cn
 
 #懂球帝
 DOMAIN,ap.dongqiudi.com
-DOMAIN,sensors-log.dongqiudi.com
+#DOMAIN,sensors-log.dongqiudi.com
 
 #google
 DOMAIN,ads.instal.com
