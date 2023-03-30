@@ -61,6 +61,8 @@ DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,amdc.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,umdc.aliapp.org
+IP-ASN,37963 // Hangzhou Alibaba Advertising
 
 #DOMAIN,applog.uc.cn
 DOMAIN,assets.growingio.com
