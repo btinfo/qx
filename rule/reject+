@@ -74,8 +74,8 @@ DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 
 #apple
-DOMAIN,api-adservices.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
+#DOMAIN,api-adservices.apple.com
+#DOMAIN-SUFFIX,iadsdk.apple.com
 
 #baidu
 DOMAIN,bgg.baidu.com
