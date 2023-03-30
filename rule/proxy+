@@ -1,9 +1,9 @@
 #apple
 DOMAIN,testflight.apple.com
 #apple-related
-DOMAIN,ocsp.digicert.com
 DOMAIN,pki.goog
 DOMAIN,r3.o.lencr.org
+DOMAIN-SUFFIX,digicert.com
 
 #wikipedia
 DOMAIN-SUFFIX,wikidata.org
