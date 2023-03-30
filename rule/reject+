@@ -52,7 +52,7 @@ DOMAIN,ad.10010.com
 DOMAIN,analytics2.10010.com
 DOMAIN,pushservice.10010.com
 DOMAIN,smartad.10010.com
-DOMAIN,unilog.wostore.cn
+#DOMAIN,unilog.wostore.cn
 
 #alibaba
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
@@ -61,7 +61,7 @@ DOMAIN,adashx.m.taobao.com
 DOMAIN,amdc.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 
-DOMAIN,applog.uc.cn
+#DOMAIN,applog.uc.cn
 DOMAIN,assets.growingio.com
 DOMAIN,px.ucweb.com
 
@@ -94,9 +94,9 @@ DOMAIN,wkctj.baidu.com
 DOMAIN,zz.bdstatic.com
 
 #bilibili
-DOMAIN,api.sobot.com
-DOMAIN,up-hl.3g.qq.com
-DOMAIN-SUFFIX,biligame.com
+#DOMAIN,api.sobot.com
+#DOMAIN,up-hl.3g.qq.com
+#DOMAIN-SUFFIX,biligame.com
 
 #bytedance
 DOMAIN,dig.bdurl.net
@@ -140,8 +140,8 @@ DOMAIN,statwup.huya.com
 DOMAIN,ad2.fivecdm.com
 
 #JD
-DOMAIN,dgstatic.jd.com
-DOMAIN,im-x.jd.com
+#DOMAIN,dgstatic.jd.com
+#DOMAIN,im-x.jd.com
 
 #快手
 DOMAIN,open.e.kuaishou.com
@@ -158,7 +158,7 @@ DOMAIN-SUFFIX,ad.xiaomi.com
 #网易
 DOMAIN,gorgon.youdao.com
 DOMAIN,nex.163.com
-DOMAIN,statistic.live.126.net
+#DOMAIN,statistic.live.126.net
 
 #蜻蜓FM
 DOMAIN,adlaunch.qingting.fm
@@ -182,7 +182,7 @@ DOMAIN,pgdt.gtimg.cn
 DOMAIN,pingma.qq.com
 DOMAIN,qzs.gdtimg.com
 DOMAIN,safebrowsing.urlsec.qq.com
-DOMAIN,static.yky.qq.com
+#DOMAIN,static.yky.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
