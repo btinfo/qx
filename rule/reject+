@@ -20,8 +20,8 @@ DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,jiguang.cn
-DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,jpush.io
+#DOMAIN-SUFFIX,jpush.cn
+#DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,krxd.net
 DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,lngtd.com
