@@ -23,21 +23,20 @@ DOMAIN-SUFFIX,yadro.ru
 DOMAIN,appgoad.189.cn
 DOMAIN,appupdate.189.cn
 
+#10010#ZTN
+DOMAIN,ad.10010.com
+DOMAIN,pushservice.10010.com
+DOMAIN,smartad.10010.com
 #10010
-DOMAIN,ad.10010.com //ZTN
-DOMAIN,pushservice.10010.com //ZTN
-DOMAIN,smartad.10010.com //ZTN
 DOMAIN,analytics2.10010.com
 #DOMAIN,unilog.wostore.cn
 
-#alibaba
-#HAA: Hangzhou Alibaba Advertising
+#alibaba#HAA: Hangzhou Alibaba Advertising
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,amdc.m.taobao.com
 DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,h-adashx.ut.taobao.com
-
 DOMAIN-SUFFIX,appsflyer-cn.com
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,mob.com
@@ -45,9 +44,10 @@ DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN,ad.cyapi.cn //caiyun
 DOMAIN,umdc.aliapp.org
-#ZTN: Zhejiang Taobao Network
 
-#高德地图
+#alibaba#ZTN: Zhejiang Taobao Network
+
+#alibaba#高德地图
 DOMAIN,adashx.ut.amap.com
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
@@ -88,16 +88,13 @@ DOMAIN,sofire.baidu.com
 DOMAIN,wkctj.baidu.com
 DOMAIN,zz.bdstatic.com
 
-#bilibili
-#DOMAIN,api.sobot.com
-#DOMAIN,up-hl.3g.qq.com
-#DOMAIN-SUFFIX,biligame.com
-
+#bytedance#HAA
+DOMAIN,dig.bdurl.net
+#bytedance#ZTN
+DOMAIN,extlog.snssdk.com
+DOMAIN,i.snssdk.com
+DOMAIN,sf3-ttcdn-tos.pstatp.com
 #bytedance
-DOMAIN,dig.bdurl.net //HAA
-DOMAIN,extlog.snssdk.com //ZTN
-DOMAIN,i.snssdk.com //ZTN
-DOMAIN,sf3-ttcdn-tos.pstatp.com //ZTN
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
@@ -136,10 +133,6 @@ DOMAIN-SUFFIX,jiguang.cn
 
 #计步器
 DOMAIN,ad2.fivecdm.com
-
-#JD
-#DOMAIN,dgstatic.jd.com
-#DOMAIN,im-x.jd.com
 
 #快手
 DOMAIN,open.e.kuaishou.com
