@@ -50,8 +50,8 @@ sed -i '/^is.snssdk.com$/d' "$des"/src/reject_v2fly
 reject_ko_origin ()
 {  
 cd "$des"||exit
-grep '^||.*\*' filter_25.txt|sed 's/\^//g'|sed 's/||/host-wildcard,/g'|sort -u > src/reject_ko_origin
-grep '^||' filter_25.txt|grep -v '\*'|sed 's/\^//g'|sed 's/||/host-suffix,/g'|sort -u >> src/reject_ko_origin
+grep '^||.*\*' filter_25.txt|sed 's/\^//g'|sed 's/||/HOST-WILDCARD,/g'|sort -u > src/reject_ko_origin
+grep '^||' filter_25.txt|grep -v '\*'|sed 's/\^//g'|sed 's/||/HOST-SUFFIX,/g'|sort -u >> src/reject_ko_origin
 rm -f filter_25.txt
 }
 

@@ -1,6 +1,6 @@
-HOST-SUFFIX,github.com,Github
-HOST-SUFFIX,github.io,Github
-HOST-SUFFIX,githubapp.com,Github
-HOST-SUFFIX,githubassets.com,Github
-HOST-SUFFIX,githubusercontent.com,Github
-HOST-KEYWORD,github,Github
+DOMAIN-SUFFIX,github.com,Github
+DOMAIN-SUFFIX,github.io,Github
+DOMAIN-SUFFIX,githubapp.com,Github
+DOMAIN-SUFFIX,githubassets.com,Github
+DOMAIN-SUFFIX,githubusercontent.com,Github
+DOMAIN-KEYWORD,github,Github
