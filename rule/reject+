@@ -46,20 +46,18 @@ DOMAIN,analytics2.10010.com
 
 #alibaba
 #HAA: Hangzhou Alibaba Advertising
-#DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
-#DOMAIN,beacon-api.aliyuncs.com
-#DOMAIN,adashx.m.taobao.com
-#DOMAIN,amdc.m.taobao.com
-#DOMAIN,h-adashx.ut.taobao.com
-#DOMAIN,umdc.aliapp.org
-#DOMAIN-SUFFIX,shuzilm.cn
-#DOMAIN-SUFFIX,appsflyer-cn.com
-#DOMAIN-SUFFIX,inmobi.cn
-#DOMAIN-SUFFIX,mob.com
-#DOMAIN-SUFFIX,tianmu.mobi
-#DOMAIN,dig.bdurl.net
-#DOMAIN,ad.cyapi.cn //caiyun
-
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+DOMAIN,beacon-api.aliyuncs.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,amdc.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,umdc.aliapp.org
+DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,appsflyer-cn.com
+DOMAIN-SUFFIX,inmobi.cn
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,tianmu.mobi
+DOMAIN,ad.cyapi.cn //caiyun
 #ZTN: Zhejiang Taobao Network
 
 #高德地图
@@ -96,6 +94,7 @@ DOMAIN,zz.bdstatic.com
 #DOMAIN-SUFFIX,biligame.com
 
 #bytedance
+DOMAIN,dig.bdurl.net //HAA
 DOMAIN,extlog.snssdk.com //ZTN
 DOMAIN,i.snssdk.com //ZTN
 DOMAIN,sf3-ttcdn-tos.pstatp.com //ZTN
