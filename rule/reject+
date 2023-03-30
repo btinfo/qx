@@ -47,17 +47,18 @@ DOMAIN,analytics2.10010.com
 #alibaba
 #HAA: Hangzhou Alibaba Advertising
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
-DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,amdc.m.taobao.com
+DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,h-adashx.ut.taobao.com
-DOMAIN,umdc.aliapp.org
-DOMAIN-SUFFIX,shuzilm.cn
+
 DOMAIN-SUFFIX,appsflyer-cn.com
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN,ad.cyapi.cn //caiyun
+DOMAIN,umdc.aliapp.org
 #ZTN: Zhejiang Taobao Network
 
 #高德地图
