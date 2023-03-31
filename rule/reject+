@@ -1,3 +1,7 @@
+#BAC#Beijing Alibaba Cloud Computing
+#HAA#Hangzhou Alibaba Advertising
+#ZTN#Zhejiang Taobao Network
+
 #general
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,akamaihd.net
@@ -11,48 +15,9 @@ DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,yadro.ru
 
-#10000
-DOMAIN,appgoad.189.cn
-DOMAIN,appupdate.189.cn
-
-#10010#ZTN
-DOMAIN,ad.10010.com
-DOMAIN,pushservice.10010.com
-DOMAIN,smartad.10010.com
-#10010
-DOMAIN,analytics2.10010.com
-#DOMAIN,unilog.wostore.cn
-
-#alibaba#BAC#Beijing Alibaba Cloud Computing
-#DOMAIN,applog.uc.cn
-DOMAIN,assets.growingio.com
-DOMAIN,log.umtrack.com
-DOMAIN,px.ucweb.com
-DOMAIN-SUFFIX,adkwai.com
-DOMAIN-SUFFIX,dutils.com
-#alibaba#HAA#Hangzhou Alibaba Advertising
-DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
-DOMAIN,adashx.m.taobao.com
-#DOMAIN,amdc.m.taobao.com
-DOMAIN,beacon-api.aliyuncs.com
-DOMAIN,h-adashx.ut.taobao.com
-DOMAIN-SUFFIX,appsflyer-cn.com
-DOMAIN-SUFFIX,inmobi.cn
-DOMAIN-SUFFIX,mob.com
-DOMAIN-SUFFIX,shuzilm.cn
-DOMAIN-SUFFIX,tianmu.mobi
-DOMAIN,ad.cyapi.cn //caiyun
-DOMAIN,umdc.aliapp.org
-#alibaba#ZTN#Zhejiang Taobao Network
-
-#alibaba#高德地图#BAC
-DOMAIN,adashx.ut.amap.com
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,awaken.amap.com
-
 #amazon
 #DOMAIN,adt.xdrig.com //fck
-DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com
+DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,appsflyer.com
@@ -70,6 +35,71 @@ DOMAIN-SUFFIX,vidazoo.com
 #DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 
+#google
+DOMAIN,ads.instal.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+
+#yahoo
+DOMAIN,data.flurry.com
+
+#10000
+DOMAIN,appgoad.189.cn
+DOMAIN,appupdate.189.cn
+
+#10010#ZTN
+DOMAIN,ad.10010.com
+DOMAIN,pushservice.10010.com
+DOMAIN,smartad.10010.com
+#10010
+DOMAIN,analytics2.10010.com
+#DOMAIN,unilog.wostore.cn
+
+#alibaba#BAC
+#DOMAIN,applog.uc.cn
+DOMAIN,assets.growingio.com
+DOMAIN,log.umtrack.com
+DOMAIN,px.ucweb.com
+DOMAIN-SUFFIX,adkwai.com
+DOMAIN-SUFFIX,dutils.com
+
+#alibaba#HAA
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+DOMAIN,adashx.m.taobao.com
+#DOMAIN,amdc.m.taobao.com
+DOMAIN,beacon-api.aliyuncs.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN-SUFFIX,appsflyer-cn.com
+DOMAIN-SUFFIX,inmobi.cn
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,tianmu.mobi
+DOMAIN,ad.cyapi.cn //caiyun
+DOMAIN,umdc.aliapp.org
+
+#alibaba#高德地图#BAC
+DOMAIN,adashx.ut.amap.com
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
+
+#alibaba#虎牙#BAC
+DOMAIN,business.msstatic.com
+DOMAIN,cdnfile1.msstatic.com
+DOMAIN,livewebbs2.msstatic.com
+#alibaba#虎牙
+DOMAIN,e-ad-monitor.huya.com
+DOMAIN,fileserver.cdn.huya.com
+DOMAIN,kiwistatic.huya.com
+DOMAIN,statwup.huya.com
+
 #baidu
 DOMAIN,bgg.baidu.com
 DOMAIN,bj.bcebos.com
@@ -86,58 +116,33 @@ DOMAIN,sofire.baidu.com
 DOMAIN,wkctj.baidu.com
 DOMAIN,zz.bdstatic.com
 
-#bytedance#HAA
-DOMAIN,dig.bdurl.net
-#bytedance#ZTN
-DOMAIN,extlog.snssdk.com
-DOMAIN,i.snssdk.com
-DOMAIN,sf3-ttcdn-tos.pstatp.com
 #bytedance
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
+#bytedance#HAA
+DOMAIN,dig.bdurl.net
+#bytedance#ZTN
+DOMAIN,extlog.snssdk.com
+DOMAIN,i.snssdk.com
+DOMAIN,sf3-ttcdn-tos.pstatp.com
 
 #懂球帝
 DOMAIN,ap.dongqiudi.com
-
-#google
-DOMAIN,ads.instal.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,doubleclick-cn.net
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-
-#虎牙
-DOMAIN,business.msstatic.com
-DOMAIN,cdnfile1.msstatic.com
-DOMAIN,livewebbs2.msstatic.com
-DOMAIN,e-ad-monitor.huya.com
-DOMAIN,fileserver.cdn.huya.com
-DOMAIN,kiwistatic.huya.com
-DOMAIN,statwup.huya.com
 
 #huawei
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jiguang.cn
 
-#计步器
+#pedometer#计步器
 DOMAIN,ad2.fivecdm.com
 
 #快手
 DOMAIN,open.e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
-
-#酷我
-DOMAIN,splashimgbssdl.yun.kugou.com
 
 #米家
 DOMAIN,cdn.exp.xiaomi.com
@@ -156,7 +161,7 @@ DOMAIN,ad.qtfm.cn
 #DOMAIN,upload-up.qtfm.cn
 #capi-zhibo.qtfm.cn
 
-#腾讯
+#tencent
 DOMAIN,btrace.qq.com
 DOMAIN,cloud.tgpa.qq.com
 DOMAIN,h.trace.qq.com
@@ -178,6 +183,9 @@ DOMAIN,qzs.gdtimg.com
 DOMAIN,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,tingyun.com
+
+#tencent#酷我
+DOMAIN,splashimgbssdl.yun.kugou.com
 
 #tidal
 DOMAIN,sdk.iad-03.braze.com
@@ -205,9 +213,6 @@ DOMAIN,gallery.fbcontent.cn
 DOMAIN,leo-online.fbcontent.cn
 DOMAIN,leo.fbcontent.cn
 DOMAIN,oapi.yuanfudao.com
-
-#yahoo
-DOMAIN,data.flurry.com
 
 #央视频
 DOMAIN,btrace.yangshipin.cn
