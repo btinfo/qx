@@ -7,7 +7,7 @@ DOMAIN,adimage.hankookilbo.com,REJECT
 DOMAIN,ad.khan.co.kr,REJECT
 DOMAIN,ad.mrab.co.kr,REJECT
 DOMAIN,ad.reople.co.kr,REJECT
-DOMAIN,ad.smartinmedia.co.kr
+DOMAIN,ad.smartinmedia.co.kr,REJECT
 DOMAIN,adservice.hani.co.kr,REJECT
 DOMAIN,ads.kmib.co.kr,REJECT
 DOMAIN,adtg.widerplanet.com,REJECT
