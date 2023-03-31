@@ -1,22 +1,18 @@
 #general
 #DOMAIN,applog.uc.cn
 DOMAIN,assets.growingio.com
-DOMAIN,log.umtrack.com
-DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,addtoany.com
-DOMAIN-SUFFIX,adkwai.com
-DOMAIN-SUFFIX,akamaihd.net //tm
+DOMAIN-SUFFIX,akamaihd.net
 #DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
-DOMAIN-SUFFIX,dutils.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,krxd.net
-DOMAIN-SUFFIX,outbrain.com //tm
+DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,taboola.com
-DOMAIN-SUFFIX,vungle.com //akam
+DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,yadro.ru
 
 #10000
@@ -31,7 +27,12 @@ DOMAIN,smartad.10010.com
 DOMAIN,analytics2.10010.com
 #DOMAIN,unilog.wostore.cn
 
-#alibaba#HAA: Hangzhou Alibaba Advertising
+#alibaba#BAC#Beijing Alibaba Cloud Computing
+DOMAIN,log.umtrack.com
+DOMAIN,px.ucweb.com
+DOMAIN-SUFFIX,adkwai.com
+DOMAIN-SUFFIX,dutils.com
+#alibaba#HAA#Hangzhou Alibaba Advertising
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,amdc.m.taobao.com
@@ -44,10 +45,9 @@ DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,tianmu.mobi
 DOMAIN,ad.cyapi.cn //caiyun
 DOMAIN,umdc.aliapp.org
+#alibaba#ZTN#Zhejiang Taobao Network
 
-#alibaba#ZTN: Zhejiang Taobao Network
-
-#alibaba#高德地图
+#alibaba#高德地图#BAC
 DOMAIN,adashx.ut.amap.com
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
@@ -159,24 +159,25 @@ DOMAIN,ad.qtfm.cn
 #capi-zhibo.qtfm.cn
 
 #腾讯
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,ad.tencentmusic.com
 DOMAIN,btrace.qq.com
 DOMAIN,cloud.tgpa.qq.com
-DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,h.trace.qq.com
 DOMAIN,ios.bugly.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,otheve.beacon.qq.com
-DOMAIN,pgdt.gtimg.cn
 DOMAIN,pingma.qq.com
-DOMAIN,qzs.gdtimg.com
 DOMAIN,safebrowsing.urlsec.qq.com
 #DOMAIN,static.yky.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
+
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,qzs.gdtimg.com
+DOMAIN,fp-it.fengkongcloud.com
 DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,tingyun.com
 
