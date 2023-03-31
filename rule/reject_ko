@@ -14,6 +14,8 @@ DOMAIN,adtg.widerplanet.com,REJECT
 DOMAIN,ad.tjtune.com,REJECT
 DOMAIN,ad.tpmn.co.kr,REJECT
 DOMAIN,adv.imadrep.co.kr,REJECT
+DOMAIN,adv.khan.co.kr,REJECT
+DOMAIN,advimg.khan.co.kr,REJECT
 DOMAIN-SUFFIX,2mdn.net,REJECT
 DOMAIN-SUFFIX,3lift.com,REJECT
 DOMAIN-SUFFIX,acrosspf.com,REJECT
