@@ -13,8 +13,8 @@ DOMAIN,app.appsflyer.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 
 #Alibaba
-DOMAIN,log.mmstat.com,DIRECT
-DOMAIN,sycm.mmstat.com,DIRECT
+#DOMAIN,log.mmstat.com,DIRECT
+#DOMAIN,sycm.mmstat.com,DIRECT
 
 #Google
 DOMAIN-SUFFIX,blog.google,DIRECT
