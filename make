@@ -55,6 +55,18 @@ grep '^||' filter_25.txt|grep -v '\*'|sed 's/\^//g'|sed 's/||/HOST-SUFFIX,/g'|so
 rm -f filter_25.txt
 }
 
+all () {
+  cd "$des"||exit
+  {
+    cat direct_pin|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
+    cat reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat reject_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat proxy_apps|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
+    cat proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
+    cat direct+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
+  } > all
+}
+
 readme () {
 cd $des||exit
 grep -Ecv --exclude-dir=src "^$|#" *|awk -F: '{print $2,$1}'|column -t >../README
@@ -62,5 +74,6 @@ grep -Ecv --exclude-dir=src "^$|#" *|awk -F: '{print $2,$1}'|column -t >../READM
 
 reject_v2fly
 reject_ko_origin
+all
 readme
 
