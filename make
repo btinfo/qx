@@ -7,7 +7,7 @@ cd "$src"||exit;git pull
 #cd $des;git pull
 
 cd "$des"||exit
-curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|cut -d: -f2 > src/reject_v2fly_all
+curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|cut -d: -f2|sort -u > src/reject_v2fly_all
 [[ -s src/reject_v2fly_all ]] || exit 1
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt > filter_25.txt
 [[ -s filter_25.txt ]] || exit 1
