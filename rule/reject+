@@ -1,6 +1,4 @@
 #general
-#DOMAIN,applog.uc.cn
-DOMAIN,assets.growingio.com
 DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,applovin.com
@@ -26,6 +24,8 @@ DOMAIN,analytics2.10010.com
 #DOMAIN,unilog.wostore.cn
 
 #alibaba#BAC#Beijing Alibaba Cloud Computing
+#DOMAIN,applog.uc.cn
+DOMAIN,assets.growingio.com
 DOMAIN,log.umtrack.com
 DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,adkwai.com
