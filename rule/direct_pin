@@ -12,10 +12,6 @@ DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
 
-#Alibaba
-#DOMAIN,log.mmstat.com
-#DOMAIN,sycm.mmstat.com
-
 #Google
 DOMAIN-SUFFIX,blog.google
 DOMAIN-SUFFIX,googletraveladservices.com
@@ -40,8 +36,3 @@ DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
-
-#Umeng
-#DOMAIN,errlog.umeng.com
-#DOMAIN,msg.umeng.com
-#DOMAIN,msg.umengcloud.com
