@@ -53,7 +53,7 @@ DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
 
 #amazon
-DOMAIN,adt.xdrig.com
+#DOMAIN,adt.xdrig.com //fck
 DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,anythinktech.com
