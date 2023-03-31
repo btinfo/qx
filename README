@@ -1,6 +1,6 @@
-81   apps
-10   direct+
-24   direct_pin
+5    direct+
+31   direct_pin
 73   proxy+
+81   proxy_apps
 151  reject+
 44   reject_ko
