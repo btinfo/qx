@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,dutils.com
 #alibaba#HAA#Hangzhou Alibaba Advertising
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
-DOMAIN,amdc.m.taobao.com
+#DOMAIN,amdc.m.taobao.com
 DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,appsflyer-cn.com
