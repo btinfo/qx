@@ -5,6 +5,7 @@
 #Telegram
 #Tidal
 #Twitter
+#Wikipedia
 #Youtube
 
 #Apple
@@ -90,6 +91,11 @@ DOMAIN-SUFFIX,twitter.jp,Twitter
 DOMAIN-SUFFIX,vine.co,Twitter
 DOMAIN-KEYWORD,twitter,Twitter
 
+#Wikipedia
+DOMAIN-SUFFIX,wikidata.org,Global
+DOMAIN-SUFFIX,wikimedia.org,Global
+DOMAIN-SUFFIX,wikipedia.org,Global
+
 #Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
 DOMAIN,yt3.ggpht.com,Youtube
@@ -105,3 +111,11 @@ DOMAIN-SUFFIX,youtubekids.com,Youtube
 DOMAIN-SUFFIX,yt.be,Youtube
 DOMAIN-SUFFIX,ytimg.com,Youtube
 DOMAIN-KEYWORD,youtube,Youtube
+
+#Others
+DOMAIN-SUFFIX,appraven.net,Global
+DOMAIN-SUFFIX,fileball.app,Global
+DOMAIN-SUFFIX,photosync-app.com,Global
+DOMAIN-SUFFIX,quantumult.app,Global
+DOMAIN-SUFFIX,rsshub.app,Global
+DOMAIN-SUFFIX,workingcopyapp.com,Global

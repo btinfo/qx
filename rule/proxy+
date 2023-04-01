@@ -5,19 +5,6 @@ DOMAIN,pki.goog
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,digicert.com
 
-#wikipedia
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
-
-#apps
-DOMAIN-SUFFIX,appraven.net
-DOMAIN-SUFFIX,fileball.app
-DOMAIN-SUFFIX,photosync-app.com
-DOMAIN-SUFFIX,quantumult.app
-DOMAIN-SUFFIX,rsshub.app
-DOMAIN-SUFFIX,workingcopyapp.com
-
 #domains
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
