@@ -27,6 +27,7 @@ DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
 DOMAIN,vi.l.qq.com,DIRECT
+DOMAIN-SUFFIX,addthisedge.com,REJECT
 DOMAIN-SUFFIX,addtoany.com,REJECT
 DOMAIN-SUFFIX,akamaihd.net,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
@@ -306,7 +307,7 @@ DOMAIN-SUFFIX,ytimg.com,Youtube
 DOMAIN-KEYWORD,youtube,Youtube
 DOMAIN,testflight.apple.com,Global
 DOMAIN,pki.goog,Global
-DOMAIN,r3.o.lencr.org,Global
+DOMAIN-SUFFIX,lencr.org,Global
 DOMAIN-SUFFIX,digicert.com,Global
 DOMAIN-SUFFIX,wikidata.org,Global
 DOMAIN-SUFFIX,wikimedia.org,Global
@@ -330,6 +331,7 @@ DOMAIN,bgp.he.net,Global
 DOMAIN,filebox-douban.vercel.app,Global
 DOMAIN,mail.cock.li,Global
 DOMAIN,m.hotmail.com,Global
+DOMAIN,reader.zlibcdn.com,Global
 DOMAIN-SUFFIX,1lib.at,Global
 DOMAIN-SUFFIX,bing.com,Global
 DOMAIN-SUFFIX,chinadigitaltimes.net,Global
