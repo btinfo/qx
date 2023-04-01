@@ -62,6 +62,9 @@ DOMAIN-SUFFIX,voanews.com
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 
+#movie
+DOMAIN,vip7.fzwdyy.cn
+
 #keyword
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.facebook.
