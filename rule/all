@@ -354,6 +354,7 @@ DOMAIN-SUFFIX,voachinese.com,Global
 DOMAIN-SUFFIX,voanews.com,Global
 DOMAIN-SUFFIX,wsj.com,Global
 DOMAIN-SUFFIX,wsj.net,Global
+DOMAIN,vip7.fzwdyy.cn,Global
 DOMAIN-KEYWORD,google,Global
 DOMAIN-KEYWORD,.facebook.,Global
 DOMAIN-SUFFIX,de,Global
@@ -379,6 +380,13 @@ IP-ASN,32934,Global
 IP-ASN,54113,Global
 IP-ASN,136907,Global
 IP-ASN,396982,Global
+IP-ASN,2914,Global
+IP-ASN,3462,Global
+IP-ASN,8068,Global
+IP-ASN,13333,Global
+IP-ASN,40065,Global
+IP-ASN,54600,Global
+IP-ASN,64050,Global
 DOMAIN,api.revenuecat.com,DIRECT
 DOMAIN-SUFFIX,ppsimg.com,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
