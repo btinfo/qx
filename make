@@ -7,12 +7,17 @@ cd "$src"||exit;git pull
 #cd $des;git pull
 
 cd "$des"||exit
-curl -fsL https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js|sed 's/🇹🇼/🇼🇸/g' >../js/resource-parser.js
-[[ -s ../js/resource-parser.js ]] || exit 1
 curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|cut -d: -f2|sort -u > src/reject_v2fly_all
 [[ -s src/reject_v2fly_all ]] || exit 1
 curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt > filter_25.txt
 [[ -s filter_25.txt ]] || exit 1
+
+parser () {
+cd "$des"/../js||exit
+curl -fsL https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js > resource-parser.js
+[[ -s resource-parser.js ]] || exit
+patch -p0 < patch.txt
+}
 
 reject_v2fly ()
 {
@@ -74,6 +79,7 @@ cd "$des"||exit
 grep -Ecv --exclude-dir=src "^$|#" -- *|awk -F: '{print $2,$1}'|column -t >../README
 }
 
+parser
 reject_v2fly
 reject_ko_origin
 all
