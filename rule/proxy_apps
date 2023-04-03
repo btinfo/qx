@@ -8,6 +8,9 @@
 #Wikipedia
 #Youtube
 
+#Google Search
+DOMAIN-KEYWORD,www.google.,US
+
 #Apple
 DOMAIN-SUFFIX,aaplimg.com,Apple
 DOMAIN-SUFFIX,apple.co,Apple
