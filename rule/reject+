@@ -66,11 +66,11 @@ DOMAIN,analytics2.10010.com
 
 #alibaba#BAC
 #DOMAIN,applog.uc.cn
-DOMAIN,assets.growingio.com
 DOMAIN,log.umtrack.com
 DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,growingio.com
 
 #alibaba#HAA
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
