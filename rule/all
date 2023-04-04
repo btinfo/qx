@@ -71,11 +71,11 @@ DOMAIN,ad.10010.com,REJECT
 DOMAIN,pushservice.10010.com,REJECT
 DOMAIN,smartad.10010.com,REJECT
 DOMAIN,analytics2.10010.com,REJECT
-DOMAIN,assets.growingio.com,REJECT
 DOMAIN,log.umtrack.com,REJECT
 DOMAIN,px.ucweb.com,REJECT
 DOMAIN-SUFFIX,adkwai.com,REJECT
 DOMAIN-SUFFIX,dutils.com,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,beacon-api.aliyuncs.com,REJECT

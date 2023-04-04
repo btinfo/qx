@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-04-03 14:00⟧
+☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-04-04 14:30⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: https://t.me/Shawn_Parser_Bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -1054,6 +1054,7 @@ function URX2QX(subs) {
 function SCP2QX(subs) {
   var nrw = []
   var rw = ""
+  var RewriteK = [" url 302", " url 307", " url reject", " url script", " url req", " url res", " url echo", " url-and-header 302", " url-and-header 307", " url-and-header reject", " url-and-header script", " url-and-header req", " url-and-header res", " url-and-header echo"] // quantumult X 类型 rewrite
   subs = subs.split("\n").map(x => x.trim().replace(/\s+/g," "))
   //$notify("Script","",subs)
   for (var i = 0; i < subs.length; i++) {
@@ -1068,7 +1069,8 @@ function SCP2QX(subs) {
       var NoteK = ["//", "#", ";"]; //排除注释项
       const sccheck = (item) => subs[i].indexOf(item) != -1
       const notecheck = (item) => subs[i].indexOf(item) == 0
-      if (!NoteK.some(notecheck)){
+      const RewriteCheck = (item) => subs[i].indexOf(item) != -1 ; // quanx 重写判定
+      if (!NoteK.some(notecheck) && !RewriteK.some(RewriteCheck)){
         if (SC.every(sccheck)) { // surge js 新格式
           ptn = subs[i].replace(/\s/gi,"").split("pattern=")[1].split(",")[0]
           js = subs[i].replace(/\s/gi,"").split("script-path=")[1].split(",")[0]
@@ -1115,7 +1117,7 @@ function SCP2QX(subs) {
         } else if(subs[i].indexOf(" - reject") != -1 ) { //shadowrocket reject
           rw = subs[i].replace(" - ", " url ")
           nrw.push(rw)
-        } else if(/\s(reject)$/.test(subs[i])){ // loon 类型？ http://xxx/yyy reject
+        } else if(subs[i].split(" ").length == 2 && /\s(reject)$/.test(subs[i])){ // loon 类型？ http://xxx/yyy reject
           rw = subs[i].replace(" reject", " url reject")
           nrw.push(rw)
         } else if (subs[i].indexOf("script-path") != -1) { //surge js 旧写法
@@ -1135,9 +1137,10 @@ function SCP2QX(subs) {
           if (type != "") {
             rw = ptn + " url " + type + js
             nrw.push(rw)
-          }
-          
+          } 
         }
+      } else if(RewriteK.some(RewriteCheck)) {
+        nrw.push(subs[i])
       }
     } catch (err) {
       $notify("❌️解析此条时出现错误，已忽略",subs[i],err)
@@ -1145,6 +1148,7 @@ function SCP2QX(subs) {
   }
   return nrw
 }
+
 // 如果 URL-Regex 跟 rewrite/script 都需要
 function SGMD2QX(subs) {
     var nrw0 = URX2QX(subs)
@@ -2199,7 +2203,7 @@ function isQuanXRewrite(content) {
       if (cnti.indexOf("pattern")!=-1 && cnti.indexOf("type")!=-1 || cnti.indexOf("http-r")!=-1) {
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
         //console.log(cnti)
-      }else if ((cnti.indexOf(" 302")!=-1 || cnti.indexOf(" 307")!=-1 || (/\s(_|-)\sreject/.test(cnti)) || (/\sreject$/.test(cnti))) && cnti.indexOf(" url ")==-1 ){
+      }else if ((cnti.indexOf(" 302")!=-1 || cnti.indexOf(" 307")!=-1 || (/\s(_|-)\sreject/.test(cnti)) || (/\sreject$/.test(cnti))) && cnti.indexOf(" url ")==-1 && cnti.indexOf(" url-and-header ")==-1 ){
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
         //console.log("sss",cnti)
       }else if(cnti.indexOf(" data=")!=-1){
@@ -2492,6 +2496,7 @@ function get_emoji(emojip, sname) {
     "🇲🇦": ["摩洛哥", "Morocco"],
     "🇪🇨": ["厄瓜多尔","EC", "Ecuador"],
     "🇲🇺": ["毛里求斯", "Mauritius"],
+    "🇵🇷": ["波多黎各", "PR ", "PR-", "Puerto Rico"],
     "🇬🇹": ["危地马拉", " GT "],
     "🇭🇰": ["HK", "Hongkong", "Hong Kong", "HongKong", "HONG KONG","香港", "深港", "沪港", "呼港", "HKT", "HKBN", "HGC", "WTT", "CMI", "穗港", "京港", "港"],
     "🇨🇳": ["CN", "China", "回国", "中国","中國", "江苏", "北京", "上海", "广州", "深圳", "杭州", "徐州", "青岛", "宁波", "镇江", "back"],
