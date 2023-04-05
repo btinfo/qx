@@ -1,13 +1,3 @@
-#Apple
-#Github
-#Instagram
-#Spotify
-#Telegram
-#Tidal
-#Twitter
-#Wikipedia
-#Youtube
-
 #Google Search
 DOMAIN-KEYWORD,www.google.,US
 
@@ -114,12 +104,3 @@ DOMAIN-SUFFIX,youtubekids.com,Youtube
 DOMAIN-SUFFIX,yt.be,Youtube
 DOMAIN-SUFFIX,ytimg.com,Youtube
 DOMAIN-KEYWORD,youtube,Youtube
-
-#Others
-DOMAIN-SUFFIX,appraven.net,Global
-DOMAIN-SUFFIX,fileball.app,Global
-DOMAIN-SUFFIX,flightradar24.com,Global
-DOMAIN-SUFFIX,photosync-app.com,Global
-DOMAIN-SUFFIX,quantumult.app,Global
-DOMAIN-SUFFIX,rsshub.app,Global
-DOMAIN-SUFFIX,workingcopyapp.com,Global

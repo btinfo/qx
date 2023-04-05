@@ -1,3 +1,13 @@
+#apps
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,fileball.app
+DOMAIN-SUFFIX,flightradar24.com
+DOMAIN-SUFFIX,photosync-app.com
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,workingcopyapp.com
+
 #apple
 DOMAIN,testflight.apple.com
 #apple-related
@@ -6,6 +16,11 @@ DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,digicert.com
 
 #domains
+DOMAIN,bgp.he.net
+DOMAIN,filebox-douban.vercel.app
+DOMAIN,in.appcenter.ms
+DOMAIN,mail.cock.li
+DOMAIN,m.hotmail.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -16,14 +31,6 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,usertrust.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN,17hibo.com
-DOMAIN,bgp.he.net
-DOMAIN,filebox-douban.vercel.app
-DOMAIN,in.appcenter.ms
-DOMAIN,m.hotmail.com
-DOMAIN,mail.cock.li
-DOMAIN,www.wuchajian.tv
 
 #sites
 DOMAIN,reader.zlibcdn.com
@@ -52,8 +59,10 @@ DOMAIN-SUFFIX,voanews.com
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 
-#movie
+#media
 DOMAIN,vip7.fzwdyy.cn
+DOMAIN,17hibo.com
+DOMAIN,www.wuchajian.tv
 
 #keyword
 DOMAIN-KEYWORD,google
