@@ -120,7 +120,6 @@ DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,extlog.snssdk.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
-DOMAIN,ap.dongqiudi.com,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
