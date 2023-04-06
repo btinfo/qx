@@ -131,7 +131,7 @@ DOMAIN,i.snssdk.com
 DOMAIN,sf3-ttcdn-tos.pstatp.com
 
 #懂球帝
-DOMAIN,ap.dongqiudi.com
+#DOMAIN,ap.dongqiudi.com
 
 #huawei
 DOMAIN-SUFFIX,jpush.cn
