@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,vidazoo.com
 
 #apple
-#DOMAIN,api-adservices.apple.com
+DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 
 #google
