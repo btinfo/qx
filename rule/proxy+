@@ -24,6 +24,7 @@ DOMAIN,mail.cock.li
 DOMAIN,m.hotmail.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,digitalcertvalidation.com
 DOMAIN-SUFFIX,gmail.com
