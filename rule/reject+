@@ -156,9 +156,9 @@ DOMAIN,nex.163.com
 #DOMAIN,statistic.live.126.net
 
 #蜻蜓FM
-DOMAIN,adlaunch.qingting.fm
-DOMAIN,ad.qingting.fm
-DOMAIN,ad.qtfm.cn
+#DOMAIN,adlaunch.qingting.fm
+#DOMAIN,ad.qingting.fm
+#DOMAIN,ad.qtfm.cn
 #DOMAIN,upload-up.qtfm.cn
 #capi-zhibo.qtfm.cn
 
