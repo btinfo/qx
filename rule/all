@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,popin.cc,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN-SUFFIX,vidazoo.com,REJECT
+DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN,ads.instal.com,REJECT
 DOMAIN-SUFFIX,app-measurement.com,REJECT
@@ -316,6 +317,7 @@ DOMAIN-SUFFIX,quantumult.app,Global
 DOMAIN-SUFFIX,rsshub.app,Global
 DOMAIN-SUFFIX,whatsapp.net,Global
 DOMAIN-SUFFIX,workingcopyapp.com,Global
+DOMAIN,itunes.com,Global
 DOMAIN,testflight.apple.com,Global
 DOMAIN,pki.goog,Global
 DOMAIN-SUFFIX,lencr.org,Global
@@ -327,6 +329,7 @@ DOMAIN,mail.cock.li,Global
 DOMAIN,m.hotmail.com,Global
 DOMAIN-SUFFIX,amazonaws.com,Global
 DOMAIN-SUFFIX,amazontrust.com,Global
+DOMAIN-SUFFIX,cloudflare.com,Global
 DOMAIN-SUFFIX,cloudfront.net,Global
 DOMAIN-SUFFIX,digitalcertvalidation.com,Global
 DOMAIN-SUFFIX,gmail.com,Global
