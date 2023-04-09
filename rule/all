@@ -132,9 +132,6 @@ DOMAIN,tracking.miui.com,REJECT
 DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
 DOMAIN,nex.163.com,REJECT
-DOMAIN,adlaunch.qingting.fm,REJECT
-DOMAIN,ad.qingting.fm,REJECT
-DOMAIN,ad.qtfm.cn,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,cloud.tgpa.qq.com,REJECT
 DOMAIN,h.trace.qq.com,REJECT
@@ -175,7 +172,6 @@ DOMAIN,btrace.yangshipin.cn,REJECT
 DOMAIN,btrace.ysp.cctv.cn,REJECT
 DOMAIN,mtrace.ysp.cctv.cn,REJECT
 DOMAIN,midas.yangshipin.cn,REJECT
-DOMAIN-SUFFIX,cmgadx.com,REJECT
 DOMAIN,ad.aceplanet.co.kr,REJECT
 DOMAIN,ad.adinc.kr,REJECT
 DOMAIN,adex.ednplus.com,REJECT

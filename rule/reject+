@@ -130,9 +130,6 @@ DOMAIN,extlog.snssdk.com
 DOMAIN,i.snssdk.com
 DOMAIN,sf3-ttcdn-tos.pstatp.com
 
-#懂球帝
-#DOMAIN,ap.dongqiudi.com
-
 #huawei
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
@@ -220,4 +217,3 @@ DOMAIN,btrace.yangshipin.cn
 DOMAIN,btrace.ysp.cctv.cn
 DOMAIN,mtrace.ysp.cctv.cn
 DOMAIN,midas.yangshipin.cn
-#DOMAIN-SUFFIX,cmgadx.com
