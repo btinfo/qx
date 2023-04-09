@@ -23,8 +23,8 @@ crashlytics.com
 criteo.com
 ctobsnssdk.com
 data.flurry.com
-doubleclick.net
-doubleclick-cn.net
+#doubleclick.net
+#doubleclick-cn.net
 dualstack-logs.amap.com
 dxp.baidu.com
 e.qq.com
@@ -32,7 +32,7 @@ eu-1-id5-sync.com
 #fcp.codes
 gdt.qq.com
 gifshow.com
-google-analytics.com
+#google-analytics.com
 gorgon.youdao.com
 growingio.com
 h-adashx.ut.taobao.com
