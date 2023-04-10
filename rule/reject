@@ -26,8 +26,8 @@ cl2009.com
 crashlytics.com
 ctobsnssdk.com
 data.flurry.com
-doubleclick.net
-doubleclick-cn.net
+#doubleclick.net
+#doubleclick-cn.net
 dualstack-logs.amap.com
 dutils.com
 dxp.baidu.com
@@ -35,9 +35,13 @@ e.qq.com
 eu-1-id5-sync.com
 gdt.qq.com
 gifshow.com
+googleads.g.doubleclick-cn.net
+googleads.g.doubleclick.net
+pubads.g.doubleclick.net
+pagead2.googlesyndication.com
 google-analytics.com
 googleadservices.com
-googlesyndication.com
+#googlesyndication.com
 gorgon.youdao.com
 growingio.com
 h-adashx.ut.taobao.com
@@ -56,6 +60,7 @@ jiguang.cn
 jpush.cn
 krxd.net
 kstj.baidu.com
+l.qq.com
 lkme.cc
 lngtd.com
 log.umsns.com
