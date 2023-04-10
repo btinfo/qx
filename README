@@ -1,7 +1,7 @@
-399  all
+362  all
 5    direct+
 29   direct_pin
 87   proxy+
 85   proxy_apps
-145  reject+
+108  reject
 48   reject_ko
