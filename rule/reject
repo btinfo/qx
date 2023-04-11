@@ -116,6 +116,8 @@ ad2.fivecdm.com
 #netease
 gorgon.youdao.com
 nex.163.com
+59.111.239.61/32
+59.111.239.62/32
 
 #tencent
 adsmind.gdtimg.com
@@ -131,6 +133,7 @@ safebrowsing.urlsec.qq.com
 
 biligame.com
 btrace.ysp.cctv.cn
+fp-it.fengkongcloud.com
 lkme.cc
 midas.yangshipin.cn
 mtrace.ysp.cctv.cn
