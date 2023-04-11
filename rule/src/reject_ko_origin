@@ -3,6 +3,7 @@ HOST-WILDCARD,adservice.google.co.*
 HOST-WILDCARD,ads-*.v.ssp.yahoo.com
 HOST-WILDCARD,ad*.thisisgame.com
 HOST-WILDCARD,ad*.wisenut.co.kr
+HOST-WILDCARD,iad-*.braze.com
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,33across.com
 HOST-SUFFIX,360yield.com
@@ -84,6 +85,7 @@ HOST-SUFFIX,adnxs.com
 HOST-SUFFIX,adop.cc
 HOST-SUFFIX,ad.phaserep.com
 HOST-SUFFIX,ad.planbplus.co.kr
+HOST-SUFFIX,adplatform-cdn.baemin.com
 HOST-SUFFIX,adplex.co.kr
 HOST-SUFFIX,adpnut.com
 HOST-SUFFIX,adpopcorn.com
