@@ -119,6 +119,9 @@ DOMAIN,extlog.snssdk.com
 DOMAIN,i.snssdk.com
 DOMAIN,sf3-ttcdn-tos.pstatp.com
 
+#dongqiudi
+183.232.25.151/32
+
 #huawei
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
