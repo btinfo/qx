@@ -182,18 +182,18 @@ DOMAIN,alog.umeng.com
 DOMAIN,alog.umengcloud.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
-DOMAIN,w.cnzz.com
-DOMAIN,z.gds.cnzz.com
+#DOMAIN,w.cnzz.com
+#DOMAIN,z.gds.cnzz.com
 #DOMAIN-SUFFIX,umsns.com
 
 #微信
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
+#DOMAIN,wxsnsdy.wxs.qq.com
+#DOMAIN,wxsnsdythumb.wxs.qq.com
 
 #wps
-DOMAIN,honeycomb.wpscdn.cn
-DOMAIN,momsg.wps.cn
-DOMAIN-SUFFIX,testplus.cn
+#DOMAIN,honeycomb.wpscdn.cn
+#DOMAIN,momsg.wps.cn
+#DOMAIN-SUFFIX,testplus.cn
 
 #小猿口算
 DOMAIN,gallery.fbcontent.cn
