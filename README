@@ -1,4 +1,4 @@
-354  all
+358  all
 5    direct
 29   direct_pin
 88   proxy
@@ -6,4 +6,4 @@
 117  reject
 131  reject+
 48   reject_ko
-99   reject_m
+103  reject_m
