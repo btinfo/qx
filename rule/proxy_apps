@@ -39,6 +39,10 @@ DOMAIN-SUFFIX,fbcdn.net,Instagram
 DOMAIN-SUFFIX,fbsbx.com,Instagram
 DOMAIN-KEYWORD,instagram,Instagram
 
+#Pinterest
+DOMAIN-SUFFIX,pinterest.com,Global
+DOMAIN-SUFFIX,pinimg.com,Global
+
 #Spotify
 DOMAIN-SUFFIX,pscdn.co,Spotify
 DOMAIN-SUFFIX,scdn.co,Spotify
