@@ -36,3 +36,9 @@ DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
+
+#umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,errlog.umeng.com
+DOMAIN,errnewlog.umeng.com
