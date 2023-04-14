@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,vas-hl-x.snssdk.com,REJECT
 DOMAIN-SUFFIX,sf16-static.i18n-pglstatp.com,REJECT
 DOMAIN-SUFFIX,cl2009.com,REJECT
 DOMAIN-SUFFIX,adservice.sigmob.cn,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,sofire.bdstatic.com,REJECT
