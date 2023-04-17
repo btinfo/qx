@@ -30,6 +30,10 @@ rayjump.com
 api-adservices.apple.com
 iadsdk.apple.com
 
+#applovin-ads
+applovin.com
+applvn.com
+
 #baidu
 bgg.baidu.com
 dxp.baidu.com
@@ -48,38 +52,38 @@ sofire.bdstatic.com
 zz.bdstatic.com
 
 #bytedance
+#snssdk
 ctobsnssdk.com
-dig.bdurl.net
 i.snssdk.com
 pangolin16.sgsnssdk.com
-pangolin-sdk-toutiao-b.com
-pangolin-sdk-toutiao.com
-pglstatp-toutiao.com
-sf16-static.i18n-pglstatp.com
 stream.snssdk.com
 tnc16-alisg.isnssdk.com
 vas-hl-x.snssdk.com
 
-#Cloudflare
-applovin.com
-applvn.com
+dig.bdurl.net
+pangolin-sdk-toutiao-b.com
+pangolin-sdk-toutiao.com
+pglstatp-toutiao.com
+sf16-static.i18n-pglstatp.com
 
 #dongqiudi
-183.232.25.151/32,no-resolve
+183.232.25.151/32
 
 #google
-ads.instal.com
-app-measurement.com
 adservice.google.com
 adservice.google.ie
-crashlytics.com
-doubleclick-cn.net
-doubleclick.net
 google-analytics.com
 googleadservices.com
 googlesyndication.com
 googletagmanager.com
 googletagservices.com
+
+ads.instal.com
+app-measurement.com
+crashlytics.com
+doubleclick-cn.net
+doubleclick.net
+
 unityads.unity3d.com
 unityads.unity.cn //alibaba
 unityads.unitychina.cn //tencent
