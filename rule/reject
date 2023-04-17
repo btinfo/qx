@@ -69,6 +69,9 @@ sf16-static.i18n-pglstatp.com
 #dongqiudi
 183.232.25.151/32
 
+#flurry-ads
+data.flurry.com
+
 #google
 adservice.google.com
 adservice.google.ie
@@ -159,7 +162,6 @@ appupdate.189.cn
 #undefine
 ad2.fivecdm.com
 assets.growingio.com
-data.flurry.com
 dutils.com
 getui.com
 iad-03.braze.com
