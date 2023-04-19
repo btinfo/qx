@@ -86,8 +86,12 @@ DOMAIN-SUFFIX,uk
 
 #asn
 IP-ASN,714 // 🇺🇸Apple Inc.
+IP-ASN,2914 // 🇺🇸NTT America, Inc.
+IP-ASN,3462 // 🇼🇸Data Communication Business Group
 IP-ASN,6185 // 🇺🇸APPLE-AUSTIN
+IP-ASN,8068 // 🇺🇸Microsoft Corporation
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
+IP-ASN,13333 // 🇺🇸Consolidated Communications, Inc.
 IP-ASN,13335 // 🇺🇸Cloudflare, Inc.
 IP-ASN,13414 // 🇺🇸Twitter Inc.
 IP-ASN,15169 // 🇺🇸Google LLC
@@ -97,17 +101,16 @@ IP-ASN,19679 // 🇺🇸Dropbox, Inc.
 IP-ASN,20940 // 🇳🇱Akamai International B.V.
 IP-ASN,23576 // 🇰🇷NAVER Cloud Corp.
 IP-ASN,32934 // 🇺🇸Facebook, Inc.
+IP-ASN,40065 // 🇺🇸CNSERVERS LLC
 IP-ASN,54113 // 🇺🇸Fastly, Inc.
+IP-ASN,54600 // 🇺🇸PEG TECH INC
+IP-ASN,64050 // 🇸🇬BGPNET Global ASN
 IP-ASN,136907 // 🇭🇰HUAWEI CLOUDS
 IP-ASN,396982 // 🇺🇸Google LLC
 
 #asn backup
-IP-ASN,2914 // 🇺🇸NTT America, Inc.
-IP-ASN,3462 // 🇼🇸Data Communication Business Group
 #IP-ASN,4230 // 🇧🇷CLARO S.A.
-IP-ASN,8068 // 🇺🇸Microsoft Corporation
 #IP-ASN,9009 // 🇷🇴M247 Europe SRL
-IP-ASN,13333 // 🇺🇸Consolidated Communications, Inc.
 #IP-ASN,14061 // 🇺🇸DigitalOcean, LLC
 #IP-ASN,14618 // 🇺🇸Amazon.com, Inc.
 #IP-ASN,15133 // 🇺🇸EdgeCast Networks Inc.
@@ -116,16 +119,13 @@ IP-ASN,13333 // 🇺🇸Consolidated Communications, Inc.
 #IP-ASN,29423 // 🇩🇪gridscale GmbH
 #IP-ASN,36351 // 🇺🇸SoftLayer Technologies Inc.
 #IP-ASN,38099 // 🇰🇷Kakao Corp
-IP-ASN,40065 // 🇺🇸CNSERVERS LLC
 #IP-ASN,48447 // 🇬🇧Sectigo Limited
 #IP-ASN,49453 // 🇳🇱Global Layer B.V.
-IP-ASN,54600 // 🇺🇸PEG TECH INC
 #IP-ASN,54994 // 🇺🇸QUANTIL NETWORKS INC
 #IP-ASN,58722 // 🇸🇬51 JALAN LANJUT
 #IP-ASN,59507 // 🇩🇪terralink networks GmbH
 #IP-ASN,60068 // 🇬🇧Datacamp Limited
 #IP-ASN,63949 // 🇸🇬Akamai Connected Cloud
-IP-ASN,64050 // 🇸🇬BGPNET Global ASN
 #IP-ASN,142403 // 🇭🇰YISU CLOUD LTD
 #IP-ASN,197019 // 🇨🇿WEDOS Internet, a.s.
 #IP-ASN,200019 // 🇲🇩ALEXDOMAIN SRL
