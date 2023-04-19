@@ -1,182 +1,181 @@
 #undefine
-ad2.fivecdm.com
-assets.growingio.com
-dutils.com
-gepush.com
-getui.com
-getui.net
-iad-03.braze.com
-krxd.net
-scorecardresearch.com
+DOMAIN,ad2.fivecdm.com
+DOMAIN,assets.growingio.com
+DOMAIN,iad-03.braze.com
+DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,krxd.net
+DOMAIN-SUFFIX,scorecardresearch.com
 
 #alibaba
-adash-emas.cn-hangzhou.aliyuncs.com
-adashx.m.taobao.com
-beacon-api.aliyuncs.com
-h-adashx.ut.taobao.com
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,beacon-api.aliyuncs.com
+DOMAIN,h-adashx.ut.taobao.com
 
-adservice.sigmob.cn
-dc.sigmob.cn
-api.th.wanzjhb.com
-cl2009.com
-inmobi.cn
-px.ucweb.com
-shuzilm.cn
-sobot.com
-tianmu.mobi
+DOMAIN,adservice.sigmob.cn
+DOMAIN,api.th.wanzjhb.com
+DOMAIN,dc.sigmob.cn
+DOMAIN,px.ucweb.com
+DOMAIN-SUFFIX,cl2009.com
+DOMAIN-SUFFIX,inmobi.cn
+DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,sobot.com
+DOMAIN-SUFFIX,tianmu.mobi
 
 #amap
-adashx.ut.amap.com
-amap-aos-info-nogw.amap.com
-awaken.amap.com
+DOMAIN,adashx.ut.amap.com
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
 
 #amazon
-ads.api.vungle.com
-anythinktech.com
-appsflyer-cn.com //alibaba
-appsflyer.com
-china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
-rayjump.com
+DOMAIN,ads.api.vungle.com
+DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
+DOMAIN-SUFFIX,anythinktech.com
+DOMAIN-SUFFIX,appsflyer-cn.com //alibaba
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,rayjump.com
 
 #apple
-api-adservices.apple.com
-iadsdk.apple.com
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
 
 #applovin-ads
-applovin.com
-applvn.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
 
 #baidu
-bgg.baidu.com
-dxp.baidu.com
-hm.baidu.com
-hmma.baidu.com
-kstj.baidu.com
-mbd.baidu.com
-mobads.baidu.com
-nsclick.baidu.com
-sofire.baidu.com
-wkctj.baidu.com
+DOMAIN,bgg.baidu.com
+DOMAIN,dxp.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,kstj.baidu.com
+DOMAIN,mbd.baidu.com
+DOMAIN,mobads.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,sofire.baidu.com
+DOMAIN,wkctj.baidu.com
 
-bj.bcebos.com
-cpro.baidustatic.com
-sofire.bdstatic.com
-zz.bdstatic.com
+DOMAIN,bj.bcebos.com
+DOMAIN,cpro.baidustatic.com
+DOMAIN,sofire.bdstatic.com
+DOMAIN,zz.bdstatic.com
 
 #bytedance-snssdk
-ctobsnssdk.com
-i.snssdk.com
-pangolin16.sgsnssdk.com
-stream.snssdk.com
-tnc16-alisg.isnssdk.com
-vas-hl-x.snssdk.com
+DOMAIN,i.snssdk.com
+DOMAIN,stream.snssdk.com
+DOMAIN,tnc16-alisg.isnssdk.com
+DOMAIN,vas-hl-x.snssdk.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pangolin16.sgsnssdk.com
 
 #bytedance-toutiao
-pangolin-sdk-toutiao-b.com
-pangolin-sdk-toutiao.com
-pglstatp-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
 
 #bytedance
-dig.bdurl.net
-sf16-static.i18n-pglstatp.com
+DOMAIN,dig.bdurl.net
+DOMAIN,sf16-static.i18n-pglstatp.com
 
 #dongqiudi
-183.232.25.151/32
+IP-CIDR,183.232.25.151/32
 
 #flurry-ads
-data.flurry.com
+DOMAIN,data.flurry.com
 
 #google
-adservice.google.com
-adservice.google.ie
-google-analytics.com
-googleadservices.com
-googlesyndication.com
-googletagmanager.com
-googletagservices.com
+DOMAIN,adservice.google.com
+DOMAIN,adservice.google.ie
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
 
-ads.instal.com
-app-measurement.com
-crashlytics.com
-doubleclick-cn.net
-doubleclick.net
-
-unityads.unity3d.com
-unityads.unity.cn //alibaba
-unityads.unitychina.cn //tencent
+DOMAIN,ads.instal.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,unityads.unity.cn //alibaba
+DOMAIN-SUFFIX,unityads.unitychina.cn //tencent
 
 #huawei
-jiguang.cn
-jpush.cn
-jpush.io
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
 
 #kuaishou
-gdfp.gifshow.com
-open.e.kuaishou.com
+DOMAIN,gdfp.gifshow.com
+DOMAIN,open.e.kuaishou.com
 
 #netease
-gorgon.youdao.com
-nex.163.com
-static.ws.126.net
+DOMAIN,gorgon.youdao.com
+DOMAIN,nex.163.com
+DOMAIN,static.ws.126.net
 
 #sohu
-pv.sohu.com
+DOMAIN,pv.sohu.com
 
 #tencent
-#cloud.tgpa.qq.com
-#dns.weixin.qq.com.cn
-e.qq.com
-gdt.qq.com
-h.trace.qq.com
-ios.bugly.qq.com
-l.qq.com
-mtrace.qq.com
-pingma.qq.com
-safebrowsing.urlsec.qq.com
-yun-hl.3g.qq.com
+#DOMAIN,cloud.tgpa.qq.com
+#DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,h.trace.qq.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,pingma.qq.com
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
 
-adkwai.com
-ad.tencentmusic.com
-biligame.com
-fp-it.fengkongcloud.com
-lkme.cc
-pgdt.gtimg.cn
-qzs.gdtimg.com
-tingyun.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,fp-it.fengkongcloud.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,qzs.gdtimg.com
+DOMAIN-SUFFIX,adkwai.com
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,lkme.cc
+DOMAIN-SUFFIX,tingyun.com
 
 #TransferMarkt
-boltdns.net
-outbrain.com
-vidazoo.com
+DOMAIN-SUFFIX,boltdns.net
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,vidazoo.com
 
 #umeng
-umeng.com
-umengcloud.com
-umsns.com
-umtrack.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,umtrack.com
 
 #xiaomi
-ad.xiaomi.com
-cdn.exp.xiaomi.com
-tracking.miui.com
+DOMAIN,ad.xiaomi.com
+DOMAIN,cdn.exp.xiaomi.com
+DOMAIN,tracking.miui.com
 
 #小天才
-dgstatic.jd.com
-eebbk.net
-static.oper.tiancaixing.com
-static-assets-shop-prod.okii.com
+DOMAIN,dgstatic.jd.com
+DOMAIN,static-assets-shop-prod.okii.com
+DOMAIN,static.oper.tiancaixing.com
+DOMAIN-SUFFIX,eebbk.net
 
 #ysp
-btrace.ysp.cctv.cn
-midas.yangshipin.cn
-mtrace.ysp.cctv.cn
+DOMAIN,btrace.ysp.cctv.cn
+DOMAIN,midas.yangshipin.cn
+DOMAIN,mtrace.ysp.cctv.cn
 
 #yuanfudao
-gallery.fbcontent.cn
-leo-online.fbcontent.cn
-leo.fbcontent.cn
-oapi.yuanfudao.com
+DOMAIN,gallery.fbcontent.cn
+DOMAIN,leo-online.fbcontent.cn
+DOMAIN,leo.fbcontent.cn
+DOMAIN,oapi.yuanfudao.com
 
 #10000
-appgoad.189.cn
-appupdate.189.cn
+DOMAIN,appgoad.189.cn
+DOMAIN,appupdate.189.cn

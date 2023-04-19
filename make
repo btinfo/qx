@@ -44,7 +44,7 @@ all () {
   cd "$des"/rule||exit
   {
     cat <direct|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
-    cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/^/DOMAIN-SUFFIX,&/g'|sed 's/$/&,REJECT/g'
+    cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     #cat <reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/^/DOMAIN-SUFFIX,&/g'|sed 's/$/&,REJECT/g'
     cat <proxy|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
     cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
