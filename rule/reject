@@ -1,11 +1,6 @@
 #undefine
 DOMAIN,ad2.fivecdm.com
 DOMAIN,assets.growingio.com
-DOMAIN,iad-03.braze.com
-DOMAIN-SUFFIX,dutils.com
-DOMAIN-SUFFIX,gepush.com
-DOMAIN-SUFFIX,getui.com
-DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,krxd.net
 DOMAIN-SUFFIX,scorecardresearch.com
 
@@ -20,6 +15,10 @@ DOMAIN,api.th.wanzjhb.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,cl2009.com
+DOMAIN-SUFFIX,dutils.com
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,sobot.com
@@ -33,6 +32,7 @@ DOMAIN,awaken.amap.com
 #amazon
 DOMAIN,ads.api.vungle.com
 DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com //ftchinese
+DOMAIN,iad-03.braze.com //tidal
 DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,appsflyer-cn.com //alibaba
 DOMAIN-SUFFIX,appsflyer.com

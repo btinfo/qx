@@ -33,11 +33,6 @@ DOMAIN,errlog.umeng.com,DIRECT
 DOMAIN,errnewlog.umeng.com,DIRECT
 DOMAIN,ad2.fivecdm.com,REJECT
 DOMAIN,assets.growingio.com,REJECT
-DOMAIN,iad-03.braze.com,REJECT
-DOMAIN-SUFFIX,dutils.com,REJECT
-DOMAIN-SUFFIX,gepush.com,REJECT
-DOMAIN-SUFFIX,getui.com,REJECT
-DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,krxd.net,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
@@ -49,6 +44,10 @@ DOMAIN,api.th.wanzjhb.com,REJECT
 DOMAIN,dc.sigmob.cn,REJECT
 DOMAIN,px.ucweb.com,REJECT
 DOMAIN-SUFFIX,cl2009.com,REJECT
+DOMAIN-SUFFIX,dutils.com,REJECT
+DOMAIN-SUFFIX,gepush.com,REJECT
+DOMAIN-SUFFIX,getui.com,REJECT
+DOMAIN-SUFFIX,getui.net,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,sobot.com,REJECT
@@ -58,6 +57,7 @@ DOMAIN,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN,awaken.amap.com,REJECT
 DOMAIN,ads.api.vungle.com,REJECT
 DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com,REJECT
+DOMAIN,iad-03.braze.com,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appsflyer-cn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
