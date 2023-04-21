@@ -281,7 +281,6 @@ DOMAIN-SUFFIX,twimg.com,Twitter
 DOMAIN-SUFFIX,twimg.org,Twitter
 DOMAIN-SUFFIX,twitpic.com,Twitter
 DOMAIN-SUFFIX,twitter.com,Twitter
-DOMAIN-SUFFIX,twitter.jp,Twitter
 DOMAIN-SUFFIX,vine.co,Twitter
 DOMAIN-KEYWORD,twitter,Twitter
 DOMAIN-SUFFIX,wikidata.org,Global
@@ -378,7 +377,7 @@ IP-ASN,8068,Global
 IP-ASN,8075,Global
 IP-ASN,13333,Global
 IP-ASN,13335,Global
-IP-ASN,13414,US
+IP-ASN,13414,Global
 IP-ASN,15169,Global
 IP-ASN,16509,Global
 IP-ASN,16625,Global
