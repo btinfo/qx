@@ -47,7 +47,7 @@ all () {
     cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     cat <reject_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     cat <proxy|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
-    cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
+    cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
     cat <direct+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
   } > all
 }
