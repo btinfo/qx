@@ -36,7 +36,7 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIXertrust.com
+DOMAIN-SUFFIX,usertrust.com
 
 #sites
 DOMAIN,reader.zlibcdn.com
