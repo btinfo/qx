@@ -39,10 +39,10 @@ DOMAIN-SUFFIX,sentry.io,Global
 DOMAIN-SUFFIX,usertrust.com,Global
 
 #sites
-DOMAIN,reader.zlibcdn.com,HK
-DOMAIN-SUFFIX,1lib.at,HK
+DOMAIN,reader.zlibcdn.com,Global
+DOMAIN-SUFFIX,1lib.at,Global
 DOMAIN-SUFFIX,bing.com,Global
-DOMAIN-SUFFIX,chinadigitaltimes.net,US
+DOMAIN-SUFFIX,chinadigitaltimes.net,Global
 DOMAIN-SUFFIX,daum.net,KR
 DOMAIN-SUFFIX,kakao.com,KR
 DOMAIN-SUFFIX,naver.com,KR
