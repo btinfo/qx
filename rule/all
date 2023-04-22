@@ -58,6 +58,7 @@ DOMAIN,awaken.amap.com,REJECT
 DOMAIN,ads.api.vungle.com,REJECT
 DOMAIN,china2021.s3.ap-northeast-2.amazonaws.com,REJECT
 DOMAIN,iad-03.braze.com,REJECT
+DOMAIN,pok.mintegral.net,REJECT
 DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appsflyer-cn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
@@ -113,6 +114,7 @@ DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,in.appcenter.ms,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,static.ws.126.net,REJECT
@@ -316,7 +318,6 @@ DOMAIN-SUFFIX,lencr.org,Global
 DOMAIN-SUFFIX,digicert.com,Global
 DOMAIN,bgp.he.net,Global
 DOMAIN,filebox-douban.vercel.app,Global
-DOMAIN,in.appcenter.ms,Global
 DOMAIN,mail.cock.li,Global
 DOMAIN,m.hotmail.com,Global
 DOMAIN,mobile-data.onetrust.io,Global
