@@ -114,6 +114,9 @@ DOMAIN-SUFFIX,jpush.io
 DOMAIN,gdfp.gifshow.com
 DOMAIN,open.e.kuaishou.com
 
+#microsoft
+DOMAIN,in.appcenter.ms
+
 #netease
 DOMAIN,gorgon.youdao.com
 DOMAIN,nex.163.com
