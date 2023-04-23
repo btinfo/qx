@@ -97,7 +97,7 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 
 DOMAIN,ads.instal.com
-DOMAIN-SUFFIX,app-measurement.com
+#DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
