@@ -31,6 +31,7 @@ DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
 DOMAIN,errlog.umeng.com,DIRECT
 DOMAIN,errnewlog.umeng.com,DIRECT
+DOMAIN-SUFFIX,igexin.com,REJECT
 DOMAIN,ad2.fivecdm.com,REJECT
 DOMAIN,assets.growingio.com,REJECT
 DOMAIN-SUFFIX,krxd.net,REJECT
@@ -102,7 +103,6 @@ DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ads.instal.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,crashlytics.com,REJECT
 DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
