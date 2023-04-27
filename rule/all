@@ -31,6 +31,15 @@ DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
 DOMAIN,errlog.umeng.com,DIRECT
 DOMAIN,errnewlog.umeng.com,DIRECT
+DOMAIN,mercury-sdk.snssdk.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN,tnc3-aliec2.zijieapi.com,REJECT
+DOMAIN,tnc11-alisc1.zijieapi.com,REJECT
+DOMAIN,tnc3-bjlgy.zijieapi.com,REJECT
+DOMAIN,tnc11-bjlgy.zijieapi.com,REJECT
+DOMAIN,tnc3-bjlgy.bytedance.com,REJECT
+DOMAIN,unilog.wostore.cn,REJECT
 DOMAIN-SUFFIX,igexin.com,REJECT
 DOMAIN,ad2.fivecdm.com,REJECT
 DOMAIN,assets.growingio.com,REJECT
