@@ -31,6 +31,10 @@ DOMAIN-SUFFIX,githubassets.com,Github
 DOMAIN-SUFFIX,githubusercontent.com,Github
 DOMAIN-KEYWORD,github,Github
 
+#Gitlab
+DOMAIN-SUFFIX,gitlab.com,Github
+DOMAIN-SUFFIX,gitlab.io,Github
+
 #Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Instagram
 DOMAIN-SUFFIX,instagr.am,Instagram
