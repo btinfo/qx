@@ -142,8 +142,8 @@ DOMAIN,mtrace.qq.com
 DOMAIN,pingma.qq.com
 DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN,yun-hl.3g.qq.com
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
+#DOMAIN-SUFFIX,e.qq.com
+#DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 
 DOMAIN,ad.tencentmusic.com
