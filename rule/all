@@ -31,11 +31,6 @@ DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
 DOMAIN,errlog.umeng.com,DIRECT
 DOMAIN,errnewlog.umeng.com,DIRECT
-DOMAIN,mercury-sdk.snssdk.com,REJECT
-DOMAIN,dm.toutiao.com,REJECT
-DOMAIN,dm.bytedance.com,REJECT
-DOMAIN-SUFFIX,zijieapi.com,REJECT
-DOMAIN,tnc3-bjlgy.bytedance.com,REJECT
 DOMAIN,unilog.wostore.cn,REJECT
 DOMAIN-SUFFIX,igexin.com,REJECT
 DOMAIN,ad2.fivecdm.com,REJECT
@@ -70,8 +65,6 @@ DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appsflyer-cn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
-DOMAIN,api-adservices.apple.com,REJECT
-DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
 DOMAIN,bgg.baidu.com,REJECT
@@ -131,8 +124,6 @@ DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 DOMAIN,yun-hl.3g.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
