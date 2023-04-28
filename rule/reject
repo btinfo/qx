@@ -1,9 +1,9 @@
 #undefine
-DOMAIN,mercury-sdk.snssdk.com
-DOMAIN,dm.toutiao.com
-DOMAIN,dm.bytedance.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN,tnc3-bjlgy.bytedance.com
+#DOMAIN,mercury-sdk.snssdk.com
+#DOMAIN,dm.toutiao.com
+#DOMAIN,dm.bytedance.com
+#DOMAIN-SUFFIX,zijieapi.com
+#DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN,unilog.wostore.cn
 
 DOMAIN-SUFFIX,igexin.com
