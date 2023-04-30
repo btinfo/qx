@@ -33,9 +33,9 @@ DOMAIN-SUFFIX,sobot.com
 DOMAIN-SUFFIX,tianmu.mobi
 
 #amap
-DOMAIN,adashx.ut.amap.com
-DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,awaken.amap.com
+#DOMAIN,adashx.ut.amap.com
+#DOMAIN,amap-aos-info-nogw.amap.com
+#DOMAIN,awaken.amap.com
 
 #amazon
 DOMAIN,ads.api.vungle.com
