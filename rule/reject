@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,scorecardresearch.com
 #alibaba
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,adashx.m.taobao.com
-DOMAIN,beacon-api.aliyuncs.com
+#DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,h-adashx.ut.taobao.com
 
 DOMAIN,adservice.sigmob.cn
@@ -48,8 +48,8 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,rayjump.com
 
 #apple
-#DOMAIN,api-adservices.apple.com
-#DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
 
 #applovin
 DOMAIN-SUFFIX,applovin.com
@@ -74,9 +74,9 @@ DOMAIN,zz.bdstatic.com
 
 #bytedance-snssdk
 DOMAIN,i.snssdk.com
-DOMAIN,stream.snssdk.com
-DOMAIN,tnc16-alisg.isnssdk.com
-DOMAIN,vas-hl-x.snssdk.com
+#DOMAIN,stream.snssdk.com
+#DOMAIN,tnc16-alisg.isnssdk.com
+#DOMAIN,vas-hl-x.snssdk.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin16.sgsnssdk.com
 
@@ -110,8 +110,8 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,unityads.unity3d.com
-DOMAIN-SUFFIX,unityads.unity.cn //alibaba
-DOMAIN-SUFFIX,unityads.unitychina.cn //tencent
+DOMAIN-SUFFIX,unityads.unity.cn
+DOMAIN-SUFFIX,unityads.unitychina.cn
 
 #huawei
 DOMAIN-SUFFIX,jiguang.cn
@@ -136,12 +136,12 @@ DOMAIN,pv.sohu.com
 #tencent
 #DOMAIN,cloud.tgpa.qq.com
 #DOMAIN,dns.weixin.qq.com.cn
-DOMAIN,h.trace.qq.com
-DOMAIN,ios.bugly.qq.com
+DOMAIN-SUFFIX,trace.qq.com
+#DOMAIN,ios.bugly.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,pingma.qq.com
-DOMAIN,safebrowsing.urlsec.qq.com
-DOMAIN,yun-hl.3g.qq.com
+#DOMAIN,safebrowsing.urlsec.qq.com
+#DOMAIN,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
