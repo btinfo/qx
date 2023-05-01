@@ -48,8 +48,8 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,rayjump.com
 
 #apple
-DOMAIN,api-adservices.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
+#DOMAIN,api-adservices.apple.com
+#DOMAIN-SUFFIX,iadsdk.apple.com
 
 #applovin
 DOMAIN-SUFFIX,applovin.com
