@@ -147,7 +147,7 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 
 DOMAIN,ad.tencentmusic.com
-DOMAIN,fp-it.fengkongcloud.com
+#DOMAIN,fp-it.fengkongcloud.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,qzs.gdtimg.com
 DOMAIN-SUFFIX,adkwai.com
