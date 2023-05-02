@@ -93,7 +93,7 @@ DOMAIN,sf16-static.i18n-pglstatp.com
 IP-CIDR,183.232.25.151/32
 
 #flurry
-DOMAIN,data.flurry.com
+#DOMAIN,data.flurry.com
 
 #google
 DOMAIN,adservice.google.com
