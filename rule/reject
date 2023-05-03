@@ -89,7 +89,7 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN,dig.bdurl.net
 #DOMAIN,sf16-static.i18n-pglstatp.com
 
-#dongqiudi
+#懂球帝
 IP-CIDR,183.232.25.151/32
 
 #flurry
@@ -168,7 +168,7 @@ DOMAIN-SUFFIX,vidazoo.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 
-#xiaomi
+#米家
 DOMAIN,ad.xiaomi.com
 DOMAIN,cdn.exp.xiaomi.com
 DOMAIN,tracking.miui.com
@@ -179,7 +179,7 @@ DOMAIN,static-assets-shop-prod.okii.com
 DOMAIN,static.oper.tiancaixing.com
 DOMAIN-SUFFIX,eebbk.net
 
-#ysp
+#央视频
 DOMAIN,btrace.ysp.cctv.cn
 DOMAIN,midas.yangshipin.cn
 DOMAIN,mtrace.ysp.cctv.cn
