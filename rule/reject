@@ -74,11 +74,11 @@ DOMAIN,zz.bdstatic.com
 
 #bytedance-snssdk
 DOMAIN,i.snssdk.com
-DOMAIN,stream.snssdk.com
-DOMAIN,tnc16-alisg.isnssdk.com
-DOMAIN,vas-hl-x.snssdk.com
+#DOMAIN,stream.snssdk.com
+#DOMAIN,tnc16-alisg.isnssdk.com
+#DOMAIN,vas-hl-x.snssdk.com
 DOMAIN-SUFFIX,ctobsnssdk.com
-DOMAIN-SUFFIX,pangolin16.sgsnssdk.com
+#DOMAIN-SUFFIX,pangolin16.sgsnssdk.com
 
 #bytedance-toutiao
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
@@ -87,7 +87,7 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 
 #bytedance
 DOMAIN,dig.bdurl.net
-DOMAIN,sf16-static.i18n-pglstatp.com
+#DOMAIN,sf16-static.i18n-pglstatp.com
 
 #dongqiudi
 IP-CIDR,183.232.25.151/32
@@ -114,9 +114,9 @@ DOMAIN-SUFFIX,unityads.unity.cn
 DOMAIN-SUFFIX,unityads.unitychina.cn
 
 #huawei
-#DOMAIN-SUFFIX,jiguang.cn
-#DOMAIN-SUFFIX,jpush.cn
-#DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
 
 #kuaishou
 DOMAIN,gdfp.gifshow.com
@@ -141,7 +141,7 @@ DOMAIN,ios.bugly.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,pingma.qq.com
 #DOMAIN,safebrowsing.urlsec.qq.com
-DOMAIN,yun-hl.3g.qq.com
+#DOMAIN,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
