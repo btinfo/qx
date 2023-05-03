@@ -38,7 +38,7 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 
 #umeng
-DOMAIN,msg.umeng.com
-DOMAIN,msg.umengcloud.com
-DOMAIN,errlog.umeng.com
-DOMAIN,errnewlog.umeng.com
+#DOMAIN,msg.umeng.com
+#DOMAIN,msg.umengcloud.com
+#DOMAIN,errlog.umeng.com
+#DOMAIN,errnewlog.umeng.com
