@@ -6,7 +6,7 @@
 #DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN,unilog.wostore.cn
 
-DOMAIN-SUFFIX,igexin.com
+#DOMAIN-SUFFIX,igexin.com
 DOMAIN,ad2.fivecdm.com
 DOMAIN,assets.growingio.com
 DOMAIN-SUFFIX,krxd.net
@@ -24,9 +24,9 @@ DOMAIN,dc.sigmob.cn
 DOMAIN,px.ucweb.com
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,dutils.com
-DOMAIN-SUFFIX,gepush.com
-DOMAIN-SUFFIX,getui.com
-DOMAIN-SUFFIX,getui.net
+#DOMAIN-SUFFIX,gepush.com
+#DOMAIN-SUFFIX,getui.com
+#DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,sobot.com
@@ -114,9 +114,9 @@ DOMAIN-SUFFIX,unityads.unity.cn
 DOMAIN-SUFFIX,unityads.unitychina.cn
 
 #huawei
-DOMAIN-SUFFIX,jiguang.cn
-DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,jpush.io
+#DOMAIN-SUFFIX,jiguang.cn
+#DOMAIN-SUFFIX,jpush.cn
+#DOMAIN-SUFFIX,jpush.io
 
 #kuaishou
 DOMAIN,gdfp.gifshow.com
@@ -161,10 +161,10 @@ DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,vidazoo.com
 
 #umeng
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,umsns.com
-DOMAIN-SUFFIX,umtrack.com
+#DOMAIN-SUFFIX,umeng.com
+#DOMAIN-SUFFIX,umengcloud.com
+#DOMAIN-SUFFIX,umsns.com
+#DOMAIN-SUFFIX,umtrack.com
 
 #xiaomi
 DOMAIN,ad.xiaomi.com
