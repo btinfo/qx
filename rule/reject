@@ -165,6 +165,8 @@ DOMAIN-SUFFIX,vidazoo.com
 #DOMAIN-SUFFIX,umengcloud.com
 #DOMAIN-SUFFIX,umsns.com
 #DOMAIN-SUFFIX,umtrack.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,ulogs.umengcloud.com
 
 #xiaomi
 DOMAIN,ad.xiaomi.com
