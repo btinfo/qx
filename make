@@ -58,7 +58,7 @@ readme () {
 }
 
 parser
-reject_v2fly
+#reject_v2fly
 reject_ko_origin
 all
 readme
