@@ -174,6 +174,10 @@ DOMAIN,ad.xiaomi.com
 DOMAIN,cdn.exp.xiaomi.com
 DOMAIN,tracking.miui.com
 
+#微信公众号列表
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+
 #小天才
 DOMAIN,dgstatic.jd.com
 DOMAIN,static-assets-shop-prod.okii.com
