@@ -1,7 +1,7 @@
-382  all
+384  all
 29   direct
 5    direct+
 88   proxy
 90   proxy+
-113  reject
+115  reject
 57   reject_ko

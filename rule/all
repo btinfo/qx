@@ -127,6 +127,8 @@ DOMAIN,ulogs.umengcloud.com,REJECT
 DOMAIN,ad.xiaomi.com,REJECT
 DOMAIN,cdn.exp.xiaomi.com,REJECT
 DOMAIN,tracking.miui.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,static-assets-shop-prod.okii.com,REJECT
 DOMAIN,static.oper.tiancaixing.com,REJECT
