@@ -1,7 +1,8 @@
-384  all
+382  all
 29   direct
 5    direct+
 88   proxy
-90   proxy+
-115  reject
+91   proxy+
+112  reject
 57   reject_ko
+4    txad

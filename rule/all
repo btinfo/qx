@@ -108,12 +108,9 @@ DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,ios.bugly.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN-SUFFIX,adkwai.com,REJECT
 DOMAIN-SUFFIX,biligame.com,REJECT
@@ -303,6 +300,7 @@ DOMAIN-SUFFIX,lencr.org,Global
 DOMAIN-SUFFIX,digicert.com,Global
 DOMAIN,bgp.he.net,Global
 DOMAIN,filebox-douban.vercel.app,Global
+DOMAIN,in.appcenter.ms,Global
 DOMAIN,mail.cock.li,Global
 DOMAIN,m.hotmail.com,Global
 DOMAIN,mobile-data.onetrust.io,Global
