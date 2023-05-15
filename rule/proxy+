@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,flightradar24.com
+DOMAIN-SUFFIX,ipsw.me
 DOMAIN-SUFFIX,jetphotos.com //flightradar
 DOMAIN-SUFFIX,photosync-app.com
 DOMAIN-SUFFIX,quantumult.app
@@ -31,6 +32,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cookielaw.org
 DOMAIN-SUFFIX,digitalcertvalidation.com
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,microsoftonline.com
@@ -47,6 +49,7 @@ DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.net
+DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,transfermarkt.com
 
 #news
@@ -56,6 +59,7 @@ DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,chosun.com
 DOMAIN-SUFFIX,donga.com
 DOMAIN-SUFFIX,dw.com
+DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,hankookilbo.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytimes.com

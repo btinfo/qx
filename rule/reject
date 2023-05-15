@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,rayjump.com
 
 #apple
+DOMAIN,apple-finance.query.yahoo.com
 DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 
