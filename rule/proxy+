@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.net
 DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,transfermarkt.com
+DOMAIN-SUFFIX,transfermarkt.technology
 
 #news
 DOMAIN-SUFFIX,aljazeera.net
