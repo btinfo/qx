@@ -140,6 +140,7 @@ DOMAIN,pv.sohu.com
 #DOMAIN,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN,ios.bugly.qq.com
+DOMAIN,btrace.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,pingma.qq.com
 #DOMAIN,safebrowsing.urlsec.qq.com
