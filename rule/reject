@@ -178,10 +178,10 @@ DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 
 #小天才
-DOMAIN,dgstatic.jd.com
-DOMAIN,static-assets-shop-prod.okii.com
-DOMAIN,static.oper.tiancaixing.com
-DOMAIN-SUFFIX,eebbk.net
+#DOMAIN,dgstatic.jd.com
+#DOMAIN,static-assets-shop-prod.okii.com
+#DOMAIN,static.oper.tiancaixing.com
+#DOMAIN-SUFFIX,eebbk.net
 
 #央视频
 DOMAIN,btrace.ysp.cctv.cn
