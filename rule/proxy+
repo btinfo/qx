@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cookielaw.org
 DOMAIN-SUFFIX,digitalcertvalidation.com
-DOMAIN-SUFFIX,ggpht.com
+#DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,microsoftonline.com

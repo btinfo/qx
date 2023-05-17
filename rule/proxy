@@ -99,7 +99,8 @@ DOMAIN-SUFFIX,wikipedia.org,Global
 
 #Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
-DOMAIN,yt3.ggpht.com,Youtube
+#DOMAIN,yt3.ggpht.com,Youtube
+DOMAIN-SUFFIX,ggpht.com,Youtube
 DOMAIN-SUFFIX,googlevideo.com,Youtube
 DOMAIN-SUFFIX,gvt2.com,Youtube
 DOMAIN-SUFFIX,withyoutube.com,Youtube
