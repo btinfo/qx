@@ -1,10 +1,3 @@
-DOMAIN-SUFFIX,local,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,224.0.0.0/4,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,app.appsflyer.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
@@ -54,6 +47,7 @@ DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appsflyer-cn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN,apple-finance.query.yahoo.com,REJECT
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
@@ -106,6 +100,7 @@ DOMAIN,static.ws.126.net,REJECT
 DOMAIN,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,ios.bugly.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
@@ -126,10 +121,6 @@ DOMAIN,cdn.exp.xiaomi.com,REJECT
 DOMAIN,tracking.miui.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,dgstatic.jd.com,REJECT
-DOMAIN,static-assets-shop-prod.okii.com,REJECT
-DOMAIN,static.oper.tiancaixing.com,REJECT
-DOMAIN-SUFFIX,eebbk.net,REJECT
 DOMAIN,btrace.ysp.cctv.cn,REJECT
 DOMAIN,midas.yangshipin.cn,REJECT
 DOMAIN,mtrace.ysp.cctv.cn,REJECT
@@ -271,7 +262,7 @@ DOMAIN-SUFFIX,wikidata.org,Global
 DOMAIN-SUFFIX,wikimedia.org,Global
 DOMAIN-SUFFIX,wikipedia.org,Global
 DOMAIN,youtubei.googleapis.com,Youtube
-DOMAIN,yt3.ggpht.com,Youtube
+DOMAIN-SUFFIX,ggpht.com,Youtube
 DOMAIN-SUFFIX,googlevideo.com,Youtube
 DOMAIN-SUFFIX,gvt2.com,Youtube
 DOMAIN-SUFFIX,withyoutube.com,Youtube
@@ -287,6 +278,7 @@ DOMAIN-KEYWORD,youtube,Youtube
 DOMAIN-SUFFIX,appraven.net,Global
 DOMAIN-SUFFIX,fileball.app,Global
 DOMAIN-SUFFIX,flightradar24.com,Global
+DOMAIN-SUFFIX,ipsw.me,Global
 DOMAIN-SUFFIX,jetphotos.com,Global
 DOMAIN-SUFFIX,photosync-app.com,Global
 DOMAIN-SUFFIX,quantumult.app,Global
@@ -299,6 +291,7 @@ DOMAIN,pki.goog,Global
 DOMAIN-SUFFIX,lencr.org,Global
 DOMAIN-SUFFIX,digicert.com,Global
 DOMAIN,bgp.he.net,Global
+DOMAIN,cdn.jsdelivr.net,Global
 DOMAIN,filebox-douban.vercel.app,Global
 DOMAIN,in.appcenter.ms,Global
 DOMAIN,mail.cock.li,Global
@@ -325,13 +318,16 @@ DOMAIN-SUFFIX,daum.net,Global
 DOMAIN-SUFFIX,kakao.com,Global
 DOMAIN-SUFFIX,naver.com,Global
 DOMAIN-SUFFIX,naver.net,Global
+DOMAIN-SUFFIX,pstatic.net,Global
 DOMAIN-SUFFIX,transfermarkt.com,Global
+DOMAIN-SUFFIX,transfermarkt.technology,Global
 DOMAIN-SUFFIX,aljazeera.net,Global
 DOMAIN-SUFFIX,appledaily.com,Global
 DOMAIN-SUFFIX,bbc.com,Global
 DOMAIN-SUFFIX,chosun.com,Global
 DOMAIN-SUFFIX,donga.com,Global
 DOMAIN-SUFFIX,dw.com,Global
+DOMAIN-SUFFIX,ftchinese.com,Global
 DOMAIN-SUFFIX,hankookilbo.com,Global
 DOMAIN-SUFFIX,nyt.com,Global
 DOMAIN-SUFFIX,nytimes.com,Global
