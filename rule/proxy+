@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,digicert.com
 
 #domains
 DOMAIN,bgp.he.net
+DOMAIN,cdn.jsdelivr.net
 DOMAIN,filebox-douban.vercel.app
 DOMAIN,in.appcenter.ms
 DOMAIN,mail.cock.li
