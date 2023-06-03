@@ -120,6 +120,16 @@ DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
 
+#alibaba#虎牙#BAC
+DOMAIN,business.msstatic.com
+DOMAIN,cdnfile1.msstatic.com
+DOMAIN,livewebbs2.msstatic.com
+#alibaba#虎牙
+DOMAIN,e-ad-monitor.huya.com
+DOMAIN,fileserver.cdn.huya.com
+DOMAIN,kiwistatic.huya.com
+DOMAIN,statwup.huya.com
+
 #kuaishou
 DOMAIN,gdfp.gifshow.com
 DOMAIN,open.e.kuaishou.com
