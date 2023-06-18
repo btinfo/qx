@@ -59,10 +59,15 @@ DOMAIN,hmma.baidu.com,REJECT
 DOMAIN,kstj.baidu.com,REJECT
 DOMAIN,mbd.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,caclick.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,sofire.baidu.com,REJECT
 DOMAIN,wkctj.baidu.com,REJECT
+DOMAIN-SUFFIX,als.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN,bj.bcebos.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,cpro.baidustatic.com,REJECT
 DOMAIN,sofire.bdstatic.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
@@ -70,6 +75,7 @@ DOMAIN,i.snssdk.com,REJECT
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
 IP-CIDR,183.232.25.151/32,REJECT
