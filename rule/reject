@@ -129,6 +129,9 @@ DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.io
 
+#虎扑
+DOMAIN,goblin.hupu.com
+
 #kuaishou
 DOMAIN,gdfp.gifshow.com
 DOMAIN,open.e.kuaishou.com
