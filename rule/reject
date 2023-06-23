@@ -97,6 +97,9 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN,dig.bdurl.net
 #DOMAIN,sf16-static.i18n-pglstatp.com
 
+#财新
+DOMAIN,gg.caixin.com
+
 #懂球帝
 IP-CIDR,183.232.25.151/32
 
