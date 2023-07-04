@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,appsflyer-cn.com //alibaba
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,rayjump.com
+DOMAIN-SUFFIX,amazon-adsystem.com
 
 #apple
 DOMAIN,apple-finance.query.yahoo.com
