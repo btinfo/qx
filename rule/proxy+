@@ -76,6 +76,10 @@ DOMAIN,vip7.fzwdyy.cn
 DOMAIN,17hibo.com
 DOMAIN,www.wuchajian.tv
 
+#chatGPT
+DOMAIN,api.openai.com
+DOMAIN,worldtimeapi.org
+
 #keyword
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.facebook.
