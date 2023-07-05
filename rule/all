@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,anythinktech.com,REJECT
 DOMAIN-SUFFIX,appsflyer-cn.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN,apple-finance.query.yahoo.com,REJECT
 DOMAIN,api-adservices.apple.com,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -78,6 +79,7 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
+DOMAIN,gg.caixin.com,REJECT
 IP-CIDR,183.232.25.151/32,REJECT
 DOMAIN,data.flurry.com,REJECT
 DOMAIN,adservice.google.com,REJECT
@@ -98,6 +100,7 @@ DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
+DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
@@ -193,7 +196,6 @@ DOMAIN-SUFFIX,shoppingcall.me,REJECT
 DOMAIN-SUFFIX,stax.kr,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,tadapi.info,REJECT
-DOMAIN-KEYWORD,www.google.,US
 DOMAIN-SUFFIX,aaplimg.com,Apple
 DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.com,Apple
@@ -220,6 +222,7 @@ DOMAIN-SUFFIX,githubusercontent.com,Github
 DOMAIN-KEYWORD,github,Github
 DOMAIN-SUFFIX,gitlab.com,Github
 DOMAIN-SUFFIX,gitlab.io,Github
+DOMAIN-KEYWORD,www.google.,US
 DOMAIN-SUFFIX,cdninstagram.com,Instagram
 DOMAIN-SUFFIX,instagr.am,Instagram
 DOMAIN-SUFFIX,instagram.com,Instagram
@@ -345,6 +348,8 @@ DOMAIN-SUFFIX,wsj.net,Global
 DOMAIN,vip7.fzwdyy.cn,Global
 DOMAIN,17hibo.com,Global
 DOMAIN,www.wuchajian.tv,Global
+DOMAIN,api.openai.com,Global
+DOMAIN,worldtimeapi.org,Global
 DOMAIN-KEYWORD,google,Global
 DOMAIN-KEYWORD,.facebook.,Global
 DOMAIN-SUFFIX,de,Global
