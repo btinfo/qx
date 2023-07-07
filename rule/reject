@@ -202,10 +202,10 @@ DOMAIN,midas.yangshipin.cn
 DOMAIN,mtrace.ysp.cctv.cn
 
 #小猿口算
-DOMAIN,gallery.fbcontent.cn
+#DOMAIN,gallery.fbcontent.cn
 #DOMAIN,leo-online.fbcontent.cn
-DOMAIN,leo.fbcontent.cn
-DOMAIN,oapi.yuanfudao.com
+#DOMAIN,leo.fbcontent.cn
+#DOMAIN,oapi.yuanfudao.com
 
 #10000
 DOMAIN,appgoad.189.cn
