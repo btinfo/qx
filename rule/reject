@@ -4,7 +4,10 @@
 #DOMAIN,dm.bytedance.com
 #DOMAIN-SUFFIX,zijieapi.com
 #DOMAIN,tnc3-bjlgy.bytedance.com
-
+DOMAIN,fundingchoicesmessages.google.com
+DOMAIN-SUFFIX,googlesyndication-cn.com
+DOMAIN,pangolin16.sgsnssdk.com
+DOMAIN,sf16-static.i18n-pglstatp.com
 DOMAIN,unilog.wostore.cn
 
 #DOMAIN-SUFFIX,igexin.com
