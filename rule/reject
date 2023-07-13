@@ -201,9 +201,9 @@ DOMAIN,wxsnsdy.wxs.qq.com
 #DOMAIN-SUFFIX,eebbk.net
 
 #央视频
-DOMAIN,btrace.ysp.cctv.cn
-DOMAIN,midas.yangshipin.cn
-DOMAIN,mtrace.ysp.cctv.cn
+#DOMAIN,btrace.ysp.cctv.cn
+#DOMAIN,midas.yangshipin.cn
+#DOMAIN,mtrace.ysp.cctv.cn
 
 #小猿口算
 #DOMAIN,gallery.fbcontent.cn
