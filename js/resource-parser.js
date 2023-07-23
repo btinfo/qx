@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-07-18 17:05⟧
+☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-07-10 18:05⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: https://t.me/Shawn_Parser_Bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -1894,25 +1894,25 @@ function Fobfs(jsonl, Pcert0, PTls13) {
     host0 = jsonl.host && jsonl.host != "" ? "obfs-host=" + jsonl.host + ", " : "";
     obfsi.push(obfs0, host0 + uri0);
     return obfsi.join(", ")
-  } else if (jsonl.tls == "tls" && (jsonl.net == "tcp" || jsonl.net == "none")) { // 过滤掉 h2/http 等类型 
+  } else if (jsonl.tls == "tls" && jsonl.net == "tcp") { // 过滤掉 h2/http 等类型 
     obfs0 = "obfs=over-tls, " + tcert + ", " + tls13;
     uri0 = jsonl.path && jsonl.path != "" ? "obfs-uri=" + jsonl.path : "";
     uri0 = uri0.indexOf("uri=/")!=-1 ? uri0:uri0.replace("uri=","uri=/")
     host0 = jsonl.host && jsonl.host != "" ? ", obfs-host=" + jsonl.host : "";
     obfsi.push(obfs0 + host0)
     return obfsi.join(", ")
-  } else if ((jsonl.net == "tcp" || jsonl.net == "none") && jsonl.type == "http"){
+  } else if (jsonl.net == "tcp" && jsonl.type == "http"){
     obfs0 = "obfs=http";
     uri0 = jsonl.path && jsonl.path != "" ? "obfs-uri=" + jsonl.path : "obfs-uri=/";
     uri0 = uri0.indexOf("uri=/")!=-1 ? uri0:uri0.replace("uri=","uri=/")
     host0 = jsonl.host && jsonl.host != "" ? "obfs-host=" + jsonl.host + ", " : "";
     obfsi.push(obfs0, host0 + uri0);
     return obfsi.join(", ")
-  } else if (jsonl.net !="tcp" && jsonl.net !="none"){ // 过滤掉 h2/http 等类型
+  } else if (jsonl.net !="tcp"){ // 过滤掉 h2/http 等类型
     Perror = 1
     $notify("⚠️ Quantumult X 不支持该类型节点", "vmess + " + jsonl.net, JSON.stringify(jsonl))
     return "NOT-SUPPORTTED"
-  } else if ((jsonl.net == "tcp" || jsonl.net == "none") && jsonl.type != undefined && jsonl.type != "none" && jsonl.type != "" && jsonl.type != "vmess") {
+  } else if (jsonl.net =="tcp" && jsonl.type != "none" && jsonl.type != "" && jsonl.type != "vmess") {
     return "NOT-SUPPORTTED"
   } else {return ""}
 }
