@@ -65,6 +65,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,usertrust.com
 
 #sites
+DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,chinadigitaltimes.net
 DOMAIN-SUFFIX,daum.net
