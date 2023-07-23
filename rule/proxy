@@ -19,6 +19,7 @@ DOMAIN-KEYWORD,apple.com.akadns.net,Apple
 DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
 DOMAIN-KEYWORD,apple-support.akadns.net,Apple
 DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+DOMAIN,api.revenuecat.com,Apple
 
 #AppleProxy
 DOMAIN,amp-api.podcasts.apple.com,AppleProxy
