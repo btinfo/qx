@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,jetphotos.com //flightradar
 DOMAIN-SUFFIX,photosync-app.com
 DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,wallpaperscraft.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,workingcopyapp.com
 
@@ -64,8 +65,6 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,usertrust.com
 
 #sites
-DOMAIN,reader.zlibcdn.com
-DOMAIN-SUFFIX,1lib.at
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,chinadigitaltimes.net
 DOMAIN-SUFFIX,daum.net
