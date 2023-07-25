@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,flightradar24.com
 DOMAIN-SUFFIX,ipsw.me
 DOMAIN-SUFFIX,jetphotos.com //flightradar
+DOMAIN,m.815616.xyz //shanqiu
 DOMAIN-SUFFIX,photosync-app.com
 DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rsshub.app
@@ -67,6 +68,7 @@ DOMAIN-SUFFIX,wsj.net
 #media
 DOMAIN,vip7.fzwdyy.cn
 DOMAIN,vip.ffzyread1.com
+DOMAIN,vip.ffzy-online5.com
 DOMAIN,17hibo.com
 DOMAIN,www.wuchajian.tv
 
