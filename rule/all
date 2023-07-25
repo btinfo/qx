@@ -402,4 +402,9 @@ IP-ASN,396982,Global
 DOMAIN-SUFFIX,ppsimg.com,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
 IP-CIDR,202.61.255.248/32,DIRECT
+DOMAIN-SUFFIX,smartmediarep.com,DIRECT
+DOMAIN,a01-g-naver-vod.akamaized.net,DIRECT
+DOMAIN,resources-rmcnmv.akamaized.net,DIRECT
+DOMAIN,livecloud-thumb.akamaized.net,DIRECT
+DOMAIN,livecloud.akamaized.net,DIRECT
 GEOIP,CN,DIRECT
