@@ -3,11 +3,11 @@ DOMAIN-SUFFIX,cn
 IP-CIDR,202.61.255.248/32
 
 # NAVER NOW
-DOMAIN-SUFFIX,smartmediarep.com
-DOMAIN,a01-g-naver-vod.akamaized.net
-DOMAIN,resources-rmcnmv.akamaized.net
-DOMAIN,livecloud-thumb.akamaized.net
-DOMAIN,livecloud.akamaized.net
+#DOMAIN-SUFFIX,smartmediarep.com
+#DOMAIN,a01-g-naver-vod.akamaized.net
+#DOMAIN,resources-rmcnmv.akamaized.net
+#DOMAIN,livecloud-thumb.akamaized.net
+#DOMAIN,livecloud.akamaized.net
 
 #ASN
 #IP-ASN,132203 // Tencent Building
