@@ -99,6 +99,9 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN,dig.bdurl.net
 DOMAIN,sf16-static.i18n-pglstatp.com
 
+#北京一卡通
+DOMAIN,ad.bmac.com.cn
+
 #财新
 DOMAIN,gg.caixin.com
 
