@@ -1,3 +1,9 @@
+#AppleProxy
+DOMAIN,pki.goog
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,lencr.org
+DOMAIN,testflight.apple.com
+
 #apps
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,fileball.app

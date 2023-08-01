@@ -21,12 +21,6 @@ DOMAIN-KEYWORD,apple-support.akadns.net,Apple
 DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
 DOMAIN,api.revenuecat.com,Apple
 
-#AppleProxy
-DOMAIN,pki.goog,AppleProxy
-DOMAIN-SUFFIX,digicert.com,AppleProxy
-DOMAIN-SUFFIX,lencr.org,AppleProxy
-DOMAIN,testflight.apple.com,AppleProxy
-
 #Github
 DOMAIN-SUFFIX,github.com,Github
 DOMAIN-SUFFIX,github.io,Github
