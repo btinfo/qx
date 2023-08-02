@@ -79,7 +79,7 @@ DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,Tidal
 DOMAIN-SUFFIX,tidal.com,Tidal
 DOMAIN-SUFFIX,tidalhifi.com,Tidal
 
-#Twitter
+#X.org
 DOMAIN-SUFFIX,cms-twdigitalassets.com,X
 DOMAIN-SUFFIX,periscope.tv,X
 DOMAIN-SUFFIX,pscp.tv,X
