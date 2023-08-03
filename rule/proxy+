@@ -84,6 +84,15 @@ DOMAIN,www.wuchajian.tv
 DOMAIN,api.openai.com
 DOMAIN,worldtimeapi.org
 
+#Pinterest
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+
+#Wikipedia
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+
 #keyword
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.facebook.

@@ -44,10 +44,6 @@ DOMAIN-SUFFIX,fbcdn.net,Instagram
 DOMAIN-SUFFIX,fbsbx.com,Instagram
 DOMAIN-KEYWORD,instagram,Instagram
 
-#Pinterest
-DOMAIN-SUFFIX,pinterest.com,Global
-DOMAIN-SUFFIX,pinimg.com,Global
-
 #Spotify
 DOMAIN-SUFFIX,pscdn.co,Spotify
 DOMAIN-SUFFIX,scdn.co,Spotify
@@ -92,11 +88,6 @@ DOMAIN-SUFFIX,twitter.com,X
 #DOMAIN-SUFFIX,twitter.jp,X
 DOMAIN-SUFFIX,vine.co,X
 DOMAIN-KEYWORD,twitter,X
-
-#Wikipedia
-DOMAIN-SUFFIX,wikidata.org,Global
-DOMAIN-SUFFIX,wikimedia.org,Global
-DOMAIN-SUFFIX,wikipedia.org,Global
 
 #Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
