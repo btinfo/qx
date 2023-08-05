@@ -4,7 +4,6 @@
 #DOMAIN,dm.bytedance.com
 #DOMAIN-SUFFIX,zijieapi.com
 #DOMAIN,tnc3-bjlgy.bytedance.com
-
 DOMAIN,unilog.wostore.cn
 
 #DOMAIN-SUFFIX,igexin.com
@@ -80,6 +79,9 @@ DOMAIN,cpro.baidustatic.com
 DOMAIN,sofire.bdstatic.com
 DOMAIN,zz.bdstatic.com
 
+#bmac
+DOMAIN,ad.bmac.com.cn
+
 #bytedance-snssdk
 #DOMAIN,stream.snssdk.com
 #DOMAIN,tnc16-alisg.isnssdk.com
@@ -139,6 +141,11 @@ DOMAIN-SUFFIX,jpush.io
 
 #虎扑
 DOMAIN,goblin.hupu.com
+
+#京东
+DOMAIN,kepler.jd.com
+DOMAIN,dg.k.jd.com
+DOMAIN,dgstatic.jd.com
 
 #kuaishou
 DOMAIN,gdfp.gifshow.com
