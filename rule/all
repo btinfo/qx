@@ -72,6 +72,7 @@ DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,cpro.baidustatic.com,REJECT
 DOMAIN,sofire.bdstatic.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
+DOMAIN,ad.bmac.com.cn,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN,pangolin16.sgsnssdk.com,REJECT
@@ -105,6 +106,9 @@ DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN,goblin.hupu.com,REJECT
+DOMAIN,kepler.jd.com,REJECT
+DOMAIN,dg.k.jd.com,REJECT
+DOMAIN,dgstatic.jd.com,REJECT
 DOMAIN,gdfp.gifshow.com,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
@@ -227,8 +231,6 @@ DOMAIN-SUFFIX,instagram.com,Instagram
 DOMAIN-SUFFIX,fbcdn.net,Instagram
 DOMAIN-SUFFIX,fbsbx.com,Instagram
 DOMAIN-KEYWORD,instagram,Instagram
-DOMAIN-SUFFIX,pinterest.com,Global
-DOMAIN-SUFFIX,pinimg.com,Global
 DOMAIN-SUFFIX,pscdn.co,Spotify
 DOMAIN-SUFFIX,scdn.co,Spotify
 DOMAIN-SUFFIX,spoti.fi,Spotify
@@ -265,9 +267,6 @@ DOMAIN-SUFFIX,twitpic.com,X
 DOMAIN-SUFFIX,twitter.com,X
 DOMAIN-SUFFIX,vine.co,X
 DOMAIN-KEYWORD,twitter,X
-DOMAIN-SUFFIX,wikidata.org,Global
-DOMAIN-SUFFIX,wikimedia.org,Global
-DOMAIN-SUFFIX,wikipedia.org,Global
 DOMAIN,youtubei.googleapis.com,Youtube
 DOMAIN-SUFFIX,ggpht.com,Youtube
 DOMAIN-SUFFIX,googlevideo.com,Youtube
@@ -353,6 +352,11 @@ DOMAIN,17hibo.com,Global
 DOMAIN,www.wuchajian.tv,Global
 DOMAIN,api.openai.com,Global
 DOMAIN,worldtimeapi.org,Global
+DOMAIN-SUFFIX,pinterest.com,Global
+DOMAIN-SUFFIX,pinimg.com,Global
+DOMAIN-SUFFIX,wikidata.org,Global
+DOMAIN-SUFFIX,wikimedia.org,Global
+DOMAIN-SUFFIX,wikipedia.org,Global
 DOMAIN-KEYWORD,google,Global
 DOMAIN-KEYWORD,.facebook.,Global
 DOMAIN-SUFFIX,de,Global
@@ -385,6 +389,8 @@ IP-ASN,54600,Global
 IP-ASN,64050,Global
 IP-ASN,136907,Global
 IP-ASN,396982,Global
+DOMAIN-SUFFIX,sharepoint.com,DIRECT
+DOMAIN-SUFFIX,tophub.app,DIRECT
 DOMAIN-SUFFIX,ppsimg.com,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
 IP-CIDR,202.61.255.248/32,DIRECT
