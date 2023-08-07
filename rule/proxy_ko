@@ -1,0 +1,18 @@
+DOMAIN,livecloud.akamaized.net
+DOMAIN,livecloud-thumb.akamaized.net
+DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,daumcdn.net
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakaocdn.net
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,naver.net
+DOMAIN-SUFFIX,navercorp.com
+DOMAIN-SUFFIX,pstatic.net
+DOMAIN-SUFFIX,chosun.com
+DOMAIN-SUFFIX,donga.com
+DOMAIN-SUFFIX,hankookilbo.com
+DOMAIN-SUFFIX,pressian.com
+DOMAIN-SUFFIX,kr
+
+IP-ASN,23576 // 🇰🇷NAVER Cloud Corp.
+#IP-ASN,38099 // 🇰🇷Kakao Corp

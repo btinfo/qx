@@ -45,14 +45,6 @@ DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,chinadigitaltimes.net
-DOMAIN-SUFFIX,daum.net
-DOMAIN-SUFFIX,daumcdn.net
-DOMAIN-SUFFIX,kakao.com
-DOMAIN-SUFFIX,kakaocdn.net
-DOMAIN-SUFFIX,naver.com
-DOMAIN-SUFFIX,naver.net
-DOMAIN-SUFFIX,navercorp.com
-DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,transfermarkt.com
 DOMAIN-SUFFIX,transfermarkt.technology
 
@@ -60,14 +52,10 @@ DOMAIN-SUFFIX,transfermarkt.technology
 DOMAIN-SUFFIX,aljazeera.net
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,chosun.com
-DOMAIN-SUFFIX,donga.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,ftchinese.com
-DOMAIN-SUFFIX,hankookilbo.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,pressian.com
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,voanews.com
 DOMAIN-SUFFIX,wsj.com
@@ -102,7 +90,6 @@ DOMAIN-SUFFIX,de
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,uk
@@ -122,7 +109,6 @@ IP-ASN,16509 // 🇺🇸Amazon.com, Inc.
 IP-ASN,16625 // 🇺🇸Akamai Technologies, Inc.
 IP-ASN,19679 // 🇺🇸Dropbox, Inc.
 IP-ASN,20940 // 🇳🇱Akamai International B.V.
-IP-ASN,23576 // 🇰🇷NAVER Cloud Corp.
 IP-ASN,32934 // 🇺🇸Facebook, Inc.
 IP-ASN,40065 // 🇺🇸CNSERVERS LLC
 IP-ASN,54113 // 🇺🇸Fastly, Inc.
@@ -141,7 +127,6 @@ IP-ASN,396982 // 🇺🇸Google LLC
 #IP-ASN,24940 // 🇩🇪Hetzner Online GmbH
 #IP-ASN,29423 // 🇩🇪gridscale GmbH
 #IP-ASN,36351 // 🇺🇸SoftLayer Technologies Inc.
-#IP-ASN,38099 // 🇰🇷Kakao Corp
 #IP-ASN,48447 // 🇬🇧Sectigo Limited
 #IP-ASN,49453 // 🇳🇱Global Layer B.V.
 #IP-ASN,54994 // 🇺🇸QUANTIL NETWORKS INC
