@@ -1,8 +1,10 @@
+HOST-WILDCARD,ad.*.doubleclick.net
 HOST-WILDCARD,adimg*.search.naver.net
 HOST-WILDCARD,adservice.google.co.*
 HOST-WILDCARD,ads-*.v.ssp.yahoo.com
 HOST-WILDCARD,ad*.thisisgame.com
 HOST-WILDCARD,ad*.wisenut.co.kr
+HOST-WILDCARD,cdn-adn-*.rayjump.com
 HOST-WILDCARD,iad-*.braze.com
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,33across.com
@@ -25,6 +27,7 @@ HOST-SUFFIX,ad.adinc.kr
 HOST-SUFFIX,ad.adjw.co.kr
 HOST-SUFFIX,ad.admine.co.kr
 HOST-SUFFIX,ad.adnmore.co.kr
+HOST-SUFFIX,adad.z00.kr
 HOST-SUFFIX,ad.ajitad.co.kr
 HOST-SUFFIX,adapi.about.co.kr
 HOST-SUFFIX,ad-api.enuri.info
@@ -50,6 +53,8 @@ HOST-SUFFIX,ad.danawa.com
 HOST-SUFFIX,ad.daum.net
 HOST-SUFFIX,addb.interpark.com
 HOST-SUFFIX,addc.dcinside.com
+HOST-SUFFIX,ad.doorigo.co.kr
+HOST-SUFFIX,ad.doubleclick.net
 HOST-SUFFIX,ad.doyouad.com
 HOST-SUFFIX,ad.esmplus.com
 HOST-SUFFIX,ad.everytime.kr
@@ -194,7 +199,6 @@ HOST-SUFFIX,displayadimg.zumst.com
 HOST-SUFFIX,displayad.lotteon.com
 HOST-SUFFIX,displayad.zum.com
 HOST-SUFFIX,dmxleo.dailymotion.com
-HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,ds.11st.co.kr
 HOST-SUFFIX,epnt.ebay.com
 HOST-SUFFIX,exelbid.com
@@ -202,6 +206,7 @@ HOST-SUFFIX,external-ad.bunjang.co.kr
 HOST-SUFFIX,external-api.impression-neo.naver.com
 HOST-SUFFIX,fastview.co.kr
 HOST-SUFFIX,finead.o00.kr
+HOST-SUFFIX,g.doubleclick.net
 HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,gwx.adnext.co
@@ -226,6 +231,7 @@ HOST-SUFFIX,marketingking.co.kr
 HOST-SUFFIX,md.r114.co.kr
 HOST-SUFFIX,mediabp.kr
 HOST-SUFFIX,mediacategory.com
+HOST-SUFFIX,mediavisor.doubleclick.net
 HOST-SUFFIX,megadata.co.kr
 HOST-SUFFIX,mini.m-able.app
 HOST-SUFFIX,minishop.linkprice.com
@@ -236,11 +242,13 @@ HOST-SUFFIX,mrep.kr
 HOST-SUFFIX,msadsense.com
 HOST-SUFFIX,ms.applvn.com
 HOST-SUFFIX,mtag.mman.kr
+HOST-SUFFIX,n4403ad.doubleclick.net
 HOST-SUFFIX,nad.tf.co.kr
 HOST-SUFFIX,naverpa-phinf.pstatic.net
 HOST-SUFFIX,ndexww.com
 HOST-SUFFIX,nefing.com
 HOST-SUFFIX,netinsight.co.kr
+HOST-SUFFIX,net.rayjump.com
 HOST-SUFFIX,networkad.nate.com
 HOST-SUFFIX,newscover.co.kr
 HOST-SUFFIX,nitropay.com
@@ -276,8 +284,10 @@ HOST-SUFFIX,sitescout.com
 HOST-SUFFIX,skt-asum.com
 HOST-SUFFIX,smartadserver.com
 HOST-SUFFIX,ssp.meba.kr
+HOST-SUFFIX,static.doubleclick.net
 HOST-SUFFIX,static.tpmn.co.kr
 HOST-SUFFIX,stax.kr
+HOST-SUFFIX,stream.spongead.com
 HOST-SUFFIX,taboola.com
 HOST-SUFFIX,tadapi.info
 HOST-SUFFIX,tagtree.co.kr
@@ -298,6 +308,7 @@ HOST-SUFFIX,undertone.com
 HOST-SUFFIX,veta.naver.com
 HOST-SUFFIX,vntsm.com
 HOST-SUFFIX,vrixon.com
+HOST-SUFFIX,vungle.com
 HOST-SUFFIX,widerplanet.com
 HOST-SUFFIX,wmars-client.wemakeprice.com
 HOST-SUFFIX,wtg-ads.com
