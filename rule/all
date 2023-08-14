@@ -114,6 +114,7 @@ DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,gorgon.youdao.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,static.ws.126.net,REJECT
+DOMAIN,collector.polarr.co,REJECT
 DOMAIN,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,ios.bugly.qq.com,REJECT
