@@ -159,6 +159,9 @@ DOMAIN,gorgon.youdao.com
 DOMAIN,nex.163.com
 DOMAIN,static.ws.126.net
 
+#polarr
+DOMAIN,collector.polarr.co
+
 #sohu
 DOMAIN,pv.sohu.com
 
