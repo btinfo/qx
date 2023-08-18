@@ -33,8 +33,9 @@ DOMAIN-KEYWORD,github,Github
 DOMAIN-SUFFIX,gitlab.com,Github
 DOMAIN-SUFFIX,gitlab.io,Github
 
-#Google Search
+#Google Search & others
 DOMAIN-KEYWORD,www.google.,US
+DOMAIN-SUFFIX,chinadigitaltimes.net,US
 
 #Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Instagram
