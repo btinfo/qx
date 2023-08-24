@@ -33,6 +33,11 @@ DOMAIN-KEYWORD,github,Github
 DOMAIN-SUFFIX,gitlab.com,Github
 DOMAIN-SUFFIX,gitlab.io,Github
 
+#Goodnotes
+DOMAIN-SUFFIX,goodnotes.email,US
+DOMAIN-SUFFIX,goodnotescloud.com,US
+DOMAIN-SUFFIX,goodnotes.com,US
+
 #Google Search & others
 DOMAIN-KEYWORD,www.google.,US
 DOMAIN-SUFFIX,chinadigitaltimes.net,US
