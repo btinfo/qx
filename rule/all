@@ -225,7 +225,11 @@ DOMAIN-SUFFIX,githubusercontent.com,Github
 DOMAIN-KEYWORD,github,Github
 DOMAIN-SUFFIX,gitlab.com,Github
 DOMAIN-SUFFIX,gitlab.io,Github
+DOMAIN-SUFFIX,goodnotes.email,US
+DOMAIN-SUFFIX,goodnotescloud.com,US
+DOMAIN-SUFFIX,goodnotes.com,US
 DOMAIN-KEYWORD,www.google.,US
+DOMAIN-SUFFIX,chinadigitaltimes.net,US
 DOMAIN-SUFFIX,cdninstagram.com,Instagram
 DOMAIN-SUFFIX,instagr.am,Instagram
 DOMAIN-SUFFIX,instagram.com,Instagram
@@ -324,7 +328,6 @@ DOMAIN-SUFFIX,sentry.io,Global
 DOMAIN-SUFFIX,usertrust.com,Global
 DOMAIN-SUFFIX,akamaized.net,Global
 DOMAIN-SUFFIX,bing.com,Global
-DOMAIN-SUFFIX,chinadigitaltimes.net,Global
 DOMAIN-SUFFIX,transfermarkt.com,Global
 DOMAIN-SUFFIX,transfermarkt.technology,Global
 DOMAIN-SUFFIX,aljazeera.net,Global

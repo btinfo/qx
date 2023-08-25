@@ -6,6 +6,7 @@ HOST-WILDCARD,ad*.thisisgame.com
 HOST-WILDCARD,ad*.wisenut.co.kr
 HOST-WILDCARD,cdn-adn-*.rayjump.com
 HOST-WILDCARD,iad-*.braze.com
+HOST-WILDCARD,pangolin*.sgsnssdk.com
 HOST-SUFFIX,2mdn.net
 HOST-SUFFIX,33across.com
 HOST-SUFFIX,360yield.com
@@ -212,6 +213,7 @@ HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googletagservices.com
 HOST-SUFFIX,gwx.adnext.co
 HOST-SUFFIX,hancomad.com
+HOST-SUFFIX,i18n-pglstatp.com
 HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,imasdk.googleapis.com
 HOST-SUFFIX,imgnewad.ytn.co.kr
@@ -289,6 +291,7 @@ HOST-SUFFIX,static.doubleclick.net
 HOST-SUFFIX,static.tpmn.co.kr
 HOST-SUFFIX,stax.kr
 HOST-SUFFIX,stream.spongead.com
+HOST-SUFFIX,supersonicads.com
 HOST-SUFFIX,taboola.com
 HOST-SUFFIX,tadapi.info
 HOST-SUFFIX,tagtree.co.kr
@@ -306,6 +309,7 @@ HOST-SUFFIX,trendpick.shopping.naver.com
 HOST-SUFFIX,tsyndicate.com
 HOST-SUFFIX,tvetamovie.pstatic.net
 HOST-SUFFIX,undertone.com
+HOST-SUFFIX,unityads.unity3d.com
 HOST-SUFFIX,veta.naver.com
 HOST-SUFFIX,vntsm.com
 HOST-SUFFIX,vrixon.com
