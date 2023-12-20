@@ -61,6 +61,7 @@ HOST-SUFFIX,ad.esmplus.com
 HOST-SUFFIX,ad.everytime.kr
 HOST-SUFFIX,adex.ednplus.com
 HOST-SUFFIX,ad.feedbag.co.kr
+HOST-SUFFIX,adfork.co.kr
 HOST-SUFFIX,adg.dawin.tv
 HOST-SUFFIX,ad.hankookilbo.com
 HOST-SUFFIX,adhooah.com
@@ -84,6 +85,7 @@ HOST-SUFFIX,ad-mapps.com
 HOST-SUFFIX,admaru.net
 HOST-SUFFIX,admax.me
 HOST-SUFFIX,ad.mediafarm.co.kr
+HOST-SUFFIX,ad.mediamixer.co.kr
 HOST-SUFFIX,admixer.co.kr
 HOST-SUFFIX,admonseller.com
 HOST-SUFFIX,ad.mrab.co.kr
@@ -120,6 +122,7 @@ HOST-SUFFIX,ad.smartinmedia.co.kr
 HOST-SUFFIX,ad.smartmediarep.com
 HOST-SUFFIX,ads.mncmedia.co.kr
 HOST-SUFFIX,ads.mobitree.co.kr
+HOST-SUFFIX,ads.motorgraph.com
 HOST-SUFFIX,adsmrapi.imbc.com
 HOST-SUFFIX,ads.mtgroup.kr
 HOST-SUFFIX,ads.orbi.kr
@@ -168,6 +171,11 @@ HOST-SUFFIX,api.greenp.kr
 HOST-SUFFIX,api.linkmine.co.kr
 HOST-SUFFIX,api.valista.io
 HOST-SUFFIX,applovin.com
+HOST-SUFFIX,aproxylog-next.tving.com
+HOST-SUFFIX,aproxy-next.tving.com
+HOST-SUFFIX,arm.c.appier.net
+HOST-SUFFIX,authanalysis.com
+HOST-SUFFIX,awd.spochak.com
 HOST-SUFFIX,banners.cams.com
 HOST-SUFFIX,bestcontentitem.top
 HOST-SUFFIX,bidr.io
@@ -216,6 +224,7 @@ HOST-SUFFIX,gwx.adnext.co
 HOST-SUFFIX,hancomad.com
 HOST-SUFFIX,i18n-pglstatp.com
 HOST-SUFFIX,iadsdk.apple.com
+HOST-SUFFIX,i.keezip.com
 HOST-SUFFIX,imasdk.googleapis.com
 HOST-SUFFIX,imgnewad.ytn.co.kr
 HOST-SUFFIX,img.side.mythiell.com
@@ -257,12 +266,14 @@ HOST-SUFFIX,networkad.nate.com
 HOST-SUFFIX,newscover.co.kr
 HOST-SUFFIX,nitropay.com
 HOST-SUFFIX,nkwadv.nate.com
+HOST-SUFFIX,nsmartad.com
 HOST-SUFFIX,nvapi.feeldmc.com
 HOST-SUFFIX,onepx.kr
 HOST-SUFFIX,openx.net
 HOST-SUFFIX,optad360.io
 HOST-SUFFIX,pagead2.googlesyndication.com
 HOST-SUFFIX,piclick.kr
+HOST-SUFFIX,planmix.co.kr
 HOST-SUFFIX,pltapad.com
 HOST-SUFFIX,powerclick.about.co.kr
 HOST-SUFFIX,poweredby.jads.co
