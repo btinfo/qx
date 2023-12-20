@@ -31,7 +31,19 @@ reject_ko ()
 reject_vk ()
 {
   cd "$des"/rule||exit
-  cat reject_v2fly reject_ko |sort -u > reject_vk
+  cat reject_v2fly reject_ko |sort -u > reject_vk_o
+  true > reject_vk
+  while read -r line
+  do
+    num=`echo $line|awk -F. '{print NF-1}'`
+    if echo $line|grep '*';then
+      echo "HOST-WILDCARD,$line" >> reject_vk
+    else
+      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> reject_vk
+      [[ $num -gt 1 ]] && echo "HOST,$line" >> reject_vk
+    fi
+  done < reject_vk_o
+  rm -f reject_v2fly reject_ko reject_vk_o
 }
   
 
