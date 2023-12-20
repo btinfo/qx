@@ -38,6 +38,9 @@ reject_vk ()
     num=`echo $line|awk -F. '{print NF-1}'`
     if echo $line|grep '*';then
       echo "HOST-WILDCARD,$line" >> reject_vk
+    elif echo $line|grep '.co.kr';then
+      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> reject_vk
+      [[ $num -gt 2 ]] && echo "HOST,$line" >> reject_vk
     else
       [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> reject_vk
       [[ $num -gt 1 ]] && echo "HOST,$line" >> reject_vk

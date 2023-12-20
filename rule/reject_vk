@@ -23,7 +23,7 @@ HOST,ad1.sportschosun.com
 HOST,ad1.xiaomi.com
 HOST,ad2.mimint.co.kr
 HOST,ad.3dpop.kr
-HOST,ad4989.co.kr
+HOST-SUFFIX,ad4989.co.kr
 HOST,ad5.koreadaily.com
 HOST,ad.a-ads.com
 HOST,ad.about.co.kr
@@ -87,7 +87,7 @@ HOST,ad.everytime.kr
 HOST,adex.ednplus.com
 HOST,ad.feedbag.co.kr
 HOST,adfilter.imtt.qq.com
-HOST,adfork.co.kr
+HOST-SUFFIX,adfork.co.kr
 HOST,ad.games.dmm.com
 HOST,adg.dawin.tv
 HOST,ad.hankookilbo.com
@@ -106,7 +106,7 @@ HOST,adimg.newdaily.co.kr
 HOST-WILDCARD,adimg*.search.naver.net
 HOST,adimg.uve.weibo.com
 HOST,ad.imp.joins.com
-HOST,adinc.co.kr
+HOST-SUFFIX,adinc.co.kr
 HOST-SUFFIX,adinplay.com
 HOST,ad-insight.sellermill.com
 HOST,ad.intl.xiaomi.com
@@ -126,7 +126,7 @@ HOST,ad.mediafarm.co.kr
 HOST,ad.mediamixer.co.kr
 HOST,ad.mi.com
 HOST,ad.m.iqiyi.com
-HOST,admixer.co.kr
+HOST-SUFFIX,admixer.co.kr
 HOST,adm.leju.sina.com.cn
 HOST-SUFFIX,admob.com
 HOST,ad.mobile.youku.com
@@ -143,7 +143,7 @@ HOST,adping.qq.com
 HOST,ad.planbplus.co.kr
 HOST,adplatform-cdn.baemin.com
 HOST,ad.player.baidu.com
-HOST,adplex.co.kr
+HOST-SUFFIX,adplex.co.kr
 HOST,adpm.app.qq.com
 HOST-SUFFIX,adpnut.com
 HOST-SUFFIX,adpopcorn.com
@@ -368,7 +368,7 @@ HOST,click.aliyun.com
 HOST,click.bes.baidu.com
 HOST,click.hm.baidu.com
 HOST,click.hunantv.com
-HOST,clickmon.co.kr
+HOST-SUFFIX,clickmon.co.kr
 HOST,click.mz.simba.taobao.com
 HOST,click.qianqian.com
 HOST,clickserver.googleads.com
@@ -385,7 +385,7 @@ HOST,cm.pos.baidu.com
 HOST,c-nfa.jd.com
 HOST,collector.xhamster.com
 HOST-SUFFIX,contentabc.com
-HOST,contentcave.co.kr
+HOST-SUFFIX,contentcave.co.kr
 HOST,contentrecommend-out.mobile.sina.cn
 HOST-SUFFIX,contentsfeed.com
 HOST,contextual.media.net
@@ -501,7 +501,7 @@ HOST,external-ad.bunjang.co.kr
 HOST,external-api.impression-neo.naver.com
 HOST,extlog.snssdk.com
 HOST,f10.baidu.com
-HOST,fastview.co.kr
+HOST-SUFFIX,fastview.co.kr
 HOST,fav.simba.taobao.com
 HOST,fc-feed.cdn.bcebos.com
 HOST,fclick.baidu.com
@@ -601,7 +601,7 @@ HOST-SUFFIX,innorame.com
 HOST-SUFFIX,innovid.com
 HOST,int.dpool.sina.com.cn
 HOST,interest.mix.sina.com.cn
-HOST,interworksmedia.co.kr
+HOST-SUFFIX,interworksmedia.co.kr
 HOST,inte.sogoucdn.com
 HOST,inte.sogou.com
 HOST,intl.wapa.taobao.com
@@ -646,7 +646,7 @@ HOST,lu.sogoucdn.com
 HOST,l.ykimg.com
 HOST,m1.baidu.com
 HOST,ma.baidu.com
-HOST,marketingking.co.kr
+HOST-SUFFIX,marketingking.co.kr
 HOST,marketingplatform.google.com
 HOST,match.p4p.1688.com
 HOST,material.istreamsche.com
@@ -657,7 +657,7 @@ HOST,md.r114.co.kr
 HOST-SUFFIX,mediabp.kr
 HOST-SUFFIX,mediacategory.com
 HOST,mediavisor.doubleclick.net
-HOST,megadata.co.kr
+HOST-SUFFIX,megadata.co.kr
 HOST-SUFFIX,mfadsrvr.com
 HOST,m.game.weibo.cn
 HOST,mg.games.sina.com.cn
@@ -706,10 +706,10 @@ HOST,nbsdk-baichuan.taobao.com
 HOST-SUFFIX,ndexww.com
 HOST-SUFFIX,nefing.com
 HOST,neirong.baidu.com
-HOST,netinsight.co.kr
+HOST-SUFFIX,netinsight.co.kr
 HOST,net.rayjump.com
 HOST,networkad.nate.com
-HOST,newscover.co.kr
+HOST-SUFFIX,newscover.co.kr
 HOST,newspush.sinajs.cn
 HOST-SUFFIX,nitropay.com
 HOST,nkwadv.nate.com
@@ -752,7 +752,7 @@ HOST,pgdt.gtimg.cn
 HOST-SUFFIX,pglstatp-toutiao.com
 HOST-SUFFIX,piclick.kr
 HOST,pindao.huoban.taobao.com
-HOST,planmix.co.kr
+HOST-SUFFIX,planmix.co.kr
 HOST,plog.dc.letv.com
 HOST,p-log.ykimg.com
 HOST-SUFFIX,pltapad.com
@@ -779,9 +779,9 @@ HOST-SUFFIX,quantserve.com
 HOST-SUFFIX,qwapi.com
 HOST-SUFFIX,rainbownine.net
 HOST,r.dmp.sina.cn
-HOST,realclick.co.kr
+HOST-SUFFIX,realclick.co.kr
 HOST-SUFFIX,realsrv.com
-HOST,realssp.co.kr
+HOST-SUFFIX,realssp.co.kr
 HOST,redirect.simba.taobao.com
 HOST,release.baidu.com
 HOST,re.m.taobao.com
@@ -880,11 +880,11 @@ HOST-SUFFIX,supersonicads.com
 HOST-SUFFIX,supersonic.com
 HOST-SUFFIX,taboola.com
 HOST-SUFFIX,tadapi.info
-HOST,tagtree.co.kr
+HOST-SUFFIX,tagtree.co.kr
 HOST,tanxlog.istreamsche.com
 HOST-SUFFIX,tapioni.com
 HOST-SUFFIX,tapsell.ir
-HOST,targetpush.co.kr
+HOST-SUFFIX,targetpush.co.kr
 HOST,tdrec.youku.com
 HOST-SUFFIX,teads.tv
 HOST,tejia.taobao.com
@@ -893,7 +893,7 @@ HOST-SUFFIX,tenping.kr
 HOST,test.ott.youku.com
 HOST,test.sdk.m.youku.com
 HOST,theta.sogoucdn.com
-HOST,thetopic.co.kr
+HOST-SUFFIX,thetopic.co.kr
 HOST,tivan.naver.com
 HOST-SUFFIX,tjqonline.cn
 HOST,tjs.sjs.sinajs.cn
