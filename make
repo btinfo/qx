@@ -28,25 +28,25 @@ reject_ko ()
   rm -f filter_25.txt
 }
 
-reject_vk ()
+reject ()
 {
   cd "$des"/rule||exit
-  cat reject_v2fly reject_ko |sort -u > reject_vk_o
-  true > reject_vk
+  cat reject_v2fly reject_ko |sort -u > reject.tmp
+  true > reject
   while read -r line
   do
     num=`echo $line|awk -F. '{print NF-1}'`
     if echo $line|grep '*';then
-      echo "HOST-WILDCARD,$line" >> reject_vk
+      echo "HOST-WILDCARD,$line" >> reject
     elif echo $line|grep '.co.kr';then
-      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> reject_vk
-      [[ $num -gt 2 ]] && echo "HOST,$line" >> reject_vk
+      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> reject
+      [[ $num -gt 2 ]] && echo "HOST,$line" >> reject
     else
-      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> reject_vk
-      [[ $num -gt 1 ]] && echo "HOST,$line" >> reject_vk
+      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> reject
+      [[ $num -gt 1 ]] && echo "HOST,$line" >> reject
     fi
-  done < reject_vk_o
-  rm -f reject_v2fly reject_ko reject_vk_o
+  done < reject.tmp
+  rm -f reject_v2fly reject_ko reject.tmp
 }
   
 
@@ -70,7 +70,7 @@ readme () {
 parser
 reject_v2fly
 reject_ko
-reject_vk
+reject
 #all
 #readme
 
