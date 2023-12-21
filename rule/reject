@@ -17,6 +17,7 @@ HOST,ad.adnmore.co.kr
 HOST,adad.z00.kr
 HOST,ad.ajitad.co.kr
 HOST,adapi.about.co.kr
+HOST,ad-api.band.us
 HOST,ad-api.enuri.info
 HOST,ad.ari.skt-jive.com
 HOST,ad.auction.co.kr
@@ -37,7 +38,6 @@ HOST,ad.daum.net
 HOST,addb.interpark.com
 HOST,addc.dcinside.com
 HOST,ad.doorigo.co.kr
-HOST,ad.doubleclick.net
 HOST,ad.doyouad.com
 HOST,ad.esmplus.com
 HOST,adeventtracker.spotify.com
@@ -63,6 +63,7 @@ HOST,ad.mediafarm.co.kr
 HOST,ad.mediamixer.co.kr
 HOST,ad.mrab.co.kr
 HOST,adm.smartmediarep.com
+HOST,adn.admixer.co.kr
 HOST,ad.newspim.com
 HOST,ad.phaserep.com
 HOST,ad.planbplus.co.kr
@@ -70,9 +71,9 @@ HOST,adplatform-cdn.baemin.com
 HOST,ad.pping.kr
 HOST,adreal.dt.co.kr
 HOST,ad.reople.co.kr
+HOST,ads.adaptv.advertising.com
 HOST,ads.admaru.com
 HOST,ads.adoffice.11st.co.kr
-HOST,ads-api.kidsnote.com
 HOST,ads.betweendigital.com
 HOST,adscdn.orbi.kr
 HOST,ad-script.viewus.co.kr
@@ -139,8 +140,8 @@ HOST,banners.cams.com
 HOST,bloodhound.spotify.com
 HOST,cdndn.3dpop.kr
 HOST,cf-eba.everytime.kr
+HOST,compass.adop.cc
 HOST,cpa.greenp.kr
-HOST,cp.edl.co.kr
 HOST,cyad1.nate.com
 HOST,cyad.nate.com
 HOST,d1ap9gbbf77h85.cloudfront.net
@@ -152,15 +153,14 @@ HOST,deepdive.zum.com
 HOST,dhgywazgeek0d.cloudfront.net
 HOST,displayadimg.zumst.com
 HOST,displayad.lotteon.com
+HOST,display.admonseller.com
 HOST,displayad.zum.com
 HOST,dmxleo.dailymotion.com
 HOST,ds.11st.co.kr
 HOST,e8aeb8bbdbbd7.cdn.sohucs.com
 HOST,epnt.ebay.com
 HOST,external-ad.bunjang.co.kr
-HOST,external-api.impression-neo.naver.com
 HOST,finead.o00.kr
-HOST,g.doubleclick.net
 HOST,gwx.adnext.co
 HOST,iadsdk.apple.com
 HOST,i.keezip.com
@@ -169,22 +169,21 @@ HOST,imgnewad.ytn.co.kr
 HOST,img.side.mythiell.com
 HOST,io.smartmyd.com
 HOST,js.newsmobile.co.kr
+HOST,kitweb.tadapi.info
 HOST,live.primis.tech
 HOST,log-sdk.gifshow.com
 HOST,md.r114.co.kr
-HOST,mediavisor.doubleclick.net
 HOST,mini.m-able.app
 HOST,minishop.linkprice.com
 HOST,ms.applvn.com
 HOST,mtag.mman.kr
-HOST,n4403ad.doubleclick.net
 HOST,nad.tf.co.kr
 HOST,naverpa-phinf.pstatic.net
-HOST,net.rayjump.com
 HOST,networkad.nate.com
 HOST,nkwadv.nate.com
 HOST,nvapi.feeldmc.com
 HOST,pagead2.googlesyndication.com
+HOST,partner.googleadservices.com
 HOST,powerclick.about.co.kr
 HOST,poweredby.jads.co
 HOST,pub.tvads.co.kr
@@ -197,10 +196,9 @@ HOST,serv.ds.kakao.com
 HOST,shoppingbox.zum.com
 HOST,shopsquare.naver.com
 HOST,simg.imadrep.co.kr
+HOST,skt-asum.com
 HOST,ssp.meba.kr
-HOST,static.doubleclick.net
 HOST,static.tpmn.co.kr
-HOST,stream.spongead.com
 HOST-SUFFIX,1rx.io
 HOST-SUFFIX,2016.sina.cn
 HOST-SUFFIX,2mdn.net
@@ -239,6 +237,7 @@ HOST-SUFFIX,adbutter.net
 HOST-SUFFIX,adcastmarket.com
 HOST-SUFFIX,adcolony.com
 HOST-SUFFIX,ad-delivery.net
+HOST-SUFFIX,ad.doubleclick.net
 HOST-SUFFIX,addthisedge.com
 HOST-SUFFIX,ad.duapps.com
 HOST-SUFFIX,adeng.hpplay.cn
@@ -282,6 +281,7 @@ HOST-SUFFIX,adpopcorn.com
 HOST-SUFFIX,adq.chinaso.com
 HOST-SUFFIX,ad.qq.com
 HOST-SUFFIX,ad.qun.qq.com
+HOST-SUFFIX,ads-api.kidsnote.com
 HOST-SUFFIX,adscdn.baidu.com
 HOST-SUFFIX,adsclick.qq.com
 HOST-SUFFIX,adsense.com
@@ -448,6 +448,7 @@ HOST-SUFFIX,contextual.media.net
 HOST-SUFFIX,contextweb.com
 HOST-SUFFIX,counter.sina.com.cn
 HOST-SUFFIX,count.video.sina.com.cn
+HOST-SUFFIX,cp.edl.co.kr
 HOST-SUFFIX,cpmstar.com
 HOST-SUFFIX,cpro2.baidu.com
 HOST-SUFFIX,cpro2.baidustatic.com
@@ -535,6 +536,7 @@ HOST-SUFFIX,ex.mobmore.com
 HOST-SUFFIX,exoclick.com
 HOST-SUFFIX,exosrv.com
 HOST-SUFFIX,ex.puata.info
+HOST-SUFFIX,external-api.impression-neo.naver.com
 HOST-SUFFIX,extlog.snssdk.com
 HOST-SUFFIX,f10.baidu.com
 HOST-SUFFIX,fastview.co.kr
@@ -557,6 +559,7 @@ HOST-SUFFIX,game.weibo.com
 HOST-SUFFIX,gamex.mobile.youku.com
 HOST-SUFFIX,g.baidu.com
 HOST-SUFFIX,g.click.taobao.com
+HOST-SUFFIX,g.doubleclick.net
 HOST-SUFFIX,gemini.yahoo.com
 HOST-SUFFIX,gimg.baidu.com
 HOST-SUFFIX,gma.alicdn.com
@@ -679,6 +682,7 @@ HOST-SUFFIX,m.beacon.sina.com.cn
 HOST-SUFFIX,mcs.snssdk.com
 HOST-SUFFIX,mediabp.kr
 HOST-SUFFIX,mediacategory.com
+HOST-SUFFIX,mediavisor.doubleclick.net
 HOST-SUFFIX,megadata.co.kr
 HOST-SUFFIX,mfadsrvr.com
 HOST-SUFFIX,m.game.weibo.cn
@@ -715,6 +719,7 @@ HOST-SUFFIX,m.simba.taobao.com
 HOST-SUFFIX,msite.baidu.com
 HOST-SUFFIX,mtrace.qq.com
 HOST-SUFFIX,myes.youku.com
+HOST-SUFFIX,n4403ad.doubleclick.net
 HOST-SUFFIX,najva.com
 HOST-SUFFIX,nbsdk-baichuan.alicdn.com
 HOST-SUFFIX,nbsdk-baichuan.taobao.com
@@ -722,6 +727,7 @@ HOST-SUFFIX,ndexww.com
 HOST-SUFFIX,nefing.com
 HOST-SUFFIX,neirong.baidu.com
 HOST-SUFFIX,netinsight.co.kr
+HOST-SUFFIX,net.rayjump.com
 HOST-SUFFIX,newscover.co.kr
 HOST-SUFFIX,newspush.sinajs.cn
 HOST-SUFFIX,nitropay.com
@@ -835,7 +841,6 @@ HOST-SUFFIX,simaba.taobao.com
 HOST-SUFFIX,simba.m.taobao.com
 HOST-SUFFIX,s.img.mix.sina.com.cn
 HOST-SUFFIX,sitescout.com
-HOST-SUFFIX,skt-asum.com
 HOST-SUFFIX,slog.sina.cn
 HOST-SUFFIX,slog.sina.com.cn
 HOST-SUFFIX,smartadserver.com
@@ -853,6 +858,7 @@ HOST-SUFFIX,ssp.api.tappx.com
 HOST-SUFFIX,stat.chinaso.com
 HOST-SUFFIX,staticadm.leju.sina.com.cn
 HOST-SUFFIX,static.app.m.letv.com
+HOST-SUFFIX,static.doubleclick.net
 HOST-SUFFIX,static.hotjar.com
 HOST-SUFFIX,static.javhd.com
 HOST-SUFFIX,static.sensorsdata.cn
@@ -865,6 +871,7 @@ HOST-SUFFIX,stat.youku.com
 HOST-SUFFIX,stax.kr
 HOST-SUFFIX,store.tv.api.3g.youku.com
 HOST-SUFFIX,store.xl.api.3g.youku.com
+HOST-SUFFIX,stream.spongead.com
 HOST-SUFFIX,strip.taobaocdn.com
 HOST-SUFFIX,su.bdimg.com
 HOST-SUFFIX,su.bdstatic.com
@@ -980,12 +987,13 @@ HOST-SUFFIX,zynga.com
 HOST-SUFFIX,zyngaplayersupport.com
 HOST-SUFFIX,zz.bdstatic.com
 HOST-SUFFIX,zzy1.quyaoya.com
+HOST,supersonicads.com
+HOST,tads.tenping.kr
 HOST,tivan.naver.com
 HOST,tpc.googlesyndication.com
 HOST,tracker.digitalcamp.co.kr
 HOST,trendpick.shopping.naver.com
 HOST,tvetamovie.pstatic.net
-HOST,unityads.unity3d.com
 HOST,veta.naver.com
 HOST-WILDCARD,ad.*.doubleclick.net
 HOST-WILDCARD,adimg*.search.naver.net
@@ -1002,3 +1010,4 @@ HOST,wwwads.seoul.co.kr
 HOST,xconf.cauly.co.kr
 HOST,xdsp.snadx.com
 HOST,z.o00.kr
+HOST,zumads.vrixon.com
