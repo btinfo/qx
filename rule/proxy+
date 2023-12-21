@@ -101,9 +101,12 @@ DOMAIN-SUFFIX,uk
 IP-ASN,714 // 🇺🇸Apple Inc.
 IP-ASN,2914 // 🇺🇸NTT America, Inc.
 IP-ASN,3462 // 🇼🇸Data Communication Business Group
+IP-ASN,4766 // 🇰🇷Korea Telecom
+IP-ASN,6134 // 🇺🇸XNNET
 IP-ASN,6185 // 🇺🇸APPLE-AUSTIN
 IP-ASN,8068 // 🇺🇸Microsoft Corporation
 IP-ASN,8075 // 🇺🇸Microsoft Corporation
+IP-ASN,12874 // 🇮🇹Fastweb
 IP-ASN,13333 // 🇺🇸Consolidated Communications, Inc.
 IP-ASN,13335 // 🇺🇸Cloudflare, Inc.
 IP-ASN,13414 // 🇺🇸Twitter Inc.
