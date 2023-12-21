@@ -67,7 +67,7 @@ readme () {
   grep -Ecv --exclude-dir=src "^$|#" -- *|awk -F: '{print $2,$1}'|column -t > "$des"/README
 }
 
-#parser
+parser
 reject_v2fly
 reject_ko
 reject_vk
