@@ -14,6 +14,7 @@ reject () {
   
   #AWAvenue-Ads-Rule
   curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d' > awavenue-ads
+  [[ -s awavenue-ads ]] || exit
   grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awa
   grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awa
   sed -i '/mp.weixin.qq.com/d' reject_awa
