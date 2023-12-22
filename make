@@ -13,14 +13,14 @@ reject () {
   cd "$des"/rule||exit
   
   #AWAvenue-Ads-Rule
-  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|grep -Ev "^//|^$" > awavenue-ads
-  grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awavenue
-  grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awavenue
+  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d' > awavenue-ads
+  grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awa
+  grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awa
   rm -f awavenue-ads
 
   #SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > sukkaw
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> sukkaw
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> reject_sukka
 
   #category-ads-all.txt
   curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
@@ -28,6 +28,7 @@ reject () {
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
   sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
+  
   #3rd_domains.txt
   curl -fsL https://raw.githubusercontent.com/List-KR/List-KR/master/filters-share/3rd_domains.txt > 3rd_domains.txt
   [[ -s 3rd_domains.txt ]] || exit
@@ -40,10 +41,12 @@ reject () {
   grep '^||.*\*' 1st_domains.txt|sed 's/\^.*//g'|sed 's/||/HOST-WILDCARD,/g'|sort -u > 1st_domains
   grep '^||' 1st_domains.txt|grep -v '\*'|sed 's/\^.*//g'|sed 's/||/HOST-SUFFIX,/g'|sort -u >> 1st_domains
 
+  cat 3rd_domains 1st_domains | sort -u > reject_ko
+  rm -f 3rd_domains 1st_domains
+
   #merge
-  #cat reject_v2fly 1st_domains 3rd_domains |sort -u > reject
-  cat sukkaw 1st_domains 3rd_domains |sort -u > reject
-  rm -f sukkaw *.txt reject_v2fly 1st_domains 3rd_domains
+  #cat sukkaw 1st_domains 3rd_domains |sort -u > reject
+  
 }
   
 all () {
