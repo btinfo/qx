@@ -11,6 +11,12 @@ parser () {
 
 reject () {
   cd "$des"/rule||exit
+  
+  #SukkaW
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > SukkaW
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> SukkaW
+
+  sort -u SukkaW > reject_sukkaw
 
   #category-ads-all.txt
   curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
@@ -32,7 +38,7 @@ reject () {
 
   #merge
   cat reject_v2fly 1st_domains 3rd_domains |sort -u > reject
-  rm -f *.txt reject_v2fly 1st_domains 3rd_domains
+  rm -f SukkaW *.txt reject_v2fly 1st_domains 3rd_domains
 }
   
 all () {
