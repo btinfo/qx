@@ -42,7 +42,7 @@ reject () {
   grep '^||' 1st_domains.txt|grep -v '\*'|sed 's/\^.*//g'|sed 's/||/HOST-SUFFIX,/g'|sort -u >> 1st_domains
 
   cat 3rd_domains 1st_domains | sort -u > reject_ko
-  rm -f 3rd_domains 1st_domains
+  rm -f 3rd_domains* 1st_domains*
 
   #merge
   #cat sukkaw 1st_domains 3rd_domains |sort -u > reject
