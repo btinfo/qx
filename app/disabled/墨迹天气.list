@@ -3,28 +3,28 @@
 # http://www.moji.com/
 # https://apps.apple.com/cn/app/id434209233
 
-DOMAIN-SUFFIX,cdn.moji002.com,REJECT
-DOMAIN-SUFFIX,cdn.moji.com,REJECT
-DOMAIN-SUFFIX,oss4bpc.moji.com,REJECT
-DOMAIN-SUFFIX,oss4liview.moji.com,REJECT
-DOMAIN-SUFFIX,sns.api.moji.com,REJECT
-DOMAIN-SUFFIX,ugcface.moji001.com,REJECT
+HOST-SUFFIX,cdn.moji002.com,REJECT
+HOST-SUFFIX,cdn.moji.com,REJECT
+HOST-SUFFIX,oss4bpc.moji.com,REJECT
+HOST-SUFFIX,oss4liview.moji.com,REJECT
+HOST-SUFFIX,sns.api.moji.com,REJECT
+HOST-SUFFIX,ugcface.moji001.com,REJECT
 
 # 阿里巴巴
-DOMAIN,ali-stats.jpush.cn,REJECT
+HOST,ali-stats.jpush.cn,REJECT
 
 # 腾讯
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,qzs.gdtimg.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,qzs.gdtimg.com,REJECT
 
 # 快手
-DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+HOST-SUFFIX,e.kuaishou.com,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT-DROP
+HOST-SUFFIX,umeng.com,REJECT-DROP
 
 # 个推
-DOMAIN-SUFFIX,getui.com,REJECT
+HOST-SUFFIX,getui.com,REJECT
 
 # 其他
-DOMAIN-SUFFIX,a.kwimgs.com,REJECT
+HOST-SUFFIX,a.kwimgs.com,REJECT

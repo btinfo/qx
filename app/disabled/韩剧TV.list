@@ -1,7 +1,7 @@
 # 韩剧TV
 
 # 阿里巴巴
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,beacon-api.aliyuncs.com,REJECT
-DOMAIN,mpush-api.aliyun.com,REJECT
-DOMAIN,aaid.uyunad.com,REJECT
+HOST,adashxgc.ut.taobao.com,REJECT
+HOST,beacon-api.aliyuncs.com,REJECT
+HOST,mpush-api.aliyun.com,REJECT
+HOST,aaid.uyunad.com,REJECT

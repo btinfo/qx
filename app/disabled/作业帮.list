@@ -3,4 +3,4 @@
 # https://www.zuoyebang.com/download.html
 # https://apps.apple.com/cn/app/id803781859
 
-DOMAIN,syh.zybang.com,REJECT
+HOST,syh.zybang.com,REJECT

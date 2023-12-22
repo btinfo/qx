@@ -1,5 +1,5 @@
 # 石头阅读
-DOMAIN-SUFFIX,www.stoneread.com,DIRECT
+HOST-SUFFIX,www.stoneread.com,DIRECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umeng.com,REJECT

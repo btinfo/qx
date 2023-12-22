@@ -5,12 +5,12 @@
 ^https:\/\/gateway\.caixin\.com\/api\/app\-api\/cxAdInfo\/selectIndexAdInfo - reject
 
 # 阿里
-DOMAIN,ali-stats.jpush.cn,REJECT
-DOMAIN-SUFFIX,growingio.com,REJECT
-DOMAIN,config.jpush.cn,REJECT
+HOST,ali-stats.jpush.cn,REJECT
+HOST-SUFFIX,growingio.com,REJECT
+HOST,config.jpush.cn,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umeng.com,REJECT
 
 # 其他
-DOMAIN-SUFFIX,dolphin-center.adsame.com,REJECT
+HOST-SUFFIX,dolphin-center.adsame.com,REJECT

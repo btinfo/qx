@@ -1,5 +1,5 @@
 #tencent-game
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,adsmind.gdtimg.com
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,gdt.qq.com
+HOST,pgdt.gtimg.cn
+HOST,adsmind.gdtimg.com

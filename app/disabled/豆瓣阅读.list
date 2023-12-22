@@ -7,15 +7,15 @@
 ^https:\/\/read\.douban\.com\/api\/v2\/ads\/splash - reject
 
 # 阿里巴巴
-DOMAIN,eco.taobao.com,REJECT
-DOMAIN-SUFFIX,cpatrk.net,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
+HOST,eco.taobao.com,REJECT
+HOST-SUFFIX,cpatrk.net,REJECT
+HOST,toblog.ctobsnssdk.com,REJECT
 
 # 谷歌
-DOMAIN,firebaseinstallations.googleapis.com,REJECT
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
+HOST,firebaseinstallations.googleapis.com,REJECT
+HOST,firebaselogging-pa.googleapis.com,REJECT
+HOST-SUFFIX,doubleclick.net,REJECT
+HOST-SUFFIX,googletagmanager.com,REJECT
 
 # Cloudflare
-DOMAIN,cdn-cn.vwo-analytics.com,REJECT
+HOST,cdn-cn.vwo-analytics.com,REJECT

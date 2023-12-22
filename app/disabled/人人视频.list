@@ -4,44 +4,44 @@
 ^https?:\/\/api\.rr\.tv\/(?:ad\/getAll|storage\/business\/rootName\/app\/homePage) - reject
 
 # 阿里巴巴
-DOMAIN,adashbc.ut.taobao.com,REJECT-DROP
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
-DOMAIN,beacon-api.aliyuncs.com,REJECT
-DOMAIN,mpush-api.aliyun.com,REJECT
-DOMAIN,ap2.qiyukf.com,REJECT
-DOMAIN,ark.atomhike.com,REJECT
-DOMAIN,gate.atomhike.com,REJECT
-DOMAIN,fp-it.fengkongcloud.com,REJECT
-DOMAIN,imdns.hpplay.cn,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
-DOMAIN,sdkauth.hpplay.cn,REJECT
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,smr.snssdk.com,REJECT
+HOST,adashbc.ut.taobao.com,REJECT-DROP
+HOST,adashxgc.ut.taobao.com,REJECT
+HOST,adash-emas.cn-hangzhou.aliyuncs.com,REJECT
+HOST,beacon-api.aliyuncs.com,REJECT
+HOST,mpush-api.aliyun.com,REJECT
+HOST,ap2.qiyukf.com,REJECT
+HOST,ark.atomhike.com,REJECT
+HOST,gate.atomhike.com,REJECT
+HOST,fp-it.fengkongcloud.com,REJECT
+HOST,imdns.hpplay.cn,REJECT
+HOST,rp.hpplay.cn,REJECT
+HOST,sdkauth.hpplay.cn,REJECT
+HOST,log.umsns.com,REJECT
+HOST,smr.snssdk.com,REJECT
 
 # 腾讯
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,qzs.qq.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,qzs.qq.com,REJECT
 
 # 字节
-DOMAIN,dm.toutiao.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+HOST,dm.toutiao.com,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pglstatp-toutiao.com,REJECT
 
 # 新网
-DOMAIN,blink.upload.bayescom.com,REJECT
-DOMAIN,cruiser.bayescom.com,REJECT
-DOMAIN,raddus.bayescom.com,REJECT
+HOST,blink.upload.bayescom.com,REJECT
+HOST,cruiser.bayescom.com,REJECT
+HOST,raddus.bayescom.com,REJECT
 
 # 网易
-DOMAIN,lbs.netease.im,REJECT
+HOST,lbs.netease.im,REJECT
 
 # 友盟
-DOMAIN-SUFFIX,umeng.com,REJECT
+HOST-SUFFIX,umeng.com,REJECT
 
 # 其他
-DOMAIN,gate.langago.com,REJECT
-DOMAIN,t.langago.cn,REJECT
-DOMAIN,unilog.wostore.cn,REJECT
-DOMAIN-SUFFIX,www.qchannel01.cn,REJECT
+HOST,gate.langago.com,REJECT
+HOST,t.langago.cn,REJECT
+HOST,unilog.wostore.cn,REJECT
+HOST-SUFFIX,www.qchannel01.cn,REJECT

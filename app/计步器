@@ -1,3 +1,3 @@
-host, ad2.fivecdm.com, reject
-host-suffix, i18n-pglstatp.com, reject
-host, fundingchoicesmessages.google.com, reject
+HOST,ad2.fivecdm.com, reject
+HOST-SUFFIX,i18n-pglstatp.com, reject
+HOST,fundingchoicesmessages.google.com, reject

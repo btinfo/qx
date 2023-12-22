@@ -1,7 +1,7 @@
 # Reddit
 
 # 亚马逊
-DOMAIN-SUFFIX,appsflyer.com,REJECT
+HOST-SUFFIX,appsflyer.com,REJECT
 
 # 其他
-DOMAIN-SUFFIX,flashtalking.com,REJECT
+HOST-SUFFIX,flashtalking.com,REJECT

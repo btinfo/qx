@@ -1,3 +1,3 @@
-host-suffix, adashx.m.taobao.com, reject
-host-suffix, h-adashx.ut.taobao.com, reject
-host, amdc.m.taobao.com, reject
+HOST-SUFFIX,adashx.m.taobao.com, reject
+HOST-SUFFIX,h-adashx.ut.taobao.com, reject
+HOST,amdc.m.taobao.com, reject

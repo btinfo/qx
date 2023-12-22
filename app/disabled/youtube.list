@@ -3,7 +3,7 @@
 # https://www.youtube.com/
 # https://apps.apple.com/us/app/id544007664
 
-DOMAIN-SUFFIX,youtube.com,PROXY
+HOST-SUFFIX,youtube.com,PROXY
 
 # 
 # By DivineEngine

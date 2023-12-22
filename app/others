@@ -1,34 +1,34 @@
-host, adash-emas.cn-hangzhou.aliyuncs.com, reject
-host, ad-exchange.toast.com, reject
-host, adex.ednplus.com, reject
-host, adlc-exchange.toast.com, reject
-host, adtracking.smartmediarep.com, reject
-host, api-adservices.apple.com, reject
-host, beacon.krxd.net, reject
-host, data.flurry.com, reject
-host, fp-it.fengkongcloud.com, reject
+HOST,adash-emas.cn-hangzhou.aliyuncs.com, reject
+HOST,ad-exchange.toast.com, reject
+HOST,adex.ednplus.com, reject
+HOST,adlc-exchange.toast.com, reject
+HOST,adtracking.smartmediarep.com, reject
+HOST,api-adservices.apple.com, reject
+HOST,beacon.krxd.net, reject
+HOST,data.flurry.com, reject
+HOST,fp-it.fengkongcloud.com, reject
 host-keyword, misakaf, direct
-host, mobads-pre-config.cdn.bcebos.com, reject
-host, receiptcheck.quantumult.app, proxy
-host-suffix, ad.appier.net, reject
-host-suffix, adlibr.com, reject
-host-suffix, applvn.com, reject
-host-suffix, chirmyram.com, direct
-host-suffix, cloudfront.net, proxy
-host-suffix, drive.9t.ee, direct
-host-suffix, dsp-x.jd.com, reject
-host-suffix, makamaka.cc, proxy
-host-suffix, moatads.com, reject
-host-suffix, pglstatp-toutiao.com, reject
-host-suffix, readycloud.netgear.com, direct
-host-suffix, sharepoint.com, direct
-host-suffix, wallpaperscraft.com, direct
-host-suffix, workingcopyapp.com, proxy
-host-suffix, www.17klive.com, direct
-host-suffix, www.chinatimes.com, proxy
-host, tnc3-aliec2.snssdk.com, reject
-host, tobapplog.ctobsnssdk.com, reject
-host, toblog.ctobsnssdk.com, reject
-host, wkdcm1.tingyun.com, reject
-host, wkdcm2.tingyun.com, reject
-host, wkrd.tingyun.com, reject
+HOST,mobads-pre-config.cdn.bcebos.com, reject
+HOST,receiptcheck.quantumult.app, proxy
+HOST-SUFFIX,ad.appier.net, reject
+HOST-SUFFIX,adlibr.com, reject
+HOST-SUFFIX,applvn.com, reject
+HOST-SUFFIX,chirmyram.com, direct
+HOST-SUFFIX,cloudfront.net, proxy
+HOST-SUFFIX,drive.9t.ee, direct
+HOST-SUFFIX,dsp-x.jd.com, reject
+HOST-SUFFIX,makamaka.cc, proxy
+HOST-SUFFIX,moatads.com, reject
+HOST-SUFFIX,pglstatp-toutiao.com, reject
+HOST-SUFFIX,readycloud.netgear.com, direct
+HOST-SUFFIX,sharepoint.com, direct
+HOST-SUFFIX,wallpaperscraft.com, direct
+HOST-SUFFIX,workingcopyapp.com, proxy
+HOST-SUFFIX,www.17klive.com, direct
+HOST-SUFFIX,www.chinatimes.com, proxy
+HOST,tnc3-aliec2.snssdk.com, reject
+HOST,tobapplog.ctobsnssdk.com, reject
+HOST,toblog.ctobsnssdk.com, reject
+HOST,wkdcm1.tingyun.com, reject
+HOST,wkdcm2.tingyun.com, reject
+HOST,wkrd.tingyun.com, reject

@@ -1,13 +1,13 @@
 # Twitter
 # https://apps.apple.com/us/app/id333903271
 
-host-suffix, ads-twitter.com, reject
-host-suffix, ads.twitter.com, reject
-host-suffix, ads-api.twitter.com, reject
-#host-suffix, analytics.twitter.com, reject
-host-suffix, p.twitter.com, reject
-host-suffix, scribe.twitter.com, reject
-host-suffix, syndication-o.twitter.com, reject
-host-suffix, syndication.twitter.com, reject
-host-suffix, tellapart.com, reject
-host-suffix, urls.api.twitter.com, reject
+HOST-SUFFIX,ads-twitter.com, reject
+HOST-SUFFIX,ads.twitter.com, reject
+HOST-SUFFIX,ads-api.twitter.com, reject
+#HOST-SUFFIX,analytics.twitter.com, reject
+HOST-SUFFIX,p.twitter.com, reject
+HOST-SUFFIX,scribe.twitter.com, reject
+HOST-SUFFIX,syndication-o.twitter.com, reject
+HOST-SUFFIX,syndication.twitter.com, reject
+HOST-SUFFIX,tellapart.com, reject
+HOST-SUFFIX,urls.api.twitter.com, reject

@@ -1,28 +1,18 @@
 # reject
-host, ad.12306.cn, reject
-host, ad.bmac.com.cn, reject
-host, g.3gl.net, reject
-host, h-adashx.ut.taobao.com, reject
-host, mcdp-sadc1.outbrain.com, reject
-host, v1.oddsserve.com, reject
-host-suffix, adbro.me, reject
-host-suffix, brainlyads.com, reject
-host-suffix, e.qq.com, reject
-host-suffix, fengkongcloud.com, reject
-host-suffix, jpush.cn, reject
-host-suffix, oddsserve.com, reject
-host-suffix, pangolin-sdk-toutiao1.com, reject
-host-suffix, popin.cc, reject
-host-suffix, tingyun.com, reject
-host-suffix, umengcloud.com, reject
-host-suffix, vidazoo.com, reject
-
-# proxy
-host-suffix, 4gspeed.me, Global
-host-suffix, aca.best, Global
-host-suffix, feiniaoyun.xyz, Global
-host-suffix, lwjyj.com, Global
-host-suffix, tagsub.net, Global
-host-suffix, v2ai.top, Global
-host-suffix, youtulink.top, Global
-host-suffix, yunti.monster, Global
+HOST,ad.12306.cn
+HOST,ad.bmac.com.cn
+HOST,g.3gl.net
+HOST,h-adashx.ut.taobao.com
+HOST,mcdp-sadc1.outbrain.com
+HOST,v1.oddsserve.com
+HOST-SUFFIX,adbro.me
+HOST-SUFFIX,brainlyads.com
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,fengkongcloud.com
+HOST-SUFFIX,jpush.cn
+HOST-SUFFIX,oddsserve.com
+HOST-SUFFIX,pangolin-sdk-toutiao1.com
+HOST-SUFFIX,popin.cc
+HOST-SUFFIX,tingyun.com
+HOST-SUFFIX,umengcloud.com
+HOST-SUFFIX,vidazoo.com

@@ -1,8 +1,8 @@
-DOMAIN-SUFFIX,wjys.cc
-DOMAIN-SUFFIX,xying08.top
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,tophub.app
-DOMAIN-SUFFIX,ppsimg.com
-DOMAIN-SUFFIX,cn
+HOST-SUFFIX,wjys.cc
+HOST-SUFFIX,xying08.top
+HOST-SUFFIX,sharepoint.com
+HOST-SUFFIX,tophub.app
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,cn
 IP-CIDR,202.61.255.248/32
 GEOIP,CN

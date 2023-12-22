@@ -1,3 +1,3 @@
 # testflight post site
-host-suffix, departures.to, proxy
-host-suffix, makamaka.cc, proxy
+HOST-SUFFIX,departures.to, proxy
+HOST-SUFFIX,makamaka.cc, proxy

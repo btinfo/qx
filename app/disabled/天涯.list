@@ -4,20 +4,20 @@
 ^https?:\/\/wireless\.tianya\.cn\/v\/ad\/ - reject
 
 # 阿里巴巴
-DOMAIN,smr.snssdk.com,REJECT
+HOST,smr.snssdk.com,REJECT
 
 # 腾讯
-DOMAIN,mazu.m.qq.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,qzs.gdtimg.com,REJECT
-DOMAIN-SUFFIX,qzs.qq.com,REJECT
+HOST,mazu.m.qq.com,REJECT
+HOST,pgdt.ugdtimg.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,qzs.gdtimg.com,REJECT
+HOST-SUFFIX,qzs.qq.com,REJECT
 
 # 字节
-DOMAIN,dm.toutiao.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+HOST,dm.toutiao.com,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pglstatp-toutiao.com,REJECT
 
 # 百度
-DOMAIN,hmma.baidu.com,REJECT
+HOST,hmma.baidu.com,REJECT
