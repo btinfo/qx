@@ -13,13 +13,13 @@ reject () {
   cd "$des"/rule||exit
   
   #AWAvenue-Ads-Rule
-  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d' > awavenue-ads
+  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sort -u > awavenue-ads
   [[ -s awavenue-ads ]] || exit
   format awavenue-ads reject_awa
 
   #SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > reject_sukka
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g'|sort -u > reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g'|sort -u >> reject_sukka
 
   #category-ads-all.txt
   curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
@@ -28,7 +28,7 @@ reject () {
   #sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
   
   #filter_25.txt
-  curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt|grep '^||'|sed 's/||//g'|sed 's/\^.*//g' > filter_25.txt
+  curl -fsL https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt|grep '^||'|sed 's/||//g'|sed 's/\^.*//g'|sort -u > filter_25.txt
   [[ -s filter_25.txt ]] || exit
   format filter_25.txt reject_ko
   
