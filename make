@@ -15,10 +15,12 @@ reject () {
   #AWAvenue-Ads-Rule
   curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d' > awavenue-ads
   [[ -s awavenue-ads ]] || exit
-  grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awa
-  grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awa
-  sed -i '/mp.weixin.qq.com/d' reject_awa
-  rm -f awavenue-ads
+  
+  format awavenue-ads reject_awa
+  #grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awa
+  #grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awa
+  #sed -i '/mp.weixin.qq.com/d' reject_awa
+  #rm -f awavenue-ads
 
   #SukkaW
   curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > reject_sukka
@@ -50,7 +52,24 @@ reject () {
   #cat sukkaw 1st_domains 3rd_domains |sort -u > reject
   
 }
-  
+
+format () {
+  while read -r line
+  do
+    num=`echo $line|awk -F. '{print NF-1}'`
+    if echo $line|grep '*';then
+      echo "HOST-WILDCARD,$line" >> $2
+    elif echo $line|grep '.co.kr';then
+      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> $2
+      [[ $num -gt 2 ]] && echo "HOST,$line" >> $2
+    else
+      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> $2
+      [[ $num -gt 1 ]] && echo "HOST,$line" >> $2
+    fi
+  done < $1
+  rm -f $1
+}
+
 all () {
   cd "$des"/rule||exit
   {
