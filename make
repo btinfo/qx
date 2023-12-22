@@ -36,7 +36,7 @@ reject () {
 
   #merge
   #cat reject_v2fly 1st_domains 3rd_domains |sort -u > reject
-  cat reject_sukkaw 1st_domains 3rd_domains |sort -u > reject
+  cat sukkaw 1st_domains 3rd_domains |sort -u > reject
   rm -f sukkaw *.txt reject_v2fly 1st_domains 3rd_domains
 }
   
