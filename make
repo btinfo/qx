@@ -13,12 +13,12 @@ reject () {
   cd "$des"/rule||exit
 
   #category-ads-all.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
+  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
+  |sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
  
   #3rd_domains.txt
-  cd "$des"/rule||exit
   curl -fsL https://raw.githubusercontent.com/List-KR/List-KR/master/filters-share/3rd_domains.txt > 3rd_domains.txt
   [[ -s 3rd_domains.txt ]] || exit
   grep '^||.*\*' 3rd_domains.txt|sed 's/\^.*//g'|sed 's/||/HOST-WILDCARD,/g'|sort -u > 3rd_domains
@@ -35,14 +35,14 @@ reject () {
   rm -f *.txt reject_v2fly 1st_domains 3rd_domains
 }
   
-
 all () {
   cd "$des"/rule||exit
   {
     cat <direct|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
     cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
-    cat <reject_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat <reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     cat <proxy|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
+    cat <proxy_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
     cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
     cat <direct+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
   } > all
@@ -55,6 +55,6 @@ readme () {
 
 parser
 reject
-#all
-#readme
+all
+readme
 
