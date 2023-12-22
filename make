@@ -15,9 +15,9 @@ reject () {
   #AWAvenue-Ads-Rule
   curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|grep -Ev "^//|^$" > awavenue-ads
   grep '\*' awavenue-ads|sed 's/^/HOST-WILDCARD,/g' > reject_awavenue
-  grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' > reject_awavenue
+  grep -v '\*' awavenue-ads|sed 's/^/HOST-SUFFIX,/g' >> reject_awavenue
   rm -f awavenue-ads
-  
+
   #SukkaW
   curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > sukkaw
   curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> sukkaw
