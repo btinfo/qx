@@ -1,9 +1,8 @@
-1265  all
+2231  all
 22    direct
 8     direct+
 88    proxy
 101   proxy+
 17    proxy_ko
-1012  reject
+1978  reject
 17    reject+
-1651  reject_sukkaw
