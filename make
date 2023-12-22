@@ -13,10 +13,8 @@ reject () {
   cd "$des"/rule||exit
   
   #SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> SukkaW
-
-  sort -u SukkaW > reject_sukkaw
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g' > sukkaw
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g' >> sukkaw
 
   #category-ads-all.txt
   curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt \
@@ -37,8 +35,9 @@ reject () {
   grep '^||' 1st_domains.txt|grep -v '\*'|sed 's/\^.*//g'|sed 's/||/HOST-SUFFIX,/g'|sort -u >> 1st_domains
 
   #merge
-  cat reject_v2fly 1st_domains 3rd_domains |sort -u > reject
-  rm -f SukkaW *.txt reject_v2fly 1st_domains 3rd_domains
+  #cat reject_v2fly 1st_domains 3rd_domains |sort -u > reject
+  cat reject_sukkaw 1st_domains 3rd_domains |sort -u > reject
+  rm -f sukkaw *.txt reject_v2fly 1st_domains 3rd_domains
 }
   
 all () {
