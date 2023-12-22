@@ -17,7 +17,7 @@ reject () {
   |sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
- 
+  sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
   #3rd_domains.txt
   curl -fsL https://raw.githubusercontent.com/List-KR/List-KR/master/filters-share/3rd_domains.txt > 3rd_domains.txt
   [[ -s 3rd_domains.txt ]] || exit
