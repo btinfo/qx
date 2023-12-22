@@ -54,6 +54,7 @@ reject () {
 }
 
 format () {
+  true > $2
   while read -r line
   do
     num=`echo $line|awk -F. '{print NF-1}'`
