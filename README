@@ -1,11 +1,11 @@
-2231  all
+1037  all
 22    direct
 8     direct+
 88    proxy
 101   proxy+
 17    proxy_ko
 1978  reject
-17    reject+
+5     reject+
 459   reject_awa
 337   reject_ko
 1651  reject_sukka

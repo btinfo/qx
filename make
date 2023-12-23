@@ -13,7 +13,7 @@ reject () {
   cd "$des"/rule||exit
   
   #AWAvenue-Ads-Rule
-  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sort -u > awavenue-ads
+  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sed 's/[[:space:]]//g'|sort -u > awavenue-ads
   [[ -s awavenue-ads ]] || exit
   format awavenue-ads reject_awa
 
@@ -57,7 +57,8 @@ all () {
   cd "$des"/rule||exit
   {
     cat <direct|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
-    cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat <reject_awa|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat <reject_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     cat <reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
     cat <proxy|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
     cat <proxy_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
