@@ -1,18 +1,7 @@
 # reject
-HOST,ad.12306.cn
-HOST,ad.bmac.com.cn
-HOST,g.3gl.net
-HOST,h-adashx.ut.taobao.com
-HOST,mcdp-sadc1.outbrain.com
-HOST,v1.oddsserve.com
-HOST-SUFFIX,adbro.me
-HOST-SUFFIX,brainlyads.com
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,fengkongcloud.com
-HOST-SUFFIX,jpush.cn
-HOST-SUFFIX,oddsserve.com
-HOST-SUFFIX,pangolin-sdk-toutiao1.com
-HOST-SUFFIX,popin.cc
-HOST-SUFFIX,tingyun.com
-HOST-SUFFIX,umengcloud.com
-HOST-SUFFIX,vidazoo.com
+# transfermarkt
+host-suffix, oddsserve.com
+host-suffix, ioam.de
+host-suffix, outbrain.com
+host-suffix, vidazoo.com
+host-suffix, brainlyads.com
