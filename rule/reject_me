@@ -6,11 +6,14 @@ host,ulogs.umengcloud.com
 host,ulogs.umeng.com
 host,errnewlog.umeng.com
 host-suffix,jpush.cn
-host,sdk-data.ubixioe.com
+host-suffix,ubixioe.com
 host-suffix,jiguang.cn
 host,api.th.wanzjhb.com
 host-suffix,pangolin-sdk-toutiao-b.com
 host-suffix,pangolin-sdk-toutiao1.com
 host-suffix,pangolin-sdk-toutiao.com
 host,wkdcm1.tingyun.com
+host,wkrd.tingyun.com
 host-suffix,pglstatp-toutiao.com
+host,log.umtrack.com
+
