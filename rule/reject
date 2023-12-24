@@ -121,12 +121,12 @@ HOST-SUFFIX,outbrain.com
 HOST-SUFFIX,vidazoo.com
 
 #umeng
-HOST,errnewlog.umeng.com
-HOST,log.umsns.com
-HOST,log.umtrack.com
-HOST,ulogs.umengcloud.com
-HOST,ulogs.umeng.com
-HOST,utoken.umeng.com
+#HOST,errnewlog.umeng.com
+#HOST,log.umsns.com
+#HOST,log.umtrack.com
+#HOST,ulogs.umengcloud.com
+#HOST,ulogs.umeng.com
+#HOST,utoken.umeng.com
 
 #xiaomi
 HOST,tracking.miui.com
@@ -169,12 +169,12 @@ HOST-SUFFIX,adtilt.com
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,amplitude.com
 HOST-SUFFIX,dutils.com
-HOST-SUFFIX,gepush.com
-HOST-SUFFIX,getui.com
+#HOST-SUFFIX,gepush.com
+#HOST-SUFFIX,getui.com
 HOST-SUFFIX,inmobi.cn
-HOST-SUFFIX,jiguang.cn
-HOST-SUFFIX,jpush.cn
-HOST-SUFFIX,jpush.io
+#HOST-SUFFIX,jiguang.cn
+#HOST-SUFFIX,jpush.cn
+#HOST-SUFFIX,jpush.io
 HOST-SUFFIX,mobileservice.cn
 HOST-SUFFIX,qchannel01.cn
 HOST-SUFFIX,ubixioe.com
