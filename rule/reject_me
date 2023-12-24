@@ -62,6 +62,7 @@ host,dig.bdurl.net
 
 
 host-suffix,amazon-adsystem.com
+host,in.appcenter.ms
 
 #
 host,cm.bilibili.com
@@ -76,6 +77,10 @@ host-suffix,googletagservices.com
 host-suffix,googletagmanager.com
 host-suffix,googleadservices.com
 host,in.appcenter.ms
+
+#
+host-suffix,scorecardresearch.com
+host,geolocation.onetrust.com
 
 #
 host,ulogs.umengcloud.com
@@ -102,6 +107,7 @@ host-suffix,jpush.cn
 host-suffix,jiguang.cn
 host-suffix,adukwai.com
 host-suffix,inmobi.cn
+host-suffix,adtilt.com
 
 #
 host,location.ximalaya.com
