@@ -17,3 +17,27 @@ host,wkrd.tingyun.com
 host-suffix,pglstatp-toutiao.com
 host,log.umtrack.com
 
+#huxiu
+host,log-api.huxiu.com
+host,api-ad-product.huxiu.com
+
+#twitter
+host-suffix,app-measurement.com
+host,metrics.icloud.com
+host-suffix,crashlytics.com
+host,firebaselogging-pa.googleapis.com
+
+#toutiao
+host,mon.snssdk.com
+host,lf1-cdn-tos.bytegoofy.com
+host,i.snssdk.com
+
+#bilibili
+host,cm.bilibili.com
+host,dataflow.biliapi.com
+host-suffix,bugly.qq.com
+hist-suffix,iadsdk.apple.com
+
+
+
+
