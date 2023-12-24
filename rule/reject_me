@@ -1,0 +1,16 @@
+host,tobapplog.ctobsnssdk.com
+host,toblog.ctobsnssdk.com
+host,sensors-log.dongqiudi.com
+host,sdk.e.qq.com
+host,ulogs.umengcloud.com
+host,ulogs.umeng.com
+host,errnewlog.umeng.com
+host-suffix,jpush.cn
+host,sdk-data.ubixioe.com
+host-suffix,jiguang.cn
+host,api.th.wanzjhb.com
+host-suffix,pangolin-sdk-toutiao-b.com
+host-suffix,pangolin-sdk-toutiao1.com
+host-suffix,pangolin-sdk-toutiao.com
+host,wkdcm1.tingyun.com
+host-suffix,pglstatp-toutiao.com
