@@ -130,6 +130,10 @@ host,location.ximalaya.com
 host,mobwsa.ximalaya.com
 host,xdcs-collector.ximalaya.com
 
+#ysp
+host,btrace.ysp.cctv.cn
+host,mtrace.ysp.cctv.cn
+
 #
 host,hw-ot-ad.a.yximgs.com
 host,v2-ad.video.yximgs.com
