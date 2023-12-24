@@ -4,7 +4,7 @@ HOST,data.flurry.com
 HOST,in.appcenter.ms
 HOST-SUFFIX,amazon-adsystem.com
 HOST-SUFFIX,scorecardresearch.com
-HOST,geolocation.onetrust.com
+#HOST,geolocation.onetrust.com
 
 #apps
 HOST,ad.12306.cn
