@@ -44,6 +44,9 @@ host,janapi.jd.com
 host,xlog.jd.com
 
 #
+host,nex.163.com
+host-suffix,g.163.com
+#
 host,tracking.miui.com
 host,sdkconfig.ad.xiaomi.com
 
