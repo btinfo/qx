@@ -15,13 +15,41 @@ host-suffix,bugly.qq.com
 host-suffix,beacon.qq.com
 host-suffix,gdt.qq.com
 host,oth.eve.mdt.qq.com
+host,oth.str.mdt.qq.com
 host-suffix,rqd.qq.com
+host,qzs.gdtimg.com
+
+host,hm.baidu.com
 host,hmma.baidu.com
 host,dxp.baidu.com
 host,mobads-logs.baidu.com
 host,mobads.baidu.com
 host,mobads-pre-config.cdn.bcebos.com
+host,newvector.map.baidu.com
+host,nsclick.baidu.com
 
+#
+host,logs.amap.com
+host,dualstack-logs.amap.com
+host,amdc.m.taobao.com
+host,acs.m.taobao.com
+host,optimus-ads.amap.com
+host,beacon-api.aliyuncs.com
+
+#
+host,janapi.jd.com
+host,xlog.jd.com
+
+#
+host,tracking.miui.com
+host,sdkconfig.ad.xiaomi.com
+
+#
+host,hw-ot-ad.a.yximgs.com
+host,v2-ad.video.yximgs.com
+host,ali-ad.a.yximgs.com
+
+#
 host,sf16-static.i18n-pglstatp.com
 host-suffix,pangolin-sdk-toutiao-b.com
 host-suffix,pangolin-sdk-toutiao.com
@@ -35,6 +63,7 @@ host,dig.bdurl.net
 
 host-suffix,amazon-adsystem.com
 
+#
 host,cm.bilibili.com
 host,dataflow.biliapi.com
 
@@ -48,11 +77,13 @@ host-suffix,googletagmanager.com
 host-suffix,googleadservices.com
 host,in.appcenter.ms
 
+#
 host,ulogs.umengcloud.com
 host,ulogs.umeng.com
 host,utoken.umeng.com
 host,errnewlog.umeng.com
 host,log.umtrack.com
+host,log.umsns.com
 
 
 host,msg.qy.net
@@ -69,8 +100,10 @@ host-suffix,dutils.com
 host-suffix,jpush.io
 host-suffix,jpush.cn
 host-suffix,jiguang.cn
+host-suffix,adukwai.com
+host-suffix,inmobi.cn
 
-
+#
 host,location.ximalaya.com
 host,adse.wsa.ximalaya.com
 host,adbehavior.ximalaya.com
@@ -96,8 +129,17 @@ host,api.th.wanzjhb.com
 host,mqtt.zhihu.com
 host,pv.sohu.com
 host-suffix,uyunad.com
-
-
+host,ad.cyapi.cn
+host-suffix,mobileservice.cn
+host-suffix,gepush.com
+host-suffix,qchannel01.cn
+host,gdfp.gifshow.com
+host,sdk.beizi.biz
+host,sdktmp.hubcloud.com.cn
+host,ad.12306.cn
+#
+host,v1.log.moji.com
+host,adlaunch.moji.com
 
 
 
