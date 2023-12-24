@@ -27,6 +27,7 @@ host,mobads.baidu.com
 host,mobads-pre-config.cdn.bcebos.com
 host,newvector.map.baidu.com
 host,nsclick.baidu.com
+host,zz.bdstatic.com
 
 #
 host,logs.amap.com
@@ -35,6 +36,8 @@ host,amdc.m.taobao.com
 host,acs.m.taobao.com
 host,optimus-ads.amap.com
 host,beacon-api.aliyuncs.com
+host,adashx.m.taobao.com
+host,h-adashx.ut.taobao.com
 
 #
 host,janapi.jd.com
@@ -62,6 +65,7 @@ host,dig.bdurl.net
 
 
 host-suffix,amazon-adsystem.com
+host,data.flurry.com
 host,in.appcenter.ms
 
 #
@@ -95,6 +99,7 @@ host,msg.qy.net
 host-suffix,www.qchannel01.cn
 host,log1.cmpassport.com
 host,gdfp.gifshow.com
+host,assets.growingio.com
 host,open.e.kuaishou.com
 
 
@@ -108,6 +113,7 @@ host-suffix,jiguang.cn
 host-suffix,adukwai.com
 host-suffix,inmobi.cn
 host-suffix,adtilt.com
+host-suffix,amplitude.com
 
 #
 host,location.ximalaya.com
