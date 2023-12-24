@@ -104,12 +104,12 @@ host-suffix,outbrain.com
 host-suffix,vidazoo.com
 
 #umeng
-#host,errnewlog.umeng.com
-#host,log.umsns.com
-#host,log.umtrack.com
-#host,ulogs.umengcloud.com
-#host,ulogs.umeng.com
-#host,utoken.umeng.com
+host,errnewlog.umeng.com
+host,log.umsns.com
+host,log.umtrack.com
+host,ulogs.umengcloud.com
+host,ulogs.umeng.com
+host,utoken.umeng.com
 
 #xiaomi
 host,tracking.miui.com
@@ -137,6 +137,7 @@ host,api.th.wanzjhb.com
 host,assets.growingio.com
 host,beacon.krxd.net
 host,dc.sigmob.cn
+host,fp-it.fengkongcloud.com
 host,gdfp.gifshow.com
 host,log1.cmpassport.com
 host,log-api.huxiu.com
@@ -148,7 +149,6 @@ host,open.kwaizt.com
 host,policy.video.iqiyi.com
 host,pv.sohu.com
 host,sdk.beizi.biz
-host,sdk-data.ubixioe.com
 host,sdktmp.hubcloud.com.cn
 host,sensors-log.dongqiudi.com
 host-suffix,adtilt.com
@@ -162,7 +162,9 @@ host-suffix,jpush.cn
 host-suffix,jpush.io
 host-suffix,mobileservice.cn
 host-suffix,qchannel01.cn
+host-suffix,ubixioe.com
 host-suffix,uyunad.com
 host,tobapplog.ctobsnssdk.com
 host,toblog.ctobsnssdk.com
 host,wkdcm1.tingyun.com
+host,wkrd.tingyun.com
