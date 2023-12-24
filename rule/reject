@@ -5,6 +5,15 @@ HOST-SUFFIX,amazon-adsystem.com
 HOST-SUFFIX,scorecardresearch.com
 HOST,geolocation.onetrust.com
 
+#apps
+HOST,ad.12306.cn
+HOST,ad.cyapi.cn
+HOST,log-api.huxiu.com
+HOST,mqtt.zhihu.com
+HOST,policy.video.iqiyi.com
+HOST,pv.sohu.com
+HOST,sensors-log.dongqiudi.com
+
 #apple
 HOST,api-adservices.apple.com
 HOST,metrics.icloud.com
@@ -140,8 +149,6 @@ HOST,v2-ad.video.yximgs.com
 HOST,ali-ad.a.yximgs.com
 
 #others
-HOST,ad.12306.cn
-HOST,ad.cyapi.cn
 HOST,adservice.sigmob.cn
 HOST,api-ad-product.huxiu.com
 HOST,api.th.wanzjhb.com
@@ -151,17 +158,12 @@ HOST,dc.sigmob.cn
 HOST,fp-it.fengkongcloud.com
 HOST,gdfp.gifshow.com
 HOST,log1.cmpassport.com
-HOST,log-api.huxiu.com
-HOST,mqtt.zhihu.com
 HOST,msg.qy.net
 HOST,open.e.kuaishou.com
 HOST,open.kuaishouzt.com
 HOST,open.kwaizt.com
-HOST,policy.video.iqiyi.com
-HOST,pv.sohu.com
 HOST,sdk.beizi.biz
 HOST,sdktmp.hubcloud.com.cn
-HOST,sensors-log.dongqiudi.com
 HOST-SUFFIX,adtilt.com
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,amplitude.com
