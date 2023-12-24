@@ -170,6 +170,14 @@ host,ad.12306.cn
 host,v1.log.moji.com
 host,adlaunch.moji.com
 
+#
+# transfermarkt
+host-suffix, oddsserve.com
+host-suffix, ioam.de
+host-suffix, outbrain.com
+host-suffix, vidazoo.com
+host-suffix, brainlyads.com
+
 
 
 
