@@ -8,7 +8,6 @@ host,geolocation.onetrust.com
 #apple
 host,api-adservices.apple.com
 host,metrics.icloud.com
-host-suffix,bugly.qq.com
 host-suffix,iadsdk.apple.com
 
 #alibaba
@@ -84,7 +83,7 @@ host-suffix,g.163.com
 host,h.trace.qq.com
 host,ios.rqd.qq.com
 host,mazu.m.qq.com
-host,mi.gdt.qq.com
+#host,mi.gdt.qq.com
 host,mtrace.qq.com
 host,oth.eve.mdt.qq.com
 host,oth.str.mdt.qq.com
