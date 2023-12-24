@@ -96,6 +96,10 @@ HOST,adlaunch.moji.com
 HOST,nex.163.com
 HOST-SUFFIX,g.163.com
 
+#qingting
+HOST,ad-cdn.qtfm.cn
+HOST,adlog.qingting.fm
+
 #tencent
 HOST,h.trace.qq.com
 HOST,ios.rqd.qq.com
