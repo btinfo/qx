@@ -39,6 +39,12 @@ host,optimus-ads.amap.com
 host,beacon-api.aliyuncs.com
 host,adashx.m.taobao.com
 host,h-adashx.ut.taobao.com
+host,amdc.alipay.com
+host,audid-api.taobao.com
+host,cdn.ynuf.aliapp.org
+host,iyes.youku.com
+host,applog.uc.cn
+
 
 #
 host,janapi.jd.com
