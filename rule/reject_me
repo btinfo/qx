@@ -28,6 +28,7 @@ host,mobads-pre-config.cdn.bcebos.com
 host,newvector.map.baidu.com
 host,nsclick.baidu.com
 host,zz.bdstatic.com
+host,kstj.baidu.com
 
 #
 host,logs.amap.com
@@ -130,6 +131,8 @@ host-wildcard,*.log.aliyuncs.com
 host,toblog.ctobsnssdk.com
 host,tobapplog.ctobsnssdk.com
 host,wkdcm1.tingyun.com
+host,dc.sigmob.cn
+host,adservice.sigmob.cn
 
 
 host,sdk-data.ubixioe.com
