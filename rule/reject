@@ -15,11 +15,14 @@ host,acs.m.taobao.com
 host,adashx.m.taobao.com
 #host,amdc.alipay.com
 #host,amdc.m.taobao.com
+host,apoll.m.taobao.com
+host,appdownload.alicdn.com
 host,applog.uc.cn
 host,audid-api.taobao.com
 host,beacon-api.aliyuncs.com
 host,cdn.ynuf.aliapp.org
 host,dualstack-logs.amap.com
+host,fourier.taobao.com
 host,h-adashx.ut.taobao.com
 host,iyes.youku.com
 host,logs.amap.com
@@ -27,6 +30,8 @@ host,optimus-ads.amap.com
 host-wildcard,*.log.aliyuncs.com
 
 #baidu
+host,afd.baidu.com
+host,als.baidu.com
 host,dxp.baidu.com
 host,hm.baidu.com
 host,hmma.baidu.com
@@ -37,6 +42,7 @@ host,mobads-pre-config.cdn.bcebos.com
 host,newvector.map.baidu.com
 host,nsclick.baidu.com
 host,zz.bdstatic.com
+host-suffix,tuisong.baidu.com
 
 #bilibili
 host,cm.bilibili.com
@@ -56,6 +62,7 @@ host-suffix,pglstatp-toutiao.com
 #google
 host,app-measurement.com
 #host,firebaselogging-pa.googleapis.com
+host,pagead2.googlesyndication.com
 host-suffix,crashlytics.com
 host-suffix,doubleclick-cn.net
 host-suffix,doubleclick.net
