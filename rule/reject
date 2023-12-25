@@ -1,3 +1,6 @@
+#ad union
+host, sdk.open.talk.getui.net
+
 #abroad
 host, data.flurry.com
 host, in.appcenter.ms
@@ -12,7 +15,11 @@ host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
 
 #apps
+host-suffix, ad.10010.com
+host, smartad.10010.com
+host, appgoad.189.cn
 host, ad.12306.cn
+host, ad.bmac.com.cn
 host, ad.cyapi.cn
 #host, log-api.huxiu.com
 host, api-ad-product.huxiu.com
@@ -87,6 +94,7 @@ host-suffix, googletagservices.com
 
 #JD
 host, janapi.jd.com
+host, policy.jd.com
 #host, xlog.jd.com
 
 #kuaishou
@@ -169,6 +177,8 @@ host, mqtt.zhihu.com
 ip-cidr, 180.76.76.200/32
 
 #others
+host-suffix, adbro.me
+host, et.tanx.com
 host, adservice.sigmob.cn
 host, api.th.wanzjhb.com
 host, assets.growingio.com
