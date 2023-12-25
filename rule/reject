@@ -1,22 +1,24 @@
 #abroad
-host, china2021.s3.ap-northeast-2.amazonaws.com
 host, data.flurry.com
 host, in.appcenter.ms
 host, lb.eu-1-id5-sync.com
-host-suffix, amazon-adsystem.com
 host-suffix, id5-sync.com
 host-suffix, lkme.cc
 host-suffix, scorecardresearch.com
 #host, geolocation.onetrust.com
 
+#amazon
+host, china2021.s3.ap-northeast-2.amazonaws.com
+host-suffix, amazon-adsystem.com
+
 #apps
 host, ad.12306.cn
 host, ad.cyapi.cn
-host, log-api.huxiu.com
+#host, log-api.huxiu.com
 host, api-ad-product.huxiu.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
-host, sensors-log.dongqiudi.com
+#host, sensors-log.dongqiudi.com
 
 #apple
 host, api-adservices.apple.com
@@ -30,7 +32,7 @@ host, adashx.m.taobao.com
 #host, amdc.m.taobao.com
 host, apoll.m.taobao.com
 host, appdownload.alicdn.com
-host, applog.uc.cn
+#host, applog.uc.cn
 host, audid-api.taobao.com
 host, beacon-api.aliyuncs.com
 host, cdn.ynuf.aliapp.org
@@ -38,9 +40,9 @@ host, dualstack-logs.amap.com
 host, fourier.taobao.com
 host, h-adashx.ut.taobao.com
 host, iyes.youku.com
-host, logs.amap.com
+#host, logs.amap.com
 host, optimus-ads.amap.com
-host-wildcard, *.log.aliyuncs.com
+#host-wildcard, *.log.aliyuncs.com
 
 #baidu
 host, afd.baidu.com
@@ -64,7 +66,7 @@ host, dataflow.biliapi.com
 #bytedance
 host, dig.bdurl.net
 host, i.snssdk.com
-host, log.snssdk.com
+#host, log.snssdk.com
 host, mon.snssdk.com
 host, sf16-static.i18n-pglstatp.com
 host-suffix, pangolin-sdk-toutiao1.com
@@ -85,7 +87,7 @@ host-suffix, googletagservices.com
 
 #JD
 host, janapi.jd.com
-host, xlog.jd.com
+#host, xlog.jd.com
 
 #kuaishou
 host, ali-ad.a.yximgs.com
@@ -97,11 +99,11 @@ host, open.kwaizt.com
 host, v2-ad.video.yximgs.com
 
 #meituan
-host, data-sdk-uuid-log.d.meituan.net
-host, wmlog.meituan.com
+#host, data-sdk-uuid-log.d.meituan.net
+#host, wmlog.meituan.com
 
 #moji
-host, v1.log.moji.com
+#host, v1.log.moji.com
 host, adlaunch.moji.com
 
 #netease
@@ -110,7 +112,7 @@ host-suffix, g.163.com
 
 #qingting
 host, ad-cdn.qtfm.cn
-host, adlog.qingting.fm
+#host, adlog.qingting.fm
 
 #tencent
 host, h.trace.qq.com
@@ -171,7 +173,7 @@ host, assets.growingio.com
 host, beacon.krxd.net
 host, dc.sigmob.cn
 host, fp-it.fengkongcloud.com
-host, log1.cmpassport.com
+#host, log1.cmpassport.com
 host, msg.qy.net
 host, sdk.beizi.biz
 host, sdktmp.hubcloud.com.cn
