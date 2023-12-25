@@ -13,7 +13,6 @@ host-suffix, scorecardresearch.com
 host, ad.12306.cn
 host, ad.cyapi.cn
 host, log-api.huxiu.com
-host, mqtt.zhihu.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
 host, sensors-log.dongqiudi.com
@@ -150,6 +149,10 @@ host, xdcs-collector.ximalaya.com
 #ysp
 host, btrace.ysp.cctv.cn
 host, mtrace.ysp.cctv.cn
+
+#zhihu
+host, mqtt.zhihu.com
+ip-cidr, 180.76.76.200/32
 
 #
 host, hw-ot-ad.a.yximgs.com
