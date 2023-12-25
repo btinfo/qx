@@ -1,8 +1,8 @@
-HOST-SUFFIX,wjys.cc
-HOST-SUFFIX,xying08.top
-HOST-SUFFIX,sharepoint.com
-HOST-SUFFIX,tophub.app
-HOST-SUFFIX,ppsimg.com
-HOST-SUFFIX,cn
-IP-CIDR,202.61.255.248/32
+host-suffix, wjys.cc
+host-suffix, xying08.top
+host-suffix, sharepoint.com
+host-suffix, tophub.app
+host-suffix, ppsimg.com
+host-suffix, cn
+ip-cidr, 202.61.255.248/32
 GEOIP,CN

@@ -1,19 +1,19 @@
-HOST,livecloud.akamaized.net
-HOST,livecloud-thumb.akamaized.net
-HOST-SUFFIX,daum.net
-HOST-SUFFIX,daumcdn.net
-HOST-SUFFIX,kakao.com
-HOST-SUFFIX,kakaocdn.net
-HOST-SUFFIX,line.me
-HOST-SUFFIX,naver.com
-HOST-SUFFIX,naver.net
-HOST-SUFFIX,navercorp.com
-HOST-SUFFIX,pstatic.net
-HOST-SUFFIX,chosun.com
-HOST-SUFFIX,donga.com
-HOST-SUFFIX,hankookilbo.com
-HOST-SUFFIX,pressian.com
-HOST-SUFFIX,kr
+host, livecloud.akamaized.net
+host, livecloud-thumb.akamaized.net
+host-suffix, daum.net
+host-suffix, daumcdn.net
+host-suffix, kakao.com
+host-suffix, kakaocdn.net
+host-suffix, line.me
+host-suffix, naver.com
+host-suffix, naver.net
+host-suffix, navercorp.com
+host-suffix, pstatic.net
+host-suffix, chosun.com
+host-suffix, donga.com
+host-suffix, hankookilbo.com
+host-suffix, pressian.com
+host-suffix, kr
 
-IP-ASN,23576 // 🇰🇷NAVER Cloud Corp.
-#IP-ASN,38099 // 🇰🇷Kakao Corp
+ip-asn, 23576 // 🇰🇷NAVER Cloud Corp.
+#ip-asn, 38099 // 🇰🇷Kakao Corp

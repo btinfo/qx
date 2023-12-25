@@ -1,459 +1,459 @@
-HOST-SUFFIX,1010pic.com
-HOST-SUFFIX,8le8le.com
-HOST,a0.app.xiaomi.com
-HOST,acs.m.taobao.com
-HOST,ad.12306.cn
-HOST,ad.51wnl.com
-HOST,adapi.izuiyou.com
-HOST,adapi.yynetwk.com
-HOST,adashbc.ut.taobao.com
-HOST,ad.bwton.com
-HOST-WILDCARD,*-ad-*.byteimg.com
-HOST,adcdn.tencentmusic.com
-HOST,adclick.tencentmusic.com
-HOST-SUFFIX,adcolony.com
-HOST,ad.cyapi.cn
-HOST,adexpo.tencentmusic.com
-HOST,adfilter.imtt.qq.com
-HOST-SUFFIX,adjust.cn
-HOST-SUFFIX,adkwai.com
-HOST,ad.partner.gifshow.com
-HOST,ad.qingting.fm
-HOST,ad.qq.com
-HOST,ads.95516.com
-HOST,ads-api-o.api.leiniao.com
-HOST,ads-api.tiktok.com
-HOST,ads-api.twitter.com
-HOST-SUFFIX,ad-scope.com
-HOST,ad-scope.com.cn
-HOST,ad-sdk.huxiu.com
-HOST,adsense.google.cn
-HOST,adservice.google.cn
-HOST,adservice.google.com
-HOST,adserviceretry.kugou.com
-HOST,adservice.sigmob.cn
-HOST,adsfilebssdlbig.ali.kugou.com
-HOST,adsfile.bssdlbig.kugou.com
-HOST-WILDCARD,adsfilebssdlbig.*.kugou.com
-HOST,adsfileretry.service.kugou.com
-HOST,adsfs.oppomobile.com
-HOST,ads.google.cn
-HOST,ads.heytapmobi.com
-HOST,ads.huan.tv
-HOST,ads-img-qc.xhscdn.com
-HOST-WILDCARD,*-ad.sm.cn
-HOST,adsmind.gdtimg.com
-HOST,adsmind.ugdtimg.com
-HOST,ads.music.126.net
-HOST-WILDCARD,ads*-normal-lq.zijieapi.com
-HOST,ads.oppomobile.com
-HOST,adsp.xunlei.com
-HOST,ads.service.kugou.com
-HOST,adstats.tencentmusic.com
-HOST-WILDCARD,ads-**.tiktok.com
-HOST,ads-video-al.xhscdn.com
-HOST,ads-video-qc.xhscdn.com
-HOST,adtago.s3.amazonaws.com
-HOST,adtech.yahooinc.com
-HOST,ad.tencentmusic.com
-HOST,ad.toutiao.com
-HOST,adtrack.quark.cn
-HOST-SUFFIX,adukwai.com
-HOST,advertiseonbing.azureedge.net
-HOST,advertising-api-eu.amazon.com
-HOST,advertising.apple.com
-HOST,advertising.yahoo.com
-HOST,advertising.yandex.ru
-HOST,advice-ads.s3.amazonaws.com
-HOST-SUFFIX,adview.cn
-HOST,adv.sec.intl.miui.com
-HOST,adv.sec.miui.com
-HOST,ad.winrar.com.cn
-HOST-WILDCARD,*-ad.wtzw.com
-HOST,adx.ads.oppomobile.com
-HOST,adx-cn.anythinktech.com
-HOST,ad.xelements.cn
-HOST-WILDCARD,ad.*.xiaomi.com
-HOST,ad.xiaomi.com
-HOST,ad.ximalaya.com
-HOST,adxlog-adnet.vivo.com.cn
-HOST,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
-HOST,ad.zijieapi.com
-HOST,afs.googlesyndication.com
-HOST,ali-ad.a.yximgs.com
-HOST,analysis.yozocloud.cn
-HOST,analytics.126.net
-HOST,analytics.95516.com
-HOST,analytics-api.samsunghealthcn.com
-HOST,analytics.google.com
-HOST,analytics.pinterest.com
-HOST,analytics.rayjump.com
-HOST,analytics.tiktok.com
-HOST,analytics.woozooo.com
-HOST,analyze.lemurbrowser.com
-HOST,an.facebook.com
-HOST,api-access.pangolin-sdk-toutiao1.com
-HOST,api-access.pangolin-sdk-toutiao2.com
-HOST,api-access.pangolin-sdk-toutiao3.com
-HOST,api-access.pangolin-sdk-toutiao4.com
-HOST,api-access.pangolin-sdk-toutiao5.com
-HOST-WILDCARD,api-access.pangolin-sdk-toutiao*.com
-HOST,api-access.pangolin-sdk-toutiao.com
-HOST,api-access.pangolin-sdk-toutiao.com3
-HOST,api-ad-product.huxiu.com
-HOST,api-adservices.apple.com
-HOST,api.ad.xiaomi.com
-HOST,api-htp.beizi.biz
-HOST,api.htp.hubcloud.com.cn
-HOST,api.hzsanjiaomao.com
-HOST,api.installer.xiaomi.com
-HOST,api.kingdata.ksyun.com
-HOST,api.statsig.com
-HOST,apiyd.my91app.com
-HOST,applog.lc.quark.cn
-HOST,applog.uc.cn
-HOST-SUFFIX,app-measurement.com
-HOST,ata-sdk-uuid-report.dreport.meituan.net
-HOST,audid-api.taobao.com
-HOST,azr.footprintdns.com
-HOST,bdapi.ads.oppomobile.com
-HOST,bdapi-ads.realmemobile.com
-HOST,bdapi-in-ads.realmemobile.com
-HOST,beacon-api.aliyuncs.com
-HOST,beacon.qq.com
-HOST,beacons.gvt2.com
-HOST-SUFFIX,beizi.biz
-HOST,bingads.microsoft.com
-HOST,books-analytics-events.apple.com
-HOST,bugly.qq.com
-HOST,business-api.tiktok.com
-HOST,c2.gdt.qq.com
-HOST,catalog.fjwhcbsh.com
-HOST,catalog.gamepass.com
-HOST,cdn-ads.oss-cn-shanghai.aliyuncs.com
-HOST,cdn.ad.xiaomi.com
-HOST,cdn.ynuf.aliapp.org
-HOST,c.evidon.com
-HOST,cfg.imtt.qq.com
-HOST,c.gj.qq.com
-HOST,chat1.jd.com
-HOST,chc.ads.huan.tv
-HOST,ck.ads.oppomobile.com
-HOST,clog.miguvideo.com
-HOST,cm.bilibili.com
-HOST,cn-acs.m.cainiao.com
-HOST-SUFFIX,cnzz.com
-HOST,collect.kugou.com
-HOST-SUFFIX,crashlytics.com
-HOST,crashlyticsreports-pa.googleapis.com
-HOST,c.sayhi.360.cn
-HOST-SUFFIX,csjplatform.com
-HOST,data.ads.oppomobile.com
-HOST,dataflow.biliapi.com
-HOST,data.mistat.india.xiaomi.com
-HOST,data.mistat.rus.xiaomi.com
-HOST,data.mistat.xiaomi.com
-HOST,data-sdk-uuid-log.d.meituan.net
-HOST,dc.sigmob.cn
-HOST,diagnosis.ad.xiaomi.com
-HOST,dlogs.bwton.com
-HOST,dm.toutiao.com
-HOST-SUFFIX,doubleclick-cn.net
-HOST-SUFFIX,doubleclick.net
-HOST,download.changhong.upgrade2.huan.tv
-HOST,downloadxml.changhong.upgrade2.huan.tv
-HOST,dsp.fcbox.com
-HOST,dualstack-logs.amap.com
-HOST-SUFFIX,dutils.com
-HOST,dxp.baidu.com
-HOST,e.ad.xiaomi.com
-HOST,eclick.baidu.com
-HOST,ef-dongfeng.tanx.com
-HOST,entry.baidu.com
-HOST,errnewlog.umeng.com
-HOST,events-drcn.op.dbankcloud.cn
-HOST,firebaselogging-pa.googleapis.com
-HOST-SUFFIX,flurry.com
-HOST,game.loveota.com
-HOST,gdfp.gifshow.com
-HOST,gemini.yahoo.com
-HOST,globalapi.ad.xiaomi.com
-HOST-SUFFIX,googleadservices-cn.com
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,google-analytics.com
-HOST-SUFFIX,googletagservices-cn.com
-HOST-SUFFIX,googletagservices.com
-HOST,gromore.pangolin-sdk-toutiao.com
-HOST,grs.hicloud.com
-HOST,h-adashx.ut.taobao.com
-HOST-SUFFIX,henzanapp.com
-HOST-SUFFIX,hexagon-analytics.com
-HOST,hm.baidu.com
-HOST,hmma.baidu.com
-HOST,h.trace.qq.com
-HOST,httpdns.bcelive.com
-HOST,httpdns.huaweicloud.com
-HOST,httpdns.ocloud.oppomobile.com
-HOST,httpdns.push.oppomobile.com
-HOST,hugelog.fcbox.com
-HOST,hw-ot-ad.a.yximgs.com
-HOST,hya.comp.360os.com
-HOST,hye.comp.360os.com
-HOST,hyt.comp.360os.com
-HOST,iad.apple.com
-HOST,iadctest.qwapi.com
-HOST,iadsdk.apple.com
-HOST,iadworkbench.apple.com
-HOST,ifs.tanx.com
-HOST,image-ad.sm.cn
-HOST,imageplus.baidu.com
-HOST,images.pinduoduo.com
-HOST,img.adnyg.com
-HOST,img.adnyg.com.w.kunlungr.com
-HOST,img-c.heytapimage.com
-HOST-SUFFIX,imtmp.net
-HOST,irc.qubiankeji.com
-HOST,i.snssdk.com
-HOST,is.snssdk.com
-HOST,ixav-cse.avlyun.com
-HOST-SUFFIX,iyfbodn.com
-HOST,janapi.jd.com
-HOST,jfapi.chiq-cloud.com
-HOST-SUFFIX,jiguang.cn
-HOST-SUFFIX,jpush.cn
-HOST,jpush.html5.qq.com
-HOST-SUFFIX,jpush.io
-HOST,jswebcollects.kugou.com
-HOST,ks.pull.yximgs.com
-HOST,lf1-cdn-tos.bytegoofy.com
-HOST,lf3-ad-union-sdk.pglstatp-toutiao.com
-HOST,liveats-vod.video.ptqy.gitv.tv
-HOST,lm10111.jtrincc.cn
-HOST,log1.cmpassport.com
-HOST,log.ad.xiaomi.com
-HOST,log.aispeech.com
-HOST-WILDCARD,*.log.aliyuncs.com
-HOST,log-api.huxiu.com
-HOST,log-api-mn.huxiu.com
-HOST,log-api.pangolin-sdk-toutiao-b.com
-HOST,log.avlyun.com
-HOST,log.avlyun.sec.intl.miui.com
-HOST,logbak.hicloud.com
-HOST,log.byteoversea.com
-HOST,log.fc.yahoo.com
-HOST,log.kuwo.cn
-HOST,logs.amap.com
-HOST,log-sdk.gifshow.com
-HOST,logservice1.hicloud.com
-HOST-WILDCARD,logservice*.hicloud.com
-HOST,logservice.hicloud.com
-HOST,log.stat.kugou.com
-HOST,log.tagtic.cn
-HOST,log.tbs.qq.com
-HOST,logtj.kugou.com
-HOST,logupdate.avlyun.sec.miui.com
-HOST,log-upload.mihoyo.com
-HOST,log-upload-os.hoyoverse.com
-HOST,log.vcgame.cn
-HOST,log.web.kugou.com
-HOST,masdkv6.3g.qq.com
-HOST,mdp-usertrace-cn.heytapmobi.com
-HOST,metok.sys.miui.com
-HOST,metrics2.data.hicloud.com
-HOST,metrics.apple.com
-HOST-WILDCARD,metrics*.data.hicloud.com
-HOST,metrics.data.hicloud.com
-HOST,metrics.icloud.com
-HOST,metrics.mzstatic.com
-HOST,miav-cse.avlyun.com
-HOST,mi.gdt.qq.com
-HOST,miui-fxcse.avlyun.com
-HOST,m.kubiqq.com
-HOST,mnqlog.ldmnq.com
-HOST,mobads.baidu.com
-HOST,mobads-logs.baidu.com
-HOST,mobads-pre-config.cdn.bcebos.com
-HOST-WILDCARD,mobileanalytics.*.amazonaws.com
-HOST,mobilelog.upqzfile.com
-HOST-SUFFIX,mobileservice.cn
-HOST,monitor.music.qq.com
-HOST,monitor.uu.qq.com
-HOST,mon.snssdk.com
-HOST,mtj.baidu.com
-HOST,nmetrics.samsung.com
-HOST,notes-analytics-events.apple.com
-HOST,nsclick.baidu.com
-HOST,o2o.api.xiaomi.com
-HOST,offerwall.yandex.net
-HOST,open.e.kuaishou.cn
-HOST,open.e.kuaishou.com
-HOST,open.kuaishouzt.com
-HOST,open.kwaishouzt.com
-HOST,open.kwaizt.com
-HOST,optimus-ads.amap.com
-HOST,oth.eve.mdt.qq.com
-HOST,oth.str.mdt.qq.com
-HOST,p1-be-pack-sign.pglstatp-toutiao.com
-HOST,p1-lm.adkwai.com
-HOST,p2-be-pack-sign.pglstatp-toutiao.com
-HOST,p2-lm.adkwai.com
-HOST,p3-be-pack-sign.pglstatp-toutiao.com
-HOST,p3-lm.adkwai.com
-HOST,p3-tt.byteimg.com
-HOST,p4-be-pack-sign.pglstatp-toutiao.com
-HOST,p5-be-pack-sign.pglstatp-toutiao.com
-HOST,p6-be-pack-sign.pglstatp-toutiao.com
-HOST-WILDCARD,p*-ad-sign.byteimg.com
-HOST,pagead2.googleadservices.com
-HOST,pagead2.googlesyndication.com
-HOST-WILDCARD,pagead*.google.com
-HOST-WILDCARD,pan.baidu.com**.adVideo
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com
-HOST-WILDCARD,p**-be-pack-sign.pglstatp-toutiao.com
-HOST-WILDCARD,p*-be-pack-sign.pglstatp-toutiao.com
-HOST,pgdt.ugdtimg.com
-HOST-SUFFIX,pglstatp-toutiao.com
-HOST,pig.pupuapi.com
-HOST-WILDCARD,p*-lm.adkwai.com
-HOST,p.l.qq.com
-HOST,policy.video.ptqy.gitv.tv
-HOST,p.s.360.cn
-HOST,public.gdtimg.com
-HOST,q.i.gdt.qq.com
-HOST,qqdata.ab.qq.com
-HOST,qwapi.apple.com
-HOST,qzs.gdtimg.com
-HOST,res1.hubcloud.com.cn
-HOST,res2.hubcloud.com.cn
-HOST,res3.hubcloud.com.cn
-HOST,res.hubcloud.com.cn
-HOST,review.gdtimg.com
-HOST,roi.soulapp.cn
-HOST,rpt.gdt.qq.com
-HOST,s1.qq.com
-HOST,s2.qq.com
-HOST,s3.qq.com
-HOST-SUFFIX,samsungads.com
-HOST,samsung-com.112.2o7.net
-HOST,scdown.qq.com
-HOST,sdk.beizi.biz
-HOST,sdk-cache.video.ptqy.gitv.tv
-HOST,sdkconf.avlyun.com
-HOST,sdkconfig.ad.intl.xiaomi.com
-HOST,sdkconfig.ad.xiaomi.com
-HOST,sdkconfig.video.qq.com
-HOST,sdk.e.qq.com
-HOST,sdkoptedge.chinanetcenter.com
-HOST,sdktmp.hubcloud.com.cn
-HOST,sdownload.stargame.com
-HOST,sensors-log.dongqiudi.com
-HOST,service.changhong.upgrade2.huan.tv
-HOST,sf16-static.i18n-pglstatp.com
-HOST,skdisplay.jd.com
-HOST,slb-p2p.vcloud.ks-live.com
-HOST,smetrics.samsung.com
-HOST,sms.ads.oppomobile.com
-HOST,sngmta.qq.com
-HOST,static.ads-twitter.com
-HOST,staticsns.cdn.bcebos.com
-HOST-SUFFIX,statsigapi.net
-HOST,stats.qiumibao.com
-HOST,stat.y.qq.com
-HOST,success.ctobsnssdk.com
-HOST,t1.a.market.xiaomi.com
-HOST,t2.a.market.xiaomi.com
-HOST,t3.a.market.xiaomi.com
-HOST-WILDCARD,t*.a.market.xiaomi.com
-HOST,tangram.e.qq.com
-HOST,tdc.qq.com
-HOST,tdid.m.qq.com
-HOST,t-dsp.pinduoduo.com
-HOST,test.ad.xiaomi.com
-HOST,test.e.ad.xiaomi.com
-HOST,tj.b.qq.com
-HOST,tj.video.qq.com
-HOST,t.l.qq.com
-HOST,tmead.y.qq.com
-HOST,tmfsdk.m.qq.com
-HOST,toblog.ctobsnssdk.com
-HOST,trace.qq.com
-HOST,tracker.ai.xiaomi.com
-HOST,tracker.gitee.com
-HOST,tracking.miui.com
-HOST,tracking.rus.miui.com
-HOST,track.lc.quark.cn
-HOST,track.uc.cn
-HOST,t.track.ad.xiaomi.com
-HOST,tvuser-ch.cedock.com
-HOST,tx-ad.a.yximgs.com
-HOST,tx-kmpaudio.pull.yximgs.com
-HOST,uapi.chiq-cloud.com
-HOST,ucstat.baidu.com
-HOST,ulogjs.gifshow.com
-HOST,ulog-sdk.gifshow.com
-HOST,ulogs.umengcloud.com
-HOST,ulogs.umeng.com
-HOST,umengacs.m.taobao.com
-HOST,umengjmacs.m.taobao.com
-HOST-SUFFIX,umsns.com
-HOST,union.baidu.com
-HOST,update.avlyun.sec.miui.com
-HOST,us.l.qq.com
-HOST,v1-ad.video.yximgs.com
-HOST,v2-ad.video.yximgs.com
-HOST,v2.gdt.qq.com
-HOST,v3-ad.video.yximgs.com
-HOST,v.adintl.cn
-HOST-WILDCARD,v*-ad.video.yximgs.com
-HOST,v.adx.hubcloud.com.cn
-HOST,video-dsp.pddpic.com
-HOST,vlive.qqvideo.tc.qq.com
-HOST-SUFFIX,vungle.com
-HOST,w1.askwai.com
-HOST,w1.bskwai.com
-HOST,w1.cskwai.com
-HOST,w1.dskwai.com
-HOST,w1.eskwai.com
-HOST,w1.fskwai.com
-HOST,w1.gskwai.com
-HOST,w1.hskwai.com
-HOST,w1.iskwai.com
-HOST,w1.jskwai.com
-HOST,w1.kskwai.com
-HOST,w1.lskwai.com
-HOST,w1.mskwai.com
-HOST,w1.nskwai.com
-HOST,w1.oskwai.com
-HOST,w1.pskwai.com
-HOST,w1.qskwai.com
-HOST,w1.rskwai.com
-HOST,w1.sskwai.com
-HOST,w1.tskwai.com
-HOST,w1.uskwai.com
-HOST,w1.vskwai.com
-HOST,w1.wskwai.com
-HOST,w1.xskwai.com
-HOST,w1.yskwai.com
-HOST,w1.zskwai.com
-HOST,weather-analytics-events.apple.com
-HOST,webstat.qiumibao.com
-HOST,win.gdt.qq.com
-HOST,w.l.qq.com
-HOST,wn.x.jd.com
-HOST,ws-keyboard.shouji.sogou.com
-HOST-WILDCARD,w*.*skwai.com
-HOST,ws.sj.qq.com
-HOST,www42.zskwai.com
-HOST-WILDCARD,www**.*skwai.com
-HOST-WILDCARD,www**.zskwai.com
-HOST,wxa.wxs.qq.com
-HOST,wxsnsdythumb.wxs.qq.com
-HOST,wxsnsdy.wxs.qq.com
-HOST,xc.gdt.qq.com
-HOST-SUFFIX,xlivrdr.com
-HOST,xlmzc.cnjp-exp.com
-HOST,xlog.jd.com
-HOST-SUFFIX,xlviiirdr.com
-HOST-SUFFIX,xlviirdr.com
-HOST,youxi.kugou.com
-HOST,zeus.ad.xiaomi.com
+host-suffix, 1010pic.com
+host-suffix, 8le8le.com
+host, a0.app.xiaomi.com
+host, acs.m.taobao.com
+host, ad.12306.cn
+host, ad.51wnl.com
+host, adapi.izuiyou.com
+host, adapi.yynetwk.com
+host, adashbc.ut.taobao.com
+host, ad.bwton.com
+host-wildcard, *-ad-*.byteimg.com
+host, adcdn.tencentmusic.com
+host, adclick.tencentmusic.com
+host-suffix, adcolony.com
+host, ad.cyapi.cn
+host, adexpo.tencentmusic.com
+host, adfilter.imtt.qq.com
+host-suffix, adjust.cn
+host-suffix, adkwai.com
+host, ad.partner.gifshow.com
+host, ad.qingting.fm
+host, ad.qq.com
+host, ads.95516.com
+host, ads-api-o.api.leiniao.com
+host, ads-api.tiktok.com
+host, ads-api.twitter.com
+host-suffix, ad-scope.com
+host, ad-scope.com.cn
+host, ad-sdk.huxiu.com
+host, adsense.google.cn
+host, adservice.google.cn
+host, adservice.google.com
+host, adserviceretry.kugou.com
+host, adservice.sigmob.cn
+host, adsfilebssdlbig.ali.kugou.com
+host, adsfile.bssdlbig.kugou.com
+host-wildcard, adsfilebssdlbig.*.kugou.com
+host, adsfileretry.service.kugou.com
+host, adsfs.oppomobile.com
+host, ads.google.cn
+host, ads.heytapmobi.com
+host, ads.huan.tv
+host, ads-img-qc.xhscdn.com
+host-wildcard, *-ad.sm.cn
+host, adsmind.gdtimg.com
+host, adsmind.ugdtimg.com
+host, ads.music.126.net
+host-wildcard, ads*-normal-lq.zijieapi.com
+host, ads.oppomobile.com
+host, adsp.xunlei.com
+host, ads.service.kugou.com
+host, adstats.tencentmusic.com
+host-wildcard, ads-**.tiktok.com
+host, ads-video-al.xhscdn.com
+host, ads-video-qc.xhscdn.com
+host, adtago.s3.amazonaws.com
+host, adtech.yahooinc.com
+host, ad.tencentmusic.com
+host, ad.toutiao.com
+host, adtrack.quark.cn
+host-suffix, adukwai.com
+host, advertiseonbing.azureedge.net
+host, advertising-api-eu.amazon.com
+host, advertising.apple.com
+host, advertising.yahoo.com
+host, advertising.yandex.ru
+host, advice-ads.s3.amazonaws.com
+host-suffix, adview.cn
+host, adv.sec.intl.miui.com
+host, adv.sec.miui.com
+host, ad.winrar.com.cn
+host-wildcard, *-ad.wtzw.com
+host, adx.ads.oppomobile.com
+host, adx-cn.anythinktech.com
+host, ad.xelements.cn
+host-wildcard, ad.*.xiaomi.com
+host, ad.xiaomi.com
+host, ad.ximalaya.com
+host, adxlog-adnet.vivo.com.cn
+host, adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
+host, ad.zijieapi.com
+host, afs.googlesyndication.com
+host, ali-ad.a.yximgs.com
+host, analysis.yozocloud.cn
+host, analytics.126.net
+host, analytics.95516.com
+host, analytics-api.samsunghealthcn.com
+host, analytics.google.com
+host, analytics.pinterest.com
+host, analytics.rayjump.com
+host, analytics.tiktok.com
+host, analytics.woozooo.com
+host, analyze.lemurbrowser.com
+host, an.facebook.com
+host, api-access.pangolin-sdk-toutiao1.com
+host, api-access.pangolin-sdk-toutiao2.com
+host, api-access.pangolin-sdk-toutiao3.com
+host, api-access.pangolin-sdk-toutiao4.com
+host, api-access.pangolin-sdk-toutiao5.com
+host-wildcard, api-access.pangolin-sdk-toutiao*.com
+host, api-access.pangolin-sdk-toutiao.com
+host, api-access.pangolin-sdk-toutiao.com3
+host, api-ad-product.huxiu.com
+host, api-adservices.apple.com
+host, api.ad.xiaomi.com
+host, api-htp.beizi.biz
+host, api.htp.hubcloud.com.cn
+host, api.hzsanjiaomao.com
+host, api.installer.xiaomi.com
+host, api.kingdata.ksyun.com
+host, api.statsig.com
+host, apiyd.my91app.com
+host, applog.lc.quark.cn
+host, applog.uc.cn
+host-suffix, app-measurement.com
+host, ata-sdk-uuid-report.dreport.meituan.net
+host, audid-api.taobao.com
+host, azr.footprintdns.com
+host, bdapi.ads.oppomobile.com
+host, bdapi-ads.realmemobile.com
+host, bdapi-in-ads.realmemobile.com
+host, beacon-api.aliyuncs.com
+host, beacon.qq.com
+host, beacons.gvt2.com
+host-suffix, beizi.biz
+host, bingads.microsoft.com
+host, books-analytics-events.apple.com
+host, bugly.qq.com
+host, business-api.tiktok.com
+host, c2.gdt.qq.com
+host, catalog.fjwhcbsh.com
+host, catalog.gamepass.com
+host, cdn-ads.oss-cn-shanghai.aliyuncs.com
+host, cdn.ad.xiaomi.com
+host, cdn.ynuf.aliapp.org
+host, c.evidon.com
+host, cfg.imtt.qq.com
+host, c.gj.qq.com
+host, chat1.jd.com
+host, chc.ads.huan.tv
+host, ck.ads.oppomobile.com
+host, clog.miguvideo.com
+host, cm.bilibili.com
+host, cn-acs.m.cainiao.com
+host-suffix, cnzz.com
+host, collect.kugou.com
+host-suffix, crashlytics.com
+host, crashlyticsreports-pa.googleapis.com
+host, c.sayhi.360.cn
+host-suffix, csjplatform.com
+host, data.ads.oppomobile.com
+host, dataflow.biliapi.com
+host, data.mistat.india.xiaomi.com
+host, data.mistat.rus.xiaomi.com
+host, data.mistat.xiaomi.com
+host, data-sdk-uuid-log.d.meituan.net
+host, dc.sigmob.cn
+host, diagnosis.ad.xiaomi.com
+host, dlogs.bwton.com
+host, dm.toutiao.com
+host-suffix, doubleclick-cn.net
+host-suffix, doubleclick.net
+host, download.changhong.upgrade2.huan.tv
+host, downloadxml.changhong.upgrade2.huan.tv
+host, dsp.fcbox.com
+host, dualstack-logs.amap.com
+host-suffix, dutils.com
+host, dxp.baidu.com
+host, e.ad.xiaomi.com
+host, eclick.baidu.com
+host, ef-dongfeng.tanx.com
+host, entry.baidu.com
+host, errnewlog.umeng.com
+host, events-drcn.op.dbankcloud.cn
+host, firebaselogging-pa.googleapis.com
+host-suffix, flurry.com
+host, game.loveota.com
+host, gdfp.gifshow.com
+host, gemini.yahoo.com
+host, globalapi.ad.xiaomi.com
+host-suffix, googleadservices-cn.com
+host-suffix, googleadservices.com
+host-suffix, google-analytics.com
+host-suffix, googletagservices-cn.com
+host-suffix, googletagservices.com
+host, gromore.pangolin-sdk-toutiao.com
+host, grs.hicloud.com
+host, h-adashx.ut.taobao.com
+host-suffix, henzanapp.com
+host-suffix, hexagon-analytics.com
+host, hm.baidu.com
+host, hmma.baidu.com
+host, h.trace.qq.com
+host, httpdns.bcelive.com
+host, httpdns.huaweicloud.com
+host, httpdns.ocloud.oppomobile.com
+host, httpdns.push.oppomobile.com
+host, hugelog.fcbox.com
+host, hw-ot-ad.a.yximgs.com
+host, hya.comp.360os.com
+host, hye.comp.360os.com
+host, hyt.comp.360os.com
+host, iad.apple.com
+host, iadctest.qwapi.com
+host, iadsdk.apple.com
+host, iadworkbench.apple.com
+host, ifs.tanx.com
+host, image-ad.sm.cn
+host, imageplus.baidu.com
+host, images.pinduoduo.com
+host, img.adnyg.com
+host, img.adnyg.com.w.kunlungr.com
+host, img-c.heytapimage.com
+host-suffix, imtmp.net
+host, irc.qubiankeji.com
+host, i.snssdk.com
+host, is.snssdk.com
+host, ixav-cse.avlyun.com
+host-suffix, iyfbodn.com
+host, janapi.jd.com
+host, jfapi.chiq-cloud.com
+host-suffix, jiguang.cn
+host-suffix, jpush.cn
+host, jpush.html5.qq.com
+host-suffix, jpush.io
+host, jswebcollects.kugou.com
+host, ks.pull.yximgs.com
+host, lf1-cdn-tos.bytegoofy.com
+host, lf3-ad-union-sdk.pglstatp-toutiao.com
+host, liveats-vod.video.ptqy.gitv.tv
+host, lm10111.jtrincc.cn
+host, log1.cmpassport.com
+host, log.ad.xiaomi.com
+host, log.aispeech.com
+host-wildcard, *.log.aliyuncs.com
+host, log-api.huxiu.com
+host, log-api-mn.huxiu.com
+host, log-api.pangolin-sdk-toutiao-b.com
+host, log.avlyun.com
+host, log.avlyun.sec.intl.miui.com
+host, logbak.hicloud.com
+host, log.byteoversea.com
+host, log.fc.yahoo.com
+host, log.kuwo.cn
+host, logs.amap.com
+host, log-sdk.gifshow.com
+host, logservice1.hicloud.com
+host-wildcard, logservice*.hicloud.com
+host, logservice.hicloud.com
+host, log.stat.kugou.com
+host, log.tagtic.cn
+host, log.tbs.qq.com
+host, logtj.kugou.com
+host, logupdate.avlyun.sec.miui.com
+host, log-upload.mihoyo.com
+host, log-upload-os.hoyoverse.com
+host, log.vcgame.cn
+host, log.web.kugou.com
+host, masdkv6.3g.qq.com
+host, mdp-usertrace-cn.heytapmobi.com
+host, metok.sys.miui.com
+host, metrics2.data.hicloud.com
+host, metrics.apple.com
+host-wildcard, metrics*.data.hicloud.com
+host, metrics.data.hicloud.com
+host, metrics.icloud.com
+host, metrics.mzstatic.com
+host, miav-cse.avlyun.com
+host, mi.gdt.qq.com
+host, miui-fxcse.avlyun.com
+host, m.kubiqq.com
+host, mnqlog.ldmnq.com
+host, mobads.baidu.com
+host, mobads-logs.baidu.com
+host, mobads-pre-config.cdn.bcebos.com
+host-wildcard, mobileanalytics.*.amazonaws.com
+host, mobilelog.upqzfile.com
+host-suffix, mobileservice.cn
+host, monitor.music.qq.com
+host, monitor.uu.qq.com
+host, mon.snssdk.com
+host, mtj.baidu.com
+host, nmetrics.samsung.com
+host, notes-analytics-events.apple.com
+host, nsclick.baidu.com
+host, o2o.api.xiaomi.com
+host, offerwall.yandex.net
+host, open.e.kuaishou.cn
+host, open.e.kuaishou.com
+host, open.kuaishouzt.com
+host, open.kwaishouzt.com
+host, open.kwaizt.com
+host, optimus-ads.amap.com
+host, oth.eve.mdt.qq.com
+host, oth.str.mdt.qq.com
+host, p1-be-pack-sign.pglstatp-toutiao.com
+host, p1-lm.adkwai.com
+host, p2-be-pack-sign.pglstatp-toutiao.com
+host, p2-lm.adkwai.com
+host, p3-be-pack-sign.pglstatp-toutiao.com
+host, p3-lm.adkwai.com
+host, p3-tt.byteimg.com
+host, p4-be-pack-sign.pglstatp-toutiao.com
+host, p5-be-pack-sign.pglstatp-toutiao.com
+host, p6-be-pack-sign.pglstatp-toutiao.com
+host-wildcard, p*-ad-sign.byteimg.com
+host, pagead2.googleadservices.com
+host, pagead2.googlesyndication.com
+host-wildcard, pagead*.google.com
+host-wildcard, pan.baidu.com**.adVideo
+host-suffix, pangolin-sdk-toutiao-b.com
+host-wildcard, p**-be-pack-sign.pglstatp-toutiao.com
+host-wildcard, p*-be-pack-sign.pglstatp-toutiao.com
+host, pgdt.ugdtimg.com
+host-suffix, pglstatp-toutiao.com
+host, pig.pupuapi.com
+host-wildcard, p*-lm.adkwai.com
+host, p.l.qq.com
+host, policy.video.ptqy.gitv.tv
+host, p.s.360.cn
+host, public.gdtimg.com
+host, q.i.gdt.qq.com
+host, qqdata.ab.qq.com
+host, qwapi.apple.com
+host, qzs.gdtimg.com
+host, res1.hubcloud.com.cn
+host, res2.hubcloud.com.cn
+host, res3.hubcloud.com.cn
+host, res.hubcloud.com.cn
+host, review.gdtimg.com
+host, roi.soulapp.cn
+host, rpt.gdt.qq.com
+host, s1.qq.com
+host, s2.qq.com
+host, s3.qq.com
+host-suffix, samsungads.com
+host, samsung-com.112.2o7.net
+host, scdown.qq.com
+host, sdk.beizi.biz
+host, sdk-cache.video.ptqy.gitv.tv
+host, sdkconf.avlyun.com
+host, sdkconfig.ad.intl.xiaomi.com
+host, sdkconfig.ad.xiaomi.com
+host, sdkconfig.video.qq.com
+host, sdk.e.qq.com
+host, sdkoptedge.chinanetcenter.com
+host, sdktmp.hubcloud.com.cn
+host, sdownload.stargame.com
+host, sensors-log.dongqiudi.com
+host, service.changhong.upgrade2.huan.tv
+host, sf16-static.i18n-pglstatp.com
+host, skdisplay.jd.com
+host, slb-p2p.vcloud.ks-live.com
+host, smetrics.samsung.com
+host, sms.ads.oppomobile.com
+host, sngmta.qq.com
+host, static.ads-twitter.com
+host, staticsns.cdn.bcebos.com
+host-suffix, statsigapi.net
+host, stats.qiumibao.com
+host, stat.y.qq.com
+host, success.ctobsnssdk.com
+host, t1.a.market.xiaomi.com
+host, t2.a.market.xiaomi.com
+host, t3.a.market.xiaomi.com
+host-wildcard, t*.a.market.xiaomi.com
+host, tangram.e.qq.com
+host, tdc.qq.com
+host, tdid.m.qq.com
+host, t-dsp.pinduoduo.com
+host, test.ad.xiaomi.com
+host, test.e.ad.xiaomi.com
+host, tj.b.qq.com
+host, tj.video.qq.com
+host, t.l.qq.com
+host, tmead.y.qq.com
+host, tmfsdk.m.qq.com
+host, toblog.ctobsnssdk.com
+host, trace.qq.com
+host, tracker.ai.xiaomi.com
+host, tracker.gitee.com
+host, tracking.miui.com
+host, tracking.rus.miui.com
+host, track.lc.quark.cn
+host, track.uc.cn
+host, t.track.ad.xiaomi.com
+host, tvuser-ch.cedock.com
+host, tx-ad.a.yximgs.com
+host, tx-kmpaudio.pull.yximgs.com
+host, uapi.chiq-cloud.com
+host, ucstat.baidu.com
+host, ulogjs.gifshow.com
+host, ulog-sdk.gifshow.com
+host, ulogs.umengcloud.com
+host, ulogs.umeng.com
+host, umengacs.m.taobao.com
+host, umengjmacs.m.taobao.com
+host-suffix, umsns.com
+host, union.baidu.com
+host, update.avlyun.sec.miui.com
+host, us.l.qq.com
+host, v1-ad.video.yximgs.com
+host, v2-ad.video.yximgs.com
+host, v2.gdt.qq.com
+host, v3-ad.video.yximgs.com
+host, v.adintl.cn
+host-wildcard, v*-ad.video.yximgs.com
+host, v.adx.hubcloud.com.cn
+host, video-dsp.pddpic.com
+host, vlive.qqvideo.tc.qq.com
+host-suffix, vungle.com
+host, w1.askwai.com
+host, w1.bskwai.com
+host, w1.cskwai.com
+host, w1.dskwai.com
+host, w1.eskwai.com
+host, w1.fskwai.com
+host, w1.gskwai.com
+host, w1.hskwai.com
+host, w1.iskwai.com
+host, w1.jskwai.com
+host, w1.kskwai.com
+host, w1.lskwai.com
+host, w1.mskwai.com
+host, w1.nskwai.com
+host, w1.oskwai.com
+host, w1.pskwai.com
+host, w1.qskwai.com
+host, w1.rskwai.com
+host, w1.sskwai.com
+host, w1.tskwai.com
+host, w1.uskwai.com
+host, w1.vskwai.com
+host, w1.wskwai.com
+host, w1.xskwai.com
+host, w1.yskwai.com
+host, w1.zskwai.com
+host, weather-analytics-events.apple.com
+host, webstat.qiumibao.com
+host, win.gdt.qq.com
+host, w.l.qq.com
+host, wn.x.jd.com
+host, ws-keyboard.shouji.sogou.com
+host-wildcard, w*.*skwai.com
+host, ws.sj.qq.com
+host, www42.zskwai.com
+host-wildcard, www**.*skwai.com
+host-wildcard, www**.zskwai.com
+host, wxa.wxs.qq.com
+host, wxsnsdythumb.wxs.qq.com
+host, wxsnsdy.wxs.qq.com
+host, xc.gdt.qq.com
+host-suffix, xlivrdr.com
+host, xlmzc.cnjp-exp.com
+host, xlog.jd.com
+host-suffix, xlviiirdr.com
+host-suffix, xlviirdr.com
+host, youxi.kugou.com
+host, zeus.ad.xiaomi.com

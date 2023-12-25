@@ -18,11 +18,11 @@ reject () {
   format awavenue-ads reject_awa
 
   #SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g'|sort -u > reject_sukka
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g'|sort -u >> reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./host-suffix, /g'|sort -u > reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/host, /g'|sort -u >> reject_sukka
 
   #category-ads-all.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
+  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/host-suffix, /g'|sed 's/^full:/host, /g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
   #sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
@@ -41,13 +41,13 @@ format () {
   do
     num=`echo $line|awk -F. '{print NF-1}'`
     if echo $line|grep '*';then
-      echo "HOST-WILDCARD,$line" >> $2
+      echo "host-wildcard, $line" >> $2
     elif echo $line|grep '.co.kr';then
-      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> $2
-      [[ $num -gt 2 ]] && echo "HOST,$line" >> $2
+      [[ $num -eq 2 ]] && echo "host-suffix, $line" >> $2
+      [[ $num -gt 2 ]] && echo "host, $line" >> $2
     else
-      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> $2
-      [[ $num -gt 1 ]] && echo "HOST,$line" >> $2
+      [[ $num -eq 1 ]] && echo "host-suffix, $line" >> $2
+      [[ $num -gt 1 ]] && echo "host, $line" >> $2
     fi
   done < $1
   rm -f $1
@@ -56,14 +56,14 @@ format () {
 all () {
   cd "$des"/rule||exit
   {
-    cat <direct|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
-    cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
-    cat <reject_k|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
-    #cat <reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,REJECT/g'
+    cat <direct|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, direct/g'
+    cat <reject|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, reject/g'
+    cat <reject_k|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, reject/g'
+    #cat <reject+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, reject/g'
     cat <proxy|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'
-    cat <proxy_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
-    cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,Global/g'
-    cat <direct+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&,DIRECT/g'
+    cat <proxy_ko|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, Global/g'
+    cat <proxy+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, Global/g'
+    cat <direct+|grep -Ev "^$|^#"|sed 's/ \/\/.*//g'|sed 's/$/&, direct/g'
   } > all
 }
 

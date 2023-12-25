@@ -1,192 +1,192 @@
 #abroad
-HOST,china2021.s3.ap-northeast-2.amazonaws.com
-HOST,data.flurry.com
-HOST,in.appcenter.ms
-HOST,lb.eu-1-id5-sync.com
-HOST-SUFFIX,amazon-adsystem.com
-HOST-SUFFIX,id5-sync.com
-HOST-SUFFIX,lkme.cc
-HOST-SUFFIX,scorecardresearch.com
-#HOST,geolocation.onetrust.com
+host, china2021.s3.ap-northeast-2.amazonaws.com
+host, data.flurry.com
+host, in.appcenter.ms
+host, lb.eu-1-id5-sync.com
+host-suffix, amazon-adsystem.com
+host-suffix, id5-sync.com
+host-suffix, lkme.cc
+host-suffix, scorecardresearch.com
+#host, geolocation.onetrust.com
 
 #apps
-HOST,ad.12306.cn
-HOST,ad.cyapi.cn
-HOST,log-api.huxiu.com
-HOST,mqtt.zhihu.com
-HOST,policy.video.iqiyi.com
-HOST,pv.sohu.com
-HOST,sensors-log.dongqiudi.com
+host, ad.12306.cn
+host, ad.cyapi.cn
+host, log-api.huxiu.com
+host, mqtt.zhihu.com
+host, policy.video.iqiyi.com
+host, pv.sohu.com
+host, sensors-log.dongqiudi.com
 
 #apple
-HOST,api-adservices.apple.com
-HOST,metrics.icloud.com
-HOST-SUFFIX,iadsdk.apple.com
+host, api-adservices.apple.com
+host, metrics.icloud.com
+host-suffix, iadsdk.apple.com
 
 #alibaba
-HOST,acs.m.taobao.com
-HOST,adashx.m.taobao.com
-#HOST,amdc.alipay.com
-#HOST,amdc.m.taobao.com
-HOST,apoll.m.taobao.com
-HOST,appdownload.alicdn.com
-HOST,applog.uc.cn
-HOST,audid-api.taobao.com
-HOST,beacon-api.aliyuncs.com
-HOST,cdn.ynuf.aliapp.org
-HOST,dualstack-logs.amap.com
-HOST,fourier.taobao.com
-HOST,h-adashx.ut.taobao.com
-HOST,iyes.youku.com
-HOST,logs.amap.com
-HOST,optimus-ads.amap.com
-HOST-WILDCARD,*.log.aliyuncs.com
+host, acs.m.taobao.com
+host, adashx.m.taobao.com
+#host, amdc.alipay.com
+#host, amdc.m.taobao.com
+host, apoll.m.taobao.com
+host, appdownload.alicdn.com
+host, applog.uc.cn
+host, audid-api.taobao.com
+host, beacon-api.aliyuncs.com
+host, cdn.ynuf.aliapp.org
+host, dualstack-logs.amap.com
+host, fourier.taobao.com
+host, h-adashx.ut.taobao.com
+host, iyes.youku.com
+host, logs.amap.com
+host, optimus-ads.amap.com
+host-wildcard, *.log.aliyuncs.com
 
 #baidu
-HOST,afd.baidu.com
-HOST,als.baidu.com
-HOST,dxp.baidu.com
-HOST,hm.baidu.com
-HOST,hmma.baidu.com
-HOST,kstj.baidu.com
-HOST,mobads.baidu.com
-HOST,mobads-logs.baidu.com
-HOST,mobads-pre-config.cdn.bcebos.com
-HOST,newvector.map.baidu.com
-HOST,nsclick.baidu.com
-HOST,zz.bdstatic.com
-HOST-SUFFIX,tuisong.baidu.com
+host, afd.baidu.com
+host, als.baidu.com
+host, dxp.baidu.com
+host, hm.baidu.com
+host, hmma.baidu.com
+host, kstj.baidu.com
+host, mobads.baidu.com
+host, mobads-logs.baidu.com
+host, mobads-pre-config.cdn.bcebos.com
+host, newvector.map.baidu.com
+host, nsclick.baidu.com
+host, zz.bdstatic.com
+host-suffix, tuisong.baidu.com
 
 #bilibili
-HOST,cm.bilibili.com
-HOST,dataflow.biliapi.com
+host, cm.bilibili.com
+host, dataflow.biliapi.com
 
 #bytedance
-HOST,dig.bdurl.net
-HOST,i.snssdk.com
-HOST,log.snssdk.com
-HOST,mon.snssdk.com
-HOST,sf16-static.i18n-pglstatp.com
-HOST-SUFFIX,pangolin-sdk-toutiao1.com
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com
-HOST-SUFFIX,pangolin-sdk-toutiao.com
-HOST-SUFFIX,pglstatp-toutiao.com
+host, dig.bdurl.net
+host, i.snssdk.com
+host, log.snssdk.com
+host, mon.snssdk.com
+host, sf16-static.i18n-pglstatp.com
+host-suffix, pangolin-sdk-toutiao1.com
+host-suffix, pangolin-sdk-toutiao-b.com
+host-suffix, pangolin-sdk-toutiao.com
+host-suffix, pglstatp-toutiao.com
 
 #google
-HOST,app-measurement.com
-#HOST,firebaselogging-pa.googleapis.com
-HOST,pagead2.googlesyndication.com
-HOST-SUFFIX,crashlytics.com
-HOST-SUFFIX,doubleclick-cn.net
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googletagmanager.com
-HOST-SUFFIX,googletagservices.com
+host, app-measurement.com
+#host, firebaselogging-pa.googleapis.com
+host, pagead2.googlesyndication.com
+host-suffix, crashlytics.com
+host-suffix, doubleclick-cn.net
+host-suffix, doubleclick.net
+host-suffix, googleadservices.com
+host-suffix, googletagmanager.com
+host-suffix, googletagservices.com
 
 #JD
-HOST,janapi.jd.com
-HOST,xlog.jd.com
+host, janapi.jd.com
+host, xlog.jd.com
 
 #meituan
-HOST,data-sdk-uuid-log.d.meituan.net
-HOST,wmlog.meituan.com
+host, data-sdk-uuid-log.d.meituan.net
+host, wmlog.meituan.com
 
 #moji
-HOST,v1.log.moji.com
-HOST,adlaunch.moji.com
+host, v1.log.moji.com
+host, adlaunch.moji.com
 
 #netease
-HOST,nex.163.com
-HOST-SUFFIX,g.163.com
+host, nex.163.com
+host-suffix, g.163.com
 
 #qingting
-HOST,ad-cdn.qtfm.cn
-HOST,adlog.qingting.fm
+host, ad-cdn.qtfm.cn
+host, adlog.qingting.fm
 
 #tencent
-HOST,h.trace.qq.com
-HOST,ios.rqd.qq.com
-HOST,mazu.m.qq.com
-#HOST,mi.gdt.qq.com
-HOST,mtrace.qq.com
-HOST,oth.eve.mdt.qq.com
-HOST,oth.str.mdt.qq.com
-HOST,pingma.qq.com
-HOST,qzs.gdtimg.com
-HOST,sdk.e.qq.com
-HOST-SUFFIX,beacon.qq.com
-HOST-SUFFIX,bugly.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,rqd.qq.com
-HOST,tangram.e.qq.com
+host, h.trace.qq.com
+host, ios.rqd.qq.com
+host, mazu.m.qq.com
+#host, mi.gdt.qq.com
+host, mtrace.qq.com
+host, oth.eve.mdt.qq.com
+host, oth.str.mdt.qq.com
+host, pingma.qq.com
+host, qzs.gdtimg.com
+host, sdk.e.qq.com
+host-suffix, beacon.qq.com
+host-suffix, bugly.qq.com
+host-suffix, gdt.qq.com
+host-suffix, rqd.qq.com
+host, tangram.e.qq.com
 
 #transfermarkt
-HOST-SUFFIX,brainlyads.com
-HOST-SUFFIX,ioam.de
-HOST-SUFFIX,oddsserve.com
-HOST-SUFFIX,outbrain.com
-HOST-SUFFIX,vidazoo.com
+host-suffix, brainlyads.com
+host-suffix, ioam.de
+host-suffix, oddsserve.com
+host-suffix, outbrain.com
+host-suffix, vidazoo.com
 
 #umeng
-#HOST,errnewlog.umeng.com
-#HOST,log.umsns.com
-#HOST,log.umtrack.com
-#HOST,ulogs.umengcloud.com
-#HOST,ulogs.umeng.com
-#HOST,utoken.umeng.com
+#host, errnewlog.umeng.com
+#host, log.umsns.com
+#host, log.umtrack.com
+#host, ulogs.umengcloud.com
+#host, ulogs.umeng.com
+#host, utoken.umeng.com
 
 #xiaomi
-HOST,tracking.miui.com
-HOST,sdkconfig.ad.xiaomi.com
+host, tracking.miui.com
+host, sdkconfig.ad.xiaomi.com
 
 #ximalaya
-HOST,adbehavior.ximalaya.com
-HOST,adse.wsa.ximalaya.com
-HOST,adse.ximalaya.com
-HOST,location.ximalaya.com
-HOST,mobwsa.ximalaya.com
-HOST,xdcs-collector.ximalaya.com
+host, adbehavior.ximalaya.com
+host, adse.wsa.ximalaya.com
+host, adse.ximalaya.com
+host, location.ximalaya.com
+host, mobwsa.ximalaya.com
+host, xdcs-collector.ximalaya.com
 
 #ysp
-HOST,btrace.ysp.cctv.cn
-HOST,mtrace.ysp.cctv.cn
+host, btrace.ysp.cctv.cn
+host, mtrace.ysp.cctv.cn
 
 #
-HOST,hw-ot-ad.a.yximgs.com
-HOST,v2-ad.video.yximgs.com
-HOST,ali-ad.a.yximgs.com
+host, hw-ot-ad.a.yximgs.com
+host, v2-ad.video.yximgs.com
+host, ali-ad.a.yximgs.com
 
 #others
-HOST,adservice.sigmob.cn
-HOST,api-ad-product.huxiu.com
-HOST,api.th.wanzjhb.com
-HOST,assets.growingio.com
-HOST,beacon.krxd.net
-HOST,dc.sigmob.cn
-HOST,fp-it.fengkongcloud.com
-HOST,gdfp.gifshow.com
-HOST,log1.cmpassport.com
-HOST,msg.qy.net
-HOST,open.e.kuaishou.com
-HOST,open.kuaishouzt.com
-HOST,open.kwaizt.com
-HOST,sdk.beizi.biz
-HOST,sdktmp.hubcloud.com.cn
-HOST-SUFFIX,adtilt.com
-HOST-SUFFIX,adukwai.com
-HOST-SUFFIX,amplitude.com
-HOST-SUFFIX,dutils.com
-#HOST-SUFFIX,gepush.com
-#HOST-SUFFIX,getui.com
-HOST-SUFFIX,inmobi.cn
-#HOST-SUFFIX,jiguang.cn
-#HOST-SUFFIX,jpush.cn
-#HOST-SUFFIX,jpush.io
-HOST-SUFFIX,mobileservice.cn
-HOST-SUFFIX,qchannel01.cn
-HOST-SUFFIX,ubixioe.com
-HOST-SUFFIX,uyunad.com
-HOST,tobapplog.ctobsnssdk.com
-HOST,toblog.ctobsnssdk.com
-HOST,wkdcm1.tingyun.com
-HOST,wkrd.tingyun.com
+host, adservice.sigmob.cn
+host, api-ad-product.huxiu.com
+host, api.th.wanzjhb.com
+host, assets.growingio.com
+host, beacon.krxd.net
+host, dc.sigmob.cn
+host, fp-it.fengkongcloud.com
+host, gdfp.gifshow.com
+host, log1.cmpassport.com
+host, msg.qy.net
+host, open.e.kuaishou.com
+host, open.kuaishouzt.com
+host, open.kwaizt.com
+host, sdk.beizi.biz
+host, sdktmp.hubcloud.com.cn
+host-suffix, adtilt.com
+host-suffix, adukwai.com
+host-suffix, amplitude.com
+host-suffix, dutils.com
+#host-suffix, gepush.com
+#host-suffix, getui.com
+host-suffix, inmobi.cn
+#host-suffix, jiguang.cn
+#host-suffix, jpush.cn
+#host-suffix, jpush.io
+host-suffix, mobileservice.cn
+host-suffix, qchannel01.cn
+host-suffix, ubixioe.com
+host-suffix, uyunad.com
+host, tobapplog.ctobsnssdk.com
+host, toblog.ctobsnssdk.com
+host, wkdcm1.tingyun.com
+host, wkrd.tingyun.com
