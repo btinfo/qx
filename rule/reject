@@ -13,6 +13,7 @@ host-suffix, scorecardresearch.com
 host, ad.12306.cn
 host, ad.cyapi.cn
 host, log-api.huxiu.com
+host, api-ad-product.huxiu.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
 host, sensors-log.dongqiudi.com
@@ -161,7 +162,6 @@ host, ali-ad.a.yximgs.com
 
 #others
 host, adservice.sigmob.cn
-host, api-ad-product.huxiu.com
 host, api.th.wanzjhb.com
 host, assets.growingio.com
 host, beacon.krxd.net
