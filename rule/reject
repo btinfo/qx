@@ -1,31 +1,40 @@
-#ad union
-host, sdk.open.talk.getui.net
 
-#abroad
+#adcn
+host-suffix, adukwai.com
+#host-suffix, gepush.com
+#host-suffix, getui.com
+host-suffix, qchannel01.cn
+host-suffix, ubixioe.com
+host, tobapplog.ctobsnssdk.com
+host, toblog.ctobsnssdk.com
+
+#ad
+host, beacon.krxd.net
 host, data.flurry.com
+#host, geolocation.onetrust.com
 host, in.appcenter.ms
 host, lb.eu-1-id5-sync.com
+host-suffix, adbro.me
+host-suffix, adtilt.com
+host-suffix, amplitude.com
 host-suffix, id5-sync.com
-host-suffix, lkme.cc
 host-suffix, scorecardresearch.com
-#host, geolocation.onetrust.com
 
 #amazon
 host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
 
 #apps
-host-suffix, ad.10010.com
-host, smartad.10010.com
-host, appgoad.189.cn
 host, ad.12306.cn
 host, ad.bmac.com.cn
 host, ad.cyapi.cn
-#host, log-api.huxiu.com
 host, api-ad-product.huxiu.com
-host, policy.video.iqiyi.com
+host, appgoad.189.cn
+#host, log-api.huxiu.com
 host, pv.sohu.com
 #host, sensors-log.dongqiudi.com
+host, smartad.10010.com
+host-suffix, ad.10010.com
 
 #apple
 host, api-adservices.apple.com
@@ -38,18 +47,45 @@ host, adashx.m.taobao.com
 #host, amdc.alipay.com
 #host, amdc.m.taobao.com
 host, apoll.m.taobao.com
-host, appdownload.alicdn.com
-#host, applog.uc.cn
 host, audid-api.taobao.com
-host, beacon-api.aliyuncs.com
 host, cdn.ynuf.aliapp.org
-host, dualstack-logs.amap.com
 host, fourier.taobao.com
 host, h-adashx.ut.taobao.com
+
+#alibaba-advertising
+host, et.tanx.com
+host, sdk.beizi.biz
+host, sdktmp.hubcloud.com.cn
+host-suffix, inmobi.cn
+
+#alibaba-cloud
+host, adservice.sigmob.cn
+host, api.th.wanzjhb.com
+host, appdownload.alicdn.com
+#host, applog.uc.cn
+host, assets.growingio.com
+host, beacon-api.aliyuncs.com
+host, dc.sigmob.cn
+host, fp-it.fengkongcloud.com
+#host, log1.cmpassport.com
+host, sdk.open.talk.getui.net
+host-suffix, dutils.com
+#host-suffix, jiguang.cn
+#host-suffix, jpush.cn
+#host-suffix, jpush.io
+host-suffix, mobileservice.cn
+host-suffix, uyunad.com
+#host-wildcard, *.log.aliyuncs.com
+
+#alibaba-apps
 host, iyes.youku.com
+host, msg.qy.net //iQiyi
+host, policy.video.iqiyi.com
+
+#amap
+host, dualstack-logs.amap.com
 #host, logs.amap.com
 host, optimus-ads.amap.com
-#host-wildcard, *.log.aliyuncs.com
 
 #baidu
 host, afd.baidu.com
@@ -139,6 +175,11 @@ host-suffix, gdt.qq.com
 host-suffix, rqd.qq.com
 host, tangram.e.qq.com
 
+#tencent-others
+host-suffix, lkme.cc
+host, wkdcm1.tingyun.com
+host, wkrd.tingyun.com
+
 #transfermarkt
 host-suffix, brainlyads.com
 host-suffix, ioam.de
@@ -146,19 +187,9 @@ host-suffix, oddsserve.com
 host-suffix, outbrain.com
 host-suffix, vidazoo.com
 
-#umeng
-#host-suffix, umeng.com
-#host-suffix, umengcloud.com
-#host, errnewlog.umeng.com
-#host, log.umsns.com
-#host, log.umtrack.com
-#host, ulogs.umengcloud.com
-#host, ulogs.umeng.com
-#host, utoken.umeng.com
-
 #xiaomi
-host, tracking.miui.com
 host, sdkconfig.ad.xiaomi.com
+host, tracking.miui.com
 
 #ximalaya
 host, adbehavior.ximalaya.com
@@ -176,34 +207,3 @@ host, mtrace.ysp.cctv.cn
 host, mqtt.zhihu.com
 ip-cidr, 180.76.76.200/32
 
-#others
-host-suffix, adbro.me
-host, et.tanx.com
-host, adservice.sigmob.cn
-host, api.th.wanzjhb.com
-host, assets.growingio.com
-host, beacon.krxd.net
-host, dc.sigmob.cn
-host, fp-it.fengkongcloud.com
-#host, log1.cmpassport.com
-host, msg.qy.net
-host, sdk.beizi.biz
-host, sdktmp.hubcloud.com.cn
-host-suffix, adtilt.com
-host-suffix, adukwai.com
-host-suffix, amplitude.com
-host-suffix, dutils.com
-#host-suffix, gepush.com
-#host-suffix, getui.com
-host-suffix, inmobi.cn
-#host-suffix, jiguang.cn
-#host-suffix, jpush.cn
-#host-suffix, jpush.io
-host-suffix, mobileservice.cn
-host-suffix, qchannel01.cn
-host-suffix, ubixioe.com
-host-suffix, uyunad.com
-host, tobapplog.ctobsnssdk.com
-host, toblog.ctobsnssdk.com
-host, wkdcm1.tingyun.com
-host, wkrd.tingyun.com

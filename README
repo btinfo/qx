@@ -1,13 +1,13 @@
-429   all
+427   all
 22    direct
 8     direct+
 88    proxy
 101   proxy+
 17    proxy_ko
-135   reject
+132   reject
 2572  reject_a
 459   reject_awa
-58    reject_k
+59    reject_k
 337   reject_ko
 1651  reject_sukka
 681   reject_v2fly
