@@ -87,6 +87,15 @@ host-suffix, googletagservices.com
 host, janapi.jd.com
 host, xlog.jd.com
 
+#kuaishou
+host, ali-ad.a.yximgs.com
+host, gdfp.gifshow.com
+host, hw-ot-ad.a.yximgs.com
+host, open.e.kuaishou.com
+host, open.kuaishouzt.com
+host, open.kwaizt.com
+host, v2-ad.video.yximgs.com
+
 #meituan
 host, data-sdk-uuid-log.d.meituan.net
 host, wmlog.meituan.com
@@ -155,11 +164,6 @@ host, mtrace.ysp.cctv.cn
 host, mqtt.zhihu.com
 ip-cidr, 180.76.76.200/32
 
-#
-host, hw-ot-ad.a.yximgs.com
-host, v2-ad.video.yximgs.com
-host, ali-ad.a.yximgs.com
-
 #others
 host, adservice.sigmob.cn
 host, api.th.wanzjhb.com
@@ -167,12 +171,8 @@ host, assets.growingio.com
 host, beacon.krxd.net
 host, dc.sigmob.cn
 host, fp-it.fengkongcloud.com
-host, gdfp.gifshow.com
 host, log1.cmpassport.com
 host, msg.qy.net
-host, open.e.kuaishou.com
-host, open.kuaishouzt.com
-host, open.kwaizt.com
 host, sdk.beizi.biz
 host, sdktmp.hubcloud.com.cn
 host-suffix, adtilt.com
