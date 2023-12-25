@@ -139,6 +139,8 @@ host-suffix, outbrain.com
 host-suffix, vidazoo.com
 
 #umeng
+host-suffix, umeng.com
+host-suffix, umengcloud.com
 #host, errnewlog.umeng.com
 #host, log.umsns.com
 #host, log.umtrack.com
