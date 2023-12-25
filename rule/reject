@@ -2,7 +2,10 @@
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST,data.flurry.com
 HOST,in.appcenter.ms
+HOST,lb.eu-1-id5-sync.com
 HOST-SUFFIX,amazon-adsystem.com
+HOST-SUFFIX,id5-sync.com
+HOST-SUFFIX,lkme.cc
 HOST-SUFFIX,scorecardresearch.com
 #HOST,geolocation.onetrust.com
 
