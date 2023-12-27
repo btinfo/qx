@@ -149,17 +149,14 @@ host, policy.jd.com
 #host, xlog.jd.com
 
 #kuaishou
-host, ali-ad.a.yximgs.com
+#host, ali-ad.a.yximgs.com
 host, gdfp.gifshow.com
-host, hw-ot-ad.a.yximgs.com
+#host, hw-ot-ad.a.yximgs.com
 host, open.e.kuaishou.com
 host, open.kuaishouzt.com
 host, open.kwaizt.com
-host, v2-ad.video.yximgs.com
-
-#meituan
-#host, data-sdk-uuid-log.d.meituan.net
-#host, wmlog.meituan.com
+#host, v2-ad.video.yximgs.com
+host-wildcard, *ad.*.yximgs.com
 
 #moji
 #host, v1.log.moji.com
@@ -192,7 +189,7 @@ host, wkdcm1.tingyun.com
 host, wkrd.tingyun.com
 
 #xiaomi
-host, sdkconfig.ad.xiaomi.com
+host-suffix, ad.xiaomi.com
 host, tracking.miui.com
 
 #ysp
