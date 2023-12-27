@@ -1,7 +1,6 @@
 host, adash-emas.cn-hangzhou.aliyuncs.com
 host, ads.pubmatic.com
 host-suffix, shuzilm.cn
--host, apm.zhihu.com
 host, api.meishesdk.com
 host-suffix, appsflyer-cn.com
 host-suffix, smartadserver.com
