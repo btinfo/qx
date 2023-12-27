@@ -1,11 +1,3 @@
-host, adash-emas.cn-hangzhou.aliyuncs.com
-host, ads.pubmatic.com
-host-suffix, shuzilm.cn
-host, api.meishesdk.com
-host-suffix, appsflyer-cn.com
-host-suffix, smartadserver.com
-host-suffix, primis.tech
-
 #adcn
 host-suffix, adukwai.com
 #host-suffix, gepush.com
@@ -15,7 +7,8 @@ host-suffix, ubixioe.com
 host, tobapplog.ctobsnssdk.com
 host, toblog.ctobsnssdk.com
 
-#ad
+#ad-not-cn
+host, ads.pubmatic.com
 host, beacon.krxd.net
 host, data.flurry.com
 #host, geolocation.onetrust.com
@@ -30,10 +23,11 @@ host-suffix, scorecardresearch.com
 #amazon
 host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
+host-suffix, primis.tech
 
 #apps
-host, ad.12306.cn
-host, ad.bmac.com.cn
+#host, ad.12306.cn
+#host, ad.bmac.com.cn
 host, ad.cyapi.cn
 host, api-ad-product.huxiu.com
 host, appgoad.189.cn
@@ -63,9 +57,13 @@ host, h-adashx.ut.taobao.com
 host, et.tanx.com
 host, sdk.beizi.biz
 host, sdktmp.hubcloud.com.cn
+host-suffix, appsflyer-cn.com
+host-suffix, meishesdk.com
+host-suffix, shuzilm.cn
 host-suffix, inmobi.cn
 
 #alibaba-cloud
+host, adash-emas.cn-hangzhou.aliyuncs.com
 host, adservice.sigmob.cn
 host, api.th.wanzjhb.com
 host, appdownload.alicdn.com
@@ -134,6 +132,7 @@ host-suffix, doubleclick.net
 host-suffix, googleadservices.com
 host-suffix, googletagmanager.com
 host-suffix, googletagservices.com
+host-suffix, smartadserver.com
 
 #JD
 host, janapi.jd.com
