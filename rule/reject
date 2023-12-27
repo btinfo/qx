@@ -18,12 +18,17 @@ host-suffix, adbro.me
 host-suffix, adtilt.com
 host-suffix, amplitude.com
 host-suffix, id5-sync.com
+host-suffix, ioam.de
+host-suffix, oddsserve.com
+host-suffix, outbrain.com
 host-suffix, scorecardresearch.com
 
 #amazon
 host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
+host-suffix, brainlyads.com
 host-suffix, primis.tech
+host-suffix, vidazoo.com
 
 #apps
 #host, ad.12306.cn
@@ -181,13 +186,6 @@ host, tangram.e.qq.com
 host-suffix, lkme.cc
 host, wkdcm1.tingyun.com
 host, wkrd.tingyun.com
-
-#transfermarkt
-host-suffix, brainlyads.com
-host-suffix, ioam.de
-host-suffix, oddsserve.com
-host-suffix, outbrain.com
-host-suffix, vidazoo.com
 
 #xiaomi
 host, sdkconfig.ad.xiaomi.com
