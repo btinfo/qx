@@ -10,7 +10,7 @@ host, toblog.ctobsnssdk.com
 #ad-not-cn
 #host, ads.pubmatic.com
 #host, beacon.krxd.net
-#host, data.flurry.com
+host, data.flurry.com
 #host, geolocation.onetrust.com
 #host, in.appcenter.ms
 #host, lb.eu-1-id5-sync.com
@@ -21,7 +21,7 @@ host, toblog.ctobsnssdk.com
 #host-suffix, ioam.de
 #host-suffix, oddsserve.com
 #host-suffix, outbrain.com
-#host-suffix, scorecardresearch.com
+host-suffix, scorecardresearch.com
 
 #amazon
 host, china2021.s3.ap-northeast-2.amazonaws.com
@@ -45,7 +45,7 @@ host-suffix, ad.10010.com
 #apple
 #host, api-adservices.apple.com
 #host, metrics.icloud.com
-#host-suffix, iadsdk.apple.com
+host-suffix, iadsdk.apple.com
 
 #alibaba
 #host, acs.m.taobao.com
