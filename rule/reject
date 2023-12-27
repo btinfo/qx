@@ -84,12 +84,12 @@ host, policy.video.iqiyi.com
 
 #amap
 host, dualstack-logs.amap.com
-#host, logs.amap.com
+host, logs.amap.com
 host, optimus-ads.amap.com
 
 #baidu
-host, afd.baidu.com
-host, als.baidu.com
+#host, afd.baidu.com
+#host, als.baidu.com
 host, dxp.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
@@ -121,7 +121,7 @@ host-suffix, pglstatp-toutiao.com
 host, app-measurement.com
 #host, firebaselogging-pa.googleapis.com
 host, pagead2.googlesyndication.com
-host-suffix, crashlytics.com
+#host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
