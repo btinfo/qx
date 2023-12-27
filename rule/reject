@@ -27,7 +27,7 @@ host, toblog.ctobsnssdk.com
 host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
 #host-suffix, brainlyads.com
-#host-suffix, primis.tech
+host-suffix, primis.tech
 #host-suffix, vidazoo.com
 
 #apps
