@@ -126,9 +126,9 @@ host, i.snssdk.com
 #host, log.snssdk.com
 host, mon.snssdk.com
 host, sf16-static.i18n-pglstatp.com
-host-suffix, pangolin-sdk-toutiao1.com
-host-suffix, pangolin-sdk-toutiao-b.com
-host-suffix, pangolin-sdk-toutiao.com
+host-keyword, pangolin-sdk-toutiao
+#host-suffix, pangolin-sdk-toutiao-b.com
+#host-suffix, pangolin-sdk-toutiao.com
 host-suffix, pglstatp-toutiao.com
 
 #google
