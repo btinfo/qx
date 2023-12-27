@@ -22,7 +22,7 @@ host, data.flurry.com
 #host-suffix, ioam.de
 #host-suffix, oddsserve.com
 #host-suffix, outbrain.com
-host-wildcard, sdk.iad-*.braze.com
+host-wildcard, sdk.iad-0?.braze.com
 host-suffix, scorecardresearch.com
 
 #amazon
