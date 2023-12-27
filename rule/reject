@@ -155,7 +155,7 @@ host, nex.163.com
 host-suffix, g.163.com
 
 #qingting
-host, ad-cdn.qtfm.cn
+#host, ad-cdn.qtfm.cn
 #host, adlog.qingting.fm
 
 #tencent
@@ -192,12 +192,12 @@ host, sdkconfig.ad.xiaomi.com
 host, tracking.miui.com
 
 #ximalaya
-host, adbehavior.ximalaya.com
-host, adse.wsa.ximalaya.com
-host, adse.ximalaya.com
-host, location.ximalaya.com
-host, mobwsa.ximalaya.com
-host, xdcs-collector.ximalaya.com
+#host, adbehavior.ximalaya.com
+#host, adse.wsa.ximalaya.com
+#host, adse.ximalaya.com
+#host, location.ximalaya.com
+#host, mobwsa.ximalaya.com
+#host, xdcs-collector.ximalaya.com
 
 #ysp
 host, btrace.ysp.cctv.cn
