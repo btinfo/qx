@@ -47,7 +47,7 @@ host, adashx.m.taobao.com
 #host, amdc.alipay.com
 #host, amdc.m.taobao.com
 host, apoll.m.taobao.com
-host, audid-api.taobao.com
+#host, audid-api.taobao.com
 host, cdn.ynuf.aliapp.org
 host, fourier.taobao.com
 host, h-adashx.ut.taobao.com
