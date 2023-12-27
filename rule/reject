@@ -42,7 +42,7 @@ host, metrics.icloud.com
 host-suffix, iadsdk.apple.com
 
 #alibaba
-host, acs.m.taobao.com
+#host, acs.m.taobao.com
 host, adashx.m.taobao.com
 #host, amdc.alipay.com
 #host, amdc.m.taobao.com
