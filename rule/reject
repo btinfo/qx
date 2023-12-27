@@ -43,9 +43,9 @@ host, smartad.10010.com
 host-suffix, ad.10010.com
 
 #apple
-host, api-adservices.apple.com
-host, metrics.icloud.com
-host-suffix, iadsdk.apple.com
+#host, api-adservices.apple.com
+#host, metrics.icloud.com
+#host-suffix, iadsdk.apple.com
 
 #alibaba
 #host, acs.m.taobao.com
