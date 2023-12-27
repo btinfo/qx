@@ -1,3 +1,11 @@
+host, adash-emas.cn-hangzhou.aliyuncs.com
+host, ads.pubmatic.com
+host-suffix, shuzilm.cn
+-host, apm.zhihu.com
+host, api.meishesdk.com
+host-suffix, appsflyer-cn.com
+host-suffix, smartadserver.com
+host-suffix, primis.tech
 
 #adcn
 host-suffix, adukwai.com
@@ -154,10 +162,6 @@ host, adlaunch.moji.com
 host, nex.163.com
 host-suffix, g.163.com
 
-#qingting
-#host, ad-cdn.qtfm.cn
-#host, adlog.qingting.fm
-
 #tencent
 host, h.trace.qq.com
 host, ios.rqd.qq.com
@@ -191,14 +195,6 @@ host-suffix, vidazoo.com
 host, sdkconfig.ad.xiaomi.com
 host, tracking.miui.com
 
-#ximalaya
-#host, adbehavior.ximalaya.com
-#host, adse.wsa.ximalaya.com
-#host, adse.ximalaya.com
-#host, location.ximalaya.com
-#host, mobwsa.ximalaya.com
-#host, xdcs-collector.ximalaya.com
-
 #ysp
 host, btrace.ysp.cctv.cn
 host, mtrace.ysp.cctv.cn
@@ -206,4 +202,3 @@ host, mtrace.ysp.cctv.cn
 #zhihu
 host, mqtt.zhihu.com
 ip-cidr, 180.76.76.200/32
-
