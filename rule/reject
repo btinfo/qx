@@ -137,7 +137,7 @@ host-suffix, doubleclick.net
 host-suffix, googleadservices.com
 host-suffix, googletagmanager.com
 host-suffix, googletagservices.com
-host-suffix, smartadserver.com
+#host-suffix, smartadserver.com
 
 #JD
 host, janapi.jd.com
