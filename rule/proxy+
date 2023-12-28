@@ -5,15 +5,12 @@ host-suffix, lencr.org
 host, testflight.apple.com
 
 #apps
+host, m.815616.xyz //shanqiu
 host-suffix, appraven.net
 host-suffix, fileball.app
 host-suffix, flightradar24.com
-host-suffix, goodnotes.email
-host-suffix, goodnotescloud.com
-host-suffix, goodnotes.com
 host-suffix, ipsw.me
 host-suffix, jetphotos.com //flightradar
-host, m.815616.xyz //shanqiu
 host-suffix, photosync-app.com
 host-suffix, quantumult.app
 host-suffix, rsshub.app
@@ -65,10 +62,10 @@ host-suffix, wsj.com
 host-suffix, wsj.net
 
 #media
-host, vip7.fzwdyy.cn
-host, vip.ffzyread1.com
-host, vip.ffzy-online5.com
 host, 17hibo.com
+host, vip7.fzwdyy.cn
+host, vip.ffzy-online5.com
+host, vip.ffzyread1.com
 host, www.wuchajian.tv
 
 #chatGPT
@@ -76,8 +73,8 @@ host, api.openai.com
 host, worldtimeapi.org
 
 #Pinterest
-host-suffix, pinterest.com
 host-suffix, pinimg.com
+host-suffix, pinterest.com
 
 #Wikipedia
 host-suffix, wikidata.org
@@ -85,8 +82,8 @@ host-suffix, wikimedia.org
 host-suffix, wikipedia.org
 
 #keyword
-host-keyword, google
 host-keyword, .facebook.
+host-keyword, google
 
 #country
 host-suffix, de

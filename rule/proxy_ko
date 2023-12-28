@@ -1,18 +1,18 @@
 host, livecloud.akamaized.net
 host, livecloud-thumb.akamaized.net
-host-suffix, daum.net
-host-suffix, daumcdn.net
-host-suffix, kakao.com
-host-suffix, kakaocdn.net
-host-suffix, line.me
-host-suffix, naver.com
-host-suffix, naver.net
-host-suffix, navercorp.com
-host-suffix, pstatic.net
 host-suffix, chosun.com
+host-suffix, daumcdn.net
+host-suffix, daum.net
 host-suffix, donga.com
 host-suffix, hankookilbo.com
+host-suffix, kakaocdn.net
+host-suffix, kakao.com
+host-suffix, line.me
+host-suffix, naver.com
+host-suffix, navercorp.com
+host-suffix, naver.net
 host-suffix, pressian.com
+host-suffix, pstatic.net
 host-suffix, kr
 
 ip-asn, 23576 // 🇰🇷NAVER Cloud Corp.

@@ -1,16 +1,16 @@
 #adcn
+#host, sdk.open.talk.getui.com
+#host, tobapplog.ctobsnssdk.com
+#host, toblog.ctobsnssdk.com
 host-suffix, adukwai.com
+host-suffix, ctobsnssdk.com
 host-suffix, gepush.com
 host-suffix, getui.com
 host-suffix, getui.net
-#host, sdk.open.talk.getui.com
-host-wildcard, qchannel0?.cn
 host-suffix, ubixioe.com
-host-suffix, ctobsnssdk.com
-#host, tobapplog.ctobsnssdk.com
-#host, toblog.ctobsnssdk.com
-host-suffix, umeng.com
 host-suffix, umengcloud.com
+host-suffix, umeng.com
+host-wildcard, qchannel0?.cn
 
 #ad-not-cn
 #host, ads.pubmatic.com
@@ -26,8 +26,8 @@ host, data.flurry.com
 #host-suffix, ioam.de
 #host-suffix, oddsserve.com
 #host-suffix, outbrain.com
-host-wildcard, sdk.iad-0?.braze.com
 host-suffix, scorecardresearch.com
+host-wildcard, sdk.iad-0?.braze.com
 
 #amazon
 host, china2021.s3.ap-northeast-2.amazonaws.com
@@ -71,13 +71,12 @@ host, et.tanx.com
 host, sdk.beizi.biz
 host, sdktmp.hubcloud.com.cn
 host-suffix, appsflyer-cn.com
+host-suffix, inmobi.cn
 host-suffix, meishesdk.com
 host-suffix, shuzilm.cn
-host-suffix, inmobi.cn
 
 #alibaba-cloud
 #host, adash-emas.cn-hangzhou.aliyuncs.com
-host-wildcard, *adashx*
 host, adservice.sigmob.cn
 host, api.th.wanzjhb.com
 host, appdownload.alicdn.com
@@ -94,6 +93,7 @@ host-suffix, jpush.cn
 host-suffix, jpush.io
 host-suffix, mobileservice.cn
 host-suffix, uyunad.com
+host-wildcard, *adashx*
 host-wildcard, *.log.aliyuncs.com
 
 #alibaba-apps
@@ -118,8 +118,8 @@ host, mobads-logs.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, newvector.map.baidu.com
 host, nsclick.baidu.com
-host, zz.bdstatic.com
 host-suffix, tuisong.baidu.com
+host, zz.bdstatic.com
 
 #bilibili
 host, cm.bilibili.com
@@ -128,10 +128,10 @@ host, dataflow.biliapi.com
 #bytedance
 host, dig.bdurl.net
 host, i.snssdk.com
+host-keyword, pangolin-sdk-toutiao
 host, log.snssdk.com
 host, mon.snssdk.com
 host, sf16-static.i18n-pglstatp.com
-host-keyword, pangolin-sdk-toutiao
 host-suffix, pglstatp-toutiao.com
 
 #google
@@ -170,10 +170,10 @@ host, nex.163.com
 host-suffix, g.163.com
 
 #tencent
+#host, mi.gdt.qq.com
 host, h.trace.qq.com
 host, ios.rqd.qq.com
 host, mazu.m.qq.com
-#host, mi.gdt.qq.com
 host, mtrace.qq.com
 host, oth.eve.mdt.qq.com
 host, oth.str.mdt.qq.com

@@ -1,24 +1,25 @@
-DOMAIN,ad.12306.cn
-DOMAIN,amdc.m.taobao.com
-DOMAIN,analytics.strava.com
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
-DOMAIN,bdtj.tagtic.cn
-DOMAIN,btrace.qq.com
-DOMAIN,ca.iadsdk.apple.com
-DOMAIN,clientservices.googleapis.com
-DOMAIN,crt.trust-provider.cn
-DOMAIN,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN,fairplay.l.qq.com
-DOMAIN,livew.l.qq.com
-DOMAIN,log.mmstat.com
-DOMAIN,msg.umeng.com
-DOMAIN,msg.umengcloud.com
-DOMAIN,mtalk.google.com
-DOMAIN,sycm.mmstat.com
-DOMAIN,update.googleapis.com
-DOMAIN,vd.l.qq.com
-DOMAIN,vi.l.qq.com
-DOMAIN-SUFFIX,blog.google
-DOMAIN-SUFFIX,googletraveladservices.com
+host, ad.12306.cn
+host, amdc.m.taobao.com
+host, analytics.strava.com
+host, app.adjust.com
+host, app.appsflyer.com
+host, bdtj.tagtic.cn
+host, btrace.qq.com
+host, ca.iadsdk.apple.com
+host, clientservices.googleapis.com
+host, crt.trust-provider.cn
+host, dl.google.com
+host, dl.l.google.com
+host, fairplay.l.qq.com
+host, livew.l.qq.com
+host, log.mmstat.com
+host, msg.umengcloud.com
+host, msg.umeng.com
+host, mtalk.google.com
+host-suffix, blog.google
+host-suffix, googletraveladservices.com
+host, sycm.mmstat.com
+host, update.googleapis.com
+host, vd.l.qq.com
+host, vi.l.qq.com
+

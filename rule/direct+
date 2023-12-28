@@ -5,4 +5,4 @@ host-suffix, tophub.app
 host-suffix, ppsimg.com
 host-suffix, cn
 ip-cidr, 202.61.255.248/32
-GEOIP,CN
+geoip, cn
