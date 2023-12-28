@@ -115,6 +115,7 @@ ip-asn, 19679 // 🇺🇸Dropbox, Inc.
 ip-asn, 20940 // 🇳🇱Akamai International B.V.
 ip-asn, 32934 // 🇺🇸Facebook, Inc.
 ip-asn, 40065 // 🇺🇸CNSERVERS LLC
+ip-asn, 49453 // 🇳🇱Global Layer B.V.
 ip-asn, 54113 // 🇺🇸Fastly, Inc.
 ip-asn, 54600 // 🇺🇸PEG TECH INC
 ip-asn, 64050 // 🇸🇬BGPNET Global ASN
@@ -132,7 +133,7 @@ ip-asn, 396982 // 🇺🇸Google LLC
 #ip-asn, 29423 // 🇩🇪gridscale GmbH
 #ip-asn, 36351 // 🇺🇸SoftLayer Technologies Inc.
 #ip-asn, 48447 // 🇬🇧Sectigo Limited
-#ip-asn, 49453 // 🇳🇱Global Layer B.V.
+
 #ip-asn, 54994 // 🇺🇸QUANTIL NETWORKS INC
 #ip-asn, 58722 // 🇸🇬51 JALAN LANJUT
 #ip-asn, 59507 // 🇩🇪terralink networks GmbH
