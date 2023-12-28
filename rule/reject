@@ -1,12 +1,14 @@
 #adcn
 host-suffix, adukwai.com
-#host-suffix, gepush.com
-#host-suffix, getui.com
-host, sdk.open.talk.getui.com
+host-suffix, gepush.com
+host-suffix, getui.com
+#host, sdk.open.talk.getui.com
 host-suffix, qchannel01.cn
 host-suffix, ubixioe.com
 host, tobapplog.ctobsnssdk.com
 host, toblog.ctobsnssdk.com
+host-suffix, umeng.com
+host-suffix, umengcloud.com
 
 #ad-not-cn
 #host, ads.pubmatic.com
@@ -84,12 +86,12 @@ host, fp-it.fengkongcloud.com
 #host, log1.cmpassport.com
 host, sdk.open.talk.getui.net
 host-suffix, dutils.com
-#host-suffix, jiguang.cn
-#host-suffix, jpush.cn
-#host-suffix, jpush.io
+host-suffix, jiguang.cn
+host-suffix, jpush.cn
+host-suffix, jpush.io
 host-suffix, mobileservice.cn
 host-suffix, uyunad.com
-#host-wildcard, *.log.aliyuncs.com
+host-wildcard, *.log.aliyuncs.com
 
 #alibaba-apps
 host, iyes.youku.com
