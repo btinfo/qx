@@ -2,11 +2,13 @@
 host-suffix, adukwai.com
 host-suffix, gepush.com
 host-suffix, getui.com
+host-suffix, getui.net
 #host, sdk.open.talk.getui.com
-host-suffix, qchannel01.cn
+host-wildcard, qchannel0?.cn
 host-suffix, ubixioe.com
-host, tobapplog.ctobsnssdk.com
-host, toblog.ctobsnssdk.com
+host-suffix, ctobsnssdk.com
+#host, tobapplog.ctobsnssdk.com
+#host, toblog.ctobsnssdk.com
 host-suffix, umeng.com
 host-suffix, umengcloud.com
 
@@ -42,27 +44,27 @@ host-suffix, primis.tech
 host, ad.cyapi.cn
 host, api-ad-product.huxiu.com
 host, appgoad.189.cn
-#host, log-api.huxiu.com
+host, log-api.huxiu.com
 host, pv.sohu.com
-#host, sensors-log.dongqiudi.com
+host, sensors-log.dongqiudi.com
 host, smartad.10010.com
 host-suffix, ad.10010.com
 
 #apple
-#host, api-adservices.apple.com
-#host, metrics.icloud.com
+host, api-adservices.apple.com
+host, metrics.icloud.com
 host-suffix, iadsdk.apple.com
 
 #alibaba
 #host, acs.m.taobao.com
-host, adashx.m.taobao.com
+#host, adashx.m.taobao.com
 #host, amdc.alipay.com
 #host, amdc.m.taobao.com
-host, apoll.m.taobao.com
+#host, apoll.m.taobao.com
 #host, audid-api.taobao.com
-host, cdn.ynuf.aliapp.org
-host, fourier.taobao.com
-host, h-adashx.ut.taobao.com
+#host, cdn.ynuf.aliapp.org
+#host, fourier.taobao.com
+#host, h-adashx.ut.taobao.com
 
 #alibaba-advertising
 host, et.tanx.com
@@ -74,17 +76,18 @@ host-suffix, shuzilm.cn
 host-suffix, inmobi.cn
 
 #alibaba-cloud
-host, adash-emas.cn-hangzhou.aliyuncs.com
+#host, adash-emas.cn-hangzhou.aliyuncs.com
+host-wildcard, *adashx*
 host, adservice.sigmob.cn
 host, api.th.wanzjhb.com
 host, appdownload.alicdn.com
-#host, applog.uc.cn
+host, applog.uc.cn
 host, assets.growingio.com
 host, beacon-api.aliyuncs.com
 host, dc.sigmob.cn
 host, fp-it.fengkongcloud.com
-#host, log1.cmpassport.com
-host, sdk.open.talk.getui.net
+host, log1.cmpassport.com
+#host, sdk.open.talk.getui.net
 host-suffix, dutils.com
 host-suffix, jiguang.cn
 host-suffix, jpush.cn
@@ -104,8 +107,8 @@ host, logs.amap.com
 host, optimus-ads.amap.com
 
 #baidu
-#host, afd.baidu.com
-#host, als.baidu.com
+host, afd.baidu.com
+host, als.baidu.com
 host, dxp.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
@@ -125,7 +128,7 @@ host, dataflow.biliapi.com
 #bytedance
 host, dig.bdurl.net
 host, i.snssdk.com
-#host, log.snssdk.com
+host, log.snssdk.com
 host, mon.snssdk.com
 host, sf16-static.i18n-pglstatp.com
 host-keyword, pangolin-sdk-toutiao
@@ -133,7 +136,7 @@ host-suffix, pglstatp-toutiao.com
 
 #google
 host, app-measurement.com
-#host, firebaselogging-pa.googleapis.com
+host, firebaselogging-pa.googleapis.com
 host, pagead2.googlesyndication.com
 #host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
@@ -146,7 +149,7 @@ host-suffix, googletagservices.com
 #JD
 host, janapi.jd.com
 host, policy.jd.com
-#host, xlog.jd.com
+host, xlog.jd.com
 
 #kuaishou
 #host, ali-ad.a.yximgs.com
@@ -159,7 +162,7 @@ host, open.kwaizt.com
 host-wildcard, *ad.*.yximgs.com
 
 #moji
-#host, v1.log.moji.com
+host, v1.log.moji.com
 host, adlaunch.moji.com
 
 #netease
