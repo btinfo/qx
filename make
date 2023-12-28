@@ -22,7 +22,7 @@ reject () {
   curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/host, /g'|sort -u >> reject_sukka
 
   #category-ads-all.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed '/^regexp/d'|sed 's/:@ads$//g'|sed 's/^domain:/host-suffix, /g'|sed 's/^full:/host, /g'|sort -u > reject_v2fly
+  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed 's/^regexp:/host-wildcard, /g'|sed 's/:@ads$//g'|sed 's/^domain:/host-suffix, /g'|sed 's/^full:/host, /g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
   #sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
