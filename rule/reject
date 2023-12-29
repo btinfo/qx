@@ -1,204 +1,204 @@
 #adcn
-#host, sdk.open.talk.getui.com
-#host, tobapplog.ctobsnssdk.com
-#host, toblog.ctobsnssdk.com
-host-suffix, adukwai.com
-host-suffix, ctobsnssdk.com
-host-suffix, gepush.com
-host-suffix, getui.com
-host-suffix, getui.net
-host-suffix, ubixioe.com
-host-suffix, umengcloud.com
-host-suffix, umeng.com
-host-wildcard, qchannel0?.cn
+#HOST,sdk.open.talk.getui.com
+#HOST,tobapplog.ctobsnssdk.com
+#HOST,toblog.ctobsnssdk.com
+HOST-SUFFIX,adukwai.com
+HOST-SUFFIX,ctobsnssdk.com
+HOST-SUFFIX,gepush.com
+HOST-SUFFIX,getui.com
+HOST-SUFFIX,getui.net
+HOST-SUFFIX,ubixioe.com
+HOST-SUFFIX,umengcloud.com
+HOST-SUFFIX,umeng.com
+HOST-WILDCARD,qchannel0?.cn
 
 #ad-not-cn
-#host, ads.pubmatic.com
-#host, beacon.krxd.net
-host, data.flurry.com
-#host, geolocation.onetrust.com
-#host, in.appcenter.ms
-#host, lb.eu-1-id5-sync.com
-#host-suffix, adbro.me
-#host-suffix, adtilt.com
-#host-suffix, amplitude.com
-#host-suffix, id5-sync.com
-#host-suffix, ioam.de
-#host-suffix, oddsserve.com
-#host-suffix, outbrain.com
-host-suffix, scorecardresearch.com
-host-wildcard, sdk.iad-0?.braze.com
+#HOST,ads.pubmatic.com
+#HOST,beacon.krxd.net
+HOST,data.flurry.com
+#HOST,geolocation.onetrust.com
+#HOST,in.appcenter.ms
+#HOST,lb.eu-1-id5-sync.com
+#HOST-SUFFIX,adbro.me
+#HOST-SUFFIX,adtilt.com
+#HOST-SUFFIX,amplitude.com
+#HOST-SUFFIX,id5-sync.com
+#HOST-SUFFIX,ioam.de
+#HOST-SUFFIX,oddsserve.com
+#HOST-SUFFIX,outbrain.com
+HOST-SUFFIX,scorecardresearch.com
+HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #amazon
-host, china2021.s3.ap-northeast-2.amazonaws.com
-host-suffix, amazon-adsystem.com
-host-suffix, appsflyer.com
-#host-suffix, brainlyads.com
-host-suffix, branch.io
-host-suffix, primis.tech
-#host-suffix, vidazoo.com
+HOST,china2021.s3.ap-northeast-2.amazonaws.com
+HOST-SUFFIX,amazon-adsystem.com
+HOST-SUFFIX,appsflyer.com
+#HOST-SUFFIX,brainlyads.com
+HOST-SUFFIX,branch.io
+HOST-SUFFIX,primis.tech
+#HOST-SUFFIX,vidazoo.com
 
 #apps
-host, ad.12306.cn
-#host, ad.bmac.com.cn
-host, ad.cyapi.cn
-host, api-ad-product.huxiu.com
-host, appgoad.189.cn
-host, log-api.huxiu.com
-host, pv.sohu.com
-host, sensors-log.dongqiudi.com
-host, smartad.10010.com
-host-suffix, ad.10010.com
+HOST,ad.12306.cn
+#HOST,ad.bmac.com.cn
+HOST,ad.cyapi.cn
+HOST,api-ad-product.huxiu.com
+HOST,appgoad.189.cn
+HOST,log-api.huxiu.com
+HOST,pv.sohu.com
+HOST,sensors-log.dongqiudi.com
+HOST,smartad.10010.com
+HOST-SUFFIX,ad.10010.com
 
 #apple
-host, api-adservices.apple.com
-host, metrics.icloud.com
-host-suffix, iadsdk.apple.com
+HOST,api-adservices.apple.com
+HOST,metrics.icloud.com
+HOST-SUFFIX,iadsdk.apple.com
 
 #alibaba
-#host, acs.m.taobao.com
-#host, adashx.m.taobao.com
-#host, amdc.alipay.com
-#host, amdc.m.taobao.com
-#host, apoll.m.taobao.com
-#host, audid-api.taobao.com
-#host, cdn.ynuf.aliapp.org
-#host, fourier.taobao.com
-#host, h-adashx.ut.taobao.com
+#HOST,acs.m.taobao.com
+#HOST,adashx.m.taobao.com
+#HOST,amdc.alipay.com
+#HOST,amdc.m.taobao.com
+#HOST,apoll.m.taobao.com
+#HOST,audid-api.taobao.com
+#HOST,cdn.ynuf.aliapp.org
+#HOST,fourier.taobao.com
+#HOST,h-adashx.ut.taobao.com
 
 #alibaba-advertising
-host, et.tanx.com
-host, sdk.beizi.biz
-host, sdktmp.hubcloud.com.cn
-host-suffix, appsflyer-cn.com
-host-suffix, inmobi.cn
-host-suffix, meishesdk.com
-host-suffix, shuzilm.cn
+HOST,et.tanx.com
+HOST,sdk.beizi.biz
+HOST,sdktmp.hubcloud.com.cn
+HOST-SUFFIX,appsflyer-cn.com
+HOST-SUFFIX,inmobi.cn
+HOST-SUFFIX,meishesdk.com
+HOST-SUFFIX,shuzilm.cn
 
 #alibaba-cloud
-#host, adash-emas.cn-hangzhou.aliyuncs.com
-host, adservice.sigmob.cn
-host, api.th.wanzjhb.com
-host, appdownload.alicdn.com
-host, applog.uc.cn
-host, assets.growingio.com
-host, beacon-api.aliyuncs.com
-host, dc.sigmob.cn
-host, fp-it.fengkongcloud.com
-host, log1.cmpassport.com
-#host, sdk.open.talk.getui.net
-host-suffix, dutils.com
-host-suffix, jiguang.cn
-host-suffix, jpush.cn
-host-suffix, jpush.io
-host-suffix, mobileservice.cn
-host-suffix, uyunad.com
-host-wildcard, *adashx*
-host-wildcard, *.log.aliyuncs.com
+#HOST,adash-emas.cn-hangzhou.aliyuncs.com
+HOST,adservice.sigmob.cn
+HOST,api.th.wanzjhb.com
+HOST,appdownload.alicdn.com
+HOST,applog.uc.cn
+HOST,assets.growingio.com
+HOST,beacon-api.aliyuncs.com
+HOST,dc.sigmob.cn
+HOST,fp-it.fengkongcloud.com
+HOST,log1.cmpassport.com
+#HOST,sdk.open.talk.getui.net
+HOST-SUFFIX,dutils.com
+HOST-SUFFIX,jiguang.cn
+HOST-SUFFIX,jpush.cn
+HOST-SUFFIX,jpush.io
+HOST-SUFFIX,mobileservice.cn
+HOST-SUFFIX,uyunad.com
+HOST-WILDCARD,*adashx*
+HOST-WILDCARD,*.log.aliyuncs.com
 
 #alibaba-apps
-host, iyes.youku.com
-host, msg.qy.net //iQiyi
-host, policy.video.iqiyi.com
+HOST,iyes.youku.com
+HOST,msg.qy.net //iQiyi
+HOST,policy.video.iqiyi.com
 
 #amap
-host, dualstack-logs.amap.com
-host, logs.amap.com
-host, optimus-ads.amap.com
+HOST,dualstack-logs.amap.com
+HOST,logs.amap.com
+HOST,optimus-ads.amap.com
 
 #baidu
-host, afd.baidu.com
-host, als.baidu.com
-host, dxp.baidu.com
-host, hm.baidu.com
-host, hmma.baidu.com
-host, kstj.baidu.com
-host, mobads.baidu.com
-host, mobads-logs.baidu.com
-host, mobads-pre-config.cdn.bcebos.com
-host, newvector.map.baidu.com
-host, nsclick.baidu.com
-host-suffix, tuisong.baidu.com
-host, zz.bdstatic.com
+HOST,afd.baidu.com
+HOST,als.baidu.com
+HOST,dxp.baidu.com
+HOST,hm.baidu.com
+HOST,hmma.baidu.com
+HOST,kstj.baidu.com
+HOST,mobads.baidu.com
+HOST,mobads-logs.baidu.com
+HOST,mobads-pre-config.cdn.bcebos.com
+HOST,newvector.map.baidu.com
+HOST,nsclick.baidu.com
+HOST-SUFFIX,tuisong.baidu.com
+HOST,zz.bdstatic.com
 
 #bilibili
-host, cm.bilibili.com
-host, dataflow.biliapi.com
+HOST,cm.bilibili.com
+HOST,dataflow.biliapi.com
 
 #bytedance
-host, dig.bdurl.net
-host, i.snssdk.com
-host-keyword, pangolin-sdk-toutiao
-host, log.snssdk.com
-host, mon.snssdk.com
-host, sf16-static.i18n-pglstatp.com
-host-suffix, pglstatp-toutiao.com
+HOST,dig.bdurl.net
+HOST,i.snssdk.com
+HOST-KEYWORD,pangolin-sdk-toutiao
+HOST,log.snssdk.com
+HOST,mon.snssdk.com
+HOST,sf16-static.i18n-pglstatp.com
+HOST-SUFFIX,pglstatp-toutiao.com
 
 #google
-host, app-measurement.com
-host, firebaselogging-pa.googleapis.com
-host, pagead2.googlesyndication.com
-#host-suffix, crashlytics.com
-host-suffix, doubleclick-cn.net
-host-suffix, doubleclick.net
-host-suffix, googleadservices.com
-host-suffix, googletagmanager.com
-host-suffix, googletagservices.com
-#host-suffix, smartadserver.com
+HOST,app-measurement.com
+HOST,firebaselogging-pa.googleapis.com
+HOST,pagead2.googlesyndication.com
+#HOST-SUFFIX,crashlytics.com
+HOST-SUFFIX,doubleclick-cn.net
+HOST-SUFFIX,doubleclick.net
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googletagmanager.com
+HOST-SUFFIX,googletagservices.com
+#HOST-SUFFIX,smartadserver.com
 
 #JD
-host, janapi.jd.com
-host, policy.jd.com
-host, xlog.jd.com
+HOST,janapi.jd.com
+HOST,policy.jd.com
+HOST,xlog.jd.com
 
 #kuaishou
-#host, ali-ad.a.yximgs.com
-host, gdfp.gifshow.com
-#host, hw-ot-ad.a.yximgs.com
-host, open.e.kuaishou.com
-host, open.kuaishouzt.com
-host, open.kwaizt.com
-#host, v2-ad.video.yximgs.com
-host-wildcard, *ad.*.yximgs.com
+#HOST,ali-ad.a.yximgs.com
+HOST,gdfp.gifshow.com
+#HOST,hw-ot-ad.a.yximgs.com
+HOST,open.e.kuaishou.com
+HOST,open.kuaishouzt.com
+HOST,open.kwaizt.com
+#HOST,v2-ad.video.yximgs.com
+HOST-WILDCARD,*ad.*.yximgs.com
 
 #moji
-host, v1.log.moji.com
-host, adlaunch.moji.com
+HOST,v1.log.moji.com
+HOST,adlaunch.moji.com
 
 #netease
-host, nex.163.com
-host-suffix, g.163.com
+HOST,nex.163.com
+HOST-SUFFIX,g.163.com
 
 #tencent
-#host, mi.gdt.qq.com
-host, h.trace.qq.com
-host, ios.rqd.qq.com
-host, mazu.m.qq.com
-host, mtrace.qq.com
-host, oth.eve.mdt.qq.com
-host, oth.str.mdt.qq.com
-host, pingma.qq.com
-host, qzs.gdtimg.com
-host, sdk.e.qq.com
-host-suffix, beacon.qq.com
-host-suffix, bugly.qq.com
-host-suffix, gdt.qq.com
-host-suffix, rqd.qq.com
-host, tangram.e.qq.com
+#HOST,mi.gdt.qq.com
+HOST,h.trace.qq.com
+HOST,ios.rqd.qq.com
+HOST,mazu.m.qq.com
+HOST,mtrace.qq.com
+HOST,oth.eve.mdt.qq.com
+HOST,oth.str.mdt.qq.com
+HOST,pingma.qq.com
+HOST,qzs.gdtimg.com
+HOST,sdk.e.qq.com
+HOST-SUFFIX,beacon.qq.com
+HOST-SUFFIX,bugly.qq.com
+HOST-SUFFIX,gdt.qq.com
+HOST-SUFFIX,rqd.qq.com
+HOST,tangram.e.qq.com
 
 #tencent-others
-host-suffix, lkme.cc
-host, wkdcm1.tingyun.com
-host, wkrd.tingyun.com
+HOST-SUFFIX,lkme.cc
+HOST,wkdcm1.tingyun.com
+HOST,wkrd.tingyun.com
 
 #xiaomi
-host-suffix, ad.xiaomi.com
-host, tracking.miui.com
+HOST-SUFFIX,ad.xiaomi.com
+HOST,tracking.miui.com
 
 #ysp
-host, btrace.ysp.cctv.cn
-host, mtrace.ysp.cctv.cn
+HOST,btrace.ysp.cctv.cn
+HOST,mtrace.ysp.cctv.cn
 
 #zhihu
-host, mqtt.zhihu.com
-ip-cidr, 180.76.76.200/32
+HOST,mqtt.zhihu.com
+IP-CIDR,180.76.76.200/32

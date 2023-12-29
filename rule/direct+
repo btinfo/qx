@@ -1,10 +1,21 @@
-host-suffix, wjys.cc
-host-suffix, xying08.top
-host-suffix, sharepoint.com
-host-suffix, tophub.app
-host-suffix, ppsimg.com
-host-suffix, cn
-ip-asn, 38627 // Baidu, Inc.
-ip-asn, 132203 //Tencent Building, Kejizhongyi Avenue
-ip-cidr, 202.61.255.248/32
-geoip, cn
+#LAN
+HOST-SUFFIX,local
+IP-CIDR,10.0.0.0/8
+IP-CIDR,100.64.0.0/10
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,224.0.0.0/4
+IP6-CIDR,fe80::/10
+
+#direct+
+HOST-SUFFIX,wjys.cc
+HOST-SUFFIX,xying08.top
+HOST-SUFFIX,sharepoint.com
+HOST-SUFFIX,tophub.app
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,cn
+IP-ASN,38627 // Baidu, Inc.
+IP-ASN,132203 //Tencent Building, Kejizhongyi Avenue
+IP-CIDR,202.61.255.248/32
+GEOIP, cn
