@@ -100,11 +100,13 @@ ip-asn, 714 // Apple Inc.
 ip-asn, 2914 // NTT America, Inc.
 ip-asn, 3356 // LEVEL3
 ip-asn, 3462 // Data Communication Business Group
+ip-asn, 3786 // LG DACOM Corporation
 ip-asn, 4766 // Korea Telecom
 ip-asn, 6134 // XNNET
 ip-asn, 6185 // APPLE-AUSTIN
 ip-asn, 8068 // Microsoft Corporation
 ip-asn, 8075 // Microsoft Corporation
+ip-asn, 9318 // SK Broadband Co Ltd
 ip-asn, 12874 // Fastweb
 ip-asn, 13333 // Consolidated Communications, Inc.
 ip-asn, 13335 // Cloudflare, Inc.
@@ -114,6 +116,7 @@ ip-asn, 16509 // Amazon.com, Inc.
 ip-asn, 16625 // Akamai Technologies, Inc.
 ip-asn, 19679 // Dropbox, Inc.
 ip-asn, 20940 // Akamai International B.V.
+ip-asn, 23576 // NAVER Cloud Corp.
 ip-asn, 32934 // Facebook, Inc.
 ip-asn, 40065 // CNSERVERS LLC
 ip-asn, 49453 // Global Layer B.V.
