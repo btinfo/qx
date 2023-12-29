@@ -14,7 +14,7 @@ HOST-WILDCARD,qchannel0?.cn
 
 #ad-not-cn
 #HOST,ads.pubmatic.com
-#HOST,beacon.krxd.net
+HOST,beacon.krxd.net
 HOST,data.flurry.com
 #HOST,geolocation.onetrust.com
 #HOST,in.appcenter.ms
