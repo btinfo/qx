@@ -15,10 +15,9 @@ HOST,log.mmstat.com
 HOST,msg.umengcloud.com
 HOST,msg.umeng.com
 HOST,mtalk.google.com
-HOST-SUFFIX,blog.google
-HOST-SUFFIX,googletraveladservices.com
 HOST,sycm.mmstat.com
 HOST,update.googleapis.com
 HOST,vd.l.qq.com
 HOST,vi.l.qq.com
-
+HOST-SUFFIX,blog.google
+HOST-SUFFIX,googletraveladservices.com

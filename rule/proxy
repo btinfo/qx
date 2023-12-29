@@ -1,109 +1,109 @@
 #Apple
-HOST,api.revenuecat.com, Apple
-HOST-KEYWORD,apple.com.akadns.net, Apple
-HOST-KEYWORD,apple.com.edgekey.net, Apple
-HOST-KEYWORD,apple-support.akadns.net, Apple
-HOST-KEYWORD,icloud.com.akadns.net, Apple
-HOST-SUFFIX,aaplimg.com, Apple
-HOST-SUFFIX,apple-cloudkit.com, Apple
-HOST-SUFFIX,apple.co, Apple
-HOST-SUFFIX,apple.com, Apple
-#HOST-SUFFIX,apple.com.cn, Apple
-HOST-SUFFIX,apple-livephotoskit.com, Apple
-HOST-SUFFIX,apple-mapkit.com, Apple
-HOST-SUFFIX,applemusic.com, Apple
-HOST-SUFFIX,appstore.com, Apple
-HOST-SUFFIX,apzones.com, Apple
-HOST-SUFFIX,cdn-apple.com, Apple
-HOST-SUFFIX,icloud.com, Apple
-#HOST-SUFFIX,icloud.com.cn, Apple
-HOST-SUFFIX,icloud-content.com, Apple
-HOST-SUFFIX,me.com, Apple
-HOST-SUFFIX,mzstatic.com, Apple
+HOST,api.revenuecat.com,Apple
+HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,apple.com.edgekey.net,Apple
+HOST-KEYWORD,apple-support.akadns.net,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-SUFFIX,aaplimg.com,Apple
+HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple.co,Apple
+HOST-SUFFIX,apple.com,Apple
+#HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
+HOST-SUFFIX,apple-mapkit.com,Apple
+HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,appstore.com,Apple
+HOST-SUFFIX,apzones.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,icloud.com,Apple
+#HOST-SUFFIX,icloud.com.cn,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+HOST-SUFFIX,me.com,Apple
+HOST-SUFFIX,mzstatic.com,Apple
 
 #Github
-HOST-KEYWORD,github, Github
-HOST-SUFFIX,githubapp.com, Github
-HOST-SUFFIX,githubassets.com, Github
-HOST-SUFFIX,github.com, Github
-HOST-SUFFIX,github.io, Github
-HOST-SUFFIX,githubusercontent.com, Github
+HOST-KEYWORD,github,Github
+HOST-SUFFIX,githubapp.com,Github
+HOST-SUFFIX,githubassets.com,Github
+HOST-SUFFIX,github.com,Github
+HOST-SUFFIX,github.io,Github
+HOST-SUFFIX,githubusercontent.com,Github
 
 #Gitlab
-HOST-SUFFIX,gitlab.com, Github
-HOST-SUFFIX,gitlab.io, Github
+HOST-SUFFIX,gitlab.com,Github
+HOST-SUFFIX,gitlab.io,Github
 
-#Google Search & others
-HOST-KEYWORD,www.google., US
-HOST-SUFFIX,chinadigitaltimes.net, US
+#GoogleSearch&others
+HOST-KEYWORD,www.google.,US
+HOST-SUFFIX,chinadigitaltimes.net,US
 
 #Instagram
-HOST-KEYWORD,instagram, Instagram
-HOST-SUFFIX,cdninstagram.com, Instagram
-HOST-SUFFIX,fbcdn.net, Instagram
-HOST-SUFFIX,fbsbx.com, Instagram
-HOST-SUFFIX,instagram.com, Instagram
-HOST-SUFFIX,instagr.am, Instagram
+HOST-KEYWORD,instagram,Instagram
+HOST-SUFFIX,cdninstagram.com,Instagram
+HOST-SUFFIX,fbcdn.net,Instagram
+HOST-SUFFIX,fbsbx.com,Instagram
+HOST-SUFFIX,instagram.com,Instagram
+HOST-SUFFIX,instagr.am,Instagram
 
 #Spotify
-HOST-KEYWORD,spotify, Spotify
-HOST-SUFFIX,pscdn.co, Spotify
-HOST-SUFFIX,scdn.co, Spotify
-HOST-SUFFIX,spoti.fi, Spotify
-HOST-SUFFIX,spotifycdn.com, Spotify
-HOST-SUFFIX,spotifycdn.net, Spotify
-HOST-SUFFIX,spotify.com, Spotify
+HOST-KEYWORD,spotify,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,spotifycdn.net,Spotify
+HOST-SUFFIX,spotify.com,Spotify
 
 #Telegram
-HOST-KEYWORD,telegram, Telegram
-HOST-SUFFIX,tdesktop.com, Telegram
-HOST-SUFFIX,telegram.me, Telegram
-HOST-SUFFIX,telegram.org, Telegram
-HOST-SUFFIX,telegra.ph, Telegram
-HOST-SUFFIX,telesco.pe, Telegram
-HOST-SUFFIX,t.me, Telegram
-IP-CIDR,149.154.160.0/20, Telegram
-IP-CIDR,185.76.151.0/24, Telegram
-IP-CIDR,91.105.192.0/23, Telegram
-IP-CIDR,91.108.16.0/21, Telegram
-IP-CIDR,91.108.4.0/22, Telegram
-IP-CIDR,91.108.56.0/22, Telegram
-IP-CIDR,91.108.8.0/21, Telegram
-IP-CIDR,95.161.64.0/20, Telegram
+HOST-KEYWORD,telegram,Telegram
+HOST-SUFFIX,tdesktop.com,Telegram
+HOST-SUFFIX,telegram.me,Telegram
+HOST-SUFFIX,telegram.org,Telegram
+HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telesco.pe,Telegram
+HOST-SUFFIX,t.me,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,185.76.151.0/24,Telegram
+IP-CIDR,91.105.192.0/23,Telegram
+IP-CIDR,91.108.16.0/21,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.108.8.0/21,Telegram
+IP-CIDR,95.161.64.0/20,Telegram
 
 #Tidal
-HOST-SUFFIX,tidal-cms.s3.amazonaws.com, Tidal
-HOST-SUFFIX,tidal.com, Tidal
-HOST-SUFFIX,tidalhifi.com, Tidal
+HOST-SUFFIX,tidal-cms.s3.amazonaws.com,Tidal
+HOST-SUFFIX,tidal.com,Tidal
+HOST-SUFFIX,tidalhifi.com,Tidal
 
 #X.org
-HOST-KEYWORD,twitter, X
-HOST-SUFFIX,cms-twdigitalassets.com, X
-HOST-SUFFIX,periscope.tv, X
-HOST-SUFFIX,pscp.tv, X
-HOST-SUFFIX,t.co, X
-HOST-SUFFIX,twimg.com, X
-HOST-SUFFIX,twimg.co, X
-HOST-SUFFIX,twimg.org, X
-HOST-SUFFIX,twitpic.com, X
-HOST-SUFFIX,twitter.com, X
-#HOST-SUFFIX,twitter.jp, X
-HOST-SUFFIX,vine.co, X
+HOST-KEYWORD,twitter,X
+HOST-SUFFIX,cms-twdigitalassets.com,X
+HOST-SUFFIX,periscope.tv,X
+HOST-SUFFIX,pscp.tv,X
+HOST-SUFFIX,t.co,X
+HOST-SUFFIX,twimg.com,X
+HOST-SUFFIX,twimg.co,X
+HOST-SUFFIX,twimg.org,X
+HOST-SUFFIX,twitpic.com,X
+HOST-SUFFIX,twitter.com,X
+#HOST-SUFFIX,twitter.jp,X
+HOST-SUFFIX,vine.co,X
 
 #Youtube
-HOST-KEYWORD,youtube, Youtube
-HOST-SUFFIX,ggpht.com, Youtube
-HOST-SUFFIX,googlevideo.com, Youtube
-HOST-SUFFIX,gvt2.com, Youtube
-HOST-SUFFIX,withyoutube.com, Youtube
-HOST-SUFFIX,youtube.com, Youtube
-HOST-SUFFIX,youtubeeducation.com, Youtube
-HOST-SUFFIX,youtubegaming.com, Youtube
-HOST-SUFFIX,youtubekids.com, Youtube
-HOST-SUFFIX,youtube-nocookie.com, Youtube
-HOST-SUFFIX,youtu.be, Youtube
-HOST-SUFFIX,yt.be, Youtube
-HOST-SUFFIX,ytimg.com, Youtube
-HOST,youtubei.googleapis.com, Youtube
-#HOST,yt3.ggpht.com, Youtube
+HOST-KEYWORD,youtube,Youtube
+HOST-SUFFIX,ggpht.com,Youtube
+HOST-SUFFIX,googlevideo.com,Youtube
+HOST-SUFFIX,gvt2.com,Youtube
+HOST-SUFFIX,withyoutube.com,Youtube
+HOST-SUFFIX,youtube.com,Youtube
+HOST-SUFFIX,youtubeeducation.com,Youtube
+HOST-SUFFIX,youtubegaming.com,Youtube
+HOST-SUFFIX,youtubekids.com,Youtube
+HOST-SUFFIX,youtube-nocookie.com,Youtube
+HOST-SUFFIX,youtu.be,Youtube
+HOST-SUFFIX,yt.be,Youtube
+HOST-SUFFIX,ytimg.com,Youtube
+HOST,youtubei.googleapis.com,Youtube
+#HOST,yt3.ggpht.com,Youtube
 
