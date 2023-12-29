@@ -4,6 +4,7 @@ host-suffix, sharepoint.com
 host-suffix, tophub.app
 host-suffix, ppsimg.com
 host-suffix, cn
+ip-asn, 38627 // Baidu, Inc.
 ip-asn, 132203 //Tencent Building, Kejizhongyi Avenue
 ip-cidr, 202.61.255.248/32
 geoip, cn
