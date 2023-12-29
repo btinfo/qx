@@ -39,7 +39,7 @@ host-suffix, primis.tech
 #host-suffix, vidazoo.com
 
 #apps
-#host, ad.12306.cn
+host, ad.12306.cn
 #host, ad.bmac.com.cn
 host, ad.cyapi.cn
 host, api-ad-product.huxiu.com
