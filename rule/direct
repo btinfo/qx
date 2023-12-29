@@ -1,9 +1,8 @@
-#host, ad.12306.cn
 host, amdc.m.taobao.com
-host, analytics.strava.com
+#host, analytics.strava.com
 host, app.adjust.com
 host, app.appsflyer.com
-host, bdtj.tagtic.cn
+#host, bdtj.tagtic.cn
 host, btrace.qq.com
 host, ca.iadsdk.apple.com
 host, clientservices.googleapis.com
