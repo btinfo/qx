@@ -5,7 +5,7 @@ HOST,app.appsflyer.com
 #HOST,bdtj.tagtic.cn
 #HOST,log.mmstat.com
 #HOST,sycm.mmstat.com
-HOST,crt.trust-providerc.cn
+#HOST,crt.trust-providerc.cn
 
 #apple
 HOST,ca.iadsdk.apple.com
