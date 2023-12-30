@@ -140,7 +140,7 @@ HOST-SUFFIX,pglstatp-toutiao.com
 
 #google
 HOST,app-measurement.com
-HOST,firebaselogging-pa.googleapis.com
+#HOST,firebaselogging-pa.googleapis.com
 HOST,pagead2.googlesyndication.com
 #HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,doubleclick-cn.net
