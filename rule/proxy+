@@ -94,6 +94,11 @@ HOST-SUFFIX,pstatic.net
 #HOST-SUFFIX,pinimg.com
 #HOST-SUFFIX,pinterest.com
 
+#Reddit
+HOST-SUFFIX,redditmedia.com
+HOST-SUFFIX,redd.it
+HOST-SUFFIX,reddit.com
+
 #Wikipedia
 HOST-SUFFIX,wikidata.org
 HOST-SUFFIX,wikimedia.org
