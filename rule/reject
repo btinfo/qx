@@ -205,6 +205,9 @@ HOST,tracking.miui.com
 HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
+#YahooNews
+HOST,analytics.query.yahoo.com
+
 #掌上公交
 HOST,ad.baihemob.com, reject
 HOST,inner.baihemob.com, reject
