@@ -99,6 +99,13 @@ HOST-SUFFIX,wikidata.org
 HOST-SUFFIX,wikimedia.org
 HOST-SUFFIX,wikipedia.org
 
+#YahooNews
+HOST-SUFFIX,yahoo.com
+HOST-SUFFIX,yahoo.net
+HOST-SUFFIX,yimg.com
+HOST-SUFFIX,zenfs.com
+HOST-SUFFIX,emb-api.com
+
 #keyword
 HOST-KEYWORD,.facebook.
 HOST-KEYWORD,google
