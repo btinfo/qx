@@ -11,6 +11,7 @@ HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,umeng.com
 HOST-WILDCARD,qchannel0?.cn
+host, log.umsns.com
 
 #ad-not-cn
 #HOST,ads.pubmatic.com
@@ -28,6 +29,8 @@ HOST,data.flurry.com
 #HOST-SUFFIX,outbrain.com
 HOST-SUFFIX,scorecardresearch.com
 HOST-WILDCARD,sdk.iad-0?.braze.com
+host, ad2.fivecdm.com //计步器
+host, api.bugfender.com
 
 #amazon
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
@@ -37,6 +40,7 @@ HOST-SUFFIX,appsflyer.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
 #HOST-SUFFIX,vidazoo.com
+host, cdn-settings.appsflyersdk.com
 
 #apps
 HOST,ad.12306.cn
@@ -145,6 +149,8 @@ HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
 #HOST-SUFFIX,smartadserver.com
+host-suffix, google-analytics.com
+host, safebrowsing.googleapis-cn.com
 
 #JD
 HOST,janapi.jd.com
@@ -191,14 +197,18 @@ HOST-SUFFIX,lkme.cc
 HOST,wkdcm1.tingyun.com
 HOST,wkrd.tingyun.com
 
-#xiaomi
+#小米
 HOST-SUFFIX,ad.xiaomi.com
 HOST,tracking.miui.com
 
-#ysp
+#央视频
 HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
-#zhihu
+#掌上公交
+host, ad.baihemob.com, reject
+host, inner.baihemob.com, reject
+
+#知乎
 HOST,mqtt.zhihu.com
 IP-CIDR,180.76.76.200/32
