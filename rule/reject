@@ -43,7 +43,7 @@ HOST-SUFFIX,primis.tech
 HOST,cdn-settings.appsflyersdk.com
 
 #apps
-HOST,ad.12306.cn
+#HOST,ad.12306.cn
 #HOST,ad.bmac.com.cn
 HOST,ad.cyapi.cn
 HOST,api-ad-product.huxiu.com
