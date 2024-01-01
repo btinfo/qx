@@ -43,10 +43,10 @@ HOST,mobads-logs.baidu.com
 HOST,mobads-pre-config.cdn.bcebos.com
 HOST,newvector.map.baidu.com
 HOST,nsclick.baidu.com
+HOST,zz.bdstatic.com
 HOST-SUFFIX,cpro.baidu.com
 HOST-SUFFIX,pos.baidu.com
 HOST-SUFFIX,tuisong.baidu.com
-HOST,zz.bdstatic.com
 IP-CIDR,180.76.76.200/32 //贴吧
 
 #bilibili
@@ -125,6 +125,7 @@ HOST,analytics.twitter.com
 
 #umeng
 HOST,alogs.umeng.com
+HOST,alogs.umengcloud.com
 
 #xiaomi
 HOST,tracking.miui.com
