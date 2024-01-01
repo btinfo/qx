@@ -1,3 +1,7 @@
+host-suffix, ad.daum.net, reject
+host, alogs.umeng.com, reject
+host, analytics.twitter.com, reject
+
 #10010 &189
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
