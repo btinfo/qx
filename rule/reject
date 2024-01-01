@@ -9,8 +9,8 @@ HOST-SUFFIX,ctobsnssdk.com
 #HOST-SUFFIX,getui.net
 HOST,c-hzgt2.getui.com
 HOST-SUFFIX,ubixioe.com
-HOST-SUFFIX,umeng.com
-HOST-SUFFIX,umengcloud.com
+#HOST-SUFFIX,umeng.com
+#HOST-SUFFIX,umengcloud.com
 HOST-KEYWORD,qchannel0
 HOST,log.umsns.com
 
