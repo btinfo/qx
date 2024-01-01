@@ -7,7 +7,7 @@ HOST,ads.pubmatic.com
 HOST,afd.baidu.com
 HOST,als.baidu.com
 HOST,analytics.query.yahoo.com
-HOST,api-ad-product.huxiu.com
+#HOST,api-ad-product.huxiu.com
 HOST,api-adservices.apple.com
 HOST,api.bugfender.com
 HOST,api.th.wanzjhb.com
