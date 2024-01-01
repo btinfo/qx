@@ -215,3 +215,65 @@ HOST,inner.baihemob.com, reject
 #知乎
 HOST,mqtt.zhihu.com
 IP-CIDR,180.76.76.200/32
+
+#korean sites
+host, ad.doorigo.co.kr
+host, ad.aceplanet.co.kr
+host, ad.adinc.kr
+host, ad.feedbag.co.kr
+host, ad.hankookilbo.com
+host, ad.khan.co.kr
+host, ad.mrab.co.kr
+host, ad.reople.co.kr
+host, ad.smartinmedia.co.kr
+host, ad.tjtune.com
+host, ad.tpmn.co.kr
+host, adex.ednplus.com
+host, adimage.hankookilbo.com
+host, adimg.hani.co.kr
+host, ads.kmib.co.kr
+host, adservice.hani.co.kr
+host, adtg.widerplanet.com
+host, adv.imadrep.co.kr
+host, adv.khan.co.kr
+host, advimg.khan.co.kr
+host, deepdive.zum.com
+
+host-suffix, 2mdn.net
+host-suffix, 3gl.net
+host-suffix, 3lift.com
+host-suffix, acrosspf.com
+host-suffix, ad4989.co.kr
+host-suffix, adbinead.com
+host-suffix, admaru.net
+host-suffix, adnxs.com
+host-suffix, adplex.co.kr
+host-suffix, branch.io
+host-suffix, casalemedia.com
+host-suffix, chartbeat.com
+host-suffix, chartbeat.net
+host-suffix, cizion.com
+host-suffix, clarity.ms
+host-suffix, contentsfeed.com
+host-suffix, criteo.com
+host-suffix, criteo.net
+host-suffix, dable.io
+host-suffix, go-mpulse.net
+host-suffix, iacstatic.co.kr
+host-suffix, innorame.com
+host-suffix, interworksmedia.co.kr
+host-suffix, joins.com
+host-suffix, mediacategory.com
+host-suffix, mobon.net
+host-suffix, mobwithad.com
+host-suffix, netinsight.co.kr
+host-suffix, newscover.co.kr
+host-suffix, perfectmarket.com
+host-suffix, planmix.co.kr
+host-suffix, popin.cc
+host-suffix, pubmatic.com
+host-suffix, rubiconproject.com
+host-suffix, shoppingcall.me
+host-suffix, stax.kr
+host-suffix, taboola.com
+host-suffix, tadapi.info
