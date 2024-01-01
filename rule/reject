@@ -2,6 +2,7 @@
 #HOST,sdk.open.talk.getui.com
 #HOST,tobapplog.ctobsnssdk.com
 #HOST,toblog.ctobsnssdk.com
+HOST-SUFFIX,privacy-mgmt.com
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,ctobsnssdk.com
 HOST-SUFFIX,gepush.com
