@@ -14,18 +14,17 @@ HOST-WILDCARD,qchannel0?.cn
 HOST,log.umsns.com
 
 #ad-not-cn
-#HOST,ads.pubmatic.com
+HOST,ads.pubmatic.com
 HOST,beacon.krxd.net
 HOST,data.flurry.com
 #HOST,geolocation.onetrust.com
 #HOST,in.appcenter.ms
-#HOST,lb.eu-1-id5-sync.com
 #HOST-SUFFIX,adbro.me
 #HOST-SUFFIX,adtilt.com
 #HOST-SUFFIX,amplitude.com
-#HOST-SUFFIX,id5-sync.com
-#HOST-SUFFIX,ioam.de
-#HOST-SUFFIX,oddsserve.com
+HOST-KEYWORD,id5-sync
+HOST-SUFFIX,ioam.de
+HOST-SUFFIX,oddsserve.com
 #HOST-SUFFIX,outbrain.com
 HOST-SUFFIX,scorecardresearch.com
 HOST-WILDCARD,sdk.iad-0?.braze.com
