@@ -127,6 +127,9 @@ HOST,analytics.twitter.com
 HOST,alogs.umeng.com
 HOST,alogs.umengcloud.com
 
+#wechat
+HOST,dns.weixin.qq.com.cn
+
 #xiaomi
 HOST,tracking.miui.com
 HOST-SUFFIX,ad.xiaomi.com
