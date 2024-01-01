@@ -12,7 +12,7 @@ HOST,appdownload.alicdn.com
 HOST,beacon-api.aliyuncs.com
 HOST-WILDCARD,*adashx*
 #HOST-WILDCARD,*.log.aliyuncs.com
-IP-CIDR,203.107.1.1/24 //阿里云
+IP-CIDR,203.107.1.1/24
 
 #amap
 #HOST,dualstack-logs.amap.com
@@ -47,7 +47,7 @@ HOST,zz.bdstatic.com
 HOST-SUFFIX,cpro.baidu.com
 HOST-SUFFIX,pos.baidu.com
 HOST-SUFFIX,tuisong.baidu.com
-IP-CIDR,180.76.76.200/32 //贴吧
+IP-CIDR,180.76.76.200/32
 
 #bilibili
 HOST,cm.bilibili.com
@@ -63,7 +63,7 @@ HOST-KEYWORD,pangolin-sdk-toutiao
 
 #dongqiudi
 #HOST,sensors-log.dongqiudi.com
-IP-CIDR,114.132.165.205/32 //懂球帝
+IP-CIDR,114.132.165.205/32
 
 #google
 HOST,app-measurement.com
@@ -89,7 +89,7 @@ HOST,policy.video.iqiyi.com
 HOST,janapi.jd.com
 HOST,policy.jd.com
 #HOST,xlog.jd.com
-IP-CIDR,101.124.19.122/32 //京东
+IP-CIDR,101.124.19.122/32
 
 #kuaishou
 HOST,open.kuaishouzt.com
@@ -142,7 +142,7 @@ HOST,analytics.query.yahoo.com
 HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
-# [baihemob.com]
+# 掌上公交
 HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
@@ -186,13 +186,13 @@ HOST-SUFFIX,jpush.io
 HOST-SUFFIX,lkme.cc
 HOST-SUFFIX,meishesdk.com
 HOST-SUFFIX,mobileservice.cn
-HOST-SUFFIX,oddsserve.com
-HOST-SUFFIX,primis.tech
+HOST-SUFFIX,oddsserve.com //tm
+HOST-SUFFIX,primis.tech //tm
 HOST-SUFFIX,scorecardresearch.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
 
-HOST-KEYWORD,id5-sync
+HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,qchannel0
 HOST-WILDCARD,sdk.iad-0?.braze.com
