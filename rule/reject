@@ -11,12 +11,12 @@ HOST-SUFFIX,g.163.com
 HOST,appdownload.alicdn.com
 HOST,beacon-api.aliyuncs.com
 HOST-WILDCARD,*adashx*
-HOST-WILDCARD,*.log.aliyuncs.com
+#HOST-WILDCARD,*.log.aliyuncs.com
 IP-CIDR,203.107.1.1/24 //阿里云
 
 #amap
-HOST,dualstack-logs.amap.com
-HOST,logs.amap.com
+#HOST,dualstack-logs.amap.com
+#HOST,logs.amap.com
 HOST,optimus-ads.amap.com
 
 #amazon
@@ -55,14 +55,14 @@ HOST,dataflow.biliapi.com
 
 #bytedance
 HOST,i.snssdk.com
-HOST,log.snssdk.com
+#HOST,log.snssdk.com
 HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
 HOST-SUFFIX,pglstatp-toutiao.com
 HOST-KEYWORD,pangolin-sdk-toutiao
 
 #dongqiudi
-HOST,sensors-log.dongqiudi.com
+#HOST,sensors-log.dongqiudi.com
 IP-CIDR,114.132.165.205/32 //懂球帝
 
 #google
@@ -79,7 +79,7 @@ HOST-SUFFIX,googletagservices.com
 
 #huxiu
 #HOST,api-ad-product.huxiu.com
-HOST,log-api.huxiu.com
+#HOST,log-api.huxiu.com
 
 #iQiyi
 HOST,msg.qy.net
@@ -88,7 +88,7 @@ HOST,policy.video.iqiyi.com
 #JD
 HOST,janapi.jd.com
 HOST,policy.jd.com
-HOST,xlog.jd.com
+#HOST,xlog.jd.com
 IP-CIDR,101.124.19.122/32 //京东
 
 #kuaishou
@@ -99,7 +99,7 @@ HOST-WILDCARD,*ad.*.yximgs.com
 
 #moji
 HOST,adlaunch.moji.com
-HOST,v1.log.moji.com
+#HOST,v1.log.moji.com
 
 #tencent
 HOST,h.trace.qq.com
@@ -153,8 +153,8 @@ HOST,et.tanx.com
 HOST,fp-it.fengkongcloud.com
 HOST,gdfp.gifshow.com
 HOST,iyes.youku.com
-HOST,log1.cmpassport.com
-HOST,log.umsns.com
+#HOST,log1.cmpassport.com
+#HOST,log.umsns.com
 HOST,mqtt.zhihu.com
 HOST,pv.sohu.com
 HOST,sdk.beizi.biz
