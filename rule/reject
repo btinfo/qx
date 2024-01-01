@@ -1,7 +1,3 @@
-host-suffix, ad.daum.net, reject
-host, alogs.umeng.com, reject
-host, analytics.twitter.com, reject
-
 #10010 &189
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
@@ -124,6 +120,12 @@ HOST,pgdt.gtimg.com
 HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 
+#twitter
+HOST,analytics.twitter.com
+
+#umeng
+HOST,alogs.umeng.com
+
 #xiaomi
 HOST,tracking.miui.com
 HOST-SUFFIX,ad.xiaomi.com
@@ -167,6 +169,7 @@ HOST,sdktmp.hubcloud.com.cn
 HOST,wkdcm1.tingyun.com
 HOST,wkrd.tingyun.com
 
+HOST-SUFFIX,ad.daum.net
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,ctobsnssdk.com
@@ -185,6 +188,7 @@ HOST-SUFFIX,scorecardresearch.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
+
 HOST-KEYWORD,id5-sync
 HOST-KEYWORD,qchannel0
 HOST-WILDCARD,sdk.iad-0?.braze.com
