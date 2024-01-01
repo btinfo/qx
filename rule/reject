@@ -11,7 +11,7 @@ HOST-SUFFIX,getui.net
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,umengcloud.com
 HOST-SUFFIX,umeng.com
-HOST-WILDCARD,qchannel0?.cn
+HOST-KEYWORD,qchannel0
 HOST,log.umsns.com
 
 #ad-not-cn
