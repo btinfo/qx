@@ -4,12 +4,12 @@
 #HOST,toblog.ctobsnssdk.com
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,ctobsnssdk.com
-HOST-SUFFIX,gepush.com
-HOST-SUFFIX,getui.com
-HOST-SUFFIX,getui.net
+#HOST-SUFFIX,gepush.com
+#HOST-SUFFIX,getui.com
+#HOST-SUFFIX,getui.net
 HOST-SUFFIX,ubixioe.com
-HOST-SUFFIX,umengcloud.com
-HOST-SUFFIX,umeng.com
+#HOST-SUFFIX,umengcloud.com
+#HOST-SUFFIX,umeng.com
 HOST-KEYWORD,qchannel0
 HOST,log.umsns.com
 
