@@ -150,30 +150,30 @@ HOST,inner.baihemob.com
 HOST,adservice.sigmob.cn
 HOST,dc.sigmob.cn
 
-HOST,ad2.fivecdm.com //计步器
-HOST,ad.cyapi.cn
+HOST,ad2.fivecdm.com //
+HOST,ad.cyapi.cn //
 HOST,ads.pubmatic.com
 HOST,api.bugfender.com
 HOST,api.th.wanzjhb.com
 HOST,applog.uc.cn
 HOST,assets.growingio.com
 HOST,beacon.krxd.net
-HOST,c-hzgt2.getui.com
+HOST,c-hzgt2.getui.com //
 HOST,dig.bdurl.net
 HOST,et.tanx.com
 HOST,fp-it.fengkongcloud.com
 HOST,gdfp.gifshow.com
-HOST,iyes.youku.com
+HOST,iyes.youku.com //
 #HOST,log1.cmpassport.com
 #HOST,log.umsns.com
-HOST,mqtt.zhihu.com
-HOST,pv.sohu.com
+HOST,mqtt.zhihu.com //
+HOST,pv.sohu.com //
 HOST,sdk.beizi.biz
 HOST,sdktmp.hubcloud.com.cn
 HOST,wkdcm1.tingyun.com
 HOST,wkrd.tingyun.com
 
-HOST-SUFFIX,ad.daum.net
+HOST-SUFFIX,ad.daum.net //
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,ctobsnssdk.com
