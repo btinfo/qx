@@ -13,16 +13,16 @@ reject () {
   cd "$des"/rule||exit
   
   #AWAvenue-Ads-Rule
-  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sed 's/[[:space:]]//g'|sort -u > awavenue-ads
+  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sed 's/[[:space:]]//g'|sort -u > awavenue-ads
   [[ -s awavenue-ads ]] || exit
   format awavenue-ads reject_awa
 
   #SukkaW
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./host-suffix, /g'|sort -u > reject_sukka
-  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/host, /g'|sort -u >> reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep '^\.'|sed 's/^./HOST-SUFFIX,/g'|sort -u > reject_sukka
+  curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g'|sort -u >> reject_sukka
 
   #category-ads-all.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed 's/^regexp:/host-wildcard, /g'|sed 's/:@ads$//g'|sed 's/^domain:/host-suffix, /g'|sed 's/^full:/host, /g'|sort -u > reject_v2fly
+  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed 's/^regexp:/host-wildcard, /g'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
   #sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
@@ -41,13 +41,13 @@ format () {
   do
     num=`echo $line|awk -F. '{print NF-1}'`
     if echo $line|grep '*';then
-      echo "host-wildcard, $line" >> $2
+      echo "HOST-WILDCARD,$line" >> $2
     elif echo $line|grep '.co.kr';then
-      [[ $num -eq 2 ]] && echo "host-suffix, $line" >> $2
-      [[ $num -gt 2 ]] && echo "host, $line" >> $2
+      [[ $num -eq 2 ]] && echo "HOST-SUFFIX,$line" >> $2
+      [[ $num -gt 2 ]] && echo "HOST,$line" >> $2
     else
-      [[ $num -eq 1 ]] && echo "host-suffix, $line" >> $2
-      [[ $num -gt 1 ]] && echo "host, $line" >> $2
+      [[ $num -eq 1 ]] && echo "HOST-SUFFIX,$line" >> $2
+      [[ $num -gt 1 ]] && echo "HOST,$line" >> $2
     fi
   done < $1
   rm -f $1
@@ -74,6 +74,6 @@ readme () {
 
 parser
 reject
-all
+#all
 readme
 
