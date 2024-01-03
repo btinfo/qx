@@ -1,4 +1,9 @@
-HOST-WILDCARD,*crashlytics*
+HOST-KEYWORD,analytics
+HOST-KEYWORD,appsflyer
+HOST-KEYWORD,crashlytics
+HOST-KEYWORD,id5-sync //tm
+HOST-KEYWORD,qchannel0
+HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #10010 &189
 HOST,smartad.10010.com
@@ -27,7 +32,7 @@ HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,amazon-adsystem.com
 #HOST-SUFFIX,appsflyer-cn.com
 #HOST-SUFFIX,appsflyer.com
-HOST-WILDCARD,*appsflyer*
+
 
 #apple
 HOST,api-adservices.apple.com
@@ -76,7 +81,6 @@ HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsserving.cn
 #HOST-SUFFIX,google-analytics.com
-HOST-WILDCARD,*analytics*
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
@@ -196,7 +200,3 @@ HOST-SUFFIX,scorecardresearch.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
-
-HOST-KEYWORD,id5-sync //tm
-HOST-KEYWORD,qchannel0
-HOST-WILDCARD,sdk.iad-0?.braze.com
