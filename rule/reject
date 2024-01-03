@@ -20,11 +20,12 @@ IP-CIDR,203.107.1.1/24
 HOST,optimus-ads.amap.com
 
 #amazon
-HOST,cdn-settings.appsflyersdk.com
+#HOST,cdn-settings.appsflyersdk.com
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,amazon-adsystem.com
-HOST-SUFFIX,appsflyer-cn.com
-HOST-SUFFIX,appsflyer.com
+#HOST-SUFFIX,appsflyer-cn.com
+#HOST-SUFFIX,appsflyer.com
+HOST-KEYWORD,appsflyer
 
 #apple
 HOST,api-adservices.apple.com
@@ -72,7 +73,8 @@ HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsserving.cn
-HOST-SUFFIX,google-analytics.com
+#HOST-SUFFIX,google-analytics.com
+HOST-KEYWORD,analytics
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
@@ -121,7 +123,7 @@ HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 
 #twitter
-HOST,analytics.twitter.com
+#HOST,analytics.twitter.com
 
 #umeng
 HOST,alogs.umeng.com
@@ -136,7 +138,7 @@ HOST-SUFFIX,ad.xiaomi.com
 
 #yahoo
 HOST,data.flurry.com
-HOST,analytics.query.yahoo.com
+#HOST,analytics.query.yahoo.com
 
 #ysp
 HOST,btrace.ysp.cctv.cn
