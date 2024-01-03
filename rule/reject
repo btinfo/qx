@@ -1,3 +1,11 @@
+host-keyword, getui, reject
+host-keyword, gepush, reject
+host-keyword, umsns, reject
+host-keyword, umtrack, reject
+host-keyword, umeng, reject
+host, cadmus.script.ac, reject
+host, i.clean.gg, reject
+
 HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
 HOST-KEYWORD,crashlytics
