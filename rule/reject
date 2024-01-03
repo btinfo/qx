@@ -1,16 +1,14 @@
-host-keyword, getui, reject
-host-keyword, gepush, reject
-host-keyword, umsns, reject
-host-keyword, umtrack, reject
-host-keyword, umeng, reject
-host, cadmus.script.ac, reject
-host, i.clean.gg, reject
-
 HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
 HOST-KEYWORD,crashlytics
+HOST-KEYWORD,gepush
+HOST-KEYWORD,getui
 HOST-KEYWORD,id5-sync //tm
+HOST-KEYWORD,jpush
 HOST-KEYWORD,qchannel0
+HOST-KEYWORD,umeng
+HOST-KEYWORD,umsns
+HOST-KEYWORD,umtrack
 HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #10010 &189
@@ -79,6 +77,7 @@ IP-CIDR,114.132.165.205/32
 
 #google
 HOST,app-measurement.com
+HOST,i.clean.gg
 HOST,safebrowsing.googleapis-cn.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
@@ -133,10 +132,6 @@ HOST,pgdt.gtimg.com
 HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 
-#umeng
-HOST,alogs.umeng.com
-HOST,alogs.umengcloud.com
-
 #wechat
 HOST,dns.weixin.qq.com.cn
 
@@ -167,7 +162,8 @@ HOST,api.th.wanzjhb.com
 HOST,applog.uc.cn
 HOST,assets.growingio.com
 HOST,beacon.krxd.net
-HOST,c-hzgt2.getui.com //
+#HOST,c-hzgt2.getui.com //
+HOST,cadmus.script.ac
 HOST,dig.bdurl.net
 HOST,et.tanx.com
 HOST,fp-it.fengkongcloud.com
@@ -178,7 +174,7 @@ HOST,iyes.youku.com //
 HOST,mqtt.zhihu.com //
 HOST,pv.sohu.com //
 HOST,sdk.beizi.biz
-HOST,sdk.open.talk.getui.com
+#HOST,sdk.open.talk.getui.com
 HOST,sdktmp.hubcloud.com.cn
 HOST,wkdcm1.tingyun.com
 HOST,wkrd.tingyun.com
@@ -191,8 +187,6 @@ HOST-SUFFIX,dutils.com
 HOST-SUFFIX,inmobi.cn
 HOST-SUFFIX,ioam.de
 HOST-SUFFIX,jiguang.cn
-HOST-SUFFIX,jpush.cn
-HOST-SUFFIX,jpush.io
 HOST-SUFFIX,lkme.cc
 HOST-SUFFIX,meishesdk.com
 HOST-SUFFIX,mobileservice.cn
