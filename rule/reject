@@ -1,4 +1,5 @@
-HOST-KEYWORD,crashlytics
+HOST-WILDCARD,*crashlytics*
+
 #10010 &189
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
@@ -26,7 +27,7 @@ HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-SUFFIX,amazon-adsystem.com
 #HOST-SUFFIX,appsflyer-cn.com
 #HOST-SUFFIX,appsflyer.com
-HOST-KEYWORD,appsflyer
+HOST-WILDCARD,*appsflyer*
 
 #apple
 HOST,api-adservices.apple.com
@@ -75,7 +76,7 @@ HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsserving.cn
 #HOST-SUFFIX,google-analytics.com
-HOST-KEYWORD,analytics
+HOST-WILDCARD,*analytics*
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
