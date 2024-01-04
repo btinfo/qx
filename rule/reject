@@ -1,4 +1,4 @@
-HOST-KEYWORD,analytics
+#HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
 HOST-KEYWORD,crashlytics
 HOST-KEYWORD,gepush
@@ -94,7 +94,7 @@ HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googleadsserving.cn
-#HOST-SUFFIX,google-analytics.com
+HOST-SUFFIX,google-analytics.com
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
