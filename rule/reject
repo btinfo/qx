@@ -145,10 +145,10 @@ HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 
 #volc
-HOST-SUFFIX,volccdn.com
-HOST-SUFFIX,volceapplog.com
-HOST-SUFFIX,volces.com
-HOST-SUFFIX,volcvod.com
+#HOST-SUFFIX,volccdn.com
+#HOST-SUFFIX,volceapplog.com
+#HOST-SUFFIX,volces.com
+#HOST-SUFFIX,volcvod.com
 
 #wechat
 HOST,dns.weixin.qq.com.cn
