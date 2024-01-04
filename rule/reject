@@ -42,8 +42,8 @@ HOST,metrics.icloud.com
 HOST-SUFFIX,iadsdk.apple.com
 
 #baidu
-#HOST,afd.baidu.com
-#HOST,als.baidu.com
+HOST,afd.baidu.com
+HOST,als.baidu.com
 #HOST,dxp.baidu.com
 HOST,hm.baidu.com
 HOST,hmma.baidu.com
@@ -89,7 +89,7 @@ HOST-KEYWORD,pangolin-sdk-toutiao
 #google
 HOST,app-measurement.com
 #HOST,i.clean.gg
-HOST,safebrowsing.googleapis-cn.com
+#HOST,safebrowsing.googleapis-cn.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
@@ -138,7 +138,7 @@ HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
 #HOST-SUFFIX,rqd.qq.com
 #gtimg&ugdtimg
-HOST,adsmind.gdtimg.com
+#HOST,adsmind.gdtimg.com
 HOST,pgdt.gtimg.cn
 HOST,pgdt.gtimg.com
 HOST,pgdt.ugdtimg.com
@@ -197,7 +197,7 @@ HOST,ads.pubmatic.com
 #HOST,gdfp.gifshow.com
 HOST,iyes.youku.com
 #HOST,log1.cmpassport.com
-#HOST,pv.sohu.com
+HOST,pv.sohu.com
 #HOST,sdk.beizi.biz
 #HOST,sdktmp.hubcloud.com.cn
 #HOST,wkdcm1.tingyun.com
