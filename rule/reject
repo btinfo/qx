@@ -1,3 +1,24 @@
+host, im-ap.dongqiudi.com, reject
+host-suffix, volces.com, reject
+host-suffix, volccdn.com, reject
+host-suffix, volcvod.com, reject
+host, res.xiaojukeji.com, reject
+host, stream.snssdk.com, reject
+host, vas-hl-x.snssdk.com, reject
+host, stream.snssdk.com, reject
+host, logd.api.moji.com, reject
+host-suffix, volceapplog.com, reject
+host, duga.zhihu.com, reject
+host, toblog.volceapplog.com, reject
+host, sensors-log.dongqiudi.com, reject
+host, static.zhihu.com, reject
+-host, static1.dongqiudi.com, reject
+host, ap-static.dongqiudi.com, reject
+-host, tracker.didistatic.com, reject
+-host, adtrack.xiaojukeji.com, reject
+-host, ct.xiaojukeji.com, reject
+-host, gwp.xiaojukeji.com, reject
+
 HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
 HOST-KEYWORD,crashlytics
