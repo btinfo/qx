@@ -169,14 +169,14 @@ HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
 #zhihu
-USER-AGENT,AVOS*
-HOST,appcloud.zhihu.com
+#USER-AGENT,AVOS*
+#HOST,appcloud.zhihu.com
 #HOST,appcloud2.in.zhihu.com
-HOST,mqtt.zhihu.com
-HOST,sugar.zhihu.com
-HOST,crash2.zhihu.com
-HOST,118.89.204.198
-IP-CIDR,118.89.204.198/32
+#HOST,mqtt.zhihu.com
+#HOST,sugar.zhihu.com
+#HOST,crash2.zhihu.com
+#HOST,118.89.204.198
+#IP-CIDR,118.89.204.198/32
 
 # [sigmob.cn]
 HOST,adservice.sigmob.cn
