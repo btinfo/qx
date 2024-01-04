@@ -28,8 +28,8 @@ HOST-WILDCARD,*adashx*
 IP-CIDR,203.107.1.1/24
 
 #amap
-#HOST,dualstack-logs.amap.com
-#HOST,logs.amap.com
+HOST,dualstack-logs.amap.com
+HOST,logs.amap.com
 HOST,optimus-ads.amap.com
 
 #amazon
@@ -101,7 +101,7 @@ HOST-SUFFIX,googletagservices.com
 
 #huxiu
 #HOST,api-ad-product.huxiu.com //script
-#HOST,log-api.huxiu.com
+HOST,log-api.huxiu.com
 
 #iQiyi
 HOST,msg.qy.net
@@ -122,7 +122,7 @@ HOST-WILDCARD,*ad.*.yximgs.com
 #moji
 HOST,adlaunch.moji.com
 HOST,logd.api.moji.com
-#HOST,v1.log.moji.com
+HOST,v1.log.moji.com
 
 #tencent
 HOST,h.trace.qq.com
