@@ -1,6 +1,6 @@
 #HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
-HOST-KEYWORD,crashlytics
+#HOST-KEYWORD,crashlytics
 HOST-KEYWORD,gepush
 HOST-KEYWORD,getui
 HOST-KEYWORD,id5-sync //tm
