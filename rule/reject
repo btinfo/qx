@@ -3,13 +3,13 @@ HOST-KEYWORD,appsflyer
 #HOST-KEYWORD,crashlytics
 HOST-KEYWORD,gepush
 HOST-KEYWORD,getui
-HOST-KEYWORD,id5-sync //tm
+#HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,jpush
-HOST-KEYWORD,qchannel0
+#HOST-KEYWORD,qchannel0
 HOST-KEYWORD,umeng
 HOST-KEYWORD,umsns
 HOST-KEYWORD,umtrack
-HOST-WILDCARD,sdk.iad-0?.braze.com
+#HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #10010 &189
 HOST,smartad.10010.com
@@ -21,15 +21,15 @@ HOST,nex.163.com
 HOST-SUFFIX,g.163.com
 
 #alibaba
-HOST,appdownload.alicdn.com
-HOST,beacon-api.aliyuncs.com
-HOST-WILDCARD,*adashx*
+#HOST,appdownload.alicdn.com
+#HOST,beacon-api.aliyuncs.com
+#HOST-WILDCARD,*adashx*
 #HOST-WILDCARD,*.log.aliyuncs.com
-IP-CIDR,203.107.1.1/24
+#IP-CIDR,203.107.1.1/24
 
 #amap
-HOST,dualstack-logs.amap.com
-HOST,logs.amap.com
+#HOST,dualstack-logs.amap.com
+#HOST,logs.amap.com
 HOST,optimus-ads.amap.com
 
 #amazon
@@ -42,21 +42,21 @@ HOST,metrics.icloud.com
 HOST-SUFFIX,iadsdk.apple.com
 
 #baidu
-HOST,afd.baidu.com
-HOST,als.baidu.com
-HOST,dxp.baidu.com
+#HOST,afd.baidu.com
+#HOST,als.baidu.com
+#HOST,dxp.baidu.com
 HOST,hm.baidu.com
 HOST,hmma.baidu.com
-HOST,kstj.baidu.com
+#HOST,kstj.baidu.com
 HOST,mobads.baidu.com
 HOST,mobads-logs.baidu.com
 HOST,mobads-pre-config.cdn.bcebos.com
-HOST,newvector.map.baidu.com
+#HOST,newvector.map.baidu.com
 HOST,nsclick.baidu.com
-HOST,zz.bdstatic.com
-HOST-SUFFIX,cpro.baidu.com
-HOST-SUFFIX,pos.baidu.com
-HOST-SUFFIX,tuisong.baidu.com
+#HOST,zz.bdstatic.com
+#HOST-SUFFIX,cpro.baidu.com
+#HOST-SUFFIX,pos.baidu.com
+#HOST-SUFFIX,tuisong.baidu.com
 IP-CIDR,180.76.76.200/32
 
 #bilibili
@@ -64,12 +64,12 @@ HOST,cm.bilibili.com
 HOST,dataflow.biliapi.com
 
 #bytedance
-HOST,i.snssdk.com
+#HOST,i.snssdk.com
 #HOST,log.snssdk.com
-HOST,mon.snssdk.com
+#HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
-HOST,stream.snssdk.com
-HOST,vas-hl-x.snssdk.com
+#HOST,stream.snssdk.com
+#HOST,vas-hl-x.snssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
 HOST-KEYWORD,pangolin-sdk-toutiao
 
@@ -81,14 +81,14 @@ HOST-KEYWORD,pangolin-sdk-toutiao
 #HOST,tracker.didistatic.com
 
 #dongqiudi
-HOST,ap-static.dongqiudi.com
-HOST,im-ap.dongqiudi.com
-HOST,sensors-log.dongqiudi.com
-IP-CIDR,114.132.165.205/32
+#HOST,ap-static.dongqiudi.com
+#HOST,im-ap.dongqiudi.com
+#HOST,sensors-log.dongqiudi.com
+#IP-CIDR,114.132.165.205/32
 
 #google
 HOST,app-measurement.com
-HOST,i.clean.gg
+#HOST,i.clean.gg
 HOST,safebrowsing.googleapis-cn.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
@@ -104,14 +104,14 @@ HOST-SUFFIX,googletagservices.com
 HOST,log-api.huxiu.com
 
 #iQiyi
-HOST,msg.qy.net
-HOST,policy.video.iqiyi.com
+#HOST,msg.qy.net
+#HOST,policy.video.iqiyi.com
 
 #JD
-HOST,janapi.jd.com
-HOST,policy.jd.com
+#HOST,janapi.jd.com
+#HOST,policy.jd.com
 #HOST,xlog.jd.com
-IP-CIDR,101.124.19.122/32
+#IP-CIDR,101.124.19.122/32
 
 #kuaishou
 HOST,open.kuaishouzt.com
@@ -121,22 +121,22 @@ HOST-WILDCARD,*ad.*.yximgs.com
 
 #moji
 HOST,adlaunch.moji.com
-HOST,logd.api.moji.com
-HOST,v1.log.moji.com
+#HOST,logd.api.moji.com
+#HOST,v1.log.moji.com
 
 #tencent
-HOST,h.trace.qq.com
-HOST,mazu.m.qq.com
-HOST,mtrace.qq.com
-HOST,oth.eve.mdt.qq.com
-HOST,oth.str.mdt.qq.com
-HOST,pingma.qq.com
-HOST-SUFFIX,beacon.qq.com
-HOST-SUFFIX,bugly.qq.com
+#HOST,h.trace.qq.com
+#HOST,mazu.m.qq.com
+#HOST,mtrace.qq.com
+#HOST,oth.eve.mdt.qq.com
+#HOST,oth.str.mdt.qq.com
+#HOST,pingma.qq.com
+#HOST-SUFFIX,beacon.qq.com
+#HOST-SUFFIX,bugly.qq.com
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,rqd.qq.com
+#HOST-SUFFIX,rqd.qq.com
 #gtimg&ugdtimg
 HOST,adsmind.gdtimg.com
 HOST,pgdt.gtimg.cn
@@ -151,10 +151,10 @@ HOST,qzs.gdtimg.com
 #HOST-SUFFIX,volcvod.com
 
 #wechat
-HOST,dns.weixin.qq.com.cn
+#HOST,dns.weixin.qq.com.cn
 
 #xiaomi
-HOST,tracking.miui.com
+#HOST,tracking.miui.com
 HOST-SUFFIX,ad.xiaomi.com
 
 #yahoo
@@ -180,28 +180,28 @@ HOST,inner.baihemob.com
 
 # [sigmob.cn]
 HOST,adservice.sigmob.cn
-HOST,dc.sigmob.cn
+#HOST,dc.sigmob.cn
 
 HOST,ad2.fivecdm.com
 HOST,ad.cyapi.cn
 HOST,ads.pubmatic.com
-HOST,api.bugfender.com
-HOST,api.th.wanzjhb.com
-HOST,applog.uc.cn
-HOST,assets.growingio.com
-HOST,beacon.krxd.net
-HOST,cadmus.script.ac
-HOST,dig.bdurl.net
-HOST,et.tanx.com
-HOST,fp-it.fengkongcloud.com
-HOST,gdfp.gifshow.com
+#HOST,api.bugfender.com
+#HOST,api.th.wanzjhb.com
+#HOST,applog.uc.cn
+#HOST,assets.growingio.com
+#HOST,beacon.krxd.net
+#HOST,cadmus.script.ac
+#HOST,dig.bdurl.net
+#HOST,et.tanx.com
+#HOST,fp-it.fengkongcloud.com
+#HOST,gdfp.gifshow.com
 HOST,iyes.youku.com
 #HOST,log1.cmpassport.com
-HOST,pv.sohu.com
-HOST,sdk.beizi.biz
-HOST,sdktmp.hubcloud.com.cn
-HOST,wkdcm1.tingyun.com
-HOST,wkrd.tingyun.com
+#HOST,pv.sohu.com
+#HOST,sdk.beizi.biz
+#HOST,sdktmp.hubcloud.com.cn
+#HOST,wkdcm1.tingyun.com
+#HOST,wkrd.tingyun.com
 
 HOST-SUFFIX,ad.daum.net
 HOST-SUFFIX,adukwai.com
