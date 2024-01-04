@@ -1,24 +1,3 @@
-host, im-ap.dongqiudi.com, reject
-host-suffix, volces.com, reject
-host-suffix, volccdn.com, reject
-host-suffix, volcvod.com, reject
-host, res.xiaojukeji.com, reject
-host, stream.snssdk.com, reject
-host, vas-hl-x.snssdk.com, reject
-host, stream.snssdk.com, reject
-host, logd.api.moji.com, reject
-host-suffix, volceapplog.com, reject
-host, duga.zhihu.com, reject
-host, toblog.volceapplog.com, reject
-host, sensors-log.dongqiudi.com, reject
-host, static.zhihu.com, reject
--host, static1.dongqiudi.com, reject
-host, ap-static.dongqiudi.com, reject
--host, tracker.didistatic.com, reject
--host, adtrack.xiaojukeji.com, reject
--host, ct.xiaojukeji.com, reject
--host, gwp.xiaojukeji.com, reject
-
 HOST-KEYWORD,analytics
 HOST-KEYWORD,appsflyer
 HOST-KEYWORD,crashlytics
@@ -89,11 +68,22 @@ HOST,i.snssdk.com
 #HOST,log.snssdk.com
 HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
+HOST,stream.snssdk.com
+HOST,vas-hl-x.snssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
 HOST-KEYWORD,pangolin-sdk-toutiao
 
+#didi
+#HOST,adtrack.xiaojukeji.com
+#HOST,ct.xiaojukeji.com
+#HOST,gwp.xiaojukeji.com
+#HOST,res.xiaojukeji.com
+#HOST,tracker.didistatic.com
+
 #dongqiudi
-#HOST,sensors-log.dongqiudi.com
+HOST,ap-static.dongqiudi.com
+HOST,im-ap.dongqiudi.com
+HOST,sensors-log.dongqiudi.com
 IP-CIDR,114.132.165.205/32
 
 #google
@@ -131,6 +121,7 @@ HOST-WILDCARD,*ad.*.yximgs.com
 
 #moji
 HOST,adlaunch.moji.com
+HOST,logd.api.moji.com
 #HOST,v1.log.moji.com
 
 #tencent
@@ -153,6 +144,12 @@ HOST,pgdt.gtimg.com
 HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 
+#volc
+HOST-SUFFIX,volccdn.com
+HOST-SUFFIX,volceapplog.com
+HOST-SUFFIX,volces.com
+HOST-SUFFIX,volcvod.com
+
 #wechat
 HOST,dns.weixin.qq.com.cn
 
@@ -171,36 +168,37 @@ HOST,mtrace.ysp.cctv.cn
 HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
+#zhihu
+HOST,duga.zhihu.com
+HOST,mqtt.zhihu.com //
+HOST,static.zhihu.com
+
 # [sigmob.cn]
 HOST,adservice.sigmob.cn
 HOST,dc.sigmob.cn
 
-HOST,ad2.fivecdm.com //
-HOST,ad.cyapi.cn //
+HOST,ad2.fivecdm.com
+HOST,ad.cyapi.cn
 HOST,ads.pubmatic.com
 HOST,api.bugfender.com
 HOST,api.th.wanzjhb.com
 HOST,applog.uc.cn
 HOST,assets.growingio.com
 HOST,beacon.krxd.net
-#HOST,c-hzgt2.getui.com //
 HOST,cadmus.script.ac
 HOST,dig.bdurl.net
 HOST,et.tanx.com
 HOST,fp-it.fengkongcloud.com
 HOST,gdfp.gifshow.com
-HOST,iyes.youku.com //
+HOST,iyes.youku.com
 #HOST,log1.cmpassport.com
-#HOST,log.umsns.com
-HOST,mqtt.zhihu.com //
-HOST,pv.sohu.com //
+HOST,pv.sohu.com
 HOST,sdk.beizi.biz
-#HOST,sdk.open.talk.getui.com
 HOST,sdktmp.hubcloud.com.cn
 HOST,wkdcm1.tingyun.com
 HOST,wkrd.tingyun.com
 
-HOST-SUFFIX,ad.daum.net //
+HOST-SUFFIX,ad.daum.net
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,ctobsnssdk.com
