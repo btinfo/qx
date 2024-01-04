@@ -1,103 +1,26 @@
-#alibaba
-IP-CIDR,203.107.1.1/24
-
-#amazon
-HOST,cdn-settings.appsflyersdk.com
-HOST,china2021.s3.ap-northeast-2.amazonaws.com
-#HOST-SUFFIX,appsflyer-cn.com
-#HOST-SUFFIX,appsflyer.com
-
-#apple
-HOST,api-adservices.apple.com
-HOST,metrics.icloud.com
-
-#baidu
-HOST,mobads-pre-config.cdn.bcebos.com
-#HOST,newvector.map.baidu.com
-#HOST-SUFFIX,tuisong.baidu.com
-IP-CIDR,180.76.76.200/32
-
-#bytedance
-#HOST,log.snssdk.com
-HOST,mon.snssdk.com
-HOST,sf16-static.i18n-pglstatp.com
-HOST-KEYWORD,pangolin-sdk-toutiao
-
-#google
-#HOST,safebrowsing.googleapis-cn.com
-
-#JD
-#HOST,janapi.jd.com
-#HOST,policy.jd.com
-#HOST,xlog.jd.com
-IP-CIDR,101.124.19.122/32
-
-#kuaishou
-HOST,open.e.kuaishou.cn
-HOST,open.e.kuaishou.com
-HOST,open.kuaishouzt.com
-HOST-WILDCARD,*ad.*.yximgs.com
-
-#netease
-HOST,nex.163.com
-
-#tencent
-HOST,h.trace.qq.com
-HOST,mazu.m.qq.com
-HOST,oth.eve.mdt.qq.com
-HOST,oth.str.mdt.qq.com
-HOST,pingma.qq.com
-HOST-SUFFIX,beacon.qq.com
-HOST-SUFFIX,bugly.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,rqd.qq.com
-HOST,adsmind.gdtimg.com
-HOST,pgdt.gtimg.com
-#HOST,pgdt.ugdtimg.com
-HOST,qzs.gdtimg.com
-
-#yahoo
-HOST,analytics.query.yahoo.com
-#######################################
 #10010 &189
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
 HOST,appgoad.189.cn
 
-#amap
-#HOST,dualstack-logs.amap.com
-#HOST,logs.amap.com
-HOST,optimus-ads.amap.com
+#baidu
+HOST,mobads-pre-config.cdn.bcebos.com
+IP-CIDR,180.76.76.200/32
+
+#bytedance
+HOST-KEYWORD,pangolin-sdk-toutiao
 
 #bilibili
 HOST,cm.bilibili.com
 HOST,dataflow.biliapi.com
 
-#dongqiudi
-#HOST,sensors-log.dongqiudi.com
-IP-CIDR,114.132.165.205/32
-
-#huxiu
-#HOST,api-ad-product.huxiu.com
-#HOST,log-api.huxiu.com
-
-#iQiyi
-HOST,msg.qy.net
-HOST,policy.video.iqiyi.com
+#FT
+HOST,china2021.s3.ap-northeast-2.amazonaws.com
 
 #moji
 HOST,adlaunch.moji.com
-#HOST,v1.log.moji.com
-
-#twitter
-HOST,analytics.twitter.com
-
-#wechat
-HOST,dns.weixin.qq.com.cn
 
 #xiaomi
-HOST,tracking.miui.com
 HOST-SUFFIX,ad.xiaomi.com
 
 #ysp
@@ -108,33 +31,19 @@ HOST,mtrace.ysp.cctv.cn
 HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
-# [sigmob.cn]
+#
 HOST,adservice.sigmob.cn
-HOST,dc.sigmob.cn
 
-HOST,ad2.fivecdm.com //
-HOST,ad.cyapi.cn //
+HOST,ad2.fivecdm.com
+HOST,ad.cyapi.cn
 HOST,ads.pubmatic.com
-HOST,api.bugfender.com
-HOST,api.th.wanzjhb.com
 HOST,applog.uc.cn
 HOST,assets.growingio.com
-HOST,beacon.krxd.net
-HOST,c-hzgt2.getui.com //
-HOST,et.tanx.com
-HOST,fp-it.fengkongcloud.com
-HOST,gdfp.gifshow.com
-HOST,iyes.youku.com //
-#HOST,log1.cmpassport.com
-#HOST,log.umsns.com
-HOST,mqtt.zhihu.com //
-HOST,pv.sohu.com //
+HOST,iyes.youku.com
+HOST,pv.sohu.com
 HOST,sdk.beizi.biz
-HOST,sdktmp.hubcloud.com.cn
-HOST,wkdcm1.tingyun.com
-HOST,wkrd.tingyun.com
 
-HOST-SUFFIX,ad.daum.net //
+HOST-SUFFIX,ad.daum.net
 HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,ctobsnssdk.com
@@ -147,13 +56,9 @@ HOST-SUFFIX,jpush.io
 HOST-SUFFIX,lkme.cc
 HOST-SUFFIX,meishesdk.com
 HOST-SUFFIX,mobileservice.cn
-HOST-SUFFIX,oddsserve.com //tm
-HOST-SUFFIX,primis.tech //tm
+HOST-SUFFIX,oddsserve.com
+HOST-SUFFIX,primis.tech
 HOST-SUFFIX,scorecardresearch.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
-
-HOST-KEYWORD,id5-sync //tm
-HOST-KEYWORD,qchannel0
-HOST-WILDCARD,sdk.iad-0?.braze.com

@@ -9,7 +9,7 @@ HOST-KEYWORD,jpush
 HOST-KEYWORD,umeng
 HOST-KEYWORD,umsns
 HOST-KEYWORD,umtrack
-#HOST-WILDCARD,sdk.iad-0?.braze.com
+HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #10010 &189
 HOST,smartad.10010.com
@@ -187,11 +187,11 @@ HOST,ad.cyapi.cn
 HOST,ads.pubmatic.com
 #HOST,api.bugfender.com
 #HOST,api.th.wanzjhb.com
-#HOST,applog.uc.cn
-#HOST,assets.growingio.com
+HOST,applog.uc.cn
+HOST,assets.growingio.com
 #HOST,beacon.krxd.net
 #HOST,cadmus.script.ac
-#HOST,dig.bdurl.net
+HOST,dig.bdurl.net
 #HOST,et.tanx.com
 #HOST,fp-it.fengkongcloud.com
 #HOST,gdfp.gifshow.com
