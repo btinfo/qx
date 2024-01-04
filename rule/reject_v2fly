@@ -693,7 +693,6 @@ HOST-SUFFIX,zynga.com
 HOST-SUFFIX,zyngaplayersupport.com
 HOST-SUFFIX,zz.bdstatic.com
 HOST-SUFFIX,zzy1.quyaoya.com
-host-wildcard, ^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
-host-wildcard, ^pinggai\d\.caixin\.com$
-host-wildcard, ^speed\.(coe|open)\.ad\.[a-z]{2,6}\.prod\.hosts\.ooklaserver\.net$
+HOST-WILDCARD,adservice.google.*
+HOST-WILDCARD,pinggai?.caixin.com
 HOST,wlog.kuaishou.com
