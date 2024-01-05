@@ -86,7 +86,7 @@ HOST-SUFFIX,pglstatp-toutiao.com
 #HOST,ap-static.dongqiudi.com
 #HOST,im-ap.dongqiudi.com
 #HOST,sensors-log.dongqiudi.com
-#IP-CIDR,114.132.165.205/32
+IP-CIDR,114.132.165.205/32
 
 #google
 HOST,app-measurement.com
@@ -162,6 +162,7 @@ HOST-SUFFIX,ad.xiaomi.com
 
 #yahoo
 HOST,data.flurry.com
+HOST,analytics.query.yahoo.com
 
 #ysp
 HOST,btrace.ysp.cctv.cn
