@@ -1,14 +1,14 @@
 #HOST-KEYWORD,analytics
-HOST-KEYWORD,appsflyer
+#HOST-KEYWORD,appsflyer
 #HOST-KEYWORD,crashlytics
-HOST-KEYWORD,gepush
-HOST-KEYWORD,getui
+#HOST-KEYWORD,gepush
+#HOST-KEYWORD,getui
 #HOST-KEYWORD,id5-sync //tm
-HOST-KEYWORD,jpush
+#HOST-KEYWORD,jpush
 #HOST-KEYWORD,qchannel0
-HOST-KEYWORD,umeng
-HOST-KEYWORD,umsns
-HOST-KEYWORD,umtrack
+#HOST-KEYWORD,umeng
+#HOST-KEYWORD,umsns
+#HOST-KEYWORD,umtrack
 HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #10010 &189
