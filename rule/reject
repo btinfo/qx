@@ -22,19 +22,19 @@ HOST-SUFFIX,g.163.com
 
 #alibaba
 HOST,appdownload.alicdn.com
-HOST,adashx.m.taobao.com
-HOST,h-adashx.ut.taobao.com
+#HOST,adashx.m.taobao.com
+#HOST,h-adashx.ut.taobao.com
 #HOST,beacon-api.aliyuncs.com
-#HOST-WILDCARD,*adashx*
+HOST-WILDCARD,*adashx*
 #HOST-WILDCARD,*.log.aliyuncs.com
 IP-CIDR,203.107.1.1/24
 
 #amap
 #HOST,dualstack-logs.amap.com
 #HOST,logs.amap.com
-HOST,adashx.ut.amap.com
+#HOST,adashx.ut.amap.com
 HOST,amap-aos-info-nogw.amap.com
-HOST,awaken.amap.com
+#HOST,awaken.amap.com
 HOST,optimus-ads.amap.com
 
 #amazon
