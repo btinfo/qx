@@ -90,8 +90,8 @@ HOST-SUFFIX,pglstatp-toutiao.com
 #dongqiudi
 #HOST,ap-static.dongqiudi.com
 #HOST,im-ap.dongqiudi.com
-#HOST,sensors-log.dongqiudi.com
-#IP-CIDR,114.132.165.205/32
+HOST,sensors-log.dongqiudi.com
+IP-CIDR,114.132.165.205/32
 
 #google
 HOST,app-measurement.com
