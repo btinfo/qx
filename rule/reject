@@ -97,6 +97,7 @@ IP-CIDR,114.132.165.205/32
 HOST,app-measurement.com
 #HOST,i.clean.gg
 #HOST,safebrowsing.googleapis-cn.com
+HOST,crashlytics.com
 HOST,crashlyticsreports-pa.googleapis.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
