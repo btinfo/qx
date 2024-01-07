@@ -33,7 +33,7 @@ IP-CIDR,203.107.1.1/24
 #HOST,dualstack-logs.amap.com
 #HOST,logs.amap.com
 #HOST,adashx.ut.amap.com
-HOST,amap-aos-info-nogw.amap.com
+#HOST,amap-aos-info-nogw.amap.com
 #HOST,awaken.amap.com
 HOST,optimus-ads.amap.com
 
