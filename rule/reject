@@ -139,7 +139,7 @@ HOST,mtrace.qq.com
 #HOST,oth.str.mdt.qq.com
 #HOST,pingma.qq.com
 #HOST-SUFFIX,beacon.qq.com
-#HOST-SUFFIX,bugly.qq.com
+HOST-SUFFIX,bugly.qq.com
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
