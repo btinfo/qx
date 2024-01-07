@@ -73,7 +73,7 @@ HOST,dig.bdurl.net
 HOST,i.snssdk.com
 HOST-KEYWORD,pangolin-sdk-toutiao
 #HOST,log.snssdk.com
-#HOST,mon.snssdk.com
+HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
 #HOST,stream.snssdk.com
 HOST-SUFFIX,ctobsnssdk.com
@@ -97,6 +97,7 @@ HOST-SUFFIX,pglstatp-toutiao.com
 HOST,app-measurement.com
 #HOST,i.clean.gg
 #HOST,safebrowsing.googleapis-cn.com
+HOST,crashlyticsreports-pa.googleapis.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
