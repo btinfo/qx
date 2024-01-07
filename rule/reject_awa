@@ -228,7 +228,7 @@ HOST,img-c.heytapimage.com
 HOST-SUFFIX,imtmp.net
 HOST,irc.qubiankeji.com
 HOST,i.snssdk.com
-HOST,is.snssdk.com
+#HOST,is.snssdk.com
 HOST,ixav-cse.avlyun.com
 HOST-SUFFIX,iyfbodn.com
 HOST,janapi.jd.com
