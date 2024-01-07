@@ -6,7 +6,7 @@ HOST-KEYWORD,getui
 HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,jpush
 HOST-KEYWORD,qchannel0
-HOST-KEYWORD,umeng
+#HOST-KEYWORD,umeng
 HOST-KEYWORD,umsns
 HOST-KEYWORD,umtrack
 HOST-WILDCARD,sdk.iad-0?.braze.com
