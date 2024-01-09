@@ -1,6 +1,6 @@
 #HOST,amdc.m.taobao.com
 #HOST,analytics.strava.com
-HOST,app.adjust.com
+#HOST,app.adjust.com
 HOST,app.appsflyer.com
 #HOST,bdtj.tagtic.cn
 HOST,btrace.qq.com
