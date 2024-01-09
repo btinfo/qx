@@ -188,7 +188,7 @@ HOST,mqtt.zhihu.com
 HOST,sugar.zhihu.com
 HOST,crash2.zhihu.com
 #HOST,118.89.204.198
-#IP-CIDR,118.89.204.198/32
+IP-CIDR,118.89.204.198/32
 
 # [sigmob.cn]
 HOST,adservice.sigmob.cn
