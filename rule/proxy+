@@ -1,8 +1,3 @@
-host-suffix, capology.com, Global
-host-suffix, szrtcpa.com, Global
-host-suffix, v2ai.top, Global
-
-
 #AppleProxy
 HOST,pki.goog
 HOST-SUFFIX,digicert.com
@@ -54,6 +49,7 @@ HOST-SUFFIX,bing.com
 HOST-SUFFIX,transfermarkt.com
 HOST-SUFFIX,transfermarkt.technology
 HOST-SUFFIX,v2free.top
+HOST-SUFFIX,capology.com
 
 #news
 HOST-SUFFIX,aljazeera.net
@@ -63,6 +59,7 @@ HOST-SUFFIX,dw.com
 HOST-SUFFIX,ftchinese.com
 HOST-SUFFIX,nyt.com
 HOST-SUFFIX,nytimes.com
+HOST-SUFFIX,v2ai.top
 HOST-SUFFIX,voachinese.com
 HOST-SUFFIX,voanews.com
 HOST-SUFFIX,wsj.com

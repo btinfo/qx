@@ -9,7 +9,8 @@ IP-CIDR,224.0.0.0/4
 IP6-CIDR,fe80::/10
 
 #direct+
-host, www.alipansou.com, direct
+HOST,www.alipansou.com
+HOST-SUFFIX,szrtcpa.com
 HOST-SUFFIX,wjys.cc
 HOST-SUFFIX,xying08.top
 HOST-SUFFIX,sharepoint.com
