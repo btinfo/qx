@@ -1,189 +1,189 @@
 #AppleProxy
-HOST,pki.goog
-HOST-SUFFIX,digicert.com
-HOST-SUFFIX,lencr.org
-HOST,testflight.apple.com
+host, pki.goog
+host-suffix, digicert.com
+host-suffix, lencr.org
+host, testflight.apple.com
 
 #apps
-HOST,m.815616.xyz //shanqiu
-HOST-SUFFIX,appraven.net
-HOST-SUFFIX,fileball.app
-HOST-SUFFIX,flightradar24.com
-HOST-SUFFIX,ipsw.me
-HOST-SUFFIX,jetphotos.com //flightradar
-HOST-SUFFIX,photosync-app.com
-HOST-SUFFIX,quantumult.app
-HOST-SUFFIX,ridibooks.com
-HOST-SUFFIX,rsshub.app
-HOST-SUFFIX,tripsy.app
-HOST-SUFFIX,wallpaperscraft.com
-HOST-SUFFIX,whatsapp.net
-HOST-SUFFIX,workingcopyapp.com
+host, m.815616.xyz //shanqiu
+host-suffix, appraven.net
+host-suffix, fileball.app
+host-suffix, flightradar24.com
+host-suffix, ipsw.me
+host-suffix, jetphotos.com //flightradar
+host-suffix, photosync-app.com
+host-suffix, quantumult.app
+host-suffix, ridibooks.com
+host-suffix, rsshub.app
+host-suffix, tripsy.app
+host-suffix, wallpaperscraft.com
+host-suffix, whatsapp.net
+host-suffix, workingcopyapp.com
 
 #domains
-HOST,bgp.he.net
-HOST,cdn.jsdelivr.net
-HOST,filebox-douban.vercel.app
-HOST,in.appcenter.ms
-HOST,mail.cock.li
-HOST,m.hotmail.com
-HOST,mobile-data.onetrust.io
-HOST,mozilla.cloudflare-dns.com
-HOST-SUFFIX,amazonaws.com
-HOST-SUFFIX,amazontrust.com
-HOST-SUFFIX,cloudflare.com
-HOST-SUFFIX,cloudfront.net
-HOST-SUFFIX,cookielaw.org
-HOST-SUFFIX,digitalcertvalidation.com
-#HOST-SUFFIX,ggpht.com
-HOST-SUFFIX,gmail.com
-HOST-SUFFIX,greasyfork.org
-HOST-SUFFIX,microsoftonline.com
-HOST-SUFFIX,sectigo.com
-HOST-SUFFIX,sentry.io
-HOST-SUFFIX,usertrust.com
+host, bgp.he.net
+host, cdn.jsdelivr.net
+host, filebox-douban.vercel.app
+host, in.appcenter.ms
+host, mail.cock.li
+host, m.hotmail.com
+host, mobile-data.onetrust.io
+host, mozilla.cloudflare-dns.com
+host-suffix, amazonaws.com
+host-suffix, amazontrust.com
+host-suffix, cloudflare.com
+host-suffix, cloudfront.net
+host-suffix, cookielaw.org
+host-suffix, digitalcertvalidation.com
+-host-suffix, ggpht.com
+host-suffix, gmail.com
+host-suffix, greasyfork.org
+host-suffix, microsoftonline.com
+host-suffix, sectigo.com
+host-suffix, sentry.io
+host-suffix, usertrust.com
 
 #sites
-HOST-SUFFIX,akamaized.net
-HOST-SUFFIX,bing.com
-HOST-SUFFIX,transfermarkt.com
-HOST-SUFFIX,transfermarkt.technology
-HOST-SUFFIX,v2free.top
-HOST-SUFFIX,capology.com
+host-suffix, akamaized.net
+host-suffix, bing.com
+host-suffix, transfermarkt.com
+host-suffix, transfermarkt.technology
+host-suffix, v2free.top
+host-suffix, capology.com
 
 #news
-HOST-SUFFIX,aljazeera.net
-HOST-SUFFIX,appledaily.com
-HOST-SUFFIX,bbc.com
-HOST-SUFFIX,dw.com
-HOST-SUFFIX,ftchinese.com
-HOST-SUFFIX,nyt.com
-HOST-SUFFIX,nytimes.com
-HOST-SUFFIX,v2ai.top
-HOST-SUFFIX,voachinese.com
-HOST-SUFFIX,voanews.com
-HOST-SUFFIX,wsj.com
-HOST-SUFFIX,wsj.net
+host-suffix, aljazeera.net
+host-suffix, appledaily.com
+host-suffix, bbc.com
+host-suffix, dw.com
+host-suffix, ftchinese.com
+host-suffix, nyt.com
+host-suffix, nytimes.com
+host-suffix, v2ai.top
+host-suffix, voachinese.com
+host-suffix, voanews.com
+host-suffix, wsj.com
+host-suffix, wsj.net
 
 #news-korea
-HOST,livecloud.akamaized.net
-HOST,livecloud-thumb.akamaized.net
-HOST-SUFFIX,chosun.com
-HOST-SUFFIX,daumcdn.net
-HOST-SUFFIX,daum.net
-HOST-SUFFIX,donga.com
-HOST-SUFFIX,hankookilbo.com
-HOST-SUFFIX,kakaocdn.net
-HOST-SUFFIX,kakao.com
-HOST-SUFFIX,line.me
-HOST-SUFFIX,naver.com
-HOST-SUFFIX,navercorp.com
-HOST-SUFFIX,naver.net
-HOST-SUFFIX,pressian.com
-HOST-SUFFIX,pstatic.net
+host, livecloud.akamaized.net
+host, livecloud-thumb.akamaized.net
+host-suffix, chosun.com
+host-suffix, daumcdn.net
+host-suffix, daum.net
+host-suffix, donga.com
+host-suffix, hankookilbo.com
+host-suffix, kakaocdn.net
+host-suffix, kakao.com
+host-suffix, line.me
+host-suffix, naver.com
+host-suffix, navercorp.com
+host-suffix, naver.net
+host-suffix, pressian.com
+host-suffix, pstatic.net
 
 #media
-#HOST,17hibo.com
-#HOST,vip7.fzwdyy.cn
-#HOST,vip.ffzy-online5.com
-#HOST,vip.ffzyread1.com
-#HOST,www.wuchajian.tv
+-host, 17hibo.com
+-host, vip7.fzwdyy.cn
+-host, vip.ffzy-online5.com
+-host, vip.ffzyread1.com
+-host, www.wuchajian.tv
 
 #chatGPT
-#HOST,api.openai.com
-#HOST,worldtimeapi.org
+-host, api.openai.com
+-host, worldtimeapi.org
 
 #Pinterest
-#HOST-SUFFIX,pinimg.com
-#HOST-SUFFIX,pinterest.com
+-host-suffix, pinimg.com
+-host-suffix, pinterest.com
 
 #Reddit
-HOST-SUFFIX,redditmedia.com
-HOST-SUFFIX,redd.it
-HOST-SUFFIX,reddit.com
+host-suffix, redditmedia.com
+host-suffix, redd.it
+host-suffix, reddit.com
 
 #Wikipedia
-HOST-SUFFIX,wikidata.org
-HOST-SUFFIX,wikimedia.org
-HOST-SUFFIX,wikipedia.org
+host-suffix, wikidata.org
+host-suffix, wikimedia.org
+host-suffix, wikipedia.org
 
 #YahooNews
-HOST-SUFFIX,emb-api.com
-HOST-SUFFIX,yahoo.com
-HOST-SUFFIX,yahoo.net
-HOST-SUFFIX,yimg.com
-HOST-SUFFIX,zenfs.com
+host-suffix, emb-api.com
+host-suffix, yahoo.com
+host-suffix, yahoo.net
+host-suffix, yimg.com
+host-suffix, zenfs.com
 
 #keyword
-HOST-KEYWORD,.facebook.
-HOST-KEYWORD,google
+host-keyword, .facebook.
+host-keyword, google
 
 #country
-HOST-SUFFIX,de
-HOST-SUFFIX,eu
-HOST-SUFFIX,hk
-HOST-SUFFIX,jp
-HOST-SUFFIX,kr
-HOST-SUFFIX,sg
-HOST-SUFFIX,tw
-HOST-SUFFIX,uk
+host-suffix, de
+host-suffix, eu
+host-suffix, hk
+host-suffix, jp
+host-suffix, kr
+host-suffix, sg
+host-suffix, tw
+host-suffix, uk
 
 #asn
-IP-ASN,714 // APPLE INC.
-IP-ASN,2914 // NTT AMERICA, INC.
-IP-ASN,3356 // LEVEL3
-IP-ASN,3462 // DATA COMMUNICATION BUSINESS GROUP
-IP-ASN,3786 // LG DACOM CORPORATION
-IP-ASN,4766 // KOREA TELECOM
-IP-ASN,6134 // XNNET
-IP-ASN,6185 // APPLE-AUSTIN
-IP-ASN,7625 // Kakao Corp
-IP-ASN,8068 // MICROSOFT CORPORATION
-IP-ASN,8075 // MICROSOFT CORPORATION
-IP-ASN,9318 // SK BROADBAND CO LTD
-IP-ASN,11042 // NTHL
-IP-ASN,12874 // FASTWEB
-IP-ASN,13333 // CONSOLIDATED COMMUNICATIONS, INC.
-IP-ASN,13335 // CLOUDFLARE, INC.
-IP-ASN,13360 // Triton Digital
-IP-ASN,13414 // TWITTER INC.
-IP-ASN,15133 // EDGECAST NETWORKS INC
-IP-ASN,15169 // GOOGLE LLC
-IP-ASN,16509 // AMAZON.COM, INC.
-IP-ASN,16625 // AKAMAI TECHNOLOGIES, INC.
-IP-ASN,19679 // DROPBOX, INC.
-IP-ASN,20940 // AKAMAI INTERNATIONAL B.V.
-IP-ASN,23576 // NAVER CLOUD CORP.
-IP-ASN,25820 // IT7NET
-IP-ASN,30298 // COG-SEOVEC
-IP-ASN,32934 // FACEBOOK, INC.
-IP-ASN,36351 // SOFTLAYER TECHNOLOGIES INC.
-IP-ASN,38099 // KAKAO CORP
-IP-ASN,39134 // UNITEDNET
-IP-ASN,40065 // CNSERVERS LLC
-IP-ASN,49453 // GLOBAL LAYER B.V.
-IP-ASN,53755 // INPUT OUTPUT FLOOD LLC
-IP-ASN,54113 // FASTLY, INC.
-IP-ASN,54600 // PEG TECH INC
-IP-ASN,54994 // QUANTIL NETWORKS INC
-IP-ASN,60068 // DATACAMP LIMITED
-IP-ASN,64050 // BGPNET GLOBAL ASN
-IP-ASN,135354 // NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
-IP-ASN,136907 // HUAWEI CLOUDS
-IP-ASN,396982 // GOOGLE LLC
+ip-asn, 714 // APPLE INC.
+ip-asn, 2914 // NTT AMERICA, INC.
+ip-asn, 3356 // LEVEL3
+ip-asn, 3462 // DATA COMMUNICATION BUSINESS GROUP
+ip-asn, 3786 // LG DACOM CORPORATION
+ip-asn, 4766 // KOREA TELECOM
+ip-asn, 6134 // XNNET
+ip-asn, 6185 // APPLE-AUSTIN
+ip-asn, 7625 // Kakao Corp
+ip-asn, 8068 // MICROSOFT CORPORATION
+ip-asn, 8075 // MICROSOFT CORPORATION
+ip-asn, 9318 // SK BROADBAND CO LTD
+ip-asn, 11042 // NTHL
+ip-asn, 12874 // FASTWEB
+ip-asn, 13333 // CONSOLIDATED COMMUNICATIONS, INC.
+ip-asn, 13335 // CLOUDFLARE, INC.
+ip-asn, 13360 // Triton Digital
+ip-asn, 13414 // TWITTER INC.
+ip-asn, 15133 // EDGECAST NETWORKS INC
+ip-asn, 15169 // GOOGLE LLC
+ip-asn, 16509 // AMAZON.COM, INC.
+ip-asn, 16625 // AKAMAI TECHNOLOGIES, INC.
+ip-asn, 19679 // DROPBOX, INC.
+ip-asn, 20940 // AKAMAI INTERNATIONAL B.V.
+ip-asn, 23576 // NAVER CLOUD CORP.
+ip-asn, 25820 // IT7NET
+ip-asn, 30298 // COG-SEOVEC
+ip-asn, 32934 // FACEBOOK, INC.
+ip-asn, 36351 // SOFTLAYER TECHNOLOGIES INC.
+ip-asn, 38099 // KAKAO CORP
+ip-asn, 39134 // UNITEDNET
+ip-asn, 40065 // CNSERVERS LLC
+ip-asn, 49453 // GLOBAL LAYER B.V.
+ip-asn, 53755 // INPUT OUTPUT FLOOD LLC
+ip-asn, 54113 // FASTLY, INC.
+ip-asn, 54600 // PEG TECH INC
+ip-asn, 54994 // QUANTIL NETWORKS INC
+ip-asn, 60068 // DATACAMP LIMITED
+ip-asn, 64050 // BGPNET GLOBAL ASN
+ip-asn, 135354 // NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
+ip-asn, 136907 // HUAWEI CLOUDS
+ip-asn, 396982 // GOOGLE LLC
 
 #asn backup
-#IP-ASN,4230 // CLARO S.A.
-#IP-ASN,9009 // M247 EUROPE SRL
-#IP-ASN,14061 // DIGITALOCEAN, LLC
-#IP-ASN,14618 // AMAZON.COM, INC.
-#IP-ASN,16276 // OVH SAS
-#IP-ASN,24940 // HETZNER ONLINE GMBH
-#IP-ASN,29423 // GRIDSCALE GMBH
-#IP-ASN,48447 // SECTIGO LIMITED
-#IP-ASN,58722 // 51 JALAN LANJUT
-#IP-ASN,59507 // TERRALINK NETWORKS GMBH
-#IP-ASN,63949 // AKAMAI CONNECTED CLOUD
-#IP-ASN,142403 // YISU CLOUD LTD
-#IP-ASN,197019 // WEDOS INTERNET, A.S.
-#IP-ASN,200019 // ALEXDOMAIN SRL
+-ip-asn, 4230 // CLARO S.A.
+-ip-asn, 9009 // M247 EUROPE SRL
+-ip-asn, 14061 // DIGITALOCEAN, LLC
+-ip-asn, 14618 // AMAZON.COM, INC.
+-ip-asn, 16276 // OVH SAS
+-ip-asn, 24940 // HETZNER ONLINE GMBH
+-ip-asn, 29423 // GRIDSCALE GMBH
+-ip-asn, 48447 // SECTIGO LIMITED
+-ip-asn, 58722 // 51 JALAN LANJUT
+-ip-asn, 59507 // TERRALINK NETWORKS GMBH
+-ip-asn, 63949 // AKAMAI CONNECTED CLOUD
+-ip-asn, 142403 // YISU CLOUD LTD
+-ip-asn, 197019 // WEDOS INTERNET, A.S.
+-ip-asn, 200019 // ALEXDOMAIN SRL

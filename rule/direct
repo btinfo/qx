@@ -1,24 +1,24 @@
--HOST,amdc.m.taobao.com
--HOST,analytics.strava.com
--HOST,app.adjust.com
--HOST,bdtj.tagtic.cn
--HOST,crt.trust-providerc.cn
--HOST,log.mmstat.com
--HOST,msg.umengcloud.com
--HOST,msg.umeng.com
--HOST,sycm.mmstat.com
-HOST,app.appsflyer.com
-HOST,btrace.qq.com
-HOST,ca.iadsdk.apple.com
-HOST,clientservices.googleapis.com
-HOST,dl.google.com
-HOST,dl.l.google.com
-HOST,fairplay.l.qq.com
-HOST,livew.l.qq.com
-HOST,mtalk.google.com
-HOST-SUFFIX,blog.google
-HOST-SUFFIX,googletraveladservices.com
-HOST,update.googleapis.com
-HOST,vd.l.qq.com
-HOST,vi.l.qq.com
+-host, amdc.m.taobao.com
+-host, analytics.strava.com
+-host, app.adjust.com
+-host, bdtj.tagtic.cn
+-host, crt.trust-providerc.cn
+-host, log.mmstat.com
+-host, msg.umengcloud.com
+-host, msg.umeng.com
+-host, sycm.mmstat.com
+host, app.appsflyer.com
+host, btrace.qq.com
+host, ca.iadsdk.apple.com
+host, clientservices.googleapis.com
+host, dl.google.com
+host, dl.l.google.com
+host, fairplay.l.qq.com
+host, livew.l.qq.com
+host, mtalk.google.com
+host-suffix, blog.google
+host-suffix, googletraveladservices.com
+host, update.googleapis.com
+host, vd.l.qq.com
+host, vi.l.qq.com
 
