@@ -1,22 +1,22 @@
 #LAN
-host-suffix, local
-ip-cidr, 10.0.0.0/8
-ip-cidr, 100.64.0.0/10
-ip-cidr, 127.0.0.0/8
-ip-cidr, 172.16.0.0/12
-ip-cidr, 192.168.0.0/16
-ip-cidr, 224.0.0.0/4
-ip6-cidr, fe80::/10
+HOST-SUFFIX,local
+IP-CIDR,10.0.0.0/8
+IP-CIDR,100.64.0.0/10
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,224.0.0.0/4
+IP6-CIDR,fe80::/10
 
 #direct+
-host, www.alipansou.com
-host-suffix, szrtcpa.com
-host-suffix, wjys.cc
-host-suffix, xying08.top
-host-suffix, sharepoint.com
-host-suffix, tophub.app
-host-suffix, ppsimg.com
-host-suffix, cn
-ip-asn, 132203 //Tencent Building, Kejizhongyi Avenue
-ip-cidr, 202.61.255.248/32
-geoip,  cn
+HOST,www.alipansou.com
+HOST-SUFFIX,szrtcpa.com
+HOST-SUFFIX,wjys.cc
+HOST-SUFFIX,xying08.top
+HOST-SUFFIX,sharepoint.com
+HOST-SUFFIX,tophub.app
+HOST-SUFFIX,ppsimg.com
+HOST-SUFFIX,cn
+IP-ASN,132203 //Tencent Building, Kejizhongyi Avenue
+IP-CIDR,202.61.255.248/32
+GEOIP, cn

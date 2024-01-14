@@ -13,7 +13,7 @@ reject () {
   cd "$des"/rule||exit
   
   #AWAvenue-Ads-Rule
-  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-AdClose.txt|sed '/^\/\//d'|sed '/^\s$/d'|sed '/\//d'|sed 's/[[:space:]]//g'|sort -u > awavenue-ads
+  curl -fsL https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-AdClose.txt|sed '/^!/d'|sed '/^\s$/d'|sed '/\//d'|sed 's/[[:space:]]//g'|sort -u > awavenue-ads
   [[ -s awavenue-ads ]] || exit
   format awavenue-ads reject_awa
 
@@ -22,7 +22,7 @@ reject () {
   curl -fsL https://raw.githubusercontent.com/SukkaW/Surge/master/Source/domainset/reject_sukka.conf |grep -Ev "^#|^\.|^$"|sed 's/^/HOST,/g'|sort -u >> reject_sukka
 
   #category-ads-all.txt
-  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|sed 's/^regexp:/host-wildcard, /g'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
+  curl -fsL https://raw.githubusercontent.com/v2fly/domain-list-community/release/category-ads-all.txt|grep -v '^regexp:'|sed 's/:@ads$//g'|sed 's/^domain:/HOST-SUFFIX,/g'|sed 's/^full:/HOST,/g'|sort -u > reject_v2fly
   [[ -s reject_v2fly ]] || exit
   sed -i '/is.snssdk.com/d' reject_v2fly
   #sed -i '/HOST-SUFFIX,umeng.com/d' reject_v2fly
