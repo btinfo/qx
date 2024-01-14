@@ -1,3 +1,15 @@
+host-suffix, tingyun.com
+-host, adashbc.ut.taobao.com, reject
+host-suffix, szrtcpa.com, Global
+-host, dns.weixin.qq.com.cn, reject
+host, safebrowsing.googleapis-cn.com, reject
+host-suffix, v2ai.top, Global
+host, www.alipansou.com, direct
+-host, httpdns.kwd.inkuai.com, reject
+host, httpdns.alicdn.com, reject
+-host, httpdns.c.cdnhwc2.com, reject
+host-suffix, capology.com, Global
+
 #HOST-KEYWORD,analytics
 #HOST-KEYWORD,crashlytics
 HOST-KEYWORD,appsflyer
