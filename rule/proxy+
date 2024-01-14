@@ -1,3 +1,8 @@
+host-suffix, capology.com, Global
+host-suffix, szrtcpa.com, Global
+host-suffix, v2ai.top, Global
+
+
 #AppleProxy
 HOST,pki.goog
 HOST-SUFFIX,digicert.com
