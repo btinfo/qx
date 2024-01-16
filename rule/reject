@@ -17,8 +17,8 @@ HOST,appgoad.189.cn
 HOST,applog.uc.cn
 HOST,assets.growingio.com
 HOST,gdfp.gifshow.com
--HOST-KEYWORD,gepush
--HOST-KEYWORD,getui
+HOST-KEYWORD,gepush
+HOST-KEYWORD,getui
 HOST,smartad.10010.com
 HOST-SUFFIX,ad.10010.com
 
@@ -46,9 +46,9 @@ IP-CIDR,203.107.1.1/24
 HOST,ad.cyapi.cn
 HOST,adservice.sigmob.cn
 HOST,iyes.youku.com
--HOST-KEYWORD,umeng
--HOST-KEYWORD,umsns
--HOST-KEYWORD,umtrack
+HOST-KEYWORD,umeng
+HOST-KEYWORD,umsns
+HOST-KEYWORD,umtrack
 HOST-SUFFIX,inmobi.cn
 HOST-SUFFIX,meishesdk.com
 HOST-SUFFIX,mobileservice.cn
@@ -132,8 +132,8 @@ HOST-SUFFIX,googletagservices.com
 
 #huawei
 -HOST,httpdns.c.cdnhwc2.com
--HOST-SUFFIX,jiguang.cn
--HOST-KEYWORD,jpush
+HOST-SUFFIX,jiguang.cn
+HOST-KEYWORD,jpush
 
 #iQiyi
 -HOST,msg.qy.net
