@@ -9,14 +9,14 @@ IP-CIDR,224.0.0.0/4
 IP6-CIDR,fe80::/10
 
 #direct+
-HOST,www.alipansou.com
-HOST-SUFFIX,szrtcpa.com
-HOST-SUFFIX,wjys.cc
-HOST-SUFFIX,xying08.top
-HOST-SUFFIX,sharepoint.com
-HOST-SUFFIX,tophub.app
-HOST-SUFFIX,ppsimg.com
 -HOST-SUFFIX,cn
+-HOST-SUFFIX,ppsimg.com
+-HOST-SUFFIX,sharepoint.com
+-HOST-SUFFIX,tophub.app
+-HOST-SUFFIX,wjys.cc
+-HOST,www.alipansou.com
+HOST-SUFFIX,szrtcpa.com
+HOST-SUFFIX,xying08.top
 IP-ASN,132203 //Tencent Building, Kejizhongyi Avenue
 IP-CIDR,202.61.255.248/32
-GEOIP, cn
+GEOIP,cn
