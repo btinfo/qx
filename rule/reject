@@ -1,15 +1,3 @@
-host, mqtt.zhihu.com, reject
-host, fclick.baidu.com, reject
-host, vod-license-b.volccdn.com, reject
-host, go-biz.dongqiudi.com, reject
-host, goldcoin.dongqiudi.com, reject
-host, zc.dongqiudi.com, reject
-host-wildcard, tnc?-*.zijieapi.com, reject
-host, btrace.yangshipin.cn, reject
-host, vod-license-m.volccdn.com, reject
-host, mssdk.volces.com, reject
-host, vod-settings.volcvod.com, reject
-
 -HOST,beacon.krxd.net
 -HOST-KEYWORD,crashlytics
 HOST-KEYWORD,id5-sync //tm
@@ -23,7 +11,6 @@ HOST-SUFFIX,oddsserve.com
 HOST,appgoad.189.cn
 HOST,applog.uc.cn
 HOST,assets.growingio.com
-HOST,gdfp.gifshow.com
 HOST-KEYWORD,gepush
 HOST-KEYWORD,getui
 HOST,smartad.10010.com
@@ -33,15 +20,16 @@ HOST-SUFFIX,ad.10010.com
 HOST,nex.163.com
 HOST-SUFFIX,g.163.com
 
-#alibaba
-HOST,adashbc.ut.taobao.com //@ads
-HOST,adashx.m.taobao.com //@ads
-HOST,appdownload.alicdn.com //@ads
+#alibaba-v2fly
+HOST,adashbc.ut.taobao.com
+HOST,adashx.m.taobao.com
+HOST,appdownload.alicdn.com
+#alibaba#
 -HOST,beacon-api.aliyuncs.com
 -HOST,h-adashx.ut.taobao.com
+-HOST-WILDCARD,*adashx*
 -HOST-WILDCARD,*.log.aliyuncs.com
 HOST,httpdns.alicdn.com
--HOST-WILDCARD,*adashx*
 IP-CIDR,203.107.1.1/24
 
 #alibaba-others
@@ -62,55 +50,66 @@ HOST-SUFFIX,mobileservice.cn
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
+#alibaba-volc
+HOST,mssdk.volces.com
+HOST,vod-license-b.volccdn.com
+HOST,vod-license-m.volccdn.com
+HOST,vod-settings.volcvod.com
 
-#amazon
+#amazon-v2fly
+HOST-SUFFIX,amazon-adsystem.com
+#amazon#
 -HOST,cadmus.script.ac
 HOST,ads.pubmatic.com
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-KEYWORD,appsflyer
-HOST-SUFFIX,amazon-adsystem.com
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
 HOST-SUFFIX,scorecardresearch.com
 
-#apple
+#apple-v2fly
+HOST-SUFFIX,iadsdk.apple.com
+#apple#
 HOST,api-adservices.apple.com
 HOST,metrics.icloud.com
-HOST-SUFFIX,iadsdk.apple.com
 
-#baidu
--HOST,newvector.map.baidu.com
--HOST-SUFFIX,tuisong.baidu.com
+#baidu-v2fly
 HOST,afd.baidu.com
 HOST,als.baidu.com
 HOST,dxp.baidu.com
+HOST,fclick.baidu.com
 HOST,hm.baidu.com
 HOST,hmma.baidu.com
 HOST,kstj.baidu.com
 HOST,mobads.baidu.com
 HOST,mobads-logs.baidu.com
-HOST,mobads-pre-config.cdn.bcebos.com
 HOST,nsclick.baidu.com
 HOST-SUFFIX,cpro.baidu.com
 HOST-SUFFIX,pos.baidu.com
+HOST-SUFFIX,tuisong.baidu.com
 HOST,zz.bdstatic.com
+#baidu#
+-HOST,newvector.map.baidu.com
+HOST,mobads-pre-config.cdn.bcebos.com
 IP-CIDR,180.76.76.200/32
 
 #bilibili
 HOST,cm.bilibili.com
 HOST,dataflow.biliapi.com
 
-#bytedance
--HOST,log.snssdk.com
--HOST,stream.snssdk.com
--HOST,vas-hl-x.snssdk.com
+#bytedance-v2fly
 HOST,dig.bdurl.net
 HOST,i.snssdk.com
 HOST-KEYWORD,pangolin-sdk-toutiao
-HOST,mon.snssdk.com
-HOST,sf16-static.i18n-pglstatp.com
 HOST-SUFFIX,ctobsnssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
+#bytedance#
+-HOST,log.snssdk.com
+-HOST,stream.snssdk.com
+-HOST,vas-hl-x.snssdk.com
+HOST,mon.snssdk.com
+HOST,sf16-static.i18n-pglstatp.com
+HOST-WILDCARD,tnc?-*.zijieapi.com
 
 #cloudflare
 -HOST,api.bugfender.com
@@ -119,15 +118,14 @@ HOST-WILDCARD,sdk.iad-0?.braze.com
 #dongqiudi
 -HOST,ap-static.dongqiudi.com
 -HOST,im-ap.dongqiudi.com
+HOST,go-biz.dongqiudi.com
+HOST,goldcoin.dongqiudi.com
 HOST,sensors-log.dongqiudi.com
+HOST,zc.dongqiudi.com
 IP-CIDR,114.132.165.205/32
 
-#google
--HOST,i.clean.gg
+#google-v2fly
 HOST,app-measurement.com
-HOST,crashlytics.com
-HOST,crashlyticsreports-pa.googleapis.com
-HOST,safebrowsing.googleapis-cn.com
 HOST-SUFFIX,doubleclick-cn.net
 HOST-SUFFIX,doubleclick.net
 HOST-SUFFIX,googleadservices.com
@@ -136,15 +134,21 @@ HOST-SUFFIX,google-analytics.com
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
+#google#
+-HOST,i.clean.gg
+HOST,crashlytics.com
+HOST,crashlyticsreports-pa.googleapis.com
+HOST,safebrowsing.googleapis-cn.com
 
 #huawei
 -HOST,httpdns.c.cdnhwc2.com
 HOST-SUFFIX,jiguang.cn
 HOST-KEYWORD,jpush
 
+#iQiyi-v2fly
+HOST,policy.video.iqiyi.com
 #iQiyi
 -HOST,msg.qy.net
-HOST,policy.video.iqiyi.com
 
 #JD
 -HOST,janapi.jd.com
@@ -157,6 +161,7 @@ HOST-SUFFIX,ad.daum.net
 
 #kuaishou
 -HOST-WILDCARD,*ad.*.yximgs.com
+HOST,gdfp.gifshow.com
 HOST,open.kuaishouzt.com
 HOST,open.kwaizt.com
 HOST-SUFFIX,e.kuaishou.com
@@ -169,8 +174,16 @@ HOST,adlaunch.moji.com
 #naver
 HOST,ad2.fivecdm.com
 
-#tencent
+#tencent-v2fly
+HOST,mtrace.qq.com
+HOST,pgdt.gtimg.cn
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,ugdtimg.com
+#tencent#
+-HOST,adsmind.gdtimg.com
+-HOST,fp-it.fengkongcloud.com
 -HOST,h.trace.qq.com
+-HOST,httpdns.kwd.inkuai.com
 -HOST,mazu.m.qq.com
 -HOST,oth.eve.mdt.qq.com
 -HOST,oth.str.mdt.qq.com
@@ -178,26 +191,17 @@ HOST,ad2.fivecdm.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
 HOST,dns.weixin.qq.com.cn
-HOST,mtrace.qq.com
-HOST-SUFFIX,bugly.qq.com
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,l.qq.com
-
-#tencent-others
--HOST,adsmind.gdtimg.com
--HOST,fp-it.fengkongcloud.com
--HOST,httpdns.kwd.inkuai.com
-HOST,pgdt.gtimg.cn
 HOST,pgdt.gtimg.com
-HOST,pgdt.ugdtimg.com
 HOST,qzs.gdtimg.com
 HOST-SUFFIX,adukwai.com
+HOST-SUFFIX,bugly.qq.com
 HOST-SUFFIX,dutils.com
+HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,lkme.cc
+HOST-SUFFIX,l.qq.com
 HOST-SUFFIX,tingyun.com
 
-#xiaomi
+#xiaomi-v2fly
 HOST,tracking.miui.com
 HOST-SUFFIX,ad.xiaomi.com
 
@@ -207,9 +211,13 @@ HOST,data.flurry.com
 HOST-SUFFIX,analytics.yahoo.com
 
 #ysp
+HOST,btrace.yangshipin.cn
 HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
 #掌上公交
 HOST,ad.baihemob.com
 HOST,inner.baihemob.com
+
+#zhihu
+HOST,mqtt.zhihu.com
