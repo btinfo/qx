@@ -27,14 +27,14 @@ HOST,nex.163.com
 HOST-SUFFIX,g.163.com
 
 #alibaba
--HOST,adashbc.ut.taobao.com
--HOST,adashx.m.taobao.com
+HOST,adashbc.ut.taobao.com
+HOST,adashx.m.taobao.com
 -HOST,beacon-api.aliyuncs.com
 -HOST,h-adashx.ut.taobao.com
 -HOST-WILDCARD,*.log.aliyuncs.com
 HOST,appdownload.alicdn.com
 HOST,httpdns.alicdn.com
-HOST-WILDCARD,*adashx*
+-HOST-WILDCARD,*adashx*
 IP-CIDR,203.107.1.1/24
 
 #alibaba-others
