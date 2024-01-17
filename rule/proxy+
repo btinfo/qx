@@ -22,11 +22,11 @@ HOST-SUFFIX,appraven.net
 
 #domains
 HOST,bgp.he.net
-HOST,cdn.jsdelivr.net
-HOST,filebox-douban.vercel.app
-HOST,in.appcenter.ms
-HOST,mail.cock.li
-HOST,m.hotmail.com
+-HOST,cdn.jsdelivr.net
+-HOST,filebox-douban.vercel.app
+-HOST,in.appcenter.ms
+-HOST,mail.cock.li
+-HOST,m.hotmail.com
 HOST,mobile-data.onetrust.io
 HOST,mozilla.cloudflare-dns.com
 HOST-SUFFIX,amazonaws.com
@@ -139,6 +139,7 @@ IP-ASN,6185 // APPLE-AUSTIN
 IP-ASN,7625 // Kakao Corp
 IP-ASN,8068 // MICROSOFT CORPORATION
 IP-ASN,8075 // MICROSOFT CORPORATION
+IP-ASN,9009 // M247 EUROPE SRL
 IP-ASN,9318 // SK BROADBAND CO LTD
 IP-ASN,11042 // NTHL
 IP-ASN,12874 // FASTWEB
@@ -176,7 +177,7 @@ IP-ASN,396982 // GOOGLE LLC
 
 #asn backup
 -IP-ASN,4230 // CLARO S.A.
--IP-ASN,9009 // M247 EUROPE SRL
+
 -IP-ASN,14061 // DIGITALOCEAN, LLC
 -IP-ASN,14618 // AMAZON.COM, INC.
 -IP-ASN,16276 // OVH SAS
