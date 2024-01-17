@@ -1,3 +1,10 @@
+host, mqtt.zhihu.com, reject
+host, fclick.baidu.com, reject
+host, vod-license-b.volccdn.com, reject
+host, go-biz.dongqiudi.com, reject
+host, goldcoin.dongqiudi.com, reject
+host, zc.dongqiudi.com, reject
+host-wildcard, tnc?-*.zijieapi.com, reject
 host, btrace.yangshipin.cn, reject
 host, vod-license-m.volccdn.com, reject
 host, mssdk.volces.com, reject
