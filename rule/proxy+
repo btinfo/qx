@@ -21,6 +21,11 @@ HOST-SUFFIX,v2ai.top
 HOST-SUFFIX,daumcdn.net
 HOST-SUFFIX,kakaocdn.net
 
+#reddit
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redd.it
+-HOST-SUFFIX,reddit.com
+
 #YahooNews
 HOST-SUFFIX,emb-api.com
 HOST-SUFFIX,yahoo.com
