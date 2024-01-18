@@ -99,7 +99,7 @@ HOST-SUFFIX,kakaocdn.net
 #Reddit
 -HOST-SUFFIX,redditmedia.com
 -HOST-SUFFIX,redd.it
--HOST-SUFFIX,reddit.com
+HOST-SUFFIX,reddit.com
 
 #Wikipedia
 -HOST-SUFFIX,wikidata.org
