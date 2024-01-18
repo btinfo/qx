@@ -24,7 +24,7 @@ HOST-SUFFIX,kakaocdn.net
 #reddit
 HOST-SUFFIX,reddit.com
 HOST-SUFFIX,redd.it
--HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redditmedia.com
 
 #YahooNews
 HOST-SUFFIX,emb-api.com
