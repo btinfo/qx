@@ -33,7 +33,7 @@ HOST,httpdns.alicdn.com
 IP-CIDR,203.107.1.1/24
 
 #alibaba-others
--HOST,api.th.wanzjhb.com
+HOST,api.th.wanzjhb.com
 -HOST,dc.sigmob.cn
 -HOST,et.tanx.com
 -HOST,sdk.beizi.biz
