@@ -29,7 +29,7 @@ HOST,appdownload.alicdn.com
 -HOST,h-adashx.ut.taobao.com
 -HOST-WILDCARD,*adashx*
 -HOST-WILDCARD,*.log.aliyuncs.com
-HOST,httpdns.alicdn.com
+-HOST,httpdns.alicdn.com
 IP-CIDR,203.107.1.1/24
 
 #alibaba-others
@@ -109,7 +109,7 @@ HOST-SUFFIX,pglstatp-toutiao.com
 -HOST,vas-hl-x.snssdk.com
 HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
-HOST-WILDCARD,tnc?-*.zijieapi.com
+-HOST-WILDCARD,tnc?-*.zijieapi.com
 
 #cloudflare
 -HOST,api.bugfender.com
@@ -118,11 +118,11 @@ HOST-WILDCARD,sdk.iad-0?.braze.com
 #dongqiudi
 -HOST,ap-static.dongqiudi.com
 -HOST,im-ap.dongqiudi.com
-HOST,go-biz.dongqiudi.com
-HOST,goldcoin.dongqiudi.com
-HOST,sensors-log.dongqiudi.com
-HOST,zc.dongqiudi.com
-IP-CIDR,114.132.165.205/32
+-HOST,go-biz.dongqiudi.com
+-HOST,goldcoin.dongqiudi.com
+-HOST,sensors-log.dongqiudi.com
+-HOST,zc.dongqiudi.com
+-IP-CIDR,114.132.165.205/32
 
 #google-v2fly
 HOST,app-measurement.com
@@ -190,7 +190,7 @@ HOST-SUFFIX,ugdtimg.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
-HOST,dns.weixin.qq.com.cn
+-HOST,dns.weixin.qq.com.cn
 HOST,pgdt.gtimg.com
 HOST,qzs.gdtimg.com
 HOST-SUFFIX,adukwai.com
