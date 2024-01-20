@@ -36,7 +36,9 @@ HOST-KEYWORD,.facebook.
 HOST-KEYWORD,google
 
 #asn
+IP-ASN,174 // Cogent Communications
 IP-ASN,714 // APPLE INC.
+IP-ASN,906 // DMIT Cloud Services
 IP-ASN,2914 // NTT AMERICA, INC.
 IP-ASN,3320 // Deutsche Telekom AG
 IP-ASN,3356 // LEVEL3
@@ -82,6 +84,7 @@ IP-ASN,38631 // LINE Corporation
 IP-ASN,39134 // UNITEDNET
 IP-ASN,40065 // CNSERVERS LLC
 IP-ASN,40676 // Psychz Networks
+IP-ASN,47965 // Signalhorn Trusted Networks GmbH
 IP-ASN,48447 // SECTIGO LIMITED
 IP-ASN,49453 // GLOBAL LAYER B.V.
 IP-ASN,51167 // Contabo GmbH
