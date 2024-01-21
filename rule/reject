@@ -38,7 +38,7 @@ HOST,api.th.wanzjhb.com
 -HOST,et.tanx.com
 -HOST,sdk.beizi.biz
 -HOST,sdktmp.hubcloud.com.cn
-HOST,ad.cyapi.cn
+-HOST,ad.cyapi.cn
 HOST,adservice.sigmob.cn
 HOST,iyes.youku.com
 HOST-KEYWORD,umeng
@@ -60,7 +60,7 @@ HOST,vod-settings.volcvod.com
 HOST-SUFFIX,amazon-adsystem.com
 #amazon#
 -HOST,cadmus.script.ac
-HOST,ads.pubmatic.com
+-HOST,ads.pubmatic.com
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
 HOST-KEYWORD,appsflyer
 HOST-SUFFIX,branch.io
@@ -157,7 +157,7 @@ HOST,policy.video.iqiyi.com
 -IP-CIDR,101.124.19.122/32
 
 #kakao
-HOST-SUFFIX,ad.daum.net
+-HOST-SUFFIX,ad.daum.net
 
 #kuaishou
 -HOST-WILDCARD,*ad.*.yximgs.com
@@ -216,7 +216,7 @@ HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
 #掌上公交
-HOST,ad.baihemob.com
+-HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
 #zhihu
