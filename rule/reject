@@ -203,7 +203,7 @@ HOST-SUFFIX,tingyun.com
 
 #xiaomi-v2fly
 HOST,tracking.miui.com
-HOST-SUFFIX,ad.xiaomi.com
+-HOST-SUFFIX,ad.xiaomi.com
 
 #yahoo
 HOST,analytics.query.yahoo.com
