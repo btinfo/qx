@@ -1,3 +1,9 @@
+ip-cidr, 114.132.165.205/32, reject
+host-wildcard, ads.*, reject
+host-wildcard, ad.*, reject
+host-suffix, criteo.net, reject
+
+
 -HOST,beacon.krxd.net
 -HOST-KEYWORD,crashlytics
 HOST-KEYWORD,id5-sync //tm
