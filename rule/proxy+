@@ -14,8 +14,11 @@ HOST-SUFFIX,microsoftonline.com
 
 #sites
 HOST-SUFFIX,akamaized.net
+HOST-SUFFIX,blogspot.com
+HOST-SUFFIX,shrtm.nu
 HOST-SUFFIX,v2free.top
 HOST-SUFFIX,v2ai.top
+HOST-SUFFIX,wikipedia.org
 
 #news-korea
 HOST-SUFFIX,daumcdn.net
@@ -84,6 +87,7 @@ IP-ASN,38631 // LINE Corporation
 IP-ASN,39134 // UNITEDNET
 IP-ASN,40065 // CNSERVERS LLC
 IP-ASN,40676 // Psychz Networks
+IP-ASN,41378 // Kirino LLC
 IP-ASN,47965 // Signalhorn Trusted Networks GmbH
 IP-ASN,48447 // SECTIGO LIMITED
 IP-ASN,49453 // GLOBAL LAYER B.V.
