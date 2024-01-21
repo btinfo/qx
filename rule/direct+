@@ -11,6 +11,7 @@ IP6-CIDR,fe80::/10
 #direct+
 HOST-SUFFIX,szrtcpa.com
 HOST-SUFFIX,xying08.top
+host, androidweb.wps.com, direct
 IP-CIDR,202.61.255.248/32
 
 IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
