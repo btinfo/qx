@@ -1,14 +1,24 @@
-ip-cidr, 114.132.165.205/32, reject
-host-wildcard, ads.*, reject
-host-wildcard, ad.*, reject
-host-suffix, criteo.net, reject
-
+-HOST-WILDCARD,*adashx*
+-HOST-WILDCARD,*ad.*.yximgs.com
+-HOST-WILDCARD,*.log.aliyuncs.com
+-HOST-WILDCARD,tnc?-*.zijieapi.com
+HOST-KEYWORD,appsflyer
+HOST-KEYWORD,gepush
+HOST-KEYWORD,getui
+HOST-KEYWORD,id5-sync //tm
+HOST-KEYWORD,jpush
+HOST-KEYWORD,pangolin-sdk-toutiao
+HOST-KEYWORD,qchannel0
+HOST-KEYWORD,umeng
+HOST-KEYWORD,umsns
+HOST-KEYWORD,umtrack
+HOST-WILDCARD,ad.*
+HOST-WILDCARD,ads.*
+HOST-WILDCARD,sdk.iad-0?.braze.com
 
 -HOST,beacon.krxd.net
--HOST-KEYWORD,crashlytics
-HOST-KEYWORD,id5-sync //tm
-HOST-KEYWORD,qchannel0
 HOST,pv.sohu.com
+HOST-SUFFIX,criteo.net
 HOST-SUFFIX,ioam.de
 HOST-SUFFIX,oddsserve.com
 
@@ -17,10 +27,7 @@ HOST-SUFFIX,oddsserve.com
 HOST,appgoad.189.cn
 HOST,applog.uc.cn
 HOST,assets.growingio.com
-HOST-KEYWORD,gepush
-HOST-KEYWORD,getui
 HOST,smartad.10010.com
--HOST-SUFFIX,ad.10010.com
 
 #163
 HOST,nex.163.com
@@ -30,32 +37,28 @@ HOST-SUFFIX,g.163.com
 HOST,adashbc.ut.taobao.com
 HOST,adashx.m.taobao.com
 HOST,appdownload.alicdn.com
+
 #alibaba#
 -HOST,beacon-api.aliyuncs.com
 -HOST,h-adashx.ut.taobao.com
--HOST-WILDCARD,*adashx*
--HOST-WILDCARD,*.log.aliyuncs.com
 -HOST,httpdns.alicdn.com
-IP-CIDR,203.107.1.1/24
+-IP-CIDR,203.107.1.1/24
 
 #alibaba-others
-HOST,api.th.wanzjhb.com
 -HOST,dc.sigmob.cn
 -HOST,et.tanx.com
 -HOST,sdk.beizi.biz
 -HOST,sdktmp.hubcloud.com.cn
--HOST,ad.cyapi.cn
 HOST,adservice.sigmob.cn
+HOST,api.th.wanzjhb.com
 HOST,iyes.youku.com
-HOST-KEYWORD,umeng
-HOST-KEYWORD,umsns
-HOST-KEYWORD,umtrack
 HOST-SUFFIX,inmobi.cn
 HOST-SUFFIX,meishesdk.com
 HOST-SUFFIX,mobileservice.cn
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
+
 #alibaba-volc
 HOST,mssdk.volces.com
 HOST,vod-license-b.volccdn.com
@@ -68,7 +71,6 @@ HOST-SUFFIX,amazon-adsystem.com
 -HOST,cadmus.script.ac
 -HOST,ads.pubmatic.com
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
-HOST-KEYWORD,appsflyer
 HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
 HOST-SUFFIX,scorecardresearch.com
@@ -97,7 +99,7 @@ HOST,zz.bdstatic.com
 #baidu#
 -HOST,newvector.map.baidu.com
 HOST,mobads-pre-config.cdn.bcebos.com
-IP-CIDR,180.76.76.200/32
+IP-CIDR,180.76.76.200/32 // tieba
 
 #bilibili
 HOST,cm.bilibili.com
@@ -106,7 +108,6 @@ HOST,dataflow.biliapi.com
 #bytedance-v2fly
 HOST,dig.bdurl.net
 HOST,i.snssdk.com
-HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-SUFFIX,ctobsnssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
 #bytedance#
@@ -115,20 +116,12 @@ HOST-SUFFIX,pglstatp-toutiao.com
 -HOST,vas-hl-x.snssdk.com
 HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
--HOST-WILDCARD,tnc?-*.zijieapi.com
 
 #cloudflare
 -HOST,api.bugfender.com
-HOST-WILDCARD,sdk.iad-0?.braze.com
 
 #dongqiudi
--HOST,ap-static.dongqiudi.com
--HOST,im-ap.dongqiudi.com
--HOST,go-biz.dongqiudi.com
--HOST,goldcoin.dongqiudi.com
--HOST,sensors-log.dongqiudi.com
--HOST,zc.dongqiudi.com
--IP-CIDR,114.132.165.205/32
+IP-CIDR,114.132.165.205/32
 
 #google-v2fly
 HOST,app-measurement.com
@@ -141,32 +134,17 @@ HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
 #google#
--HOST,i.clean.gg
 HOST,crashlytics.com
 HOST,crashlyticsreports-pa.googleapis.com
 HOST,safebrowsing.googleapis-cn.com
 
 #huawei
--HOST,httpdns.c.cdnhwc2.com
 HOST-SUFFIX,jiguang.cn
-HOST-KEYWORD,jpush
 
 #iQiyi-v2fly
 HOST,policy.video.iqiyi.com
-#iQiyi
--HOST,msg.qy.net
-
-#JD
--HOST,janapi.jd.com
--HOST,policy.jd.com
--HOST,xlog.jd.com
--IP-CIDR,101.124.19.122/32
-
-#kakao
--HOST-SUFFIX,ad.daum.net
 
 #kuaishou
--HOST-WILDCARD,*ad.*.yximgs.com
 HOST,gdfp.gifshow.com
 HOST,open.kuaishouzt.com
 HOST,open.kwaizt.com
@@ -209,7 +187,6 @@ HOST-SUFFIX,tingyun.com
 
 #xiaomi-v2fly
 HOST,tracking.miui.com
--HOST-SUFFIX,ad.xiaomi.com
 
 #yahoo
 HOST,analytics.query.yahoo.com
@@ -222,7 +199,6 @@ HOST,btrace.ysp.cctv.cn
 HOST,mtrace.ysp.cctv.cn
 
 #掌上公交
--HOST,ad.baihemob.com
 HOST,inner.baihemob.com
 
 #zhihu

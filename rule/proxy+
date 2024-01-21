@@ -1,13 +1,7 @@
 #AppleProxy
 HOST,testflight.apple.com
--HOST-SUFFIX,digicert.com
-
-#apps
--HOST,m.815616.xyz //shanqiu
--HOST-SUFFIX,appraven.net
 
 #domains
--HOST,bgp.he.net
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,digitalcertvalidation.com
 HOST-SUFFIX,microsoftonline.com

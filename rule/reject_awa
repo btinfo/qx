@@ -2,7 +2,6 @@ HOST-SUFFIX,1010pic.com
 HOST-SUFFIX,8le8le.com
 HOST,a0.app.xiaomi.com
 HOST,aaid.umeng.com
-HOST,acs.m.taobao.com
 HOST,ad.12306.cn
 HOST,ad.51wnl.com
 HOST,adapi.izuiyou.com
@@ -123,6 +122,7 @@ HOST,api.statsig.com
 HOST,apiyd.my91app.com
 HOST,applog.lc.quark.cn
 HOST,applog.uc.cn
+HOST-SUFFIX,app-measurement.com
 HOST,ata-sdk-uuid-report.dreport.meituan.net
 HOST,audid-api.taobao.com
 HOST,audid.umeng.com
@@ -195,6 +195,7 @@ HOST,errnewlog.umeng.com
 HOST,events-drcn.op.dbankcloud.cn
 HOST,firebaselogging-pa.googleapis.com
 HOST-SUFFIX,flurry.com
+HOST,g2.ganjing.world
 HOST,game.loveota.com
 HOST,gdfp.gifshow.com
 HOST,gemini.yahoo.com
@@ -207,6 +208,7 @@ HOST-SUFFIX,googletagservices.com
 HOST,gromore.pangolin-sdk-toutiao.com
 HOST,grs.dbankcloud.com
 HOST,grs.hicloud.com
+HOST,g-staic.ganjingworld.com
 HOST,h5hosting.dbankcdn.com
 HOST,h-adashx.ut.taobao.com
 HOST-SUFFIX,henzanapp.com
