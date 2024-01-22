@@ -14,9 +14,9 @@ IP6-CIDR,fe80::/10
 -HOST,androidweb.wps.com
 -IP-CIDR,202.61.255.248/32
 
--IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
--IP-ASN,64021 // Network-Transit
--IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
--IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
+IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
+IP-ASN,64021 // Network-Transit
+IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
+IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
 
 GEOIP,cn
