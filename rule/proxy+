@@ -2,21 +2,21 @@
 HOST,testflight.apple.com
 
 #domains
-HOST-SUFFIX,cloudfront.net
-HOST-SUFFIX,digitalcertvalidation.com
-HOST-SUFFIX,microsoftonline.com
+-HOST-SUFFIX,cloudfront.net
+-HOST-SUFFIX,digitalcertvalidation.com
+-HOST-SUFFIX,microsoftonline.com
 
 #sites
-HOST-SUFFIX,akamaized.net
+-HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,blogspot.com
-HOST-SUFFIX,shrtm.nu
-HOST-SUFFIX,v2free.top
-HOST-SUFFIX,v2ai.top
+-HOST-SUFFIX,shrtm.nu
+-HOST-SUFFIX,v2free.top
+-HOST-SUFFIX,v2ai.top
 HOST-SUFFIX,wikipedia.org
 
 #news-korea
-HOST-SUFFIX,daumcdn.net
-HOST-SUFFIX,kakaocdn.net
+-HOST-SUFFIX,daumcdn.net
+-HOST-SUFFIX,kakaocdn.net
 
 #reddit
 HOST-SUFFIX,reddit.com
@@ -24,9 +24,9 @@ HOST-SUFFIX,redd.it
 HOST-SUFFIX,redditmedia.com
 
 #YahooNews
-HOST-SUFFIX,emb-api.com
-HOST-SUFFIX,yahoo.com
-HOST-SUFFIX,zenfs.com
+-HOST-SUFFIX,emb-api.com
+-HOST-SUFFIX,yahoo.com
+-HOST-SUFFIX,zenfs.com
 
 #keyword
 HOST-KEYWORD,.facebook.
