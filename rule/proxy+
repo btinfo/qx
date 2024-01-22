@@ -1,22 +1,8 @@
-#AppleProxy
--HOST,testflight.apple.com
 
-#domains
--HOST-SUFFIX,cloudfront.net
--HOST-SUFFIX,digitalcertvalidation.com
--HOST-SUFFIX,microsoftonline.com
 
 #sites
--HOST-SUFFIX,akamaized.net
 HOST-SUFFIX,blogspot.com
--HOST-SUFFIX,shrtm.nu
--HOST-SUFFIX,v2free.top
--HOST-SUFFIX,v2ai.top
 HOST-SUFFIX,wikipedia.org
-
-#news-korea
--HOST-SUFFIX,daumcdn.net
--HOST-SUFFIX,kakaocdn.net
 
 #reddit
 HOST-SUFFIX,reddit.com
