@@ -24,9 +24,9 @@ HOST-SUFFIX,redd.it
 HOST-SUFFIX,redditmedia.com
 
 #YahooNews
--HOST-SUFFIX,emb-api.com
--HOST-SUFFIX,yahoo.com
--HOST-SUFFIX,zenfs.com
+HOST-SUFFIX,emb-api.com
+HOST-SUFFIX,yahoo.com
+HOST-SUFFIX,zenfs.com
 
 #keyword
 HOST-KEYWORD,.facebook.
