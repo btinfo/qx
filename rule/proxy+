@@ -1,5 +1,5 @@
 #AppleProxy
-HOST,testflight.apple.com
+-HOST,testflight.apple.com
 
 #domains
 -HOST-SUFFIX,cloudfront.net
