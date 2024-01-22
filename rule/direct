@@ -1,3 +1,13 @@
+#LAN
+HOST-SUFFIX,local
+IP-CIDR,10.0.0.0/8
+IP-CIDR,100.64.0.0/10
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,224.0.0.0/4
+IP6-CIDR,fe80::/10
+
 -HOST,amdc.m.taobao.com
 -HOST,analytics.strava.com
 -HOST,app.adjust.com
