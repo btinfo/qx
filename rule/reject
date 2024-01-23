@@ -46,9 +46,9 @@ HOST,appdownload.alicdn.com
 
 #alibaba-others
 -HOST,dc.sigmob.cn
--HOST,et.tanx.com
--HOST,sdk.beizi.biz
--HOST,sdktmp.hubcloud.com.cn
+HOST-SUFFIX,tanx.com
+HOST,sdk.beizi.biz
+HOST,sdktmp.hubcloud.com.cn
 HOST,adservice.sigmob.cn
 HOST,api.th.wanzjhb.com
 HOST,iyes.youku.com
@@ -169,8 +169,8 @@ HOST-SUFFIX,ugdtimg.com
 -HOST,h.trace.qq.com
 -HOST,httpdns.kwd.inkuai.com
 -HOST,mazu.m.qq.com
--HOST,oth.eve.mdt.qq.com
--HOST,oth.str.mdt.qq.com
+HOST,oth.eve.mdt.qq.com
+HOST,oth.str.mdt.qq.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
