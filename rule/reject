@@ -42,7 +42,7 @@ HOST,appdownload.alicdn.com
 -HOST,beacon-api.aliyuncs.com
 -HOST,h-adashx.ut.taobao.com
 -HOST,httpdns.alicdn.com
-IP-CIDR,203.107.1.1/24
+-IP-CIDR,203.107.1.1/24
 
 #alibaba-others
 -HOST,dc.sigmob.cn
@@ -173,7 +173,7 @@ HOST,oth.str.mdt.qq.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
-HOST,dns.weixin.qq.com.cn
+-HOST,dns.weixin.qq.com.cn
 HOST,pgdt.gtimg.com
 HOST,qzs.gdtimg.com
 HOST-SUFFIX,adukwai.com
