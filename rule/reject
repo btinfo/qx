@@ -3,15 +3,15 @@
 -HOST-WILDCARD,*.log.aliyuncs.com
 -HOST-WILDCARD,tnc?-*.zijieapi.com
 -HOST-KEYWORD,appsflyer
-HOST-KEYWORD,gepush
-HOST-KEYWORD,getui
+-HOST-KEYWORD,gepush
+-HOST-KEYWORD,getui
 HOST-KEYWORD,id5-sync //tm
-HOST-KEYWORD,jpush
+-HOST-KEYWORD,jpush
 HOST-KEYWORD,pangolin-sdk-toutiao
 -HOST-KEYWORD,qchannel0
-HOST-KEYWORD,umeng
-HOST-KEYWORD,umsns
-HOST-KEYWORD,umtrack
+-HOST-KEYWORD,umeng
+-HOST-KEYWORD,umsns
+-HOST-KEYWORD,umtrack
 HOST-WILDCARD,ad.*
 HOST-WILDCARD,ads.*
 HOST-WILDCARD,sdk.iad-0?.braze.com
@@ -139,7 +139,7 @@ HOST-SUFFIX,googletagservices.com
 HOST,safebrowsing.googleapis-cn.com
 
 #huawei
-HOST-SUFFIX,jiguang.cn
+-HOST-SUFFIX,jiguang.cn
 
 #iQiyi-v2fly
 HOST,policy.video.iqiyi.com
@@ -186,7 +186,7 @@ HOST-SUFFIX,l.qq.com
 HOST-SUFFIX,tingyun.com
 
 #xiaomi-v2fly
-HOST,tracking.miui.com
+-HOST,tracking.miui.com
 
 #yahoo
 HOST,analytics.query.yahoo.com
