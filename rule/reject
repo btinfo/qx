@@ -70,7 +70,7 @@ HOST-SUFFIX,amazon-adsystem.com
 #amazon#
 -HOST,cadmus.script.ac
 -HOST,ads.pubmatic.com
-HOST,china2021.s3.ap-northeast-2.amazonaws.com
+-HOST,china2021.s3.ap-northeast-2.amazonaws.com
 -HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
 -HOST-SUFFIX,scorecardresearch.com
