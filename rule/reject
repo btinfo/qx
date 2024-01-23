@@ -1,7 +1,6 @@
 -HOST-WILDCARD,*adashx*
 -HOST-WILDCARD,*ad.*.yximgs.com
 -HOST-WILDCARD,*.log.aliyuncs.com
--HOST-WILDCARD,tnc?-*.zijieapi.com
 -HOST-KEYWORD,appsflyer
 -HOST-KEYWORD,gepush
 -HOST-KEYWORD,getui
@@ -69,7 +68,6 @@ HOST,vod-settings.volcvod.com
 HOST-SUFFIX,amazon-adsystem.com
 #amazon#
 -HOST,cadmus.script.ac
--HOST,ads.pubmatic.com
 -HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
 -HOST-SUFFIX,scorecardresearch.com
@@ -109,6 +107,7 @@ HOST,dig.bdurl.net
 HOST,i.snssdk.com
 HOST-SUFFIX,ctobsnssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
+HOST-SUFFIX,zijieapi.com
 #bytedance#
 -HOST,log.snssdk.com
 -HOST,stream.snssdk.com
