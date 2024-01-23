@@ -2,13 +2,13 @@
 -HOST-WILDCARD,*ad.*.yximgs.com
 -HOST-WILDCARD,*.log.aliyuncs.com
 -HOST-WILDCARD,tnc?-*.zijieapi.com
-HOST-KEYWORD,appsflyer
+-HOST-KEYWORD,appsflyer
 HOST-KEYWORD,gepush
 HOST-KEYWORD,getui
 HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,jpush
 HOST-KEYWORD,pangolin-sdk-toutiao
-HOST-KEYWORD,qchannel0
+-HOST-KEYWORD,qchannel0
 HOST-KEYWORD,umeng
 HOST-KEYWORD,umsns
 HOST-KEYWORD,umtrack
@@ -42,7 +42,7 @@ HOST,appdownload.alicdn.com
 -HOST,beacon-api.aliyuncs.com
 -HOST,h-adashx.ut.taobao.com
 -HOST,httpdns.alicdn.com
--IP-CIDR,203.107.1.1/24
+IP-CIDR,203.107.1.1/24
 
 #alibaba-others
 -HOST,dc.sigmob.cn
@@ -71,9 +71,9 @@ HOST-SUFFIX,amazon-adsystem.com
 -HOST,cadmus.script.ac
 -HOST,ads.pubmatic.com
 HOST,china2021.s3.ap-northeast-2.amazonaws.com
-HOST-SUFFIX,branch.io
+-HOST-SUFFIX,branch.io
 HOST-SUFFIX,primis.tech
-HOST-SUFFIX,scorecardresearch.com
+-HOST-SUFFIX,scorecardresearch.com
 
 #apple-v2fly
 HOST-SUFFIX,iadsdk.apple.com
@@ -174,7 +174,7 @@ HOST,oth.str.mdt.qq.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
--HOST,dns.weixin.qq.com.cn
+HOST,dns.weixin.qq.com.cn
 HOST,pgdt.gtimg.com
 HOST,qzs.gdtimg.com
 HOST-SUFFIX,adukwai.com
