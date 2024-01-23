@@ -118,7 +118,7 @@ HOST,mon.snssdk.com
 HOST,sf16-static.i18n-pglstatp.com
 
 #cloudflare
--HOST,api.bugfender.com
+HOST,api.bugfender.com
 
 #dongqiudi
 IP-CIDR,114.132.165.205/32
