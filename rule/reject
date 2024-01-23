@@ -134,8 +134,8 @@ HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
 #google#
-HOST,crashlytics.com
-HOST,crashlyticsreports-pa.googleapis.com
+-HOST,crashlytics.com
+-HOST,crashlyticsreports-pa.googleapis.com
 HOST,safebrowsing.googleapis-cn.com
 
 #huawei
