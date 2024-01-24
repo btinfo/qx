@@ -1,3 +1,6 @@
+HOST-SUFFIX,blogspot.com,Global
+HOST-SUFFIX,transfermarkt.com,Global
+
 #Apple
 HOST,api.revenuecat.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
@@ -50,6 +53,11 @@ HOST-SUFFIX,fbsbx.com,Instagram
 HOST-SUFFIX,instagram.com,Instagram
 HOST-SUFFIX,instagr.am,Instagram
 
+#Reddit
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redd.it
+HOST-SUFFIX,redditmedia.com
+
 #Spotify
 HOST-KEYWORD,spotify,Spotify
 HOST-SUFFIX,pscdn.co,Spotify
@@ -81,6 +89,9 @@ HOST-SUFFIX,tidal-cms.s3.amazonaws.com,Tidal
 HOST-SUFFIX,tidal.com,Tidal
 HOST-SUFFIX,tidalhifi.com,Tidal
 
+#Wikipedia
+HOST-SUFFIX,wikipedia.org,Global
+
 #X.org
 HOST-KEYWORD,twitter,X
 HOST-SUFFIX,cms-twdigitalassets.com,X
@@ -94,6 +105,11 @@ HOST-SUFFIX,twitpic.com,X
 HOST-SUFFIX,twitter.com,X
 -HOST-SUFFIX,twitter.jp,X
 HOST-SUFFIX,vine.co,X
+
+#YahooNews
+HOST-SUFFIX,emb-api.com,Global
+HOST-SUFFIX,yahoo.com,Global
+HOST-SUFFIX,zenfs.com,Global
 
 #Youtube
 HOST-KEYWORD,youtube,Youtube
