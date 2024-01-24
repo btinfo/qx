@@ -54,9 +54,9 @@ HOST-SUFFIX,instagram.com,Instagram
 HOST-SUFFIX,instagr.am,Instagram
 
 #Reddit
-HOST-SUFFIX,reddit.com
-HOST-SUFFIX,redd.it
-HOST-SUFFIX,redditmedia.com
+HOST-SUFFIX,reddit.com,Global
+HOST-SUFFIX,redd.it,Global
+HOST-SUFFIX,redditmedia.com,Global
 
 #Spotify
 HOST-KEYWORD,spotify,Spotify
