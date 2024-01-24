@@ -22,6 +22,9 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,testflight.apple.com,Global
 
+#Facebook
+HOST-KEYWORD,.facebook.,Global
+
 #Github
 HOST-KEYWORD,github,Github
 HOST-SUFFIX,githubapp.com,Github
@@ -34,9 +37,10 @@ HOST-SUFFIX,githubusercontent.com,Github
 HOST-SUFFIX,gitlab.com,Github
 HOST-SUFFIX,gitlab.io,Github
 
-#GoogleSearch&others
+#Google
 HOST-KEYWORD,www.google.,US
-HOST-SUFFIX,chinadigitaltimes.net,US
+HOST-KEYWORD,google,Global
+-HOST-SUFFIX,chinadigitaltimes.net,US
 
 #Instagram
 HOST-KEYWORD,instagram,Instagram
@@ -107,4 +111,3 @@ HOST-SUFFIX,yt.be,Youtube
 HOST-SUFFIX,ytimg.com,Youtube
 HOST,youtubei.googleapis.com,Youtube
 -HOST,yt3.ggpht.com,Youtube
-
