@@ -1,3 +1,28 @@
+HOST-SUFFIX,blogspot.com
+HOST-SUFFIX,transfermarkt.com
+
+#apple
+HOST,testflight.apple.com
+
+#facebook
+HOST-KEYWORD,.facebook.
+
+#google
+HOST-KEYWORD,google
+
+#Reddit
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redd.it
+HOST-SUFFIX,redditmedia.com
+
+#Wikipedia
+HOST-SUFFIX,wikipedia.org
+
+#YahooNews
+HOST-SUFFIX,emb-api.com
+HOST-SUFFIX,yahoo.com
+HOST-SUFFIX,zenfs.com
+
 IP-ASN,174 // Cogent Communications
 IP-ASN,714 // APPLE INC.
 IP-ASN,906 // DMIT Cloud Services
