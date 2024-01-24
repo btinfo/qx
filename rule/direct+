@@ -3,6 +3,7 @@ HOST-SUFFIX,szrtcpa.com
 -HOST,androidweb.wps.com
 -IP-CIDR,202.61.255.248/32
 
+IP-ASN,20940 // AKAMAI INTERNATIONAL B.V.
 IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
 IP-ASN,64021 // Network-Transit
 IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
