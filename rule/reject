@@ -119,7 +119,7 @@ HOST,sf16-static.i18n-pglstatp.com
 HOST,api.bugfender.com
 
 #dongqiudi
-IP-CIDR,114.132.165.205/32
+-IP-CIDR,114.132.165.205/32
 
 #google-v2fly
 HOST,app-measurement.com
