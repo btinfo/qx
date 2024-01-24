@@ -76,7 +76,7 @@ HOST-SUFFIX,primis.tech
 HOST-SUFFIX,iadsdk.apple.com
 #apple#
 HOST,api-adservices.apple.com
-HOST,metrics.icloud.com
+-HOST,metrics.icloud.com
 
 #baidu-v2fly
 HOST,afd.baidu.com
