@@ -20,6 +20,7 @@ HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
+HOST,testflight.apple.com,Global
 
 #Github
 HOST-KEYWORD,github,Github
