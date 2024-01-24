@@ -119,6 +119,7 @@ HOST,sf16-static.i18n-pglstatp.com
 HOST,api.bugfender.com
 
 #dongqiudi
+HOST,sensors-log.dongqiudi.com
 -IP-CIDR,114.132.165.205/32
 
 #google-v2fly
