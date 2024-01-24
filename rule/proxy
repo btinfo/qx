@@ -1,3 +1,8 @@
+#Location
+-HOST-SUFFIX,chinadigitaltimes.net,US
+HOST-KEYWORD,www.google.,US
+HOST-SUFFIX,iheart.com,US
+
 #Apple
 HOST,api.revenuecat.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
@@ -32,10 +37,6 @@ HOST-SUFFIX,githubusercontent.com,Github
 #Gitlab
 HOST-SUFFIX,gitlab.com,Github
 HOST-SUFFIX,gitlab.io,Github
-
-#Google
-HOST-KEYWORD,www.google.,US
--HOST-SUFFIX,chinadigitaltimes.net,US
 
 #Instagram
 HOST-KEYWORD,instagram,Instagram

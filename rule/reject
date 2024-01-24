@@ -1,16 +1,16 @@
--HOST-WILDCARD,*adashx*
--HOST-WILDCARD,*ad.*.yximgs.com
--HOST-WILDCARD,*.log.aliyuncs.com
 -HOST-KEYWORD,appsflyer
 -HOST-KEYWORD,gepush
 -HOST-KEYWORD,getui
-HOST-KEYWORD,id5-sync //tm
 -HOST-KEYWORD,jpush
-HOST-KEYWORD,pangolin-sdk-toutiao
 -HOST-KEYWORD,qchannel0
 -HOST-KEYWORD,umeng
 -HOST-KEYWORD,umsns
 -HOST-KEYWORD,umtrack
+-HOST-WILDCARD,*adashx*
+-HOST-WILDCARD,*ad.*.yximgs.com
+-HOST-WILDCARD,*.log.aliyuncs.com
+HOST-KEYWORD,id5-sync //tm
+HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-WILDCARD,ad.*
 HOST-WILDCARD,ads.*
 HOST-WILDCARD,sdk.iad-0?.braze.com
@@ -66,14 +66,16 @@ HOST,vod-settings.volcvod.com
 
 #amazon-v2fly
 HOST-SUFFIX,amazon-adsystem.com
+
 #amazon#
 -HOST,cadmus.script.ac
 -HOST-SUFFIX,branch.io
-HOST-SUFFIX,primis.tech
 -HOST-SUFFIX,scorecardresearch.com
+HOST-SUFFIX,primis.tech
 
 #apple-v2fly
 HOST-SUFFIX,iadsdk.apple.com
+
 #apple#
 HOST,api-adservices.apple.com
 -HOST,metrics.icloud.com
@@ -93,6 +95,7 @@ HOST-SUFFIX,cpro.baidu.com
 HOST-SUFFIX,pos.baidu.com
 HOST-SUFFIX,tuisong.baidu.com
 HOST,zz.bdstatic.com
+
 #baidu#
 -HOST,newvector.map.baidu.com
 HOST,mobads-pre-config.cdn.bcebos.com
@@ -108,6 +111,7 @@ HOST,i.snssdk.com
 HOST-SUFFIX,ctobsnssdk.com
 HOST-SUFFIX,pglstatp-toutiao.com
 HOST-SUFFIX,zijieapi.com
+
 #bytedance#
 -HOST,log.snssdk.com
 -HOST,stream.snssdk.com
@@ -132,10 +136,11 @@ HOST-SUFFIX,google-analytics.com
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagmanager.com
 HOST-SUFFIX,googletagservices.com
+
 #google#
 -HOST,crashlytics.com
 -HOST,crashlyticsreports-pa.googleapis.com
-HOST,safebrowsing.googleapis-cn.com
+-HOST,safebrowsing.googleapis-cn.com
 
 #huawei
 -HOST-SUFFIX,jiguang.cn
@@ -162,18 +167,19 @@ HOST,mtrace.qq.com
 HOST,pgdt.gtimg.cn
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,ugdtimg.com
+
 #tencent#
 -HOST,adsmind.gdtimg.com
+-HOST,dns.weixin.qq.com.cn
 -HOST,fp-it.fengkongcloud.com
 -HOST,h.trace.qq.com
 -HOST,httpdns.kwd.inkuai.com
 -HOST,mazu.m.qq.com
-HOST,oth.eve.mdt.qq.com
-HOST,oth.str.mdt.qq.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
--HOST,dns.weixin.qq.com.cn
+HOST,oth.eve.mdt.qq.com
+HOST,oth.str.mdt.qq.com
 HOST,pgdt.gtimg.com
 HOST,qzs.gdtimg.com
 HOST-SUFFIX,adukwai.com
