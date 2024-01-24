@@ -13,10 +13,6 @@ HOST-SUFFIX,emb-api.com
 HOST-SUFFIX,yahoo.com
 HOST-SUFFIX,zenfs.com
 
-#keyword
-HOST-KEYWORD,.facebook.
-HOST-KEYWORD,google
-
 #asn
 IP-ASN,174 // Cogent Communications
 IP-ASN,714 // APPLE INC.
