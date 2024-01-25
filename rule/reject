@@ -1,4 +1,3 @@
--HOST-KEYWORD,appsflyer
 -HOST-KEYWORD,gepush
 -HOST-KEYWORD,getui
 -HOST-KEYWORD,jpush
@@ -9,6 +8,7 @@
 -HOST-WILDCARD,*adashx*
 -HOST-WILDCARD,*ad.*.yximgs.com
 -HOST-WILDCARD,*.log.aliyuncs.com
+HOST-KEYWORD,appsflyer
 HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-WILDCARD,ad.*
