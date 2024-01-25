@@ -170,7 +170,6 @@ HOST-SUFFIX,ugdtimg.com
 
 #tencent#
 -HOST,adsmind.gdtimg.com
--HOST,dns.weixin.qq.com.cn
 -HOST,fp-it.fengkongcloud.com
 -HOST,h.trace.qq.com
 -HOST,httpdns.kwd.inkuai.com
@@ -178,6 +177,7 @@ HOST-SUFFIX,ugdtimg.com
 -HOST,pingma.qq.com
 -HOST-SUFFIX,beacon.qq.com
 -HOST-SUFFIX,rqd.qq.com
+HOST,dns.weixin.qq.com.cn
 HOST,oth.eve.mdt.qq.com
 HOST,oth.str.mdt.qq.com
 HOST,pgdt.gtimg.com
