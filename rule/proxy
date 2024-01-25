@@ -39,12 +39,12 @@ HOST-SUFFIX,gitlab.com,Github
 HOST-SUFFIX,gitlab.io,Github
 
 #Instagram
-HOST-KEYWORD,instagram,Instagram
-HOST-SUFFIX,cdninstagram.com,Instagram
-HOST-SUFFIX,fbcdn.net,Instagram
-HOST-SUFFIX,fbsbx.com,Instagram
-HOST-SUFFIX,instagram.com,Instagram
-HOST-SUFFIX,instagr.am,Instagram
+-HOST-KEYWORD,instagram,Instagram
+-HOST-SUFFIX,cdninstagram.com,Instagram
+-HOST-SUFFIX,fbcdn.net,Instagram
+-HOST-SUFFIX,fbsbx.com,Instagram
+-HOST-SUFFIX,instagram.com,Instagram
+-HOST-SUFFIX,instagr.am,Instagram
 
 #Spotify
 HOST-KEYWORD,spotify,Spotify
