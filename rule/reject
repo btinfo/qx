@@ -140,7 +140,7 @@ HOST-SUFFIX,googletagservices.com
 #google#
 -HOST,crashlytics.com
 -HOST,crashlyticsreports-pa.googleapis.com
--HOST,safebrowsing.googleapis-cn.com
+HOST,safebrowsing.googleapis-cn.com
 
 #huawei
 -HOST-SUFFIX,jiguang.cn
