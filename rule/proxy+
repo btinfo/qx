@@ -1,6 +1,7 @@
 HOST-SUFFIX,blogspot.com
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,transfermarkt.com
+HOST-SUFFIX,transfermarkt.technology
 
 #apple
 HOST,testflight.apple.com
