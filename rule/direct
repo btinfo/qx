@@ -8,14 +8,6 @@ IP-CIDR,192.168.0.0/16
 IP-CIDR,224.0.0.0/4
 IP6-CIDR,fe80::/10
 
--HOST,amdc.m.taobao.com
--HOST,analytics.strava.com
--HOST,app.adjust.com
--HOST,bdtj.tagtic.cn
--HOST,crt.trust-providerc.cn
--HOST,log.mmstat.com
--HOST,sycm.mmstat.com
-
 HOST,ad.12306.cn
 HOST,app.appsflyer.com
 HOST,ca.iadsdk.apple.com
@@ -34,5 +26,12 @@ HOST,livew.l.qq.com
 HOST,vd.l.qq.com
 HOST,vi.l.qq.com
 
+-HOST,amdc.m.taobao.com
+-HOST,analytics.strava.com
+-HOST,app.adjust.com
+-HOST,bdtj.tagtic.cn
+-HOST,crt.trust-providerc.cn
+-HOST,log.mmstat.com
 -HOST,msg.umengcloud.com
 -HOST,msg.umeng.com
+-HOST,sycm.mmstat.com
