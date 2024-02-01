@@ -60,10 +60,10 @@ HOST-SUFFIX,ubixioe.com
 HOST-SUFFIX,uyunad.com
 
 #alibaba-volc
-HOST,mssdk.volces.com
-HOST,vod-license-b.volccdn.com
-HOST,vod-license-m.volccdn.com
-HOST,vod-settings.volcvod.com
+-HOST,mssdk.volces.com
+-HOST,vod-license-b.volccdn.com
+-HOST,vod-license-m.volccdn.com
+-HOST,vod-settings.volcvod.com
 
 #amazon-v2fly
 HOST-SUFFIX,amazon-adsystem.com
