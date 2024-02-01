@@ -13,6 +13,7 @@ HOST-KEYWORD,id5-sync //tm
 HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-WILDCARD,ad.*
 HOST-WILDCARD,ads.*
+HOST-WILDCARD,adx.*
 HOST-WILDCARD,sdk.iad-0?.braze.com
 
 -HOST,beacon.krxd.net
@@ -161,6 +162,10 @@ HOST,adlaunch.moji.com
 
 #naver
 HOST,ad2.fivecdm.com
+
+#qingting
+HOST,abtest.z.qingting.fm
+HOST,abtest-z.qtfm.cn
 
 #tencent-v2fly
 HOST,mtrace.qq.com
