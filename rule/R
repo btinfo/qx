@@ -6,3 +6,5 @@ HOST-SUFFIX,primis.tech
 
 IP-CIDR,180.76.76.200/32 // tieba
 HOST,ad2.fivecdm.com //计步器
+
+HOST-KEYWORD,pangolin-sdk-toutiao
