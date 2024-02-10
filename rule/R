@@ -8,3 +8,10 @@ IP-CIDR,180.76.76.200/32 // tieba
 HOST,ad2.fivecdm.com //计步器
 
 HOST-KEYWORD,pangolin-sdk-toutiao
+
+host, ads.inmobi.com
+host, googleads.g.doubleclick-cn.net
+host, googleads.g.doubleclick.net
+host, securepubads.g.doubleclick.net
+host, pagead2.googlesyndication.com
+host, ad.qtfm.cn
