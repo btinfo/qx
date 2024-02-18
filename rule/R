@@ -16,3 +16,13 @@ host, securepubads.g.doubleclick.net
 host, pagead2.googlesyndication.com
 host, ad.qtfm.cn
 host-suffix, e.qq.com
+
+host, adx.zuoyebang.com
+host, sf3-fe-tos.pglstatp-toutiao.com
+host, aaid.uyunad.com
+host, ad.bayescom.com
+host, gdfp.gifshow.com
+host, mobads.baidu.com
+host-suffix, e.kuaishou.com
+host, adsmind.ugdtimg.com
+host-suffix, gdt.qq.com
