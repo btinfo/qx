@@ -26,6 +26,8 @@ host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
 host, adsmind.ugdtimg.com
+host, btrace.qq.com
+host, mtrace.qq.com
 host, pgdt.gtimg.cn
 host, pgdt.gtimg.com
 host, pgdt.ugdtimg.com
@@ -41,4 +43,5 @@ host, aaid.uyunad.com
 host, ad.bayescom.com
 host, ad.qtfm.cn
 host, adx.zuoyebang.com
+host, cdn.cmgadx.com // 央视频
 host, gdfp.gifshow.com
