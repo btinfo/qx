@@ -12,6 +12,8 @@ host, securepubads.g.doubleclick.net
 #baidu
 -host, afd.baidu.com
 -host, als.baidu.com
+host, hm.baidu.com
+host, hmma.baidu.com
 host, mobads.baidu.com
 -host, nsclick.baidu.com
 ip-cidr, 180.76.76.200/32 // 贴吧
