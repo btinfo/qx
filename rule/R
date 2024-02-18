@@ -1,7 +1,7 @@
 # TransferMarkd
-HOST-SUFFIX,criteo.net
-HOST-SUFFIX,ioam.de
-HOST-SUFFIX,oddsserve.com
+-HOST-SUFFIX,criteo.net
+-HOST-SUFFIX,ioam.de
+-HOST-SUFFIX,oddsserve.com
 HOST-SUFFIX,primis.tech
 
 IP-CIDR,180.76.76.200/32 // tieba
@@ -15,3 +15,4 @@ host, googleads.g.doubleclick.net
 host, securepubads.g.doubleclick.net
 host, pagead2.googlesyndication.com
 host, ad.qtfm.cn
+host-suffix, e.qq.com
