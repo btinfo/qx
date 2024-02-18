@@ -1,29 +1,44 @@
+#apple
+host-suffix, iadsdk.apple.com
 
--HOST-SUFFIX,criteo.net
--HOST-SUFFIX,ioam.de
--HOST-SUFFIX,oddsserve.com
-HOST-SUFFIX,primis.tech // TransferMarkd
-
-IP-CIDR,180.76.76.200/32 // 贴吧
-HOST,ad2.fivecdm.com //计步器
-
-HOST-KEYWORD,pangolin-sdk-toutiao
-host, sf3-fe-tos.pglstatp-toutiao.com
-
+#google
+host-suffix, googleadservices.com
 host, ads.inmobi.com
 host, googleads.g.doubleclick-cn.net
 host, googleads.g.doubleclick.net
-host, securepubads.g.doubleclick.net
 host, pagead2.googlesyndication.com
+host, securepubads.g.doubleclick.net
 
+#baidu
+host, afd.baidu.com
+host, als.baidu.com
+host, mobads.baidu.com
+host, nsclick.baidu.com
+ip-cidr, 180.76.76.200/32 // 贴吧
+
+#byte
+host-keyword, pangolin-sdk-toutiao
+host, sf3-fe-tos.pglstatp-toutiao.com
+host, pangolin.snssdk.com
+
+#tencent
 host-suffix, e.qq.com
-host, adsmind.ugdtimg.com
 host-suffix, gdt.qq.com
+host-suffix, l.qq.com
+host, adsmind.ugdtimg.com
+host, pgdt.gtimg.cn
+host, pgdt.gtimg.com
+host, pgdt.ugdtimg.com
+host, wa.gtimg.com
 
-host, ad.qtfm.cn
-host, adx.zuoyebang.com
+host-suffix, pv.sohu.com
+ip-cidr, 203.107.1.1/24
+host, ad2.fivecdm.com //计步器
+
+host-suffix, e.kuaishou.com
+host-suffix, primis.tech // TransferMarkd
 host, aaid.uyunad.com
 host, ad.bayescom.com
+host, ad.qtfm.cn
+host, adx.zuoyebang.com
 host, gdfp.gifshow.com
-host, mobads.baidu.com
-host-suffix, e.kuaishou.com
