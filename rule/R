@@ -1,28 +1,29 @@
-# TransferMarkd
+
 -HOST-SUFFIX,criteo.net
 -HOST-SUFFIX,ioam.de
 -HOST-SUFFIX,oddsserve.com
-HOST-SUFFIX,primis.tech
+HOST-SUFFIX,primis.tech // TransferMarkd
 
-IP-CIDR,180.76.76.200/32 // tieba
+IP-CIDR,180.76.76.200/32 // 贴吧
 HOST,ad2.fivecdm.com //计步器
 
 HOST-KEYWORD,pangolin-sdk-toutiao
+host, sf3-fe-tos.pglstatp-toutiao.com
 
 host, ads.inmobi.com
 host, googleads.g.doubleclick-cn.net
 host, googleads.g.doubleclick.net
 host, securepubads.g.doubleclick.net
 host, pagead2.googlesyndication.com
-host, ad.qtfm.cn
-host-suffix, e.qq.com
 
+host-suffix, e.qq.com
+host, adsmind.ugdtimg.com
+host-suffix, gdt.qq.com
+
+host, ad.qtfm.cn
 host, adx.zuoyebang.com
-host, sf3-fe-tos.pglstatp-toutiao.com
 host, aaid.uyunad.com
 host, ad.bayescom.com
 host, gdfp.gifshow.com
 host, mobads.baidu.com
 host-suffix, e.kuaishou.com
-host, adsmind.ugdtimg.com
-host-suffix, gdt.qq.com
