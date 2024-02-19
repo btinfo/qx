@@ -20,7 +20,7 @@ ip-cidr, 180.76.76.200/32 // 贴吧
 
 #byte
 host-keyword, pangolin-sdk-toutiao
-host, sf3-fe-tos.pglstatp-toutiao.com
+host-keyword, pglstatp-toutiao
 host, pangolin.snssdk.com
 
 #tencent
