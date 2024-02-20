@@ -1,5 +1,5 @@
 #apple
-host-suffix, iadsdk.apple.com
+-host-suffix, iadsdk.apple.com
 
 #google
 host-suffix, googleadservices.com
@@ -12,16 +12,16 @@ host, securepubads.g.doubleclick.net
 #baidu
 -host, afd.baidu.com
 -host, als.baidu.com
-host, hm.baidu.com
-host, hmma.baidu.com
-host, mobads.baidu.com
+-host, hm.baidu.com
+-host, hmma.baidu.com
+-host, mobads.baidu.com
 -host, nsclick.baidu.com
 ip-cidr, 180.76.76.200/32 // 贴吧
 
 #byte
 host-keyword, pangolin-sdk-toutiao
 host-keyword, pglstatp-toutiao
-host, pangolin.snssdk.com
+-host, pangolin.snssdk.com
 
 #tencent
 host-suffix, e.qq.com
@@ -35,15 +35,15 @@ host, pgdt.gtimg.com
 host, pgdt.ugdtimg.com
 host, wa.gtimg.com
 
-host-suffix, pv.sohu.com
+-host-suffix, pv.sohu.com
 -ip-cidr, 203.107.1.1/24
 host, ad2.fivecdm.com //计步器
 
-host-suffix, e.kuaishou.com
+-host-suffix, e.kuaishou.com
 host-suffix, primis.tech // TransferMarkd
 host, aaid.uyunad.com
 host, ad.bayescom.com
 host, ad.qtfm.cn
 host, adx.zuoyebang.com
 -host, cdn.cmgadx.com // 央视频
-host, gdfp.gifshow.com
+-host, gdfp.gifshow.com
