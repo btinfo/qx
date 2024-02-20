@@ -28,12 +28,12 @@ host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
 host, adsmind.ugdtimg.com
-host, btrace.qq.com
-host, mtrace.qq.com
+-host, btrace.qq.com
+-host, mtrace.qq.com
 host, pgdt.gtimg.cn
 host, pgdt.gtimg.com
 host, pgdt.ugdtimg.com
-host, wa.gtimg.com
+-host, wa.gtimg.com
 
 -host-suffix, pv.sohu.com
 -ip-cidr, 203.107.1.1/24
