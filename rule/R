@@ -1,67 +1,63 @@
-host, btrace.qq.com
-host, mtrace.qq.com
-host-suffix, adnxs.com
-host-suffix, adx.opera.com
-host-suffix, taboola.com
-host-suffix, criteo.com
-host-suffix, criteo.net
--host, rich.kuwo.cn
-host, ads.pubmatic.com
--host, h-adashx.ut.taobao.com
--host, adashx.m.taobao.com
-host, adt.cpatrk.net
--host, mobilead.kuwo.cn
-host, adstats.tencentmusic.com
-host-suffix, outbrain.com
--host-keyword, volc
+-HOST,adashx.m.taobao.com
+-HOST,afd.baidu.com
+-HOST,als.baidu.com
+-HOST,cdn.cmgadx.com // 央视频
+-HOST,gdfp.gifshow.com
+-HOST,googleads.g.doubleclick-cn.net
+-HOST,googleads.g.doubleclick.net
+-HOST,h-adashx.ut.taobao.com
+-HOST-KEYWORD,volc
+-HOST,mobads.baidu.com
+-HOST,mobilead.kuwo.cn
+-HOST,nsclick.baidu.com
+-HOST,rich.kuwo.cn
+-HOST,securepubads.g.doubleclick.net
+-HOST-SUFFIX,e.kuaishou.com
+-HOST-SUFFIX,iadsdk.apple.com
+-HOST-SUFFIX,pv.sohu.com
+-HOST,wa.gtimg.com
+-IP-CIDR,203.107.1.1/24
 
-#apple
--host-suffix, iadsdk.apple.com
-
-#google
-host-suffix, googleadservices.com
-host-suffix, googlesyndication.com
-host-suffix, doubleclick-cn.net
-host-suffix, doubleclick.net
-host, ads.inmobi.com
--host, googleads.g.doubleclick-cn.net
--host, googleads.g.doubleclick.net
--host, securepubads.g.doubleclick.net
+HOST,aaid.uyunad.com
+HOST,ad2.fivecdm.com //计步器
+HOST,ad.bayescom.com
+HOST,ad.qtfm.cn
+HOST,ads.inmobi.com
+HOST,ads.pubmatic.com
+HOST,adt.cpatrk.net
+HOST,adx.zuoyebang.com
+HOST-SUFFIX,adnxs.com
+HOST-SUFFIX,adx.opera.com
+HOST-SUFFIX,criteo.com
+HOST-SUFFIX,criteo.net
+HOST-SUFFIX,outbrain.com
+HOST-SUFFIX,primis.tech // TransferMarkd
+HOST-SUFFIX,taboola.com
 
 #baidu
--host, afd.baidu.com
--host, als.baidu.com
-host, hm.baidu.com
-host, hmma.baidu.com
--host, mobads.baidu.com
--host, nsclick.baidu.com
-ip-cidr, 180.76.76.200/32 // 贴吧
+HOST,hm.baidu.com
+HOST,hmma.baidu.com
+IP-CIDR,180.76.76.200/32 // 贴吧
 
-#byte
-host-keyword, pangolin-sdk-toutiao
-host-keyword, pglstatp-toutiao
+#bytedance
+HOST-KEYWORD,pangolin-sdk-toutiao
+HOST-KEYWORD,pglstatp-toutiao
+
+#google
+HOST-SUFFIX,doubleclick-cn.net
+HOST-SUFFIX,doubleclick.net
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googlesyndication.com
 
 #tencent
-host-suffix, e.qq.com
-host-suffix, gdt.qq.com
-host-suffix, l.qq.com
-host, adsmind.ugdtimg.com
--host, btrace.qq.com
--host, mtrace.qq.com
-host, pgdt.gtimg.cn
-host, pgdt.gtimg.com
-host, pgdt.ugdtimg.com
--host, wa.gtimg.com
+HOST,adsmind.ugdtimg.com
+HOST,adstats.tencentmusic.com
+HOST,btrace.qq.com
+HOST,mtrace.qq.com
+HOST,pgdt.gtimg.cn
+HOST,pgdt.gtimg.com
+HOST,pgdt.ugdtimg.com
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,gdt.qq.com
+HOST-SUFFIX,l.qq.com
 
--host-suffix, pv.sohu.com
--ip-cidr, 203.107.1.1/24
-host, ad2.fivecdm.com //计步器
-
--host-suffix, e.kuaishou.com
-host-suffix, primis.tech // TransferMarkd
-host, aaid.uyunad.com
-host, ad.bayescom.com
-host, ad.qtfm.cn
-host, adx.zuoyebang.com
--host, cdn.cmgadx.com // 央视频
--host, gdfp.gifshow.com
