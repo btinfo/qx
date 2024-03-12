@@ -1,3 +1,20 @@
+host, btrace.qq.com
+host, mtrace.qq.com
+host-suffix, adnxs.com
+host-suffix, adx.opera.com
+host-suffix, taboola.com
+host-suffix, criteo.com
+host-suffix, criteo.net
+-host, rich.kuwo.cn
+host, ads.pubmatic.com
+-host, h-adashx.ut.taobao.com
+-host, adashx.m.taobao.com
+host, adt.cpatrk.net
+-host, mobilead.kuwo.cn
+host, adstats.tencentmusic.com
+host-suffix, outbrain.com
+-host-keyword, volc
+
 #apple
 -host-suffix, iadsdk.apple.com
 
