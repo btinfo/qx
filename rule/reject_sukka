@@ -1,4 +1,5 @@
 HOST-SUFFIX,0x1f4b0.com
+HOST-SUFFIX,114la.com
 HOST-SUFFIX,114so.cn
 HOST-SUFFIX,1391.com
 HOST-SUFFIX,17gouwuba.com
@@ -9,6 +10,7 @@ HOST-SUFFIX,2345.cn
 HOST-SUFFIX,2345.com
 HOST-SUFFIX,285680.com
 HOST-SUFFIX,2mdn.net
+HOST-SUFFIX,365key.com
 HOST-SUFFIX,3721zh.com
 HOST-SUFFIX,3lift.com
 HOST-SUFFIX,4009997658.com
@@ -83,6 +85,7 @@ HOST-SUFFIX,admob.com
 HOST-SUFFIX,admob.xiaomi.com
 HOST-SUFFIX,adnet.qq.com
 HOST-SUFFIX,adnxs.com
+HOST-SUFFIX,adnyg.com
 HOST-SUFFIX,ad-plus.cn
 HOST-SUFFIX,adpro.cn
 HOST-SUFFIX,adpush.cn
@@ -166,6 +169,7 @@ HOST-SUFFIX,analytics-data.io
 HOST-SUFFIX,analytics.live.com
 HOST-SUFFIX,analytics.snssdk.com
 HOST-SUFFIX,api.appsee.com
+HOST-SUFFIX,api.miwifi.com
 HOST-SUFFIX,apoll.m.taobao.com
 HOST-SUFFIX,app-adforce.jp
 HOST-SUFFIX,appboy.com
@@ -198,6 +202,7 @@ HOST-SUFFIX,avlyun.sec.miui.com
 HOST-SUFFIX,awempire.com
 HOST-SUFFIX,ax.ifeng.com
 HOST-SUFFIX,baidustatic.com
+HOST-SUFFIX,baifendian.com
 HOST-SUFFIX,baiwanchuangyi.com
 HOST-SUFFIX,bango.combango.org
 HOST-SUFFIX,bango.net
@@ -234,7 +239,9 @@ HOST-SUFFIX,bxmns.com
 HOST-SUFFIX,cappumedia.com
 HOST-SUFFIX,carbonads.com
 HOST-SUFFIX,carbonads.net
+HOST-SUFFIX,carpe.pages.dev
 HOST-SUFFIX,casee.cn
+HOST-SUFFIX,cbjs.baidustatic.com
 HOST-SUFFIX,cdnads.com
 HOST-SUFFIX,cfcdist.loan
 HOST-SUFFIX,cfcnet.top
@@ -292,6 +299,7 @@ HOST-SUFFIX,da.hunantv.com
 HOST-SUFFIX,daitdai.com
 HOST-SUFFIX,da.mgtv.com
 HOST-SUFFIX,data.360safe.com
+HOST-SUFFIX,data.bilibili.com
 HOST-SUFFIX,data.dbankcloud.cn
 HOST-SUFFIX,data.hicloud.com
 HOST-SUFFIX,data.microsoft.com
@@ -308,6 +316,7 @@ HOST-SUFFIX,dnkeeper.hicloud.com
 HOST-SUFFIX,dnkeeper.platform.dbankcloud.cn
 HOST-SUFFIX,domobcdn.com
 HOST-SUFFIX,domob.cn
+HOST-SUFFIX,donews.com
 HOST-SUFFIX,do-not-tracker.org
 HOST-SUFFIX,dopa.com
 HOST-SUFFIX,dopa.com.cn
@@ -324,6 +333,7 @@ HOST-SUFFIX,dt.hicloud.com
 HOST-SUFFIX,dtscout.com
 HOST-SUFFIX,duclick.baidu.com
 HOST-SUFFIX,dugesheying.com
+HOST-SUFFIX,duomai.com
 HOST-SUFFIX,duxiaoman.com
 HOST-SUFFIX,easyrecoverychina.com
 HOST-SUFFIX,eatcells.com
@@ -480,10 +490,12 @@ HOST-SUFFIX,knlob.com
 HOST-SUFFIX,kochava.com
 HOST-SUFFIX,koolmediaoffers.com
 HOST-SUFFIX,krxd.net
+HOST-SUFFIX,kuaizhan.com
 HOST-SUFFIX,kuaizip.com
 HOST-SUFFIX,kumihua.com
 HOST-SUFFIX,kuyun.com
 HOST-SUFFIX,laomaotao.net
+HOST-SUFFIX,lapin365.com
 HOST-SUFFIX,leadboltads.net
 HOST-SUFFIX,leadzu.com
 HOST-SUFFIX,leanplum.com
@@ -561,6 +573,7 @@ HOST-SUFFIX,mistat.intl.xiaomi.com
 HOST-SUFFIX,mistat.rus.xiaomi.com
 HOST-SUFFIX,mistat.xiaomi.com
 HOST-SUFFIX,mkitgfs.com
+HOST-SUFFIX,mktg.tags.f5.com
 HOST-SUFFIX,mlnbike.com
 HOST-SUFFIX,mlt01.com
 HOST-SUFFIX,moatads.com
@@ -584,6 +597,7 @@ HOST-SUFFIX,mvconf.cloud.360safe.com
 HOST-SUFFIX,mybest.app
 HOST-SUFFIX,mycleanmymac.com
 HOST-SUFFIX,nbsdk-baichuan.alicdn.com
+HOST-SUFFIX,nebula-collector.huawei.com
 HOST-SUFFIX,newapi.com
 HOST-SUFFIX,nexage.com
 HOST-SUFFIX,nicelabel.cc
@@ -601,6 +615,7 @@ HOST-SUFFIX,oadz.com
 HOST-SUFFIX,odb.outbrain.com
 HOST-SUFFIX,offerstrack.net
 HOST-SUFFIX,ok365.com
+HOST-SUFFIX,omtrdc.net
 HOST-SUFFIX,onesignal.com
 HOST-SUFFIX,onetad.com
 HOST-SUFFIX,openlocation-drcn.platform.dbankcloud.com
@@ -614,6 +629,7 @@ HOST-SUFFIX,osscach2023.hicloud.tw
 HOST-SUFFIX,ott.cibntv.net
 HOST-SUFFIX,outbrain.com
 HOST-SUFFIX,overturechina.com
+HOST-SUFFIX,p2perrorlog.douyucdn.cn
 HOST-SUFFIX,pandora.xiaomi.com
 HOST-SUFFIX,pangolin-sdk-toutiao.com
 HOST-SUFFIX,pangolin.snssdk.com
@@ -625,7 +641,7 @@ HOST-SUFFIX,personaly.click
 HOST-SUFFIX,pgdt.ugdtimg.com
 HOST-SUFFIX,pinzhitmall.com
 HOST-SUFFIX,pixels.asia
-HOST-SUFFIX,plausible.cyberciti.
+HOST-SUFFIX,plausible.cyberciti.com
 HOST-SUFFIX,playtomic.com
 HOST-SUFFIX,pluto.sogou.com
 HOST-SUFFIX,popads.net
@@ -641,6 +657,7 @@ HOST-SUFFIX,pubnative.net
 HOST-SUFFIX,pub.network
 HOST-SUFFIX,pub.tom.com
 HOST-SUFFIX,push.qq.com
+HOST-SUFFIX,pv.com.cn
 HOST-SUFFIX,pxlk9.net
 HOST-SUFFIX,p.youku.com
 HOST-SUFFIX,qchannel01.cn
@@ -652,6 +669,7 @@ HOST-SUFFIX,quanliyouxi.cn
 HOST-SUFFIX,quantserve.com
 HOST-SUFFIX,quixdtrk.com
 HOST-SUFFIX,qutaobi.com
+HOST-SUFFIX,qvb.qcloud.com
 HOST-SUFFIX,qwapi.com
 HOST-SUFFIX,qxs.la
 HOST-SUFFIX,qzs.qq.com
@@ -671,6 +689,7 @@ HOST-SUFFIX,sdkserver-dra.op.hicloud.com
 HOST-SUFFIX,sdownload.stargame.com
 HOST-SUFFIX,se.360.cn
 HOST-SUFFIX,segment.io
+HOST-SUFFIX,sensorsdata.cn
 HOST-SUFFIX,servedby-buysellads.com
 HOST-SUFFIX,servicesupport.hicloud.com
 HOST-SUFFIX,serving-sys.com
@@ -707,8 +726,10 @@ HOST-SUFFIX,snr.snssdk.com
 HOST-SUFFIX,sonobi.com
 HOST-SUFFIX,ssacdn.com
 HOST-SUFFIX,ssl2.duapps.com
+HOST-SUFFIX,stargame.com
 HOST-SUFFIX,starmobs.com
 HOST-SUFFIX,stat.360safe.com
+HOST-SUFFIX,stat.cat.net
 HOST-SUFFIX,statcounter.com
 HOST-SUFFIX,stathat.com
 HOST-SUFFIX,stat.kankan.com
@@ -726,6 +747,7 @@ HOST-SUFFIX,supersonicads.com
 HOST-SUFFIX,supersonic.com
 HOST-SUFFIX,svd-cdn.com
 HOST-SUFFIX,taboola.com
+HOST-SUFFIX,taboola.com.cn
 HOST-SUFFIX,taginstall.com
 HOST-SUFFIX,tagtic.cn
 HOST-SUFFIX,taio.app
@@ -739,12 +761,16 @@ HOST-SUFFIX,taptica.com
 HOST-SUFFIX,tce.alicdn.com
 HOST-SUFFIX,tcxshop.com
 HOST-SUFFIX,tealiumiq.com
+HOST-SUFFIX,telemetry.coder.com
 HOST-SUFFIX,telemetry.microsoft.com
 HOST-SUFFIX,telemetry.mozilla.org
 HOST-SUFFIX,telemetry.urs.microsoft.com
+HOST-SUFFIX,testin.cn
 HOST-SUFFIX,testplus.cn
 HOST-SUFFIX,thepiratebay3.com
 HOST-SUFFIX,tidafors.xyz
+HOST-SUFFIX,tiqcdn.cn
+HOST-SUFFIX,tiqcdn.com
 HOST-SUFFIX,tjqonline.cn
 HOST-SUFFIX,tongji.baidu.com
 HOST-SUFFIX,toolbar.baidu.co
@@ -761,6 +787,7 @@ HOST-SUFFIX,tracking.rus.miui.com
 HOST-SUFFIX,track.xiachufang.com
 HOST-SUFFIX,tradedoubler.com
 HOST-SUFFIX,trafficjunky.net
+HOST-SUFFIX,trk.caseads.com
 HOST-SUFFIX,trk.drdobbs.com
 HOST-SUFFIX,trustx.org
 HOST-SUFFIX,tuanxue360.net
@@ -774,6 +801,7 @@ HOST-SUFFIX,ubacollect-drcn.cloud.dbankcloud.cn
 HOST-SUFFIX,uberads.com
 HOST-SUFFIX,ubmcmm.baidustatic.com
 HOST-SUFFIX,udrig.com
+HOST-SUFFIX,ugdtimg.com
 HOST-SUFFIX,ulink.cc
 HOST-SUFFIX,ultraiso.net
 HOST-SUFFIX,umengcloud.com
@@ -818,6 +846,7 @@ HOST-SUFFIX,weishi.baidu.com
 HOST-SUFFIX,whalecloud.com
 HOST-SUFFIX,wm.baidu.com
 HOST-SUFFIX,wooboo.com.cn
+HOST-SUFFIX,woopra.com
 HOST-SUFFIX,wp-tw.americanexpress.com
 HOST-SUFFIX,wwads.cn
 HOST-SUFFIX,wx16999.com
@@ -827,6 +856,7 @@ HOST-SUFFIX,xdrig.com
 HOST-SUFFIX,xiaohuau.xyz
 HOST-SUFFIX,xiniuz.com
 HOST-SUFFIX,xiti.com
+HOST-SUFFIX,xlingdi.com
 HOST-SUFFIX,xlmc.sec.miui.com
 HOST-SUFFIX,xmindchina.net
 HOST-SUFFIX,xpanama.net
@@ -843,10 +873,12 @@ HOST-SUFFIX,youxiaoad.com
 HOST-SUFFIX,yoyi.com.cn
 HOST-SUFFIX,yoyi.tv
 HOST-SUFFIX,yuanchengxiezuo.com
+HOST-SUFFIX,zampdsp.com
 HOST-SUFFIX,zbrushcn.com
 HOST-SUFFIX,zhanzhang.net
 HOST-SUFFIX,zhaozecheng.cn
 HOST-SUFFIX,zhenxinet.com
+HOST-SUFFIX,zhugeio.com
 HOST-SUFFIX,zhzzx.com
 HOST-SUFFIX,zupee.com
 HOST-SUFFIX,zynga.com
@@ -1067,6 +1099,7 @@ HOST,beacon-api.aliyuncs.com
 HOST,beacon.gtimg.com
 HOST,beacon.wikia-services.com
 HOST,bigdata.ssp.samsung.com
+HOST,bingads.microsoft.com
 HOST,biz.live.xunlei.com
 HOST,books-analytics-events.apple.com
 HOST,books-analytics-events.news.apple-dns.net
@@ -1606,6 +1639,7 @@ HOST,t.yesware.com
 HOST,tyh.taobao.com
 HOST,u1.img.mobile.sina.cn
 HOST,ulog.imap.baidu.com
+HOST,umami.rss3.io
 HOST,umwatsonc.events.data.microsoft.com
 HOST,umwatsonc.telemetry.microsoft.com
 HOST,union.gdtimg.com

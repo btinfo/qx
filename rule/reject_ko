@@ -182,6 +182,7 @@ HOST-SUFFIX,casalemedia.com
 HOST-SUFFIX,catad5959.com
 HOST-SUFFIX,categorysort.com
 HOST-WILDCARD,cdn-adn-*.rayjump.com
+HOST,cdn-ads.tmap.co.kr
 HOST,cdndn.3dpop.kr
 HOST,cf-eba.everytime.kr
 HOST-SUFFIX,cizion.com
@@ -197,6 +198,7 @@ HOST,cyad1.nate.com
 HOST,cyad.nate.com
 HOST,d1ap9gbbf77h85.cloudfront.net
 HOST,d1cykymlllue3h.cloudfront.net
+HOST,d23poh9wsma6va.cloudfront.net
 HOST-SUFFIX,dable.io
 HOST,dadispapi.auction.co.kr
 HOST,daimg.encar.com
