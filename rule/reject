@@ -10,7 +10,6 @@
 -HOST,wa.gtimg.com
 -IP-CIDR,203.107.1.1/24
 
--HOST-SUFFIX,netgear.com, Global
 -HOST,metrics.icloud.com
 -HOST-SUFFIX,jpush.cn
 -HOST-SUFFIX,beizi.biz
