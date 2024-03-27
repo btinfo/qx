@@ -10,16 +10,13 @@
 -HOST,wa.gtimg.com
 -IP-CIDR,203.107.1.1/24
 
-host-suffix, adukwai.com
-host, open.e.kuaishou.com
-host, gdfp.gifshow.com
--host-suffix, netgear.com, Global
--host, metrics.icloud.com
--host-suffix, jpush.cn
--host-suffix, beizi.biz
--host, sdk.beizi.biz
--host, inapps.appsflyer.com
--host, data.flurry.com
+-HOST-SUFFIX,netgear.com, Global
+-HOST,metrics.icloud.com
+-HOST-SUFFIX,jpush.cn
+-HOST-SUFFIX,beizi.biz
+-HOST,sdk.beizi.biz
+-HOST,inapps.appsflyer.com
+-HOST,data.flurry.com
 
 HOST,aaid.uyunad.com
 HOST,ad2.fivecdm.com //计步器
@@ -29,8 +26,11 @@ HOST,ads.inmobi.com
 HOST,ads.pubmatic.com
 HOST,adt.cpatrk.net
 HOST,adx.zuoyebang.com
+HOST,gdfp.gifshow.com
+HOST,open.e.kuaishou.com
 HOST-SUFFIX,adnxs.com
 HOST-SUFFIX,adx.opera.com
+HOST-SUFFIX,adukwai.com
 HOST-SUFFIX,criteo.com
 HOST-SUFFIX,criteo.net
 HOST-SUFFIX,outbrain.com
