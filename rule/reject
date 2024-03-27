@@ -42,7 +42,7 @@ HOST-SUFFIX,iadsdk.apple.com
 #baidu
 HOST,hm.baidu.com
 HOST,hmma.baidu.com
-HOST,sofire.baidu.com
+-HOST,sofire.baidu.com
 -IP-CIDR,180.76.76.200/32 // 贴吧
 
 #bilibili
