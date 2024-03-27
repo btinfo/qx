@@ -2,21 +2,37 @@
 -HOST,afd.baidu.com
 -HOST,als.baidu.com
 -HOST,cdn.cmgadx.com // 央视频
--HOST,gdfp.gifshow.com
--HOST,googleads.g.doubleclick-cn.net
--HOST,googleads.g.doubleclick.net
 -HOST,h-adashx.ut.taobao.com
 -HOST-KEYWORD,volc
 -HOST,mobads.baidu.com
--HOST,mobilead.kuwo.cn
 -HOST,nsclick.baidu.com
--HOST,rich.kuwo.cn
--HOST,securepubads.g.doubleclick.net
--HOST-SUFFIX,e.kuaishou.com
--HOST-SUFFIX,iadsdk.apple.com
 -HOST-SUFFIX,pv.sohu.com
 -HOST,wa.gtimg.com
 -IP-CIDR,203.107.1.1/24
+
+host, qzs.gdtimg.com
+host-suffix, adukwai.com
+host, sofire.baidu.com
+host, open.e.kuaishou.com
+host, gdfp.gifshow.com
+-host-suffix, netgear.com, Global
+host, g.koowo.com
+host, rich.kuwo.cn
+host, ad.tencentmusic.com
+host, mobilead.kuwo.cn
+-host, metrics.icloud.com
+-host-suffix, jpush.cn
+host-suffix, iadsdk.apple.com
+host, h.trace.qq.com
+host, dataflow.biliapi.com
+host, cm.bilibili.com
+host-suffix, bugly.qq.com
+host-suffix, beacon.qq.com
+-host-suffix, beizi.biz
+-host, sdk.beizi.biz
+-host, inapps.appsflyer.com
+-host, data.flurry.com
+host, safebrowsing.googleapis-cn.com
 
 HOST,aaid.uyunad.com
 HOST,ad2.fivecdm.com //计步器
