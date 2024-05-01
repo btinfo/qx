@@ -61,9 +61,9 @@ HOST-SUFFIX,googleadservices.com
 HOST-SUFFIX,googlesyndication.com
 
 #kuwo
-HOST,g.koowo.com
-HOST,mobilead.kuwo.cn
-HOST,rich.kuwo.cn
+#HOST,g.koowo.com
+#HOST,mobilead.kuwo.cn
+#HOST,rich.kuwo.cn
 
 #tencent
 HOST,ad.tencentmusic.com
