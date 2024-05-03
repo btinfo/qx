@@ -1,7 +1,8 @@
 HOST-SUFFIX,szrtcpa.com
 -HOST,androidweb.wps.com
 -IP-CIDR,202.61.255.248/32
-
+host-suffix, imxingzhe.com
+host, www.lanqiuzhi.live
 IP-ASN,9808 // China Mobile Communications Group Co., Ltd.
 -IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
 IP-ASN,64021 // Network-Transit
