@@ -16,6 +16,29 @@
 -HOST,sdk.beizi.biz
 -HOST,inapps.appsflyer.com
 -HOST,data.flurry.com
+host, nsclick.baidu.com
+-host-suffix, tuisong.baidu.com
+host-suffix, ctobsnssdk.com
+host-suffix, jiguang.cn
+host-suffix, tingyun.com
+host-suffix, ubixioe.com
+host-suffix, beizi.biz
+host-wildcard, iad-*.braze.com
+-host, api-adservices.apple.com
+host, beacon.krxd.net
+host, www.googletagservices.com
+-host-suffix, app-measurement.com
+host, www.googletagmanager.com
+host, www.google-analytics.com
+host, analytics.google.com
+host-suffix, amazon-adsystem.com
+host-suffix, appsflyer.com
+host-suffix, appsflyersdk.com
+host, optimus-ads.amap.com
+host-suffix, uyunad.com
+-host, ad.cyapi.cn
+host-suffix, tanx.com
+host-suffix, flurry.com
 
 HOST,aaid.uyunad.com
 HOST,ad2.fivecdm.com //计步器
