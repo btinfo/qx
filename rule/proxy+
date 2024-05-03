@@ -1,10 +1,10 @@
-host-suffix, tzuqiu.cc
-host-suffix, ridibooks.com
 HOST-SUFFIX,blogspot.com
 HOST-SUFFIX,cloudfront.net
 HOST-SUFFIX,netgear.com
+HOST-SUFFIX,ridibooks.com
 HOST-SUFFIX,transfermarkt.com
 HOST-SUFFIX,transfermarkt.technology
+HOST-SUFFIX,tzuqiu.cc
 
 #apple
 HOST,testflight.apple.com
