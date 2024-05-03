@@ -1,15 +1,15 @@
--HOST,androidweb.wps.com
--IP-CIDR,202.61.255.248/32
--IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
--IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
+-host, androidweb.wps.com
+-ip-cidr, 202.61.255.248/32
+-ip-asn, 45102 // Alibaba (US) Technology Co., Ltd.
+-ip-asn, 132203 // Tencent Building, Kejizhongyi Avenue
 
-HOST,www.lanqiuzhi.live
-HOST-SUFFIX,imxingzhe.com
-HOST-SUFFIX,szrtcpa.com
+host, www.lanqiuzhi.live
+host-suffix, imxingzhe.com
+host-suffix, szrtcpa.com
 
-IP-ASN,9808 // China Mobile Communications Group Co., Ltd.
-IP-ASN,64021 // Network-Transit
-IP-ASN,133865 // Beijing IQIYI Science & Technology Co., Ltd.
-IP-ASN,138538 // VPSOR-GLOBAL
+ip-asn, 9808 // China Mobile Communications Group Co., Ltd.
+ip-asn, 64021 // Network-Transit
+ip-asn, 133865 // Beijing IQIYI Science & Technology Co., Ltd.
+ip-asn, 138538 // VPSOR-GLOBAL
 
 GEOIP,cn

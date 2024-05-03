@@ -1,106 +1,103 @@
--HOST,adashx.m.taobao.com
--HOST,afd.baidu.com
--HOST,als.baidu.com
--HOST,cdn.cmgadx.com // 央视频
--HOST,h-adashx.ut.taobao.com
--HOST-KEYWORD,volc
--HOST,mobads.baidu.com
--HOST,nsclick.baidu.com
--HOST-SUFFIX,pv.sohu.com
--HOST,wa.gtimg.com
--IP-CIDR,203.107.1.1/24
-
--HOST,metrics.icloud.com
--HOST-SUFFIX,jpush.cn
--HOST-SUFFIX,beizi.biz
--HOST,sdk.beizi.biz
--HOST,inapps.appsflyer.com
--HOST,data.flurry.com
-host, nsclick.baidu.com
--host-suffix, tuisong.baidu.com
-host-suffix, ctobsnssdk.com
-host-suffix, jiguang.cn
-host-suffix, tingyun.com
-host-suffix, ubixioe.com
-host-suffix, beizi.biz
-host-wildcard, iad-*.braze.com
+-host, adashx.m.taobao.com
+-host, ad.cyapi.cn
 -host, api-adservices.apple.com
-host, beacon.krxd.net
-host, www.googletagservices.com
+-host, cdn.cmgadx.com // 央视频
+-host, data.flurry.com
+-host, h-adashx.ut.taobao.com
+-host, inapps.appsflyer.com
+-host, sdk.beizi.biz
 -host-suffix, app-measurement.com
-host, www.googletagmanager.com
-host, www.google-analytics.com
-host, analytics.google.com
+-host-suffix, beizi.biz
+-host-suffix, jpush.cn
+-host-suffix, pv.sohu.com
+-ip-cidr, 203.107.1.1/24
+
+host, aaid.uyunad.com
+host, ad2.fivecdm.com //计步器
+host, ad.bayescom.com
+host, ad.qtfm.cn
+host, ads.inmobi.com
+host, ads.pubmatic.com
+host, adt.cpatrk.net
+host, adx.zuoyebang.com
+host, beacon.krxd.net
+host, gdfp.gifshow.com
+host, open.e.kuaishou.com
+host, optimus-ads.amap.com
+host-suffix, adnxs.com
+host-suffix, adukwai.com
+host-suffix, adx.opera.com
 host-suffix, amazon-adsystem.com
 host-suffix, appsflyer.com
 host-suffix, appsflyersdk.com
-host, optimus-ads.amap.com
-host-suffix, uyunad.com
--host, ad.cyapi.cn
-host-suffix, tanx.com
+host-suffix, beizi.biz
+host-suffix, criteo.com
+host-suffix, criteo.net
+host-suffix, ctobsnssdk.com
 host-suffix, flurry.com
-
-HOST,aaid.uyunad.com
-HOST,ad2.fivecdm.com //计步器
-HOST,ad.bayescom.com
-HOST,ad.qtfm.cn
-HOST,ads.inmobi.com
-HOST,ads.pubmatic.com
-HOST,adt.cpatrk.net
-HOST,adx.zuoyebang.com
-HOST,gdfp.gifshow.com
-HOST,open.e.kuaishou.com
-HOST-SUFFIX,adnxs.com
-HOST-SUFFIX,adx.opera.com
-HOST-SUFFIX,adukwai.com
-HOST-SUFFIX,criteo.com
-HOST-SUFFIX,criteo.net
-HOST-SUFFIX,outbrain.com
-HOST-SUFFIX,primis.tech // TransferMarkd
-HOST-SUFFIX,taboola.com
+host-suffix, jiguang.cn
+host-suffix, outbrain.com
+host-suffix, primis.tech // TransferMarkd
+host-suffix, taboola.com
+host-suffix, tanx.com
+host-suffix, tingyun.com
+host-suffix, ubixioe.com
+host-suffix, uyunad.com
+host-wildcard, iad-*.braze.com
 
 #apple
-HOST-SUFFIX,iadsdk.apple.com
+-host, metrics.icloud.com
+host-suffix, iadsdk.apple.com
 
 #baidu
-HOST,hm.baidu.com
-HOST,hmma.baidu.com
--HOST,sofire.baidu.com
--IP-CIDR,180.76.76.200/32 // 贴吧
+-host, afd.baidu.com
+-host, als.baidu.com
+-host, mobads.baidu.com
+-host, sofire.baidu.com
+-host-suffix, tuisong.baidu.com
+-ip-cidr, 180.76.76.200/32 // 贴吧
+host, hm.baidu.com
+host, hmma.baidu.com
+host, nsclick.baidu.com
 
 #bilibili
-HOST,dataflow.biliapi.com
-HOST,cm.bilibili.com
+host, dataflow.biliapi.com
+host, cm.bilibili.com
 
 #bytedance
-HOST-KEYWORD,pangolin-sdk-toutiao
-HOST-KEYWORD,pglstatp-toutiao
+host-keyword, pangolin-sdk-toutiao
+host-keyword, pglstatp-toutiao
 
 #google
-HOST,safebrowsing.googleapis-cn.com
-HOST-SUFFIX,doubleclick-cn.net
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googlesyndication.com
+host, analytics.google.com
+host, safebrowsing.googleapis-cn.com
+host, www.google-analytics.com
+host, www.googletagmanager.com
+host, www.googletagservices.com
+host-suffix, doubleclick-cn.net
+host-suffix, doubleclick.net
+host-suffix, googleadservices.com
+host-suffix, googlesyndication.com
 
 #kuwo
-#HOST,g.koowo.com
-#HOST,mobilead.kuwo.cn
-#HOST,rich.kuwo.cn
+-host, g.koowo.com
+-host, mobilead.kuwo.cn
+-host, rich.kuwo.cn
 
 #tencent
-HOST,ad.tencentmusic.com
-HOST,adsmind.ugdtimg.com
-HOST,adstats.tencentmusic.com
-HOST,btrace.qq.com
-HOST,mtrace.qq.com
-HOST,h.trace.qq.com
-HOST,pgdt.gtimg.cn
-HOST,pgdt.gtimg.com
-HOST,pgdt.ugdtimg.com
-HOST,qzs.gdtimg.com
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,bugly.qq.com
-HOST-SUFFIX,beacon.qq.com
+-host, wa.gtimg.com
+host, ad.tencentmusic.com
+host, adsmind.ugdtimg.com
+host, adstats.tencentmusic.com
+host, btrace.qq.com
+host, mtrace.qq.com
+host, h.trace.qq.com
+host, pgdt.gtimg.cn
+host, pgdt.gtimg.com
+host, pgdt.ugdtimg.com
+host, qzs.gdtimg.com
+host-suffix, e.qq.com
+host-suffix, gdt.qq.com
+host-suffix, l.qq.com
+host-suffix, bugly.qq.com
+host-suffix, beacon.qq.com
