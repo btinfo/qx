@@ -1,5 +1,5 @@
 -host, adashx.m.taobao.com
--host, ad.cyapi.cn
+host, ad.cyapi.cn
 -host, api-adservices.apple.com
 -host, cdn.cmgadx.com // 央视频
 -host, data.flurry.com
