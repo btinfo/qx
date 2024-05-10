@@ -4,8 +4,8 @@ host-suffix, chinadigitaltimes.net, US
 host-keyword, www.google., US
 
 #Apple
--host-suffix, apple.com.cn, Apple
--host-suffix, icloud.com.cn, Apple
+host-suffix, apple.com.cn, Apple
+host-suffix, icloud.com.cn, Apple
 host, api.revenuecat.com, Apple
 host-keyword, apple.com.akadns.net, Apple
 host-keyword, apple.com.edgekey.net, Apple
