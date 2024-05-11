@@ -73,9 +73,9 @@ ip-cidr, 91.108.8.0/21, Telegram
 ip-cidr, 95.161.64.0/20, Telegram
 
 #Tidal
-host-suffix, tidal-cms.s3.amazonaws.com, Tidal
-host-suffix, tidal.com, Tidal
-host-suffix, tidalhifi.com, Tidal
+-host-suffix, tidal-cms.s3.amazonaws.com, Tidal
+-host-suffix, tidal.com, Tidal
+-host-suffix, tidalhifi.com, Tidal
 
 #X.org
 host-keyword, twitter, X
