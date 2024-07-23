@@ -1,3 +1,14 @@
+host, smartnews.adsbynimbus.com
+host-keyword, adjust
+host-suffix, rubiconproject.com
+host-suffix, oddsserve.com
+host-suffix, adobedc.net
+host-suffix, adobedtm.com
+host-suffix, scorecardresearch.com
+host-suffix, cpatrk.net
+host, metrics.icloud.com
+host-suffix, google-analytics.com
+
 -host, adashx.m.taobao.com
 host, ad.cyapi.cn
 -host, api-adservices.apple.com
