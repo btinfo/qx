@@ -37,6 +37,7 @@ ip-asn, 3320 // Deutsche Telekom AG
 ip-asn, 3356 // LEVEL3
 ip-asn, 3462 // DATA COMMUNICATION BUSINESS GROUP
 ip-asn, 3786 // LG DACOM CORPORATION
+ip-asn, 4230 // CLARO S.A.
 ip-asn, 4766 // KOREA TELECOM
 ip-asn, 6134 // XNNET
 ip-asn, 6185 // APPLE-AUSTIN
@@ -101,7 +102,6 @@ ip-asn, 200777 // Deutsche Welle Anstalt des Oeffentlichen Rechts
 ip-asn, 396982 // GOOGLE LLC
 
 #disabled
--ip-asn, 4230 // CLARO S.A.
 -ip-asn, 29423 // GRIDSCALE GMBH
 -ip-asn, 58722 // 51 JALAN LANJUT
 -ip-asn, 142403 // YISU CLOUD LTD
