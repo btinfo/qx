@@ -1,7 +1,7 @@
 -host, androidweb.wps.com
 -ip-cidr, 202.61.255.248/32
 -ip-asn, 45102 // Alibaba (US) Technology Co., Ltd.
--ip-asn, 132203 // Tencent Building, Kejizhongyi Avenue
+ip-asn, 132203 // Tencent Building, Kejizhongyi Avenue
 
 host, www.lanqiuzhi.live
 host-suffix, imxingzhe.com
