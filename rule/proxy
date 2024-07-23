@@ -1,7 +1,8 @@
-#Location
+#US
 -host-suffix, iheart.com, US
 host-suffix, chinadigitaltimes.net, US
 host-keyword, www.google., US
+host-suffix, bannedbook.org, US
 
 #Apple
 host-suffix, apple.com.cn, Apple
