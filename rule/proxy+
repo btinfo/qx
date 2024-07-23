@@ -1,10 +1,7 @@
-host-suffix, smartnews.be
-host-suffix, smartnews.com
-
-ip-asn, 38107
-host-suffix, daumcdn.net
-ip-asn, 45102
 ip-asn, 31898
+ip-asn, 38107
+ip-asn, 45102
+host-suffix, daumcdn.net
 
 host-suffix, blogspot.com
 host-suffix, cloudfront.net
@@ -28,13 +25,12 @@ host-suffix, reddit.com
 host-suffix, redd.it
 host-suffix, redditmedia.com
 
+#SmartNews
+host-suffix, smartnews.be
+host-suffix, smartnews.com
+
 #Wikipedia
 host-suffix, wikipedia.org
-
-#YahooNews
-host-suffix, emb-api.com
-host-suffix, yahoo.com
-host-suffix, zenfs.com
 
 ip-asn, 174 // Cogent Communications
 ip-asn, 714 // APPLE INC.
