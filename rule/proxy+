@@ -1,3 +1,11 @@
+host-suffix, smartnews.be
+host-suffix, smartnews.com
+
+ip-asn, 38107
+host-suffix, daumcdn.net
+ip-asn, 45102
+ip-asn, 31898
+
 host-suffix, blogspot.com
 host-suffix, cloudfront.net
 host-suffix, netgear.com
