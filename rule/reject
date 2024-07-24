@@ -1,12 +1,12 @@
-host, smartnews.adsbynimbus.com
-host-keyword, adjust
-host-suffix, rubiconproject.com
-host-suffix, oddsserve.com
-host-suffix, adobedc.net
-host-suffix, adobedtm.com
-host-suffix, scorecardresearch.com
-host-suffix, cpatrk.net
-host, metrics.icloud.com
+-host, smartnews.adsbynimbus.com
+-host-keyword, adjust
+-host-suffix, rubiconproject.com
+-host-suffix, oddsserve.com
+-host-suffix, adobedc.net
+-host-suffix, adobedtm.com
+-host-suffix, scorecardresearch.com
+-host-suffix, cpatrk.net
+-host, metrics.icloud.com
 host-suffix, google-analytics.com
 
 -host, adashx.m.taobao.com
@@ -23,7 +23,7 @@ host, ad.cyapi.cn
 -host-suffix, pv.sohu.com
 -ip-cidr, 203.107.1.1/24
 
-host, aaid.uyunad.com
+-host, aaid.uyunad.com
 host, ad2.fivecdm.com //计步器
 host, ad.bayescom.com
 host, ad.qtfm.cn
@@ -31,30 +31,30 @@ host, ads.inmobi.com
 host, ads.pubmatic.com
 host, adt.cpatrk.net
 host, adx.zuoyebang.com
-host, beacon.krxd.net
+-host, beacon.krxd.net
 host, gdfp.gifshow.com
 host, open.e.kuaishou.com
-host, optimus-ads.amap.com
-host-suffix, adnxs.com
-host-suffix, adukwai.com
-host-suffix, adx.opera.com
-host-suffix, amazon-adsystem.com
-host-suffix, appsflyer.com
-host-suffix, appsflyersdk.com
-host-suffix, beizi.biz
-host-suffix, criteo.com
-host-suffix, criteo.net
-host-suffix, ctobsnssdk.com
-host-suffix, flurry.com
+-host, optimus-ads.amap.com
+-host-suffix, adnxs.com
+-host-suffix, adukwai.com
+-host-suffix, adx.opera.com
+-host-suffix, amazon-adsystem.com
+-host-suffix, appsflyer.com
+-host-suffix, appsflyersdk.com
+-host-suffix, beizi.biz
+-host-suffix, criteo.com
+-host-suffix, criteo.net
+-host-suffix, ctobsnssdk.com
+-host-suffix, flurry.com
 host-suffix, jiguang.cn
-host-suffix, outbrain.com
-host-suffix, primis.tech // TransferMarkd
-host-suffix, taboola.com
-host-suffix, tanx.com
-host-suffix, tingyun.com
-host-suffix, ubixioe.com
-host-suffix, uyunad.com
-host-wildcard, iad-*.braze.com
+-host-suffix, outbrain.com
+-host-suffix, primis.tech // TransferMarkd
+-host-suffix, taboola.com
+-host-suffix, tanx.com
+-host-suffix, tingyun.com
+-host-suffix, ubixioe.com
+-host-suffix, uyunad.com
+-host-wildcard, iad-*.braze.com
 
 #apple
 -host, metrics.icloud.com
