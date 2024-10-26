@@ -11,8 +11,8 @@ host, open.e.kuaishou.com
 host-suffix, jiguang.cn
 
 #apple
-host, metrics.icloud.com
-host-suffix, iadsdk.apple.com
+-host, metrics.icloud.com
+-host-suffix, iadsdk.apple.com
 
 #baidu
 -host, afd.baidu.com
