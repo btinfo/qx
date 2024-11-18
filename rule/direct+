@@ -6,7 +6,6 @@ ip-asn, 132203 // Tencent Building, Kejizhongyi Avenue
 host, www.lanqiuzhi.live
 host-suffix, imxingzhe.com
 host-suffix, szrtcpa.com
-host, api.smoot.apple.cn
 host-suffix, 360buyimg.com
 host-suffix, cloudfront.net
 host-suffix, mapbox.com
