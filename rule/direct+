@@ -6,6 +6,11 @@ ip-asn, 132203 // Tencent Building, Kejizhongyi Avenue
 host, www.lanqiuzhi.live
 host-suffix, imxingzhe.com
 host-suffix, szrtcpa.com
+host, api.smoot.apple.cn
+host-suffix, 360buyimg.com
+host-suffix, cloudfront.net
+host-suffix, mapbox.com
+host-suffix, strava.com
 
 ip-asn, 9808 // China Mobile Communications Group Co., Ltd.
 ip-asn, 64021 // Network-Transit
