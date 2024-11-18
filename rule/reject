@@ -1,3 +1,38 @@
+host-suffix, ubixioe.com
+ip-cidr, 114.132.165.205/24
+-host-suffix, jpush.cn
+-host-suffix, gepush.com
+-host-suffix, getui.net
+-host-suffix, umengcloud.com
+-host-suffix, umeng.com
+-host-suffix, getui.com
+host-suffix, uyunad.com
+host, goblin.hupu.com
+host, pingma.qq.com
+host-suffix, smartnews-ads.com
+-host-suffix, zijieapi.com
+-ip-cidr, 114.132.165.205/32
+host-suffix, tingyun.com
+host-suffix, tanx.com
+host, h-adashx.ut.taobao.com
+host-suffix, rubiconproject.com
+host, smartnews.adsbynimbus.com
+host-suffix, amazon-adsystem.com
+host-suffix, ctobsnssdk.com
+host, mon.snssdk.com
+host-suffix, appsflyer.com
+host-suffix, hubcloud.com.cn
+-host, adstatistic.mygolbs.com
+-host-suffix, beizi.biz
+-host, oth.str.mdt.qq.com
+-host-suffix, madboxi.com
+-host-suffix, adukwai.com
+-host, mobads-logs.baidu.com
+-host, ad.wanchuweilai.com
+-host, mobads-pre-config.cdn.bcebos.com
+-host-suffix, baihemob.com
+host-suffix, outbrain.com
+
 
 host, ad.cyapi.cn
 host, ad2.fivecdm.com //计步器
