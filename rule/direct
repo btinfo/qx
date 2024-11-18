@@ -9,8 +9,8 @@ ip-cidr, 224.0.0.0/4
 ip6-cidr, fe80::/10
 
 -host, ad.12306.cn
--host, app.appsflyer.com
--host, ca.iadsdk.apple.com
+host, app.appsflyer.com
+host, ca.iadsdk.apple.com
 
 host, clientservices.googleapis.com
 host, dl.google.com
