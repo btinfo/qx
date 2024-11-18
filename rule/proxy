@@ -8,6 +8,7 @@
 host-suffix, apple.com.cn, Apple
 host-suffix, icloud.com.cn, Apple
 host, api.revenuecat.com, Apple
+host, api.smoot.apple.cn, Apple
 host-keyword, apple.com.akadns.net, Apple
 host-keyword, apple.com.edgekey.net, Apple
 host-keyword, apple-support.akadns.net, Apple
