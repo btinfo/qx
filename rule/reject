@@ -55,8 +55,8 @@ host, mobads.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
 host, nsclick.baidu.com
--host, mobads-pre-config.cdn.bcebos.com
--host, mobads-logs.baidu.com
+host, mobads-pre-config.cdn.bcebos.com
+host, mobads-logs.baidu.com
 
 #bilibili
 host, dataflow.biliapi.com
