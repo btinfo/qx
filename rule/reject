@@ -46,15 +46,15 @@ host-suffix, iadsdk.apple.com
 
 #baidu
 -host, afd.baidu.com
--host, als.baidu.com
 -host, sofire.baidu.com
 -host-suffix, tuisong.baidu.com
 -ip-cidr, 180.76.76.200/32 // 贴吧
 
-host, mobads.baidu.com
+host, als.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
 host, nsclick.baidu.com
+host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, mobads-logs.baidu.com
 
