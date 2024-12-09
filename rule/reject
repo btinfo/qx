@@ -48,7 +48,7 @@ host-suffix, iadsdk.apple.com
 -host, afd.baidu.com
 -host, sofire.baidu.com
 -host-suffix, tuisong.baidu.com
--ip-cidr, 180.76.76.200/32 // 贴吧
+ip-cidr, 180.76.76.200/32 // 贴吧
 
 host, als.baidu.com
 host, hm.baidu.com
