@@ -1,14 +1,18 @@
 host-suffix, im-apps.net
 host-suffix, demdex.net
 host-suffix, telecome.cn
-host-suffix, hubcloud.com.cn
-host-suffix, beizi.biz
-host-suffix, ctobsnssdk.com
 host, log.umtrack.com
 host, pv.sohu.com
 host, policy.video.iqiyi.com
 host-suffix, adkwai.com
 host-suffix, adsrvr.org
+
+#快手磁力引擎
+host-suffix, e.kuaishou.com
+#济南维快AdHubSDK
+host-suffix, hubcloud.com.cn
+#AdScope
+host-suffix, beizi.biz
 
 #apple
 host, api-adservices.apple.com
@@ -24,29 +28,41 @@ host, h-adashx.ut.taobao.com
 host, assets.growingio.com
 
 #baidu
+#百度内置DNS服务
+host, httpsdns.baidu.com
+#百度慧推
+host, sofire.baidu.com
+#百度统计Crab-用户行为分析隐私上报
+host, nsclick.baidu.com
+host, dxp.baidu.com
+host, hm.baidu.com
+
 host, als.baidu.com
 host, afd.baidu.com
 host, dlswbr.baidu.com
 host, hpd.baidu.com
-host, nsclick.baidu.com
 host, hmma.baidu.com
 host, kstj.baidu.com
 host, wkctj.baidu.com
-host, hm.baidu.com
-host, dxp.baidu.com
 host, miao.baidu.com
 host, fclog.baidu.com
 host, api.tuisong.baidu.com
 host, mobads.baidu.com
-host,zz.bdstatic.com
+host, zz.bdstatic.com
 host, mobads-pre-config.cdn.bcebos.com
 
-#byte
+#字节
 host-suffix, shuzilm.cn
+host-suffix, ctobsnssdk.com
 host-keyword, pangolin-sdk-toutiao
 host-suffix, pglstatp-toutiao.com
 host, i.snssdk.com
-host, dig.bdurl.net
+#host, dig.bdurl.net
+#字节跳动火山引擎
+host-suffix, volceapplog.com
+
+#高德地图上传基站、Wi-Fi 位置信息
+host, cgicol.amap.com
 
 #google
 host, app-measurement.com
@@ -56,16 +72,85 @@ host-suffix, googletagmanager.com
 host-suffix, googleadservices.com
 host-suffix, google-analytics.com
 
+#京东开普勒
+host, dgstatic.jd.com
+#京东
+host, kepler.jd.com
+host, dg.k.jd.com
+
 #QQ
+#微信公众号广告
+host, wxsnsdythumb.wxs.qq.com
+host, wxa.wxs.qq.com
+host, wxsnsdy.wxs.qq.com
+#微信
+host, wx.qlogo.cn
+host, ads.privacy.qq.com
+host, mp.weixin.qq.com
+host, ad.weixin.qq.com
+host, apd-pcdnwxlogin.teg.tencent-cloud.net
+host, apd-pcdnwxnat.teg.tencent-cloud.net
+host, apd-vodp2plogin.teg.tencent-cloud.net
+host, apd-vodp2pnat.teg.tencent-cloud.net
+host, apd-pcdnwxstat.teg.tencent-cloud.net
+host, apd-pcdnvodstat.teg.tencent-cloud.net
+#微信DNS请求
+host, szlong.weixin.qq.com
+host, dl.txcdns.com
+
+#腾讯广点通
 host-suffix, e.qq.com
+#腾讯优量汇
 host-suffix, gdt.qq.com
-host-suffix, pgdt.gtimg.cn
+host-suffix, qzs.gdtimg.com
+#腾讯移动推送 TPNS(前腾讯信鸽)-隐私上报
+host-suffix, tpns.tencent.com
+#腾讯Bugly-用户行为分析隐私上报
+host, ios.bugly.qq.com
+#腾讯灯塔-用户行为分析隐私上报
+host-suffix, mdt.qq.com
 host-suffix, beacon.qq.com
 host-suffix, trace.qq.com
+#腾讯统计-用户行为分析隐私上报
+host, wup.imtt.qq.com
+host, snowflake.qq.com
+#QQ音乐广告
+host, adstats.tencentmusic.com
+
+host-suffix, pgdt.gtimg.cn
 host-suffix, btrace.qq.com
 host-suffix, mtrace.qq.com
 host, adsmind.gdtimg.com
-host, adstats.tencentmusic.com
+
+#友盟-用户行为分析隐私上报
+host-suffix, umeng.co
+host-suffix, umeng.com
+host-suffix, umeng.com.muge.info
+host-suffix, umengcloud.com
+host-suffix, umsns.com
+host, umengacs.m.taobao.com
+host, umengjmacs.m.taobao.com
+host, alog.umengcloud.com.gds.alibabadns.com
+#CNZZ统计-用户行为分析隐私上报
+host-suffix, cnzz.com
+
+#个推-用户行为分析隐私上报
+host-suffix, getui.com
+host-suffix, igetui.com
+host-suffix, gepush.com
+host-suffix, inpagepush.com
+
+#秒针-用户行为分析隐私上报
+host-suffix, miaozhen.com
+
+#MobTech袤博(前上海游昆)-用户行为分析隐私上报
+host-suffix, mob.com
+host-suffix, dutils.com
+
+#个信-用户行为分析隐私上报
+host-suffix, igexin.com
+#host, sdk.open.phone.com
+host, sdk.open.phone.igexin.com
 
 # 上海优比客思科技有限公司 - 广告服务商
 host, sdk-data.ubixioe.com
