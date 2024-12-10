@@ -67,6 +67,10 @@ host-suffix, mtrace.qq.com
 host, adsmind.gdtimg.com
 host, adstats.tencentmusic.com
 
+# 上海优比客思科技有限公司 - 广告服务商
+host, sdk-data.ubixioe.com
+host, tower.ubixioe.com
+
 #xiaomi
 host-suffix, tracking.miui.com
 host-suffix, ad.xiaomi.com
