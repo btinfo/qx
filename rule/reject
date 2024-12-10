@@ -1,25 +1,28 @@
 host-suffix, ubixioe.com
+host-suffix, uyunad.com
+host, goblin.hupu.com
+host-suffix, tingyun.com
+host-suffix, tanx.com
+host, smartnews.adsbynimbus.com
+host-suffix, appsflyer.com
+host-suffix, hubcloud.com.cn
 ip-cidr, 114.132.165.205/24
+
 -host-suffix, jpush.cn
 -host-suffix, gepush.com
 -host-suffix, getui.net
 -host-suffix, umengcloud.com
 -host-suffix, umeng.com
 -host-suffix, getui.com
-host-suffix, uyunad.com
-host, goblin.hupu.com
+
 -host-suffix, zijieapi.com
-host-suffix, tingyun.com
-host-suffix, tanx.com
-host, smartnews.adsbynimbus.com
-host-suffix, appsflyer.com
-host-suffix, hubcloud.com.cn
 -host, adstatistic.mygolbs.com
 -host-suffix, beizi.biz
 -host-suffix, madboxi.com
 -host-suffix, adukwai.com
 -host, ad.wanchuweilai.com
 -host-suffix, baihemob.com
+
 ####
 host, ad.cyapi.cn
 host, ad2.fivecdm.com //计步器
@@ -40,6 +43,7 @@ host-suffix, amazon-adsystem.com
 
 #alibaba
 host, h-adashx.ut.taobao.com
+
 #apple
 host, metrics.icloud.com
 host-suffix, iadsdk.apple.com
@@ -48,7 +52,6 @@ host-suffix, iadsdk.apple.com
 -host, afd.baidu.com
 -host, sofire.baidu.com
 -host-suffix, tuisong.baidu.com
-ip-cidr, 180.76.76.200/32 // 贴吧
 
 host, als.baidu.com
 host, hm.baidu.com
@@ -57,6 +60,7 @@ host, nsclick.baidu.com
 host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, mobads-logs.baidu.com
+ip-cidr, 180.76.76.200/32 // 贴吧
 
 #bilibili
 host, dataflow.biliapi.com
@@ -78,11 +82,6 @@ host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
 host-suffix, googlesyndication.com
-
-#kuwo
--host, g.koowo.com
--host, mobilead.kuwo.cn
--host, rich.kuwo.cn
 
 #tencent
 -host, wa.gtimg.com
