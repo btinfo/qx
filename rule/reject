@@ -30,25 +30,25 @@ host, assets.growingio.com
 #百度内置DNS服务
 host, httpsdns.baidu.com
 #百度慧推
-host, sofire.baidu.com
+#host, sofire.baidu.com
 #百度统计Crab-用户行为分析隐私上报
 host, nsclick.baidu.com
-host, dxp.baidu.com
 host, hm.baidu.com
-
-host, als.baidu.com
-host, afd.baidu.com
-host, dlswbr.baidu.com
-host, hpd.baidu.com
 host, hmma.baidu.com
-host, kstj.baidu.com
-host, wkctj.baidu.com
-host, miao.baidu.com
-host, fclog.baidu.com
-host, api.tuisong.baidu.com
 host, mobads.baidu.com
-host, zz.bdstatic.com
 host, mobads-pre-config.cdn.bcebos.com
+
+#host, dxp.baidu.com
+#host, als.baidu.com
+#host, afd.baidu.com
+#host, dlswbr.baidu.com
+#host, hpd.baidu.com
+#host, kstj.baidu.com
+#host, wkctj.baidu.com
+#host, miao.baidu.com
+#host, fclog.baidu.com
+#host, api.tuisong.baidu.com
+#host, zz.bdstatic.com
 
 #字节
 host-suffix, shuzilm.cn
