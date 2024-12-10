@@ -137,6 +137,7 @@ host-suffix, cnzz.com
 
 #个推-用户行为分析隐私上报
 host-suffix, getui.com
+host-suffix, getui.net
 host-suffix, igetui.com
 host-suffix, gepush.com
 host-suffix, inpagepush.com
