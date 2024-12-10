@@ -123,35 +123,35 @@ host-suffix, mtrace.qq.com
 host, adsmind.gdtimg.com
 
 #友盟-用户行为分析隐私上报
-host-suffix, umeng.co
-host-suffix, umeng.com
-host-suffix, umeng.com.muge.info
-host-suffix, umengcloud.com
-host-suffix, umsns.com
-host, umengacs.m.taobao.com
-host, umengjmacs.m.taobao.com
-host, alog.umengcloud.com.gds.alibabadns.com
+#host-suffix, umeng.co
+#host-suffix, umeng.com
+#host-suffix, umeng.com.muge.info
+#host-suffix, umengcloud.com
+#host-suffix, umsns.com
+#host, umengacs.m.taobao.com
+#host, umengjmacs.m.taobao.com
+#host, alog.umengcloud.com.gds.alibabadns.com
 #CNZZ统计-用户行为分析隐私上报
-host-suffix, cnzz.com
+#host-suffix, cnzz.com
 
 #个推-用户行为分析隐私上报
-host-suffix, getui.com
-host-suffix, getui.net
-host-suffix, igetui.com
-host-suffix, gepush.com
-host-suffix, inpagepush.com
+#host-suffix, getui.com
+#host-suffix, getui.net
+#host-suffix, igetui.com
+#host-suffix, gepush.com
+#host-suffix, inpagepush.com
 
 #秒针-用户行为分析隐私上报
-host-suffix, miaozhen.com
+#host-suffix, miaozhen.com
 
 #MobTech袤博(前上海游昆)-用户行为分析隐私上报
 host-suffix, mob.com
 host-suffix, dutils.com
 
 #个信-用户行为分析隐私上报
-host-suffix, igexin.com
+#host-suffix, igexin.com
 #host, sdk.open.phone.com
-host, sdk.open.phone.igexin.com
+#host, sdk.open.phone.igexin.com
 
 # 上海优比客思科技有限公司 - 广告服务商
 host, sdk-data.ubixioe.com
