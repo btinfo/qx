@@ -18,16 +18,15 @@ host-suffix, beizi.biz
 host, api-adservices.apple.com
 host-suffix, iadsdk.apple.com
 
-#amazon
+#亚马逊
 host-suffix, amazon-adsystem.com
 host, data.flurry.com
 
-#alibaba
+#阿里巴巴
 host, adashx.m.taobao.com
 host, h-adashx.ut.taobao.com
 host, assets.growingio.com
 
-#baidu
 #百度内置DNS服务
 host, httpsdns.baidu.com
 #百度慧推
@@ -64,7 +63,7 @@ host-suffix, volceapplog.com
 #高德地图上传基站、Wi-Fi 位置信息
 host, cgicol.amap.com
 
-#google
+#谷歌
 host, app-measurement.com
 host, pagead2.googlesyndication.com
 host-suffix, doubleclick.net
@@ -158,6 +157,6 @@ host, sdk.open.phone.igexin.com
 host, sdk-data.ubixioe.com
 host, tower.ubixioe.com
 
-#xiaomi
+#小米
 host-suffix, tracking.miui.com
 host-suffix, ad.xiaomi.com
