@@ -1,7 +1,6 @@
 host, log.umtrack.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
-host-suffix, adkwai.com
 host-suffix, adsrvr.org
 host-suffix, demdex.net
 host-suffix, im-apps.net
@@ -20,12 +19,14 @@ host, sdk-data.ubixioe.com
 host, tower.ubixioe.com
 
 #快手磁力引擎
+host, gdfp.gifshow.com
+host-suffix, adkwai.com
 host-suffix, e.kuaishou.com
 
-#济南维快AdHubSDK
+#AdHub
 host-suffix, hubcloud.com.cn
 
-#AdScope
+#上海倍孜
 host-suffix, beizi.biz
 
 #apple
