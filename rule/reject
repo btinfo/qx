@@ -83,20 +83,6 @@ host, dg.k.jd.com
 host, wxsnsdythumb.wxs.qq.com
 host, wxa.wxs.qq.com
 host, wxsnsdy.wxs.qq.com
-#微信
-host, wx.qlogo.cn
-host, ads.privacy.qq.com
-host, mp.weixin.qq.com
-host, ad.weixin.qq.com
-host, apd-pcdnwxlogin.teg.tencent-cloud.net
-host, apd-pcdnwxnat.teg.tencent-cloud.net
-host, apd-vodp2plogin.teg.tencent-cloud.net
-host, apd-vodp2pnat.teg.tencent-cloud.net
-host, apd-pcdnwxstat.teg.tencent-cloud.net
-host, apd-pcdnvodstat.teg.tencent-cloud.net
-#微信DNS请求
-host, szlong.weixin.qq.com
-host, dl.txcdns.com
 
 #腾讯广点通
 host-suffix, e.qq.com
