@@ -66,6 +66,7 @@ host, cgicol.amap.com
 
 #google
 host, app-measurement.com
+host, pagead2.googlesyndication.com
 host-suffix, doubleclick.net
 host-suffix, doubleclick-cn.net
 host-suffix, googletagmanager.com
