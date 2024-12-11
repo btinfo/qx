@@ -116,9 +116,9 @@ host, wup.imtt.qq.com
 host, adstats.tencentmusic.com
 
 #微信公众号广告
-host, wxa.wxs.qq.com
-host, wxsnsdythumb.wxs.qq.com
-host, wxsnsdy.wxs.qq.com
+#host, wxa.wxs.qq.com
+#host, wxsnsdythumb.wxs.qq.com
+#host, wxsnsdy.wxs.qq.com
 
 #小米
 host-suffix, ad.xiaomi.com
