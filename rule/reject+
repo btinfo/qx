@@ -1,1 +1,11 @@
-aa
+host, sdk-config.tanx.com
+host, et.tanx.com
+host, wkrd.tingyun.com
+host, wkdcm1.tingyun.com
+host, dataflow.biliapi.com
+host, cm.bilibili.com
+host, adx.zuoyebang.com
+host-wildcard, *-sg.pangle.io
+host-wildcard, pangolin*.sgsnssdk.com
+host, pingma.qq.com
+host, app-analytics-services.com
