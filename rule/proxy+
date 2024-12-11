@@ -1,13 +1,14 @@
 ip-asn, 31898
 ip-asn, 38107
 ip-asn, 45102
-host-suffix, daumcdn.net
 
 host-suffix, blogspot.com
 host-suffix, cloudfront.net
+host-suffix, daumcdn.net
 host-suffix, netgear.com
 host-suffix, ridibooks.com
 host-suffix, transfermarkt.com
+host-suffix, transfermarkt.de
 host-suffix, transfermarkt.technology
 host-suffix, tzuqiu.cc
 
