@@ -1,4 +1,4 @@
-host, log.umtrack.com
+#host, log.umtrack.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
 host-suffix, adsrvr.org
@@ -45,6 +45,7 @@ host, h-adashx.ut.taobao.com
 #百度慧推
 #host, sofire.baidu.com
 #百度统计Crab-用户行为分析隐私上报
+host, als.baidu.com
 host, nsclick.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
@@ -52,7 +53,6 @@ host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 
 #host, afd.baidu.com
-#host, als.baidu.com
 #host, api.tuisong.baidu.com
 #host, dlswbr.baidu.com
 #host, dxp.baidu.com
@@ -123,4 +123,3 @@ host, adstats.tencentmusic.com
 #小米
 host-suffix, ad.xiaomi.com
 host-suffix, tracking.miui.com
-
