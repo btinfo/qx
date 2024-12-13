@@ -1,3 +1,12 @@
+host, mail-activity.nos-jd.163yun.com
+host-suffix, toponadss.com
+host, aaid.uyunad.com
+host, wkrd.tingyun.com
+host, wkdcm1.tingyun.com
+host-wildcard, *-sg.pangle.io
+host-wildcard, pangolin*.sgsnssdk.com
+host, pingma.qq.com
+
 #host, log.umtrack.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
@@ -6,6 +15,8 @@ host-suffix, demdex.net
 host-suffix, im-apps.net
 host-suffix, shuzilm.cn
 host-suffix, telecome.cn
+host, sdk-config.tanx.com
+host, et.tanx.com
 
 #秒针-用户行为分析隐私上报
 host-suffix, miaozhen.com
@@ -46,6 +57,7 @@ host, h-adashx.ut.taobao.com
 #host, sofire.baidu.com
 #百度统计Crab-用户行为分析隐私上报
 host, als.baidu.com
+host, bgg.baidu.com
 host, nsclick.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
@@ -63,12 +75,17 @@ host, mobads-pre-config.cdn.bcebos.com
 #host, wkctj.baidu.com
 #host, zz.bdstatic.com
 
+#bili
+host, dataflow.biliapi.com
+host, cm.bilibili.com
+
 #字节
 #host, dig.bdurl.net
 #host, i.snssdk.com
 host-keyword, pangolin-sdk-toutiao
 host-suffix, ctobsnssdk.com
 host-suffix, pglstatp-toutiao.com
+host-wildcard, tnc*-ali*.zijieapi.com
 #字节跳动火山引擎
 host-suffix, volceapplog.com
 
@@ -77,6 +94,7 @@ host, cgicol.amap.com
 
 #谷歌
 host, app-measurement.com
+host, app-analytics-services.com
 host, pagead2.googlesyndication.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
@@ -115,11 +133,21 @@ host, wup.imtt.qq.com
 #QQ音乐广告
 host, adstats.tencentmusic.com
 
+host, apd-pcdnwxstat.teg.tencent-cloud.net
+host, apd-pcdnwxlogin.teg.tencent-cloud.net
+
 #微信公众号广告
 #host, wxa.wxs.qq.com
 #host, wxsnsdythumb.wxs.qq.com
 #host, wxsnsdy.wxs.qq.com
+host, dns.weixin.qq.吧com.cn
+
 
 #小米
 host-suffix, ad.xiaomi.com
 host-suffix, tracking.miui.com
+
+#作业帮
+host, httpdns.zybang.com
+host, adx.zuoyebang.com
+
