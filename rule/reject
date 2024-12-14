@@ -96,7 +96,6 @@ host, cm.bilibili.com
 host-keyword, pangolin
 host-suffix, ctobsnssdk.com
 host-suffix, pglstatp-toutiao.com
-host-wildcard, tnc*-*.zijieapi.com
 #字节跳动火山引擎
 host-suffix, volceapplog.com
 
