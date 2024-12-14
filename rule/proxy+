@@ -1,7 +1,3 @@
-ip-asn, 31898
-ip-asn, 38107
-ip-asn, 45102
-
 host-suffix, blogspot.com
 host-suffix, cloudfront.net
 host-suffix, daumcdn.net
@@ -11,6 +7,9 @@ host-suffix, transfermarkt.com
 host-suffix, transfermarkt.de
 host-suffix, transfermarkt.technology
 host-suffix, tzuqiu.cc
+
+#amazon
+host-suffix, amazonaws.com
 
 #apple
 host, testflight.apple.com
@@ -37,6 +36,7 @@ ip-asn, 174 // Cogent Communications
 ip-asn, 714 // APPLE INC.
 ip-asn, 852 // TELUS Communications Inc.
 ip-asn, 906 // DMIT Cloud Services
+ip-asn, 1239 //Sprint
 ip-asn, 2914 // NTT AMERICA, INC.
 ip-asn, 3320 // Deutsche Telekom AG
 ip-asn, 3356 // LEVEL3
@@ -75,17 +75,20 @@ ip-asn, 23576 // NAVER CLOUD CORP.
 ip-asn, 24940 // HETZNER ONLINE GMBH
 ip-asn, 25820 // IT7NET
 ip-asn, 30298 // COG-SEOVEC
+ip-asn, 31898 //Oracle Corporation
 ip-asn, 32934 // FACEBOOK, INC.
 ip-asn, 35251 // Zhihua Lu
 ip-asn, 35916 // MULTACOM CORPORATION
 ip-asn, 36088 // Oath Holdings Inc.
 ip-asn, 36351 // SOFTLAYER TECHNOLOGIES INC.
 ip-asn, 38099 // KAKAO CORP
+ip-asn, 38107 //CDNetworks
 ip-asn, 38631 // LINE Corporation
 ip-asn, 39134 // UNITEDNET
 ip-asn, 40065 // CNSERVERS LLC
 ip-asn, 40676 // Psychz Networks
 ip-asn, 41378 // Kirino LLC
+ip-asn, 45102 //Alibaba (US) Technology Co., Ltd.
 ip-asn, 47965 // Signalhorn Trusted Networks GmbH
 ip-asn, 48447 // SECTIGO LIMITED
 ip-asn, 49453 // GLOBAL LAYER B.V.
@@ -105,7 +108,9 @@ ip-asn, 136800 // MOACK.Co.LTD
 ip-asn, 136907 // HUAWEI CLOUDS
 ip-asn, 140096 // JINX CO., LIMITED
 ip-asn, 200777 // Deutsche Welle Anstalt des Oeffentlichen Rechts
+ip-asn, 205692 //Webinvest Plus LLC
 ip-asn, 396982 // GOOGLE LLC
+ip-asn, 399077 //Tcloudnet
 
 #disabled
 -ip-asn, 29423 // GRIDSCALE GMBH
