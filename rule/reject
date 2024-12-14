@@ -1,4 +1,7 @@
+host, ad.cyapi.cn
+host, zhihu-web-analytics.zhihu.com
 host, mail-activity.nos-jd.163yun.com
+
 host-suffix, toponadss.com
 host, aaid.uyunad.com
 host, wkrd.tingyun.com
@@ -17,6 +20,12 @@ host-suffix, shuzilm.cn
 host-suffix, telecome.cn
 host, sdk-config.tanx.com
 host, et.tanx.com
+
+#dns
+host, dns.weixin.qq.com.cn
+host, httpdns.alicdn.com
+host, httpdns.c.cdnhwc2.com
+host, httpdns.zybang.com
 
 #秒针-用户行为分析隐私上报
 host-suffix, miaozhen.com
@@ -134,8 +143,7 @@ host, wup.imtt.qq.com
 #QQ音乐广告
 host, adstats.tencentmusic.com
 
-#dns pcdn
-host, dns.weixin.qq.com.cn
+#pcdn
 host, apd-pcdnwxstat.teg.tencent-cloud.net
 host, apd-pcdnwxlogin.teg.tencent-cloud.net
 
@@ -149,5 +157,4 @@ host-suffix, ad.xiaomi.com
 host-suffix, tracking.miui.com
 
 #作业帮
-host, httpdns.zybang.com
 host, adx.zuoyebang.com
