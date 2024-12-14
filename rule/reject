@@ -26,6 +26,7 @@ host, dns.weixin.qq.com.cn
 host, httpdns.alicdn.com
 host, httpdns.c.cdnhwc2.com
 host, httpdns.zybang.com
+ip-cidr, 95.161.76.100/31 //telegram
 
 #秒针-用户行为分析隐私上报
 host-suffix, miaozhen.com
