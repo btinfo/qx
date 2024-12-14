@@ -3,8 +3,8 @@ host-suffix, toponadss.com
 host, aaid.uyunad.com
 host, wkrd.tingyun.com
 host, wkdcm1.tingyun.com
-host-wildcard, *-sg.pangle.io
-host-wildcard, pangolin*.sgsnssdk.com
+#host-wildcard, *-sg.pangle.io
+#host-wildcard, pangolin*.sgsnssdk.com
 host, pingma.qq.com
 
 #host, log.umtrack.com
@@ -82,7 +82,8 @@ host, cm.bilibili.com
 #字节
 #host, dig.bdurl.net
 #host, i.snssdk.com
-host-keyword, pangolin-sdk-toutiao
+#host-keyword, pangolin-sdk-toutiao
+host-keyword, pangolin
 host-suffix, ctobsnssdk.com
 host-suffix, pglstatp-toutiao.com
 host-wildcard, tnc*-ali*.zijieapi.com
