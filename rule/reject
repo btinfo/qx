@@ -22,7 +22,7 @@ host, sdk-config.tanx.com
 host, et.tanx.com
 
 #dns
-host, dns.weixin.qq.com.cn
+#host, dns.weixin.qq.com.cn
 host, httpdns.alicdn.com
 host, httpdns.c.cdnhwc2.com
 host, httpdns.zybang.com
