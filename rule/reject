@@ -68,6 +68,7 @@ host, hm.baidu.com
 host, hmma.baidu.com
 host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
+ip-cidr, 180.76.76.200/32 //贴吧
 
 #host, afd.baidu.com
 #host, api.tuisong.baidu.com
