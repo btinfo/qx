@@ -139,8 +139,8 @@ host, wup.imtt.qq.com
 host, adstats.tencentmusic.com
 
 #pcdn
-host, apd-pcdnwxstat.teg.tencent-cloud.net
-host, apd-pcdnwxlogin.teg.tencent-cloud.net
+#host, apd-pcdnwxstat.teg.tencent-cloud.net
+#host, apd-pcdnwxlogin.teg.tencent-cloud.net
 
 #小米
 host-suffix, ad.xiaomi.com
