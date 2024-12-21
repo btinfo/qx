@@ -10,7 +10,6 @@ host, wkdcm1.tingyun.com
 #host-wildcard, pangolin*.sgsnssdk.com
 host, pingma.qq.com
 
-#host, log.umtrack.com
 host, policy.video.iqiyi.com
 host, pv.sohu.com
 host-suffix, adsrvr.org
@@ -142,11 +141,6 @@ host, adstats.tencentmusic.com
 #pcdn
 host, apd-pcdnwxstat.teg.tencent-cloud.net
 host, apd-pcdnwxlogin.teg.tencent-cloud.net
-
-#微信公众号广告
-#host, wxa.wxs.qq.com
-#host, wxsnsdythumb.wxs.qq.com
-#host, wxsnsdy.wxs.qq.com
 
 #小米
 host-suffix, ad.xiaomi.com
