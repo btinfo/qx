@@ -1,21 +1,7 @@
 host, api.bugfender.com
-host, zxid-m.mobileservice.cn
 host, alogs.umeng.com
-host-suffix, branch.io
-host-suffix, scorecardresearch.com
-host, gm.mmstat.com
-host, wgo.mmstat.com
-host-suffix, iad-06.braze.com
-host-suffix, appsflyersdk.com
-host, combine.urbanairship.com
-host, msg.qy.net
 host, yumao.puata.info
-host, china2021.s3.ap-northeast-2.amazonaws.com
-host-suffix, crashlytics.com
 host, intake-analytics.wikimedia.org
-host, optimus-ads.amap.com
-host, acs.m.taobao.com
-host-suffix, appsflyer.com
 
 #广告联盟
 host-suffix, adsrvr.org
@@ -41,10 +27,10 @@ host, pingma.qq.com
 
 #app广告
 host, mail-activity.nos-jd.163yun.com //163邮箱
-host, policy.video.iqiyi.com //爱奇艺
 host, ad.cyapi.cn //彩云天气
 host, dataflow.biliapi.com //bili
 host, cm.bilibili.com //bili
+host, optimus-ads.amap.com //高德地图
 host, adstats.tencentmusic.com //QQ音乐
 host, adx.zuoyebang.com //作业帮
 host, zhihu-web-analytics.zhihu.com //知乎
@@ -57,12 +43,27 @@ host-suffix, iadsdk.apple.com
 
 #amazon
 host, data.flurry.com
+host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
+host-suffix, appsflyer.com
+host-suffix, appsflyersdk.com
+host-suffix, branch.io
+host-suffix, iad-06.braze.com
+host-suffix, scorecardresearch.com
 
 #alibaba
 host, adashx.m.taobao.com
 host, assets.growingio.com
 host, h-adashx.ut.taobao.com
+host, acs.m.taobao.com
+
+host, zxid-m.mobileservice.cn
+host, gm.mmstat.com
+host, wgo.mmstat.com
+
+#iqiyi
+host, msg.qy.net
+host, policy.video.iqiyi.com
 
 #百度慧推
 #host, sofire.baidu.com
@@ -100,12 +101,14 @@ host-suffix, volceapplog.com
 #google
 host, app-measurement.com
 host, app-analytics-services.com
+host, combine.urbanairship.com
 host, pagead2.googlesyndication.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
 host-suffix, google-analytics.com
 host-suffix, googletagmanager.com
+host-suffix, crashlytics.com
 
 #京东开普勒
 host, dgstatic.jd.com
