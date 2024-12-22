@@ -9,7 +9,7 @@ host, wxsnsdythumb.wxs.qq.com
 host, api.bugfender.com
 #host, alogs.umeng.com
 host, yumao.puata.info
-host, intake-analytics.wikimedia.org
+#host, intake-analytics.wikimedia.org
 
 #广告联盟
 host-suffix, adsrvr.org
@@ -46,8 +46,8 @@ host, zhihu-web-analytics.zhihu.com //知乎
 ip-cidr, 95.161.76.100/31 //telegram dns
 
 #apple
-host, api-adservices.apple.com
-host-suffix, iadsdk.apple.com
+#host, api-adservices.apple.com
+#host-suffix, iadsdk.apple.com
 
 #amazon
 host, data.flurry.com
@@ -65,18 +65,18 @@ host, assets.growingio.com
 host, h-adashx.ut.taobao.com
 host, acs.m.taobao.com
 
-host, zxid-m.mobileservice.cn
+#host, zxid-m.mobileservice.cn
 host-suffix, mmstat.com
 
 #iqiyi
-host, msg.qy.net
-host, policy.video.iqiyi.com
+#host, msg.qy.net
+#host, policy.video.iqiyi.com
 
 #百度慧推
 #host, sofire.baidu.com
 #百度统计Crab-用户行为分析隐私上报
-host, als.baidu.com
-host, bgg.baidu.com
+#host, als.baidu.com
+#host, bgg.baidu.com
 host, nsclick.baidu.com
 host, hm.baidu.com
 host, hmma.baidu.com
@@ -106,9 +106,9 @@ host-suffix, pglstatp-toutiao.com
 #host-suffix, volceapplog.com
 
 #google
-host, app-measurement.com
-host, app-analytics-services.com
-host, combine.urbanairship.com
+#host, app-measurement.com
+#host, app-analytics-services.com
+#host, combine.urbanairship.com
 host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
@@ -118,10 +118,10 @@ host-suffix, googletagmanager.com
 host-suffix, googlesyndication.com
 
 #京东开普勒
-host, dgstatic.jd.com
+#host, dgstatic.jd.com
 #京东
-host, dg.k.jd.com
-host, kepler.jd.com
+#host, dg.k.jd.com
+#host, kepler.jd.com
 
 #快手磁力引擎
 host, gdfp.gifshow.com
@@ -129,11 +129,11 @@ host-suffix, adkwai.com
 host-suffix, e.kuaishou.com
 
 #搜狐
-host, pv.sohu.com
+#host, pv.sohu.com
 
 #腾讯优量汇
 host, adsmind.gdtimg.com
-host, ios.bugly.qq.com
+#host, ios.bugly.qq.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, pgdt.gtimg.cn
@@ -150,8 +150,8 @@ host-suffix, mtrace.qq.com
 host-suffix, trace.qq.com
 
 #腾讯统计-用户行为分析隐私上报
-host, snowflake.qq.com
-host, wup.imtt.qq.com
+#host, snowflake.qq.com
+#host, wup.imtt.qq.com
 
 #小米
 host-suffix, ad.xiaomi.com
