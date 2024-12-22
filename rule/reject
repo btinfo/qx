@@ -8,7 +8,7 @@ host, wxsnsdythumb.wxs.qq.com
 
 host, api.bugfender.com
 #host, alogs.umeng.com
-host, yumao.puata.info
+#host, yumao.puata.info
 #host, intake-analytics.wikimedia.org
 
 #广告联盟
@@ -27,8 +27,8 @@ host-suffix, toponadss.com
 host-suffix, ubixioe.com //优比客思
 
 host, aaid.uyunad.com
-host, wkrd.tingyun.com
-host, wkdcm1.tingyun.com
+#host, wkrd.tingyun.com
+#host, wkdcm1.tingyun.com
 #host-wildcard, *-sg.pangle.io
 #host-wildcard, pangolin*.sgsnssdk.com
 host, pingma.qq.com
@@ -41,7 +41,7 @@ host, ad.cyapi.cn //彩云天气
 host, optimus-ads.amap.com //高德地图
 host, adstats.tencentmusic.com //QQ音乐
 host, adx.zuoyebang.com //作业帮
-host, zhihu-web-analytics.zhihu.com //知乎
+#host, zhihu-web-analytics.zhihu.com //知乎
 
 ip-cidr, 95.161.76.100/31 //telegram dns
 
