@@ -1,3 +1,4 @@
+#广告联盟
 host-suffix, adsrvr.org
 host-suffix, beizi.biz //上海倍孜
 host-suffix, demdex.net
@@ -10,6 +11,7 @@ host-suffix, shuzilm.cn
 host-suffix, telecome.cn
 host-suffix, tanx.com
 host-suffix, toponadss.com
+host-suffix, ubixioe.com //优比客思
 
 host, aaid.uyunad.com
 host, wkrd.tingyun.com
@@ -125,7 +127,3 @@ host, wup.imtt.qq.com
 #小米
 host-suffix, ad.xiaomi.com
 host-suffix, tracking.miui.com
-
-#上海优比客思科技有限公司
-host, sdk-data.ubixioe.com
-host, tower.ubixioe.com
