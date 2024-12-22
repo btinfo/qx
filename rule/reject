@@ -7,7 +7,7 @@ host, wxsnsdy.wxs.qq.com
 host, wxsnsdythumb.wxs.qq.com
 
 host, api.bugfender.com
-host, alogs.umeng.com
+#host, alogs.umeng.com
 host, yumao.puata.info
 host, intake-analytics.wikimedia.org
 
@@ -51,12 +51,12 @@ host-suffix, iadsdk.apple.com
 
 #amazon
 host, data.flurry.com
-host, china2021.s3.ap-northeast-2.amazonaws.com
+#host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
 host-suffix, appsflyer.com
 host-suffix, appsflyersdk.com
 host-suffix, branch.io
-host-suffix, iad-06.braze.com
+host-suffix, braze.com
 host-suffix, scorecardresearch.com
 
 #alibaba
@@ -66,8 +66,7 @@ host, h-adashx.ut.taobao.com
 host, acs.m.taobao.com
 
 host, zxid-m.mobileservice.cn
-host, gm.mmstat.com
-host, wgo.mmstat.com
+host-suffix, mmstat.com
 
 #iqiyi
 host, msg.qy.net
@@ -104,19 +103,19 @@ host-keyword, pangolin
 host-suffix, ctobsnssdk.com
 host-suffix, pglstatp-toutiao.com
 #字节跳动火山引擎
-host-suffix, volceapplog.com
+#host-suffix, volceapplog.com
 
 #google
 host, app-measurement.com
 host, app-analytics-services.com
 host, combine.urbanairship.com
-host, pagead2.googlesyndication.com
+host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
 host-suffix, google-analytics.com
 host-suffix, googletagmanager.com
-host-suffix, crashlytics.com
+host-suffix, googlesyndication.com
 
 #京东开普勒
 host, dgstatic.jd.com
