@@ -38,7 +38,7 @@ host, mail-activity.nos-jd.163yun.com //163邮箱
 host, ad.cyapi.cn //彩云天气
 #host, dataflow.biliapi.com //bili
 #host, cm.bilibili.com //bili
-host, optimus-ads.amap.com //高德地图
+#host, optimus-ads.amap.com //高德地图
 host, adstats.tencentmusic.com //QQ音乐
 host, adx.zuoyebang.com //作业帮
 #host, zhihu-web-analytics.zhihu.com //知乎
