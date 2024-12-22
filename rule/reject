@@ -4,6 +4,8 @@ host-suffix, demdex.net
 host-suffix, hubcloud.com.cn //adhub
 host-suffix, im-apps.net
 host-suffix, miaozhen.com //秒针
+host-suffix, dutils.com //mobtech
+host-suffix, mob.com //mobtech
 host-suffix, shuzilm.cn
 host-suffix, telecome.cn
 host-suffix, tanx.com
@@ -94,10 +96,6 @@ host, kepler.jd.com
 host, gdfp.gifshow.com
 host-suffix, adkwai.com
 host-suffix, e.kuaishou.com
-
-#MobTech袤博(前上海游昆)-用户行为分析隐私上报
-host-suffix, dutils.com
-host-suffix, mob.com
 
 #搜狐
 host, pv.sohu.com
