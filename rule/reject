@@ -1,3 +1,22 @@
+host, api.bugfender.com
+host, zxid-m.mobileservice.cn
+host, alogs.umeng.com
+host-suffix, branch.io
+host-suffix, scorecardresearch.com
+host, gm.mmstat.com
+host, wgo.mmstat.com
+host-suffix, iad-06.braze.com
+host-suffix, appsflyersdk.com
+host, combine.urbanairship.com
+host, msg.qy.net
+host, yumao.puata.info
+host, china2021.s3.ap-northeast-2.amazonaws.com
+host-suffix, crashlytics.com
+host, intake-analytics.wikimedia.org
+host, optimus-ads.amap.com
+host, acs.m.taobao.com
+host-suffix, appsflyer.com
+
 #广告联盟
 host-suffix, adsrvr.org
 host-suffix, beizi.biz //上海倍孜
