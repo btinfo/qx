@@ -1,12 +1,12 @@
-host, wxa.wxs.qq.com
-host, wximg.wxs.qq.com
-host, wxsmw.wxs.qq.com
-host, wxsnsad.tc.qq.com
-host, wxsnsdy.tc.qq.com
-host, wxsnsdy.wxs.qq.com
-host, wxsnsdythumb.wxs.qq.com
+#host, wxa.wxs.qq.com
+#host, wximg.wxs.qq.com
+#host, wxsmw.wxs.qq.com
+#host, wxsnsad.tc.qq.com
+#host, wxsnsdy.tc.qq.com
+#host, wxsnsdy.wxs.qq.com
+#host, wxsnsdythumb.wxs.qq.com
 
-host, api.bugfender.com
+#host, api.bugfender.com
 #host, alogs.umeng.com
 #host, yumao.puata.info
 #host, intake-analytics.wikimedia.org
@@ -31,7 +31,7 @@ host, aaid.uyunad.com
 #host, wkdcm1.tingyun.com
 #host-wildcard, *-sg.pangle.io
 #host-wildcard, pangolin*.sgsnssdk.com
-host, pingma.qq.com
+#host, pingma.qq.com
 
 #app广告
 host, mail-activity.nos-jd.163yun.com //163邮箱
@@ -47,7 +47,7 @@ ip-cidr, 95.161.76.100/31 //telegram dns
 
 #apple
 #host, api-adservices.apple.com
-#host-suffix, iadsdk.apple.com
+host-suffix, iadsdk.apple.com
 
 #amazon
 host, data.flurry.com
@@ -66,7 +66,7 @@ host, h-adashx.ut.taobao.com
 host, acs.m.taobao.com
 
 #host, zxid-m.mobileservice.cn
-host-suffix, mmstat.com
+#host-suffix, mmstat.com
 
 #iqiyi
 #host, msg.qy.net
@@ -75,16 +75,16 @@ host-suffix, mmstat.com
 #百度慧推
 #host, sofire.baidu.com
 #百度统计Crab-用户行为分析隐私上报
-#host, als.baidu.com
+host, als.baidu.com
+host, afd.baidu.com
 #host, bgg.baidu.com
 host, nsclick.baidu.com
-host, hm.baidu.com
-host, hmma.baidu.com
+#host, hm.baidu.com
+#host, hmma.baidu.com
 host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 ip-cidr, 180.76.76.200/32 //贴吧
 
-#host, afd.baidu.com
 #host, api.tuisong.baidu.com
 #host, dlswbr.baidu.com
 #host, dxp.baidu.com
@@ -100,7 +100,7 @@ ip-cidr, 180.76.76.200/32 //贴吧
 #host, i.snssdk.com
 #host-keyword, pangolin-sdk-toutiao
 host-keyword, pangolin
-host-suffix, ctobsnssdk.com
+#host-suffix, ctobsnssdk.com
 host-suffix, pglstatp-toutiao.com
 #字节跳动火山引擎
 #host-suffix, volceapplog.com
@@ -109,13 +109,13 @@ host-suffix, pglstatp-toutiao.com
 #host, app-measurement.com
 #host, app-analytics-services.com
 #host, combine.urbanairship.com
-host-suffix, crashlytics.com
+#host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
-host-suffix, google-analytics.com
-host-suffix, googletagmanager.com
-host-suffix, googlesyndication.com
+#host-suffix, google-analytics.com
+#host-suffix, googletagmanager.com
+#host-suffix, googlesyndication.com
 
 #京东开普勒
 #host, dgstatic.jd.com
@@ -129,25 +129,16 @@ host-suffix, adkwai.com
 host-suffix, e.kuaishou.com
 
 #搜狐
-#host, pv.sohu.com
+host, pv.sohu.com
 
-#腾讯优量汇
-host, adsmind.gdtimg.com
-#host, ios.bugly.qq.com
+#腾讯
+host, pgdt.gtimg.com
+host, pgdt.gtimg.cn
+host, pgdt.ugdtimg.com
+host, wa.gtimg.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
-host-suffix, pgdt.gtimg.cn
-host-suffix, qzs.gdtimg.com
-
-#腾讯移动推送 TPNS(前腾讯信鸽)-隐私上报
-host-suffix, tpns.tencent.com
-
-#腾讯灯塔-用户行为分析隐私上报
-host-suffix, beacon.qq.com
-host-suffix, btrace.qq.com
-host-suffix, mdt.qq.com
-host-suffix, mtrace.qq.com
-host-suffix, trace.qq.com
+host-suffix, l.qq.com
 
 #腾讯统计-用户行为分析隐私上报
 #host, snowflake.qq.com
@@ -155,4 +146,4 @@ host-suffix, trace.qq.com
 
 #小米
 host-suffix, ad.xiaomi.com
-host-suffix, tracking.miui.com
+#host-suffix, tracking.miui.com
