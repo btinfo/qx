@@ -1,22 +1,16 @@
-#host-suffix, crashlytics.com
-#host-suffix, google-analytics.com
 #host-suffix, googlesyndication.com
-#host-suffix, googletagmanager.com
 #host-suffix, mmstat.com
 #host-suffix, tracking.miui.com
-#host, api-adservices.apple.com
 #host, api.bugfender.com
 #host, api.tuisong.baidu.com
 #host, dig.bdurl.net
 #host, dlswbr.baidu.com
-#host, dxp.baidu.com
 #host, fclog.baidu.com
 #host, hpd.baidu.com
 #host, i.snssdk.com
 #host, kstj.baidu.com
 #host, miao.baidu.com
 #host, msg.qy.net
-#host, sofire.baidu.com
 #host, wkctj.baidu.com
 #host, wup.imtt.qq.com
 #host, zz.bdstatic.com
@@ -32,6 +26,7 @@ host-suffix, appsflyersdk.com
 host-suffix, beizi.biz //上海倍孜
 host-suffix, branch.io
 host-suffix, braze.com
+host-suffix, crashlytics.com
 host-suffix, ctobsnssdk.com
 host-suffix, demdex.net
 host-suffix, doubleclick-cn.net
@@ -96,7 +91,6 @@ host, dataflow.biliapi.com //bili
 host, dg.k.jd.com
 host, dgstatic.jd.com
 host, dxp.baidu.com
-host, firebase-settings.crashlytics.com
 host, gdfp.gifshow.com
 host, gromore.pangolin-sdk-toutiao.com
 host, h-adashx.ut.taobao.com
