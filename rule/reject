@@ -1,11 +1,3 @@
-#host, wxa.wxs.qq.com
-#host, wximg.wxs.qq.com
-#host, wxsmw.wxs.qq.com
-#host, wxsnsad.tc.qq.com
-#host, wxsnsdy.tc.qq.com
-#host, wxsnsdy.wxs.qq.com
-#host, wxsnsdythumb.wxs.qq.com
-
 #host, api.bugfender.com
 #host, alogs.umeng.com
 #host, yumao.puata.info
@@ -15,6 +7,7 @@
 host-suffix, adsrvr.org
 host-suffix, beizi.biz //上海倍孜
 host-suffix, demdex.net
+host-suffix, hpplay.cn
 host-suffix, hubcloud.com.cn //adhub
 host-suffix, im-apps.net
 host-suffix, miaozhen.com //秒针
@@ -72,9 +65,8 @@ host, acs.m.taobao.com
 #host, msg.qy.net
 #host, policy.video.iqiyi.com
 
-#百度慧推
+#百度
 #host, sofire.baidu.com
-#百度统计Crab-用户行为分析隐私上报
 host, als.baidu.com
 host, afd.baidu.com
 #host, bgg.baidu.com
@@ -99,7 +91,6 @@ ip-cidr, 180.76.76.200/32 //贴吧
 #host, dig.bdurl.net
 #host, i.snssdk.com
 #host-suffix, ctobsnssdk.com
-#字节跳动火山引擎
 #host-suffix, volceapplog.com
 host, gromore.pangolin-sdk-toutiao.com
 host, api-access.pangolin-sdk-toutiao1.com
@@ -118,13 +109,7 @@ host-suffix, googleadservices.com
 #host-suffix, googletagmanager.com
 #host-suffix, googlesyndication.com
 
-#京东开普勒
-#host, dgstatic.jd.com
-#京东
-#host, dg.k.jd.com
-#host, kepler.jd.com
-
-#快手磁力引擎
+#快手
 host, gdfp.gifshow.com
 host-suffix, adkwai.com
 host-suffix, e.kuaishou.com
@@ -140,8 +125,6 @@ host, wa.gtimg.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
-
-#腾讯统计-用户行为分析隐私上报
 #host, snowflake.qq.com
 #host, wup.imtt.qq.com
 
