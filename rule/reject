@@ -1,7 +1,57 @@
+host-suffix, adukwai.com
+host-suffix, adzerk.net
+host-suffix, ctobsnssdk.com
+host-suffix, gepush.com
+host-suffix, getui.com
+host-suffix, getui.net
+host-suffix, inkuai.com
+host-suffix, jiguang.cn
+host-suffix, jpush.cn
+host-suffix, kuaishouzt.com
+host-suffix, sigmob.cn
+host-suffix, tingyun.com
+host-suffix, umeng.com
+host-suffix, umengcloud.com
+host-suffix, volceapplog.com
+host-suffix, zijieapi.com
+host, 76177.activity-12.m.duiba.com.cn
+host, ad.12306.cn
+host, ad.qtfm.cn
+host, ad.tencentmusic.com
+host, adlaunch.moji.com
+host, adsmind.gdtimg.com
+host, adt.cpatrk.net
+host, api-adservices.apple.com
+host, app-analytics-services.com
+host, app-measurement.com
+host, appcloud2.zhihu.com
+host, bgg.baidu.com
+host, dg.k.jd.com
+host, dgstatic.jd.com
+host, dxp.baidu.com
+host, firebase-settings.crashlytics.com
+host, h.trace.qq.com
+host, hmma.baidu.com
+host, intake-analytics.wikimedia.org
+host, ios.bugly.qq.com
+host, janapi.jd.com
+host, kepler.jd.com
+host, lkme.cc
+host, mapi.m.jd.com
+host, mobilead.kuwo.cn
+host, pingma.qq.com
+host, qzs.gdtimg.com
+host, rich.kuwo.cn
+host, rpe.xdplt.com
+host, snowflake.qq.com
+host, sofire.baidu.com
+host, syndicatedsearch.goog
+host, www.google-analytics.com
+host, www.googletagmanager.com
+host, xlog.jd.com
+host, yumao.puata.info
+host, zxid-m.mobileservice.cn
 #host, api.bugfender.com
-#host, alogs.umeng.com
-#host, yumao.puata.info
-#host, intake-analytics.wikimedia.org
 
 #广告联盟
 host-suffix, adsrvr.org
@@ -20,21 +70,16 @@ host-suffix, toponadss.com
 host-suffix, ubixioe.com //优比客思
 
 host, aaid.uyunad.com
-#host, wkrd.tingyun.com
-#host, wkdcm1.tingyun.com
-#host-wildcard, *-sg.pangle.io
-#host-wildcard, pangolin*.sgsnssdk.com
-#host, pingma.qq.com
 
 #app广告
 host, mail-activity.nos-jd.163yun.com //163邮箱
 host, ad.cyapi.cn //彩云天气
-#host, dataflow.biliapi.com //bili
-#host, cm.bilibili.com //bili
-#host, optimus-ads.amap.com //高德地图
+host, dataflow.biliapi.com //bili
+host, cm.bilibili.com //bili
+host, optimus-ads.amap.com //高德地图
 host, adstats.tencentmusic.com //QQ音乐
 host, adx.zuoyebang.com //作业帮
-#host, zhihu-web-analytics.zhihu.com //知乎
+host, zhihu-web-analytics.zhihu.com //知乎
 
 ip-cidr, 95.161.76.100/31 //telegram dns
 
@@ -44,7 +89,6 @@ host-suffix, iadsdk.apple.com
 
 #amazon
 host, data.flurry.com
-#host, china2021.s3.ap-northeast-2.amazonaws.com
 host-suffix, amazon-adsystem.com
 host-suffix, appsflyer.com
 host-suffix, appsflyersdk.com
@@ -58,21 +102,17 @@ host, assets.growingio.com
 host, h-adashx.ut.taobao.com
 host, acs.m.taobao.com
 
-#host, zxid-m.mobileservice.cn
 #host-suffix, mmstat.com
 
 #iqiyi
 #host, msg.qy.net
-#host, policy.video.iqiyi.com
+host, policy.video.iqiyi.com
 
 #百度
 #host, sofire.baidu.com
 host, als.baidu.com
 host, afd.baidu.com
-#host, bgg.baidu.com
 host, nsclick.baidu.com
-#host, hm.baidu.com
-#host, hmma.baidu.com
 host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 ip-cidr, 180.76.76.200/32 //贴吧
@@ -90,17 +130,12 @@ ip-cidr, 180.76.76.200/32 //贴吧
 #字节byte
 #host, dig.bdurl.net
 #host, i.snssdk.com
-#host-suffix, ctobsnssdk.com
-#host-suffix, volceapplog.com
 host, gromore.pangolin-sdk-toutiao.com
 host, api-access.pangolin-sdk-toutiao1.com
 host, api-access.pangolin-sdk-toutiao.com
 host, sf3-fe-tos.pglstatp-toutiao.com
 
 #google
-#host, app-measurement.com
-#host, app-analytics-services.com
-#host, combine.urbanairship.com
 #host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
@@ -125,7 +160,6 @@ host, wa.gtimg.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
-#host, snowflake.qq.com
 #host, wup.imtt.qq.com
 
 #小米
