@@ -23,7 +23,7 @@ host-suffix, adzerk.net
 host-suffix, amazon-adsystem.com
 host-suffix, appsflyer.com
 host-suffix, appsflyersdk.com
-host-suffix, beizi.biz //上海倍孜
+host-suffix, beizi.biz
 host-suffix, branch.io
 host-suffix, braze.com
 host-suffix, crashlytics.com
@@ -31,7 +31,7 @@ host-suffix, ctobsnssdk.com
 host-suffix, demdex.net
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
-host-suffix, dutils.com //mobtech
+host-suffix, dutils.com
 host-suffix, e.kuaishou.com
 host-suffix, e.qq.com
 host-suffix, gdt.qq.com
@@ -40,7 +40,7 @@ host-suffix, getui.com
 host-suffix, getui.net
 host-suffix, googleadservices.com
 host-suffix, hpplay.cn
-host-suffix, hubcloud.com.cn //adhub
+host-suffix, hubcloud.com.cn
 host-suffix, iadsdk.apple.com
 host-suffix, im-apps.net
 host-suffix, inkuai.com
@@ -48,8 +48,8 @@ host-suffix, jiguang.cn
 host-suffix, jpush.cn
 host-suffix, kuaishouzt.com
 host-suffix, l.qq.com
-host-suffix, miaozhen.com //秒针
-host-suffix, mob.com //mobtech
+host-suffix, miaozhen.com
+host-suffix, mob.com
 host-suffix, scorecardresearch.com
 host-suffix, shuzilm.cn
 host-suffix, sigmob.cn
@@ -57,7 +57,7 @@ host-suffix, tanx.com
 host-suffix, telecome.cn
 host-suffix, tingyun.com
 host-suffix, toponadss.com
-host-suffix, ubixioe.com //优比客思
+host-suffix, ubixioe.com
 host-suffix, umeng.com
 host-suffix, umengcloud.com
 host-suffix, volceapplog.com
@@ -66,15 +66,15 @@ host, 76177.activity-12.m.duiba.com.cn
 host, aaid.uyunad.com
 host, acs.m.taobao.com
 host, ad.12306.cn
-host, ad.cyapi.cn //彩云天气
+host, ad.cyapi.cn
 host, ad.qtfm.cn
 host, ad.tencentmusic.com
 host, adashx.m.taobao.com
 host, adlaunch.moji.com
 host, adsmind.gdtimg.com
-host, adstats.tencentmusic.com //QQ音乐
+host, adstats.tencentmusic.com
 host, adt.cpatrk.net
-host, adx.zuoyebang.com //作业帮
+host, adx.zuoyebang.com
 host, afd.baidu.com
 host, als.baidu.com
 host, api-access.pangolin-sdk-toutiao.com
@@ -85,9 +85,9 @@ host, app-measurement.com
 host, appcloud2.zhihu.com
 host, assets.growingio.com
 host, bgg.baidu.com
-host, cm.bilibili.com //bili
+host, cm.bilibili.com
 host, data.flurry.com
-host, dataflow.biliapi.com //bili
+host, dataflow.biliapi.com
 host, dg.k.jd.com
 host, dgstatic.jd.com
 host, dxp.baidu.com
@@ -101,13 +101,13 @@ host, ios.bugly.qq.com
 host, janapi.jd.com
 host, kepler.jd.com
 host, lkme.cc
-host, mail-activity.nos-jd.163yun.com //163邮箱
+host, mail-activity.nos-jd.163yun.com
 host, mapi.m.jd.com
 host, mobads-pre-config.cdn.bcebos.com
 host, mobads.baidu.com
 host, mobilead.kuwo.cn
 host, nsclick.baidu.com
-host, optimus-ads.amap.com //高德地图
+host, optimus-ads.amap.com
 host, pgdt.gtimg.cn
 host, pgdt.gtimg.com
 host, pgdt.ugdtimg.com
@@ -126,7 +126,7 @@ host, www.google-analytics.com
 host, www.googletagmanager.com
 host, xlog.jd.com
 host, yumao.puata.info
-host, zhihu-web-analytics.zhihu.com //知乎
+host, zhihu-web-analytics.zhihu.com
 host, zxid-m.mobileservice.cn
 ip-cidr, 180.76.76.200/32 //贴吧
 ip-cidr, 95.161.76.100/31 //telegram dns
