@@ -20,8 +20,8 @@ host-suffix, im-apps.net
 host-suffix, miaozhen.com //秒针
 host-suffix, dutils.com //mobtech
 host-suffix, mob.com //mobtech
-host-suffix, shuzilm.cn
-host-suffix, telecome.cn
+#host-suffix, shuzilm.cn
+#host-suffix, telecome.cn
 host-suffix, tanx.com
 host-suffix, toponadss.com
 host-suffix, ubixioe.com //优比客思
