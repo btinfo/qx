@@ -23,6 +23,8 @@ host, h-adashx.ut.taobao.com
 #amazon
 host, data.flurry.com
 host-suffix, amazon-adsystem.com
+host-suffix, appsflyer.com
+host-suffix, appsflyersdk.com
 host-suffix, branch.io
 host-suffix, braze.com
 
@@ -96,6 +98,7 @@ host-suffix, ad.xiaomi.com
 host, appcloud2.zhihu.com
 host, zhihu-web-analytics.zhihu.com
 
+#>>>
 host, 76177.activity-12.m.duiba.com.cn
 host, aaid.uyunad.com
 host, ad.12306.cn
@@ -117,12 +120,14 @@ host, policy.video.iqiyi.com
 host, pv.sohu.com
 host, rich.kuwo.cn
 host, rpe.xdplt.com
+host, syndicatedsearch.goog
+host, yumao.puata.info
+host, zxid-m.mobileservice.cn
+#>>>
 host-suffix, adkwai.com
 host-suffix, adsrvr.org
 host-suffix, adukwai.com
 host-suffix, adzerk.net
-host-suffix, appsflyer.com
-host-suffix, appsflyersdk.com
 host-suffix, beizi.biz
 host-suffix, ctobsnssdk.com
 host-suffix, demdex.net
@@ -147,8 +152,6 @@ host-suffix, toponadss.com
 host-suffix, ubixioe.com
 host-suffix, umengcloud.com
 host-suffix, umeng.com
-host, syndicatedsearch.goog
-host, yumao.puata.info
-host, zxid-m.mobileservice.cn
+#>>>
 ip-cidr, 95.161.76.100/31 //telegram dns
 
