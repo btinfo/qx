@@ -46,12 +46,10 @@ host, sofire.baidu.com
 ip-cidr, 180.76.76.200/32 //贴吧
 
 #byte
-host, api-access.pangolin-sdk-toutiao1.com
-host, api-access.pangolin-sdk-toutiao.com
-host, gromore.pangolin-sdk-toutiao.com
-host, sf3-fe-tos.pglstatp-toutiao.com
+host-keyword, pangolin-sdk-toutiao
+host-keyword, pglstatp-toutiao
 host-suffix, volceapplog.com
-host-suffix, zijieapi.com
+#host-suffix, zijieapi.com
 
 #google
 host, app-analytics-services.com
@@ -60,8 +58,8 @@ host-suffix, crashlytics.com
 host-suffix, doubleclick-cn.net
 host-suffix, doubleclick.net
 host-suffix, googleadservices.com
-host, www.google-analytics.com
-host, www.googletagmanager.com
+host-suffix, google-analytics.com
+host-suffix, googletagmanager.com
 
 #jd
 host, dg.k.jd.com
@@ -111,6 +109,8 @@ host, adx.zuoyebang.com
 host, assets.growingio.com
 host, cm.bilibili.com
 host, dataflow.biliapi.com
+host, fapi.xdrun.com
+host, fp-it.fengkongcloud.com
 host, gdfp.gifshow.com
 host, intake-analytics.wikimedia.org
 host, lkme.cc
@@ -129,7 +129,9 @@ host-suffix, adkwai.com
 host-suffix, adsrvr.org
 host-suffix, adukwai.com
 host-suffix, adzerk.net
+host-suffix, analytics.yahoo.com
 host-suffix, beizi.biz
+host-suffix, criteo.com
 host-suffix, ctobsnssdk.com
 host-suffix, demdex.net
 host-suffix, dutils.com
@@ -144,6 +146,8 @@ host-suffix, jiguang.cn
 host-suffix, jpush.cn
 host-suffix, miaozhen.com
 host-suffix, mob.com
+host-suffix, outbrain.com
+host-suffix, privacy-mgmt.com
 host-suffix, shuzilm.cn
 host-suffix, sigmob.cn
 host-suffix, tanx.com
