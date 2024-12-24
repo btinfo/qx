@@ -1,4 +1,0 @@
-HOST,optimus-ads.amap.com, reject
-
-# %m*.amap.com%
-^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject

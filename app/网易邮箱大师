@@ -1,6 +1,0 @@
-# 网易邮箱大师
-
-HOST-SUFFIX,b.mail.163.com, reject
--HOST-SUFFIX,gorgon.youdao.com, reject
-HOST-SUFFIX,nex.163.com, reject
-HOST-SUFFIX,yt-adp.ws.126.net, reject

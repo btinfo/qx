@@ -1,5 +1,0 @@
-# 拼多多
-# https://apps.apple.com/cn/app/id1044283059
-
-# %api.yangkeduo.com,api.pinduoduo.com%
-^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject

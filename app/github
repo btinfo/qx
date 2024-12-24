@@ -1,9 +1,0 @@
-# Github
-# https://apps.apple.com/us/app/id1477376905
-
-HOST,github.githubassets.com,PROXY
-HOST,collector.githubapp.com,PROXY
-
-# 谷歌
-HOST,firebaselogging-pa.googleapis.com,REJECT
-#HOST-SUFFIX,crashlytics.com,REJECT

@@ -1,7 +1,0 @@
-# 虎嗅
-# https://apps.apple.com/cn/app/id557509598
-
-HOST,a1-img.huxiucdn.com,REJECT
-
-# 友盟
-HOST-SUFFIX,umeng.com,REJECT

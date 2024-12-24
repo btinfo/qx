@@ -1,9 +1,0 @@
-# 爱奇艺
-# %act.vip.iqiyi.com,intl.iqiyi.com%
-^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
-^https?:\/\/intl\.iqiyi\.com\/ad_external\/ - reject
-^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
-^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ - reject
-#test

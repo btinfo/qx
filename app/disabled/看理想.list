@@ -1,4 +1,0 @@
-# 看理想
-# https://apps.apple.com/cn/app/id1342118033
-# %api.vistopia.com.cn%
-^https:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject

@@ -1,7 +1,0 @@
-# 和平营地
-
-# 腾讯
-HOST,btrace.qq.com,REJECT
-#HOST,mazu.m.qq.com,REJECT
-HOST,stat.tpns.tencent.com,REJECT
-HOST,ten.sngapm.qq.com,REJECT
