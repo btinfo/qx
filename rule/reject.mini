@@ -18,8 +18,8 @@ host, afd.baidu.com
 host, als.baidu.com
 #host, bgg.baidu.com
 #host, dxp.baidu.com
-#host, hm.baidu.com
-#host, hmma.baidu.com
+host, hm.baidu.com
+host, hmma.baidu.com
 host, mobads.baidu.com
 host, mobads-pre-config.cdn.bcebos.com
 host, nsclick.baidu.com
