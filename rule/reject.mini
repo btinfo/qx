@@ -1,0 +1,78 @@
+#alibaba
+host, acs.m.taobao.com
+host, adashx.m.taobao.com
+host, h-adashx.ut.taobao.com
+
+#amazon
+host, data.flurry.com
+host-suffix, amazon-adsystem.com
+host-suffix, appsflyer.com
+host-suffix, appsflyersdk.com
+
+#apple
+host, api-adservices.apple.com
+host-suffix, iadsdk.apple.com
+
+#baidu
+host, afd.baidu.com
+host, als.baidu.com
+#host, bgg.baidu.com
+#host, dxp.baidu.com
+#host, hm.baidu.com
+#host, hmma.baidu.com
+host, mobads.baidu.com
+host, mobads-pre-config.cdn.bcebos.com
+host, nsclick.baidu.com
+#host, sofire.baidu.com
+ip-cidr, 180.76.76.200/32 //贴吧
+
+#byte
+host-keyword, pangolin-sdk-toutiao
+host-keyword, pglstatp-toutiao
+#host-suffix, volceapplog.com
+#host-suffix, zijieapi.com
+
+#google
+host, app-analytics-services.com
+host, app-measurement.com
+host-suffix, crashlytics.com
+host-suffix, doubleclick-cn.net
+host-suffix, doubleclick.net
+host-suffix, googleadservices.com
+host-suffix, google-analytics.com
+host-suffix, googletagmanager.com
+
+#kuaishou
+host-suffix, e.kuaishou.com
+host-suffix, kuaishouzt.com
+
+#tencent
+host, adsmind.gdtimg.com
+host, adstats.tencentmusic.com
+host, ad.tencentmusic.com
+host, h.trace.qq.com
+host, ios.bugly.qq.com
+host, pgdt.gtimg.cn
+host, pgdt.gtimg.com
+host, pgdt.ugdtimg.com
+#host, pingma.qq.com
+host, qzs.gdtimg.com
+#host, snowflake.qq.com
+host-suffix, e.qq.com
+host-suffix, gdt.qq.com
+host-suffix, l.qq.com
+#host, wa.gtimg.com
+
+host, ad.12306.cn
+host, ad.cyapi.cn
+host, adlaunch.moji.com
+host, ad.qtfm.cn
+host, adx.zuoyebang.com
+host, assets.growingio.com
+host, cm.bilibili.com
+host, dataflow.biliapi.com
+host, gdfp.gifshow.com
+host, mobilead.kuwo.cn
+host, rich.kuwo.cn
+
+ip-cidr, 95.161.76.100/31 //telegram dns
