@@ -1,9 +1,0 @@
-32   direct
-10   direct+
-90   proxy
-91   proxy+
-53   reject
-541  reject_awa
-340  reject_ko
-150  reject.o
-686  reject_v2fly
