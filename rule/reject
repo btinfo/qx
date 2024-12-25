@@ -62,12 +62,12 @@ host-suffix, google-analytics.com
 host-suffix, googletagmanager.com
 
 #jd
-host, dg.k.jd.com
-host, dgstatic.jd.com
-host, janapi.jd.com
-host, kepler.jd.com
-host, mapi.m.jd.com
-host, xlog.jd.com
+#host, dg.k.jd.com
+#host, dgstatic.jd.com
+#host, janapi.jd.com
+#host, kepler.jd.com
+#host, mapi.m.jd.com
+#host, xlog.jd.com
 
 #kuaishou
 host-suffix, e.kuaishou.com
@@ -135,15 +135,15 @@ host-suffix, criteo.com
 host-suffix, ctobsnssdk.com
 host-suffix, demdex.net
 host-suffix, dutils.com
-host-suffix, gepush.com
-host-suffix, getui.com
-host-suffix, getui.net
+%host-suffix, gepush.com
+#host-suffix, getui.com
+#host-suffix, getui.net
 host-suffix, hpplay.cn
 host-suffix, hubcloud.com.cn
 host-suffix, im-apps.net
 host-suffix, inkuai.com
-host-suffix, jiguang.cn
-host-suffix, jpush.cn
+#host-suffix, jiguang.cn
+#host-suffix, jpush.cn
 host-suffix, miaozhen.com
 host-suffix, mob.com
 host-suffix, outbrain.com
@@ -155,8 +155,8 @@ host-suffix, telecome.cn
 host-suffix, tingyun.com
 host-suffix, toponadss.com
 host-suffix, ubixioe.com
-host-suffix, umengcloud.com
-host-suffix, umeng.com
+#host-suffix, umengcloud.com
+#host-suffix, umeng.com
 #>>>
 ip-cidr, 95.161.76.100/31 //telegram dns
 
