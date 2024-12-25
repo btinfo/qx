@@ -16,6 +16,7 @@ host, app-analytics-services.com
 host-suffix, crashlytics.com
 
 #kuaishou
+host, gdfp.gifshow.com
 host, open.kwaizt.com
 host-suffix, kuaishouzt.com
 
@@ -39,7 +40,6 @@ host, ad.qtfm.cn
 host, adx.zuoyebang.com
 host, cm.bilibili.com
 host, dataflow.biliapi.com
-host, gdfp.gifshow.com
 host, mobilead.kuwo.cn
 host, rich.kuwo.cn
 
