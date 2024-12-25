@@ -32,7 +32,11 @@ host, qzs.gdtimg.com
 host-suffix, l.qq.com
 #host, wa.gtimg.com
 
+# 北京锐讯灵通科技有限公司
+host, ztoken.uyunad.com
 host, aaid.uyunad.com
+host, yumao.puata.info
+
 host, ad.12306.cn
 host, ad.cyapi.cn
 host, adlaunch.moji.com
