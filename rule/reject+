@@ -16,6 +16,7 @@ host, app-analytics-services.com
 host-suffix, crashlytics.com
 
 #kuaishou
+host, open.kwaizt.com
 host-suffix, kuaishouzt.com
 
 #tencent
