@@ -394,11 +394,6 @@ DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,log-sdk.gifshow.com
 DOMAIN,wlog.kuaishou.com
 
-#kugou-ads.txt
-DOMAIN-SUFFIX,ads.service.kugou.com
-DOMAIN-SUFFIX,adserviceretry.kglink.cn
-DOMAIN-SUFFIX,adserviceretry.kugou.com
-
 #mopub-ads.txt
 DOMAIN-SUFFIX,mopub.com
 
@@ -467,3 +462,4 @@ DOMAIN-SUFFIX,z.gds.cnzz.com
 DOMAIN-SUFFIX,adbehavior.ximalaya.com
 DOMAIN-SUFFIX,adse.wsa.ximalaya.com
 DOMAIN-SUFFIX,adse.ximalaya.com
+
