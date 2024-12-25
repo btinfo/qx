@@ -33,6 +33,7 @@ host, qzs.gdtimg.com
 host-suffix, l.qq.com
 #host, wa.gtimg.com
 
+#apps
 host, ad.12306.cn
 host, ad.cyapi.cn
 host, adlaunch.moji.com
@@ -42,5 +43,9 @@ host, cm.bilibili.com
 host, dataflow.biliapi.com
 host, mobilead.kuwo.cn
 host, rich.kuwo.cn
-
 ip-cidr, 95.161.76.100/31 //telegram dns
+
+#advertise
+host-suffix, beizi.biz
+host-suffix, hubcloud.com.cn
+host-suffix, tanx.com
