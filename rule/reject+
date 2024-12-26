@@ -48,4 +48,5 @@ ip-cidr, 95.161.76.100/31 //telegram dns
 #advertise
 host-suffix, beizi.biz
 host-suffix, hubcloud.com.cn
+host-suffix, outbrain.com
 host-suffix, tanx.com
