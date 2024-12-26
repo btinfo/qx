@@ -12,8 +12,8 @@ host, mobads-pre-config.cdn.bcebos.com
 ip-cidr, 180.76.76.200/32 //贴吧
 
 #google
-#host, app-analytics-services.com
-#host-suffix, crashlytics.com
+host, app-analytics-services.com
+host-suffix, crashlytics.com
 
 #kuaishou
 host, gdfp.gifshow.com
