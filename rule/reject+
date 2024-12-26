@@ -34,6 +34,7 @@ host-suffix, l.qq.com
 #host, wa.gtimg.com
 
 #apps
+host, abroadad.cache.wpscdn.com
 host, ad.12306.cn
 host, ad.cyapi.cn
 host, adlaunch.moji.com
