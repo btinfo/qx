@@ -63,7 +63,7 @@ DOMAIN-SUFFIX,spotifycdn.com, Spotify
 DOMAIN-SUFFIX,spotifycdn.net, Spotify
 
 #Telegram
-# 数量：14条
+# 数量：11条
 DOMAIN-KEYWORD,telegram, Telegram
 DOMAIN-SUFFIX,t.me, Telegram
 DOMAIN-SUFFIX,tdesktop.com, Telegram
