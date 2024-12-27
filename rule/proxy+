@@ -1,122 +1,122 @@
-host-suffix, akamaized.net
-host-suffix, blogspot.com
-host-suffix, cloudfront.net
-host-suffix, daumcdn.net
-host-suffix, namu.wiki
-host-suffix, netgear.com
-host-suffix, ridibooks.com
-host-suffix, transfermarkt.com
-host-suffix, transfermarkt.de
-host-suffix, transfermarkt.technology
-host-suffix, tzuqiu.cc
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,daumcdn.net
+DOMAIN-SUFFIX,namu.wiki
+DOMAIN-SUFFIX,netgear.com
+DOMAIN-SUFFIX,ridibooks.com
+DOMAIN-SUFFIX,transfermarkt.com
+DOMAIN-SUFFIX,transfermarkt.de
+DOMAIN-SUFFIX,transfermarkt.technology
+DOMAIN-SUFFIX,tzuqiu.cc
 
 #amazon
-host-suffix, amazonaws.com
+DOMAIN-SUFFIX,amazonaws.com
 
 #apple
-host, testflight.apple.com
+DOMAIN,testflight.apple.com
 
 #facebook
-host-keyword, .facebook.
+DOMAIN-KEYWORD,.facebook.
 
 #google
-host-keyword, google
+DOMAIN-KEYWORD,google
 
 #Reddit
-host-suffix, reddit.com
-host-suffix, redd.it
-host-suffix, redditmedia.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
 
 #SmartNews
-host-suffix, smartnews.be
-host-suffix, smartnews.com
+DOMAIN-SUFFIX,smartnews.be
+DOMAIN-SUFFIX,smartnews.com
 
 #Wikipedia
-host-suffix, wikipedia.org
+DOMAIN-SUFFIX,wikipedia.org
 
-ip-asn, 174 // Cogent Communications
-ip-asn, 714 // APPLE INC.
-ip-asn, 852 // TELUS Communications Inc.
-ip-asn, 906 // DMIT Cloud Services
-ip-asn, 1239 //Sprint
-ip-asn, 2914 // NTT AMERICA, INC.
-ip-asn, 3320 // Deutsche Telekom AG
-ip-asn, 3356 // LEVEL3
-ip-asn, 3462 // DATA COMMUNICATION BUSINESS GROUP
-ip-asn, 3786 // LG DACOM CORPORATION
-ip-asn, 4230 // CLARO S.A.
-ip-asn, 4766 // KOREA TELECOM
-ip-asn, 6134 // XNNET
-ip-asn, 6185 // APPLE-AUSTIN
-ip-asn, 6939 // Hurricane Electric LLC
-ip-asn, 7625 // Kakao Corp
-ip-asn, 8068 // MICROSOFT CORPORATION
-ip-asn, 8075 // MICROSOFT CORPORATION
-ip-asn, 8100 // QuadraNet Enterprises LLC
-ip-asn, 9009 // M247 EUROPE SRL
-ip-asn, 9318 // SK BROADBAND CO LTD
-ip-asn, 9457 // DREAMLINE CO. 
-ip-asn, 11042 // NTHL
-ip-asn, 12874 // FASTWEB
-ip-asn, 13333 // CONSOLIDATED COMMUNICATIONS, INC.
-ip-asn, 13335 // CLOUDFLARE, INC.
-ip-asn, 13360 // Triton Digital
-ip-asn, 13414 // TWITTER INC.
-ip-asn, 14061 // DIGITALOCEAN, LLC
-ip-asn, 14618 // AMAZON.COM, INC.
-ip-asn, 14907 // Wikimedia Foundation Inc.
-ip-asn, 15133 // EDGECAST NETWORKS INC
-ip-asn, 15169 // GOOGLE LLC
-ip-asn, 16276 // OVH SAS
-ip-asn, 16509 // AMAZON.COM, INC.
-ip-asn, 16625 // AKAMAI TECHNOLOGIES, INC.
-ip-asn, 19551 // Incapsula Inc
-ip-asn, 19679 // DROPBOX, INC.
-ip-asn, 20940 // AKAMAI INTERNATIONAL B.V.
-ip-asn, 23576 // NAVER CLOUD CORP.
-ip-asn, 24940 // HETZNER ONLINE GMBH
-ip-asn, 25820 // IT7NET
-ip-asn, 30298 // COG-SEOVEC
-ip-asn, 31898 //Oracle Corporation
-ip-asn, 32934 // FACEBOOK, INC.
-ip-asn, 35251 // Zhihua Lu
-ip-asn, 35916 // MULTACOM CORPORATION
-ip-asn, 36088 // Oath Holdings Inc.
-ip-asn, 36351 // SOFTLAYER TECHNOLOGIES INC.
-ip-asn, 38099 // KAKAO CORP
-ip-asn, 38107 //CDNetworks
-ip-asn, 38631 // LINE Corporation
-ip-asn, 39134 // UNITEDNET
-ip-asn, 40065 // CNSERVERS LLC
-ip-asn, 40676 // Psychz Networks
-ip-asn, 41378 // Kirino LLC
-ip-asn, 45102 //Alibaba (US) Technology Co., Ltd.
-ip-asn, 47965 // Signalhorn Trusted Networks GmbH
-ip-asn, 48447 // SECTIGO LIMITED
-ip-asn, 49453 // GLOBAL LAYER B.V.
-ip-asn, 51167 // Contabo GmbH
-ip-asn, 53755 // INPUT OUTPUT FLOOD LLC
-ip-asn, 54113 // FASTLY, INC.
-ip-asn, 53667 // FranTech
-ip-asn, 54600 // PEG TECH INC
-ip-asn, 54994 // QUANTIL NETWORKS INC
-ip-asn, 59507 // TERRALINK NETWORKS GMBH
-ip-asn, 60068 // DATACAMP LIMITED
-ip-asn, 63949 // AKAMAI CONNECTED CLOUD
-ip-asn, 64050 // BGPNET GLOBAL ASN
-ip-asn, 134963 // Alibaba Cloud (Singapore) Private Limited
-ip-asn, 135354 // NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
-ip-asn, 136800 // MOACK.Co.LTD
-ip-asn, 136907 // HUAWEI CLOUDS
-ip-asn, 140096 // JINX CO., LIMITED
-ip-asn, 200777 // Deutsche Welle Anstalt des Oeffentlichen Rechts
-ip-asn, 205692 //Webinvest Plus LLC
-ip-asn, 396982 // GOOGLE LLC
-ip-asn, 399077 //Tcloudnet
+IP-ASN,174 // Cogent Communications
+IP-ASN,714 // APPLE INC.
+IP-ASN,852 // TELUS Communications Inc.
+IP-ASN,906 // DMIT Cloud Services
+IP-ASN,1239 //Sprint
+IP-ASN,2914 // NTT AMERICA, INC.
+IP-ASN,3320 // Deutsche Telekom AG
+IP-ASN,3356 // LEVEL3
+IP-ASN,3462 // DATA COMMUNICATION BUSINESS GROUP
+IP-ASN,3786 // LG DACOM CORPORATION
+IP-ASN,4230 // CLARO S.A.
+IP-ASN,4766 // KOREA TELECOM
+IP-ASN,6134 // XNNET
+IP-ASN,6185 // APPLE-AUSTIN
+IP-ASN,6939 // Hurricane Electric LLC
+IP-ASN,7625 // Kakao Corp
+IP-ASN,8068 // MICROSOFT CORPORATION
+IP-ASN,8075 // MICROSOFT CORPORATION
+IP-ASN,8100 // QuadraNet Enterprises LLC
+IP-ASN,9009 // M247 EUROPE SRL
+IP-ASN,9318 // SK BROADBAND CO LTD
+IP-ASN,9457 // DREAMLINE CO. 
+IP-ASN,11042 // NTHL
+IP-ASN,12874 // FASTWEB
+IP-ASN,13333 // CONSOLIDATED COMMUNICATIONS, INC.
+IP-ASN,13335 // CLOUDFLARE, INC.
+IP-ASN,13360 // Triton Digital
+IP-ASN,13414 // TWITTER INC.
+IP-ASN,14061 // DIGITALOCEAN, LLC
+IP-ASN,14618 // AMAZON.COM, INC.
+IP-ASN,14907 // Wikimedia Foundation Inc.
+IP-ASN,15133 // EDGECAST NETWORKS INC
+IP-ASN,15169 // GOOGLE LLC
+IP-ASN,16276 // OVH SAS
+IP-ASN,16509 // AMAZON.COM, INC.
+IP-ASN,16625 // AKAMAI TECHNOLOGIES, INC.
+IP-ASN,19551 // Incapsula Inc
+IP-ASN,19679 // DROPBOX, INC.
+IP-ASN,20940 // AKAMAI INTERNATIONAL B.V.
+IP-ASN,23576 // NAVER CLOUD CORP.
+IP-ASN,24940 // HETZNER ONLINE GMBH
+IP-ASN,25820 // IT7NET
+IP-ASN,30298 // COG-SEOVEC
+IP-ASN,31898 //Oracle Corporation
+IP-ASN,32934 // FACEBOOK, INC.
+IP-ASN,35251 // Zhihua Lu
+IP-ASN,35916 // MULTACOM CORPORATION
+IP-ASN,36088 // Oath Holdings Inc.
+IP-ASN,36351 // SOFTLAYER TECHNOLOGIES INC.
+IP-ASN,38099 // KAKAO CORP
+IP-ASN,38107 //CDNetworks
+IP-ASN,38631 // LINE Corporation
+IP-ASN,39134 // UNITEDNET
+IP-ASN,40065 // CNSERVERS LLC
+IP-ASN,40676 // Psychz Networks
+IP-ASN,41378 // Kirino LLC
+IP-ASN,45102 //Alibaba (US) Technology Co., Ltd.
+IP-ASN,47965 // Signalhorn Trusted Networks GmbH
+IP-ASN,48447 // SECTIGO LIMITED
+IP-ASN,49453 // GLOBAL LAYER B.V.
+IP-ASN,51167 // Contabo GmbH
+IP-ASN,53755 // INPUT OUTPUT FLOOD LLC
+IP-ASN,54113 // FASTLY, INC.
+IP-ASN,53667 // FranTech
+IP-ASN,54600 // PEG TECH INC
+IP-ASN,54994 // QUANTIL NETWORKS INC
+IP-ASN,59507 // TERRALINK NETWORKS GMBH
+IP-ASN,60068 // DATACAMP LIMITED
+IP-ASN,63949 // AKAMAI CONNECTED CLOUD
+IP-ASN,64050 // BGPNET GLOBAL ASN
+IP-ASN,134963 // Alibaba Cloud (Singapore) Private Limited
+IP-ASN,135354 // NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
+IP-ASN,136800 // MOACK.Co.LTD
+IP-ASN,136907 // HUAWEI CLOUDS
+IP-ASN,140096 // JINX CO., LIMITED
+IP-ASN,200777 // Deutsche Welle Anstalt des Oeffentlichen Rechts
+IP-ASN,205692 //Webinvest Plus LLC
+IP-ASN,396982 // GOOGLE LLC
+IP-ASN,399077 //Tcloudnet
 
 #disabled
--ip-asn, 29423 // GRIDSCALE GMBH
--ip-asn, 58722 // 51 JALAN LANJUT
--ip-asn, 142403 // YISU CLOUD LTD
--ip-asn, 197019 // WEDOS INTERNET, A.S.
--ip-asn, 200019 // ALEXDOMAIN SRL
+-IP-ASN,29423 // GRIDSCALE GMBH
+-IP-ASN,58722 // 51 JALAN LANJUT
+-IP-ASN,142403 // YISU CLOUD LTD
+-IP-ASN,197019 // WEDOS INTERNET, A.S.
+-IP-ASN,200019 // ALEXDOMAIN SRL

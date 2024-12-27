@@ -1,126 +1,126 @@
 #Apple
-host-suffix,  apple.com.cn, Apple
-host-suffix,  icloud.com.cn, Apple
-host, api.revenuecat.com, Apple
-host, api.smoot.apple.cn, Apple
-host-keyword,  apple.com.akadns.net, Apple
-host-keyword,  apple.com.edgekey.net, Apple
-host-keyword,  apple-support.akadns.net, Apple
-host-keyword,  icloud.com.akadns.net, Apple
-host-suffix,  aaplimg.com, Apple
-host-suffix,  apple-cloudkit.com, Apple
-host-suffix,  apple.co, Apple
-host-suffix,  apple.com, Apple
-host-suffix,  apple-livephotoskit.com, Apple
-host-suffix,  apple-mapkit.com, Apple
-host-suffix,  applemusic.com, Apple
-host-suffix,  appstore.com, Apple
-host-suffix,  apzones.com, Apple
-host-suffix,  cdn-apple.com, Apple
-host-suffix,  icloud.com, Apple
-host-suffix,  icloud-content.com, Apple
-host-suffix,  me.com, Apple
-host-suffix,  mzstatic.com, Apple
+DOMAIN-SUFFIX,apple.com.cn, Apple
+DOMAIN-SUFFIX,icloud.com.cn, Apple
+DOMAIN,api.revenuecat.com, Apple
+DOMAIN,api.smoot.apple.cn, Apple
+DOMAIN-KEYWORD,apple.com.akadns.net, Apple
+DOMAIN-KEYWORD,apple.com.edgekey.net, Apple
+DOMAIN-KEYWORD,apple-support.akadns.net, Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net, Apple
+DOMAIN-SUFFIX,aaplimg.com, Apple
+DOMAIN-SUFFIX,apple-cloudkit.com, Apple
+DOMAIN-SUFFIX,apple.co, Apple
+DOMAIN-SUFFIX,apple.com, Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com, Apple
+DOMAIN-SUFFIX,apple-mapkit.com, Apple
+DOMAIN-SUFFIX,applemusic.com, Apple
+DOMAIN-SUFFIX,appstore.com, Apple
+DOMAIN-SUFFIX,apzones.com, Apple
+DOMAIN-SUFFIX,cdn-apple.com, Apple
+DOMAIN-SUFFIX,icloud.com, Apple
+DOMAIN-SUFFIX,icloud-content.com, Apple
+DOMAIN-SUFFIX,me.com, Apple
+DOMAIN-SUFFIX,mzstatic.com, Apple
 
 #Github
-host-keyword,  github, Github
-host-suffix,  githubapp.com, Github
-host-suffix,  githubassets.com, Github
-host-suffix,  github.com, Github
-host-suffix,  github.io, Github
-host-suffix,  githubusercontent.com, Github
+DOMAIN-KEYWORD,github, Github
+DOMAIN-SUFFIX,githubapp.com, Github
+DOMAIN-SUFFIX,githubassets.com, Github
+DOMAIN-SUFFIX,github.com, Github
+DOMAIN-SUFFIX,github.io, Github
+DOMAIN-SUFFIX,githubusercontent.com, Github
 
 #Gitlab
-host-suffix,  gitlab.com, Github
-host-suffix,  gitlab.io, Github
+DOMAIN-SUFFIX,gitlab.com, Github
+DOMAIN-SUFFIX,gitlab.io, Github
 
 #Instagram
-host-keyword,  instagram, Instagram
-host-suffix,  cdninstagram.com, Instagram
-host-suffix,  fbcdn.net, Instagram
-host-suffix,  fbsbx.com, Instagram
-host-suffix,  instagram.com, Instagram
-host-suffix,  instagr.am, Instagram
+DOMAIN-KEYWORD,instagram, Instagram
+DOMAIN-SUFFIX,cdninstagram.com, Instagram
+DOMAIN-SUFFIX,fbcdn.net, Instagram
+DOMAIN-SUFFIX,fbsbx.com, Instagram
+DOMAIN-SUFFIX,instagram.com, Instagram
+DOMAIN-SUFFIX,instagr.am, Instagram
 
 #Spotify
-host-keyword,  spotify, Spotify
-host-suffix,  pscdn.co, Spotify
-host-suffix,  scdn.co, Spotify
-host-suffix,  spoti.fi, Spotify
-host-suffix,  spotifycdn.com, Spotify
-host-suffix,  spotifycdn.net, Spotify
-host-suffix,  spotify.com, Spotify
+DOMAIN-KEYWORD,spotify, Spotify
+DOMAIN-SUFFIX,pscdn.co, Spotify
+DOMAIN-SUFFIX,scdn.co, Spotify
+DOMAIN-SUFFIX,spoti.fi, Spotify
+DOMAIN-SUFFIX,spotifycdn.com, Spotify
+DOMAIN-SUFFIX,spotifycdn.net, Spotify
+DOMAIN-SUFFIX,spotify.com, Spotify
 
 #Telegram
-host-keyword,  telegram, Telegram
-host-suffix,  tdesktop.com, Telegram
-host-suffix,  telegram.me, Telegram
-host-suffix,  telegram.org, Telegram
-host-suffix,  telegra.ph, Telegram
-host-suffix,  telesco.pe, Telegram
-host-suffix,  t.me, Telegram
-ip-cidr, 149.154.160.0/20, Telegram
-ip-cidr, 185.76.151.0/24, Telegram
-ip-cidr, 91.105.192.0/23, Telegram
-ip-cidr, 91.108.16.0/21, Telegram
-ip-cidr, 91.108.4.0/22, Telegram
-ip-cidr, 91.108.56.0/22, Telegram
-ip-cidr, 91.108.8.0/21, Telegram
-ip-cidr, 95.161.64.0/20, Telegram
+DOMAIN-KEYWORD,telegram, Telegram
+DOMAIN-SUFFIX,tdesktop.com, Telegram
+DOMAIN-SUFFIX,telegram.me, Telegram
+DOMAIN-SUFFIX,telegram.org, Telegram
+DOMAIN-SUFFIX,telegra.ph, Telegram
+DOMAIN-SUFFIX,telesco.pe, Telegram
+DOMAIN-SUFFIX,t.me, Telegram
+IP-CIDR,149.154.160.0/20, Telegram
+IP-CIDR,185.76.151.0/24, Telegram
+IP-CIDR,91.105.192.0/23, Telegram
+IP-CIDR,91.108.16.0/21, Telegram
+IP-CIDR,91.108.4.0/22, Telegram
+IP-CIDR,91.108.56.0/22, Telegram
+IP-CIDR,91.108.8.0/21, Telegram
+IP-CIDR,95.161.64.0/20, Telegram
 
 #Tidal
-#host-suffix,  tidal-cms.s3.amazonaws.com, Tidal
-#host-suffix,  tidal.com, Tidal
-#host-suffix,  tidalhifi.com, Tidal
+#DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com, Tidal
+#DOMAIN-SUFFIX,tidal.com, Tidal
+#DOMAIN-SUFFIX,tidalhifi.com, Tidal
 
 #TikTok
-host, p16-tiktokcdn-com.akamaized.net, TikTok
-host-suffix, byteoversea.com, TikTok
-host-suffix, ibytedtos.com, TikTok
-host-suffix, ibyteimg.com, TikTok
-host-suffix, ipstatp.com, TikTok
-host-suffix, muscdn.com, TikTok
-host-suffix, musical.ly, TikTok
-host-suffix, sgpstatp.com, TikTok
-host-suffix, snssdk.com, TikTok
-host-suffix, tik-tokapi.com, TikTok
-host-suffix, tiktok.com, TikTok
-host-suffix, tiktokcdn.com, TikTok
-host-suffix, tiktokv.com, TikTok
-host-keyword, -tiktokcdn-com, TikTok
-host-keyword, musical.ly, TikTok
-host-keyword, tiktok, TikTok
-host-keyword, tiktokv, TikTok
-user-agent, TikTok*, TikTok
+DOMAIN,p16-tiktokcdn-com.akamaized.net, TikTok
+DOMAIN-SUFFIX,byteoversea.com, TikTok
+DOMAIN-SUFFIX,ibytedtos.com, TikTok
+DOMAIN-SUFFIX,ibyteimg.com, TikTok
+DOMAIN-SUFFIX,ipstatp.com, TikTok
+DOMAIN-SUFFIX,muscdn.com, TikTok
+DOMAIN-SUFFIX,musical.ly, TikTok
+DOMAIN-SUFFIX,sgpstatp.com, TikTok
+DOMAIN-SUFFIX,snssdk.com, TikTok
+DOMAIN-SUFFIX,tik-tokapi.com, TikTok
+DOMAIN-SUFFIX,tiktok.com, TikTok
+DOMAIN-SUFFIX,tiktokcdn.com, TikTok
+DOMAIN-SUFFIX,tiktokv.com, TikTok
+DOMAIN-KEYWORD,-tiktokcdn-com, TikTok
+DOMAIN-KEYWORD,musical.ly, TikTok
+DOMAIN-KEYWORD,tiktok, TikTok
+DOMAIN-KEYWORD,tiktokv, TikTok
+USER-AGENT,TikTok*, TikTok
 
 #X.org
-host-keyword,  twitter, X
-host-suffix,  cms-twdigitalassets.com, X
-host-suffix,  periscope.tv, X
-host-suffix,  pscp.tv, X
-host-suffix,  t.co, X
-host-suffix,  twimg.com, X
-host-suffix,  twimg.co, X
-host-suffix,  twimg.org, X
-host-suffix,  twitpic.com, X
-host-suffix,  twitter.com, X
--host-suffix,  twitter.jp, X
-host-suffix,  vine.co, X
+DOMAIN-KEYWORD,twitter, X
+DOMAIN-SUFFIX,cms-twdigitalassets.com, X
+DOMAIN-SUFFIX,periscope.tv, X
+DOMAIN-SUFFIX,pscp.tv, X
+DOMAIN-SUFFIX,t.co, X
+DOMAIN-SUFFIX,twimg.com, X
+DOMAIN-SUFFIX,twimg.co, X
+DOMAIN-SUFFIX,twimg.org, X
+DOMAIN-SUFFIX,twitpic.com, X
+DOMAIN-SUFFIX,twitter.com, X
+-DOMAIN-SUFFIX,twitter.jp, X
+DOMAIN-SUFFIX,vine.co, X
 
 #Youtube
--host, yt3.ggpht.com, Youtube
-host-keyword,  youtube, Youtube
-host-suffix,  ggpht.com, Youtube
-host-suffix,  googlevideo.com, Youtube
-host-suffix,  gvt2.com, Youtube
-host-suffix,  withyoutube.com, Youtube
-host-suffix,  youtube.com, Youtube
-host-suffix,  youtubeeducation.com, Youtube
-host-suffix,  youtubegaming.com, Youtube
-host-suffix,  youtubekids.com, Youtube
-host-suffix,  youtube-nocookie.com, Youtube
-host-suffix,  youtu.be, Youtube
-host-suffix,  yt.be, Youtube
-host-suffix,  ytimg.com, Youtube
-host, youtubei.googleapis.com, Youtube
+-DOMAIN,yt3.ggpht.com, Youtube
+DOMAIN-KEYWORD,youtube, Youtube
+DOMAIN-SUFFIX,ggpht.com, Youtube
+DOMAIN-SUFFIX,googlevideo.com, Youtube
+DOMAIN-SUFFIX,gvt2.com, Youtube
+DOMAIN-SUFFIX,withyoutube.com, Youtube
+DOMAIN-SUFFIX,youtube.com, Youtube
+DOMAIN-SUFFIX,youtubeeducation.com, Youtube
+DOMAIN-SUFFIX,youtubegaming.com, Youtube
+DOMAIN-SUFFIX,youtubekids.com, Youtube
+DOMAIN-SUFFIX,youtube-nocookie.com, Youtube
+DOMAIN-SUFFIX,youtu.be, Youtube
+DOMAIN-SUFFIX,yt.be, Youtube
+DOMAIN-SUFFIX,ytimg.com, Youtube
+DOMAIN,youtubei.googleapis.com, Youtube
 

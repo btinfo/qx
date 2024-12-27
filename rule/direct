@@ -1,37 +1,37 @@
 #LAN
-host-suffix, local
-ip-cidr, 10.0.0.0/8
-ip-cidr, 100.64.0.0/10
-ip-cidr, 127.0.0.0/8
-ip-cidr, 172.16.0.0/12
-ip-cidr, 192.168.0.0/16
-ip-cidr, 224.0.0.0/4
-ip6-cidr, fe80::/10
+DOMAIN-SUFFIX,local
+IP-CIDR,10.0.0.0/8
+IP-CIDR,100.64.0.0/10
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,224.0.0.0/4
+IP-CIDR6,fe80::/10
 
--host, ad.12306.cn
-host, app.appsflyer.com
-host, ca.iadsdk.apple.com
+-DOMAIN,ad.12306.cn
+DOMAIN,app.appsflyer.com
+DOMAIN,ca.iadsdk.apple.com
 
-host, clientservices.googleapis.com
-host, dl.google.com
-host, dl.l.google.com
-host, mtalk.google.com
-host, update.googleapis.com
-host-suffix, blog.google
-host-suffix, googletraveladservices.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,mtalk.google.com
+DOMAIN,update.googleapis.com
+DOMAIN-SUFFIX,blog.google
+DOMAIN-SUFFIX,googletraveladservices.com
 
--host, btrace.qq.com
-host, fairplay.l.qq.com
-host, livew.l.qq.com
-host, vd.l.qq.com
-host, vi.l.qq.com
+-DOMAIN,btrace.qq.com
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
 
--host, amdc.m.taobao.com
--host, analytics.strava.com
--host, app.adjust.com
--host, bdtj.tagtic.cn
--host, crt.trust-providerc.cn
--host, log.mmstat.com
--host, msg.umengcloud.com
--host, msg.umeng.com
--host, sycm.mmstat.com
+-DOMAIN,amdc.m.taobao.com
+-DOMAIN,analytics.strava.com
+-DOMAIN,app.adjust.com
+-DOMAIN,bdtj.tagtic.cn
+-DOMAIN,crt.trust-providerc.cn
+-DOMAIN,log.mmstat.com
+-DOMAIN,msg.umengcloud.com
+-DOMAIN,msg.umeng.com
+-DOMAIN,sycm.mmstat.com

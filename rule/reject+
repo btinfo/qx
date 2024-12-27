@@ -1,54 +1,54 @@
 #alibaba
-host, acs.m.taobao.com
+DOMAIN,acs.m.taobao.com
 
 #amazon
-host-suffix, appsflyer.com
-host-suffix, appsflyersdk.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
 
 #baidu
-#host, bgg.baidu.com
-host, mobads-pre-config.cdn.bcebos.com
-#host, sofire.baidu.com
-ip-cidr, 180.76.76.200/32 //贴吧
+#DOMAIN,bgg.baidu.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+#DOMAIN,sofire.baidu.com
+IP-CIDR,180.76.76.200/32 //贴吧
 
 #google
-host, app-analytics-services.com
-host-suffix, crashlytics.com
+DOMAIN,app-analytics-services.com
+DOMAIN-SUFFIX,crashlytics.com
 
 #kuaishou
-host, gdfp.gifshow.com
-host, open.kwaizt.com
-host-suffix, kuaishouzt.com
+DOMAIN,gdfp.gifshow.com
+DOMAIN,open.kwaizt.com
+DOMAIN-SUFFIX,kuaishouzt.com
 
 #tencent
-host, adsmind.gdtimg.com
-host, adstats.tencentmusic.com
-host, ad.tencentmusic.com
-host, ios.bugly.qq.com
-host, pgdt.gtimg.com
-host, pgdt.ugdtimg.com
-#host, pingma.qq.com
-host, qzs.gdtimg.com
-#host, snowflake.qq.com
-host-suffix, l.qq.com
-#host, wa.gtimg.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+#DOMAIN,pingma.qq.com
+DOMAIN,qzs.gdtimg.com
+#DOMAIN,snowflake.qq.com
+DOMAIN-SUFFIX,l.qq.com
+#DOMAIN,wa.gtimg.com
 
 #apps
-host, abroadad.cache.wpscdn.com
-host, ad.12306.cn
-host, ad.cyapi.cn
-host, adlaunch.moji.com
-host, ad.qtfm.cn
-host, adx.zuoyebang.com
-host, cm.bilibili.com
-host, dataflow.biliapi.com
-host, mail-activity.nos-jd.163yun.com
-host, mobilead.kuwo.cn
-host, rich.kuwo.cn
-ip-cidr, 95.161.76.100/31 //telegram dns
+DOMAIN,abroadad.cache.wpscdn.com
+DOMAIN,ad.12306.cn
+DOMAIN,ad.cyapi.cn
+DOMAIN,adlaunch.moji.com
+DOMAIN,ad.qtfm.cn
+DOMAIN,adx.zuoyebang.com
+DOMAIN,cm.bilibili.com
+DOMAIN,dataflow.biliapi.com
+DOMAIN,mail-activity.nos-jd.163yun.com
+DOMAIN,mobilead.kuwo.cn
+DOMAIN,rich.kuwo.cn
+IP-CIDR,95.161.76.100/31 //telegram dns
 
 #advertise
-host-suffix, beizi.biz
-host-suffix, hubcloud.com.cn
-host-suffix, outbrain.com
-host-suffix, tanx.com
+DOMAIN-SUFFIX,beizi.biz
+DOMAIN-SUFFIX,hubcloud.com.cn
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,tanx.com
