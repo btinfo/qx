@@ -19,16 +19,16 @@ DOMAIN-SUFFIX,icloud.com.cn, Apple
 DOMAIN-SUFFIX,itunes.com, Apple
 DOMAIN-SUFFIX,me.com, Apple
 DOMAIN-SUFFIX,mzstatic.com, Apple
-IP-CIDR,17.0.0.0/8,no-resolve, Apple
-IP-CIDR,63.92.224.0/19,no-resolve, Apple
-IP-CIDR,65.199.22.0/23,no-resolve, Apple
-IP-CIDR,139.178.128.0/18,no-resolve, Apple
-IP-CIDR,144.178.0.0/19,no-resolve, Apple
-IP-CIDR,144.178.36.0/22,no-resolve, Apple
-IP-CIDR,144.178.48.0/20,no-resolve, Apple
-IP-CIDR,192.35.50.0/24,no-resolve, Apple
-IP-CIDR,198.183.17.0/24,no-resolve, Apple
-IP-CIDR,205.180.175.0/24,no-resolve, Apple
+IP-CIDR,17.0.0.0/8, Apple
+IP-CIDR,63.92.224.0/19, Apple
+IP-CIDR,65.199.22.0/23, Apple
+IP-CIDR,139.178.128.0/18, Apple
+IP-CIDR,144.178.0.0/19, Apple
+IP-CIDR,144.178.36.0/22, Apple
+IP-CIDR,144.178.48.0/20, Apple
+IP-CIDR,192.35.50.0/24, Apple
+IP-CIDR,198.183.17.0/24, Apple
+IP-CIDR,205.180.175.0/24, Apple
 
 #Github
 # 数量：6条
@@ -71,13 +71,13 @@ DOMAIN-SUFFIX,telegra.ph, Telegram
 DOMAIN-SUFFIX,telegram.me, Telegram
 DOMAIN-SUFFIX,telegram.org, Telegram
 DOMAIN-SUFFIX,telesco.pe, Telegram
-IP-CIDR,91.108.0.0/16,no-resolve, Telegram
-IP-CIDR,95.161.64.0/20,no-resolve, Telegram
-IP-CIDR,109.239.140.0/24,no-resolve, Telegram
-IP-CIDR,149.154.160.0/20,no-resolve, Telegram
-IP-CIDR6,2001:67c:4e8::/48,no-resolve, Telegram
-IP-CIDR6,2001:b28:f23d::/48,no-resolve, Telegram
-IP-CIDR6,2001:b28:f23f::/48,no-resolve, Telegram
+IP-CIDR,91.108.0.0/16, Telegram
+IP-CIDR,95.161.64.0/20, Telegram
+IP-CIDR,109.239.140.0/24, Telegram
+IP-CIDR,149.154.160.0/20, Telegram
+IP-CIDR6,2001:67c:4e8::/48, Telegram
+IP-CIDR6,2001:b28:f23d::/48, Telegram
+IP-CIDR6,2001:b28:f23f::/48, Telegram
 
 #TikTok
 # 数量：11条
