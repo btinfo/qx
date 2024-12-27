@@ -13,7 +13,7 @@ IP-CIDR,180.76.76.200/32 //贴吧
 
 #google
 DOMAIN,app-analytics-services.com
-DOMAIN-SUFFIX,crashlytics.com
+#DOMAIN-SUFFIX,crashlytics.com
 
 #kuaishou
 DOMAIN,gdfp.gifshow.com
