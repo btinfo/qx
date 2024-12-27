@@ -1,33 +1,42 @@
 #Apple
-DOMAIN-SUFFIX,apple.com.cn, Apple
-DOMAIN-SUFFIX,icloud.com.cn, Apple
-DOMAIN,api.revenuecat.com, Apple
-DOMAIN,api.smoot.apple.cn, Apple
-DOMAIN-KEYWORD,apple.com.akadns.net, Apple
-DOMAIN-KEYWORD,apple.com.edgekey.net, Apple
-DOMAIN-KEYWORD,apple-support.akadns.net, Apple
-DOMAIN-KEYWORD,icloud.com.akadns.net, Apple
+# 数量：29条
+DOMAIN,apple.comscoreresearch.com, Apple
 DOMAIN-SUFFIX,aaplimg.com, Apple
+DOMAIN-SUFFIX,akadns.net, Apple
 DOMAIN-SUFFIX,apple-cloudkit.com, Apple
+DOMAIN-SUFFIX,apple-dns.net, Apple
+DOMAIN-SUFFIX,apple-mapkit.com, Apple
 DOMAIN-SUFFIX,apple.co, Apple
 DOMAIN-SUFFIX,apple.com, Apple
-DOMAIN-SUFFIX,apple-livephotoskit.com, Apple
-DOMAIN-SUFFIX,apple-mapkit.com, Apple
-DOMAIN-SUFFIX,applemusic.com, Apple
+DOMAIN-SUFFIX,apple.com.cn, Apple
+DOMAIN-SUFFIX,apple.news, Apple
 DOMAIN-SUFFIX,appstore.com, Apple
-DOMAIN-SUFFIX,apzones.com, Apple
 DOMAIN-SUFFIX,cdn-apple.com, Apple
-DOMAIN-SUFFIX,icloud.com, Apple
+DOMAIN-SUFFIX,crashlytics.com, Apple
 DOMAIN-SUFFIX,icloud-content.com, Apple
+DOMAIN-SUFFIX,icloud.com, Apple
+DOMAIN-SUFFIX,icloud.com.cn, Apple
+DOMAIN-SUFFIX,itunes.com, Apple
 DOMAIN-SUFFIX,me.com, Apple
 DOMAIN-SUFFIX,mzstatic.com, Apple
+IP-CIDR,17.0.0.0/8,no-resolve, Apple
+IP-CIDR,63.92.224.0/19,no-resolve, Apple
+IP-CIDR,65.199.22.0/23,no-resolve, Apple
+IP-CIDR,139.178.128.0/18,no-resolve, Apple
+IP-CIDR,144.178.0.0/19,no-resolve, Apple
+IP-CIDR,144.178.36.0/22,no-resolve, Apple
+IP-CIDR,144.178.48.0/20,no-resolve, Apple
+IP-CIDR,192.35.50.0/24,no-resolve, Apple
+IP-CIDR,198.183.17.0/24,no-resolve, Apple
+IP-CIDR,205.180.175.0/24,no-resolve, Apple
 
 #Github
+# 数量：6条
 DOMAIN-KEYWORD,github, Github
-DOMAIN-SUFFIX,githubapp.com, Github
-DOMAIN-SUFFIX,githubassets.com, Github
 DOMAIN-SUFFIX,github.com, Github
 DOMAIN-SUFFIX,github.io, Github
+DOMAIN-SUFFIX,githubapp.com, Github
+DOMAIN-SUFFIX,githubassets.com, Github
 DOMAIN-SUFFIX,githubusercontent.com, Github
 
 #Gitlab
@@ -35,92 +44,86 @@ DOMAIN-SUFFIX,gitlab.com, Github
 DOMAIN-SUFFIX,gitlab.io, Github
 
 #Instagram
+# 数量：4条
 DOMAIN-KEYWORD,instagram, Instagram
 DOMAIN-SUFFIX,cdninstagram.com, Instagram
-DOMAIN-SUFFIX,fbcdn.net, Instagram
-DOMAIN-SUFFIX,fbsbx.com, Instagram
-DOMAIN-SUFFIX,instagram.com, Instagram
 DOMAIN-SUFFIX,instagr.am, Instagram
+DOMAIN-SUFFIX,instagram.com, Instagram
 
 #Spotify
-DOMAIN-KEYWORD,spotify, Spotify
+# 数量：9条
+USER-AGENT,Spotify*, Spotify
+DOMAIN-KEYWORD,-spotify-, Spotify
+DOMAIN-KEYWORD,spotify.com, Spotify
 DOMAIN-SUFFIX,pscdn.co, Spotify
 DOMAIN-SUFFIX,scdn.co, Spotify
 DOMAIN-SUFFIX,spoti.fi, Spotify
+DOMAIN-SUFFIX,spotify.com, Spotify
 DOMAIN-SUFFIX,spotifycdn.com, Spotify
 DOMAIN-SUFFIX,spotifycdn.net, Spotify
-DOMAIN-SUFFIX,spotify.com, Spotify
 
 #Telegram
+# 数量：14条
 DOMAIN-KEYWORD,telegram, Telegram
+DOMAIN-SUFFIX,t.me, Telegram
 DOMAIN-SUFFIX,tdesktop.com, Telegram
+DOMAIN-SUFFIX,telegra.ph, Telegram
 DOMAIN-SUFFIX,telegram.me, Telegram
 DOMAIN-SUFFIX,telegram.org, Telegram
-DOMAIN-SUFFIX,telegra.ph, Telegram
 DOMAIN-SUFFIX,telesco.pe, Telegram
-DOMAIN-SUFFIX,t.me, Telegram
-IP-CIDR,149.154.160.0/20, Telegram
-IP-CIDR,185.76.151.0/24, Telegram
-IP-CIDR,91.105.192.0/23, Telegram
-IP-CIDR,91.108.16.0/21, Telegram
-IP-CIDR,91.108.4.0/22, Telegram
-IP-CIDR,91.108.56.0/22, Telegram
-IP-CIDR,91.108.8.0/21, Telegram
-IP-CIDR,95.161.64.0/20, Telegram
-
-#Tidal
-#DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com, Tidal
-#DOMAIN-SUFFIX,tidal.com, Tidal
-#DOMAIN-SUFFIX,tidalhifi.com, Tidal
+IP-CIDR,91.108.0.0/16,no-resolve, Telegram
+IP-CIDR,95.161.64.0/20,no-resolve, Telegram
+IP-CIDR,109.239.140.0/24,no-resolve, Telegram
+IP-CIDR,149.154.160.0/20,no-resolve, Telegram
+IP-CIDR6,2001:67c:4e8::/48,no-resolve, Telegram
+IP-CIDR6,2001:b28:f23d::/48,no-resolve, Telegram
+IP-CIDR6,2001:b28:f23f::/48,no-resolve, Telegram
 
 #TikTok
-DOMAIN,p16-tiktokcdn-com.akamaized.net, TikTok
+# 数量：11条
+USER-AGENT,TikTok*, TikTok
+DOMAIN-KEYWORD,tiktokcdn, TikTok
 DOMAIN-SUFFIX,byteoversea.com, TikTok
 DOMAIN-SUFFIX,ibytedtos.com, TikTok
-DOMAIN-SUFFIX,ibyteimg.com, TikTok
 DOMAIN-SUFFIX,ipstatp.com, TikTok
 DOMAIN-SUFFIX,muscdn.com, TikTok
 DOMAIN-SUFFIX,musical.ly, TikTok
-DOMAIN-SUFFIX,sgpstatp.com, TikTok
-DOMAIN-SUFFIX,snssdk.com, TikTok
 DOMAIN-SUFFIX,tik-tokapi.com, TikTok
 DOMAIN-SUFFIX,tiktok.com, TikTok
 DOMAIN-SUFFIX,tiktokcdn.com, TikTok
 DOMAIN-SUFFIX,tiktokv.com, TikTok
-DOMAIN-KEYWORD,-tiktokcdn-com, TikTok
-DOMAIN-KEYWORD,musical.ly, TikTok
-DOMAIN-KEYWORD,tiktok, TikTok
-DOMAIN-KEYWORD,tiktokv, TikTok
-USER-AGENT,TikTok*, TikTok
 
-#X.org
+# Twitter
+# 数量：12条
 DOMAIN-KEYWORD,twitter, X
-DOMAIN-SUFFIX,cms-twdigitalassets.com, X
 DOMAIN-SUFFIX,periscope.tv, X
 DOMAIN-SUFFIX,pscp.tv, X
 DOMAIN-SUFFIX,t.co, X
-DOMAIN-SUFFIX,twimg.com, X
 DOMAIN-SUFFIX,twimg.co, X
+DOMAIN-SUFFIX,twimg.com, X
 DOMAIN-SUFFIX,twimg.org, X
 DOMAIN-SUFFIX,twitpic.com, X
 DOMAIN-SUFFIX,twitter.com, X
--DOMAIN-SUFFIX,twitter.jp, X
+DOMAIN-SUFFIX,twitter.jp, X
 DOMAIN-SUFFIX,vine.co, X
+DOMAIN-SUFFIX,x.com, X
 
 #Youtube
--DOMAIN,yt3.ggpht.com, Youtube
+# 数量：17条
+USER-AGENT,*youtube*, Youtube
+USER-AGENT,YouTube*, Youtube
+USER-AGENT,com.google.ios.youtube*, Youtube
 DOMAIN-KEYWORD,youtube, Youtube
-DOMAIN-SUFFIX,ggpht.com, Youtube
+DOMAIN,youtubei.googleapis.com, Youtube
+DOMAIN,yt3.ggpht.com, Youtube
 DOMAIN-SUFFIX,googlevideo.com, Youtube
 DOMAIN-SUFFIX,gvt2.com, Youtube
 DOMAIN-SUFFIX,withyoutube.com, Youtube
+DOMAIN-SUFFIX,youtu.be, Youtube
+DOMAIN-SUFFIX,youtube-nocookie.com, Youtube
 DOMAIN-SUFFIX,youtube.com, Youtube
 DOMAIN-SUFFIX,youtubeeducation.com, Youtube
 DOMAIN-SUFFIX,youtubegaming.com, Youtube
 DOMAIN-SUFFIX,youtubekids.com, Youtube
-DOMAIN-SUFFIX,youtube-nocookie.com, Youtube
-DOMAIN-SUFFIX,youtu.be, Youtube
 DOMAIN-SUFFIX,yt.be, Youtube
 DOMAIN-SUFFIX,ytimg.com, Youtube
-DOMAIN,youtubei.googleapis.com, Youtube
-
