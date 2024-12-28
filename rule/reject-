@@ -48,11 +48,16 @@ DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN,acs.m.taobao.com
 IP-CIDR,180.76.76.200/32 //贴吧
+DOMAIN,adlaunch.moji.com
+DOMAIN,ad.cyapi.cn
 DOMAIN,ad.qtfm.cn
 DOMAIN,ad.tencentmusic.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
 DOMAIN,abroadad.cache.wpscdn.com
 DOMAIN,mail-activity.nos-jd.163yun.com
+DOMAIN,tracking.miui.com
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,ad.intl.xiaomi.com
 
 
