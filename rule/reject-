@@ -1,8 +1,16 @@
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,e.qq.com
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,securepubads.g.doubleclick.net
+DOMAIN,www.googletagmanager.com
+
+DOMAIN,hmma.baidu.com
 DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN,ios.bugly.qq.com
+
 ####################################
+DOMAIN,policy.video.iqiyi.com
 DOMAIN,app-analytics-services.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
