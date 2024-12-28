@@ -2,70 +2,75 @@
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 
+#amazon
+DOMAIN,data.flurry.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
+
 #apple
+DOMAIN-SUFFIX,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 
 #baidu
 DOMAIN,afd.baidu.com
 DOMAIN,als.baidu.com
-DOMAIN,dxp.baidu.com
 DOMAIN,dlswbr.baidu.com
-DOMAIN,kstj.baidu.com
-DOMAIN,mobads.baidu.com
+DOMAIN,dxp.baidu.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
-DOMAIN,nsclick.baidu.com
+DOMAIN,kstj.baidu.com
+DOMAIN,mobads.baidu.com
 DOMAIN,mobads-pre-config.cdn.bcebos.com
-DOMAIN,wkctj.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,wkctj.baidu.com //文库
+IP-CIDR,180.76.76.200/32 //贴吧
 
 #bytedance
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
+DOMAIN,dig.bdurl.net
 DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
 
 #google
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
 DOMAIN,www.googletagmanager.com
+#DOMAIN,app-analytics-services.com
 
 #tencent
+DOMAIN,ad.tencentmusic.com
 DOMAIN,ios.bugly.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,l.qq.com
-DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,trace.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,ad.tencentmusic.com
 
 #kuaishou
-DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
 DOMAIN,open.kuaishouzt.com
+DOMAIN-SUFFIX,e.kuaishou.com
 
-DOMAIN,data.flurry.com
+#xiaomi
+DOMAIN-SUFFIX,ad.intl.xiaomi.com
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN,tracking.miui.com
 
-####################################
-DOMAIN,policy.video.iqiyi.com
-DOMAIN,app-analytics-services.com
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,appsflyersdk.com
+#apps
+DOMAIN,abroadad.cache.wpscdn.com //WPS
+DOMAIN,ad.cyapi.cn //彩云天气
+DOMAIN,adlaunch.moji.com //墨迹天气
+DOMAIN,ad.qtfm.cn //蜻蜓
+DOMAIN,adx.zuoyebang.com //作业帮
+DOMAIN,mail-activity.nos-jd.163yun.com //网易邮箱
+DOMAIN,mobilead.kuwo.cn //酷我
+DOMAIN,policy.video.iqiyi.com //爱奇艺
+DOMAIN,rich.kuwo.cn //酷我
+
+#ads
 DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,tanx.com
-DOMAIN,acs.m.taobao.com
-IP-CIDR,180.76.76.200/32 //贴吧
-DOMAIN,adlaunch.moji.com
-DOMAIN,ad.cyapi.cn
-DOMAIN,ad.qtfm.cn
-DOMAIN,mobilead.kuwo.cn
-DOMAIN,rich.kuwo.cn
-DOMAIN,abroadad.cache.wpscdn.com
-DOMAIN,mail-activity.nos-jd.163yun.com
-DOMAIN,tracking.miui.com
-DOMAIN-SUFFIX,ad.xiaomi.com
-DOMAIN-SUFFIX,ad.intl.xiaomi.com
-
-
