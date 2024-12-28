@@ -64,7 +64,7 @@ DOMAIN-SUFFIX,init.phpwind.com
 DOMAIN-SUFFIX,intl.wapa.taobao.com
 DOMAIN-SUFFIX,intl.waptest.taobao.com
 DOMAIN-SUFFIX,jxlog.istreamsche.com
-DOMAIN-SUFFIX,log.umtrack.com
+✅DOMAIN-SUFFIX,log.umtrack.com
 DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,m.intl.taobao.com
 DOMAIN-SUFFIX,m.simba.taobao.com
@@ -109,8 +109,8 @@ DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,serving-sys.com
 
 #apple-ads.txt
-DOMAIN-SUFFIX,api-adservices.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
+✅DOMAIN-SUFFIX,api-adservices.apple.com
+✅DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,iad.apple.com
 DOMAIN-SUFFIX,qwapi.com
 
@@ -126,8 +126,8 @@ DOMAIN-SUFFIX,adm.baidu.com
 DOMAIN-SUFFIX,adscdn.baidu.com
 DOMAIN-SUFFIX,adx.xiaodutv.com
 DOMAIN-SUFFIX,ae.bdstatic.com
-DOMAIN-SUFFIX,afd.baidu.com
-DOMAIN-SUFFIX,als.baidu.com
+✅DOMAIN-SUFFIX,afd.baidu.com
+✅DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,api.mobula.sdk.duapps.com
 DOMAIN-SUFFIX,api.tuisong.baidu.com
 DOMAIN-SUFFIX,appc.baidu.com
@@ -165,7 +165,7 @@ DOMAIN-SUFFIX,dl1sw.baidu.com
 DOMAIN-SUFFIX,dl2.bav.baidu.com
 DOMAIN-SUFFIX,dlsw.baidu.com
 DOMAIN-SUFFIX,dlsw.br.baidu.com
-DOMAIN-SUFFIX,dlswbr.baidu.com
+✅DOMAIN-SUFFIX,dlswbr.baidu.com
 DOMAIN-SUFFIX,dl-vip.bav.baidu.com
 DOMAIN-SUFFIX,dl-vip.pcfaster.baidu.co.th
 DOMAIN-SUFFIX,download.bav.baidu.com
@@ -173,7 +173,7 @@ DOMAIN-SUFFIX,download.sd.baidu.com
 DOMAIN-SUFFIX,drmcmm.baidu.com
 DOMAIN-SUFFIX,duiwai.baidu.com
 DOMAIN-SUFFIX,dup.baidustatic.com
-DOMAIN-SUFFIX,dxp.baidu.com
+✅DOMAIN-SUFFIX,dxp.baidu.com
 DOMAIN-SUFFIX,dzl.baidu.com
 DOMAIN-SUFFIX,e.baidu.com
 DOMAIN-SUFFIX,eclick.baidu.com
@@ -198,7 +198,7 @@ DOMAIN-SUFFIX,guanjia.baidu.com
 DOMAIN-SUFFIX,hao123union.baidu.com
 DOMAIN-SUFFIX,hc.baidu.com
 DOMAIN-SUFFIX,hm.baidu.com
-DOMAIN-SUFFIX,hmma.baidu.com
+✅DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,hpd.baidu.com
 DOMAIN-SUFFIX,idm.bce.baidu.com
 DOMAIN-SUFFIX,idm-su.baidu.com
@@ -220,7 +220,7 @@ DOMAIN-SUFFIX,mobads-logs.baidu.com
 DOMAIN-SUFFIX,mpro.baidu.com
 DOMAIN-SUFFIX,msite.baidu.com
 DOMAIN-SUFFIX,neirong.baidu.com
-DOMAIN-SUFFIX,nsclick.baidu.com
+✅DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN-SUFFIX,nsclickvideo.baidu.com
 DOMAIN-SUFFIX,openrcv.baidu.com
 DOMAIN-SUFFIX,pc.videoclick.baidu.com
@@ -279,23 +279,23 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 #bytedance-ads.txt
 DOMAIN-SUFFIX,bds.snssdk.com
 DOMAIN-SUFFIX,byteadverts.com
-DOMAIN-SUFFIX,ctobsnssdk.com
-DOMAIN-SUFFIX,dig.bdurl.net
+✅DOMAIN-SUFFIX,ctobsnssdk.com
+✅DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,extlog.snssdk.com
-DOMAIN-SUFFIX,i.snssdk.com
+✅DOMAIN-SUFFIX,i.snssdk.com
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+✅DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+✅DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,panplayable-toutiao-b.com
 DOMAIN-SUFFIX,panplayable-toutiao.com
 DOMAIN-SUFFIX,pglstatp-sdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao-b.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
+✅DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
 
 #facebook-ads.txt
@@ -321,18 +321,18 @@ DOMAIN-SUFFIX,adwords-community.com
 DOMAIN-SUFFIX,adwords.com
 DOMAIN-SUFFIX,adwordsexpress.com
 DOMAIN-SUFFIX,app-measurement-cn.com
-DOMAIN-SUFFIX,app-measurement.com
+✅DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.cn
-DOMAIN-SUFFIX,doubleclick.com
-DOMAIN-SUFFIX,doubleclick.net
+✅DOMAIN-SUFFIX,doubleclick.com
+✅DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics-cn.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadapis.com
 DOMAIN-SUFFIX,googleads-cn.com
 DOMAIN-SUFFIX,googleads.com
 DOMAIN-SUFFIX,googleadservices-cn.com
-DOMAIN-SUFFIX,googleadservices.com
+✅DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googleanalytics.com
 DOMAIN-SUFFIX,googleoptimize-cn.com
@@ -340,7 +340,7 @@ DOMAIN-SUFFIX,googleoptimize.com
 DOMAIN-SUFFIX,googlesyndication-cn.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager-cn.com
-DOMAIN-SUFFIX,googletagmanager.com
+✅DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices-cn.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,googletraveladservices-cn.com
@@ -374,7 +374,7 @@ DOMAIN-SUFFIX,mbdlog.iqiyi.com
 DOMAIN-SUFFIX,msg.71.am
 DOMAIN-SUFFIX,msg.video.qiyi.com
 DOMAIN-SUFFIX,msg2.video.qiyi.com
-DOMAIN-SUFFIX,policy.video.iqiyi.com
+✅DOMAIN-SUFFIX,policy.video.iqiyi.com
 DOMAIN-SUFFIX,yuedu.iqiyi.com
 
 #jd-ads.txt
@@ -435,7 +435,7 @@ DOMAIN-SUFFIX,adver.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,beaconcdn.qq.com
 DOMAIN-SUFFIX,btrace.qq.com
-DOMAIN-SUFFIX,e.qq.com
+✅DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,isdspeed.qq.com
 DOMAIN-SUFFIX,log.tbs.qq.com
