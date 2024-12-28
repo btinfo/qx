@@ -21,6 +21,8 @@ DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN,ios.bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN,pgdt.gtimg.cn
 
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
@@ -36,3 +38,9 @@ DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN,acs.m.taobao.com
 IP-CIDR,180.76.76.200/32 //贴吧
+DOMAIN,ad.qtfm.cn
+DOMAIN,ad.tencentmusic.com
+DOMAIN,mobilead.kuwo.cn
+DOMAIN,rich.kuwo.cn
+
+
