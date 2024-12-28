@@ -28,6 +28,9 @@ DOMAIN,pgdt.gtimg.cn
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
 
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN,data.flurry.com
+
 ####################################
 DOMAIN,policy.video.iqiyi.com
 DOMAIN,app-analytics-services.com
@@ -43,5 +46,6 @@ DOMAIN,ad.qtfm.cn
 DOMAIN,ad.tencentmusic.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
+DOMAIN,abroadad.cache.wpscdn.com
 
 
