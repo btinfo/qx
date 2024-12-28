@@ -13,10 +13,15 @@ DOMAIN,www.googletagmanager.com
 DOMAIN,afd.baidu.com
 DOMAIN,als.baidu.com
 DOMAIN,dxp.baidu.com
+DOMAIN,dlswbr.baidu.com
+DOMAIN,kstj.baidu.com
 DOMAIN,mobads.baidu.com
+DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 DOMAIN,nsclick.baidu.com
 DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,wkctj.baidu.com
+
 
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN,ios.bugly.qq.com
