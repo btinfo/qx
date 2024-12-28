@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com
 
 #google
 DOMAIN,googleads.g.doubleclick.net
+DOMAIN,pagead2.googlesyndication.com
 DOMAIN,securepubads.g.doubleclick.net
 DOMAIN,www.googletagmanager.com
 #DOMAIN,app-analytics-services.com
