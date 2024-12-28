@@ -1,15 +1,11 @@
+#alibaba
 DOMAIN,adashx.m.taobao.com
 DOMAIN,h-adashx.ut.taobao.com
 
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
+#apple
+DOMAIN-SUFFIX,iadsdk.apple.com
 
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,securepubads.g.doubleclick.net
-DOMAIN,www.googletagmanager.com
-
+#baidu
 DOMAIN,afd.baidu.com
 DOMAIN,als.baidu.com
 DOMAIN,dxp.baidu.com
@@ -22,20 +18,32 @@ DOMAIN,nsclick.baidu.com
 DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN,wkctj.baidu.com
 
-
+#bytedance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN-SUFFIX,ctobsnssdk.com
+
+#google
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,securepubads.g.doubleclick.net
+DOMAIN,www.googletagmanager.com
+
+#tencent
 DOMAIN,ios.bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN,pgdt.gtimg.cn
+DOMAIN,ad.tencentmusic.com
 
+#kuaishou
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,gdfp.gifshow.com
 DOMAIN,open.kuaishouzt.com
 
-DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN,data.flurry.com
 
 ####################################
@@ -52,7 +60,6 @@ IP-CIDR,180.76.76.200/32 //贴吧
 DOMAIN,adlaunch.moji.com
 DOMAIN,ad.cyapi.cn
 DOMAIN,ad.qtfm.cn
-DOMAIN,ad.tencentmusic.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
 DOMAIN,abroadad.cache.wpscdn.com
