@@ -23,6 +23,7 @@ DOMAIN,ios.bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,trace.qq.com
 DOMAIN,pgdt.gtimg.cn
 
 DOMAIN-SUFFIX,e.kuaishou.com
@@ -47,5 +48,6 @@ DOMAIN,ad.tencentmusic.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
 DOMAIN,abroadad.cache.wpscdn.com
+DOMAIN,mail-activity.nos-jd.163yun.com
 
 
