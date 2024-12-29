@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,blogspot.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,daumcdn.net
 DOMAIN-SUFFIX,namu.wiki
-DOMAIN-SUFFIX,netgear.com
+#DOMAIN-SUFFIX,netgear.com
 DOMAIN-SUFFIX,ridibooks.com
 DOMAIN-SUFFIX,transfermarkt.com
 DOMAIN-SUFFIX,transfermarkt.de
