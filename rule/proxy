@@ -1,4 +1,4 @@
-#Apple
+# Apple
 # 数量：29条
 DOMAIN,apple.comscoreresearch.com, Apple
 DOMAIN-SUFFIX,aaplimg.com, Apple
@@ -30,7 +30,7 @@ IP-CIDR,192.35.50.0/24, Apple
 IP-CIDR,198.183.17.0/24, Apple
 IP-CIDR,205.180.175.0/24, Apple
 
-#Github
+# Github
 # 数量：6条
 DOMAIN-KEYWORD,github, Github
 DOMAIN-SUFFIX,github.com, Github
@@ -39,18 +39,18 @@ DOMAIN-SUFFIX,githubapp.com, Github
 DOMAIN-SUFFIX,githubassets.com, Github
 DOMAIN-SUFFIX,githubusercontent.com, Github
 
-#Gitlab
+# Gitlab
 DOMAIN-SUFFIX,gitlab.com, Github
 DOMAIN-SUFFIX,gitlab.io, Github
 
-#Instagram
+# Instagram
 # 数量：4条
 DOMAIN-KEYWORD,instagram, Instagram
 DOMAIN-SUFFIX,cdninstagram.com, Instagram
 DOMAIN-SUFFIX,instagr.am, Instagram
 DOMAIN-SUFFIX,instagram.com, Instagram
 
-#Spotify
+# Spotify
 # 数量：9条
 USER-AGENT,Spotify*, Spotify
 DOMAIN-KEYWORD,-spotify-, Spotify
@@ -62,35 +62,21 @@ DOMAIN-SUFFIX,spotify.com, Spotify
 DOMAIN-SUFFIX,spotifycdn.com, Spotify
 DOMAIN-SUFFIX,spotifycdn.net, Spotify
 
-#Telegram
+# Telegram
+# 数量：11条
+DOMAIN-KEYWORD,telegram, Telegram
 DOMAIN-SUFFIX,t.me, Telegram
 DOMAIN-SUFFIX,tdesktop.com, Telegram
 DOMAIN-SUFFIX,telegra.ph, Telegram
-DOMAIN-SUFFIX, Telegram.me, Telegram
-DOMAIN-SUFFIX, Telegram.org, Telegram
+DOMAIN-SUFFIX,telegram.me, Telegram
+DOMAIN-SUFFIX,telegram.org, Telegram
 DOMAIN-SUFFIX,telesco.pe, Telegram
-IP-CIDR,91.108.4.0/22, Telegram
-IP-CIDR,91.108.8.0/22, Telegram
-IP-CIDR,91.108.12.0/22, Telegram
-IP-CIDR,91.108.16.0/22, Telegram
-IP-CIDR,91.108.20.0/22, Telegram
-IP-CIDR,91.108.20.0/23, Telegram
-IP-CIDR,91.108.56.0/22, Telegram
-IP-CIDR,91.108.56.0/23, Telegram
+IP-CIDR,91.108.0.0/16, Telegram
 IP-CIDR,95.161.64.0/20, Telegram
-IP-CIDR,91.105.192.0/23, Telegram
-IP-CIDR,149.154.160.0/22, Telegram
-IP-CIDR,149.154.164.0/22, Telegram
-IP-CIDR,149.154.168.0/22, Telegram
-IP-CIDR,149.154.172.0/22, Telegram
-IP-CIDR,185.76.151.0/24, Telegram
-IP-ASN,44907, Telegram
-IP-ASN,62014, Telegram
-IP-ASN,62041, Telegram
-IP-ASN,59930, Telegram
-IP-ASN,211157, Telegram
+IP-CIDR,109.239.140.0/24, Telegram
+IP-CIDR,149.154.160.0/20, Telegram
 
-#TikTok
+# TikTok
 # 数量：11条
 USER-AGENT,TikTok*, TikTok
 DOMAIN-KEYWORD,tiktokcdn, TikTok
@@ -106,20 +92,20 @@ DOMAIN-SUFFIX,tiktokv.com, TikTok
 
 # Twitter
 # 数量：12条
-DOMAIN-KEYWORD,twitter, X
-DOMAIN-SUFFIX,periscope.tv, X
-DOMAIN-SUFFIX,pscp.tv, X
-DOMAIN-SUFFIX,t.co, X
-DOMAIN-SUFFIX,twimg.co, X
-DOMAIN-SUFFIX,twimg.com, X
-DOMAIN-SUFFIX,twimg.org, X
-DOMAIN-SUFFIX,twitpic.com, X
-DOMAIN-SUFFIX,twitter.com, X
-DOMAIN-SUFFIX,twitter.jp, X
-DOMAIN-SUFFIX,vine.co, X
-DOMAIN-SUFFIX,x.com, X
+DOMAIN-KEYWORD,twitter, Twitter
+DOMAIN-SUFFIX,periscope.tv, Twitter
+DOMAIN-SUFFIX,pscp.tv, Twitter
+DOMAIN-SUFFIX,t.co, Twitter
+DOMAIN-SUFFIX,twimg.co, Twitter
+DOMAIN-SUFFIX,twimg.com, Twitter
+DOMAIN-SUFFIX,twimg.org, Twitter
+DOMAIN-SUFFIX,twitpic.com, Twitter
+DOMAIN-SUFFIX,twitter.com, Twitter
+DOMAIN-SUFFIX,twitter.jp, Twitter
+DOMAIN-SUFFIX,vine.co, Twitter
+DOMAIN-SUFFIX,x.com, Twitter
 
-#Youtube
+# Youtube
 # 数量：17条
 USER-AGENT,*youtube*, Youtube
 USER-AGENT,YouTube*, Youtube
