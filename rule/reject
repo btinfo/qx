@@ -32,7 +32,7 @@ DOMAIN,zz.bdstatic.com
 IP-CIDR,180.76.76.200/32 //贴吧
 
 #bytedance
-DOMAIN,dig.bdurl.net
+#DOMAIN,dig.bdurl.net
 DOMAIN,i.snssdk.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
