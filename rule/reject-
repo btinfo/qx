@@ -42,6 +42,7 @@ DOMAIN,www.googletagmanager.com
 
 #tencent
 DOMAIN,ad.tencentmusic.com
+DOMAIN,adstats.tencentmusic.com
 DOMAIN,ios.bugly.qq.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN-SUFFIX,beacon.qq.com
