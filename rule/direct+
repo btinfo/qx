@@ -1,7 +1,7 @@
 -IP-ASN,45102 // Alibaba (US) Technology Co., Ltd.
 IP-ASN,132203 // Tencent Building, Kejizhongyi Avenue
 
-DOMAIN,www.lanqiuzhi.live
+DOMAIN-SUFFIX,lanqiuzhi.live
 DOMAIN-SUFFIX,imxingzhe.com
 DOMAIN-SUFFIX,szrtcpa.com
 DOMAIN-SUFFIX,360buyimg.com
