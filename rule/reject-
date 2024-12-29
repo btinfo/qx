@@ -76,8 +76,8 @@ DOMAIN,ad.cyapi.cn //彩云天气
 DOMAIN,adlaunch.moji.com //墨迹天气
 DOMAIN,ad.qtfm.cn //蜻蜓
 #DOMAIN,adx.zuoyebang.com //作业帮
-DOMAIN,cm.bilibili.com
-DOMAIN,dataflow.biliapi.com
+DOMAIN,cm.bilibili.com //bilibili
+DOMAIN,dataflow.biliapi.com //bilibili
 DOMAIN,mail-activity.nos-jd.163yun.com //网易邮箱
 DOMAIN,mobilead.kuwo.cn //酷我
 DOMAIN,policy.video.iqiyi.com //爱奇艺
