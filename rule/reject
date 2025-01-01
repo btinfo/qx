@@ -5,8 +5,10 @@ DOMAIN,h-adashx.ut.taobao.com
 
 #amazon
 DOMAIN,data.flurry.com
+DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,vungle.com
 
 #apple
 DOMAIN-SUFFIX,api-adservices.apple.com
