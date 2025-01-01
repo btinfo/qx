@@ -3,9 +3,6 @@
 # Homepage: https://github.com/yous/YousList
 # License: https://github.com/yous/YousList#license
 
-127.0.0.1 localhost
-::1 localhost
-
 DOMAIN,3407.tm.zedo.com
 DOMAIN,7fkm2r4pzi.com
 DOMAIN,a.adtng.com
