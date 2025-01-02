@@ -86,12 +86,12 @@ DOMAIN,policy.video.iqiyi.com //爱奇艺
 DOMAIN,rich.kuwo.cn //酷我
 
 #ads
-DOMAIN,assets.growingio.com
 DOMAIN-SUFFIX,beizi.biz
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,dable.io
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,outbrain.com
-DOMAIN-SUFFIX,tanx.com
-DOMAIN-SUFFIX,dable.io
-DOMAIN-SUFFIX,criteo.net
-DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,primis.tech
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,tanx.com
+DOMAIN,assets.growingio.com
