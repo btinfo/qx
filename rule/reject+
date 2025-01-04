@@ -9,6 +9,15 @@ DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 
+#google
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,googleads.g.doubleclick-cn.net
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,securepubads.g.doubleclick.net
+DOMAIN,www.googletagmanager.com
+DOMAIN-SUFFIX,google-analytics.com
+#DOMAIN,app-analytics-services.com
+
 # KOREAN MEDIA
 DOMAIN-SUFFIX,dable.io
 DOMAIN,ad.aceplanet.co.kr
