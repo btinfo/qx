@@ -18,6 +18,13 @@ DOMAIN,www.googletagmanager.com
 DOMAIN-SUFFIX,google-analytics.com
 #DOMAIN,app-analytics-services.com
 
+#others
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,dable.io
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,primis.tech
+DOMAIN-SUFFIX,taboola.com
+
 # KOREAN MEDIA
 DOMAIN-SUFFIX,dable.io
 DOMAIN,ad.aceplanet.co.kr
