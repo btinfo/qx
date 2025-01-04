@@ -3,17 +3,6 @@ DOMAIN,adashx.m.taobao.com
 DOMAIN,adashx.ut.amap.com
 DOMAIN,h-adashx.ut.taobao.com
 
-#amazon
-DOMAIN,data.flurry.com
-DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,vungle.com
-
-#apple
-DOMAIN-SUFFIX,api-adservices.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
-
 #baidu
 DOMAIN,afd.baidu.com
 DOMAIN,als.baidu.com
@@ -41,15 +30,6 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
-
-#google
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,googleads.g.doubleclick-cn.net
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,securepubads.g.doubleclick.net
-DOMAIN,www.googletagmanager.com
-DOMAIN-SUFFIX,google-analytics.com
-#DOMAIN,app-analytics-services.com
 
 #tencent
 DOMAIN,ad.tencentmusic.com
