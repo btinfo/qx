@@ -1,3 +1,14 @@
+#amazon
+DOMAIN,data.flurry.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,vungle.com
+
+#apple
+DOMAIN-SUFFIX,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+
 # KOREAN MEDIA
 DOMAIN-SUFFIX,dable.io
 DOMAIN,ad.aceplanet.co.kr
