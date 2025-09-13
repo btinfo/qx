@@ -1,11 +1,11 @@
 {"name":"flags", "description":"@btinfo", "icons":[
-{"name":"HK.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/HK.png"},
-{"name":"IN.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/IN.png"},
-{"name":"JP.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/JP.png"},
-{"name":"KR.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/KR.png"},
-{"name":"RU.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/RU.png"},
-{"name":"SG.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/SG.png"},
-{"name":"TR.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/TR.png"},
-{"name":"TW.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/TW.png"},
-{"name":"US.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/US.png"},
-{"name":"VN.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/VN.png"}]}
+{"name":"HK","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/HK.png"},
+{"name":"IN","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/IN.png"},
+{"name":"JP","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/JP.png"},
+{"name":"KR","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/KR.png"},
+{"name":"RU","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/RU.png"},
+{"name":"SG","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/SG.png"},
+{"name":"TR","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/TR.png"},
+{"name":"TW","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/TW.png"},
+{"name":"US","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/US.png"},
+{"name":"VN","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/flags/VN.png"}]}
