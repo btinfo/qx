@@ -1,4 +1,4 @@
-{"name":"mini","icons":[
+{"name":"mini", "description":"@btinfo", "icons":[
 {"name":"12306.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/12306.png"},
 {"name":"Advertising.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/Advertising.png"},
 {"name":"Apple_Mail.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/Apple_Mail.png"},
@@ -51,5 +51,4 @@
 {"name":"Xbox.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/Xbox.png"},
 {"name":"ximalaya.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/ximalaya.png"},
 {"name":"YouTube.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/YouTube.png"},
-{"name":"zaker.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/zaker.png"}
-],"description":"@btinfo"}
+{"name":"zaker.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/mini/zaker.png"}]}

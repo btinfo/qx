@@ -1,4 +1,4 @@
-{"name":"apps","icons":[
+{"name":"apps", "description":"@btinfo", "icons":[
 {"name":"Aliyun.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Aliyun.png"},
 {"name":"Apple2.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Apple2.png"},
 {"name":"Apple.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Apple.png"},
@@ -25,5 +25,4 @@
 {"name":"Wc.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Wc.png"},
 {"name":"X.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/X.png"},
 {"name":"Youtube1.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Youtube1.png"},
-{"name":"Youtube.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Youtube.png"}
-],"description":"@btinfo"}
+{"name":"Youtube.png","url":"https://raw.githubusercontent.com/btinfo/qx/main/icon/apps/Youtube.png"}]}
