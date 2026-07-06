@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2026-02-27 10:27⟧
+☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2026-07-06 18:50⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: https://t.me/ShawnKOP_Parser_Bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -8,7 +8,7 @@
 
 🤖 主要功能: 
 ❶ 将其它格式的⟦服务器订阅⟧解析成 𝐐𝐮𝐚𝐧𝐭𝐮𝐦𝐮𝐥𝐭 𝐗 格式
-☑︎ 支持 𝐕2𝐫𝐚𝐲𝐍/𝗦𝗦(𝗥/𝗗)/𝗧𝗿𝗼𝗷𝗮𝗻/𝐕𝐋𝗲𝐬𝐬/𝗛𝗧𝗧𝗣(𝗦)/𝗤𝘂𝗮𝗻𝘁𝘂𝗺𝘂𝗹𝘁(𝗫)/𝗦𝘂𝗿𝗴𝗲/𝐂𝐥𝐚𝐬𝐡/𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭/𝐋𝐨𝐨𝐧 格式
+☑︎ 支持 𝐕2𝐫𝐚𝐲𝐍/𝗦𝗦(𝗥/𝗗)/𝗧𝗿𝗼𝗷𝗮𝗻/𝐕𝐋𝗲𝐬𝐬/𝗛𝗧𝗧𝗣(𝗦)/𝗔𝗻𝘆𝗧𝗟𝗦/𝗤𝘂𝗮𝗻𝘁𝘂𝗺𝘂𝗹𝘁(𝗫)/𝗦𝘂𝗿𝗴𝗲/𝐂𝐥𝐚𝐬𝐡/𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭/𝐋𝐨𝐨𝐧 格式
 ☑︎ 提供说明 1⃣️ 中的可选个性化参数(筛选、重命名 等)
 ❷ 𝗿𝗲𝘄𝗿𝗶𝘁𝗲(重写) & 𝗳𝗶𝗹𝘁𝗲𝗿(分流) 的 转换 & 筛选 
 ☑︎ 用于禁用/修改远程引用中某(几)项 𝗿𝗲𝘄𝗿𝗶𝘁𝗲/𝗵𝗼𝘀𝘁𝗻𝗮𝗺𝗲/𝗳𝗶𝗹𝘁𝗲𝗿
@@ -39,6 +39,7 @@
   ❖ replace=regex1@𝘀𝘁𝗿1+regex2@𝘀𝘁𝗿2
 ⦿ ptn/npt=1-8, 将节点名英文/数字替换成样式 ⇒ 🅰/🄰/𝐀/𝗮/𝔸/𝕒/ᵃ/ᴬ, ①\❶\⓵\𝟙\¹\₁\𝟏\𝟷
 ⦿ delreg, 利用正则表达式来删除 "节点名" 中的字段(⚠️ 慎用)
+⦿ UA=1，将尝试使用 shadowrocket 的UA重新获取节点信息
 ⦿ aead=-1, 关闭 Vmess 的 AEAD 参数
 ⦿ host=xxx, 修改已有 host , 如要增加host，请用☠️结尾
 ⦿ obfs=vhttp/shttp, 指定 obfs=shadowsocks-http 或 obfs=vmess-http 的特殊需求
@@ -107,11 +108,436 @@ resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/mas
 ------------------------------
 */
 
+// ==== Parser Helper UI by Quantumult-X (918+) ====
+var $parser = $parser || {};
+
+// schema：作者声明的全部参数（不带 value）
+$parser.hashSchema = function () {
+  // helper 必须定义在函数体内部 —— 协议要求三个函数自包含
+  function _emojiOptions() {
+    return [
+      { label: "添加",     value: "1"  },
+      { label: "国行设备", value: "2"  },
+      { label: "删除",     value: "-1" }
+    ];
+  }
+  function _ptnOptions() {
+    return [
+      { label: "原样",         value: ""  },
+      { label: "🅰 字母方块",   value: "1" },
+      { label: "🄰 字母方块（实）", value: "2" },
+      { label: "𝐀 加粗",        value: "3" },
+      { label: "𝗮 加粗小写",    value: "4" },
+      { label: "𝔸 双线",        value: "5" },
+      { label: "𝕒 双线小写",    value: "6" },
+      { label: "ᵃ 上标",        value: "7" },
+      { label: "ᴬ 大写上标",    value: "8" }
+    ];
+  }
+  function _nptOptions() {
+    return [
+      { label: "原样",         value: ""  },
+      { label: "①",            value: "1" },
+      { label: "❶",            value: "2" },
+      { label: "⓵",            value: "3" },
+      { label: "𝟙",            value: "4" },
+      { label: "¹",            value: "5" },
+      { label: "₁",            value: "6" },
+      { label: "𝟏",            value: "7" },
+      { label: "𝟷",            value: "8" }
+    ];
+  }
+
+  if ($resource.type == "server") { // server content
+    return {
+    version: 1,
+    sections: [
+      { type: "group",
+        title: "✈️ 订阅获取",
+        items: [
+          { type: "switch", key: "UA", label: "User-Agent 替换",
+            onValue: "1", offValue: "" ,
+            description: "开启该选项后，将会尝试使用 Shadowrocket 的 User-Agent 重新获取订阅内容"}
+          ]
+      },
+      {
+        type: "group",
+        title: "🎲 筛选&排序",
+        items: [
+          { type: "tags",   key: "in",     label: "保留（in）",
+            description: "按节点名关键字保留。每行一个关键字表示\"或\"；同行用 . 分隔表示\"与\"。例：另起一行填 香港、台湾 表示含其一即可；同一行填 香港.IPLC 表示同时含香港和 IPLC。",
+            placeholder: "如：香港 / 香港.IPLC" },
+          { type: "tags",   key: "out",    label: "删除（out）",
+            description: "按节点名关键字删除。每行一个关键字表示\"或\"；同行用 . 分隔表示\"与\"。",
+            placeholder: "如：BGP / BGP.试用" },
+          { type: "text",   key: "regex",  label: "正则保留（regex）",
+            description: "对节点完整信息正则匹配以保留节点", placeholder: "iplc" },
+          { type: "text",   key: "regout", label: "正则删除（regout）",
+            description: "对节点完整信息正则匹配以删除节点", placeholder: "" },
+          { type: "text",   key: "sort", label: "节点排序（sort）",
+            description: "对节点进行排序，参数是1(正序)/-1（逆序）/x（随机排序）/自定义规则（用>或者<连接）", placeholder: "🇭🇰>🇯🇵>🇺🇸" }
+        ]
+      },
+      {
+        type: "group",
+        title: "⛰️ 参数调整",
+        items: [
+          { type: "select", key: "emoji", label: "Emoji 旗帜（🇨🇳🇭🇰🇺🇸...）",
+            description: "添加/删除节点名地区旗帜", options: _emojiOptions() },
+          { type: "text",   key: "replace", label: "正则替换节点信息（replace）",
+            description: "替换节点信息（⚠️ 可匹配所有内容 ⚠️），regex1@str1+regex2@str2", placeholder: "" },
+          { type: "switch", key: "udp",   label: "UDP Relay",
+            onValue: "1", offValue: "-1" },
+          { type: "switch", key: "tfo",   label: "Fast Open",
+            onValue: "1", offValue: "-1" },
+          { type: "switch", key: "cert",  label: "TLS 证书验证",
+            description: "默认关闭", onValue: "1", offValue: "-1" },
+          { type: "switch", key: "uot",   label: "UDP over TCP（仅 SS/SSR）",
+            onValue: "1", offValue: "" },
+          { type: "switch", key: "aead",  label: "VMess AEAD",
+            description: "关闭 VMess AEAD", onValue: "", offValue: "-1" },
+          { type: "text",   key: "alpn",  label: "ALPN",
+            description: "over-tls 节点的 ALPN", placeholder: "h2" },
+          { type: "text",   key: "host",  label: "Host",
+            description: "修改已有 host；增加 host 请加 ☠️ 结尾",
+            placeholder: "" },
+          { type: "text",   key: "checkurl", label: "Check URL",
+            description: "server_check_url 参数",
+            placeholder: "http://...", keyboard: "url" }
+        ]
+      },
+      {
+        type: "group",
+        title: "🎯 重命名",
+        items: [
+          { type: "text", key: "rename",  label: "节点重命名（Rename）",
+            description: "格式：旧名@新名 / 前缀@ / @后缀；多组用 + 连接；删除字段用 ☠️ 结尾",
+            placeholder: "香港@HK+@[1X]" },
+          { type: "text", key: "rrname",  label: "节点重命名（emoji 保持在前）",
+            description: "在 emoji 之后再次重命名", placeholder: "" },
+          { type: "select", key: "ptn", label: "字母样式（ptn）",
+            description: "将节点名英文替换成花式样式 🅰/🄰/𝐀/𝗮/𝔸/𝕒/ᵃ/ᴬ ",
+            options: _ptnOptions() },
+          { type: "select", key: "npt", label: "数字样式（npt）",
+            description: "将节点名数字替换成花式样式 ①/❶/⓵/𝟙/¹/₁/𝟏/𝟷",
+            options: _nptOptions() }
+        ]
+      },
+      {
+        type: "group",
+        title: "🤖 其他参数",
+        items: [
+          { type: "select", key: "ntf",  label: "解析通知",
+            options: [
+              { label: "默认",          value: "" },
+              { label: "关闭",          value: "0"},
+              { label: "打开",          value: "1"}
+            ] },
+          { type: "switch", key: "info", label: "流量信息",
+            onValue: "1", offValue: "", description: "通知的形式推送“订阅用量”以及“到期时间”等信息"},
+          { type: "text",   key: "flow", label: "流量参数",
+            description: "格式：到期时间:总流量GB:已用GB（如 2026-12-31:1000:54）",
+            placeholder: "2026-12-31:1000:54" },
+          { type: "select", key: "type", label: "强制类型",
+            options: [
+              { label: "自动",         value: ""           },
+              { label: "Nodes",        value: "nodes"      },
+              { label: "Rule",         value: "rule"       },
+              { label: "Module",       value: "module"     },
+              { label: "List",         value: "list"       },
+              { label: "Domain Set",   value: "domain-set" }
+            ] }
+        ]
+      }
+    ]
+  };
+} else if ($resource.type == "filter") { // rule content
+  return {
+    version: 1,
+    sections: [
+      {
+        type: "group",
+        title: "🔀 Filter 「分流」",
+        description: "仅对 rewrite_remote / filter_remote 生效",
+        items: [
+          { type: "tags", key: "in",  label: "保留分流规则「in」",
+            description: "按关键字保留 filter。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：weibo" },
+          { type: "tags", key: "out",  label: "禁用分流/重写「out」",
+            description: "按关键字保留 filter。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：weibo" },
+          { type: "text", key: "policy", label: "单策略组指定「policy」",
+            description: "rule-set 生成策略组的名字（默认 Shawn）",
+            placeholder: "Shawn" },
+          { type: "text", key: "pset",   label: "多策略组指定「pset」",
+            description: "regex1@policy1+regex2@policy2" },
+          { type: "text", key: "regex",   label: "正则保留「regex」",
+            description: "正则匹配保留指定内容" },
+          { type: "text", key: "regout",   label: "正则删除「regout」",
+            description: "正则匹配删除指定内容" },
+          { type: "text", key: "replace",   label: "正则替换「replace」",
+            description: "regex@new_regex 正则替换指定内容" }
+        ]
+      },
+      {
+        type : "group",
+        title: "🔗 代理链相关设置「Relay」",
+        items : [
+          { type: "text", key: "via",    label: "via-interface「规则订阅」",
+             description: "0 : via-interface=%TUN%, 设置代理链时，规则分流需使用此参数，请在策略偏好将策略组指定为 落地策略组/节点\n" ,
+             placeholder: "填写 0 即可" 
+          },
+          { type: "text",   key: "relay", label: "代理链 Relay「节点订阅」",
+            description: "将（落地）节点的订阅转换为 ip/host 规则，指向 中转策略组/节点。\n ⚠️ 设置 代理链条Relay 时，请确保关闭改订阅首页的「策略偏好」设置 \n\n ⚠️ 以上两项不应该在同一条引用中同时设置 ⚠️" ,
+            placeholder: "⚠️ 此处请填写你的 中转策略组/节点名" },
+           
+        ]
+      },
+      {
+        type: "group",
+        title: "🤖 其他参数",
+        items: [
+          { type: "select", key: "ntf",  label: "解析通知",
+            options: [
+              { label: "默认",          value: "" },
+              { label: "关闭",          value: "0"},
+              { label: "打开",          value: "1"}
+            ] },
+          { type: "select", key: "type", label: "强制类型",
+            options: [
+              { label: "自动",         value: ""           },
+              { label: "Nodes",        value: "nodes"      },
+              { label: "Rule",         value: "rule"       },
+              { label: "Module",       value: "module"     },
+              { label: "List",         value: "list"       },
+              { label: "Domain Set",   value: "domain-set" }
+            ] },
+          { type: "switch", key: "cdn",  label: "GitHub CDN 加速",
+            onValue: "1", offValue: "" },
+          { type: "select", key: "dst", label: "转换目标「dst」",
+            options: [
+              { label: "默认（不转换）", value: ""        },
+              { label: "Rewrite",        value: "rewrite" },
+              { label: "Filter",         value: "filter"  }
+            ] },
+          { type: "select", key: "fcr",  label: "网络接口指定「fcr」",
+            options: [
+              { label: "默认",            value: ""  },
+              { label: "强制蜂窝数据",    value: "1" },
+              { label: "混合接口",        value: "2" },
+              { label: "负载均衡",        value: "3" }
+            ] , description:"强制指定 “强制蜂窝数据/混合接口/负载均衡 等”" }
+        ]
+      }
+    ]
+  };
+} else { // rewrite type 
+  return {
+    version: 1,
+    sections: [
+      {
+        type: "group",
+        title: "🫆 Rewrite 「重写」",
+        description: "仅对 rewrite_remote / filter_remote 生效",
+        items: [
+          { type: "tags", key: "in",  label: "保留分流/重写「in」",
+            description: "按关键字保留 rewrite/filter。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：weibo" },
+          { type: "tags", key: "out",  label: "禁用分流/重写「out」",
+            description: "按关键字保留 rewrite/filter。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：weibo" },
+          { type: "tags", key: "inhn",  label: "保留主机名「inhn」",
+            description: "按关键字保留相关主机名hostname。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：weibo" },
+          { type: "tags", key: "outhn", label: "删除主机名「outhn」",
+            description: "按关键字删除相关主机名hostname。每行一个关键字（多行之间为\"或\"关系）。",
+            placeholder: "如：tb_price" },
+          { type: "text", key: "regex",   label: "正则保留「regex」",
+            description: "正则匹配保留指定内容" },
+          { type: "text", key: "regout",   label: "正则删除「regout」",
+            description: "正则匹配删除指定内容" },
+          { type: "text", key: "replace",   label: "正则替换「replace」",
+            description: "regex@new_regex 正则替换指定内容" }
+        ]
+      },
+      {
+        type: "group",
+        title: "🤖 其他参数",
+        items: [
+          { type: "select", key: "ntf",  label: "解析通知",
+            options: [
+              { label: "默认",          value: "" },
+              { label: "关闭",          value: "0"},
+              { label: "打开",          value: "1"}
+            ] },
+          { type: "select", key: "type", label: "强制类型",
+            options: [
+              { label: "自动",         value: ""           },
+              { label: "Nodes",        value: "nodes"      },
+              { label: "Rule",         value: "rule"       },
+              { label: "Module",       value: "module"     },
+              { label: "List",         value: "list"       },
+              { label: "Domain Set",   value: "domain-set" }
+            ] },
+          { type: "switch", key: "cdn",  label: "GitHub CDN 加速",
+            onValue: "1", offValue: "" },
+          { type: "select", key: "dst", label: "转换目标「dst」",
+            options: [
+              { label: "默认（不转换）", value: ""        },
+              { label: "Rewrite",        value: "rewrite" },
+              { label: "Filter",         value: "filter"  }
+            ] }
+        ]
+      }
+    ]
+  };
+}
+};
+
+// hashToUI：支持动态参数
+$parser.hashToUI = function (hash) {
+  if (!hash) return { version: 1, sections: [] };
+
+  var schema = $parser.hashSchema();
+  var allItems = {};
+  schema.sections.forEach(function (g) {
+    g.items.forEach(function (it) { allItems[it.key] = it; });
+  });
+
+  var pairs = hash.split("&");
+  var values = {};
+  var dynamicItems = [];
+
+  pairs.forEach(function (p) {
+    if (!p) return;
+    var eq = p.indexOf("=");
+    var k = eq === -1 ? p : p.substring(0, eq);
+    var v = eq === -1 ? "" : p.substring(eq + 1);
+
+    if (allItems[k]) {
+      values[k] = v;
+    } else {
+      dynamicItems.push({
+        type: "text",
+        key: k,
+        label: k,
+        value: v
+      });
+    }
+  });
+
+  var sections = [];
+
+  schema.sections.forEach(function (g) {
+    var items = [];
+    g.items.forEach(function (it) {
+      if (!(it.key in values)) return;
+
+      var clone = JSON.parse(JSON.stringify(it));
+      var raw = values[it.key];
+
+      if (it.type === "switch") {
+        clone.value = (raw === it.onValue);
+      } else if (it.type === "tags") {
+        clone.value = raw.split("+").filter(Boolean);
+      } else {
+        clone.value = raw;
+      }
+
+      items.push(clone);
+    });
+
+    if (items.length) {
+      sections.push({
+        type: "group",
+        title: g.title,
+        items: items
+      });
+    }
+  });
+
+  if (dynamicItems.length) {
+    sections.push({
+      type: "group",
+      title: "自定义参数",
+      items: dynamicItems
+    });
+  }
+
+  return {
+    version: 1,
+    sections: sections
+  };
+};
+
+
+// uiToHash：支持动态字段回写
+$parser.uiToHash = function (values) {
+  var schema = $parser.hashSchema();
+  var allItems = {};
+  schema.sections.forEach(function (g) {
+    g.items.forEach(function (it) { allItems[it.key] = it; });
+  });
+
+  var parts = [];
+
+  Object.keys(values).forEach(function (k) {
+    var v = values[k];
+    var meta = allItems[k];
+    var serialized;
+
+    if (meta) {
+      if (meta.type === "switch") {
+        serialized = v ? meta.onValue : meta.offValue;
+      } else if (meta.type === "tags") {
+        serialized = (v || []).join("+");
+      } else {
+        serialized = String(v);
+      }
+    } else {
+      // 动态字段默认 text
+      serialized = String(v);
+    }
+
+    parts.push(k + "=" + serialized);
+  });
+
+  return parts.join("&");
+};
+
+// end ==== Parser Helper UI by Quantumult-X (918+) ====
+
+
+
 //beginning 解析器正常使用，調試註釋此部分
 
-let [link0, content0, subinfo] = [$resource.link, $resource.content, $resource.info]
+
+//
 let version = typeof $environment != "undefined" ? Number($environment.version.split("build")[1]): 0 // 版本号
+
+const UA_Retry= "Shadowrocket/3218 CFNetwork/3860.600.12 Darwin/25.5.0 iPhone18,1"
+const currentUA = $resource.user_agent;
+const inRetry = currentUA && currentUA.length > 0;
+
+var  UARetry = $resource.link.indexOf("#")!=-1 && $resource.link.indexOf("UA=1") != -1 ? 1 : 0;
+
+
+const result = {
+      // Normal parse result (kept for old-version compat;
+      // new versions ignore this when retry fires)
+      content: "",
+      // or error: "..."
+  };
+
+//$notify("retry2","🚦 UA-retry-After-outside",currentUA)
+//
+
+
+
+let [link0, content0, subinfo] = [$resource.link, $resource.content, $resource.info]
+
 let Perror = 0 //错误类型
+
 
 const ADDRes = `quantumult-x:///add-resource?remote-resource=url-encoded-json`
 var RLink0 = {
@@ -189,7 +615,7 @@ var PTls13 = mark0 && para1.indexOf("tls13=") != -1 ? para1.split("tls13=")[1].s
 var Pntf0 = mark0 && para1.indexOf("ntf=") != -1 ? para1.split("ntf=")[1].split("&")[0] : 2;
 var Phide = mark0 && para1.indexOf("hide=") != -1 ? para1.split("hide=")[1].split("&")[0] : 1;
 var Pb64 = mark0 && para1.indexOf("b64=") != -1 ? para1.split("b64=")[1].split("&")[0] : 0;
-var emojino = [" 0️⃣ ", " 1⃣️ ", " 2⃣️ ", " 3⃣️ ", " 4⃣️ ", " 5⃣️ ", " 6⃣️ ", " 7⃣️ ", " 8⃣️ ", " 9⃣️ ", " 🔟 "]
+var emojino = ["0️⃣", "1⃣️", "2⃣️", "3⃣️", "4⃣️", "5⃣️", "6⃣️", "7⃣️", "8⃣️", "9⃣️", "🔟"]
 var pfi = mark0 &&Pin0 ? "in=" + Pin0.join(", ") + ",  " : ""
 var pfo = mark0 &&Pout0 ? "out=" + Pout0.join(", ") : ""
 var pfihn = mark0 &&Phin0 ? "inhn=" + Phin0.join(", ") + ",  " : ""
@@ -223,6 +649,7 @@ var Psession =  mark0 && para1.indexOf("tsession=") != -1 && version >= 771? par
 var Pmix = version>=844? 1 : 0 // allow rewrite and filter mix from version 844
 var Pjsonjq = version>=845? 0 : 1 // allow jsonjq from version 845
 var PNS=0 // 不支持的节点统计
+var NSList=["当前订阅内，不支持以下节点 ↘️ \n"] // 不支持节点列表
 
 var RegoutList= [] ;//用于 regout参数删选提醒
 // URL-Scheme 增加配置
@@ -279,6 +706,28 @@ if (Pflow!=0) {
   Finfo = BJson
 }
 
+//STATUS=🚀↑:0.62GB,↓:15.1GB,TOT:200GB💡Expires:2026-08-02
+//status=🚀↑:0.83gb,↓:17.73gb,tot:200gb💡expires:2026-08-02
+//2026-05-06 for shadowrocket sub with flow-info-fake server
+function Rocket_flow(RInfo) {
+  var Rinfo=RInfo.replace(/ /g, "").toLowerCase()
+  var BJson={}
+  try {
+    var Pdate = Rinfo.split("expires:")[1].split(",")[0].replace(/[^\x00-\x7F]/g, '').trim()// date-time
+    var Ptotal = Number(Rinfo.split("tot:")[1].split("gb")[0]) // flow
+    var Pupload = Number(Rinfo.split("↑:")[1].split("gb")[0]) // upload
+    var Pdown = Number(Rinfo.split("↓:")[1].split("gb")[0]) // download
+    var Bdate = Math.floor(Date.parse(Pdate)/1000)? Math.floor(Date.parse(Pdate)/1000): Math.floor(Date.parse("2046-10-10")/1000) 
+    var Btotal=Ptotal? Ptotal*1024*1024*1024 : 0
+    var Bused=Pupload? (Pupload+Pdown)*1024*1024*1024 : 0
+    var Bremain=Btotal !=0 ? Btotal-Bused : 1
+    BJson={bytes_used: Bused, bytes_remaining: Bremain, expire_date: Bdate}
+    Finfo = BJson
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 //花漾字 pattern
 var pat=[]
 pat[0] = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","k","r","s","t","u","v","w","x","y","z"]
@@ -303,6 +752,17 @@ patn[6] = [ '₀', '₁', '₂', '₃', '₄', '₅', '₆', '₇', '₈', '₉'
 patn[7] = ["𝟎","𝟏","𝟐","𝟑","𝟒","𝟓","𝟔","𝟳","𝟖","𝟗"]
 patn[8] = ["𝟶","𝟷","𝟸","𝟹","𝟺","𝟻","𝟼","𝟽","𝟾","𝟿"]
 
+
+// 将数字替换成 emoji 数字，处理10的特殊版本（需要"🔟"），2026-04-22
+function numToEmoji10(n) {
+    if (n == 10) {
+      return emojino[10]+" ➠ ";
+    } else {
+      return String(n).split('').map(d => emojino[d] || d).join('')+" ➠ ";
+    }
+};
+
+
 //避免json undefined错误的 函数
 const getValue = (fn, defaultVaule) => {
   try {
@@ -315,6 +775,29 @@ const getValue = (fn, defaultVaule) => {
 var type0=""
 //flag=1,2,3分别为 server、rewrite、rule 类型
 var flag = 1
+
+// retry with new UA, default use shadowrocket
+if (UARetry && !inRetry && version>920) {
+  $notify("⚠️ 将尝试使用其他 UA, 重新获取订阅内容","⚠️ 如仍旧无有效内容，请自行与节点提供商联系","⚠️ 本次尝试使用 User-Agent 为 ⬇️\n\n"+UA_Retry)
+  $done({retry: {user_agent: "Shadowrocket/3218 CFNetwork/3860.600.12 Darwin/25.5.0 iPhone18,1"}})
+} else {
+  if (typeof($resource)!=="undefined" && PProfile == 0) {
+  Parser()
+  $done({ content: total, info: Finfo })
+} else if (PProfile != 0) {
+  try {
+    Profile_Handle()
+  } catch (err) {
+    if(Perror == 0) {
+      $notify("❌ 解析出现错误", "⚠️ 请点击通知，发送订阅链接进行反馈", err, bug_link);
+    }
+    }
+  openlink = {"open-url": ADDres}
+  $notify("⚠️请忽略报错提示, 点击此通知跳转", "添加配置中的有效远程资源👇 ["+ PProfile+"]", ADDres,openlink)
+  total = ProfileInfo[typeQ]
+  $done({content:total})
+}
+}
 
 function Parser() {
   type0 = Type_Check(content0); //  类型判断
@@ -348,22 +831,24 @@ function Parser() {
     $done({ content: total });
 }
 
-if (typeof($resource)!=="undefined" && PProfile == 0) {
-  Parser()
-  $done({ content: total, info: Finfo })
-} else if (PProfile != 0) {
-  try {
-    Profile_Handle()
-  } catch (err) {
-    if(Perror == 0) {
-      $notify("❌ 解析出现错误", "⚠️ 请点击通知，发送订阅链接进行反馈", err, bug_link);
-    }
-    }
-  openlink = {"open-url": ADDres}
-  $notify("⚠️请忽略报错提示, 点击此通知跳转", "添加配置中的有效远程资源👇 ["+ PProfile+"]", ADDres,openlink)
-  total = ProfileInfo[typeQ]
-  $done({content:total})
-}
+
+// 2026-05-15 remove
+// if (typeof($resource)!=="undefined" && PProfile == 0) {
+//   Parser()
+//   $done({ content: total, info: Finfo })
+// } else if (PProfile != 0) {
+//   try {
+//     Profile_Handle()
+//   } catch (err) {
+//     if(Perror == 0) {
+//       $notify("❌ 解析出现错误", "⚠️ 请点击通知，发送订阅链接进行反馈", err, bug_link);
+//     }
+//     }
+//   openlink = {"open-url": ADDres}
+//   $notify("⚠️请忽略报错提示, 点击此通知跳转", "添加配置中的有效远程资源👇 ["+ PProfile+"]", ADDres,openlink)
+//   total = ProfileInfo[typeQ]
+//   $done({content:total})
+// }
 
 
 /**
@@ -432,7 +917,7 @@ function ResourceParse() {
     total = total.length<100? total.filter( (ele,pos)=>total.indexOf(ele) == pos) : total
     total = total.join("\n")
   } else if (content0.trim() == "") {
-    $notify("‼️ 当前引用" + "⟦" + subtag + "⟧" + " 返回內容为空", "⁉️ 点通知跳转以确认链接是否失效", "如确认链接有效，请在链接后添加 ?flag=shadowrocket 或 &flag=shadowrocket ", nan_link);
+    $notify("‼️ 当前引用" + "⟦" + subtag + "⟧" + " 返回內容为空", "1️⃣ 请确认 APP 已经更新至最新版本 1.5.6", "2️⃣ 如确认链接有效，请打开资源解析器的「User-Agent 替换」选项重新获取链接内容 ", nan_link);
     flag = 0;
   } else if (type0 == "sub-http") {
     let url = VCheck(String(Base64.decode(content0.split("sub://")[1].split("#")[0])+", opt-parser=true, tag="+(new Date()).getTime()))
@@ -503,7 +988,11 @@ function ResourceParse() {
       if (Pcnt == 1 && total!=undefined) {$notify("⟦" + subtag + "⟧"+"解析后最终返回内容" , "节点数量: " +total.split("\n").length, total)}
       total = PRelay==""? Base64.encode(total) : ServerRelay(total.split("\n"),PRelay) //强制节点类型 base64 加密后再导入 Quantumult X, 如果是relay，则转换成分流类型
       if (PNS !=0) {
-        $notify("⚠️ 存在Quantumult X不支持的节点类型", "⚠️ 已忽略相关节点数，共计："+PNS+" 条", "⚠️ 当前版本不支持 Hysteria2，Anytls 等类型"+"\n"+"⚠️ 也不支持“http-upgrade/xhttp/grpc/mkcp/h2” 等类型vless")
+        if (version >913) {
+          $notify("⚠️ 存在 QuantumultX 不支持类型 ➟ ⟦"+subtag+"⟧", "⚠️ 已忽略相关节点，共计 ➟ "+PNS+" 条", "⚠️ 此版本暂不支持 Hysteria2/Tuic/Wireguard 等类型, 以及 http-upgrade/xhttp/grpc/mkcp/h2” 等类型 vless\n\n"+NSList.join("\n"))
+        } else {
+          $notify("⚠️ 存在 QuantumultX 不支持类型 ➟ ⟦"+subtag+"⟧", "⚠️ 已忽略相关节点，共计 ➟ "+PNS+" 条", "⚠️ 此版本暂不支持 Hysteria2/Tuic/Anytls 等类型, 以及 http-upgrade/xhttp/grpc/mkcp/h2” 等类型 vless\n\n"+NSList.join("\n"))
+        }
       }
       if(Pflow==1) {
         //$notify("添加流量信息","xxx","xxxx")
@@ -513,7 +1002,12 @@ function ResourceParse() {
     } else { // total length = 0
       if(Perror == 0) {
       if (PNS !=0) { // 全部为不支持类型节点
-        $notify("⚠️ Quantumult-X 不支持该订阅内的节点类型", "⚠️ 已忽略共计："+PNS+" 条不支持节点，剩余 0️⃣ 条", "⚠️ 当前版本不支持 Hysteria2，Anytls 等类型"+"\n"+"⚠️ 也不支持“http-upgrade/xhttp/grpc/mkcp/h2” 等类型vless")
+        if (version >913) {
+          $notify("⚠️ QuantumultX 不支持该订阅内的任何节点➟ ⟦"+subtag+"⟧", "⚠️ 已忽略共计 ➟ "+PNS+" 条不支持节点，剩余 0️⃣ 条", "⚠️ 此版本暂不支持 Hysteria2/Tuic/Wireguard 等类型, 以及 http-upgrade/xhttp/grpc/mkcp/h2” 等类型 vless\n\n"+NSList.join("\n"))
+        } else {
+          $notify("⚠️ QuantumultX 不支持该订阅内的任何节点➟ ⟦"+subtag+"⟧", "⚠️ 已忽略共计 ➟ "+PNS+" 条不支持节点，剩余 0️⃣ 条", "⚠️ 此版本暂不支持 Hysteria2/Tuic/Anytls 等类型, 以及 http-upgrade/xhttp/grpc/mkcp/h2” 等类型 vless\n\n"+NSList.join("\n"))
+        }
+        
       } else { // 其它原因
         $notify("❓❓ 该订阅 ➟ "+ "⟦" + subtag + "⟧ 解析后无有效节点", "⚠️⚠️ 解析后 Quantumult-X 支持节点数为 0️⃣ 条", "🚥🚥 请自行检查相关参数、确认节点类型, 或者点击通知跳转并发送链接反馈", bug_link)
       } 
@@ -589,12 +1083,13 @@ function Type_Check(subs) {
     var type = "unknown"
     var RuleK = ["host,", "-suffix,", "domain,", "-keyword,", "ip-cidr,", "ip-cidr6,",  "geoip,", "user-agent,", "ip6-cidr,", "ip-asn"];
     var DomainK = ["domain-set,"]
-    var QuanXK = ["shadowsocks=", "trojan=", "vmess=", "http=", "socks5=", "vless="];
-    var SurgeK = ["=ss,", "=vmess,", "=trojan,", "=http,", "=custom,", "=https,", "=shadowsocks", "=shadowsocksr", "=sock5", "=sock5-tls"];
+    var QuanXK = ["shadowsocks=", "trojan=", "vmess=", "http=", "socks5=", "vless=","anytls="];
+    var SurgeK = ["=ss,", "=vmess,", "=trojan,", "=http,", "=custom,", "=https,", "=shadowsocks", "=shadowsocksr", "=sock5", "=sock5-tls","=anytls"];
     var ClashK = ["proxies:","\"proxies\":"]
     var SubK = ["dm1lc3M", "c3NyOi8v", "CnNzOi8", "dHJvamFu", "c3M6Ly", "c3NkOi8v", "c2hhZG93", "aHR0cDovLw", "aHR0cHM6L", "CnRyb2phbjo", "aHR0cD0", "aHR0cCA","U1RBVFVT","dmxlc3M6"];
     var RewriteK = [" url 302", " url 307", " url reject", " url script", " url req", " url res", " url echo", " url-and-header 302", " url-and-header 307", " url-and-header reject", " url-and-header script", " url-and-header req", " url-and-header res", " url-and-header echo", " url jsonjq"] // quantumult X 类型 rewrite
-    var SubK2 = ["ss://", "vmess://", "ssr://", "trojan://", "ssd://", "\nhttps://", "\nhttp://","socks://","ssocks://","vless://"];
+    var JsonJQK = [" response-body-json-jq ", " request-body-json-jq "] // 需要转换成 QuanX jsonjq 的 rewrite
+    var SubK2 = ["ss://", "vmess://", "ssr://", "trojan://", "ssd://", "\nhttps://", "\nhttp://","socks://","ssocks://","vless://","anytls://","wireguard://","wg://","tuic://"];
     var ModuleK = ["[Script]", "[Rule]", "[URL Rewrite]", "[Map Local]", "\nhttp-r", "script-path"]
     var QXProfile = ["[filter_local]","[filter_remote]","[server_local]","[server_remote]"]
     var html = "DOCTYPE html"
@@ -604,6 +1099,7 @@ function Type_Check(subs) {
     const NodeCheck1 = (item) => subi.toLowerCase().indexOf(item.toLowerCase()) != -1; //b64加密的订阅类型
     const NodeCheck2 = (item) => subi.toLowerCase().indexOf(item.toLowerCase()) != -1; //URI 类型
     const RewriteCheck = (item) => subs.indexOf(item) != -1 ; // quanx 重写判定
+    const JsonJQCheck = (item) => (" " + subs.toLowerCase().replace(/\s+/g," ") + " ").indexOf(item) != -1;
     const ProfileCheck = (item) => subs.indexOf(item) != -1; //是否为quanx配置文件
     var subsn = subs.split("\n")
     if ( (subs.indexOf(html) != -1 || subs.indexOf("doctype html") != -1) && link0.indexOf("github.com" == -1)) {
@@ -618,7 +1114,7 @@ function Type_Check(subs) {
     } else if ( (((ModuleK.some(RewriteCheck) || para1.indexOf("dst=rewrite") != -1) && (para1.indexOf("dst=filter") == -1) && subs.indexOf("[Proxy]") == -1) || typeU == "module") && typeU != "nodes" && typeU != "rule" && typeQ !="filter") { // Surge 类型 module /rule-set(含url-regex) 类型
       typec="rewrite"
       type = (typeQ == "unsupported" || typeQ =="rewrite")? "sgmodule" : "wrong-field"
-    } else if ((/(^hostname|\nhostname)\s*\=/.test(subi) || RewriteK.some(RewriteCheck))  && para1.indexOf("dst=filter")==-1 && subi.indexOf("securehostname") == -1 && !/module|nodes|rule/.test(typeU) && !(RuleK.some(RuleCheck) && typeQ == "filter") && !(typeQ!= "rewrite" && QXProfile.some(ProfileCheck))) {
+    } else if ((/(^hostname|\nhostname)\s*\=/.test(subi) || RewriteK.some(RewriteCheck) || JsonJQK.some(JsonJQCheck))  && para1.indexOf("dst=filter")==-1 && subi.indexOf("securehostname") == -1 && !/module|nodes|rule/.test(typeU) && !(RuleK.some(RuleCheck) && typeQ == "filter") && !(typeQ!= "rewrite" && QXProfile.some(ProfileCheck))) {
       // 2022-07-20 remove constrain && !/\[(Proxy|filter_local)\]/.test(subs)
       typec = "rewrite"
       type = (typeQ == "unsupported" || typeQ =="rewrite")? "rewrite":"wrong-field" //Quantumult X 类型 rewrite/ Surge Script/
@@ -696,7 +1192,11 @@ function Type_Check(subs) {
 
 // 检查节点名字(重复以及空名)等QuanX 不允许的情形，以及多个空格等“不规范”方式
 function TagCheck_QX(content) {
-  typefix = {"shadowsocks":["𝐬𝐬","𝐒𝐒","🅢🅢","🆂🆂","ⓢⓢ","🅂🅂","SS"],"shadowsocksr":["𝐬𝐬𝐫","𝐒𝐒𝐑","🅢🅢🅡","🆂🆂🆁","ⓢⓢⓡ","🅂🅂🅁","SSR"],"vmess":["𝐯𝐦𝐞𝐬𝐬","𝐕𝐌𝐄𝐒𝐒","🅥🅜🅔🅢🅢","🆅🅼🅴🆂🆂","ⓥⓜⓔⓢⓢ","🅅🄼🄴🅂🅂","VMESS"],"trojan":["𝐭𝐫𝐨𝐣𝐚𝐧","𝐓𝐑𝐎𝐉𝐀𝐍","🅣🅡🅞🅙🅐🅝","🆃🆁🅾🅹🅰🅽","ⓣⓡⓞⓙⓐⓝ","🅃🅁🄾🄹🄰🄽","TROJAN"],"http":["𝐡𝐭𝐭𝐩","𝐇𝐓𝐓𝐏","🅗🅣🅣🅟","🅷🆃🆃🅿","ⓗⓣⓣⓟ","🄷🅃🅃🄿","HTTP"],"socks5":["𝐬𝐨𝗰𝗸𝐬","𝐒𝐎𝐂𝐊𝐒","🅢🅞🅒🅚🅢","🆂🅾🅲🅺🆂","ⓢⓄⒸⓀⓢ","🅂🄾🄲🄺🅂","SOCKS"],"vless":["𝐯𝐥𝐞𝐬𝐬","𝐕𝐋𝐄𝐒𝐒","🅥🅛🅔🅢🅢","🆅🅻🅴🆂🆂","ⓥⓛⓔⓢⓢ","🅅🄻🄴🅂🅂","VLESS"]}
+  typefix = {"shadowsocks":["𝐬𝐬","𝐒𝐒","🅢🅢","🆂🆂","ⓢⓢ","🅂🅂","SS"],"shadowsocksr":["𝐬𝐬𝐫","𝐒𝐒𝐑","🅢🅢🅡","🆂🆂🆁","ⓢⓢⓡ","🅂🅂🅁","SSR"],
+    "vmess":["𝐯𝐦𝐞𝐬𝐬","𝐕𝐌𝐄𝐒𝐒","🅥🅜🅔🅢🅢","🆅🅼🅴🆂🆂","ⓥⓜⓔⓢⓢ","🅅🄼🄴🅂🅂","VMESS"],"trojan":["𝐭𝐫𝐨𝐣𝐚𝐧","𝐓𝐑𝐎𝐉𝐀𝐍","🅣🅡🅞🅙🅐🅝","🆃🆁🅾🅹🅰🅽","ⓣⓡⓞⓙⓐⓝ","🅃🅁🄾🄹🄰🄽","TROJAN"],
+    "http":["𝐡𝐭𝐭𝐩","𝐇𝐓𝐓𝐏","🅗🅣🅣🅟","🅷🆃🆃🅿","ⓗⓣⓣⓟ","🄷🅃🅃🄿","HTTP"],"socks5":["𝐬𝐨𝗰𝗸𝐬","𝐒𝐎𝐂𝐊𝐒","🅢🅞🅒🅚🅢","🆂🅾🅲🅺🆂","ⓢⓄⒸⓀⓢ","🅂🄾🄲🄺🅂","SOCKS"],
+    "vless":["𝐯𝐥𝐞𝐬𝐬","𝐕𝐋𝐄𝐒𝐒","🅥🅛🅔🅢🅢","🆅🅻🅴🆂🆂","ⓥⓛⓔⓢⓢ","🅅🄻🄴🅂🅂","VLESS"],"anytls":["𝐚𝐧𝐲𝐭𝐥𝐬","𝐀𝐍𝐘𝐓𝐋𝐒","🅐🅝🅨🅣🅛🅢","🅰🅽🆈🆃🅻🆂","ⓐⓝⓨⓣⓛⓢ","🄰🄽🅈🅃🄻🅂","𝖠𝖭𝖸𝖳𝖫𝖲"]
+  } // type
   console.log(content)
     var Olist = content.map(item =>item.trim())//.replace(/\s{2,}/g," "))
     //$notify("","",Olist)
@@ -827,7 +1327,7 @@ function titleCase(str) {
 // 类型前缀/后缀
 function type_prefix(item) {
   if(item.trim()!="") {
-    typefix = {"shadowsocks":"「𝐬𝐬」","vmess":"「𝐯𝐦𝐞𝐬𝐬」","trojan":"「𝐭𝐫𝐨𝐣𝐚𝐧」","http":"「𝐡𝐭𝐭𝐩」","socks5":"「𝐬𝐨𝗰𝗸𝐬」","vless":"「𝐯𝐥𝐞𝐬𝐬」"}
+    typefix = {"shadowsocks":"「𝐬𝐬」","vmess":"「𝐯𝐦𝐞𝐬𝐬」","trojan":"「𝐭𝐫𝐨𝐣𝐚𝐧」","http":"「𝐡𝐭𝐭𝐩」","socks5":"「𝐬𝐨𝗰𝗸𝐬」","vless":"「𝐯𝐥𝐞𝐬𝐬」","anytls":"「𝐚𝐧𝐲𝐭𝐥𝐬」"}
     typefix["shadowsocks"]=item.indexOf("ssr-protocol")!=-1? "「𝐬𝐬𝐫」" : "「𝐬𝐬」"
     tp = typefix[item.split("=")[0].trim()]
     return [[item.split("tag=")[0]+
@@ -836,7 +1336,7 @@ function type_prefix(item) {
 }
 function type_suffix(item) {
   if(item.trim()!=""){
-    typefix={"shadowsocks":"「𝐬𝐬」","vmess":"「𝐯𝐦𝐞𝐬𝐬」","trojan":"「𝐭𝐫𝐨𝐣𝐚𝐧」","http":"「𝐡𝐭𝐭𝐩」","vless":"「𝐯𝐥𝐞𝐬𝐬」"}
+    typefix={"shadowsocks":"「𝐬𝐬」","vmess":"「𝐯𝐦𝐞𝐬𝐬」","trojan":"「𝐭𝐫𝐨𝐣𝐚𝐧」","http":"「𝐡𝐭𝐭𝐩」","vless":"「𝐯𝐥𝐞𝐬𝐬」","anytls":"「𝐚𝐧𝐲𝐭𝐥𝐬」"}
     typefix["shadowsocks"]=item.indexOf("ssr-protocol")!=-1? "「𝐬𝐬𝐫」" : "「𝐬𝐬」"
     tp = typefix[item.split("=")[0].trim()]
     return [item, tp].join(" ")
@@ -847,7 +1347,15 @@ function type_suffix(item) {
 function getnode_type(item,ind) {
   if(item.trim()!="" && item.indexOf("tag=")!=-1) {
     ind = !/^(0|1|2|3|4|5|6|7)$/.test(ind) ? 8 : ind
-    typefix = {"shadowsocks":["𝐬𝐬","𝐒𝐒","🅢🅢","🆂🆂","ⓢⓢ","🅂🅂","𝕊𝕊","ˢˢ","SS"],"shadowsocksr":["𝐬𝐬𝐫","𝐒𝐒𝐑","🅢🅢🅡","🆂🆂🆁","ⓢⓢⓡ","🅂🅂🅁","𝕊𝕊ℝ","ˢˢʳ","SSR"],"vmess":["𝐯𝐦𝐞𝐬𝐬","𝐕𝐌𝐄𝐒𝐒","🅥🅜🅔🅢🅢","🆅🅼🅴🆂🆂","ⓥⓜⓔⓢⓢ","🅅🄼🄴🅂🅂","𝕍𝕞𝕖𝕤𝕤","ᵛᵐᵉˢˢ","VMESS"],"trojan":["𝐭𝐫𝐨𝐣𝐚𝐧","𝐓𝐑𝐎𝐉𝐀𝐍","🅣🅡🅞🅙🅐🅝","🆃🆁🅾🅹🅰🅽","ⓣⓡⓞⓙⓐⓝ","🅃🅁🄾🄹🄰🄽","𝕋𝕣𝕠𝕛𝕒𝕟","ᵀʳᵒʲᵃⁿ","TROJAN"],"http":["𝐡𝐭𝐭𝐩","𝐇𝐓𝐓𝐏","🅗🅣🅣🅟","🅷🆃🆃🅿","ⓗⓣⓣⓟ","🄷🅃🅃🄿","𝕙𝕥𝕥𝕡","ʰᵗᵗᵖ","HTTP"],"socks5":["𝐬𝐨𝗰𝗸𝐬","𝐒𝐎𝐂𝐊𝐒","🅢🅞🅒🅚🅢","🆂🅾🅲🅺🆂","ⓢⓞⓒⓚⓢ","🅂🄾🄲🄺🅂","𝕤𝕠𝕔𝕜𝕤","ˢᵒᶜᵏˢ","SOCKS"],"vless":["𝐯𝐥𝐞𝐬𝐬","𝐕𝐋𝐄𝐒𝐒","🅥🅛🅔🅢🅢","🆅🅻🅴🆂🆂","ⓥⓛⓔⓢⓢ","🅅🄻🄴🅂🅂","𝕍𝕝𝕖𝕤𝕤","ᵛˡᵉˢˢ","VLESS"]}
+    typefix = {"shadowsocks":["𝐬𝐬","𝐒𝐒","🅢🅢","🆂🆂","ⓢⓢ","🅂🅂","𝕊𝕊","ˢˢ","SS"],
+      "shadowsocksr":["𝐬𝐬𝐫","𝐒𝐒𝐑","🅢🅢🅡","🆂🆂🆁","ⓢⓢⓡ","🅂🅂🅁","𝕊𝕊ℝ","ˢˢʳ","SSR"],
+      "vmess":["𝐯𝐦𝐞𝐬𝐬","𝐕𝐌𝐄𝐒𝐒","🅥🅜🅔🅢🅢","🆅🅼🅴🆂🆂","ⓥⓜⓔⓢⓢ","🅅🄼🄴🅂🅂","𝕍𝕞𝕖𝕤𝕤","ᵛᵐᵉˢˢ","VMESS"],
+      "trojan":["𝐭𝐫𝐨𝐣𝐚𝐧","𝐓𝐑𝐎𝐉𝐀𝐍","🅣🅡🅞🅙🅐🅝","🆃🆁🅾🅹🅰🅽","ⓣⓡⓞⓙⓐⓝ","🅃🅁🄾🄹🄰🄽","𝕋𝕣𝕠𝕛𝕒𝕟","ᵀʳᵒʲᵃⁿ","TROJAN"],
+      "http":["𝐡𝐭𝐭𝐩","𝐇𝐓𝐓𝐏","🅗🅣🅣🅟","🅷🆃🆃🅿","ⓗⓣⓣⓟ","🄷🅃🅃🄿","𝕙𝕥𝕥𝕡","ʰᵗᵗᵖ","HTTP"],
+      "socks5":["𝐬𝐨𝗰𝗸𝐬","𝐒𝐎𝐂𝐊𝐒","🅢🅞🅒🅚🅢","🆂🅾🅲🅺🆂","ⓢⓞⓒⓚⓢ","🅂🄾🄲🄺🅂","𝕤𝕠𝕔𝕜𝕤","ˢᵒᶜᵏˢ","SOCKS"],
+      "vless":["𝐯𝐥𝐞𝐬𝐬","𝐕𝐋𝐄𝐒𝐒","🅥🅛🅔🅢🅢","🆅🅻🅴🆂🆂","ⓥⓛⓔⓢⓢ","🅅🄻🄴🅂🅂","𝕍𝕝𝕖𝕤𝕤","ᵛˡᵉˢˢ","VLESS"],
+      "anytls":["𝐚𝐧𝐲𝐭𝐥𝐬","𝐀𝐍𝐘𝐓𝐋𝐒","🅐🅝🅨🅣🅛🅢","🅰🅽🆈🆃🅻🆂","ⓐⓝⓨⓣⓛⓢ","🄰🄽🅈🅃🄻🅂","𝔸𝕟𝕪𝕥𝕝𝕤","ᴬⁿʸᵗˡˢ","𝖠𝖭𝖸𝖳𝖫𝖲"]
+    }
     typefix["shadowsocks"]=item.indexOf("ssr-protocol")!=-1? typefix["shadowsocksr"] : typefix["shadowsocks"]
     tp = typefix[item.split("=")[0].trim()][ind]
     return tp
@@ -898,6 +1406,9 @@ function getnode_emoji(item,ind){
     return get_emoji(ind,item.split("tag=")[1])[1]
   }
 }
+
+
+
 
 // 操作订阅的 tag
 function tag_handle(item) {
@@ -1088,12 +1599,41 @@ function URX2QX(subs) {
     return nrw
 }
 
+/*
+JSON-JQ rewrite 转换说明 ⟦2026-07-06 18:36:10 +08⟧
+----------------------------------------------------------
+仅改动 resource-parser-r.js。
+新增以下输入语法转换：
+  - pattern response-body-json-jq 'jq expression' -> pattern url jsonjq-response-body jq expression
+  - pattern request-body-json-jq 'jq expression'  -> pattern url jsonjq-request-body jq expression
+保留 jq 表达式内部双引号，仅移除包裹整段 jq 的外层引号。
+----------------------------------------------------------
+*/
+function JsonJQRewrite2QX(row) {
+  var matched = row.match(/^\s*(\"[^\"]+\"|'[^']+'|\S+)\s+(response-body-json-jq|request-body-json-jq)\s+([\s\S]+?)\s*$/i);
+  if (!matched) { return "" }
+  var pattern = matched[1].replace("^http", "http");
+  if (pattern.length > 1 && (pattern[0] == "\"" || pattern[0] == "'") && pattern[pattern.length - 1] == pattern[0]) {
+    var unquotedPattern = pattern.slice(1, -1).trim();
+    if (/^\^?https?\??/i.test(unquotedPattern)) {
+      pattern = unquotedPattern.replace("^http", "http");
+    }
+  }
+  var type = matched[2].toLowerCase() == "response-body-json-jq" ? "jsonjq-response-body" : "jsonjq-request-body";
+  var jq = matched[3].trim();
+  if (jq.length > 1 && ((jq[0] == "'" && jq[jq.length - 1] == "'") || (jq[0] == "\"" && jq[jq.length - 1] == "\""))) {
+    jq = jq.slice(1, -1);
+  }
+  return pattern + " url " + type + " " + jq;
+}
+
 //script&rewrite 转换成 Quantumult X
 function SCP2QX(subs) {
   var nrw = []
   var rw = ""
   var RewriteK = [" url 302", " url 307", " url reject", " url script", " url req", " url res", " url echo", " url-and-header 302", " url-and-header 307", " url-and-header reject", " url-and-header script", " url-and-header req", " url-and-header res", " url-and-header echo", " url jsonjq"] // quantumult X 类型 rewrite
-  subs = subs.split("\n").map(x => x.trim().replace(/\s+/g," "))
+  var rawSubs = subs.split("\n").map(x => x.trim())
+  subs = rawSubs.map(x => x.replace(/\s+/g," "))
   //$notify("Script","",subs)
   for (var i = 0; i < subs.length; i++) {
     try {
@@ -1107,10 +1647,15 @@ function SCP2QX(subs) {
       var NoteK = ["//", "#", ";"]; //排除注释项
       const sccheck = (item) => subs[i].indexOf(item) != -1
       const notecheck = (item) => subs[i].indexOf(item) == 0
-      const RewriteCheck = (item) => subs[i].indexOf(item) != -1 ; // quanx 重写判定
-      if (!NoteK.some(notecheck) && !RewriteK.some(RewriteCheck)){
-        if(Pdbg==1) {$notify("rewrite-check","",subs[i])}
-        if (SC.every(sccheck)) { // surge js 新格式
+        const RewriteCheck = (item) => subs[i].indexOf(item) != -1 ; // quanx 重写判定
+        if (!NoteK.some(notecheck) && !RewriteK.some(RewriteCheck)){
+          if(Pdbg==1) {$notify("rewrite-check","",subs[i])}
+          if (/\s(response-body-json-jq|request-body-json-jq)\s/i.test(rawSubs[i])) {
+            rw = JsonJQRewrite2QX(rawSubs[i])
+            if (rw != "") {
+              nrw.push(rw)
+            }
+          } else if (SC.every(sccheck)) { // surge js 新格式
           //部分正则中含有,的问题
           ptn = subs[i].replace(/\s/gi,"").split("pattern=")[1].split(/\,[a-zA-Z]/)[0] 
           js = subs[i].replace(/\s/gi,"").split("script-path=")[1].split(",")[0]
@@ -1437,6 +1982,9 @@ function Rule_Policy(content) { //增加、替换 policy
         } else if (cnt.length == 4 && cnt[3].indexOf("no-resolve") != -1) {
             ply0 = Ppolicy != "Shawn" ? Ppolicy : cnt[2]
             nn = cnt[0] + ", " + cnt[1] + ", " + ply0 //+ ", " + cnt[3]
+        } else if (cnt.length > 4 && cnt[3].indexOf("extend")!=-1) { // 2026-04-28 
+            ply0 = Ppolicy != "Shawn" ? Ppolicy : cnt[2]
+            nn = cnt[0] + ", " + cnt[1] + ", " + ply0
         } else if (!RuleK.some(RuleCheck) && content) {
             //$notify("未能解析" + "⟦" + subtag + "⟧" + "其中部分规则:", content, nan_link);
             return ""
@@ -1568,11 +2116,12 @@ function ReplaceReg(cnt, para) {
 }
 
 
-// read parameters 2025-12-30
+// read parameters 2026-05-17
 function param(res,org,mbody) {
   if(mbody.indexOf(org)!=-1) {
-    tmp=mbody.split(org)[1].split("&")[0].split("#")[0]
-    return res+"="+tmp
+    tmp=mbody.split(org)[1].split("&")[0].split("#")[0].replace(/\s/,"")
+    tmp = tmp!=""? res+"="+tmp : ""
+    return tmp
   }
   else return ""
 }
@@ -1592,9 +2141,9 @@ function Reality_Handle(cnt) {
 function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   if (Pdbg) {$notify("subs", "node", subs)}
     var list0 = subs.split("\n");
-    var QuanXK = ["shadowsocks=", "trojan=", "vmess=", "http=","socks5=", "vless="];
-    var SurgeK = ["=ss,", "=vmess,", "=trojan,", "=http,", "=https,", "=custom,", "=socks5", "=socks5-tls"];
-    var LoonK = ["=shadowsocks", "=shadowsocksr", "=vless"]
+    var QuanXK = ["shadowsocks=", "trojan=", "vmess=", "http=","socks5=", "vless=", "anytls="];
+    var SurgeK = ["=ss,", "=vmess,", "=trojan,", "=http,", "=https,", "=custom,", "=socks5", "=socks5-tls","=anytls"];
+    var LoonK = ["=Shadowsocks", "=ShadowsocksR", "=VLESS","=AnyTLS"]
     var QXlist = [];
     var failedList = [];
     for (var i = 0; i < list0.length; i++) {
@@ -1607,6 +2156,7 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
             list0[i] = (type=="ssr") ? list0[i].split(/#|,|，/)[0] : list0[i] // 2023-04-18 remove type == "vmess" ||
             const NodeCheck = (item) => listi.toLowerCase().indexOf(item) != -1;
             const NodeCheck1 = (item) => listi.toLowerCase().indexOf(item) == 0;
+            const NodeCheck2 = (item) => listi.indexOf(item) != -1;
             try {
               if (Pdbg) {$notify(i, type, list0[i])}
                 if (type == "vmess" && (list0[i].indexOf("remark=") == -1 && list0[i].indexOf("remarks=") == -1) && !/(obfs|alterId|type|\@)\=/.test(list0[i])) {
@@ -1625,6 +2175,9 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
                     node = tag0 != "" ? URI_TAG(node, tag0) : node
                 } else if (type == "ssocks" && list0[i].indexOf("remarks=") != -1) { //shadowrocket socks5-tls 类型
                     node = S5R2QX(list0[i],tlsp="over-tls")
+                    node = tag0 != "" ? URI_TAG(node, tag0) : node
+                } else if (type == "socks" && list0[i].indexOf("remarks=") == -1) { // socks URI 2026-05-25
+                    node = Socks2QX(list0[i])
                     node = tag0 != "" ? URI_TAG(node, tag0) : node
                 } else if (type == "ssr") {
                     node = SSR2QX(list0[i], Pudp, Ptfo)
@@ -1652,14 +2205,25 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
                   $notify("⚠️ 你的 Quantumult X 版本暂未支持 Vless 节点","请更新app到最新版本",list0[i])
                 } else if (type == "vless" ) { // version 150 support vless 
                   node=VL2QX(list0[i], Pudp, Ptfo, Pcert0, PTls13)
+                } else if (type == "anytls") { // 2026-04-15 tls 类型支持
+                  if (version <914) {
+                    Perror = 1 ; // 无需反馈
+                    $notify("⚠️ 你的 Quantumult X 版本暂未支持 anytls 节点","请更新app到最新版本",list0[i])
+                  } else {
+                    node=Anytls2QX(list0[i],Pcert0)
+                  }
                 } else if (QuanXK.some(NodeCheck1)) { // QuanX type 
                     node = QX_TLS(isQuanX(list0[i])[0], Pcert0, PTls13)
-                } else if (SurgeK.some(NodeCheck)) { // Surge type
-                    node = QX_TLS(Surge2QX(list0[i])[0], Pcert0, PTls13)
-                } else if (LoonK.some(NodeCheck)) { // Loon type
+                } else if (LoonK.some(NodeCheck2)) { // Loon type
                     node = Loon2QX(list0[i])
-                } else if (type=="hysteria2" || type=="anytls") { //
+                } else if (SurgeK.some(NodeCheck) ) { // Surge type, 第2为端口号
+                    node = QX_TLS(Surge2QX(list0[i])[0], Pcert0, PTls13)
+                } else if (type=="hysteria2" || (type=="anytls" && version<914) || type=="tuic" || type=="wireguard"|| type=="wg") { //
                   PNS=PNS+1 
+                  NSList.push(numToEmoji10(PNS)+list0[i])
+                } else if (/^STATUS\=/.test(listi)) { // flow info fake server
+                  //$notify("Status","flow",listi)
+                  Rocket_flow(listi)
                 }
               if (Pdbg) {$notify(i, type, node)}
             } catch (e) {
@@ -1673,6 +2237,7 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
             node = SHA256_Handle(node,Pcsha256,Ppsha256)} // Sha256 参数
             if (Palpn !="") { node = ALPN_Handle(node,Palpn)} // alpn 参数
             node = TLS_Check(node)
+            //if (Pdbg) {$notify("Final", type, node)}
             if (node instanceof Array) {
                 for (var j in node) {
                   node[j] = Pudp != 0 ? XUDP(node[j],Pudp) : node[j]
@@ -1724,24 +2289,24 @@ function QX_TLS(cnt,Pcert0,PTls13) {
   if(cnt.indexOf("tls-verification") != -1){ // 已有tls参数时, 如用户不指定，则不做处理
     cnt = (Pcert0 == -1 || Pcert0 == 1) ? cnt.replace(RegExp("tls\-verification.*?\,", "gmi"), cert0): cnt
     //cnt = Pcert0 == 1? cnt.replace(RegExp("tls\-verification.*?\,", "gmi"), cert0): cnt
-  }else if(cnt.indexOf("obfs=over-tls")!=-1 || /over\-tls\s*\=\s*true/.test(cnt) || cnt.indexOf("obfs=wss")!=-1){ //未包含tls参数时
-    cnt = cnt.replace(new RegExp("tag.*?\=", "gmi"), cert0+"tag=")
+  } else if(cnt.indexOf("obfs=over-tls")!=-1 || /over\-tls\s*\=\s*true/.test(cnt) || cnt.indexOf("obfs=wss")!=-1){ //未包含tls参数时
+    cnt = cnt.replace(new RegExp("tag\s*\=", "gmi"), cert0+"tag=")
   }
   if (tls13 !="") {
   if(cnt.indexOf("tls13") != -1){
     cnt = cnt.replace(RegExp("tls13.*?\,", "gmi"), tls13)
-  }else if(cnt.indexOf("obfs=over-tls")!=-1 || /over\-tls\s*\=\s*true/.test(cnt) || cnt.indexOf("obfs=wss")!=-1){
-    cnt = cnt.replace(new RegExp("tag.*?\=", "gmi"), tls13+"tag=")
+  } else if(cnt.indexOf("obfs=over-tls")!=-1 || /over\-tls\s*\=\s*true/.test(cnt) || cnt.indexOf("obfs=wss")!=-1){
+    cnt = cnt.replace(new RegExp("tag\s*\=", "gmi"), tls13+"tag=")
   }
   }
-  if (!/^(shadowsocks|trojan|vmess|vless)/.test(cnt.trim())) { //关闭非 ss/ssr/trojan/vmess/vless 类型的 udp
+  if (!/^(shadowsocks|trojan|vmess|vless|anytls)/.test(cnt.trim())) { //关闭非 ss/ssr/trojan/vmess/vless 类型的 udp
     udp =  "udp-relay=false, "
     if(cnt.indexOf("udp-relay") != -1){
       var cnt = cnt.replace(RegExp("udp\-relay.*?\,", "gmi"), udp)
     }else{
-      var cnt = cnt.replace(new RegExp("tag.*?\=", "gmi"), udp+"tag=")
+      var cnt = cnt.replace(new RegExp("tag\s*\=", "gmi"), udp+"tag=")
     }
-  }   
+  }
   return cnt
 }
 
@@ -1887,7 +2452,7 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
 //Shadowrocket 格式的 socks URI 转换
 function S5R2QX(cnt,tlsp="false") {
   var listh = Base64.decode(cnt.split("socks://")[1].split("#")[0].split("?")[0])
-  server=listh+"#"+cnt.split("?")[1]
+  server=cnt.indexOf("#")!=-1? listh+"#"+cnt.split("?")[1] : listh+"?"+cnt.split("?")[1]
   var nss = []
   if (server != "") {
       var ipport = "socks5=" + server.split("@")[1].split("#")[0].split("/")[0];
@@ -1904,7 +2469,26 @@ function S5R2QX(cnt,tlsp="false") {
   return QX
 }
  
-
+// socks URI  转换 2026-05-25, 无remarks命名部分
+function Socks2QX(cnt,tlsp="false") {
+  var listh = Base64.decode(cnt.split("socks://")[1].split("#")[0].split("?")[0])
+  server=cnt.indexOf("#")!=-1? listh+"#"+cnt.split("?")[1] : listh+"?"+cnt.split("?")[1]
+  var nss = []
+  if (server != "") {
+      var ipport = "socks5=" + server.split("@")[1].split("#")[0].split("/")[0];
+      var uname = "username=" + server.split(":")[0];
+      var pwd = "password=" + server.split("@")[0].split(":")[1];
+      name = server.indexOf("#") != -1? server.split("#")[1] : ipport.split("=")[1].split(":")[0]
+      var tag = "tag=" + decodeURIComponent(name.split("&")[0]);
+      var tls = tlsp=="false"? "":"over-tls=true"
+      var cert = Pcert0 != 0 ? "tls-verification=true" : "tls-verification=false";
+      cert = tls == ""? "":cert
+      var tfo = Ptfo0 == 1 ? "fast-open=true" : "fast-open=false";
+      nss.push(ipport, uname, pwd, tls, cert, tfo, tag)
+  }
+  var QX = nss.filter(Boolean).join(",");
+  return QX
+}
 
 //V2RayN uri 转换成 QUANX 格式
 function V2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
@@ -1934,6 +2518,7 @@ function V2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
       nss.push(ip, mtd, pwd, obfs, tfo, udp, caead, tag);
     } else if(obfs == "NOT-SUPPORTTED"){
       PNS=PNS+1
+      NSList.push(numToEmoji10(PNS)+subs)
     }
     QX = nss.join(", ");
   }
@@ -2108,6 +2693,38 @@ function SSR2QX(subs, Pudp, Ptfo) {
     return QX;
 }
 
+// AnyTLS uri 转换成 quanx 格式
+//anytls://pwd@name:443?peer=xxx.com&udp=1#US-A-ANYTLS-0.5%E5%80%8D%E7%8E%8
+// tls with reality
+//anytls://ip:port?security=reality&pbk=yourkey&sid=yourshortip&fp=chrome&sni=sample.com#Server-Anytls_Reality
+
+function Anytls2QX(subs,Pcert0) {
+  try {
+    var Nanytls=[];
+    var cnt=subs.split("anytls://")[1]
+    type="anytls=";
+    ip = cnt.split("@")[1].split("encry")[0].split("?")[0];
+    pwd = cnt.split("@")[0]? "password=" + cnt.split("@")[0]:"";
+    ptls="over-tls=true"
+    pcert = cnt.indexOf("allowInsecure=0") != -1 ? "tls-verification=true" : "tls-verification=false";
+    if (Pcert0 == 0) { 
+      pcert = "tls-verification=false" 
+    } else if (Pcert0 == 1) {
+      pcert = "tls-verification=true"
+    }
+    thost = cnt.indexOf("sni=") != -1? "tls-host="+cnt.split("sni=")[1].split(/&|#/)[0]:""
+    thost = cnt.indexOf("peer=") != -1? "tls-host="+cnt.split("peer=")[1].split(/&|#/)[0]:thost
+    pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
+    tag = cnt.indexOf("#") != -1 ? "tag=" + decodeURIComponent(cnt.split("#").slice(-1)[0]) : "tag= [anytls]" + ip
+    // reality
+    prlt= version>=914? Reality_Handle(cnt) : ""
+    Nanytls.push(type + ip, pwd, ptls, pcert, pudp, thost, prlt, tag)
+    QX= Nanytls.filter(Boolean).join(", ")
+    return QX
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 // Vless uri 转换成 QUANX 格式
 // vless://pwd@a.b.c.gq:443?encryption=none&security=tls&type=ws&host=a.b.c.d&path=dsjdaaaaj#VLESS_WSS
@@ -2173,8 +2790,9 @@ function VL2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     } else if(cnt.indexOf("type=")!=-1 && cnt.indexOf("type=tcp")==-1) {//暂不支持类型
     type="NS"
   }
-    thost=cnt.indexOf("&host=") == -1? thost : "obfs-host=" + decodeURIComponent(cnt.split("&host=")[1].split("&")[0].split("#")[0])
-    thost=cnt.indexOf("sni=") == -1? thost : "obfs-host=" + decodeURIComponent(cnt.split("sni=")[1].split("&")[0].split("#")[0]).replace(/\"|(Host\":)|\{|\}/g,"")
+    thost1=cnt.indexOf("&host=") == -1? thost : "obfs-host=" + decodeURIComponent(cnt.split("&host=")[1].split("&")[0].split("#")[0])
+    thost2=cnt.indexOf("sni=") == -1? thost : "obfs-host=" + decodeURIComponent(cnt.split("sni=")[1].split("&")[0].split("#")[0]).replace(/\"|(Host\":)|\{|\}/g,"")
+    thost = thost1.length >= thost2.length ? thost1 : thost2;
     puri = cnt.indexOf("&path=") == -1? puri : "obfs-uri=" + decodeURIComponent(cnt.split("&path=")[1].split("&")[0].split("#")[0])
   } 
 if(obfs=="obfs=wss" && obfs=="obfs=over-tls"){
@@ -2192,7 +2810,10 @@ if(obfs=="obfs=wss" && obfs=="obfs=over-tls"){
   prlt= version>=891? Reality_Handle(cnt) : ""
   nvless.push(type + ip, pwd, mtd, obfs, pcert, thost, puri, pudp, ptfo, prlt, tag)
   QX = type!="NS"? nvless.filter(Boolean).join(", ")  : ""
-  PNS= type=="NS"? PNS+1 : PNS
+  if (type=="NS") {
+    PNS=PNS+1
+    NSList.push(numToEmoji10(PNS)+subs)
+  }
   return QX
 }
 
@@ -2254,8 +2875,8 @@ function SS2QX(subs, Pudp, Ptfo) {
     //console.log(cntt)
     if (cntt.indexOf("@") != -1 && cntt.indexOf(":") != -1) { 
       ip = cnt.split("@")[1].split("#")[0].split("/")[0].split("?")[0];
-      if(cntt.indexOf("%")==-1 || cntt.split("@")[0].indexOf(":")==-1){ // 2025-05-16 
-        pwdmtd = Base64.decode(cnt.split("@")[0].replace(/-/g, "+").replace(/_/g, "/").replace(/%3D/g,"")).split("\u0000")[0].split(":")
+      if(cntt.indexOf("%")==-1 || cntt.split("@")[0].indexOf(":")==-1){ // 2026-05-18 :(%3D)|(\=)
+        pwdmtd = Base64.decode(cnt.split("@")[0].replace(/-/g, "+").replace(/_/g, "/").replace(/(%3D)|(\=)/g,"")).split("\u0000")[0].split(":")
       } else {
         pwdmtd = decodeURIComponent(cnt.split("@")[0]).split(":")
       }
@@ -2275,7 +2896,7 @@ function SS2QX(subs, Pudp, Ptfo) {
     pwd = "password=" + pwdmtd.reduce(joinx);
     if (cntt.indexOf("v2ray-plugin")==-1 && cntt.indexOf("plugin=v2ray")==-1) { //Shadowrocket style v2-plugin
       obfs = cnt.split("obfs%3D")[1] != null ? ", obfs=" + cnt.split("obfs%3D")[1].split("%3B")[0].split("#")[0] : "";
-      obfshost = cnt.split("obfs-host%3D")[1] != null ? ", obfs-host=" + cnt.split("obfs-host%3D")[1].split("&")[0].split("#")[0] : "";
+      obfshost = cnt.split("obfs-host%3D")[1] != null ? ", obfs-host=" + decodeURIComponent(cnt.split("obfs-host%3D")[1].split("&")[0].split("#")[0]) : "";
     } else if (cnt1 != undefined){
       cnt1 = JSON.parse(cnt1)
       obfs= cnt1.tls? ", obfs=wss" : ", obfs=ws"
@@ -2381,12 +3002,47 @@ function isQuanX(content) {
         var cnti = cnts[i];
         if (cnti.indexOf("=") != -1 && cnti.indexOf("tag") != -1) {
             var cnt = cnti.split("=")[0].trim()
-            if (cnt == "http" || cnt == "shadowsocks" || cnt == "trojan" || cnt == "vmess" || cnt == "socks5" || cnt == "vless") {
+            if (cnt == "http" || cnt == "shadowsocks" || cnt == "trojan" || cnt == "vmess" || cnt == "socks5" || cnt == "vless" ||  cnt == "anytls") {
                 nlist.push(QXFix(cnti))
             }
         }
     }
    return nlist
+}
+
+/*
+Rewrite pattern quote 修复说明 ⟦2026-07-06 18:29:51 +08⟧
+----------------------------------------------------------
+仅改动 resource-parser-r.js。
+修复 Loon/Surge rewrite 转 QuanX 后，规则最前面的 http/https 匹配正则保留外层双引号的问题：
+  - 例如 `"^https://example.com/ad" reject` 之前会输出 `"https://example.com/ad" url reject`
+  - 修正点放在 isQuanXRewrite() 最终写入前，覆盖各转换分支与原生 QuanX rewrite 透传
+  - 只移除首段 pattern 的成对双引号，不全局删除引号，避免影响 echo/header/script 等内容
+----------------------------------------------------------
+*/
+function RewritePatternQuoteFix(cnti) {
+  if (!cnti) { return cnti }
+  function stripQuote(pattern) {
+    if (pattern.length > 1 && pattern[0] == "\"" && pattern[pattern.length - 1] == "\"") {
+      var unquoted = pattern.slice(1, -1).trim();
+      if (/^\^?https?\??/i.test(unquoted)) {
+        return unquoted;
+      }
+    }
+    return pattern;
+  }
+  var marker = cnti.indexOf(" url-and-header ") != -1 ? " url-and-header " : " url ";
+  var idx = cnti.indexOf(marker);
+  if (idx == -1) { return cnti }
+  var pattern = cnti.slice(0, idx).trim();
+  var rest = cnti.slice(idx);
+  if (marker == " url-and-header ") {
+    var matched = pattern.match(/^(\"[^\"]+\")(\s+[\s\S]+)$/);
+    if (matched) {
+      return stripQuote(matched[1]) + matched[2] + rest;
+    }
+  }
+  return stripQuote(pattern) + rest;
 }
 
 //surge script/quanx-rewrite - > quanx
@@ -2401,6 +3057,8 @@ function isQuanXRewrite(content) {
       if (cnti.indexOf("pattern")!=-1 && cnti.indexOf("type")!=-1 || cnti.indexOf("http-r")!=-1) {
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
         //console.log(cnti)
+      }else if (/\s(response-body-json-jq|request-body-json-jq)\s/i.test(cnti)) {
+        cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
       }else if ((cnti.indexOf(" 302")!=-1 || cnti.indexOf(" 307")!=-1 || (/\s(_|-)\s(reject|REJECT)/.test(cnti)) || (/\sreject$/.test(cnti)) || (/\sreject-/.test(cnti))) && cnti.indexOf(" url ")==-1 && cnti.indexOf(" url-and-header ")==-1 ){
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
         //console.log("sss",cnti)
@@ -2423,7 +3081,7 @@ function isQuanXRewrite(content) {
       }
       if (cnti!="" && cnti.trim()[0]!="[" && cnti.indexOf("RULE-SET")==-1 && !/cronexp\=|type\=cron/.test(cnti.replace(/ /g,""))) { //&& !RuleK.some(RuleCheck)
         if (!(/\;$/.test(cnti))) { // 某些特殊情形 let url = xxx;
-        cnt0.push(cnti) //  排除其它项目后写入
+        cnt0.push(RewritePatternQuoteFix(cnti)) //  排除其它项目后写入
         //$notify(cnti,"已经写入")
       }
       }
@@ -2805,6 +3463,8 @@ function Surge2QX(conf) {
       node = SS52QX(cnt) //surge 3的Socks5
     } else if (cnt.split("=")[1].split(",")[0].indexOf("custom") != -1) {
       node = SCT2QX(cnt) //surge2写法
+    } else if (cnt.split("=")[1].split(",")[0].indexOf("anytls") != -1 && version>913) {
+      node = SATS2QX(cnt) // surge anytls from version 913 afterward
     }
     node = Pudp0 != 0 ? XUDP(node,Pudp0) : node
     node = Ptfo0 != 0 ? XTFO(node,Ptfo0) : node
@@ -2897,7 +3557,7 @@ function SVmess2QX(content) {
 function isSurge(content) {
   if (content.indexOf("=") != -1) {
     cnt = content.split("=")[1].split(",")[0].trim()
-    if (cnt == "http" || cnt == "ss" || cnt == "trojan" || cnt == "vmess" || cnt == "custom" || cnt == "https" || cnt == "socks5"|| cnt == "socks5-tls") {
+    if (cnt == "http" || cnt == "ss" || cnt == "trojan" || cnt == "vmess" || cnt == "custom" || cnt == "https" || cnt == "socks5"|| cnt == "socks5-tls"|| cnt == "anytls") {
         return content
     }
   }
@@ -2927,6 +3587,29 @@ function Strojan2QX(content) {
   var nserver = "trojan= " + [ipport, pwd, ptls, ptfo, ptls13, phost,pverify, tag].filter(Boolean).join(", ");
   return nserver
 }
+
+// surge中 anytls类型转换
+function SATS2QX(content) {
+  try {
+    var cnt = content;
+    if (Pdbg==1) {$notify(cnt)}
+    var tag = "tag=" + cnt.split("=")[0].trim();
+    var ipport = cnt.split(",")[1].trim() + ":" + cnt.split(",")[2].trim();
+    var pwd = "password=" + cnt.split("password")[1].split(",")[0].split("=")[1].trim();
+    var ptls = "over-tls=true";
+    //var ptfo = paraCheck(cnt, "tfo") == "true" ? "fast-open=true" : "fast-open=false";
+    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
+    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var phost = cnt.indexOf("sni")!=-1? "tls-host="+cnt.split("sni")[1].split(",")[0].split("=")[1]:""
+    pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
+    var nserver = "anytls= " + [ipport, pwd, ptls, pverify, phost,pudp, tag].filter(Boolean).join(", ");
+    return nserver
+  } catch (error) {
+    console.log("surge-anytls:"+error)
+  }
+}
+
+
 // surge 中的 http 类型
 function Shttp2QX(content) {
   var cnt = content;
@@ -2974,6 +3657,8 @@ function Loon2QX(cnt) {
       node = LoonSSR2QX(cnt)
   } else if (type == "VLESS") { // vless 类型
     node = LoonVL2QX(cnt)
+  } else if (type == "AnyTLS" && version > 913) { // anytls 类型
+    node = LoonTLS2QX(cnt)
   }
   return node
 }
@@ -3049,18 +3734,119 @@ function LoonVL2QX(cnt) {
   return node
 }
 
+// loon anytls
+//loon-tls = AnyTLS,1.1.1.1,443,"jdjdhd",sni=abc.com,skip-cert-verify=true,udp=true,block-quic=false
+function LoonTLS2QX(content) {
+  try {
+    var cnt = content;
+    $notify("Loon","",cnt)
+    if (Pdbg==1) {$notify(cnt)}
+    var tag = "tag=" + cnt.split("=")[0].trim();
+    var ipport = [cnt.split(",")[1].trim(), cnt.split(",")[2].trim()].join(":");
+    var pwd = "password=" +  + cnt.split(",")[3].trim().split("\"")[1];
+    var ptls = "over-tls=true";
+    var phost = cnt.indexOf("sni")!=-1? "tls-host="+cnt.split("sni")[1].split(",")[0].split("=")[1]:""
+    pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
+    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
+    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var nserver = "anytls= " + [ipport, pwd, ptls, pverify, phost,pudp, tag].filter(Boolean).join(", ");
+    $notify("Loon","",nserver)
+    return nserver
+  } catch (error) {
+    console.log("loon-anytls:"+error)
+  }
+
+}
+
 ////////////////////
 
+/*
+YAMLFix 修复说明 ⟦2026-07-02 10:23:41 HKT⟧
+----------------------------------------------------------
+仅改动 resource-parser-r.js。
+修复 inline YAML map 中引号内逗号被拆坏的问题：
+  - 不再删除 value 引号后全局 replace(/,/g, "\n   ")
+  - 改为只拆顶层逗号，保留 "VM, WS"、"pa,ss" 以及嵌套 {path:..., headers:{...}}
+----------------------------------------------------------
+*/
 function YAMLFix(cnt){
+  function splitInlineYamlMapItems(str) {
+    var parts = [];
+    var buf = "";
+    var quote = "";
+    var escaped = false;
+    var depth = 0;
+    var leftBracketToken = "yaml@bug𝟙";
+    for (var i = 0; i < str.length; i++) {
+      var ch = str[i];
+      if (quote) {
+        buf += ch;
+        if (quote == "\"" && ch == "\\" && !escaped) {
+          escaped = true;
+          continue;
+        }
+        if (quote == "'" && ch == "'" && str[i + 1] == "'") {
+          buf += str[++i];
+          continue;
+        }
+        if (ch == quote && !escaped) {
+          quote = "";
+        }
+        escaped = false;
+      } else if (str.slice(i, i + leftBracketToken.length) == leftBracketToken) {
+        depth++;
+        buf += leftBracketToken;
+        i += leftBracketToken.length - 1;
+      } else if (ch == "\"" || ch == "'") {
+        quote = ch;
+        buf += ch;
+      } else if (ch == "{" || ch == "[") {
+        depth++;
+        buf += ch;
+      } else if (ch == "}" || ch == "]") {
+        depth--;
+        buf += ch;
+      } else if (ch == "," && depth == 0) {
+        if (buf.trim() != "") {
+          parts.push(buf.trim());
+        }
+        buf = "";
+      } else {
+        buf += ch;
+      }
+    }
+    if (buf.trim() != "") {
+      parts.push(buf.trim());
+    }
+    return parts;
+  }
+
+  function expandInlineYamlMapLine(line) {
+    var match = line.match(/^(\s*)-\s*(\{[\s\S]*\})\s*(?:#.*)?$/);
+    if (!match) {
+      return line;
+    }
+    var indent = match[1];
+    var body = match[2].trim().slice(1, -1);
+    var parts = splitInlineYamlMapItems(body);
+    if (parts.length == 0) {
+      return line;
+    }
+    var out = [];
+    for (var i = 0; i < parts.length; i++) {
+      out.push((i == 0 ? indent + "- " : indent + "  ") + parts[i]);
+    }
+    return out.join("\n");
+  }
+
   cnt = cnt.replace(/\[/g,"yaml@bug𝟙").replace(/\\r/g,"").replace(/\*/g,"yaml@bug𝟚")
   //2022-08-08 增加 .replace(/\*/g,"🌟@bug2") 以解决名字以 * 开始时引起的部分问题
   if (cnt.indexOf("{") != -1 && /\{\s*\"*(name|type|server)/.test(cnt)){ // - { } 类型 yaml
     cnt =  cleanYamlSpaces(cnt) // 2026-02-06 部分空格解析错误
-    cnt = cnt.replace(/(^|\n)- /g, "$1  - ").replace(/    - /g,"  - ").replace(/:(?!\s)/g,": ").replace(/\,\"/g,", \"").replace(/: {\s{0,1}/g, ": {,   ").replace(/, (Host|host|path|mux)/g,",   $1")
+    cnt = cnt.replace(/(^|\n)- /g, "$1  - ").replace(/    - /g,"  - ")
     //2022-04-11 remove tls|skip from replace(/, (Host|host|path|mux)/g,",   $1")
     console.log("1st:\n"+cnt)
-    cnt = cnt.replace(/{\s*name: (.*?), (.*?):/g,"{name: \"$1\", $2:").replace(/\"/gi,"").replace(/, short-id\"{0,1}/gi,",   short-id") //cnt.replace(/{\s*name: /g,"{name: \"").replace(/, (.*?):/,"\", $1:")
-    cnt = cnt.replace(/{\s*|\s*}/g,"").replace(/,/g,"\n   ")
+    cnt = cnt.split("\n").map(expandInlineYamlMapLine).join("\n").replace(/, short-id\"{0,1}/gi,", short-id")
   }
   cnt = cnt.replace(/\n\s*\-\s*\n.*name/g,"\n  - name").replace(/\$|\`/g,"").split("proxy-providers:")[0].split("proxy-groups:")[0].replace(/\"(name|type|server|port|cipher|password|uuid|alterId|udp)(\"*)/g,"$1")
     if(Pdbg == 1) {
@@ -3322,8 +4108,11 @@ function Clash2QX(cnt) {
         node = CS52QX(node)
       } else if (typecc == "vless"){
         node = CVL2QX(node)
+      } else if (typecc=="anytls" && version >913) { //anytls
+        node = CTLS2QX(node)
       } else { // not support type
         PNS = PNS+1
+        NSList.push(numToEmoji10(PNS)+bb[i])
         if (Pdbg==1) { // 通知提示
           $notify("不支持该类型节点，已忽略",typecc,JSON.stringify(node))
         }
@@ -3345,9 +4134,48 @@ function Clash2QX(cnt) {
   return nodelist.join("\n")
 }
 
+/*
+Clash YAML name Unicode 修复说明 ⟦2026-07-06 18:50:58 +08⟧
+----------------------------------------------------------
+仅改动 resource-parser-r.js。
+修复 Clash YAML server name 中双层转义 Unicode 未还原的问题：
+  - "\\U0001F534"、"\U0001F534" 均会还原为对应 emoji/字符
+  - 新增解码限定在 Clash 节点 name -> QuanX tag，不扩大 YAML 全局字段处理范围
+----------------------------------------------------------
+*/
+function ClashNameFix(name) {
+  var text = typeof name == "undefined" || name === null ? "" : String(name);
+  function safeCodePoint(fallback, hex) {
+    var code = parseInt(hex, 16);
+    if (!isFinite(code) || code < 0 || code > 0x10FFFF) {
+      return fallback;
+    }
+    return String.fromCodePoint(code);
+  }
+  return text
+    .replace(/\\\\U([0-9A-Fa-f]{8})/g, function(match, hex) {
+      return safeCodePoint(match, hex);
+    })
+    .replace(/\\U([0-9A-Fa-f]{8})/g, function(match, hex) {
+      return safeCodePoint(match, hex);
+    })
+    .replace(/\\\\u\{([0-9A-Fa-f]+)\}/g, function(match, hex) {
+      return safeCodePoint(match, hex);
+    })
+    .replace(/\\u\{([0-9A-Fa-f]+)\}/g, function(match, hex) {
+      return safeCodePoint(match, hex);
+    })
+    .replace(/\\\\u([0-9A-Fa-f]{4})/g, function(match, hex) {
+      return String.fromCharCode(parseInt(hex, 16));
+    })
+    .replace(/\\u([0-9A-Fa-f]{4})/g, function(match, hex) {
+      return String.fromCharCode(parseInt(hex, 16));
+    });
+}
+
 //Clash ss type server
 function CSS2QX(cnt) {
-  tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi,"")
+  tag = "tag="+ClashNameFix(cnt.name)
   ipt = cnt.server+":"+cnt.port
   pwd = "password=" + cnt.password
   mtd = "method="+ cnt.cipher
@@ -3371,7 +4199,7 @@ function CSS2QX(cnt) {
 
 //Clash ssr type server
 function CSSR2QX(cnt) {
-  tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi,"")
+  tag = "tag="+ClashNameFix(cnt.name)
   ipt = cnt.server+":"+cnt.port
   pwd = "password=" + cnt.password
   mtd = "method="+ cnt.cipher
@@ -3404,7 +4232,7 @@ function CSSR2QX(cnt) {
 
 //Clash vmess type server
 function CV2QX(cnt) {
-  tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi," ")
+  tag = "tag="+ClashNameFix(cnt.name)
   ipt = cnt.server+":"+cnt.port
   pwd = "password=" + cnt.uuid
   mtd = "method="+ "aes-128-gcm" //cnt.cipher
@@ -3448,7 +4276,7 @@ function CV2QX(cnt) {
 
 //Clash Trojan
 function CT2QX(cnt) {
-  tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi," ")
+  tag = "tag="+ClashNameFix(cnt.name)
   ipt = cnt.server+":"+cnt.port
   pwd = "password=" + cnt.password
   otls = "over-tls=true"
@@ -3471,12 +4299,28 @@ function CT2QX(cnt) {
   node = "trojan="+[ipt, pwd, otls, opath, ohost, cert, tls13, udp, tfo, tag].filter(Boolean).join(", ")
   //console.log(node)
   return node
+}
 
+// Clash Anytls 2026-04-15
+
+function CTLS2QX(cnt) {
+  tag = "tag="+ClashNameFix(cnt.name)
+  ipt = cnt.server+":"+cnt.port
+  pwd = "password=" + cnt.password
+  otls = "over-tls=true"
+  opath=""
+  ohost= "tls-host="+cnt.sni
+  cert = cnt["skip-cert-verify"] ? "tls-verification=false" : "tls-verification=true"
+  cert = Pcert0 == 1 ? "tls-verification=true" : "tls-verification=false"
+  pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
+  node = "anytls="+[ipt, pwd, otls, ohost, pudp, cert, tag].filter(Boolean).join(", ")
+  //console.log(node)
+  return node
 }
 
 // Clash http
 function CH2QX(cnt){
-    tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi," ")
+    tag = "tag="+ClashNameFix(cnt.name)
     ipt = cnt.server+":"+cnt.port
     uname = cnt.username ? "username=" + cnt.username : ""
     pwd = cnt.password && typeof(cnt.password) == "string" ? "password=" + cnt.password : ""
@@ -3494,7 +4338,7 @@ function CH2QX(cnt){
 
 // Clash socks5
 function CS52QX(cnt){
-    tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi," ")
+    tag = "tag="+ClashNameFix(cnt.name)
     ipt = cnt.server+":"+cnt.port
     uname = cnt.username ? "username=" + cnt.username : ""
     pwd = cnt.password && typeof(cnt.password) == "string" ? "password=" + cnt.password : ""
@@ -3512,7 +4356,7 @@ function CS52QX(cnt){
 
 // clash vless type ,2026-01-07
 function CVL2QX(cnt){
-  tag = "tag="+cnt.name.replace(/\\U.+?\s{1}/gi," ").replace(/(\"|\')/gi,"")
+  tag = "tag="+ClashNameFix(cnt.name).replace(/(\"|\')/gi,"")
   ipt = cnt.server+":"+cnt.port
   pwd = "password=" + cnt.uuid
   mtd = "method=none" //cnt.cipher
@@ -3552,6 +4396,7 @@ function CVL2QX(cnt){
   const pspt = getValue(()=>cnt["ws-opts"]["v2ray-http-upgrade"])
   if (pspt==true) {
     PNS = PNS +1
+    NSList.push(numToEmoji10(PNS)+cnt)
     node=""
   } else {
     node = "vless="+[ipt, pwd, mtd, udp, tfo, obfs, ohost, puri, vfl, pbk, sid, cert, tag].filter(Boolean).join(", ")
@@ -3562,7 +4407,7 @@ function CVL2QX(cnt){
 
 // UDP/TFO 参数 (强制 surge/quanx 类型转换)
 function XUDP(cnt,pudp) {
-  var udp = pudp == 1 && /^(shadowsocks|trojan|vmess|vless)/.test(cnt.trim()) ? "udp-relay=true, " : "udp-relay=false, "
+  var udp = pudp != -1 && /^(shadowsocks|trojan|vmess|vless|anytls)/.test(cnt.trim()) ? "udp-relay=true, " : "udp-relay=false, "
   if(cnt.indexOf("udp-relay") != -1){
     var cnt0 = cnt.replace(RegExp("udp\-relay.*?\,", "gmi"), udp)
   }else{
@@ -3754,429 +4599,490 @@ Copyright (c) 2011 Diogo Costa (costa.h4evr@gmail.com)
 
 */
 
+/*
+YAML parser 修复说明 ⟦2026-06-30 18:29:46 HKT⟧
+----------------------------------------------------------
+仅改动 function YAML() 本体，原文件 resource-parser.js 未修改。
+修复重点：
+1. 移除 Date.parse 自动转换，避免 http/1.1、HK:01、2026-06-30 等普通字段被误转 Date。
+2. 支持单字符 key、quoted key、key:value 无空格写法、空值、顶层数组。
+3. 重写注释处理，仅将行首或空白后的 # 视为注释，保留 pa#ss、URL fragment 等值。
+4. 改善 flow map/flow array 解析，按引号与括号层级拆分逗号，支持引号内逗号和冒号。
+5. 增加基础 anchor/alias/merge(<<) 支持，并在缩进异常时记录 errors，避免 undefined.children 崩溃。
+----------------------------------------------------------
+*/
 function YAML() {
-        var errors = [],
-                reference_blocks = [],
-                processing_time = 0,
-                regex =
-                {
-                        "regLevel" : new RegExp("^([\\s\\-]+)"),
-                        "invalidLine" : new RegExp("^\\-\\-\\-|^\\.\\.\\.|^\\s*#.*|^\\s*$"),
-                        "dashesString" : new RegExp("^\\s*\\\"([^\\\"]*)\\\"\\s*$"),
-                        "quotesString" : new RegExp("^\\s*\\\'([^\\\']*)\\\'\\s*$"),
-                        "float" : new RegExp("^[+-]?[0-9]+\\.[0-9]+(e[+-]?[0-9]+(\\.[0-9]+)?)?$"),
-                        "integer" : new RegExp("^[+-]?[0-9]+$"),
-                        "array" : new RegExp("\\[\\s*(.*)\\s*\\]"),
-                        "map" : new RegExp("\\{\\s*(.*)\\s*\\}"),
-                        "key_value" : new RegExp("([a-z0-9_-][ a-z0-9_-]*):( .+)", "i"),
-                        "single_key_value" : new RegExp("^([a-z0-9_-][ a-z0-9_-]*):( .+?)$", "i"),
-                        "key" : new RegExp("([a-z0-9_-][ a-z0-9_-]+):( .+)?", "i"),
-                        "item" : new RegExp("^-\\s+"),
-                        "trim" : new RegExp("^\\s+|\\s+$"),
-                        "comment" : new RegExp("([^\\\'\\\"#]+([\\\'\\\"][^\\\'\\\"]*[\\\'\\\"])*)*(#.*)?")
-                };
- 
-         /**
-            * @class A block of lines of a given level.
-            * @param {int} lvl The block's level.
-            * @private
-            */
-        function Block(lvl) {
-                return {
-                        /* The block's parent */
-                        parent: null,
-                        /* Number of children */
-                        length: 0,
-                        /* Block's level */
-                        level: lvl,
-                        /* Lines of code to process */
-                        lines: [],
-                        /* Blocks with greater level */
-                        children : [],
-                        /* Add a block to the children collection */
-                        addChild : function(obj) {
-                                this.children.push(obj);
-                                obj.parent = this;
-                                ++this.length;
-                        }
-                };
+        var self = this;
+        var errors = [];
+        var reference_blocks = {};
+        var processing_time = 0;
+        var lines = [];
+        var cursor = 0;
+
+        this.errors = errors;
+        this.processing_time = processing_time;
+
+        function clone(obj) {
+                if (obj === null || typeof obj !== "object") {
+                        return obj;
+                }
+                try {
+                        return JSON.parse(JSON.stringify(obj));
+                } catch (err) {
+                        return obj;
+                }
         }
 
-        // function to create an XMLHttpClient in a cross-browser manner
-
-        function fromURL(src, ondone) {
-                var client = createXMLHTTPRequest();
-                client.onreadystatechange = function() {
-                        if (this.readyState == 4 || this.status == 200) {
-                                var txt = this.responseText;
-                                ondone(YAML.eval0(txt));
-                        }
-                };
-                client.open('GET', src);
-                client.send();
+        function isObject(obj) {
+                return obj !== null && typeof obj === "object" && !Array.isArray(obj);
         }
 
-        function parser(str) {
-                var regLevel = regex["regLevel"];
-                var invalidLine = regex["invalidLine"];
-                var lines = str.split("\n");
-                var m;
-                var level = 0, curLevel = 0;
-                
-                var blocks = [];
-                
-                var result = new Block(-1);
-                var currentBlock = new Block(0);
-                result.addChild(currentBlock);
-                var levels = [];
-                var line = "";
-                
-                blocks.push(currentBlock);
-                levels.push(level);
-                
-                for(var i = 0, len = lines.length; i < len; ++i) {
-                        line = lines[i];
-                        
-                        if(line.match(invalidLine)) {
+        function mergeInto(target, source) {
+                if (!isObject(target) || !isObject(source)) {
+                        return target;
+                }
+                for (var key in source) {
+                        if (typeof target[key] == "undefined") {
+                                target[key] = clone(source[key]);
+                        }
+                }
+                return target;
+        }
+
+        function countIndent(line) {
+                var match = String(line).match(/^\s*/);
+                return match ? match[0].length : 0;
+        }
+
+        function trimRight(str) {
+                return String(str).replace(/\s+$/, "");
+        }
+
+        function stripComments(line) {
+                var quote = "";
+                var escaped = false;
+                var result = "";
+                for (var i = 0; i < line.length; i++) {
+                        var ch = line[i];
+                        if (quote) {
+                                result += ch;
+                                if (quote == "\"" && ch == "\\" && !escaped) {
+                                        escaped = true;
+                                        continue;
+                                }
+                                if (quote == "'" && ch == "'" && line[i + 1] == "'") {
+                                        result += line[++i];
+                                        continue;
+                                }
+                                if (ch == quote && !escaped) {
+                                        quote = "";
+                                }
+                                escaped = false;
                                 continue;
                         }
-                
-                        if(m = regLevel.exec(line)) {
-                                level = m[1].length;
-                        } else
-                                level = 0;
-                        
-                        if(level > curLevel) {
-                                var oldBlock = currentBlock;
-                                currentBlock = new Block(level);
-                                oldBlock.addChild(currentBlock);
-                                blocks.push(currentBlock);
-                                levels.push(level);
-                        } else if(level < curLevel) {                
-                                var added = false;
-
-                                var k = levels.length - 1;
-                                for(; k >= 0; --k) {
-                                        if(levels[k] == level) {
-                                                currentBlock = new Block(level);
-                                                blocks.push(currentBlock);
-                                                levels.push(level);
-                                                if(blocks[k].parent!= null)
-                                                        blocks[k].parent.addChild(currentBlock);
-                                                added = true;
-                                                break;
-                                        }
-                                }
-                                
-                                if(!added) {
-                                        errors.push("Error: Invalid indentation at line " + i + ": " + line);
-                                        return;
-                                }
+                        if (ch == "\"" || ch == "'") {
+                                quote = ch;
+                                result += ch;
+                        } else if (ch == "#" && (i == 0 || /\s/.test(line[i - 1]))) {
+                                return trimRight(result);
+                        } else {
+                                result += ch;
                         }
-                        
-                        currentBlock.lines.push(line.replace(regex["trim"], ""));
-                        curLevel = level;
                 }
-                
+                return trimRight(result);
+        }
+
+        function preProcess(src) {
+                return String(src)
+                        .replace(/\r/g, "")
+                        .split("\n")
+                        .map(stripComments)
+                        .filter(function(line) {
+                                var trimmed = line.trim();
+                                return trimmed != "" && trimmed != "---" && trimmed != "...";
+                        });
+        }
+
+        function splitTopLevel(str, delimiter) {
+                var result = [];
+                var buf = "";
+                var quote = "";
+                var escaped = false;
+                var depth = 0;
+                for (var i = 0; i < str.length; i++) {
+                        var ch = str[i];
+                        if (quote) {
+                                buf += ch;
+                                if (quote == "\"" && ch == "\\" && !escaped) {
+                                        escaped = true;
+                                        continue;
+                                }
+                                if (quote == "'" && ch == "'" && str[i + 1] == "'") {
+                                        buf += str[++i];
+                                        continue;
+                                }
+                                if (ch == quote && !escaped) {
+                                        quote = "";
+                                }
+                                escaped = false;
+                                continue;
+                        }
+                        if (ch == "\"" || ch == "'") {
+                                quote = ch;
+                                buf += ch;
+                        } else if (ch == "[" || ch == "{") {
+                                depth++;
+                                buf += ch;
+                        } else if (ch == "]" || ch == "}") {
+                                depth--;
+                                buf += ch;
+                        } else if (ch == delimiter && depth == 0) {
+                                result.push(buf.trim());
+                                buf = "";
+                        } else {
+                                buf += ch;
+                        }
+                }
+                if (buf.trim() != "" || str.trim() == "") {
+                        result.push(buf.trim());
+                }
                 return result;
         }
-        
-        function processValue(val) {
-                val = val.replace(regex["trim"], "");
-                var m = null;
 
-                if(val == 'true') {
-                        return true;
-                } else if(val == 'false') {
-                        return false;
-                } else if(val == '.NaN') {
-                        return Number.NaN;
-                } else if(val == 'null') {
-                        return null;
-                } else if(val == '.inf') {
-                        return Number.POSITIVE_INFINITY;
-                } else if(val == '-.inf') {
-                        return Number.NEGATIVE_INFINITY;
-                } else if(m = val.match(regex["dashesString"])) {
-                        return m[1];
-                } else if(m = val.match(regex["quotesString"])) {
-                        return m[1];
-                } else if(m = val.match(regex["float"])) {
-                        return parseFloat(m[0]);
-                } else if(m = val.match(regex["integer"])) {
-                        return parseInt(m[0]);
-                } else if( !isNaN(m = Date.parse(val))) {
-                        return new Date(m);
-                } else if(m = val.match(regex["single_key_value"])) {
-                        var res = {};
-                        res[m[1]] = processValue(m[2]);
-                        return res;
-                } else if(m = val.match(regex["array"])){
-                        var count = 0, c = ' ';
-                        var res = [];
-                        var content = "";
-                        var str = false;
-                        for(var j = 0, lenJ = m[1].length; j < lenJ; ++j) {
-                                c = m[1][j];
-                                if(c == '\'' || c == '"') {
-                                        if(str === false) {
-                                                str = c;
-                                                content += c;
-                                                continue;
-                                        } else if((c == '\'' && str == '\'') || (c == '"' && str == '"')) {
-                                                str = false;
-                                                content += c;
-                                                continue;
-                                        }
-                                } else if(str === false && (c == '[' || c == '{')) {
-                                        ++count;
-                                } else if(str === false && (c == ']' || c == '}')) {
-                                        --count;
-                                } else if(str === false && count == 0 && c == ',') {
-                                        res.push(processValue(content));
-                                        content = "";
+        function findTopLevelColon(str) {
+                var quote = "";
+                var escaped = false;
+                var depth = 0;
+                for (var i = 0; i < str.length; i++) {
+                        var ch = str[i];
+                        if (quote) {
+                                if (quote == "\"" && ch == "\\" && !escaped) {
+                                        escaped = true;
                                         continue;
                                 }
-                                
-                                content += c;
-                        }
-                        
-                        if(content.length > 0)
-                                res.push(processValue(content));
-                        return res;
-                } else if(m = val.match(regex["map"])){
-                        var count = 0, c = ' ';
-                        var res = [];
-                        var content = "";
-                        var str = false;
-                        for(var j = 0, lenJ = m[1].length; j < lenJ; ++j) {
-                                c = m[1][j];
-                                if(c == '\'' || c == '"') {
-                                        if(str === false) {
-                                                str = c;
-                                                content += c;
-                                                continue;
-                                        } else if((c == '\'' && str == '\'') || (c == '"' && str == '"')) {
-                                                str = false;
-                                                content += c;
-                                                continue;
-                                        }
-                                } else if(str === false && (c == '[' || c == '{')) {
-                                        ++count;
-                                } else if(str === false && (c == ']' || c == '}')) {
-                                        --count;
-                                } else if(str === false && count == 0 && c == ',') {
-                                        res.push(content);
-                                        content = "";
+                                if (quote == "'" && ch == "'" && str[i + 1] == "'") {
+                                        i++;
                                         continue;
                                 }
-                                
-                                content += c;
-                        }
-                        
-                        if(content.length > 0)
-                                res.push(content);
-                                
-                        var newRes = {};
-                        for(var j = 0, lenJ = res.length; j < lenJ; ++j) {
-                                if(m = res[j].match(regex["key_value"])) {
-                                        newRes[m[1]] = processValue(m[2]);
+                                if (ch == quote && !escaped) {
+                                        quote = "";
                                 }
-                        }
-                        
-                        return newRes;
-                } else 
-                        return val;
-        }
-        
-        function processFoldedBlock(block) {
-                var lines = block.lines;
-                var children = block.children;
-                var str = lines.join(" ");
-                var chunks = [str];
-                for(var i = 0, len = children.length; i < len; ++i) {
-                        chunks.push(processFoldedBlock(children[i]));
-                }
-                return chunks.join("\n");
-        }
-        
-        function processLiteralBlock(block) {
-                var lines = block.lines;
-                var children = block.children;
-                var str = lines.join("\n");
-                for(var i = 0, len = children.length; i < len; ++i) {
-                        str += processLiteralBlock(children[i]);
-                }
-                return str;
-        }
-        
-        function processBlock(blocks) {
-                var m = null;
-                var res = {};
-                var lines = null;
-                var children = null;
-                var currentObj = null;
-                
-                var level = -1;
-                
-                var processedBlocks = [];
-                
-                var isMap = true;
-                
-                for(var j = 0, lenJ = blocks.length; j < lenJ; ++j) {
-                        
-                        if(level != -1 && level != blocks[j].level)
+                                escaped = false;
                                 continue;
-                
-                        processedBlocks.push(j);
-                
-                        level = blocks[j].level;
-                        lines = blocks[j].lines;
-                        children = blocks[j].children;
-                        currentObj = null;
-                
-                        for(var i = 0, len = lines.length; i < len; ++i) {
-                                var line = lines[i];
+                        }
+                        if (ch == "\"" || ch == "'") {
+                                quote = ch;
+                        } else if (ch == "[" || ch == "{") {
+                                depth++;
+                        } else if (ch == "]" || ch == "}") {
+                                depth--;
+                        } else if (ch == ":" && depth == 0) {
+                                return i;
+                        }
+                }
+                return -1;
+        }
 
-                                if(m = line.match(regex["key"])) {
-                                        var key = m[1];
-                                        
-                                        if(key[0] == '-') {
-                                                key = key.replace(regex["item"], "");
-                                                if (isMap) { 
-                                                        isMap = false;
-                                                        if (typeof(res.length) === "undefined") {
-                                                                res = [];
-                                                        } 
-                                                }
-                                                if(currentObj != null) res.push(currentObj);
-                                                currentObj = {};
-                                                isMap = true;
-                                        }
-                                        
-                                        if(typeof m[2] != "undefined") {
-                                                var value = m[2].replace(regex["trim"], "");
-                                                if(value[0] == '&') {
-                                                        var nb = processBlock(children);
-                                                        if(currentObj != null) currentObj[key] = nb;
-                                                        else res[key] = nb;
-                                                        reference_blocks[value.substr(1)] = nb;
-                                                } else if(value[0] == '|') {
-                                                        if(currentObj != null) currentObj[key] = processLiteralBlock(children.shift());
-                                                        else res[key] = processLiteralBlock(children.shift());
-                                                } else if(value[0] == '*') {
-                                                        var v = value.substr(1);
-                                                        var no = {};
-                                                        
-                                                        if(typeof reference_blocks[v] == "undefined") {
-                                                                errors.push("Reference '" + v + "' not found!");
-                                                        } else {
-                                                                for(var k in reference_blocks[v]) {
-                                                                        no[k] = reference_blocks[v][k];
-                                                                }
-                                                                
-                                                                if(currentObj != null) currentObj[key] = no;
-                                                                else res[key] = no;
-                                                        }
-                                                } else if(value[0] == '>') {
-                                                        if(currentObj != null) currentObj[key] = processFoldedBlock(children.shift());
-                                                        else res[key] = processFoldedBlock(children.shift());
-                                                } else {
-                                                        if(currentObj != null) currentObj[key] = processValue(value);
-                                                        else res[key] = processValue(value);
-                                                }
-                                        } else {
-                                                if(currentObj != null) currentObj[key] = processBlock(children);
-                                                else res[key] = processBlock(children);                        
-                                        }
-                                } else if(line.match(/^-\s*$/)) {
-                                        if (isMap) { 
-                                                isMap = false;
-                                                if (typeof(res.length) === "undefined") {
-                                                        res = [];
-                                                } 
-                                        }
-                                        if(currentObj != null) res.push(currentObj);
-                                        currentObj = {};
-                                        isMap = true;
-                                        continue;
-                                } else if(m = line.match(/^-\s*(.*)/)) {
-                                        if(currentObj != null) 
-                                                currentObj.push(processValue(m[1]));
-                                        else {
-                                                if (isMap) { 
-                                                        isMap = false;
-                                                        if (typeof(res.length) === "undefined") {
-                                                                res = [];
-                                                        } 
-                                                }
-                                                res.push(processValue(m[1]));
-                                        }
-                                        continue;
-                                }
-                        }
-                        
-                        if(currentObj != null) {
-                                if (isMap) { 
-                                        isMap = false;
-                                        if (typeof(res.length) === "undefined") {
-                                                res = [];
-                                        } 
-                                }
-                                res.push(currentObj);
-                        }
-                }
-                
-                for(var j = processedBlocks.length - 1; j >= 0; --j) {
-                        blocks.splice.call(blocks, processedBlocks[j], 1);
-                }
+        function unescapeDoubleQuoted(str) {
+                return str
+                        .replace(/\\u([0-9A-Fa-f]{4})/g, function(match, hex) {
+                                return String.fromCharCode(parseInt(hex, 16));
+                        })
+                        .replace(/\\x([0-9A-Fa-f]{2})/g, function(match, hex) {
+                                return String.fromCharCode(parseInt(hex, 16));
+                        })
+                        .replace(/\\(["\\\/bfnrt])/g, function(match, ch) {
+                                return {
+                                        "\"": "\"",
+                                        "\\": "\\",
+                                        "/": "/",
+                                        "b": "\b",
+                                        "f": "\f",
+                                        "n": "\n",
+                                        "r": "\r",
+                                        "t": "\t"
+                                }[ch];
+                        });
+        }
 
-                return res;
+        function parseKey(raw) {
+                var key = String(raw).trim();
+                if (/^".*"$/.test(key)) {
+                        return unescapeDoubleQuoted(key.slice(1, -1));
+                }
+                if (/^'.*'$/.test(key)) {
+                        return key.slice(1, -1).replace(/''/g, "'");
+                }
+                return key;
         }
-                
-        function semanticAnalysis(blocks) {
-                var res = processBlock(blocks.children);
-                return res;
+
+        function parseKeyValue(str) {
+                var idx = findTopLevelColon(str);
+                if (idx <= 0) {
+                        return null;
+                }
+                return {
+                        key: parseKey(str.slice(0, idx)),
+                        value: str.slice(idx + 1).trim()
+                };
         }
-        
-        function preProcess(src) {
-                var m;
-                var lines = src.split("\n");
-                
-                var r = regex["comment"];
-                
-                for(var i in lines) {
-                        if(m = lines[i].match(r)) {
-/*                var cmt = "";
-                                if(typeof m[3] != "undefined")
-                                        lines[i] = m[1];
-                                else if(typeof m[3] != "undefined")
-                                        lines[i] = m[3]; 
-                                else
-                                        lines[i] = "";
-                                        */
-                                if(typeof m[3] !== "undefined") {
-                                        lines[i] = m[0].substr(0, m[0].length - m[3].length);
+
+        function parseAnchor(value) {
+                var match = String(value).match(/^&([^\s]+)\s*(.*)$/);
+                if (!match) {
+                        return null;
+                }
+                return {
+                        name: match[1],
+                        value: match[2].trim()
+                };
+        }
+
+        function processAlias(value) {
+                var name = String(value).slice(1).trim();
+                if (typeof reference_blocks[name] == "undefined") {
+                        errors.push("Reference '" + name + "' not found");
+                        return {};
+                }
+                return clone(reference_blocks[name]);
+        }
+
+        function parseFlowArray(value) {
+                var inner = value.slice(1, -1).trim();
+                if (inner == "") {
+                        return [];
+                }
+                return splitTopLevel(inner, ",").map(processValue);
+        }
+
+        function parseFlowMap(value) {
+                var inner = value.slice(1, -1).trim();
+                var obj = {};
+                if (inner == "") {
+                        return obj;
+                }
+                var parts = splitTopLevel(inner, ",");
+                for (var i = 0; i < parts.length; i++) {
+                        var item = parseKeyValue(parts[i]);
+                        if (!item) {
+                                continue;
+                        }
+                        var parsed = processValue(item.value);
+                        if (item.key == "<<") {
+                                if (Array.isArray(parsed)) {
+                                        for (var j = 0; j < parsed.length; j++) {
+                                                mergeInto(obj, parsed[j]);
+                                        }
+                                } else {
+                                        mergeInto(obj, parsed);
                                 }
+                        } else {
+                                obj[item.key] = parsed;
                         }
                 }
-                
-                return lines.join("\n");
+                return obj;
         }
-        
+
+        function processValue(val) {
+                val = typeof val == "undefined" || val === null ? "" : String(val).trim();
+                if (val == "") {
+                        return null;
+                }
+                if (val[0] == "*") {
+                        return processAlias(val);
+                }
+                if (/^".*"$/.test(val)) {
+                        return unescapeDoubleQuoted(val.slice(1, -1));
+                }
+                if (/^'.*'$/.test(val)) {
+                        return val.slice(1, -1).replace(/''/g, "'");
+                }
+                if (/^\[[\s\S]*\]$/.test(val)) {
+                        return parseFlowArray(val);
+                }
+                if (/^\{[\s\S]*\}$/.test(val)) {
+                        return parseFlowMap(val);
+                }
+                if (val == "true") {
+                        return true;
+                }
+                if (val == "false") {
+                        return false;
+                }
+                if (val == "null" || val == "~") {
+                        return null;
+                }
+                if (val == ".NaN") {
+                        return Number.NaN;
+                }
+                if (val == ".inf" || val == "+.inf") {
+                        return Number.POSITIVE_INFINITY;
+                }
+                if (val == "-.inf") {
+                        return Number.NEGATIVE_INFINITY;
+                }
+                if (/^[+-]?\d+$/.test(val)) {
+                        return parseInt(val, 10);
+                }
+                if (/^[+-]?(?:\d+\.\d*|\d*\.\d+)(?:e[+-]?\d+)?$/i.test(val)) {
+                        return parseFloat(val);
+                }
+                return val;
+        }
+
+        function parseTextBlock(indent, folded) {
+                var collected = [];
+                while (cursor < lines.length) {
+                        var line = lines[cursor];
+                        var lineIndent = countIndent(line);
+                        if (lineIndent < indent) {
+                                break;
+                        }
+                        collected.push(line.slice(Math.min(indent, line.length)));
+                        cursor++;
+                }
+                return folded ? collected.join(" ").replace(/\s+/g, " ").trim() : collected.join("\n");
+        }
+
+        function parseNestedValue(parentIndent, value) {
+                if (value == "|" || value == ">") {
+                        if (cursor < lines.length && countIndent(lines[cursor]) > parentIndent) {
+                                return parseTextBlock(countIndent(lines[cursor]), value == ">");
+                        }
+                        return "";
+                }
+                if (value == "") {
+                        if (cursor < lines.length && countIndent(lines[cursor]) > parentIndent) {
+                                return parseBlock(countIndent(lines[cursor]));
+                        }
+                        return null;
+                }
+                return processValue(value);
+        }
+
+        function parseMap(indent) {
+                var obj = {};
+                while (cursor < lines.length) {
+                        var line = lines[cursor];
+                        var lineIndent = countIndent(line);
+                        var trimmed = line.trim();
+                        if (lineIndent < indent) {
+                                break;
+                        }
+                        if (lineIndent > indent) {
+                                errors.push("Invalid indentation at line " + (cursor + 1) + ": " + line);
+                                cursor++;
+                                continue;
+                        }
+                        if (/^-\s*/.test(trimmed)) {
+                                break;
+                        }
+                        var pair = parseKeyValue(trimmed);
+                        if (!pair) {
+                                errors.push("Invalid map item at line " + (cursor + 1) + ": " + line);
+                                cursor++;
+                                continue;
+                        }
+                        cursor++;
+                        var anchor = parseAnchor(pair.value);
+                        var anchorName = anchor ? anchor.name : "";
+                        var value = anchor ? anchor.value : pair.value;
+                        var parsed = parseNestedValue(lineIndent, value);
+                        if (anchorName) {
+                                reference_blocks[anchorName] = clone(parsed);
+                        }
+                        if (pair.key == "<<") {
+                                if (Array.isArray(parsed)) {
+                                        for (var i = 0; i < parsed.length; i++) {
+                                                mergeInto(obj, parsed[i]);
+                                        }
+                                } else {
+                                        mergeInto(obj, parsed);
+                                }
+                        } else {
+                                obj[pair.key] = parsed;
+                        }
+                }
+                return obj;
+        }
+
+        function parseSeq(indent) {
+                var arr = [];
+                while (cursor < lines.length) {
+                        var line = lines[cursor];
+                        var lineIndent = countIndent(line);
+                        var trimmed = line.trim();
+                        if (lineIndent < indent) {
+                                break;
+                        }
+                        if (lineIndent > indent) {
+                                errors.push("Invalid indentation at line " + (cursor + 1) + ": " + line);
+                                cursor++;
+                                continue;
+                        }
+                        if (!/^-/.test(trimmed)) {
+                                break;
+                        }
+                        var itemText = trimmed.replace(/^-\s*/, "");
+                        cursor++;
+                        var anchor = parseAnchor(itemText);
+                        var anchorName = anchor ? anchor.name : "";
+                        itemText = anchor ? anchor.value : itemText;
+                        var item;
+                        var pair = parseKeyValue(itemText);
+                        if (itemText == "") {
+                                item = cursor < lines.length && countIndent(lines[cursor]) > lineIndent ? parseBlock(countIndent(lines[cursor])) : null;
+                        } else if (pair && !/^[a-z][a-z0-9+.-]*:\/\//i.test(itemText)) {
+                                item = {};
+                                item[pair.key] = parseNestedValue(lineIndent, pair.value);
+                                if (cursor < lines.length && countIndent(lines[cursor]) > lineIndent) {
+                                        var next = parseBlock(countIndent(lines[cursor]));
+                                        if (isObject(next)) {
+                                                mergeInto(next, item);
+                                                item = next;
+                                        }
+                                }
+                        } else {
+                                item = processValue(itemText);
+                                if (cursor < lines.length && countIndent(lines[cursor]) > lineIndent && item === null) {
+                                        item = parseBlock(countIndent(lines[cursor]));
+                                }
+                        }
+                        if (anchorName) {
+                                reference_blocks[anchorName] = clone(item);
+                        }
+                        arr.push(item);
+                }
+                return arr;
+        }
+
+        function parseBlock(indent) {
+                if (cursor >= lines.length) {
+                        return {};
+                }
+                var lineIndent = countIndent(lines[cursor]);
+                if (lineIndent < indent) {
+                        return {};
+                }
+                if (/^-\s*/.test(lines[cursor].trim())) {
+                        return parseSeq(lineIndent);
+                }
+                return parseMap(lineIndent);
+        }
+
         this.parse = function eval0(str) {
                 errors = [];
-                reference_blocks = [];
+                reference_blocks = {};
                 processing_time = (new Date()).getTime();
-                var pre = preProcess(str)
-                var doc = parser(pre);
-                var res = semanticAnalysis(doc);
+                lines = preProcess(str);
+                cursor = 0;
+                var result = lines.length == 0 ? {} : parseBlock(countIndent(lines[0]));
                 processing_time = (new Date()).getTime() - processing_time;
-                
-                return res;
+                self.errors = errors;
+                self.processing_time = processing_time;
+                return result;
         }
-
-};
+}
 
 
 /***********************************************************************************************/
