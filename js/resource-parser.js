@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2026-07-06 18:50⟧
+☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2026-08-09 08:42⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: https://t.me/ShawnKOP_Parser_Bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -24,7 +24,7 @@
 ⦿ emoji=1(国行设备用2)/-1, 添加/删除节点名内地区旗帜;
 ⦿ udp=1/-1, tfo=1/-1, 分别强制开启(关闭) 𝐮𝐝𝐩-𝐫𝐞𝐥𝐚𝐲/𝐟𝐚𝐬𝐭-𝐨𝐩𝐞𝐧;
 ⦿ uot=1, 开启 udp-over-tcp=true选项（仅限SS(R)）
-⦿ cert=1/-1, 分别开启/关闭 𝐭𝐥𝐬 证书验证(默认关闭);
+⦿ cert=1/-1/domain, 分别开启/关闭 𝐭𝐥𝐬 证书验证；938+ 支持 domain 作为 tls-verification 校验证书域名(默认关闭);
   ❖ csha/psha, tls-cert-sha256 以及 tls-pubkey-sha256 参数
   ❖ alpn, 指定over-tls类型节点的alpn参数
 ⦿ in, out, regex, regout 分别为 保留、删除、正则保留、正则删除 节点;
@@ -608,7 +608,8 @@ var Prrname = mark0 && para1.indexOf("rrname=") != -1 ? para1.split("rrname=")[1
 var Psuffix = mark0 && para1.indexOf("suffix=") != -1 ? para1.split("suffix=")[1].split("&")[0] : 0;
 var Ppolicy = mark0 && para1.indexOf("policy=") != -1 ? decodeURIComponent(para1.split("policy=")[1].split("&")[0]) : "Shawn";
 var Ppolicyset = mark0 && para1.indexOf("pset=") != -1 ? decodeURIComponent(para1.split("pset=")[1].split("&")[0]) : "";
-var Pcert0 = mark0 && para1.indexOf("cert=") != -1 ? para1.split("cert=")[1].split("&")[0] : 0;
+var PcertMatch = mark0 ? para1.match(/(?:^|\&)(?:cert|tls-verification)=([^&]*)/) : null;
+var Pcert0 = PcertMatch ? PcertMatch[1] : 0;
 var Psort0 = mark0 && para1.indexOf("sort=") != -1 ? para1.split("sort=")[1].split("&")[0] : 0;
 var PsortX = mark0 && para1.indexOf("sortx=") != -1 ? para1.split("sortx=")[1].split("&")[0] : 0;
 var PTls13 = mark0 && para1.indexOf("tls13=") != -1 ? para1.split("tls13=")[1].split("&")[0] : 0;
@@ -648,6 +649,29 @@ var Psession =  mark0 && para1.indexOf("tsession=") != -1 && version >= 771? par
 // 0/1 代表关闭 session-ticket/reuse，2 表示全部关闭。
 var Pmix = version>=844? 1 : 0 // allow rewrite and filter mix from version 844
 var Pjsonjq = version>=845? 0 : 1 // allow jsonjq from version 845
+
+// tls-verification 参数修复说明 ⟦2026-07-21 17:47:28 +08⟧
+// Quantumult X build 938+ 支持 tls-verification=domain；旧版仍只输出 true/false，避免旧客户端误读域名值。
+function TLSCertDomainValue(Pcert0) {
+  var raw = Pcert0 === undefined || Pcert0 === null ? "" : String(Pcert0).trim();
+  if (raw === "") return "";
+  try { raw = decodeURIComponent(raw); } catch (e) {}
+  raw = raw.trim();
+  var low = raw.toLowerCase();
+  if (low === "1" || low === "true") return "true";
+  if (low === "-1" || low === "0" || low === "false") return "false";
+  if (version >= 938 && /^(?=.{1,253}$)(?!-)(?:[A-Za-z0-9-]{1,63}\.)+[A-Za-z0-9-]{2,63}$/.test(raw)) {
+    return raw;
+  }
+  return "";
+}
+
+function TLSCertParam(Pcert0, fallback) {
+  var cert = TLSCertDomainValue(Pcert0);
+  var value = cert !== "" ? cert : fallback;
+  return value === "" || value === undefined || value === null ? "" : "tls-verification=" + value;
+}
+
 var PNS=0 // 不支持的节点统计
 var NSList=["当前订阅内，不支持以下节点 ↘️ \n"] // 不支持节点列表
 
@@ -1088,7 +1112,7 @@ function Type_Check(subs) {
     var ClashK = ["proxies:","\"proxies\":"]
     var SubK = ["dm1lc3M", "c3NyOi8v", "CnNzOi8", "dHJvamFu", "c3M6Ly", "c3NkOi8v", "c2hhZG93", "aHR0cDovLw", "aHR0cHM6L", "CnRyb2phbjo", "aHR0cD0", "aHR0cCA","U1RBVFVT","dmxlc3M6"];
     var RewriteK = [" url 302", " url 307", " url reject", " url script", " url req", " url res", " url echo", " url-and-header 302", " url-and-header 307", " url-and-header reject", " url-and-header script", " url-and-header req", " url-and-header res", " url-and-header echo", " url jsonjq"] // quantumult X 类型 rewrite
-    var JsonJQK = [" response-body-json-jq ", " request-body-json-jq "] // 需要转换成 QuanX jsonjq 的 rewrite
+    var JsonJQK = [" response-body-json-jq ", " request-body-json-jq ", " response-body-json-del ", " response-body-json-replace "] // 需要转换成 QuanX jsonjq 的 rewrite
     var SubK2 = ["ss://", "vmess://", "ssr://", "trojan://", "ssd://", "\nhttps://", "\nhttp://","socks://","ssocks://","vless://","anytls://","wireguard://","wg://","tuic://"];
     var ModuleK = ["[Script]", "[Rule]", "[URL Rewrite]", "[Map Local]", "\nhttp-r", "script-path"]
     var QXProfile = ["[filter_local]","[filter_remote]","[server_local]","[server_remote]"]
@@ -1600,31 +1624,321 @@ function URX2QX(subs) {
 }
 
 /*
-JSON-JQ rewrite 转换说明 ⟦2026-07-06 18:36:10 +08⟧
+JSON-JQ rewrite 转换说明 ⟦2026-07-07 20:24:29 +08⟧
 ----------------------------------------------------------
 仅改动 resource-parser-r.js。
-新增以下输入语法转换：
-  - pattern response-body-json-jq 'jq expression' -> pattern url jsonjq-response-body jq expression
-  - pattern request-body-json-jq 'jq expression'  -> pattern url jsonjq-request-body jq expression
-保留 jq 表达式内部双引号，仅移除包裹整段 jq 的外层引号。
+新增/扩展以下输入语法转换：
+  - pattern response-body-json-jq 'jq expression'      -> pattern url jsonjq-response-body 'jq expression'
+  - pattern request-body-json-jq 'jq expression'       -> pattern url jsonjq-request-body 'jq expression'
+  - pattern response-body-json-del paths               -> pattern url jsonjq-response-body 'del(...)' / 'delpaths(...)'
+  - pattern response-body-json-replace path value, ... -> pattern url jsonjq-response-body 'if ... then setpath(...) else . end'
 ----------------------------------------------------------
 */
 function JsonJQRewrite2QX(row) {
-  var matched = row.match(/^\s*(\"[^\"]+\"|'[^']+'|\S+)\s+(response-body-json-jq|request-body-json-jq)\s+([\s\S]+?)\s*$/i);
-  if (!matched) { return "" }
-  var pattern = matched[1].replace("^http", "http");
-  if (pattern.length > 1 && (pattern[0] == "\"" || pattern[0] == "'") && pattern[pattern.length - 1] == pattern[0]) {
-    var unquotedPattern = pattern.slice(1, -1).trim();
-    if (/^\^?https?\??/i.test(unquotedPattern)) {
-      pattern = unquotedPattern.replace("^http", "http");
+  function stripOuterJQQuotes(str) {
+    str = typeof str == "undefined" || str === null ? "" : String(str).trim();
+    if (str.length > 1 && ((str[0] == "'" && str[str.length - 1] == "'") || (str[0] == "\"" && str[str.length - 1] == "\""))) {
+      return str.slice(1, -1);
     }
+    return str;
   }
-  var type = matched[2].toLowerCase() == "response-body-json-jq" ? "jsonjq-response-body" : "jsonjq-request-body";
-  var jq = matched[3].trim();
-  if (jq.length > 1 && ((jq[0] == "'" && jq[jq.length - 1] == "'") || (jq[0] == "\"" && jq[jq.length - 1] == "\""))) {
-    jq = jq.slice(1, -1);
+
+  function quoteJQExpression(str) {
+    return "'" + stripOuterJQQuotes(str).replace(/'/g, "\\'") + "'";
   }
-  return pattern + " url " + type + " " + jq;
+
+  function normalizeJsonPattern(pattern) {
+    pattern = stripOuterJQQuotes(pattern);
+    if (/^\^?https?\??/i.test(pattern)) {
+      return pattern;
+    }
+    return pattern;
+  }
+
+  function splitTopLevel(str, delimiter) {
+    var parts = [];
+    var buf = "";
+    var quote = "";
+    var escaped = false;
+    var depth = 0;
+    for (var i = 0; i < str.length; i++) {
+      var ch = str[i];
+      if (quote) {
+        buf += ch;
+        if (quote == "\"" && ch == "\\" && !escaped) {
+          escaped = true;
+          continue;
+        }
+        if (quote == "'" && ch == "'" && str[i + 1] == "'") {
+          buf += str[++i];
+          continue;
+        }
+        if (ch == quote && !escaped) {
+          quote = "";
+        }
+        escaped = false;
+      } else if (ch == "\"" || ch == "'") {
+        quote = ch;
+        buf += ch;
+      } else if (ch == "[" || ch == "{" || ch == "(") {
+        depth++;
+        buf += ch;
+      } else if (ch == "]" || ch == "}" || ch == ")") {
+        depth--;
+        buf += ch;
+      } else if (ch == delimiter && depth == 0) {
+        if (buf.trim() != "") {
+          parts.push(buf.trim());
+        }
+        buf = "";
+      } else {
+        buf += ch;
+      }
+    }
+    if (buf.trim() != "") {
+      parts.push(buf.trim());
+    }
+    return parts;
+  }
+
+  function splitTopLevelCommaOrSemi(str) {
+    var commaParts = splitTopLevel(str, ",");
+    if (commaParts.length > 1) {
+      return commaParts;
+    }
+    return splitTopLevel(str, ";");
+  }
+
+  function splitTopLevelWhitespace(str) {
+    var parts = [];
+    var buf = "";
+    var quote = "";
+    var escaped = false;
+    var depth = 0;
+    for (var i = 0; i < str.length; i++) {
+      var ch = str[i];
+      if (quote) {
+        buf += ch;
+        if (quote == "\"" && ch == "\\" && !escaped) {
+          escaped = true;
+          continue;
+        }
+        if (ch == quote && !escaped) {
+          quote = "";
+        }
+        escaped = false;
+      } else if (ch == "\"" || ch == "'") {
+        quote = ch;
+        buf += ch;
+      } else if (ch == "[" || ch == "{" || ch == "(") {
+        depth++;
+        buf += ch;
+      } else if (ch == "]" || ch == "}" || ch == ")") {
+        depth--;
+        buf += ch;
+      } else if (/\s/.test(ch) && depth == 0) {
+        if (buf.trim() != "") {
+          parts.push(buf.trim());
+        }
+        buf = "";
+      } else {
+        buf += ch;
+      }
+    }
+    if (buf.trim() != "") {
+      parts.push(buf.trim());
+    }
+    return parts;
+  }
+
+  function findTopLevelOperator(str, ops) {
+    var quote = "";
+    var escaped = false;
+    var depth = 0;
+    for (var i = 0; i < str.length; i++) {
+      var ch = str[i];
+      if (quote) {
+        if (quote == "\"" && ch == "\\" && !escaped) {
+          escaped = true;
+          continue;
+        }
+        if (ch == quote && !escaped) {
+          quote = "";
+        }
+        escaped = false;
+      } else if (ch == "\"" || ch == "'") {
+        quote = ch;
+      } else if (ch == "[" || ch == "{" || ch == "(") {
+        depth++;
+      } else if (ch == "]" || ch == "}" || ch == ")") {
+        depth--;
+      } else if (depth == 0) {
+        for (var j = 0; j < ops.length; j++) {
+          if (str.slice(i, i + ops[j].length) == ops[j]) {
+            return { index: i, op: ops[j] };
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  function normalizeJsonPath(path) {
+    path = stripOuterJQQuotes(path);
+    if (path.indexOf("$.") == 0) {
+      return "." + path.slice(2);
+    }
+    if (path[0] != "." && path[0] != "[" && path.indexOf("getpath(") != 0) {
+      return "." + path;
+    }
+    return path;
+  }
+
+  function pathToSegments(path) {
+    path = stripOuterJQQuotes(path);
+    if (path.indexOf("$.") == 0) {
+      path = path.slice(2);
+    } else if (path[0] == "$") {
+      path = path.slice(1);
+    }
+    if (/^\[[\s\S]*\]$/.test(path)) {
+      try {
+        var arr = JSON.parse(path);
+        return Array.isArray(arr) ? arr : null;
+      } catch (err) {
+        return null;
+      }
+    }
+    path = path.replace(/\[['"]([^'"]+)['"]\]/g, ".$1").replace(/\[(\d+)\]/g, ".$1");
+    if (path[0] == ".") {
+      path = path.slice(1);
+    }
+    if (!/^[^.\s]+(\.[^.\s]+)*$/.test(path)) {
+      return null;
+    }
+    return path.split(".").map(function(part) {
+      return /^\d+$/.test(part) ? Number(part) : part;
+    });
+  }
+
+  function canUseDirectJQPath(path) {
+    return /^\.[A-Za-z_][A-Za-z0-9_]*(\.[A-Za-z_][A-Za-z0-9_]*)*$/.test(path);
+  }
+
+  function jqValueLiteral(value) {
+    value = stripOuterJQQuotes(value);
+    if (value == "") {
+      return "null";
+    }
+    if (/^(true|false|null)$/i.test(value) || /^[+-]?\d+(\.\d+)?([eE][+-]?\d+)?$/.test(value)) {
+      return value.toLowerCase();
+    }
+    if (/^["\[{]/.test(value) || /^(if\s|\.|getpath\(|setpath\(|del\(|delpaths\()/.test(value)) {
+      return value;
+    }
+    return JSON.stringify(value);
+  }
+
+  function buildDelJQ(payload) {
+    payload = stripOuterJQQuotes(payload);
+    if (/^(del|delpaths)\s*\(/.test(payload)) {
+      return payload;
+    }
+    if (/^\[\s*\[/.test(payload)) {
+      return "delpaths(" + payload + ")";
+    }
+    var paths = splitTopLevelCommaOrSemi(payload);
+    if (paths.length == 1) {
+      var ws = splitTopLevelWhitespace(payload);
+      if (ws.length > 1) {
+        paths = ws;
+      }
+    }
+    paths = paths.map(function(path) {
+      return normalizeJsonPath(path);
+    }).filter(Boolean);
+    if (paths.length == 0) {
+      return "";
+    }
+    if (paths.every(canUseDirectJQPath)) {
+      return "del(" + paths.join(", ") + ")";
+    }
+    var segments = paths.map(pathToSegments);
+    if (segments.every(function(item) { return Array.isArray(item) })) {
+      return "delpaths(" + JSON.stringify(segments) + ")";
+    }
+    return "del(" + paths.join(", ") + ")";
+  }
+
+  function parseReplacePair(item) {
+    var found = findTopLevelOperator(item, ["=>", "="]);
+    if (found) {
+      return {
+        path: item.slice(0, found.index).trim(),
+        value: item.slice(found.index + found.op.length).trim()
+      };
+    }
+    var parts = splitTopLevelWhitespace(item);
+    if (parts.length >= 2) {
+      return {
+        path: parts[0],
+        value: parts.slice(1).join(" ")
+      };
+    }
+    return null;
+  }
+
+  function buildSafeSetpath(path, value) {
+    var segments = pathToSegments(path);
+    var literal = jqValueLiteral(value);
+    if (!segments || segments.length == 0) {
+      return normalizeJsonPath(path) + " = " + literal;
+    }
+    var parent = segments.slice(0, -1);
+    var key = segments[segments.length - 1];
+    var typeCheck = typeof key == "number" ? "type == \"array\" and has(" + key + ")" : "type == \"object\" and has(" + JSON.stringify(key) + ")";
+    return "if (getpath(" + JSON.stringify(parent) + ")? | " + typeCheck + ") then setpath(" + JSON.stringify(segments) + "; " + literal + ") else . end";
+  }
+
+  function buildReplaceJQ(payload) {
+    payload = stripOuterJQQuotes(payload);
+    if (/^(if\s|setpath\(|getpath\(|reduce\s|map\(|walk\()/.test(payload)) {
+      return payload;
+    }
+    try {
+      var obj = JSON.parse(payload);
+      if (obj && typeof obj == "object" && !Array.isArray(obj)) {
+        return Object.keys(obj).map(function(key) {
+          return buildSafeSetpath(key, JSON.stringify(obj[key]));
+        }).join(" | ");
+      }
+    } catch (err) {}
+    var items = splitTopLevelCommaOrSemi(payload);
+    var expressions = [];
+    for (var i = 0; i < items.length; i++) {
+      var pair = parseReplacePair(items[i]);
+      if (pair) {
+        expressions.push(buildSafeSetpath(pair.path, pair.value));
+      }
+    }
+    return expressions.join(" | ");
+  }
+
+  var matched = row.match(/^\s*(\"[^\"]+\"|'[^']+'|\S+)\s+(response-body-json-jq|request-body-json-jq|response-body-json-del|response-body-json-replace)\s+([\s\S]+?)\s*$/i);
+  if (!matched) { return "" }
+  var pattern = normalizeJsonPattern(matched[1]);
+  var action = matched[2].toLowerCase();
+  var body = matched[3].trim();
+  var type = action == "request-body-json-jq" ? "jsonjq-request-body" : "jsonjq-response-body";
+  var jq = "";
+  if (action == "response-body-json-del") {
+    jq = buildDelJQ(body);
+  } else if (action == "response-body-json-replace") {
+    jq = buildReplaceJQ(body);
+  } else {
+    jq = stripOuterJQQuotes(body);
+  }
+  return jq ? pattern + " url " + type + " " + quoteJQExpression(jq) : "";
 }
 
 //script&rewrite 转换成 Quantumult X
@@ -1647,15 +1961,15 @@ function SCP2QX(subs) {
       var NoteK = ["//", "#", ";"]; //排除注释项
       const sccheck = (item) => subs[i].indexOf(item) != -1
       const notecheck = (item) => subs[i].indexOf(item) == 0
-        const RewriteCheck = (item) => subs[i].indexOf(item) != -1 ; // quanx 重写判定
-        if (!NoteK.some(notecheck) && !RewriteK.some(RewriteCheck)){
-          if(Pdbg==1) {$notify("rewrite-check","",subs[i])}
-          if (/\s(response-body-json-jq|request-body-json-jq)\s/i.test(rawSubs[i])) {
-            rw = JsonJQRewrite2QX(rawSubs[i])
-            if (rw != "") {
-              nrw.push(rw)
-            }
-          } else if (SC.every(sccheck)) { // surge js 新格式
+      const RewriteCheck = (item) => subs[i].indexOf(item) != -1 ; // quanx 重写判定
+      if (!NoteK.some(notecheck) && !RewriteK.some(RewriteCheck)){
+        if(Pdbg==1) {$notify("rewrite-check","",subs[i])}
+        if (/\s(response-body-json-jq|request-body-json-jq|response-body-json-del|response-body-json-replace)\s/i.test(rawSubs[i])) {
+          rw = JsonJQRewrite2QX(rawSubs[i])
+          if (rw != "") {
+            nrw.push(rw)
+          }
+        } else if (SC.every(sccheck)) { // surge js 新格式
           //部分正则中含有,的问题
           ptn = subs[i].replace(/\s/gi,"").split("pattern=")[1].split(/\,[a-zA-Z]/)[0] 
           js = subs[i].replace(/\s/gi,"").split("script-path=")[1].split(",")[0]
@@ -2284,10 +2598,10 @@ function TLS_Check(cnt) {
 // qx 类型 tls/udp 验证问题t
 function QX_TLS(cnt,Pcert0,PTls13) {
   cnt =cnt.replace(/tag\s*\=/gm,"tag=") //
-  var cert0 = Pcert0 == 1? "tls-verification=true, " : "tls-verification=false, "
+  var cert0 = TLSCertParam(Pcert0, "false") + ", "
   var tls13 = PTls13 == 1? "tls13=true, " : ""
   if(cnt.indexOf("tls-verification") != -1){ // 已有tls参数时, 如用户不指定，则不做处理
-    cnt = (Pcert0 == -1 || Pcert0 == 1) ? cnt.replace(RegExp("tls\-verification.*?\,", "gmi"), cert0): cnt
+    cnt = TLSCertDomainValue(Pcert0) !== "" ? cnt.replace(RegExp("tls\-verification.*?\,", "gmi"), cert0): cnt
     //cnt = Pcert0 == 1? cnt.replace(RegExp("tls\-verification.*?\,", "gmi"), cert0): cnt
   } else if(cnt.indexOf("obfs=over-tls")!=-1 || /over\-tls\s*\=\s*true/.test(cnt) || cnt.indexOf("obfs=wss")!=-1){ //未包含tls参数时
     cnt = cnt.replace(new RegExp("tag\s*\=", "gmi"), cert0+"tag=")
@@ -2347,7 +2661,7 @@ function HPS2QX(subs, Ptfo, Pcert0, PTls13) {
         var tag = "tag=" + decodeURIComponent(server.split("#")[1]);
         var tls = type == "https"? "over-tls=true": "";
         var thost = subs.indexOf("peer=")!= -1? "tls-host=" + subs.split("peer=")[1].split("#")[0].split("&")[0] : "" // 存在peers参数时 https://b64(ipport)?peer=xxx#server-remarks
-        var cert = Pcert0 != 0 ? "tls-verification=true" : "tls-verification=false";
+        var cert = TLSCertParam(Pcert0, "false");
         var tfo = Ptfo == 1 ? "fast-open=true" : "fast-open=false";
         var tls13 = PTls13 == 1 ? "tls13=true" : "tls13=false";
         if (tls=="") {
@@ -2388,7 +2702,7 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     obfs = obfs + host
   }
   if (obfs.indexOf("obfs=over-tls") != -1 || obfs.indexOf("obfs=wss") != -1) {
-    var cert = Pcert0 != 0 || subs.indexOf("allowInsecure=1") != -1 ? "tls-verification=false, " : "tls-verification=true, "
+    var cert = TLSCertParam(Pcert0, subs.indexOf("allowInsecure=1") != -1 ? "false" : "true") + ", "
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
     obfs = obfs + cert + tls13
   }
@@ -2428,15 +2742,21 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     }
     host = host!="{}" && host ? "obfs-host=" + host + ", " : ""
     obfs = obfs + host
+  // Shadowrocket VMess 传输修复说明 ⟦2026-08-09 08:42:50 +08⟧
+  // Quantumult X 不支持 mKCP/DTLS 等传输；统一提示并忽略未支持类型，避免生成 mkcptag 等无效字段。
   } else if (obfs=="grpc" || obfs =="h2") {
     Perror = 1 // 不需要反馈的类型
     if (Pntf0!=0) {
     $notify( "⚠️ Quantumult X 暂不支持该类型节点", "已忽略以下 grpc|h2 vmess 节点",subs)
   }
     pdrop = 1
+  } else {
+    Perror = 1
+    $notify( "⚠️ Quantumult X 暂不支持该类型节点", "已忽略以下 " + obfs + " vmess 节点",subs)
+    pdrop = 1
   }
   if (obfs.indexOf("obfs=over-tls") != -1 || obfs.indexOf("obfs=wss") != -1) {
-    var cert = Pcert0 != 0 || subs.indexOf("allowInsecure=1") != -1 ? "tls-verification=false, " : "tls-verification=true, "
+    var cert = TLSCertParam(Pcert0, subs.indexOf("allowInsecure=1") != -1 ? "false" : "true") + ", "
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
     obfs = obfs + cert + tls13
   }
@@ -2460,7 +2780,7 @@ function S5R2QX(cnt,tlsp="false") {
       var pwd = "password=" + server.split("@")[0].split(":")[1];
       var tag = "tag=" + decodeURIComponent(server.split("remarks=")[1].split("&")[0]);
       var tls = tlsp=="false"? "":"over-tls=true"
-      var cert = Pcert0 != 0 ? "tls-verification=true" : "tls-verification=false";
+      var cert = TLSCertParam(Pcert0, "false");
       cert = tls == ""? "":cert
       var tfo = Ptfo0 == 1 ? "fast-open=true" : "fast-open=false";
       nss.push(ipport, uname, pwd, tls, cert, tfo, tag)
@@ -2481,7 +2801,7 @@ function Socks2QX(cnt,tlsp="false") {
       name = server.indexOf("#") != -1? server.split("#")[1] : ipport.split("=")[1].split(":")[0]
       var tag = "tag=" + decodeURIComponent(name.split("&")[0]);
       var tls = tlsp=="false"? "":"over-tls=true"
-      var cert = Pcert0 != 0 ? "tls-verification=true" : "tls-verification=false";
+      var cert = TLSCertParam(Pcert0, "false");
       cert = tls == ""? "":cert
       var tfo = Ptfo0 == 1 ? "fast-open=true" : "fast-open=false";
       nss.push(ipport, uname, pwd, tls, cert, tfo, tag)
@@ -2529,7 +2849,7 @@ function V2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
 function Fobfs(jsonl, Pcert0, PTls13) {
   var obfsi = [];
   var cert = Pcert0;
-  tcert = cert == 0 ? "tls-verification=false" : "tls-verification=true";
+  tcert = TLSCertParam(cert, "false");
   tls13 = PTls13 == 1 ? "tls13=true" : "tls13=false"
   if (jsonl.net == "ws" && jsonl.tls == "tls") {
     obfs0 = "obfs=wss, " + tcert + ", " + tls13 + ", ";
@@ -2706,12 +3026,7 @@ function Anytls2QX(subs,Pcert0) {
     ip = cnt.split("@")[1].split("encry")[0].split("?")[0];
     pwd = cnt.split("@")[0]? "password=" + cnt.split("@")[0]:"";
     ptls="over-tls=true"
-    pcert = cnt.indexOf("allowInsecure=0") != -1 ? "tls-verification=true" : "tls-verification=false";
-    if (Pcert0 == 0) { 
-      pcert = "tls-verification=false" 
-    } else if (Pcert0 == 1) {
-      pcert = "tls-verification=true"
-    }
+    pcert = TLSCertParam(Pcert0, cnt.indexOf("allowInsecure=0") != -1 ? "true" : "false");
     thost = cnt.indexOf("sni=") != -1? "tls-host="+cnt.split("sni=")[1].split(/&|#/)[0]:""
     thost = cnt.indexOf("peer=") != -1? "tls-host="+cnt.split("peer=")[1].split(/&|#/)[0]:thost
     pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
@@ -2744,7 +3059,7 @@ function VL2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   typeU = "URI"
   ip = cnt.split("@")[1].split("encry")[0].split("?")[0];
   pwd = cnt.split("@")[0]? "password=" + cnt.split("@")[0]:"";
-  pcert = cnt.indexOf("allowInsecure=0") != -1 ? "tls-verification=true" : "tls-verification=false";
+  pcert = TLSCertParam(Pcert0, cnt.indexOf("allowInsecure=0") != -1 ? "true" : "false");
   thost = cnt.indexOf("sni=") != -1? "tls-host="+cnt.split("sni=")[1].split(/&|#/)[0]:""
   thost = cnt.indexOf("peer=") != -1? "tls-host="+cnt.split("peer=")[1].split(/&|#/)[0]:thost
   tag = cnt.indexOf("#") != -1 ? "tag=" + decodeURIComponent(cnt.split("#").slice(-1)[0]) : "tag= [vless]" + ip
@@ -2795,13 +3110,9 @@ function VL2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     thost = thost1.length >= thost2.length ? thost1 : thost2;
     puri = cnt.indexOf("&path=") == -1? puri : "obfs-uri=" + decodeURIComponent(cnt.split("&path=")[1].split("&")[0].split("#")[0])
   } 
-if(obfs=="obfs=wss" && obfs=="obfs=over-tls"){
+if(obfs=="obfs=wss" || obfs=="obfs=over-tls"){
   ptls13 = PTls13 == 1 ? "tls13=true" : "tls13=false"
-  if (Pcert0 == 0) { 
-    pcert = "tls-verification=false" 
-  } else if (Pcert0 == 1) {
-    pcert = "tls-verification=true"
-  }
+  pcert = TLSCertParam(Pcert0, cnt.indexOf("allowInsecure=0") != -1 ? "true" : "false");
 } else {
   pcert=""
   ptls13=""
@@ -2829,16 +3140,12 @@ function TJ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     }
     pwd = cnt.split("@")[0]? "password=" + decodeURIComponent(cnt.split("@")[0]):"";
     obfs = "over-tls=true";
-    pcert = cnt.indexOf("allowInsecure=0") != -1 ? "tls-verification=true" : "tls-verification=false";
+    pcert = TLSCertParam(Pcert0, cnt.indexOf("allowInsecure=0") != -1 ? "true" : "false");
     thost = cnt.indexOf("sni=") != -1? "tls-host="+cnt.split("sni=")[1].split(/&|#/)[0]:""
     thost = cnt.indexOf("peer=") != -1? "tls-host="+cnt.split("peer=")[1].split(/&|#/)[0]:thost
     ptls13 = PTls13 == 1 ? "tls13=true" : "tls13=false"
     puri = ""
-    if (Pcert0 == 0) { 
-      pcert = "tls-verification=false" 
-    } else if (Pcert0 == 1) {
-      pcert = "tls-verification=true"
-    }
+    pcert = TLSCertParam(Pcert0, cnt.indexOf("allowInsecure=0") != -1 ? "true" : "false");
     pudp = (Pudp == 1 || cnt.indexOf("udp=1")!=-1) ? "udp-relay=true" : "udp-relay=false";
     ptfo = (Ptfo == 1 || cnt.indexOf("tfo=1")!=-1)? "fast-open=true" : "fast-open=false";
     //ptfo = cnt.indexOf("tfo=1") != -1? "fast-open=true" : ptfo
@@ -2900,7 +3207,7 @@ function SS2QX(subs, Pudp, Ptfo) {
     } else if (cnt1 != undefined){
       cnt1 = JSON.parse(cnt1)
       obfs= cnt1.tls? ", obfs=wss" : ", obfs=ws"
-      obfshost = cnt1.host? ", obfs-host="+cnt1.host+", tls-verification=false" : ""
+      obfshost = cnt1.host? ", obfs-host="+cnt1.host+", "+TLSCertParam(Pcert0, "false") : ""
     } else if (cntt.indexOf("v2ray-plugin")!=-1){
       cnt1 = decodeURIComponent(cntt.split("v2ray-plugin")[1])
       obfs= cnt1.indexOf("tls")!=-1? ", obfs=wss" : ", obfs=ws"
@@ -2965,14 +3272,38 @@ function SSD2QX(subs, Pudp, Ptfo) {
     return QX;
 }
 
+/*
+QXFix 修复说明 ⟦2026-07-11 09:51:48 +08⟧
+----------------------------------------------------------
+仅改动 resource-parser-r.js。
+修复 obfs-uri 中逗号被 cnti.split(",") 误拆，并被拼入 tag 的问题。
+QuanX 不支持 path/uri 中包含逗号，因此在 QXFix 内部拆字段前，将 obfs-uri 值中逗号列表压缩为首项，并保留最后的 query。
+----------------------------------------------------------
+*/
 // 纠正部分不规范的写法(没有把 tag 写在最后)
 function QXFix(cntf) {
 var cnti = cntf.replace(/\s*tag\s*\=/g,"tag=").replace("chacha20-poly","chacha20-ietf-poly")
 try {
+  function normalizeQXObfsUriValue(str) {
+    var fieldK = "(password|method|udp-relay|udp-over-tcp|fast-open|obfs|obfs-host|obfs-uri|over-tls|tls-host|tls-verification|tls13|aead|tag|username|tls-alpn|server_check_url|tls-cert-sha256|tls-pubkey-sha256|reality-base64-pubkey|reality-hex-shortid|vless-flow)";
+    return str.replace(new RegExp("(obfs-uri=)([\\s\\S]*?)(,\\s*" + fieldK + "=|$)", "g"), function(match, key, value, tail) {
+      if (value.indexOf(",") == -1) {
+        return key + value + tail;
+      }
+      var first = value.split(",")[0];
+      var queryIndex = value.lastIndexOf("?");
+      var query = queryIndex == -1 ? "" : value.slice(queryIndex);
+      if (first.indexOf("?") != -1) {
+        first = first.split("?")[0];
+      }
+      return key + first + query + tail;
+    });
+  }
   var hd = cnti.split(",tag=")[0]
   var tag = "tag="+cnti.split(",tag=")[1].split(",")[0].trim()
   var tail = cnti.split(tag+",")
   cnti = tail.length<=1?  cnti : String(hd + ","+tail[1].split("\r")[0] +"," + tag)
+  cnti = normalizeQXObfsUriValue(cnti)
   cntis = cnti.split(",").filter(Boolean).map(item => item.trim()) //防止节点名中有,符号而导致的错误情况
   tagfix = ""
   cntii = ""
@@ -3057,7 +3388,7 @@ function isQuanXRewrite(content) {
       if (cnti.indexOf("pattern")!=-1 && cnti.indexOf("type")!=-1 || cnti.indexOf("http-r")!=-1) {
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
         //console.log(cnti)
-      }else if (/\s(response-body-json-jq|request-body-json-jq)\s/i.test(cnti)) {
+      }else if (/\s(response-body-json-jq|request-body-json-jq|response-body-json-del|response-body-json-replace)\s/i.test(cnti)) {
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
       }else if ((cnti.indexOf(" 302")!=-1 || cnti.indexOf(" 307")!=-1 || (/\s(_|-)\s(reject|REJECT)/.test(cnti)) || (/\sreject$/.test(cnti)) || (/\sreject-/.test(cnti))) && cnti.indexOf(" url ")==-1 && cnti.indexOf(" url-and-header ")==-1 ){
         cnti=SGMD2QX(cnti)[0]? SGMD2QX(cnti)[0]:""
@@ -3304,7 +3635,7 @@ function get_emoji(emojip, sname) {
     "🇷🇺": ["RU ","RU-", "RU_", "RUS", "Russia", "俄罗斯", "毛子", "俄国", "俄羅斯", "伯力", "莫斯科", "圣彼得堡", "西伯利亚", "新西伯利亚", "京俄", "杭俄","廣俄","滬俄","广俄","沪俄"],
     "🇸🇬": ["SG", "Singapore","SINGAPORE", "新加坡", "狮城", "獅城", "沪新", "京新", "泉新", "穗新", "深新", "杭新", "广新","廣新","滬新"],
     "🇺🇸": ["US", "USA", "America", "United States", "美国", "美", "京美", "波特兰", "达拉斯", "俄勒冈", "凤凰城", "费利蒙", "硅谷", "矽谷", "拉斯维加斯", "洛杉矶", "圣何塞", "圣荷西", "圣克拉拉", "西雅图", "芝加哥", "沪美", "哥伦布", "纽约"],
-    "🇼🇸": ["TW", "Taiwan","TAIWAN", "台湾", "台北", "台中", "新北", "彰化", "CHT", "台", "HINET"],
+    "🇹🇼": ["TW", "Taiwan","TAIWAN", "台湾", "台北", "台中", "新北", "彰化", "CHT", "台", "HINET"],
     "🇮🇩": ["ID ","ID-", "IDN ", "Indonesia", "印尼", "印度尼西亚", "雅加达"],
     "🇮🇪": ["Ireland", "IRELAND", "IE ", "爱尔兰", "愛爾蘭", "都柏林"],
     "🇮🇱": ["Israel", "以色列"],
@@ -3530,8 +3861,7 @@ function SVmess2QX(content) {
     var puname = cnt.indexOf("username") != -1 ? "password=" + cnt.split("username")[1].split(",")[0].split("=")[1].trim() : "";
     var pmtd = "method=aes-128-gcm";
     var ptls13 = paraCheck(cnt, "tls13") == "true" ? "tls13=true" : "tls13=false";
-    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
-    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
     if (paraCheck(cnt.replace(/tls13/, ""), "tls") == "true" && paraCheck(cnt.replace(/ws-header/, ""), "ws") == "true") {
         pobfs = "obfs=wss" + ", " + ptls13 + ", " + pverify
     } else if (paraCheck(cnt.replace(/ws-header/, ""), "ws") == "true") {
@@ -3580,9 +3910,8 @@ function Strojan2QX(content) {
   var pwd = "password=" + cnt.split("password")[1].split(",")[0].split("=")[1].trim();
   var ptls = "over-tls=true";
   var ptfo = paraCheck(cnt, "tfo") == "true" ? "fast-open=true" : "fast-open=false";
-  var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
+  var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
   var phost = cnt.indexOf("sni")!=-1? "tls-host="+cnt.split("sni")[1].split(",")[0].split("=")[1]:""
-  pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
   var ptls13 = paraCheck(cnt, "tls13") == "true" ? "tls13=true" : "tls13=false";
   var nserver = "trojan= " + [ipport, pwd, ptls, ptfo, ptls13, phost,pverify, tag].filter(Boolean).join(", ");
   return nserver
@@ -3598,8 +3927,7 @@ function SATS2QX(content) {
     var pwd = "password=" + cnt.split("password")[1].split(",")[0].split("=")[1].trim();
     var ptls = "over-tls=true";
     //var ptfo = paraCheck(cnt, "tfo") == "true" ? "fast-open=true" : "fast-open=false";
-    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
-    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
     var phost = cnt.indexOf("sni")!=-1? "tls-host="+cnt.split("sni")[1].split(",")[0].split("=")[1]:""
     pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
     var nserver = "anytls= " + [ipport, pwd, ptls, pverify, phost,pudp, tag].filter(Boolean).join(", ");
@@ -3620,8 +3948,7 @@ function Shttp2QX(content) {
   var ptls = cnt.split("=")[1].split(",")[0].trim() == "https" ? "over-tls=true" : "over-tls=false";
   var ptfo = paraCheck(cnt, "tfo") == "true" ? "fast-open=true" : "fast-open=false";
   if (ptls == "over-tls=true") {
-    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
-    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
     var ptls13 = paraCheck(cnt, "tls13") == "true" ? "tls13=true" : "tls13=false";
     ptls = ptls + ", " + pverify + ", " + ptls13
   }
@@ -3639,8 +3966,7 @@ function SS52QX(content) {
   var ptls = cnt.split("=")[1].split(",")[0].trim() == "socks5-tls" ? "over-tls=true" : "over-tls=false";
   var ptfo = paraCheck(cnt, "tfo") == "true" ? "fast-open=true" : "fast-open=false";
   if (ptls == "over-tls=true") {
-    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
-    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
     var ptls13 = paraCheck(cnt, "tls13") == "true" ? "tls13=true" : "tls13=false";
     ptls = ptls + ", " + pverify + ", " + ptls13
   }
@@ -3747,8 +4073,7 @@ function LoonTLS2QX(content) {
     var ptls = "over-tls=true";
     var phost = cnt.indexOf("sni")!=-1? "tls-host="+cnt.split("sni")[1].split(",")[0].split("=")[1]:""
     pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
-    var pverify = cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "tls-verification=true" : "tls-verification=false";
-    pvefify = Pcert0 == 1? "tls-verification=true" : pverify ;
+    var pverify = TLSCertParam(Pcert0, cnt.replace(/ /g,"").indexOf("skip-cert-verify=false") != -1 ? "true" : "false");
     var nserver = "anytls= " + [ipport, pwd, ptls, pverify, phost,pudp, tag].filter(Boolean).join(", ");
     $notify("Loon","",nserver)
     return nserver
@@ -4191,7 +4516,7 @@ function CSS2QX(cnt) {
       ohost = cnt["plugin-opts"].host? "obfs-host=" + cnt["plugin-opts"].host:""
       ouri = cnt["plugin-opts"].path? "obfs-uri=" + cnt["plugin-opts"].path: ""
     if (obfs == "obfs=wss") { // tls verification
-      cert = Pcert0 == 1? "" : "tls-verification =false"}
+      cert = TLSCertParam(Pcert0, "false")}
   }
   node = "shadowsocks="+[ipt, pwd, mtd, udp, uot, tfo, obfs, ohost, ouri, cert, tag].filter(Boolean).join(", ")
   return node
@@ -4257,17 +4582,12 @@ function CV2QX(cnt) {
   console.log(ohost)
   ouri = cnt["ws-path"]? "obfs-uri="+cnt["ws-path"] : ""
   ouri = cnt["ws-opts"]? "obfs-uri="+cnt["ws-opts"]["path"] : ouri
-  cert = cnt["skip-cert-verify"] && cnt.tls ? "tls-verification=false" : ""
+  cert = cnt.tls ? TLSCertParam(Pcert0, cnt["skip-cert-verify"] ? "false" : "false") : ""
   caead = cnt["alterId"] && cnt["alterId"]!=0? "aead=false" : "" // aead 选项
   //caead = cnt["alterId"] == 0? "aead=true" : caead // aead 选项
   console.log(caead)
   //caead=""
   //$notify(cert)
-  if (Pcert0 == 1 && cnt.tls) {
-    cert = "tls-verification=true"
-  } else if (Pcert0 != 1 && cnt.tls) {
-    cert = "tls-verification=false"
-  }
   node = "vmess="+[ipt, pwd, mtd, udp, tfo, obfs, ohost, ouri, cert, caead, tag].filter(Boolean).join(", ")
   //console.log(node)
   return node
@@ -4282,8 +4602,7 @@ function CT2QX(cnt) {
   otls = "over-tls=true"
   opath=""
   ohost=""
-  cert = cnt["skip-cert-verify"] ? "tls-verification=false" : "tls-verification=true"
-  cert = Pcert0 == 1 ? "tls-verification=true" : "tls-verification=false"
+  cert = TLSCertParam(Pcert0, "false")
   tls13 = PTls13 == 1 ? "tls13=true" : "tls13=false"
   udp = cnt.udp ? "udp-relay=false" : "udp-relay=false"
   tfo = cnt.tfo ? "fast-open=true" : "fast-open=false"
@@ -4310,8 +4629,7 @@ function CTLS2QX(cnt) {
   otls = "over-tls=true"
   opath=""
   ohost= "tls-host="+cnt.sni
-  cert = cnt["skip-cert-verify"] ? "tls-verification=false" : "tls-verification=true"
-  cert = Pcert0 == 1 ? "tls-verification=true" : "tls-verification=false"
+  cert = TLSCertParam(Pcert0, "false")
   pudp = Pudp0 == -1 ? "udp-relay=false" : "udp-relay=true" // 默认开启
   node = "anytls="+[ipt, pwd, otls, ohost, pudp, cert, tag].filter(Boolean).join(", ")
   //console.log(node)
@@ -4325,12 +4643,7 @@ function CH2QX(cnt){
     uname = cnt.username ? "username=" + cnt.username : ""
     pwd = cnt.password && typeof(cnt.password) == "string" ? "password=" + cnt.password : ""
     tls = cnt.tls ? "over-tls=true" : ""
-    cert = cnt["skip-cert-verify"] && cnt.tls ? "tls-verification=false" : ""
-    if (Pcert0 == 1 && cnt.tls) {
-      cert = "tls-verification=true"
-    } else if (Pcert0 != 1 && cnt.tls) {
-      cert = "tls-verification=false"
-    }
+    cert = cnt.tls ? TLSCertParam(Pcert0, "false") : ""
     node = "http="+[ipt, uname, pwd, tls, cert, tag].filter(Boolean).join(", ")
     //console.log(node)
     return node
@@ -4343,12 +4656,7 @@ function CS52QX(cnt){
     uname = cnt.username ? "username=" + cnt.username : ""
     pwd = cnt.password && typeof(cnt.password) == "string" ? "password=" + cnt.password : ""
     tls = cnt.tls ? "over-tls=true" : ""
-    cert = cnt["skip-cert-verify"] && cnt.tls ? "tls-verification=false" : ""
-    if (Pcert0 == 1 && cnt.tls) {
-      cert = "tls-verification=true"
-    } else if (Pcert0 != 1 && cnt.tls) {
-      cert = "tls-verification=false"
-    }
+    cert = cnt.tls ? TLSCertParam(Pcert0, "false") : ""
     node = "socks5="+[ipt, uname, pwd, tls, cert, tag].filter(Boolean).join(", ")
     //console.log(node)
     return node
@@ -4386,13 +4694,8 @@ function CVL2QX(cnt){
   const ppath = getValue(()=>cnt["ws-opts"]["path"]) 
   puri = ppath ? "obfs-uri="+ppath : ""
 
-  cert = cnt["skip-cert-verify"] && cnt.tls ? "tls-verification=false" : ""
+  cert = cnt.tls ? TLSCertParam(Pcert0, "false") : ""
   //$notify(cert)
-  if (Pcert0 == 1 && cnt.tls) {
-    cert = "tls-verification=true"
-  } else if (Pcert0 != 1 && cnt.tls) {
-    cert = "tls-verification=false"
-  }
   const pspt = getValue(()=>cnt["ws-opts"]["v2ray-http-upgrade"])
   if (pspt==true) {
     PNS = PNS +1
